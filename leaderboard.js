@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { computeAllBenchmarks } = require('./lib/leaderboard');
+const { computeAllBenchmarks, estimateMissingBenchmarks } = require('./lib/leaderboard');
 const Table = require('./cli-table');
 
 function loadScoresSync(filePath = path.join(__dirname, 'scores.json')) {
@@ -12,24 +12,25 @@ function loadScoresSync(filePath = path.join(__dirname, 'scores.json')) {
 if (require.main === module) {
   try {
     const original = loadScoresSync();
-    const imputed = computeAllBenchmarks(original);
-    const keys = Object.keys(imputed);
+    //const guessedBench = computeAllBenchmarks(original);
+    const guessedBench = estimateMissingBenchmarks(original);
+    const keys = Object.keys(guessedBench);
     // Sort by Terminal-Bench, descending
     keys.sort((a, b) => {
-      const va = imputed[a]["Terminal-Bench"]; // may be undefined
-      const vb = imputed[b]["Terminal-Bench"];
+      const va = guessedBench[a]["Terminal-Bench"]; // may be undefined
+      const vb = guessedBench[b]["Terminal-Bench"];
       return (vb || 0) - (va || 0);
     });
     const benchmarkSet = new Set();
     for (const m of keys) {
-      for (const b of Object.keys(imputed[m])) benchmarkSet.add(b);
+      for (const b of Object.keys(guessedBench[m])) benchmarkSet.add(b);
     }
     const benchList = Array.from(benchmarkSet).sort();
     const table = new Table({ head: ['Model', ...benchList] });
     for (const m of keys) {
       const row = [m];
       for (const b of benchList) {
-        const val = imputed[m][b];
+        const val = guessedBench[m][b];
         const isMissing = original[m] && original[m][b] == null; // null or undefined
         const display = typeof val === 'number'
           ? Math.trunc(val) + (isMissing ? '?' : '')
