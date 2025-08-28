@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { computeAllBenchmarks, estimateMissingBenchmarks } = require('./lib/leaderboard');
+const { estimateMissingBenchmarks } = require('./lib/score-prediction.js');
 const Table = require('./cli-table');
 
 function loadScoresSync(filePath = path.join(__dirname, 'scores.json')) {
