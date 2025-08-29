@@ -1,9 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 const { estimateMissingBenchmarks } = require('./lib/score-prediction.js');
-const Table = require('./cli-table');
+const Table = require('./lib/cli-table');
 
-function loadScoresSync(filePath = path.join(__dirname, 'scores.json')) {
+function loadScoresSync(filePath = path.join(__dirname, 'data', 'scores.json')) {
   const content = fs.readFileSync(filePath, 'utf8');
   return JSON.parse(content);
 }
@@ -12,7 +12,6 @@ function loadScoresSync(filePath = path.join(__dirname, 'scores.json')) {
 if (require.main === module) {
   try {
     const original = loadScoresSync();
-    //const guessedBench = computeAllBenchmarks(original);
     const { scores: guessedBench, uncertainty } = estimateMissingBenchmarks(original);
     const keys = Object.keys(guessedBench);
     // Sort by Terminal-Bench, descending
@@ -42,6 +41,26 @@ if (require.main === module) {
       table.push(row);
     }
     console.log(table.toString());
+
+    // Write predictions with uncertainties to a JSON file.
+    // Target format: { model: { bench: { score, stddev } } }
+    const predictionOutput = {};
+    for (const m of keys) {
+      predictionOutput[m] = {};
+      for (const b of benchList) {
+        const score = guessedBench[m][b];
+        // Use stdDev from uncertainty if present; otherwise 0.
+        const stddev = uncertainty?.[m]?.[b]?.stdDev || 0;
+        predictionOutput[m][b] = { score, stddev };
+      }
+    }
+    const outputPath = path.join(__dirname, 'data', 'scores-prediction.json');
+    try {
+      fs.writeFileSync(outputPath, JSON.stringify(predictionOutput, null, 2), 'utf8');
+    } catch (writeErr) {
+      // Non‑fatal: warn but continue.
+      console.error('Failed to write predictions JSON:', writeErr.message);
+    }
   } catch (err) {
     console.error('Failed to compute benchmarks:', err.message);
     throw err;
