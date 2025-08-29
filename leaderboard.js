@@ -13,7 +13,7 @@ if (require.main === module) {
   try {
     const original = loadScoresSync();
     //const guessedBench = computeAllBenchmarks(original);
-    const guessedBench = estimateMissingBenchmarks(original);
+    const { scores: guessedBench, uncertainty } = estimateMissingBenchmarks(original);
     const keys = Object.keys(guessedBench);
     // Sort by Terminal-Bench, descending
     keys.sort((a, b) => {
@@ -32,8 +32,10 @@ if (require.main === module) {
       for (const b of benchList) {
         const val = guessedBench[m][b];
         const isMissing = original[m] && original[m][b] == null; // null or undefined
+        const stdDev = uncertainty?.[m]?.[b]?.stdDev || 0;
+        // We display 2σ, ie. ~95% confidence interval.
         const display = typeof val === 'number'
-          ? Math.trunc(val) + (isMissing ? '?' : '')
+          ? Math.trunc(val) + (isMissing ? `±${Math.round(2*stdDev)}` : '')
           : val;
         row.push(display);
       }
@@ -42,6 +44,7 @@ if (require.main === module) {
     console.log(table.toString());
   } catch (err) {
     console.error('Failed to compute benchmarks:', err.message);
+    throw err;
     process.exitCode = 1;
   }
 }
