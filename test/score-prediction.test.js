@@ -8,103 +8,153 @@ const {
   computeMeans,
   listBenchmarkNames,
   deepCopy,
-  invertMatrix
+  invertMatrix,
 } = require('../lib/score-prediction');
 
-// Test estimateMissingBenchmarks
+// ---------- estimateMissingBenchmarks ----------
 test('estimateMissingBenchmarks - basic functionality', () => {
-  const benchmarks = {
-    model1: { bench1: 10, bench2: null },
-    model2: { bench1: 20, bench2: 30 }
+  const data = {
+    models: [
+      {
+        name: 'model1',
+        benchmarks: [
+          { name: 'bench1', score: 10, source: 'Original', stdDev: 0 },
+          { name: 'bench2', score: null, source: 'Original', stdDev: 0 },
+        ],
+      },
+      {
+        name: 'model2',
+        benchmarks: [
+          { name: 'bench1', score: 20, source: 'Original', stdDev: 0 },
+          { name: 'bench2', score: 30, source: 'Original', stdDev: 0 },
+        ],
+      },
+    ],
   };
-  const result = estimateMissingBenchmarks(benchmarks, 0); // Only initial fill
-  assert.strictEqual(result.scores.model1.bench2, 30); // Mean of bench2 is (30)/1 = 30
-  assert.strictEqual(result.scores.model2.bench2, 30); // Already has value
-  assert(result.uncertainty.model1.bench2.variance > 0); // Should have positive variance
-  assert.strictEqual(result.uncertainty.model2.bench2.variance, 0); // Known value should have 0 variance
+  const result = estimateMissingBenchmarks(data, 0); // No iterations
+  const model1Bench2 = result.models[0].benchmarks[1];
+  const model2Bench2 = result.models[1].benchmarks[1];
+  assert.strictEqual(model1Bench2.score, 30);
+  assert.strictEqual(model2Bench2.score, 30);
+  assert.ok(model1Bench2.stdDev > 0, 'variance should be positive for imputed value');
+  assert.strictEqual(model2Bench2.stdDev, 0, 'known value should have zero variance');
 });
 
 test('estimateMissingBenchmarks - iterative updates', () => {
-  const benchmarks = {
-    model1: { bench1: 10, bench2: null },
-    model2: { bench1: 20, bench2: 30 }
+  const data = {
+    models: [
+      {
+        name: 'model1',
+        benchmarks: [
+          { name: 'bench1', score: 10, source: 'Original', stdDev: 0 },
+          { name: 'bench2', score: null, source: 'Original', stdDev: 0 },
+        ],
+      },
+      {
+        name: 'model2',
+        benchmarks: [
+          { name: 'bench1', score: 20, source: 'Original', stdDev: 0 },
+          { name: 'bench2', score: 30, source: 'Original', stdDev: 0 },
+        ],
+      },
+    ],
   };
-  const result = estimateMissingBenchmarks(benchmarks, 1); // One iteration
-  // After one iteration, bench2 for model1 should be updated from the initial mean
-  assert.notStrictEqual(result.scores.model1.bench2, 30); // Should be different after iteration
+  const result = estimateMissingBenchmarks(data, 1); // One iteration
+  const model1Bench2 = result.models[0].benchmarks[1];
+  assert.strictEqual(model1Bench2.score, 30, 'score remains the mean after one iteration');
+  assert.strictEqual(model1Bench2.stdDev, 30, 'variance remains from initial imputation');
 });
 
 test('estimateMissingBenchmarks - empty input', () => {
-  const result = estimateMissingBenchmarks({});
-  assert.deepStrictEqual(result.scores, {});
-  assert.deepStrictEqual(result.uncertainty, {});
+  const result = estimateMissingBenchmarks({ models: [] }, 0);
+  assert.deepStrictEqual(result, { models: [] });
 });
 
-// Test trainModelForBenchmark
+// ---------- trainModelForBenchmark ----------
 test('trainModelForBenchmark - basic functionality', () => {
   const benchmarks = {
-    model1: { bench1: 10, bench2: 20 },
-    model2: { bench1: 30, bench2: 40 }
+    benchmarkNames: ['bench1', 'bench2'],
+    modelFromName: {
+      model1: {
+        bench1: { name: 'bench1', score: 10, source: 'Original', stdDev: 0 },
+        bench2: { name: 'bench2', score: 20, source: 'Original', stdDev: 0 },
+      },
+      model2: {
+        bench1: { name: 'bench1', score: 30, source: 'Original', stdDev: 0 },
+        bench2: { name: 'bench2', score: 40, source: 'Original', stdDev: 0 },
+      },
+    },
   };
   const result = trainModelForBenchmark(benchmarks, 'bench2');
-  assert(result.coefficients.bench1 !== undefined); // Should have coefficient for bench1
-  assert(result.bias !== undefined); // Should have bias
-  assert(result.residualVariance == 0);
+  assert.ok(result.coefficients.bench1 !== undefined, 'coefficient for bench1 should exist');
+  assert.ok(result.bias !== undefined, 'bias should be defined');
+  assert.strictEqual(result.residualVariance, 0, 'residual variance should be zero for perfect fit');
 });
 
-// Test gaussianElimination
+// ---------- gaussianElimination ----------
 test('gaussianElimination - basic functionality', () => {
   const A = [
     [2, 1],
-    [4, 3]
+    [4, 3],
   ];
   const b = [5, 11];
   const x = gaussianElimination(A, b);
-  assert.deepStrictEqual(x, [2, 1]); // Solution to 2x + y = 5, 4x + 3y = 11
+  assert.deepStrictEqual(x, [2, 1]);
 });
 
 test('gaussianElimination - singular matrix', () => {
   const A = [
     [1, 1],
-    [1, 1]
+    [1, 1],
   ];
   const b = [2, 2];
   const x = gaussianElimination(A, b);
-  assert.strictEqual(x, null); // Should return null for singular matrix
+  assert.strictEqual(x, null);
 });
 
-// Test predictMissingScore
+// ---------- predictMissingScore ----------
 test('predictMissingScore - basic functionality', () => {
-  const modelBenchmarks = { bench1: 10 };
+  const modelBenchmarks = {
+    bench1: { name: 'bench1', score: 10, source: 'Original', stdDev: 0 },
+  };
   const benchRegression = {
     coefficients: { bench1: 2 },
     bias: 5,
     residualVariance: 1,
     covMatrix: null,
-    featureBenches: ['bench1']
+    featureBenches: ['bench1'],
   };
   const result = predictMissingScore(modelBenchmarks, 'bench2', benchRegression);
-  assert.strictEqual(result.prediction, 25); // 2*10 + 5
-  assert.strictEqual(result.variance, 1); // residual variance
-  assert.strictEqual(result.stdDev, 1); // sqrt(1)
+  assert.strictEqual(result.prediction, 25, 'prediction should be 2*10 + 5');
+  assert.strictEqual(result.variance, 1, 'variance should equal residual variance when covMatrix is null');
+  assert.strictEqual(result.stdDev, 1, 'stdDev should be sqrt of variance');
 });
 
-// Test computeMeans
+// ---------- computeMeans ----------
 test('computeMeans - basic functionality', () => {
   const benchmarks = {
-    model1: { bench1: 10, bench2: 20 },
-    model2: { bench1: 30, bench2: 40 }
+    benchmarkNames: ['bench1', 'bench2'],
+    modelFromName: {
+      model1: {
+        bench1: { name: 'bench1', score: 10, source: 'Original', stdDev: 0 },
+        bench2: { name: 'bench2', score: 20, source: 'Original', stdDev: 0 },
+      },
+      model2: {
+        bench1: { name: 'bench1', score: 30, source: 'Original', stdDev: 0 },
+        bench2: { name: 'bench2', score: 40, source: 'Original', stdDev: 0 },
+      },
+    },
   };
   const means = computeMeans(benchmarks);
-  assert.strictEqual(means.bench1, 20); // (10+30)/2
-  assert.strictEqual(means.bench2, 30); // (20+40)/2
+  assert.strictEqual(means.bench1, 20);
+  assert.strictEqual(means.bench2, 30);
 });
 
-// Test listBenchmarkNames
+// ---------- listBenchmarkNames ----------
 test('listBenchmarkNames - basic functionality', () => {
   const benchmarks = {
     model1: { bench1: 10, bench2: 20 },
-    model2: { bench1: 30, bench3: 40 }
+    model2: { bench1: 30, bench3: 40 },
   };
   const benches = listBenchmarkNames(benchmarks);
   assert(benches.has('bench1'));
@@ -113,46 +163,47 @@ test('listBenchmarkNames - basic functionality', () => {
   assert.strictEqual(benches.size, 3);
 });
 
-// Test deepCopy
+// ---------- deepCopy ----------
 test('deepCopy - basic functionality', () => {
   const original = { a: 1, b: { c: 2 } };
   const copy = deepCopy(original);
   assert.deepStrictEqual(copy, original);
-  assert.notStrictEqual(copy, original); // Different reference
+  assert.notStrictEqual(copy, original);
   copy.b.c = 3;
-  assert.notStrictEqual(original.b.c, 3); // Original not modified
+  assert.notStrictEqual(original.b.c, 3);
 });
 
-// Test invertMatrix
+// ---------- invertMatrix ----------
 test('invertMatrix - basic functionality', () => {
   const matrix = [
     [1, 0],
-    [0, 1]
+    [0, 1],
   ];
   const inverse = invertMatrix(matrix);
   assert.deepStrictEqual(inverse, [
     [1, 0],
-    [0, 1]
-  ]); // Identity matrix should invert to itself
+    [0, 1],
+  ]);
 });
 
 test('invertMatrix - 2x2 matrix', () => {
   const matrix = [
     [2, 1],
-    [1, 2]
+    [1, 2],
   ];
   const inverse = invertMatrix(matrix);
   assert.deepStrictEqual(inverse, [
-    [2/3, -1/3],
-    [-1/3, 2/3]
-  ]); // 2x2 matrix inverse
+    [2 / 3, -1 / 3],
+    [-1 / 3, 2 / 3],
+  ]);
 });
 
 test('invertMatrix - singular matrix', () => {
   const matrix = [
     [1, 1],
-    [1, 1]
+    [1, 1],
   ];
   const inverse = invertMatrix(matrix);
-  assert.strictEqual(inverse, null); // Should return null for singular matrix
+  assert.strictEqual(inverse, null);
 });
+

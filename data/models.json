@@ -1,0 +1,459 @@
+{
+  "models": [
+    {
+      "name": "DeepSeek-R1-0528",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 17.5
+        },
+        {
+          "name": "Aider",
+          "score": 71.6
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73.3
+        },
+        {
+          "name": "Codeforces",
+          "score": 1930
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-R1",
+      "benchmarks": [
+        {
+          "name": "Aider",
+          "score": 56.9
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49.2
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.5
+        },
+        {
+          "name": "Codeforces",
+          "score": 1530
+        }
+      ]
+    },
+    {
+      "name": "OpenAI o3",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 30.2
+        },
+        {
+          "name": "Aider",
+          "score": 76.9
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 78.4
+        },
+        {
+          "name": "Codeforces",
+          "score": 2706
+        }
+      ]
+    },
+    {
+      "name": "o3-mini",
+      "benchmarks": [
+        {
+          "name": "Aider",
+          "score": 60.4
+        },
+        {
+          "name": "Codeforces",
+          "score": 2719
+        }
+      ]
+    },
+    {
+      "name": "o4-mini",
+      "benchmarks": [
+        {
+          "name": "Aider",
+          "score": 72
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "name": "GPT-5",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.9
+        }
+      ]
+    },
+    {
+      "name": "Claude 4 Opus",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 43.2
+        },
+        {
+          "name": "Aider",
+          "score": 70.7
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.8
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.6
+        }
+      ]
+    },
+    {
+      "name": "Claude 4 Sonnet",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 35.5
+        },
+        {
+          "name": "Aider",
+          "score": 56.4
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70.4
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.3
+        },
+        {
+          "name": "Aider",
+          "score": 83.1
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.1
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B",
+      "benchmarks": [
+        {
+          "name": "Aider",
+          "score": 65
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.5
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B-Thinking 2507",
+      "benchmarks": [
+        {
+          "name": "LiveCodeBench",
+          "score": 78.2
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B-A22B",
+      "benchmarks": [
+        {
+          "name": "Aider",
+          "score": 59.6
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 34.4
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 37
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Coder 480B-A358-Instruct",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5
+        },
+        {
+          "name": "Aider",
+          "score": 61.8
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.6
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 30.3
+        },
+        {
+          "name": "Aider",
+          "score": 52.4
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 48.6
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 44.7
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 30.8
+        }
+      ]
+    },
+    {
+      "name": "GLM-4.5",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 64.2
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72.9
+        }
+      ]
+    },
+    {
+      "name": "GLM-4.5-Air",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 30
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.7
+        }
+      ]
+    },
+    {
+      "name": "Kimi-K2-Instruct",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25
+        },
+        {
+          "name": "Aider",
+          "score": 59.1
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 65.8
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 53.7
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-V3-0324",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 2.5
+        },
+        {
+          "name": "Aider",
+          "score": 55.1
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 38.8
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 46.9
+        }
+      ]
+    },
+    {
+      "name": "Devstral Small 1.1",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 53.6
+        }
+      ]
+    },
+    {
+      "name": "Devstral Small 1.0",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 46.8
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.1",
+      "benchmarks": [
+        {
+          "name": "LiveCodeBench",
+          "score": 59.35
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.0",
+      "benchmarks": [
+        {
+          "name": "LiveCodeBench",
+          "score": 59.36
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.1",
+      "benchmarks": [
+        {
+          "name": "LiveCodeBench",
+          "score": 59.17
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.0",
+      "benchmarks": [
+        {
+          "name": "LiveCodeBench",
+          "score": 55.84
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-120b (with tools)",
+      "benchmarks": [
+        {
+          "name": "Aider",
+          "score": 41.8
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 62
+        },
+        {
+          "name": "Codeforces",
+          "score": 2622
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-120b (without tools)",
+      "benchmarks": [
+        {
+          "name": "Codeforces",
+          "score": 2463
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-20b (with tools)",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 60
+        },
+        {
+          "name": "Codeforces",
+          "score": 2516
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-20b (without tools)",
+      "benchmarks": [
+        {
+          "name": "Codeforces",
+          "score": 2230
+        }
+      ]
+    },
+    {
+      "name": "o3-mini (without tools)",
+      "benchmarks": [
+        {
+          "name": "Codeforces",
+          "score": 2073
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Coder 30B-A3B Instruct",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 31.3
+        },
+        {
+          "name": "Aider",
+          "score": 33.3
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 51.6
+        }
+      ]
+    }
+  ]
+}

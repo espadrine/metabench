@@ -1,0 +1,1089 @@
+{
+  "models": [
+    {
+      "name": "Claude 4 Opus",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 43.2,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 70.7,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 3069.0143063417736,
+          "source": "Multivariate regression",
+          "stdDev": 109.20974879895978
+        }
+      ]
+    },
+    {
+      "name": "GPT-5",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 42.57877440180468,
+          "source": "Multivariate regression",
+          "stdDev": 2.3990264519657285
+        },
+        {
+          "name": "Aider",
+          "score": 66.80543680347752,
+          "source": "Multivariate regression",
+          "stdDev": 5.429708167814477
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.9,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73.96895189201832,
+          "source": "Multivariate regression",
+          "stdDev": 5.982521430377568
+        },
+        {
+          "name": "Codeforces",
+          "score": 3001.98918840534,
+          "source": "Multivariate regression",
+          "stdDev": 105.40641981911719
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Coder 480B-A358-Instruct",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 61.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.85478677758731,
+          "source": "Multivariate regression",
+          "stdDev": 5.742780662960286
+        },
+        {
+          "name": "Codeforces",
+          "score": 2840.655721621036,
+          "source": "Multivariate regression",
+          "stdDev": 102.5721327370233
+        }
+      ]
+    },
+    {
+      "name": "GLM-4.5",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 70.99662811749991,
+          "source": "Multivariate regression",
+          "stdDev": 5.254532019364132
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 64.2,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72.9,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2835.103765002472,
+          "source": "Multivariate regression",
+          "stdDev": 104.1561352102029
+        }
+      ]
+    },
+    {
+      "name": "o4-mini",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 36.61429195506909,
+          "source": "Multivariate regression",
+          "stdDev": 2.341789347269319
+        },
+        {
+          "name": "Aider",
+          "score": 72,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 74.18250799499188,
+          "source": "Multivariate regression",
+          "stdDev": 5.806425383693792
+        },
+        {
+          "name": "Codeforces",
+          "score": 2772.1977051494296,
+          "source": "Multivariate regression",
+          "stdDev": 102.7712845717193
+        }
+      ]
+    },
+    {
+      "name": "Claude 4 Sonnet",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 35.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 56.4,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70.4,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.410050974524026,
+          "source": "Multivariate regression",
+          "stdDev": 5.8830482452248205
+        },
+        {
+          "name": "Codeforces",
+          "score": 2747.5893730009984,
+          "source": "Multivariate regression",
+          "stdDev": 105.0744498106849
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-120b (with tools)",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 35.439269430131475,
+          "source": "Multivariate regression",
+          "stdDev": 2.4911539909580664
+        },
+        {
+          "name": "Aider",
+          "score": 41.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 62,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 41.527608634305565,
+          "source": "Multivariate regression",
+          "stdDev": 6.119883980095412
+        },
+        {
+          "name": "Codeforces",
+          "score": 2622,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "o3-mini",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 35.334733740904966,
+          "source": "Multivariate regression",
+          "stdDev": 2.3114470105733727
+        },
+        {
+          "name": "Aider",
+          "score": 60.4,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 64.57880214187131,
+          "source": "Multivariate regression",
+          "stdDev": 4.6152569515170025
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.58326273162857,
+          "source": "Multivariate regression",
+          "stdDev": 5.678146321151427
+        },
+        {
+          "name": "Codeforces",
+          "score": 2719,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 32.529765592796046,
+          "source": "Multivariate regression",
+          "stdDev": 2.3353961633555707
+        },
+        {
+          "name": "Aider",
+          "score": 65,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63.79244305958575,
+          "source": "Multivariate regression",
+          "stdDev": 5.001342361732809
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2368.6643656313536,
+          "source": "Multivariate regression",
+          "stdDev": 100.83490253888847
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Coder 30B-A3B Instruct",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 31.3,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 33.3,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 51.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 28.8036817306024,
+          "source": "Multivariate regression",
+          "stdDev": 6.451530801123628
+        },
+        {
+          "name": "Codeforces",
+          "score": 2308.689133015072,
+          "source": "Multivariate regression",
+          "stdDev": 115.2329203764165
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B-Thinking 2507",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 31.28988458741901,
+          "source": "Multivariate regression",
+          "stdDev": 2.3696606489960823
+        },
+        {
+          "name": "Aider",
+          "score": 73.85602392065725,
+          "source": "Multivariate regression",
+          "stdDev": 5.332854812367752
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 64.87906659628447,
+          "source": "Multivariate regression",
+          "stdDev": 4.796118128659835
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 78.2,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2727.620105871741,
+          "source": "Multivariate regression",
+          "stdDev": 103.54855910883789
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-20b (with tools)",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 31.040440021741237,
+          "source": "Multivariate regression",
+          "stdDev": 2.2903434667189493
+        },
+        {
+          "name": "Aider",
+          "score": 62.452757016989125,
+          "source": "Multivariate regression",
+          "stdDev": 5.066650931349057
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 60,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61.81553199685881,
+          "source": "Multivariate regression",
+          "stdDev": 5.622089252631111
+        },
+        {
+          "name": "Codeforces",
+          "score": 2516,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 30.3,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 52.4,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 48.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 44.7,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2318.274429167999,
+          "source": "Multivariate regression",
+          "stdDev": 107.82367614723913
+        }
+      ]
+    },
+    {
+      "name": "OpenAI o3",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 30.2,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 76.9,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 78.4,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2706,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "GLM-4.5-Air",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 30,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 70.56435894682252,
+          "source": "Multivariate regression",
+          "stdDev": 5.191484021591729
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.7,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2476.5246109773743,
+          "source": "Multivariate regression",
+          "stdDev": 102.90337889143468
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-120b (without tools)",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 29.614681307003906,
+          "source": "Multivariate regression",
+          "stdDev": 2.7082189186435
+        },
+        {
+          "name": "Aider",
+          "score": 70.2918511537799,
+          "source": "Multivariate regression",
+          "stdDev": 5.2503497938381
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63.977179361867925,
+          "source": "Multivariate regression",
+          "stdDev": 5.178869267779247
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 52.684626448977625,
+          "source": "Multivariate regression",
+          "stdDev": 5.731866704488312
+        },
+        {
+          "name": "Codeforces",
+          "score": 2463,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "gpt-oss-20b (without tools)",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.30770266231155,
+          "source": "Multivariate regression",
+          "stdDev": 2.326842245101213
+        },
+        {
+          "name": "Aider",
+          "score": 63.89267710777696,
+          "source": "Multivariate regression",
+          "stdDev": 5.070046182937944
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 56.90525324652431,
+          "source": "Multivariate regression",
+          "stdDev": 4.618217957675546
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.87513506194432,
+          "source": "Multivariate regression",
+          "stdDev": 5.618031587107066
+        },
+        {
+          "name": "Codeforces",
+          "score": 2230,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.3,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 83.1,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.1,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2263.8640911730486,
+          "source": "Multivariate regression",
+          "stdDev": 115.72418837834813
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.0",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.136896364455374,
+          "source": "Multivariate regression",
+          "stdDev": 2.3072769831791744
+        },
+        {
+          "name": "Aider",
+          "score": 60.72399115532171,
+          "source": "Multivariate regression",
+          "stdDev": 5.312227265200587
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 55.41295686657833,
+          "source": "Multivariate regression",
+          "stdDev": 4.76214869883711
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.36,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2394.2638928945507,
+          "source": "Multivariate regression",
+          "stdDev": 100.30499657524717
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.1",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.133657205677,
+          "source": "Multivariate regression",
+          "stdDev": 2.3072871379817754
+        },
+        {
+          "name": "Aider",
+          "score": 60.717037877368746,
+          "source": "Multivariate regression",
+          "stdDev": 5.312315890352966
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 55.407958241560706,
+          "source": "Multivariate regression",
+          "stdDev": 4.762220381587772
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.35,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2394.0857139678214,
+          "source": "Multivariate regression",
+          "stdDev": 100.30516188465866
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.1",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.074965141653394,
+          "source": "Multivariate regression",
+          "stdDev": 2.3074892805951785
+        },
+        {
+          "name": "Aider",
+          "score": 60.591632654354974,
+          "source": "Multivariate regression",
+          "stdDev": 5.314039856045343
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 55.317608941349505,
+          "source": "Multivariate regression",
+          "stdDev": 4.76361452811189
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.17,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2390.896411394676,
+          "source": "Multivariate regression",
+          "stdDev": 100.30858876722158
+        }
+      ]
+    },
+    {
+      "name": "Devstral Small 1.1",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25.061137687247218,
+          "source": "Multivariate regression",
+          "stdDev": 2.2928719985156447
+        },
+        {
+          "name": "Aider",
+          "score": 60.288828262772576,
+          "source": "Multivariate regression",
+          "stdDev": 5.151772385684852
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 53.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 58.707180991368986,
+          "source": "Multivariate regression",
+          "stdDev": 5.696245111947387
+        },
+        {
+          "name": "Codeforces",
+          "score": 2111.3252708879363,
+          "source": "Multivariate regression",
+          "stdDev": 100.65778287409506
+        }
+      ]
+    },
+    {
+      "name": "Kimi-K2-Instruct",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 25,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 59.1,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 65.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 53.7,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2285.5007836228,
+          "source": "Multivariate regression",
+          "stdDev": 110.78971233937699
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.0",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 23.98733940443166,
+          "source": "Multivariate regression",
+          "stdDev": 2.3140316045260403
+        },
+        {
+          "name": "Aider",
+          "score": 58.27047708819777,
+          "source": "Multivariate regression",
+          "stdDev": 5.352946305474116
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 53.64438625962862,
+          "source": "Multivariate regression",
+          "stdDev": 4.795641118630798
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.84,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 2331.9786531264176,
+          "source": "Multivariate regression",
+          "stdDev": 100.49146899840477
+        }
+      ]
+    },
+    {
+      "name": "o3-mini (without tools)",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 22.405575421089864,
+          "source": "Multivariate regression",
+          "stdDev": 2.299263668038374
+        },
+        {
+          "name": "Aider",
+          "score": 59.580787298655736,
+          "source": "Multivariate regression",
+          "stdDev": 5.071791473781439
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 52.14004981189562,
+          "source": "Multivariate regression",
+          "stdDev": 4.586527979574608
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 58.024962755524115,
+          "source": "Multivariate regression",
+          "stdDev": 5.625367696656965
+        },
+        {
+          "name": "Codeforces",
+          "score": 2073,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "Devstral Small 1.0",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 19.46865272673124,
+          "source": "Multivariate regression",
+          "stdDev": 2.322794464102468
+        },
+        {
+          "name": "Aider",
+          "score": 58.208408634754115,
+          "source": "Multivariate regression",
+          "stdDev": 5.203754234591745
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 46.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 53.834878544213346,
+          "source": "Multivariate regression",
+          "stdDev": 5.760043620029894
+        },
+        {
+          "name": "Codeforces",
+          "score": 1826.981860600689,
+          "source": "Multivariate regression",
+          "stdDev": 101.9474750898167
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-R1-0528",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 17.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73.3,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 1930,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-R1",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 10.857974390658352,
+          "source": "Multivariate regression",
+          "stdDev": 2.600704682411013
+        },
+        {
+          "name": "Aider",
+          "score": 56.9,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49.2,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 1530,
+          "source": "Original",
+          "stdDev": 0
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B-A22B",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 10.140993883983768,
+          "source": "Multivariate regression",
+          "stdDev": 2.6355002031877257
+        },
+        {
+          "name": "Aider",
+          "score": 59.6,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 34.4,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 37,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 1366.9378787777862,
+          "source": "Multivariate regression",
+          "stdDev": 115.60852489604997
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 6.309864584340662,
+          "source": "Multivariate regression",
+          "stdDev": 2.5075063541351312
+        },
+        {
+          "name": "Aider",
+          "score": 53.31330362765182,
+          "source": "Multivariate regression",
+          "stdDev": 5.58263745187056
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 30.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 42.37063749208244,
+          "source": "Multivariate regression",
+          "stdDev": 6.19120265884844
+        },
+        {
+          "name": "Codeforces",
+          "score": 1157.938542277756,
+          "source": "Multivariate regression",
+          "stdDev": 110.01531118929486
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-V3-0324",
+      "benchmarks": [
+        {
+          "name": "Terminal-Bench",
+          "score": 2.5,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Aider",
+          "score": 55.1,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 38.8,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 46.9,
+          "source": "Original",
+          "stdDev": 0
+        },
+        {
+          "name": "Codeforces",
+          "score": 1144.392634192424,
+          "source": "Multivariate regression",
+          "stdDev": 110.79122153848165
+        }
+      ]
+    }
+  ]
+}
