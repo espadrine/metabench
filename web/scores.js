@@ -170,14 +170,18 @@ function sortModels(state, widgets) {
 
 // Returns a list of models { name, benchmarks: { bench: { score, stddev } } }.
 async function fetchScores() {
-  // The HTML file lives in web/, the JSON is in the sibling data/ folder.
-  const response = await fetch('../data/scores-prediction.json');
+  // The HTML file lives in web/, the JSON is now in the sibling data/
+  // directory and has the structure:
+  // { models: [ { name, benchmarks: [ { name, score, source, stdDev } ] } ] }
+  const response = await fetch('../data/models-prediction.json');
   if (!response.ok) throw new Error(`Failed to load JSON: ${response.status}`);
-  // { model: { bench: { score: number, stddev: number } } }
-  const rawScores = await response.json();
-  return Object.keys(rawScores).map(name => ({
-    name,
-    benchmarks: rawScores[name],
+  const data = await response.json();
+  return data.models.map(model => ({
+    name: model.name,
+    benchmarks: model.benchmarks.reduce((acc, b) => {
+      acc[b.name] = { score: b.score, stddev: b.stdDev };
+      return acc;
+    }, {}),
   }));
 }
 
@@ -241,4 +245,3 @@ function computeWeightedScore(modelData, sortingCriteria) {
     widgets.container.textContent = 'Failed to load leaderboard.';
   }
 })();
-
