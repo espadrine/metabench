@@ -40,13 +40,17 @@ function renderTable(state, widgets) {
       const td = document.createElement('td');
       const entry = benchmarks[b];
       if (entry) {
-        const { score, stddev } = entry;
+        const { score, stddev, source } = entry;
         const fmtScore = Number(score.toFixed(2));
         if (stddev && stddev > 0) {
           const twoSigma = 2 * stddev;
           td.textContent = `${fmtScore}±${Number(twoSigma.toFixed(2))}`;
         } else {
           td.textContent = `${fmtScore}`;
+        }
+        // Tooltip showing source of benchmark evaluation
+        if (source) {
+          td.title = source;
         }
       } else {
         td.textContent = '';
@@ -179,7 +183,11 @@ async function fetchScores() {
   return data.models.map(model => ({
     name: model.name,
     benchmarks: model.benchmarks.reduce((acc, b) => {
-      acc[b.name] = { score: b.score, stddev: b.stdDev };
+      acc[b.name] = {
+        score: b.score,
+        stddev: b.stdDev,
+        source: b.source,
+      };
       return acc;
     }, {}),
   }));
