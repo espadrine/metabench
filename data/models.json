@@ -1,65 +1,1111 @@
 {
   "models": [
     {
-      "name": "DeepSeek-R1-0528",
+      "name": "DeepSeek R1 0528",
       "benchmarks": [
         {
-          "name": "Terminal-Bench",
-          "score": 17.5
+          "name": "MMLU-Redux",
+          "score": 93.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
-          "name": "Aider",
-          "score": 71.6
+          "name": "MMLU-Pro",
+          "score": 85.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
-          "name": "SWE-bench Verified",
-          "score": 57.6
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 27.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "FRAMES",
+          "score": 83,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
           "name": "LiveCodeBench",
-          "score": 73.3
+          "score": 73.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
           "name": "Codeforces",
-          "score": 1930
+          "score": 1930,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 91.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 79.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 86.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 17.5
         }
       ]
     },
     {
-      "name": "DeepSeek-R1",
+      "name": "DeepSeek R1",
       "benchmarks": [
         {
           "name": "Aider",
           "score": 56.9
         },
         {
-          "name": "SWE-bench Verified",
-          "score": 49.2
+          "name": "MMLU-Redux",
+          "score": 92.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 30.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "FRAMES",
+          "score": 82.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
           "name": "LiveCodeBench",
-          "score": 63.5
+          "score": 63.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
           "name": "Codeforces",
-          "score": 1530
+          "score": 1530,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 53.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 79.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 41.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 78.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "BFCL_v3_MultiTurn",
+          "score": 37.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 53.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 63.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         }
       ]
     },
     {
-      "name": "OpenAI o3",
+      "name": "DeepSeek-R1-0528-Qwen3-8B",
       "benchmarks": [
         {
+          "name": "AIME 2024",
+          "score": 86.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 76.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 61.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 61.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 High",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 88,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FrontierMath (python tool)",
+          "score": 26.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 24.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 93.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 84.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 78.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 81.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 84.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 65.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 112,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 88.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 69.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 64.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 99.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 62.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 81.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 96.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 95.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 256k",
+          "score": 86.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 78.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 73.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 90.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 256k",
+          "score": 88.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 86.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 1.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 1.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 2.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.9
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Medium",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 72,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Low",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 69,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 Minimal",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 59,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 mini High",
+      "benchmarks": [
+        {
+          "name": "AIME 2025",
+          "score": 91.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FrontierMath (python tool)",
+          "score": 22.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 16.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 87.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 75.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 82.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 62.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 75,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 62.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 65.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 98.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 60.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 78.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 74.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 84.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 256k",
+          "score": 58.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 73.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 64.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 89.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 256k",
+          "score": 86.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 78.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 0.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 1.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 3.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5 nano High",
+      "benchmarks": [
+        {
+          "name": "AIME 2025",
+          "score": 85.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FrontierMath (python tool)",
+          "score": 9.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 75.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 75.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 62.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 62.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 66.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 50.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 49,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 54.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 48.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 54.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 56.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 96.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 41.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 62.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 35.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 43.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 256k",
+          "score": 34.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 64.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 43.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 80.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 256k",
+          "score": 68.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 65.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 1.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 2.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 7.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "o4-mini",
+      "benchmarks": [
+        {
+          "name": "AIME 2025",
+          "score": 92.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FrontierMath (python tool)",
+          "score": 15.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 14.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 85.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 72.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 79.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 56.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 66,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 68.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 58.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 57.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 44.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 96.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 60.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 70.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 40.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 56.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 62.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 51.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 80.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 79.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 3.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 8.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 38.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 72
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69
+        }
+      ]
+    },
+    {
+      "name": "OpenAI o3 (high)",
+      "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 91.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 79.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 20.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 81,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FrontierMath (python tool)",
+          "score": 15.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 20.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 81.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 76.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 78.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 83.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 64.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 86,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 79.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 60.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 47.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 98.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 64.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 80.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 58.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 55.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 77.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 72.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 88.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 84.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 5.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 6.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 23.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
           "name": "Terminal-Bench",
-          "score": 30.2
+          "score": 30.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 70.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 52.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 30.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.3,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 70.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 52.0,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.9,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.9,
+          "source": "https://www.anthropic.com/news/claude-4"
         },
         {
           "name": "Aider",
           "score": 76.9
-        },
-        {
-          "name": "SWE-bench Verified",
-          "score": 69.1
         },
         {
           "name": "LiveCodeBench",
@@ -72,7 +1118,7 @@
       ]
     },
     {
-      "name": "o3-mini",
+      "name": "o3-mini (medium)",
       "benchmarks": [
         {
           "name": "Aider",
@@ -81,34 +1127,598 @@
         {
           "name": "Codeforces",
           "score": 2719
+        },
+        {
+          "name": "AIME 2024",
+          "score": 79.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 76.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 53.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 65.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         }
       ]
     },
     {
-      "name": "o4-mini",
+      "name": "GPT-4.1",
       "benchmarks": [
         {
-          "name": "Aider",
-          "score": 72
+          "name": "AIME 2025",
+          "score": 46.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 66.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 28.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 60.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 56.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 60.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 44.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 34,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
           "name": "SWE-bench Verified",
-          "score": 69
+          "score": 54.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 52.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 46.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 49.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 65.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 56.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 74.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 34.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 57.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 256k",
+          "score": 56.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 61.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 58.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 85.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 256k",
+          "score": 75.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 78.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 0.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 1.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 6.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 54.6,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 30.3,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 66.3,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 68.0,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 49.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 83.7,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.8,
+          "source": "https://www.anthropic.com/news/claude-4"
         }
       ]
     },
     {
-      "name": "GPT-5",
+      "name": "GPT-4.1 mini",
+      "benchmarks": [
+        {
+          "name": "AIME 2025",
+          "score": 40.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 3.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 35.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 72.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 58.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 56.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 55.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 42.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 31,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 23.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 31.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 42.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Internal API instruction following eval (hard)",
+          "score": 45.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 54.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 51.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 66.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 44.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 47.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 256k",
+          "score": 45.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 61.7,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 60.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 89.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 256k",
+          "score": 81.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 68.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Concepts hallucination rate",
+          "score": 1.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "LongFact-Objects hallucination rate",
+          "score": 1.8,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "FActScore hallucination rate",
+          "score": 10.9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-4.1 nano",
+      "benchmarks": [
+        {
+          "name": "GPQA Diamond",
+          "score": 50.3,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 55.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 33.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "CharXiv reasoning (python tool)",
+          "score": 40.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 30.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "ERQA",
+          "score": 26.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-Lancer",
+          "score": 9,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Aider",
+          "score": 6.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Scale multichallenge (o3-mini grader)",
+          "score": 31.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "COLLIE",
+          "score": 42.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Airline",
+          "score": 14.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Retail",
+          "score": 21.5,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Tau2-Bench Telecom",
+          "score": 12.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 128k",
+          "score": 36.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "OpenAI-MRCR: 2 needle 256k",
+          "score": 22.6,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 25.0,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "Graphwalks parents <128k",
+          "score": 9.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 89.4,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 256k",
+          "score": 19.1,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "VideoMME",
+          "score": 55.2,
+          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.1",
+      "released": "2025-08-05",
       "benchmarks": [
         {
           "name": "SWE-bench Verified",
-          "score": 74.9
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 43.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 80.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 82.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 56.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
         }
       ]
     },
     {
-      "name": "Claude 4 Opus",
+      "name": "Claude Opus 4",
+      "released": "2025-04-22",
       "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 39.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 81.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 59.6,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 76.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 39.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 81.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 59.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 76.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.6
+        },
         {
           "name": "Terminal-Bench",
           "score": 43.2
@@ -120,19 +1730,92 @@
         {
           "name": "SWE-bench Verified",
           "score": 67.8
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 63.6
         }
       ]
     },
     {
-      "name": "Claude 4 Sonnet",
+      "name": "Claude Sonnet 4",
+      "released": "2025-04-22",
       "benchmarks": [
         {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
           "name": "Terminal-Bench",
-          "score": 35.5
+          "score": 33.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 80.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 60.0,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 35.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 80.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 60.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
           "name": "Aider",
@@ -145,11 +1828,77 @@
       ]
     },
     {
+      "name": "Claude Sonnet 3.7",
+      "benchmarks": [
+        {
+          "name": "SWE-bench Verified",
+          "score": 62.3,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 35.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Retail",
+          "score": 81.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Tau-Bench Airline",
+          "score": 58.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 85.9,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 75.0,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 54.8,
+          "source": "https://www.anthropic.com/news/claude-4"
+        }
+      ]
+    },
+    {
       "name": "Gemini 2.5 Pro",
       "benchmarks": [
         {
+          "name": "SWE-bench Verified",
+          "score": 67.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
           "name": "Terminal-Bench",
-          "score": 25.3
+          "score": 25.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
           "name": "Aider",
@@ -166,15 +1915,97 @@
       ]
     },
     {
-      "name": "Qwen3-235B",
+      "name": "Gemini 2.5 Pro 0506",
       "benchmarks": [
         {
-          "name": "Aider",
-          "score": 65
+          "name": "AIME 2024",
+          "score": 90.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
           "name": "LiveCodeBench",
-          "score": 66.5
+          "score": 71.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 76.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 18.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 25.3,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.0,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 79.6,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.0,
+          "source": "https://www.anthropic.com/news/claude-4"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B",
+      "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 85.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 81.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 65.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         }
       ]
     },
@@ -190,6 +2021,31 @@
     {
       "name": "Qwen3-235B-A22B",
       "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 85.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 81.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 62.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
         {
           "name": "Aider",
           "score": 59.6
@@ -218,6 +2074,101 @@
         {
           "name": "SWE-bench Verified",
           "score": 69.6
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-32B",
+      "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 81.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 72.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 68.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-8B",
+      "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 76.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 67.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 62.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "Phi 4 Reasoning Plus 14B",
+      "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 81.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 53.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 69.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Flash Thinking 0520",
+      "benchmarks": [
+        {
+          "name": "AIME 2024",
+          "score": 82.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 72.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 64.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 62.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         }
       ]
     },
