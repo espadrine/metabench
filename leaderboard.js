@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { estimateMissingBenchmarks } = require('./lib/score-prediction.js');
+const { estimateMissingBenchmarks } = require('./lib/score-prediction-weighed-bivariate.js');
 const Table = require('./lib/cli-table');
 
 // Load the benchmark data from data/models.json.
