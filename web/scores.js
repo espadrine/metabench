@@ -15,16 +15,20 @@ function render(state, widgets) {
 //   - sortingCriteria: array of { bench: string, weight: number }
 // - widgets: { container, sortContainer }
 function renderTable(state, widgets) {
+  // Determine column order: sorting criteria first (by weight), then remaining benchmarks
+  const sortedCriteria = [...state.sortingCriteria].sort((a, b) => b.weight - a.weight);
+  const sortedBenchmarks = sortedCriteria.map(c => c.bench);
+  const remainingBenchmarks = state.benchmarkNames.filter(b => !sortedBenchmarks.includes(b));
+  const columnOrder = ['Model', ...sortedBenchmarks, ...remainingBenchmarks];
+
   // Build table.
   const table = document.createElement('table');
   const thead = document.createElement('thead');
   const headerRow = document.createElement('tr');
-  const thModel = document.createElement('th');
-  thModel.textContent = 'Model';
-  headerRow.appendChild(thModel);
-  state.benchmarkNames.forEach((b) => {
+  
+  columnOrder.forEach((columnName) => {
     const th = document.createElement('th');
-    th.textContent = b;
+    th.textContent = columnName;
     headerRow.appendChild(th);
   });
   thead.appendChild(headerRow);
@@ -33,27 +37,30 @@ function renderTable(state, widgets) {
   const tbody = document.createElement('tbody');
   state.models.forEach(({ name, benchmarks }) => {
     const row = document.createElement('tr');
-    const tdModel = document.createElement('td');
-    tdModel.textContent = name;
-    row.appendChild(tdModel);
-    state.benchmarkNames.forEach((b) => {
+    
+    columnOrder.forEach((columnName) => {
       const td = document.createElement('td');
-      const entry = benchmarks[b];
-      if (entry) {
-        const { score, stddev, source } = entry;
-        const fmtScore = Number(score.toFixed(2));
-        if (stddev && stddev > 0) {
-          const twoSigma = 2 * stddev;
-          td.textContent = `${fmtScore}±${Number(twoSigma.toFixed(2))}`;
-        } else {
-          td.textContent = `${fmtScore}`;
-        }
-        // Tooltip showing source of benchmark evaluation
-        if (source) {
-          td.title = source;
-        }
+      
+      if (columnName === 'Model') {
+        td.textContent = name;
       } else {
-        td.textContent = '';
+        const entry = benchmarks[columnName];
+        if (entry) {
+          const { score, stddev, source } = entry;
+          const fmtScore = Number(score.toFixed(2));
+          if (stddev && stddev > 0) {
+            const twoSigma = 2 * stddev;
+            td.textContent = `${fmtScore}±${Number(twoSigma.toFixed(2))}`;
+          } else {
+            td.textContent = `${fmtScore}`;
+          }
+          // Tooltip showing source of benchmark evaluation
+          if (source) {
+            td.title = source;
+          }
+        } else {
+          td.textContent = '';
+        }
       }
       row.appendChild(td);
     });
