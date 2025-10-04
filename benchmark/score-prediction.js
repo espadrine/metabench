@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { estimateMissingBenchmarks } = require('../lib/score-prediction.js');
+const { estimateMissingBenchmarks } = require('../lib/score-prediction-weighed-bivariate.js');
 
 // Load the benchmark data from data/models.json.
 // @param {string} filePath - Path to the models.json file

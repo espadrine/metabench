@@ -54,7 +54,7 @@ function printTable(benchmarks) {
 if (require.main === module) {
   const raw = loadScoresSync();
   const benchmarks = estimateMissingBenchmarks(raw);
-  printTable(benchmarks);
+  //printTable(benchmarks);
 
   const outputPath = path.join(__dirname, 'data', 'models-prediction.json');
   writePredictionsOutput(benchmarks, outputPath);
