@@ -19,6 +19,24 @@ let state = {
   editMetricCriteria: []
 };
 
+// ----- Storage integration -----
+
+// Save current metrics to localStorage
+function saveStateToStorage() {
+  saveMetrics(state.metrics);
+}
+
+// Load metrics from localStorage and update state
+function loadStateFromStorage() {
+  const storedMetrics = loadMetrics();
+  state.metrics = storedMetrics;
+  
+  // Set current metric to first one if available
+  if (state.metrics.length > 0 && state.currentMetricIndex === null) {
+    state.currentMetricIndex = 0;
+  }
+}
+
 // ----- DOM elements -----
 const widgets = {
   container: document.getElementById('leaderboard'),
@@ -311,6 +329,9 @@ function renderNewMetricForm(state, widgets) {
     // Set as current metric
     state.currentMetricIndex = state.metrics.length - 1;
 
+    // Save to storage
+    saveStateToStorage();
+
     closeNewMetricModal();
     render(state, widgets);
   });
@@ -427,6 +448,9 @@ function renderEditMetricForm(state, widgets) {
       }
     }
 
+    // Save to storage
+    saveStateToStorage();
+
     closeEditMetricModal();
     render(state, widgets);
   });
@@ -445,6 +469,9 @@ function renderEditMetricForm(state, widgets) {
           state.currentMetricIndex = state.metrics.length > 0 ? 0 : null;
         }
       }
+
+      // Save to storage
+      saveStateToStorage();
 
       closeEditMetricModal();
       render(state, widgets);
@@ -576,6 +603,9 @@ window.addEventListener('click', (event) => {
     state.models = await fetchScores();
     // List of string
     state.benchmarkNames = gatherBenchmarkNames(state.models);
+    
+    // Load metrics from localStorage
+    loadStateFromStorage();
 
     render(state, widgets);
   } catch (err) {
