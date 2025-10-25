@@ -3,7 +3,7 @@
 
 // ----- State -----
 let state = {
-  // List of { name: string, benchmarks: { bench: { score: number, stddev: number, source: string } } }
+  // List of { name: string, company: string, benchmarks: { bench: { score: number, stddev: number, source: string } } }
   models: [],
   // List of string - all unique benchmark names across all models
   benchmarkNames: [],
@@ -16,8 +16,67 @@ let state = {
   // number | null - index of metric being edited in metrics array
   editingMetricIndex: null,
   // Array<{ bench: string, weight: number }> - criteria for metric being edited
-  editMetricCriteria: []
+  editMetricCriteria: [],
+  // string - current active tab ('chart' or 'table')
+  currentTab: 'chart',
+  // Chart.js instance
+  chart: null
 };
+
+// ----- Utility functions -----
+
+// Hardcoded colors for specific companies
+function getCompanyColor(company) {
+  const colorMap = {
+    'xAI': 'darkpurple',
+    'OpenAI': 'grey',
+    'Anthropic': 'brown',
+    'DeepSeek': 'navy',
+    'Google': 'green',
+    'Moonshot AI': 'darkred',
+    'Z.ai': 'black',
+    'Alibaba': 'darkgoldenrod',
+    'Mistral AI': 'orange',
+    'ServiceNow': 'pink',
+    'LG': 'pink'
+  };
+
+  return colorMap[company] || stringToColor(company);
+}
+
+// Generate a consistent color from a string (company name) - fallback for unknown companies
+function stringToColor(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+
+  const hue = hash % 360;
+  return `hsl(${hue}, 70%, 60%)`;
+}
+
+// ----- Tab management -----
+
+function renderTabs(state, widgets) {
+  // Update tab button states
+  widgets.chartTab.classList.toggle('active', state.currentTab === 'chart');
+  widgets.tableTab.classList.toggle('active', state.currentTab === 'table');
+
+  // Update tab panel visibility
+  widgets.chartContainer.classList.toggle('active', state.currentTab === 'chart');
+  widgets.tableContainer.classList.toggle('active', state.currentTab === 'table');
+}
+
+function switchTab(state, widgets, tabName) {
+  state.currentTab = tabName;
+  renderTabs(state, widgets);
+
+  if (tabName === 'chart') {
+    renderChart(state, widgets);
+  } else {
+    renderTable(state, widgets);
+  }
+}
 
 // ----- Storage integration -----
 
@@ -30,7 +89,7 @@ function saveStateToStorage() {
 function loadStateFromStorage() {
   const storedMetrics = loadMetrics();
   state.metrics = storedMetrics;
-  
+
   // Set current metric to first one if available
   if (state.metrics.length > 0 && state.currentMetricIndex === null) {
     state.currentMetricIndex = 0;
@@ -46,14 +105,26 @@ const widgets = {
   closeNewMetric: document.getElementById('close-new-metric'),
   editMetricModal: document.getElementById('edit-metric-modal'),
   editMetricForm: document.getElementById('edit-metric-form'),
-  closeEditMetric: document.getElementById('close-edit-metric')
+  closeEditMetric: document.getElementById('close-edit-metric'),
+  tabNavigation: document.getElementById('tab-navigation'),
+  chartTab: document.getElementById('chart-tab'),
+  tableTab: document.getElementById('table-tab'),
+  chartContainer: document.getElementById('chart-container'),
+  tableContainer: document.getElementById('table-container'),
+  chartElement: document.getElementById('chart')
 };
 
 // ----- Rendering -----
 
 function render(state, widgets) {
   renderMetricControls(state, widgets);
-  renderTable(state, widgets);
+  renderTabs(state, widgets);
+
+  if (state.currentTab === 'chart') {
+    renderChart(state, widgets);
+  } else {
+    renderTable(state, widgets);
+  }
 }
 
 // Metric controls at the top of the page
@@ -190,6 +261,149 @@ function renderTable(state, widgets) {
   // Replace previous content.
   widgets.container.innerHTML = '';
   widgets.container.appendChild(table);
+}
+
+// Chart visualization
+function renderChart(state, widgets) {
+  // Clear previous chart
+  if (state.chart) {
+    state.chart.destroy();
+    state.chart = null;
+  }
+
+  widgets.chartElement.innerHTML = '';
+
+  // Check if we have a metric selected
+  if (state.currentMetricIndex === null || !state.metrics[state.currentMetricIndex]) {
+    widgets.chartElement.innerHTML = '<p>Please select a metric to view the chart.</p>';
+    return;
+  }
+
+  const metric = state.metrics[state.currentMetricIndex];
+
+  // Check if Output cost benchmark exists
+  if (!state.benchmarkNames.includes('Output cost')) {
+    widgets.chartElement.innerHTML = '<p>Output cost benchmark not found in data.</p>';
+    return;
+  }
+
+  // Prepare data for chart
+  const chartData = [];
+  const companies = new Set();
+
+  state.models.forEach(model => {
+    const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
+    const outputCost = model.benchmarks['Output cost']?.score;
+
+    if (typeof metricScore === 'number' && typeof outputCost === 'number') {
+      companies.add(model.company);
+
+      chartData.push({
+        model: model.name,
+        company: model.company,
+        metricScore: metricScore,
+        outputCost: outputCost
+      });
+    }
+  });
+
+  if (chartData.length === 0) {
+    widgets.chartElement.innerHTML = '<p>No data available for chart.</p>';
+    return;
+  }
+
+  // Create canvas for chart
+  const canvas = document.createElement('canvas');
+  canvas.id = 'chart-canvas';
+  canvas.style.width = '100%';
+  canvas.style.height = '500px';
+  widgets.chartElement.appendChild(canvas);
+
+  // Group data by company for coloring
+  const companyColors = {};
+  Array.from(companies).forEach(company => {
+    companyColors[company] = getCompanyColor(company);
+  });
+
+  // Create chart
+  const ctx = canvas.getContext('2d');
+  state.chart = new Chart(ctx, {
+    type: 'scatter',
+    data: {
+      datasets: chartData.map(item => ({
+        label: item.model,
+        data: [{
+          x: item.outputCost,
+          y: item.metricScore,
+          model: item.model,
+          company: item.company
+        }],
+        backgroundColor: companyColors[item.company],
+        borderColor: companyColors[item.company],
+        borderWidth: 2,
+        pointRadius: 8,
+        pointHoverRadius: 12
+      }))
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: 'Output Cost ($/M tokens)'
+          },
+          type: 'logarithmic',
+          position: 'bottom'
+        },
+        y: {
+          title: {
+            display: true,
+            text: metric.name
+          }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              const point = context.raw;
+              return [
+                `Model: ${point.model}`,
+                `Company: ${point.company}`,
+                `Output Cost: ${point.x.toFixed(2)}/M tokens`,
+                `${metric.name}: ${point.y.toFixed(2)}`
+              ];
+            }
+          }
+        },
+        legend: {
+          display: true,
+          position: 'right',
+          labels: {
+            generateLabels: function(chart) {
+              const companies = {};
+              chart.data.datasets.forEach(dataset => {
+                const company = dataset.data[0].company;
+                if (!companies[company]) {
+                  companies[company] = {
+                    text: company,
+                    fillStyle: dataset.backgroundColor,
+                    strokeStyle: dataset.borderColor,
+                    lineWidth: 2,
+                    hidden: false,
+                    index: Object.keys(companies).length
+                  };
+                }
+              });
+              return Object.values(companies);
+            }
+          }
+        }
+      }
+    }
+  });
 }
 
 // ----- Modal functions -----
@@ -524,16 +738,17 @@ function removeEditMetricCriterion(state, widgets, idx) {
 
 // ----- Utility functions -----
 
-// Returns a list of models { name, benchmarks: { bench: { score, stddev } } }.
+// Returns a list of models { name, company, benchmarks: { bench: { score, stddev } } }.
 async function fetchScores() {
   // The HTML file lives in web/, the JSON is now in the sibling data/
   // directory and has the structure:
-  // { models: [ { name, benchmarks: [ { name, score, source, stdDev } ] } ] }
+  // { models: [ { name, company, benchmarks: [ { name, score, source, stdDev } ] } ] }
   const response = await fetch('../data/models-prediction.json');
   if (!response.ok) throw new Error(`Failed to load JSON: ${response.status}`);
   const data = await response.json();
   return data.models.map(model => ({
     name: model.name,
+    company: model.company,
     benchmarks: model.benchmarks.reduce((acc, b) => {
       acc[b.name] = {
         score: b.score,
@@ -578,6 +793,10 @@ function computeWeightedScore(modelData, sortingCriteria) {
 widgets.closeNewMetric.addEventListener('click', closeNewMetricModal);
 widgets.closeEditMetric.addEventListener('click', closeEditMetricModal);
 
+// Tab switching
+widgets.chartTab.addEventListener('click', () => switchTab(state, widgets, 'chart'));
+widgets.tableTab.addEventListener('click', () => switchTab(state, widgets, 'table'));
+
 // Close modal when clicking outside
 window.addEventListener('click', (event) => {
   if (event.target === widgets.newMetricModal) {
@@ -592,7 +811,7 @@ window.addEventListener('click', (event) => {
 
 (async () => {
   for (const [key, el] of Object.entries(widgets)) {
-    if (!el) {
+    if (!el && key !== 'sortContainer') {
       console.error(`Missing DOM element: ${key}`);
       return;
     }
@@ -603,7 +822,7 @@ window.addEventListener('click', (event) => {
     state.models = await fetchScores();
     // List of string
     state.benchmarkNames = gatherBenchmarkNames(state.models);
-    
+
     // Load metrics from localStorage
     loadStateFromStorage();
 

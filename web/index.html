@@ -54,12 +54,56 @@
       color: black;
       text-decoration: none;
     }
+    
+    /* Tab styles */
+    .tab-button {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-bottom: none;
+      padding: 8px 16px;
+      cursor: pointer;
+      margin-right: 4px;
+      border-radius: 4px 4px 0 0;
+    }
+    .tab-button.active {
+      background-color: white;
+      border-bottom: 1px solid white;
+      margin-bottom: -1px;
+    }
+    .tab-panel {
+      display: none;
+      border: 1px solid #ccc;
+      padding: 16px;
+      background-color: white;
+    }
+    .tab-panel.active {
+      display: block;
+    }
+    #chart {
+      height: 500px;
+      width: 100%;
+    }
   </style>
 </head>
 <body>
   <h1>Leaderboard</h1>
   <div id="metric-controls" style="margin-bottom: 1em;"></div>
-  <div id="leaderboard">Loading…</div>
+  
+  <!-- Tab Navigation -->
+  <div id="tab-navigation">
+    <button id="chart-tab" class="tab-button active">Chart</button>
+    <button id="table-tab" class="tab-button">Table</button>
+  </div>
+  
+  <!-- Tab Content -->
+  <div id="tab-content">
+    <div id="chart-container" class="tab-panel active">
+      <div id="chart">Loading chart…</div>
+    </div>
+    <div id="table-container" class="tab-panel">
+      <div id="leaderboard">Loading…</div>
+    </div>
+  </div>
   
   <!-- New Metric Modal -->
   <div id="new-metric-modal" class="modal">
@@ -79,6 +123,7 @@
     </div>
   </div>
   
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="storage.js"></script>
   <script src="scores.js"></script>
 </body>
