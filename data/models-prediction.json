@@ -2,6 +2,9 @@
   "models": [
     {
       "name": "DeepSeek-V3-0324",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250325",
+      "release_date": "2025-03-24",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -283,6 +286,9 @@
     },
     {
       "name": "DeepSeek R1 0528",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "release_date": "2025-05-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -564,6 +570,9 @@
     },
     {
       "name": "DeepSeek R1",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250120",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -845,6 +854,9 @@
     },
     {
       "name": "DeepSeek-R1-0528-Qwen3-8B",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -1126,6 +1138,9 @@
     },
     {
       "name": "GPT-5 High",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -1407,6 +1422,9 @@
     },
     {
       "name": "GPT-5 Medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -1688,6 +1706,9 @@
     },
     {
       "name": "GPT-5 Low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -1969,6 +1990,9 @@
     },
     {
       "name": "GPT-5 Minimal",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -2250,6 +2274,9 @@
     },
     {
       "name": "GPT-5 mini High",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -2531,6 +2558,9 @@
     },
     {
       "name": "GPT-5 nano High",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "release_date": "2025-01-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -2812,6 +2842,9 @@
     },
     {
       "name": "o4-mini",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "release_date": "2025-04-16",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -3093,6 +3126,9 @@
     },
     {
       "name": "o3 (high)",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "release_date": "2025-04-16",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -3374,6 +3410,9 @@
     },
     {
       "name": "o3-mini (medium)",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "release_date": "2025-01-31",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -3655,6 +3694,9 @@
     },
     {
       "name": "o3-mini (without tools)",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "release_date": "2025-01-31",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -3936,6 +3978,9 @@
     },
     {
       "name": "GPT-4.1",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-4-1/",
+      "release_date": "2025-04-14",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -4217,6 +4262,9 @@
     },
     {
       "name": "GPT-4.1 mini",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-4-1/",
+      "release_date": "2025-04-14",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -4498,6 +4546,9 @@
     },
     {
       "name": "GPT-4.1 nano",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-4-1/",
+      "release_date": "2025-04-14",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -4779,6 +4830,9 @@
     },
     {
       "name": "gpt-oss-120b (with tools)",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-oss/",
+      "release_date": "2025-08-05",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -5060,6 +5114,9 @@
     },
     {
       "name": "gpt-oss-120b",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-oss/",
+      "release_date": "2025-08-05",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -5341,6 +5398,9 @@
     },
     {
       "name": "gpt-oss-20b (with tools)",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-oss/",
+      "release_date": "2025-08-05",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -5622,6 +5682,9 @@
     },
     {
       "name": "gpt-oss-20b",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-oss/",
+      "release_date": "2025-08-05",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -5903,6 +5966,9 @@
     },
     {
       "name": "Claude Opus 4.1",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-1",
+      "release_date": "2025-08-05",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -6184,6 +6250,9 @@
     },
     {
       "name": "Claude Opus 4",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "release_date": "2025-04-22",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -6465,6 +6534,9 @@
     },
     {
       "name": "Claude Sonnet 4",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "release_date": "2025-04-22",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -6746,6 +6818,9 @@
     },
     {
       "name": "Claude Sonnet 3.7",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "release_date": "2025-02-24",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -7027,6 +7102,9 @@
     },
     {
       "name": "Gemini 2.5 Pro 0506",
+      "company": "Google",
+      "url": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#performance",
+      "release_date": "2025-05-20",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -7308,6 +7386,9 @@
     },
     {
       "name": "Gemini 2.5 Flash Thinking 0520",
+      "company": "Google",
+      "url": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#flash-improvements",
+      "release_date": "2025-03-25",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -7589,6 +7670,9 @@
     },
     {
       "name": "Gemini 2.5 Pro",
+      "company": "Google",
+      "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
+      "release_date": "2025-03-25",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -7870,6 +7954,9 @@
     },
     {
       "name": "Qwen3-235B-A22B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -8151,6 +8238,9 @@
     },
     {
       "name": "Qwen3-235B-Thinking 2507",
+      "company": "Alibaba",
+      "url": "https://x.com/Alibaba_Qwen/status/1948688466386280706",
+      "release_date": "2025-07-25",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -8432,6 +8522,9 @@
     },
     {
       "name": "Qwen3-Coder 480B-A35B-Instruct",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=d927d7d2e59d059045ce758ded34f98c0186d2d7&from=research.research-list",
+      "release_date": "2025-07-22",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -8713,6 +8806,9 @@
     },
     {
       "name": "Qwen3-32B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -8994,6 +9090,9 @@
     },
     {
       "name": "Qwen3-8B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -9275,6 +9374,9 @@
     },
     {
       "name": "Qwen3-Coder 30B-A3B Instruct",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -9556,6 +9658,9 @@
     },
     {
       "name": "Phi 4 Reasoning Plus 14B",
+      "company": "Microsoft",
+      "url": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+      "release_date": "2025-04-30",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -9837,6 +9942,9 @@
     },
     {
       "name": "GLM-4.6",
+      "company": "Z.ai",
+      "url": "https://x.com/Zai_org/status/1973034639708344767",
+      "release_date": "2025-09-30",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -10118,6 +10226,9 @@
     },
     {
       "name": "GLM-4.5",
+      "company": "Z.ai",
+      "url": "https://x.com/Zai_org/status/1949831552189518044",
+      "release_date": "2025-07-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -10399,6 +10510,9 @@
     },
     {
       "name": "GLM-4.5-Air",
+      "company": "Z.ai",
+      "url": "https://x.com/Zai_org/status/1949831552189518044",
+      "release_date": "2025-07-28",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -10680,6 +10794,9 @@
     },
     {
       "name": "Kimi-K2-Instruct",
+      "company": "Moonshot AI",
+      "url": "https://moonshotai.github.io/Kimi-K2/",
+      "release_date": "2025-07-11",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -10961,6 +11078,9 @@
     },
     {
       "name": "Devstral Small 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral-2507",
+      "release_date": "2025-06-10",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -11242,6 +11362,9 @@
     },
     {
       "name": "Devstral Small 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral",
+      "release_date": "2025-05-21",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -11523,6 +11646,9 @@
     },
     {
       "name": "Magistral Medium 1.2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-09-24",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -11804,6 +11930,9 @@
     },
     {
       "name": "Magistral Medium 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-07-24",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -12085,6 +12214,9 @@
     },
     {
       "name": "Magistral Medium 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-06-10",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -12366,6 +12498,9 @@
     },
     {
       "name": "Magistral Small 1.2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-09-24",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -12647,6 +12782,9 @@
     },
     {
       "name": "Magistral Small 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-07-24",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -12928,6 +13066,9 @@
     },
     {
       "name": "Magistral Small 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-06-10",
       "benchmarks": [
         {
           "name": "Input cost",
