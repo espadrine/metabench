@@ -88,12 +88,87 @@ function saveStateToStorage() {
 // Load metrics from localStorage and update state
 function loadStateFromStorage() {
   const storedMetrics = loadMetrics();
-  state.metrics = storedMetrics;
+  const storedMetricNames = new Set(storedMetrics.map(m => m.name));
 
-  // Set current metric to first one if available
-  if (state.metrics.length > 0 && state.currentMetricIndex === null) {
-    state.currentMetricIndex = 0;
-  }
+  // Define benchmark groups (categories) and associated benchmark names.
+  const categoryBenchmarks = {
+    Knowledge: {
+      'FRAMES': 1,
+      "Humanity's Last Exam": 1,
+      'MMLU-Pro': 1,
+      'MMLU-Redux': 1,
+      'MMMLU': 1,
+      'MMMU': 1,
+      'MMMU-Pro': 1,
+      'SimpleQA': 1,
+    },
+    Reasoning: {
+      'CharXiv reasoning (python tool)': 1,
+      'Graphwalks bfs <128k>': 1,
+      'Graphwalks parents <128k>': 1,
+    },
+    Math: {
+      'AIME 2024': 1,
+      'AIME 2025': 1,
+      'CNMO 2024': 1,
+      'HMMT 2025': 1,
+      'FrontierMath (python tool)': 1,
+    },
+    Coding: {
+      'LiveCodeBench': 10,
+      'Codeforces': 10,
+      'SWE-bench Verified': 10,
+      'SWE-Lancer': 10,
+      'Aider': 1,
+      'Terminal-Bench': 1,
+    },
+    AgenticCoding: {
+      'Aider': 10,
+      'Terminal-Bench': 10,
+      'LiveCodeBench': 5,
+      'Codeforces': 5,
+      'SWE-bench Verified': 5,
+    },
+    Agentic: {
+      'BFCL_v3_MultiTurn': 1,
+      'Internal API instruction following eval (hard)': 1,
+      'Tau-Bench Airline': 1,
+      'Tau-Bench Retail': 1,
+      'Tau2-Bench Airline': 1,
+      'Tau2-Bench Retail': 1,
+      'Tau2-Bench Telecom': 1,
+    },
+    Factuality: {
+      'FActScore hallucination rate': 1,
+      'LongFact-Concepts hallucination rate': 1,
+      'LongFact-Objects hallucination rate': 1,
+    },
+    Retrieval: {
+      'BrowseComp Long Context 128k': 1,
+      'BrowseComp Long Context 256k': 1,
+      'OpenAI-MRCR: 2 needle 128k': 1,
+      'OpenAI-MRCR: 2 needle 256k': 1,
+    },
+    Multimodal: {
+      'VideoMME': 1,
+      'VideoMMMU': 1,
+      'MMMU': 1,
+      'MMMU-Pro': 1,
+    }
+  };
+
+  // Build default metrics: one per category with equal weight for each benchmark.
+  const defaultMetrics = Object.entries(categoryBenchmarks)
+    .filter(([category]) => !storedMetricNames.has(`${category}`))
+    .map(([category, benches]) => ({
+      name: `${category}`,
+      criteria: Object.entries(benches).map(([bench, weight]) => ({ bench, weight }))
+    }));
+
+  // Combine default metrics with any stored user metrics.
+  state.metrics = [...defaultMetrics, ...storedMetrics];
+  // Select the first metric (the first default) as the current metric.
+  state.currentMetricIndex = state.metrics.length > 0 ? 0 : null;
 }
 
 // ----- DOM elements -----
