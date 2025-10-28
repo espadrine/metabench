@@ -818,7 +818,7 @@ async function fetchScores() {
   // The HTML file lives in web/, the JSON is now in the sibling data/
   // directory and has the structure:
   // { models: [ { name, company, benchmarks: [ { name, score, source, stdDev } ] } ] }
-  const response = await fetch('../data/models-prediction.json');
+  const response = await fetch('./models-prediction.json');
   if (!response.ok) throw new Error(`Failed to load JSON: ${response.status}`);
   const data = await response.json();
   return data.models.map(model => ({
