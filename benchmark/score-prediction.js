@@ -91,7 +91,7 @@ function normalizeScore(score, benchmarkName, stats) {
 // @param {number} numTests - Number of deterministic tests to run
 // @param {boolean} verbose - Whether to show detailed output
 // @returns {number} The computed MSE on normalized scores
-function computeMSE(benchmarks, numTests = 50, verbose = false) {
+function computeMSE(benchmarks, numTests = 100, verbose = false) {
   // Create a deep copy of the original data to avoid modifications
   const originalBenchmarks = JSON.parse(JSON.stringify(benchmarks));
 
@@ -118,13 +118,7 @@ function computeMSE(benchmarks, numTests = 50, verbose = false) {
   const actualNumTests = Math.min(numTests, knownScores.length);
 
   // Select deterministic subset of known scores for testing
-  // Sort by model name then benchmark name for deterministic selection
-  knownScores.sort((a, b) => {
-    if (a.modelName !== b.modelName) {
-      return a.modelName.localeCompare(b.modelName);
-    }
-    return a.benchmarkName.localeCompare(b.benchmarkName);
-  });
+  shuffle(knownScores, 12345); // Fixed seed for reproducibility
 
   const testScores = knownScores.slice(0, actualNumTests);
 
@@ -207,10 +201,39 @@ function computeMSE(benchmarks, numTests = 50, verbose = false) {
   return mse;
 }
 
+class SFC32 {
+  seed(seed) {
+    this.state = Uint32Array.from([0, seed, 0, 1]);
+    for (let i = 0; i < 12; i++) { this.random32(); }
+    return this;
+  }
+  random32() {
+    const s = this.state;
+    const r = s[0] + s[1] + s[3];
+    s[3]++;
+    s[0] = s[1] ^ s[1] >>> 9;
+    s[1] = s[2] + (s[2] << 3);
+    s[2] = (s[2] << 21 | s[2] >>> 11) + r;
+    return r;
+  }
+  random01() {
+    return this.random32() / 0x100000000;
+  }
+}
+
+function shuffle(array, seed) {
+  const rng = new SFC32().seed(seed);
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(rng.random01() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // Main function to run the MSE benchmark with normalized scores
 // @param {number} numTests - Number of deterministic tests to run
 // @param {boolean} verbose - Whether to show detailed output
-function main(numTests = 50, verbose = false) {
+function main(numTests = 100, verbose = false) {
   try {
     if (verbose) {
       console.error('Loading benchmark data...');
@@ -236,7 +259,7 @@ function main(numTests = 50, verbose = false) {
 // Parse command line arguments
 function parseArgs() {
   const args = process.argv.slice(2);
-  let numTests = 50;
+  let numTests = 100;
   let verbose = false;
 
   for (let i = 0; i < args.length; i++) {
@@ -244,7 +267,7 @@ function parseArgs() {
       verbose = true;
     } else if (args[i] === '--help' || args[i] === '-h') {
       console.log('Usage: node benchmark/score-prediction.js [numTests] [--verbose|-v]');
-      console.log('  numTests: Number of tests to run (default: 50)');
+      console.log('  numTests: Number of tests to run (default: 100)');
       console.log('  --verbose, -v: Show detailed output (default: false)');
       console.log('  --help, -h: Show this help message');
       process.exit(0);
