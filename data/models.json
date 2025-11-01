@@ -1,322 +1,38 @@
 {
   "models": [
     {
-      "name": "DeepSeek-V3-0324",
-      "company": "DeepSeek",
-      "url": "https://api-docs.deepseek.com/news/news250325",
-      "release_date": "2025-03-24",
+      "name": "GPT-5 Codex High",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-upgrades-to-codex/",
+      "release_date": "2025-09-15",
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.27,
-          "source": "https://api-docs.deepseek.com/news/news1226"
+          "score": 1.25,
+          "source": "https://openai.com/api/pricing/"
         },
         {
           "name": "Output cost",
-          "score": 1.1,
-          "source": "https://api-docs.deepseek.com/news/news1226"
+          "score": 10,
+          "source": "https://openai.com/api/pricing/"
         },
         {
-          "name": "Size",
-          "score": 684531386000,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
-        },
-        {
-          "name": "Active parameters",
-          "score": 37000000000,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
-        },
-        {
-          "name": "Terminal-Bench",
-          "score": 2.5
-        },
-        {
-          "name": "Aider",
-          "score": 55.1
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 68,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "SWE-bench Verified",
-          "score": 38.8
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 46.9
-        }
-      ]
-    },
-    {
-      "name": "DeepSeek R1 0528",
-      "company": "DeepSeek",
-      "url": "https://api-docs.deepseek.com/news/news250528",
-      "release_date": "2025-05-28",
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0.55,
-          "source": "https://api-docs.deepseek.com/news/news250120"
-        },
-        {
-          "name": "Output cost",
-          "score": 2.19,
-          "source": "https://api-docs.deepseek.com/news/news250120"
-        },
-        {
-          "name": "Size",
-          "score": 684531386000,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Active parameters",
-          "score": 37000000000,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "MMLU-Redux",
-          "score": 93.4,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 85.0,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 81.0,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "SimpleQA",
-          "score": 27.8,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "FRAMES",
-          "score": 83,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 17.7,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 73.3,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Codeforces",
-          "score": 1930,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+          "score": 74.5,
+          "source": "https://openai.com/index/introducing-upgrades-to-codex/"
         },
         {
           "name": "SWE-bench Verified",
-          "score": 57.6,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Aider",
-          "score": 71.6,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 91.4,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 87.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "HMMT 2025",
-          "score": 79.4,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "CNMO 2024",
-          "score": 86.9,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Terminal-Bench",
-          "score": 17.5
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
         }
       ]
     },
-    {
-      "name": "DeepSeek R1",
-      "company": "DeepSeek",
-      "url": "https://api-docs.deepseek.com/news/news250120",
-      "release_date": "2025-01-20",
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0.55,
-          "source": "https://api-docs.deepseek.com/news/news250120"
-        },
-        {
-          "name": "Output cost",
-          "score": 2.19,
-          "source": "https://api-docs.deepseek.com/news/news250120"
-        },
-        {
-          "name": "Size",
-          "score": 684531386000,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
-        },
-        {
-          "name": "Active parameters",
-          "score": 37000000000,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
-        },
-        {
-          "name": "Aider",
-          "score": 56.9
-        },
-        {
-          "name": "MMLU-Redux",
-          "score": 92.9,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 84.0,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 71.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "SimpleQA",
-          "score": 30.1,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "FRAMES",
-          "score": 82.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 8.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 63.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Codeforces",
-          "score": 1530,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "SWE-bench Verified",
-          "score": 49.2,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Aider",
-          "score": 53.3,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 79.8,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 70.0,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "HMMT 2025",
-          "score": 41.7,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "CNMO 2024",
-          "score": 78.8,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "BFCL_v3_MultiTurn",
-          "score": 37.0,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Tau-Bench Airline",
-          "score": 53.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "Tau-Bench Retail",
-          "score": 63.9,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        }
-      ]
-    },
-    {
-      "name": "DeepSeek-R1-0528-Qwen3-8B",
-      "company": "DeepSeek",
-      "url": "https://api-docs.deepseek.com/news/news250528",
-      "release_date": "2025-01-20",
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0.18,
-          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
-        },
-        {
-          "name": "Output cost",
-          "score": 2.1,
-          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
-        },
-        {
-          "name": "Size",
-          "score": 8190735360,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
-        },
-        {
-          "name": "Active parameters",
-          "score": 8190735360,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 86.0,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 76.3,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "HMMT 2025",
-          "score": 61.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 61.1,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 60.5,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
-        }
-      ]
-    },
-
     {
       "name": "GPT-5 High",
       "company": "OpenAI",
@@ -334,9 +50,19 @@
           "source": "https://openai.com/api/pricing/"
         },
         {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 68,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
           "name": "SWE-bench Verified",
           "score": 74.9,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.8,
+          "source": "https://openai.com/index/introducing-upgrades-to-codex/"
         },
         {
           "name": "Aider",
@@ -349,7 +75,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "FrontierMath (python tool)",
+          "name": "FrontierMath (with tools)",
           "score": 26.3,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -379,7 +105,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 81.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -399,16 +125,6 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "SWE-bench Verified",
-          "score": 74.9,
-          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
-        },
-        {
-          "name": "Aider",
-          "score": 88.0,
-          "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
-        },
-        {
           "name": "Scale multichallenge (o3-mini grader)",
           "score": 69.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
@@ -424,27 +140,27 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 62.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 81.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 96.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 95.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 256k",
+          "name": "MRCR: 2 needle 256k",
           "score": 86.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -490,7 +206,308 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 74.9
+          "score": 72.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 43.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 81.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 62.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 96.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 99.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 84.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 46.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+            "name": "SWE-bench Verified",
+            "score": 74.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Terminal-Bench",
+            "score": 43.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "ArtifactsBench",
+            "score": 73,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp",
+            "score": 54.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp (zh)",
+            "score": 65,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "GAIA (text)",
+            "score": 76.4,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "xbench-DeepSearch",
+            "score": 77.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Humanity's Last Exam (with tools)",
+            "score": 35.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "τ²-Bench",
+            "score": 80.1,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "FinSearchComp-global",
+            "score": 63.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 87,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 26.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 43,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 73,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 76,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 85,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 31,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 69,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 24.8,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 86.8,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 26.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 41.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 99.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 93.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 96.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 76.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 87.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 95.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 71.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 67.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 54.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 63.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 51.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 48.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 86.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 74.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 55.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 39.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 42.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 56.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 43.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         }
       ]
     },
@@ -557,6 +574,11 @@
           "source": "https://openai.com/api/pricing/"
         },
         {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
           "name": "SWE-bench Verified",
           "score": 59,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
@@ -585,7 +607,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "FrontierMath (python tool)",
+          "name": "FrontierMath (with tools)",
           "score": 22.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -615,7 +637,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 75.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -660,27 +682,27 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 60.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 78.3,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 74.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 84.3,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 256k",
+          "name": "MRCR: 2 needle 256k",
           "score": 58.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -723,6 +745,31 @@
           "name": "FActScore hallucination rate",
           "score": 3.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond (with tools)",
+          "score": 82.3,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.1,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 87.8,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 16.7,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.4,
+          "source": "https://x.ai/news/grok-4-fast"
         }
       ]
     },
@@ -748,7 +795,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "FrontierMath (python tool)",
+          "name": "FrontierMath (with tools)",
           "score": 9.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -778,7 +825,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 62.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -823,27 +870,27 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 41.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 62.3,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 35.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 43.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 256k",
+          "name": "MRCR: 2 needle 256k",
           "score": 34.9,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -906,12 +953,62 @@
           "source": "https://openai.com/api/pricing/"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 18.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 92.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 75.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 72.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 68.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 19.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 62.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 36.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
           "name": "AIME 2025",
           "score": 92.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "FrontierMath (python tool)",
+          "name": "FrontierMath (with tools)",
           "score": 15.4,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -941,7 +1038,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 72.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -986,22 +1083,22 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 60.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 70.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 40.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 56.4,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1067,6 +1164,56 @@
           "source": "https://web.archive.org/web/20250611095744/https://openai.com/api/pricing/"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 20.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 79.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 48.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 69.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 57.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
           "name": "AIME 2024",
           "score": 91.6,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
@@ -1097,6 +1244,11 @@
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 21,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
           "name": "SWE-bench Verified",
           "score": 69.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
@@ -1112,7 +1264,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "FrontierMath (python tool)",
+          "name": "FrontierMath (with tools)",
           "score": 15.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1142,7 +1294,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 78.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1187,22 +1339,22 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 64.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 80.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 58.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 55.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1257,12 +1409,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 70.4,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 52.0,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
@@ -1297,12 +1449,12 @@
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 70.4,
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 52.0,
           "source": "https://www.anthropic.com/news/claude-4"
         },
@@ -1320,6 +1472,36 @@
           "name": "AIME 2025",
           "score": 88.9,
           "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.3,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "USAMO 2025",
+          "score": 21.7,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 77.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.9,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 6.5,
+          "source": "https://x.ai/news/grok-4"
         },
         {
           "name": "Aider",
@@ -1387,7 +1569,7 @@
       ]
     },
     {
-      "name": "o3-mini (without tools)",
+      "name": "o3-mini",
       "company": "OpenAI",
       "url": "https://openai.com/index/openai-o3-mini/",
       "release_date": "2025-01-31",
@@ -1455,7 +1637,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 56.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1500,27 +1682,27 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 56.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 74.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 34.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 57.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 256k",
+          "name": "MRCR: 2 needle 256k",
           "score": 56.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1580,12 +1762,12 @@
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 68.0,
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 49.4,
           "source": "https://www.anthropic.com/news/claude-4"
         },
@@ -1648,7 +1830,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 56.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1693,27 +1875,27 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 51.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 66.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 44.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 47.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 256k",
+          "name": "MRCR: 2 needle 256k",
           "score": 45.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1801,7 +1983,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (python tool)",
+          "name": "CharXiv reasoning (with tools)",
           "score": 40.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1836,27 +2018,27 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Airline",
+          "name": "τ²-Bench Airline",
           "score": 14.0,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Retail",
+          "name": "τ²-Bench Retail",
           "score": 21.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "Tau2-Bench Telecom",
+          "name": "τ²-Bench Telecom",
           "score": 12.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 128k",
+          "name": "MRCR: 2 needle 128k",
           "score": 36.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "OpenAI-MRCR: 2 needle 256k",
+          "name": "MRCR: 2 needle 256k",
           "score": 22.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1888,46 +2070,6 @@
       ]
     },
     {
-      "name": "gpt-oss-120b (with tools)",
-      "company": "OpenAI",
-      "url": "https://openai.com/index/introducing-gpt-oss/",
-      "release_date": "2025-08-05",
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0.15,
-          "source": "https://openrouter.ai/openai/gpt-oss-120b"
-        },
-        {
-          "name": "Output cost",
-          "score": 0.6,
-          "source": "https://openrouter.ai/openai/gpt-oss-120b"
-        },
-        {
-          "name": "Size",
-          "score": 117000000000,
-          "source": "https://huggingface.co/openai/gpt-oss-120b"
-        },
-        {
-          "name": "Active parameters",
-          "score": 5100000000,
-          "source": "https://huggingface.co/openai/gpt-oss-120b"
-        },
-        {
-          "name": "Aider",
-          "score": 41.8
-        },
-        {
-          "name": "SWE-bench Verified",
-          "score": 62
-        },
-        {
-          "name": "Codeforces",
-          "score": 2622
-        }
-      ]
-    },
-    {
       "name": "gpt-oss-120b",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-oss/",
@@ -1954,44 +2096,25 @@
           "source": "https://huggingface.co/openai/gpt-oss-120b"
         },
         {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 58,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
           "name": "Codeforces",
           "score": 2463
-        }
-      ]
-    },
-    {
-      "name": "gpt-oss-20b (with tools)",
-      "company": "OpenAI",
-      "url": "https://openai.com/index/introducing-gpt-oss/",
-      "release_date": "2025-08-05",
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0.05,
-          "source": "https://openrouter.ai/openai/gpt-oss-20b"
         },
         {
-          "name": "Output cost",
-          "score": 0.20,
-          "source": "https://openrouter.ai/openai/gpt-oss-20b"
+          "name": "Aider",
+          "score": 41.8
         },
         {
-          "name": "Size",
-          "score": 21000000000,
-          "source": "https://huggingface.co/openai/gpt-oss-20b"
+          "name": "SWE-bench Verified (with tools)",
+          "score": 62
         },
         {
-          "name": "Active parameters",
-          "score": 3600000000,
-          "source": "https://huggingface.co/openai/gpt-oss-20b"
-        },
-        {
-          "name": "SWE-bench Verified",
-          "score": 60
-        },
-        {
-          "name": "Codeforces",
-          "score": 2516
+          "name": "Codeforces (with tools)",
+          "score": 2622
         }
       ]
     },
@@ -2022,12 +2145,636 @@
           "source": "https://huggingface.co/openai/gpt-oss-20b"
         },
         {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
           "name": "Codeforces",
           "score": 2230
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 60
+        },
+        {
+          "name": "Codeforces (with tools)",
+          "score": 2516
+        }
+      ]
+    },
+    {
+      "name": "GPT-4o",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "release_date": "2024-05-13",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://web.archive.org/web/20240514201030/https://openai.com/api/pricing/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://web.archive.org/web/20240514201030/https://openai.com/api/pricing/"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.7,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "GPQA",
+          "score": 53.6,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MATH",
+          "score": 76.6,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "HumanEval",
+          "score": 90.2,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.5,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "DROP",
+          "score": 83.4,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 9.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 53.6,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 32.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 72.6,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 78.0,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 38.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 69.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 72.2,
+          "source": "https://x.ai/news/grok-3"
+        }
+      ]
+    },
+    {
+      "name": "GPT-4 Turbo",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+      "release_date": "2023-11-06",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://web.archive.org/web/20231113130532/https://openai.com/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://web.archive.org/web/20231113130532/https://openai.com/pricing"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.5,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "GPQA",
+          "score": 48.0,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MATH",
+          "score": 72.6,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "HumanEval",
+          "score": 87.1,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MGSM",
+          "score": 88.5,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "DROP",
+          "score": 86.0,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MMMU",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "name": "GPT-4",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+      "release_date": "2023-03-14",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 30,
+          "source": "https://web.archive.org/web/20230330060044/https://openai.com/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 60,
+          "source": "https://web.archive.org/web/20230330060044/https://openai.com/pricing"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.4,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "GPQA",
+          "score": 35.7,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MATH",
+          "score": 42.5,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.0,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MGSM",
+          "score": 74.5,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "DROP",
+          "score": 80.9,
+          "source": "https://openai.com/index/hello-gpt-4o/"
+        },
+        {
+          "name": "MMMU",
+          "score": 25
         }
       ]
     },
 
+    {
+      "name": "Claude Haiku 4.5 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "release_date": "2025-10-15",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 73.3,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 41.0,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 83.2,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 63.6,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 83.0,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 50.7,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 96.3,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 80.7,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73.0,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 83.0,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 73.2,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4.5 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "release_date": "2025-09-29",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 63,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 77.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 50.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 70.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 61.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 100.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 55.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+            "name": "SWE-bench Verified",
+            "score": 77.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Multi-SWE-bench",
+            "score": 44.3,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "SWE-bench Multilingual",
+            "score": 68,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Terminal-Bench",
+            "score": 50,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "ArtifactsBench",
+            "score": 61.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp",
+            "score": 19.6,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp (zh)",
+            "score": 40.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "GAIA (text)",
+            "score": 71.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "xbench-DeepSearch",
+            "score": 66,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Humanity's Last Exam (with tools)",
+            "score": 24.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "τ²-Bench",
+            "score": 84.7,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "FinSearchComp-global",
+            "score": 60.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "AgentCompany",
+            "score": 41,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 71,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 45,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 57,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 66,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 33,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 19.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 32.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 100.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 74.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 88.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 65.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 87.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 95.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 79.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 44.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 24.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 42.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 53.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 44.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 85.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 77.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 68.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 44.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 64.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 30.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 51.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "release_date": "2025-09-29",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
     {
       "name": "Claude Opus 4.1",
       "company": "Anthropic",
@@ -2045,7 +2792,12 @@
           "source": "https://claude.com/pricing#api"
         },
         {
-          "name": "SWE-bench Verified",
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 59,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
           "score": 74.5,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
@@ -2060,12 +2812,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 82.4,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 56.0,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
@@ -2083,6 +2835,61 @@
           "name": "AIME 2025",
           "score": 78.0,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 46.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 63.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 44.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 50.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
         }
       ]
     },
@@ -2118,12 +2925,12 @@
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 81.4,
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 59.6,
           "source": "https://www.anthropic.com/news/claude-4"
         },
@@ -2158,12 +2965,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 81.4,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 59.6,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
@@ -2183,20 +2990,84 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "LiveCodeBench",
-          "score": 63.6
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "Terminal-Bench",
-          "score": 43.2
+          "name": "HMMT 2025",
+          "score": 58.3,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 58.3,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 8.6,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 51.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "Aider",
-          "score": 70.7
+          "score": 72.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "SWE-bench Verified",
-          "score": 67.8
+          "score": 72.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 77.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 76.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 16.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 43.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
         }
       ]
     },
@@ -2217,7 +3088,12 @@
           "source": "https://www.alibabacloud.com/help/en/model-studio/models"
         },
         {
-          "name": "SWE-bench Verified",
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
           "score": 72.7,
           "source": "https://www.anthropic.com/news/claude-4"
         },
@@ -2232,12 +3108,12 @@
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 80.5,
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 60.0,
           "source": "https://www.anthropic.com/news/claude-4"
         },
@@ -2272,12 +3148,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 80.5,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 60.0,
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
@@ -2297,12 +3173,244 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-1"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 7.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 48.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
           "name": "Aider",
-          "score": 56.4
+          "score": 61.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "SWE-bench Verified",
-          "score": 70.4
+          "score": 72.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 79.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 39.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 36.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 83.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 63.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 49.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 42.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 44.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+            "name": "SWE-bench Verified",
+            "score": 72.7,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Multi-SWE-bench",
+            "score": 35.7,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "SWE-bench Multilingual",
+            "score": 56.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Terminal-Bench",
+            "score": 36.4,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "ArtifactsBench",
+            "score": 57.3,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp",
+            "score": 12.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp (zh)",
+            "score": 29.1,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "GAIA (text)",
+            "score": 68.3,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "xbench-DeepSearch",
+            "score": 64.6,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Humanity's Last Exam (with tools)",
+            "score": 20.3,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "τ²-Bench",
+            "score": 65.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "FinSearchComp-global",
+            "score": 42,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "AgentCompany",
+            "score": 37,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 53.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 35.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 36.4,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 67.1,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 74,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 84,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 40,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 55,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 65,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 65,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 30,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         }
       ]
     },
@@ -2338,12 +3446,12 @@
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Retail",
+          "name": "τ-Bench Retail",
           "score": 81.2,
           "source": "https://www.anthropic.com/news/claude-4"
         },
         {
-          "name": "Tau-Bench Airline",
+          "name": "τ-Bench Airline",
           "score": 58.4,
           "source": "https://www.anthropic.com/news/claude-4"
         },
@@ -2364,26 +3472,442 @@
         }
       ]
     },
-
     {
-      "name": "Gemini 2.5 Pro 0506",
-      "company": "Google",
-      "url": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#performance",
-      "release_date": "2025-05-20",
+      "name": "Claude Sonnet 3.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "release_date": "2024-06-21",
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1.25,
-          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+          "score": 3,
+          "source": "https://www.anthropic.com/news/claude-3-5-sonnet"
         },
         {
           "name": "Output cost",
           "score": 15,
-          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+          "source": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 16.0,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 65.0,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 40.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 78.0,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 69.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 28.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 70.4,
+          "source": "https://x.ai/news/grok-3"
+        }
+      ]
+    },
+
+    {
+      "name": "Gemini 2.5 Pro",
+      "company": "Google",
+      "url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/",
+      "release_date": "2025-06-17",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 21.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 69.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 82.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 59.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 54.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 87.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 67.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "VideoMME",
+          "score": 86.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 83.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 83.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 89.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 25.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.0,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 21.6,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.4,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 74.2,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "USAMO 2025",
+          "score": 34.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 82.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 4.9,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.0,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 29.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 25.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 57.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 9.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 32.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 60.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 56,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 28.4,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 59.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 42.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 39.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 86,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 21.1,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 43,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 49,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 66,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 54,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 25,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro 0506",
+      "company": "Google",
+      "url": "https://blog.google/products/gemini/gemini-2-5-pro-updates/",
+      "release_date": "2025-05-06",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 75.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 72.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 50.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 87.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 79.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 65.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "VideoMME",
+          "score": 84.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR: 2-needle 128K",
+          "score": 93.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 88.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "AIME 2024",
           "score": 90.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 67.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 83.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MRCR v2: 2-needle 128K",
+          "score": 58.0,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
@@ -2482,7 +4006,7 @@
       ]
     },
     {
-      "name": "Gemini 2.5 Pro",
+      "name": "Gemini 2.5 Pro 0325",
       "company": "Google",
       "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
       "release_date": "2025-03-25",
@@ -2498,41 +4022,1251 @@
           "source": "https://ai.google.dev/gemini-api/docs/pricing"
         },
         {
-          "name": "SWE-bench Verified",
-          "score": 67.2,
-          "source": "https://www.anthropic.com/news/claude-opus-4-1"
-        },
-        {
-          "name": "Terminal-Bench",
-          "score": 25.3,
-          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+          "name": "Humanity's Last Exam",
+          "score": 18.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "GPQA Diamond",
-          "score": 86.4,
-          "source": "https://www.anthropic.com/news/claude-opus-4-1"
-        },
-        {
-          "name": "MMMU",
-          "score": 82.0,
-          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+          "score": 84.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "AIME 2025",
-          "score": 88.0,
-          "source": "https://www.anthropic.com/news/claude-opus-4-1"
-        },
-        {
-          "name": "Aider",
-          "score": 83.1
-        },
-        {
-          "name": "SWE-bench Verified",
-          "score": 49
+          "score": 86.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
           "name": "LiveCodeBench",
-          "score": 80.1
+          "score": 70.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 68.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 52.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 69.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR: 2-needle 128K",
+          "score": 94.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 89.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 2.0 Flash",
+      "company": "Google",
+      "url": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
+      "release_date": "2024-12-11",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.35,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 76.4,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 92.9,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "BIRD-SQL",
+          "score": 56.9,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 35.1,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 83.6,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "MATH",
+          "score": 89.7,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "HiddenMath",
+          "score": 63.0,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 62.1,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "MRCR: 2 needle 1M",
+          "score": 69.2,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "MMMU",
+          "score": 70.7,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 56.3,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "CoVoST2",
+          "score": 39.2,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 71.5,
+          "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
+        },
+        {
+          "name": "GPQA",
+          "score": 64.7,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 36.0,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 79.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 75.6,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 44.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 72.7,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 71.9,
+          "source": "https://x.ai/news/grok-3"
+        }
+      ]
+    },
+
+    {
+      "name": "Grok 4 Fast",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-fast",
+      "release_date": "2025-07-09",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 92.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 20.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (with tools)",
+          "score": 44.9,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "SimpleQA (with tools)",
+          "score": 95.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 66.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 51.2,
+          "source": "https://x.ai/news/grok-4-fast"
+        }
+      ]
+    },
+    {
+      "name": "Grok 4",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4",
+      "release_date": "2025-07-09",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://docs.x.ai/docs/models/grok-4-0709"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://docs.x.ai/docs/models/grok-4-0709"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 65,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 25.4,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "USAMO 2025",
+          "score": 37.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 90,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.7,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 15.9,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "BrowseComp (with tools)",
+          "score": 43.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "SimpleQA (with tools)",
+          "score": 94.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 58.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 45.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 25.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 41.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 98.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 90.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 93.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 73.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        }
+      ]
+    },
+    {
+      "name": "Grok 3 High",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "release_date": "2025-02-19",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 52.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 75.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 57.0,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 79.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 83.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 43.6,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 73.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 74.5,
+          "source": "https://x.ai/news/grok-3"
+        }
+      ]
+    },
+    {
+      "name": "Grok 3",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "release_date": "2025-02-19",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "SimpleQA (with tools)",
+          "score": 82.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 37.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 10.8,
+          "source": "https://x.ai/news/grok-4-fast"
+        }
+      ]
+    },
+    {
+      "name": "Grok 3 Mini High",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "release_date": "2025-02-19",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://docs.x.ai/docs/models/grok-3-mini"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-3-mini"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 39.7,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 66.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 41.5,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 78.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 83.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 21.7,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 69.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 74.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 74.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.0,
+          "source": "https://x.ai/news/grok-4-fast"
+        }
+      ]
+    },
+
+    {
+      "name": "DeepSeek V3.2 Exp",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250929",
+      "release_date": "2025-09-29",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.42,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+            "name": "SWE-bench Verified",
+            "score": 67.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Multi-SWE-bench",
+            "score": 30.6,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "SWE-bench Multilingual",
+            "score": 57.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Terminal-Bench",
+            "score": 37.7,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "ArtifactsBench",
+            "score": 55.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp",
+            "score": 40.1,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp (zh)",
+            "score": 47.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "GAIA (text)",
+            "score": 63.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "xbench-DeepSearch",
+            "score": 71,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Humanity's Last Exam (with tools)",
+            "score": 27.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "τ²-Bench",
+            "score": 66.7,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "FinSearchComp-global",
+            "score": 26.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "AgentCompany",
+            "score": 34,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 80,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 38,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 54,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 69,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 34,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 29,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 19.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 20.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 89.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 58.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 83.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 49.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 76.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 93.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 72.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 46.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 40.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 47.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 38.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 27.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 80.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 67.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 57.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 30.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 74.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 38.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V3.1",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250821",
+      "release_date": "2025-08-21",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.56,
+          "source": "https://api-docs.deepseek.com/news/news250821"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.68,
+          "source": "https://api-docs.deepseek.com/news/news250821"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66.0,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 54.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 29.0,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 31.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 53.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-V3-0324",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250325",
+      "release_date": "2025-03-24",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.27,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 39.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 59.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 33.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 75.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 24.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 2.5
+        },
+        {
+          "name": "Aider",
+          "score": 55.1
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 38.8
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 46.9
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek R1 0528",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "release_date": "2025-05-28",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.55,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.19,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 93.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 27.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "FRAMES",
+          "score": 83,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1930,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 91.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 79.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 86.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 14.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 27.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 82.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 0.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 17.5
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek R1",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250120",
+      "release_date": "2025-01-20",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.55,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.19,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+        },
+        {
+          "name": "Aider",
+          "score": 56.9
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 92.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 84.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 30.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "FRAMES",
+          "score": 82.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1530,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 53.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 79.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 41.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 78.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 37.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 53.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 63.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-R1-0528-Qwen3-8B",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "release_date": "2025-01-20",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.18,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.1,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 8190735360,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8190735360,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 86.0,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 76.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 61.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 61.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         }
       ]
     },
@@ -2562,6 +5296,11 @@
           "name": "Active parameters",
           "score": 22000000000,
           "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "AIME 2024",
@@ -2659,16 +5398,29 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
         },
         {
-          "name": "Terminal-Bench",
-          "score": 37.5
-        },
-        {
-          "name": "Aider",
-          "score": 61.8
-        },
-        {
           "name": "SWE-bench Verified",
-          "score": 69.6
+          "score": 69.6,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 54.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 32.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 64.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
         }
       ]
     },
@@ -2873,6 +5625,126 @@
           "name": "Active parameters",
           "score": 32000000000,
           "source": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 56,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+            "name": "SWE-bench Verified",
+            "score": 68,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Multi-SWE-bench",
+            "score": 30,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "SWE-bench Multilingual",
+            "score": 53.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Terminal-Bench",
+            "score": 40.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "ArtifactsBench",
+            "score": 59.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp",
+            "score": 45.1,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp (zh)",
+            "score": 49.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "GAIA (text)",
+            "score": 71.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "xbench-DeepSearch",
+            "score": 70,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Humanity's Last Exam (with tools)",
+            "score": 30.4,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "τ²-Bench",
+            "score": 75.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "FinSearchComp-global",
+            "score": 29.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "AgentCompany",
+            "score": 35,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 86,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 83,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 38,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 43,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 54,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 23,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         }
       ]
     },
@@ -2903,16 +5775,29 @@
           "source": "https://huggingface.co/zai-org/GLM-4.5"
         },
         {
-          "name": "Terminal-Bench",
-          "score": 37.5
-        },
-        {
           "name": "SWE-bench Verified",
-          "score": 64.2
+          "score": 64.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
         },
         {
-          "name": "LiveCodeBench",
-          "score": 72.9
+          "name": "SWE-bench Multilingual",
+          "score": 52.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 31.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 39.9,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 63.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
         }
       ]
     },
@@ -2958,7 +5843,448 @@
     },
 
     {
-      "name": "Kimi-K2-Instruct",
+      "name": "Kimi K2 Thinking",
+      "company": "Moonshot AI",
+      "url": "https://moonshotai.github.io/Kimi-K2/thinking.html",
+      "release_date": "2025-11-07",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 1029173256720,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 23.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 44.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 99.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 89.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 95.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 78.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 84.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 94.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 73.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 58.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 60.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 62.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 56.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 47.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 87.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 71.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 61.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 41.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 48.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 47.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        }
+      ]
+    },
+    {
+      "name": "Kimi K2 0905",
+      "company": "Moonshot AI",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
+      "release_date": "2025-09-05",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 1029173256720,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 55.9,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 33.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 44.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 66.6,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+            "name": "SWE-bench Verified",
+            "score": 69.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Multi-SWE-bench",
+            "score": 33.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "SWE-bench Multilingual",
+            "score": 55.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Terminal-Bench",
+            "score": 44.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "ArtifactsBench",
+            "score": 54.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp",
+            "score": 14.1,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "BrowseComp (zh)",
+            "score": 28.8,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "GAIA (text)",
+            "score": 60.2,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "xbench-DeepSearch",
+            "score": 61,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "Humanity's Last Exam (with tools)",
+            "score": 26.9,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "τ²-Bench",
+            "score": 70.3,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "FinSearchComp-global",
+            "score": 29.5,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+            "name": "AgentCompany",
+            "score": 30,
+            "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 57,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 82,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 77,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 31,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 42,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 52,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 73,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 23,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 7.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 21.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 51.0,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 75.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 38.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 70.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 45.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 74.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 81.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 92.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 62.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 43.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 7.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 22.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 25.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 10.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 58.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 69.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 55.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 33.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 30.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 56.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 25.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 44.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        }
+      ]
+    },
+    {
+      "name": "Kimi K2",
       "company": "Moonshot AI",
       "url": "https://moonshotai.github.io/Kimi-K2/",
       "release_date": "2025-07-11",
@@ -2984,20 +6310,178 @@
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
         },
         {
-          "name": "Terminal-Bench",
-          "score": 25
+          "name": "SWE-bench Verified",
+          "score": 65.8,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
         },
         {
-          "name": "Aider",
-          "score": 59.1
+          "name": "SWE-bench Multilingual",
+          "score": 47.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 31.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 61.9,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        }
+      ]
+    },
+
+    {
+      "name": "MiniMax M2",
+      "company": "MiniMax",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
+      "release_date": "2025-10-27",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.2,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 240418294272,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Active parameters",
+          "score": 10000000000,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 61,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "SWE-bench Verified",
-          "score": 65.8
+          "score": 69.4,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 36.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 56.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 46.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 66.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 44,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 48.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 75.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 72,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 31.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 77.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 65.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 36,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 82,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 12.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
           "name": "LiveCodeBench",
-          "score": 53.7
+          "score": 83,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 36,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 72,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 61,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 87,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 24,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         }
       ]
     },
@@ -3081,6 +6565,11 @@
           "name": "Output cost",
           "score": 5,
           "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "AIME 2024",
