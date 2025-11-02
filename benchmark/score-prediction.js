@@ -135,9 +135,10 @@ function computeMSE(benchmarks, numTests = 100, verbose = false) {
   }
 
   // For each test score, remove the entire benchmark object, predict it, and calculate error
-  for (let i = 0; i < testScores.length; i++) {
+  logProgress('Running tests', testScores.length, i => {
     const testScore = testScores[i];
 
+    //logProgress('Running tests', i+1, actualNumTests);
     if (verbose) {
       console.error(`Test ${i + 1}/${actualNumTests}: ${testScore.modelName} - ${testScore.benchmarkName} (true score: ${testScore.trueScore})`);
     }
@@ -189,7 +190,7 @@ function computeMSE(benchmarks, numTests = 100, verbose = false) {
     } else {
       console.warn(`  Warning: Could not predict score for ${testScore.modelName} - ${testScore.benchmarkName}`);
     }
-  }
+  });
 
   // Calculate and return the Mean Squared Error
   if (squaredErrors.length === 0) {
@@ -200,6 +201,24 @@ function computeMSE(benchmarks, numTests = 100, verbose = false) {
 
   return mse;
 }
+
+function logProgress(msg, total, exec) {
+  const eraseLine = '\u001b[2K\r';
+  let avgDuration = 0;  // in milliseconds
+  for (let i = 0; i < total; i++) {
+    const remainingSecs = avgDuration / 1000 * (total-i);
+    process.stderr.write(eraseLine);
+    process.stderr.write(`${msg} ${i + 1}/${total} ETA ${(remainingSecs/60).toFixed(3)} min\r`);
+    const startTime = Date.now();
+    exec(i);
+    const duration = Date.now() - startTime;
+    if (i === 0) { avgDuration = duration; }
+    // Exponential moving average with α=1/32
+    avgDuration = (avgDuration * 31 + duration) / 32;
+  }
+  process.stderr.write(eraseLine);
+}
+
 
 class SFC32 {
   seed(seed) {
