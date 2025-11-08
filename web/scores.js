@@ -7,6 +7,8 @@ let state = {
   models: [],
   // List of string - all unique benchmark names across all models
   benchmarkNames: [],
+  // Object mapping benchmark names to { mean: number, stddev: number }
+  benchmarkStats: {},
   // List of { name: string, criteria: Array<{ bench: string, weight: number }> }
   metrics: [],
   // number | null - index of currently selected metric in metrics array
@@ -883,7 +885,41 @@ function gatherBenchmarkNames(models) {
   return Array.from(benchSet).sort();
 }
 
+// Compute mean and standard deviation for each benchmark across all models
+function computeBenchmarkStats(models, benchmarkNames) {
+  const stats = {};
+
+  benchmarkNames.forEach(benchmarkName => {
+    const scores = [];
+
+    // Collect all scores for this benchmark
+    models.forEach(model => {
+      const entry = model.benchmarks[benchmarkName];
+      if (entry && typeof entry.score === 'number') {
+        scores.push(entry.score);
+      }
+    });
+
+    if (scores.length > 0) {
+      // Compute mean
+      const mean = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+
+      // Compute standard deviation
+      const variance = scores.reduce((sum, score) => sum + Math.pow(score - mean, 2), 0) / scores.length;
+      const stddev = Math.sqrt(variance);
+
+      stats[benchmarkName] = { mean, stddev };
+    } else {
+      // If no scores available, use default values
+      stats[benchmarkName] = { mean: 0, stddev: 1 };
+    }
+  });
+
+  return stats;
+}
+
 // Compute weighted average score for a single model based on current criteria.
+// Uses normalized scores (z-scores) to account for different benchmark ranges.
 // - modelData: { bench: { score: number, stddev: number } }
 // - sortingCriteria: array of { bench: string, weight: number }
 function computeWeightedScore(modelData, sortingCriteria) {
@@ -893,8 +929,17 @@ function computeWeightedScore(modelData, sortingCriteria) {
   sortingCriteria.forEach(({ bench, weight }) => {
     const entry = modelData[bench];
     if (entry && typeof entry.score === 'number') {
-      sum += weight * entry.score;
-      weightSum += weight;
+      const stats = state.benchmarkStats[bench];
+      if (stats && stats.stddev > 0) {
+        // Normalize the score: (score - mean) / stddev
+        const normalizedScore = (entry.score - stats.mean) / stats.stddev;
+        sum += weight * normalizedScore;
+        weightSum += weight;
+      } else {
+        // Fallback to original score if no stats available
+        sum += weight * entry.score;
+        weightSum += weight;
+      }
     }
   });
   return weightSum === 0 ? 0 : sum / weightSum;
@@ -934,6 +979,8 @@ window.addEventListener('click', (event) => {
     state.models = await fetchScores();
     // List of string
     state.benchmarkNames = gatherBenchmarkNames(state.models);
+    // Compute benchmark statistics for normalization
+    state.benchmarkStats = computeBenchmarkStats(state.models, state.benchmarkNames);
 
     // Load metrics from localStorage
     loadStateFromStorage();
