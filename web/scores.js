@@ -353,8 +353,8 @@ function renderTable(state, widgets) {
           const { score, stddev, source } = entry;
           const fmtScore = Number(score.toFixed(2));
           if (stddev && stddev > 0) {
-            const twoSigma = 2 * stddev;
-            td.textContent = `${fmtScore}±${Number(twoSigma.toFixed(2))}`;
+            const ci = confidenceInterval(stddev, 0.99);
+            td.textContent = `${fmtScore}±${Number(ci.toFixed(2))}`;
           } else {
             td.textContent = `${fmtScore}`;
           }
@@ -944,6 +944,19 @@ function computeWeightedScore(modelData, sortingCriteria) {
   });
   return weightSum === 0 ? 0 : sum / weightSum;
 }
+
+function confidenceInterval(stddev, confidenceLevel) {
+  // For normal distributions, the CI is value ± σ × √2×erf^-1(ρ)
+  return stddev * Math.sqrt(2) * inverseErf(confidenceLevel);
+}
+
+function inverseErf(x) {
+  const a = 0.147; // Approximation constant
+  const ln = Math.log(1 - x * x);
+  const b = (2 / (Math.PI * a)) + (ln / 2);
+  return Math.sign(x) * Math.sqrt(Math.sqrt(b * b - ln / a) - b);
+}
+
 
 // ----- Event listeners -----
 
