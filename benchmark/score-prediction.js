@@ -90,7 +90,7 @@ function normalizeScore(score, benchmarkName, stats) {
 // @param {object} benchmarks - The benchmark data structure
 // @param {number} numTests - Number of deterministic tests to run
 // @param {boolean} verbose - Whether to show detailed output
-// @returns {number} The computed MSE on normalized scores
+// @returns {object} {mse, duration} The computed MSE on normalized scores, and the duration in seconds.
 function computeMSE(benchmarks, numTests = 100, verbose = false) {
   // Create a deep copy of the original data to avoid modifications
   const originalBenchmarks = JSON.parse(JSON.stringify(benchmarks));
@@ -135,10 +135,9 @@ function computeMSE(benchmarks, numTests = 100, verbose = false) {
   }
 
   // For each test score, remove the entire benchmark object, predict it, and calculate error
-  logProgress('Running tests', testScores.length, i => {
+  const duration = logProgress('Running tests', testScores.length, i => {
     const testScore = testScores[i];
 
-    //logProgress('Running tests', i+1, actualNumTests);
     if (verbose) {
       console.error(`Test ${i + 1}/${actualNumTests}: ${testScore.modelName} - ${testScore.benchmarkName} (true score: ${testScore.trueScore})`);
     }
@@ -199,7 +198,7 @@ function computeMSE(benchmarks, numTests = 100, verbose = false) {
 
   const mse = squaredErrors.reduce((sum, squaredError) => sum + squaredError, 0) / squaredErrors.length;
 
-  return mse;
+  return {mse, duration};
 }
 
 function logProgress(msg, total, exec) {
@@ -217,6 +216,7 @@ function logProgress(msg, total, exec) {
     avgDuration = (avgDuration * 31 + duration) / 32;
   }
   process.stderr.write(eraseLine);
+  return avgDuration / 1000;  // return duration in seconds
 }
 
 
@@ -262,11 +262,12 @@ function main(numTests = 100, verbose = false) {
     if (verbose) {
       console.error(`\nStarting MSE computation with normalized scores using ${numTests} tests...`);
     }
-    const mse = computeMSE(benchmarks, numTests, verbose);
+    const {mse, duration} = computeMSE(benchmarks, numTests, verbose);
 
     console.log(`Number of tests performed:\t${numTests}`);
     console.log(`Mean Squared Error (on normalized scores):\t${mse.toFixed(6)}`);
-    console.log(`Root Mean Squared Error:\t${Math.sqrt(mse).toFixed(6)}`);
+    console.log(`Standard Error:\t${Math.sqrt(mse).toFixed(6)}`);
+    console.log(`Duration:\t${duration.toFixed(3)} seconds`);
 
     return mse;
   } catch (error) {

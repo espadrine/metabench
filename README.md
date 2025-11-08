@@ -12,7 +12,23 @@ the mean squared error of this prediction,
 
 The known model benchmark information is located in data/models.json.
 
-We evaluate different approaches below:
+We evaluate different approaches (described in the next section) below,
+using the data snapshot 8a6870be:
+
+| Predictor               | Iterations | Standard error | Latency   |
+|-------------------------|------------|----------------|-----------|
+| Weighed Bivariate reg.  |          1 | 0.6841         |    1.925s |
+| Multiv. Gradient Desc.  |          1 | 0.6841         |    8.962s |
+| Multiv. Gradient Desc.  |         10 | 0.6841         |   10.593s |
+| Multiv. Gradient Desc.  |        100 | 0.6841         |   15.652s |
+| Multiv. Reg. w/ Bivar.  |          1 | 0.6841         |    7.296s |
+| Multiv. Reg. w/ Bivar.  |         10 |                |    0.   s |
+| Multiv. Reg. w/ Bivar.  |        100 |                |    0.   s |
+| Means                   |          1 | 0.9632         |    0.003s |
+
+Here is another, slightly worse benchmark
+using less model data (9a6257b1 snapshot), only 50 tests,
+and benchmarks with a poorer random sampling, but still representative:
 
 | Predictor               | Iterations | MSE   | Standard deviations | Latency |
 |-------------------------|------------|-------|---------------------|---------|
