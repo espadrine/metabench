@@ -4,6 +4,25 @@
   <meta charset="UTF-8" />
   <title>LLM Benchmark Aggregator & Estimator</title>
   <style>
+    :root {
+      background-color: #e4e8f2;
+    }
+    h1 {
+      display: inline-block;
+      border: 4px solid black;
+      border-radius: 10px;
+      padding: 10px 20px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #1579aa;
+      border-color: #1579aa;
+    }
+
+    /* Table */
+    #leaderboard {
+      overflow-x: scroll;
+    }
     table {
       border-collapse: collapse;
       width: 100%;
@@ -86,7 +105,7 @@
   </style>
 </head>
 <body>
-  <h1>Leaderboard</h1>
+  <h1>LLM Benchmark Aggregator & Estimator</h1>
   <div id="metric-controls" style="margin-bottom: 1em;"></div>
   
   <!-- Tab Navigation -->
