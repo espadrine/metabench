@@ -132,8 +132,8 @@ function loadStateFromStorage() {
       'BrowseComp Long Context 256k': 1,
       'MRCR: 2 needle 128k': 1,
       'MRCR: 2 needle 256k': 1,
-      'LongFact-Concepts hallucination rate': 1,
-      'LongFact-Objects hallucination rate': 1,
+      'LongFact-Concepts hallucination rate': -1,
+      'LongFact-Objects hallucination rate': -1,
       'FinSearchComp-T3': 1,
       'FinSearchComp-global': 1,
     },
@@ -607,7 +607,6 @@ function renderNewMetricForm(state, widgets) {
   });
   const weightInput = document.createElement('input');
   weightInput.type = 'number';
-  weightInput.min = '0';
   weightInput.step = 'any';
   weightInput.value = '1';
   weightInput.style.width = '60px';
@@ -724,7 +723,6 @@ function renderEditMetricForm(state, widgets) {
   });
   const weightInput = document.createElement('input');
   weightInput.type = 'number';
-  weightInput.min = '0';
   weightInput.step = 'any';
   weightInput.value = '1';
   weightInput.style.width = '60px';
