@@ -40,7 +40,7 @@
     td:first-child {
       text-align: left;
     }
-    
+
     /* Modal styles */
     .modal {
       display: none;
@@ -73,7 +73,7 @@
       color: black;
       text-decoration: none;
     }
-    
+
     /* Tab styles */
     .tab-button {
       background-color: #f0f0f0;
@@ -107,13 +107,13 @@
 <body>
   <h1>LLM Benchmark Aggregator & Estimator</h1>
   <div id="metric-controls" style="margin-bottom: 1em;"></div>
-  
+
   <!-- Tab Navigation -->
   <div id="tab-navigation">
     <button id="chart-tab" class="tab-button active">Chart</button>
     <button id="table-tab" class="tab-button">Table</button>
   </div>
-  
+
   <!-- Tab Content -->
   <div id="tab-content">
     <div id="chart-container" class="tab-panel active">
@@ -123,7 +123,7 @@
       <div id="leaderboard">Loading…</div>
     </div>
   </div>
-  
+
   <!-- New Metric Modal -->
   <div id="new-metric-modal" class="modal">
     <div class="modal-content">
@@ -132,7 +132,7 @@
       <div id="new-metric-form"></div>
     </div>
   </div>
-  
+
   <!-- Edit Metric Modal -->
   <div id="edit-metric-modal" class="modal">
     <div class="modal-content">
@@ -141,9 +141,25 @@
       <div id="edit-metric-form"></div>
     </div>
   </div>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="storage.js"></script>
   <script src="scores.js"></script>
+
+  <!-- Footer -->
+  <footer style="margin-top: 3rem; padding: 2rem 0; text-align: center; border-top: 1px solid #ddd; color: #666;">
+    <p>
+      <a href="about.html" style="color: #3498db; text-decoration: none; font-weight: bold;">
+        About this project
+      </a>
+      •
+      <a href="https://github.com/espadrine/metabench" target="_blank" style="color: #3498db; text-decoration: none;">
+        View on GitHub
+      </a>
+    </p>
+    <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+      Help us improve by contributing benchmark data!
+    </p>
+  </footer>
 </body>
 </html>

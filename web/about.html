@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About - LLM Benchmark Aggregator & Estimator</title>
+  <style>
+    :root {
+      background-color: #e4e8f2;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 0.5rem;
+    }
+    h2 {
+      color: #34495e;
+      margin-top: 2rem;
+    }
+    .call-to-action {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .call-to-action h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+    .github-link {
+      display: inline-block;
+      background: #24292e;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: background-color 0.2s;
+    }
+    .github-link:hover {
+      background: #0366d6;
+    }
+    .back-link {
+      display: inline-block;
+      color: #2980b9;
+      text-decoration: none;
+      margin-bottom: 2rem;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+    .back-link:hover {
+      color: #1a5276;
+      text-decoration: underline;
+    }
+    .algorithm-steps {
+      background: #f8f9fa;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border-left: 4px solid #3498db;
+    }
+    .algorithm-steps ol {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+    .algorithm-steps li {
+      margin-bottom: 0.5rem;
+    }
+    
+    /* Feature grid */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .feature-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-left: 4px solid #3498db;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    
+    .feature-card h3 {
+      color: #2c3e50;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+    
+    .feature-card p {
+      margin: 0;
+      color: #555;
+    }
+    
+    /* Improved link styling */
+    a {
+      color: #2980b9;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    
+    a:hover {
+      color: #1a5276;
+      text-decoration: underline;
+    }
+    
+    .feature-card a {
+      color: #3498db;
+      font-weight: 500;
+    }
+    
+    .feature-card a:hover {
+      color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <a href="index.html" class="back-link">← Back to Leaderboard</a>
+
+  <h1>About MetaBench</h1>
+
+  <p>Welcome to the most comprehensive and up-to-date LLM benchmark comparison platform! We aggregate and predict performance data from leading AI models across a multitude of evaluation benchmarks, offering a unique insight into the rapidly evolving landscape of artificial intelligence.</p>
+  
+  <div class="feature-grid">
+    <div class="feature-card">
+      <h3>📊 Multi-Benchmark Analysis</h3>
+      <p>Unlike leaderboards associated with <a href='https://aider.chat/docs/leaderboards/'>a single benchmark</a>, we let you judge models across a <strong>wealth of criteria</strong>, from reasoning to coding.</p>
+    </div>
+    <div class="feature-card">
+      <h3>⚡ Instant Predictions</h3>
+      <p>While some leaderboards make you wait a week for results—either because <a href='https://lmarena.ai/'>they require a minimum number of online votes</a>, or because <a href='https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index'>they run evals for a few days</a>—we use <strong>available information</strong> to <strong>predict results immediately</strong>.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🔍 Complete Coverage</h3>
+      <p>Other platforms exclude models with missing scores, creating sparse charts. Our <strong>score prediction ensures all models</strong> appear on all criteria, and we're <strong>resilient to <a href='https://openrouter.ai/rankings'>response length bias</a></strong>.</p>
+    </div>
+  </div>
+
+  <h2>Data Sourcing</h2>
+  <p>Our data is meticulously collected from multiple sources:</p>
+  <ul>
+    <li><strong>Official Model Releases</strong> - Performance metrics from company announcements and technical papers</li>
+    <li><strong>Independent Evaluations</strong> - Results from third-party testing organizations and research institutions</li>
+    <li><strong>Community Contributions</strong> - Verified benchmark results shared by the AI research community</li>
+    <li><strong>Academic Publications</strong> - Peer-reviewed research papers and conference proceedings</li>
+  </ul>
+  <p>Each data point includes the source reference, allowing you to verify the original results. We prioritize transparency and accuracy in all our data collection efforts.</p>
+
+  <h2>The Score Prediction Algorithm</h2>
+  <p>Our sophisticated prediction system uses advanced statistical methods to estimate missing benchmark scores and provide comprehensive model comparisons:</p>
+
+  <div class="algorithm-steps">
+    <ol>
+      <li><strong>Data Normalization</strong> - We standardize scores across different benchmarks using z-scores to ensure fair comparisons</li>
+      <li><strong>Correlation Analysis</strong> - We identify relationships between different benchmarks to understand performance patterns</li>
+      <li><strong>Multivariate Regression</strong> - Using known benchmark scores, we predict missing values through sophisticated regression models</li>
+      <li><strong>Uncertainty Estimation</strong> - Each prediction includes confidence intervals to indicate reliability</li>
+      <li><strong>Weighted Scoring</strong> - Custom metrics allow you to create weighted combinations that reflect your specific priorities</li>
+    </ol>
+  </div>
+
+  <p>The algorithm continuously improves as we gather more data and refine our statistical models, providing increasingly accurate predictions over time.</p>
+
+  <div class="call-to-action">
+    <h3>🚀 Help Us Build the Ultimate LLM Benchmark Database!</h3>
+    <p>We're on a mission to create the most comprehensive and up-to-date collection of LLM benchmark data, and we need your help!</p>
+    <p><strong>Have benchmark results you'd like to contribute?</strong> Whether it's from official releases, academic papers, or your own testing, we'd love to include it in our database. Your contributions help make this tool more valuable for everyone in the AI community.</p>
+    <p>Join us in building the definitive resource for LLM performance comparison!</p>
+
+    <a href="https://github.com/espadrine/metabench" class="github-link" target="_blank">
+      📂 Contribute on GitHub
+    </a>
+  </div>
+
+  <h2>Open Source & Community</h2>
+  <p>This project is completely open source and built by the community, for the community. We believe in transparent, collaborative development of AI evaluation tools.</p>
+
+  <p><strong>Source Repository:</strong> <a href="https://github.com/espadrine/metabench" target="_blank">https://github.com/espadrine/metabench</a></p>
+
+  <p>Feel free to explore the code, report issues, suggest improvements, or contribute your own enhancements. Together, we can build better tools for understanding and advancing AI capabilities.</p>
+
+  <p style="margin-top: 3rem; text-align: center; color: #7f8c8d; font-size: 0.9rem;">
+    Built with ❤️ by the AI community
+  </p>
+</body>
+</html>
