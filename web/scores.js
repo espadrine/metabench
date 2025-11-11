@@ -80,6 +80,111 @@ function switchTab(state, widgets, tabName) {
   }
 }
 
+// Define benchmark groups (categories) and associated benchmark names.
+const categoryBenchmarks = {
+  Knowledge: {
+    'ArtificialAnalysis Intelligence Index': 1,
+    "Humanity's Last Exam": 1,
+    'SimpleQA': 1,
+    'MMLU Pro': 1,
+    'MMLU-Redux': 1,
+    'MMMLU': 1,
+    'MMMU': 1,
+    'MMMU-Pro': 1,
+    'Vibe-Eval': 1,
+  },
+  Reasoning: {
+    'ARC AGI 2': 1,
+    'CharXiv reasoning (with tools)': 1,
+    'Graphwalks bfs <128k': 1,
+    'Graphwalks parents <128k': 1,
+    'COLLIE': 1,
+    'DROP': 1,
+    'ERQA': 1,
+    'FinSearchComp-T3': 1,
+    'FinSearchComp-global': 1,
+    'IFBench': 1,
+    'LCR': 1,
+    'LOFT (128k)': 1,
+  },
+  Search: {
+    'SimpleQA (with tools)': 1,
+    'Reka Research Eval (with tools)': 1,
+    'xbench-DeepSearch': 1,
+    'Seal-0': 1,
+    "Humanity's Last Exam (with tools)": 1,
+    'FRAMES': 1,
+    'FACTS Grounding': 1,
+    'FActScore hallucination rate': -1,
+    'BrowseComp Long Context 128k': 1,
+    'BrowseComp Long Context 256k': 1,
+    'MRCR: 2 needle 128k': 1,
+    'MRCR: 2 needle 256k': 1,
+    'LongFact-Concepts hallucination rate': -1,
+    'LongFact-Objects hallucination rate': -1,
+    'FinSearchComp-T3': 1,
+    'FinSearchComp-global': 1,
+  },
+  Math: {
+    'IMO-AnswerBench': 1,
+    'USAMO 2025': 1,
+    'CNMO 2024': 1,
+    'AIME 2024': 1,
+    'AIME 2025': 1,
+    'AIME 2025 (with tools)': 1,
+    'HMMT 2025': 1,
+    'GPQA Diamond': 1,
+    'FrontierMath (with tools)': 1,
+    'MATH': 1,
+    'MGSM': 1,
+  },
+  Coding: {
+    'LiveCodeBench': 10,
+    'Codeforces': 10,
+    'SWE-bench Verified': 10,
+    'SWE-Lancer': 10,
+    'ArtifactsBench': 1,
+    'BIRD-SQL': 1,
+    'HumanEval': 1,
+    'Natural2Code': 1,
+    'OJ-Bench': 1,
+    'SciCode': 1,
+  },
+  'Agentic Coding': {
+    'Aider': 10,
+    'Terminal-Bench': 10,
+    // FIXME: need to fix prediction on Codeforces + tool.
+    //'Codeforces (with tools)': 10,
+    'SWE-bench Verified (with tools)': 10,
+    'LiveCodeBench': 1,
+    'SWE-bench Verified': 1,
+  },
+  Agentic: {
+    'τ-Bench Airline': 1,
+    'τ-Bench Retail': 1,
+    'τ²-Bench Airline': 1,
+    'τ²-Bench Retail': 1,
+    'τ²-Bench Telecom': 1,
+    'BrowseComp': 1,
+    'BrowseComp (with tools)': 1,
+    'GAIA (text)': 1,
+    'AgentCompany': 1,
+    'Finance Agent': 1,
+    'BFCL v3 MultiTurn': 1,
+    'OSWorld': 1,
+  },
+  Multimodal: {
+    'MMMU': 1,
+    'MMMU-Pro': 1,
+    'ArtifactsBench': 1,
+    'VideoMMMU': 1,
+    'VideoMME': 1,
+    'EgoSchema': 1,
+    'OSWorld': 1,
+    'Vibe-Eval': 1,
+  }
+};
+
 // ----- Storage integration -----
 
 // Save current metrics to localStorage
@@ -90,121 +195,17 @@ function saveStateToStorage() {
 // Load metrics from localStorage and update state
 function loadStateFromStorage() {
   const storedMetrics = loadMetrics();
-  const storedMetricNames = new Set(storedMetrics.map(m => m.name));
-
-  // Define benchmark groups (categories) and associated benchmark names.
-  const categoryBenchmarks = {
-    Knowledge: {
-      'ArtificialAnalysis Intelligence Index': 1,
-      "Humanity's Last Exam": 1,
-      'SimpleQA': 1,
-      'MMLU Pro': 1,
-      'MMLU-Redux': 1,
-      'MMMLU': 1,
-      'MMMU': 1,
-      'MMMU-Pro': 1,
-      'Vibe-Eval': 1,
-    },
-    Reasoning: {
-      'ARC AGI 2': 1,
-      'CharXiv reasoning (with tools)': 1,
-      'Graphwalks bfs <128k': 1,
-      'Graphwalks parents <128k': 1,
-      'COLLIE': 1,
-      'DROP': 1,
-      'ERQA': 1,
-      'FinSearchComp-T3': 1,
-      'FinSearchComp-global': 1,
-      'IFBench': 1,
-      'LCR': 1,
-      'LOFT (128k)': 1,
-    },
-    Search: {
-      'SimpleQA (with tools)': 1,
-      'Reka Research Eval (with tools)': 1,
-      'xbench-DeepSearch': 1,
-      'Seal-0': 1,
-      "Humanity's Last Exam (with tools)": 1,
-      'FRAMES': 1,
-      'FACTS Grounding': 1,
-      'FActScore hallucination rate': 1,
-      'BrowseComp Long Context 128k': 1,
-      'BrowseComp Long Context 256k': 1,
-      'MRCR: 2 needle 128k': 1,
-      'MRCR: 2 needle 256k': 1,
-      'LongFact-Concepts hallucination rate': -1,
-      'LongFact-Objects hallucination rate': -1,
-      'FinSearchComp-T3': 1,
-      'FinSearchComp-global': 1,
-    },
-    Math: {
-      'IMO-AnswerBench': 1,
-      'USAMO 2025': 1,
-      'CNMO 2024': 1,
-      'AIME 2024': 1,
-      'AIME 2025': 1,
-      'AIME 2025 (with tools)': 1,
-      'HMMT 2025': 1,
-      'GPQA Diamond': 1,
-      'FrontierMath (with tools)': 1,
-      'MATH': 1,
-      'MGSM': 1,
-    },
-    Coding: {
-      'LiveCodeBench': 10,
-      'Codeforces': 10,
-      'SWE-bench Verified': 10,
-      'SWE-Lancer': 10,
-      'ArtifactsBench': 1,
-      'BIRD-SQL': 1,
-      'HumanEval': 1,
-      'Natural2Code': 1,
-      'OJ-Bench': 1,
-      'SciCode': 1,
-    },
-    AgenticCoding: {
-      'Aider': 10,
-      'Terminal-Bench': 10,
-      // FIXME: need to fix prediction on Codeforces + tool.
-      //'Codeforces (with tools)': 10,
-      'LiveCodeBench': 1,
-      'SWE-bench Verified': 1,
-    },
-    Agentic: {
-      'τ-Bench Airline': 1,
-      'τ-Bench Retail': 1,
-      'τ²-Bench Airline': 1,
-      'τ²-Bench Retail': 1,
-      'τ²-Bench Telecom': 1,
-      'BrowseComp': 1,
-      'BrowseComp (with tools)': 1,
-      'GAIA (text)': 1,
-      'AgentCompany': 1,
-      'Finance Agent': 1,
-      'BFCL v3 MultiTurn': 1,
-      'OSWorld': 1,
-    },
-    Multimodal: {
-      'MMMU': 1,
-      'MMMU-Pro': 1,
-      'ArtifactsBench': 1,
-      'VideoMMMU': 1,
-      'VideoMME': 1,
-      'EgoSchema': 1,
-      'OSWorld': 1,
-      'Vibe-Eval': 1,
-    }
-  };
 
   // Build default metrics: one per category with equal weight for each benchmark.
+  // Always create all default metrics, regardless of what's stored.
   const defaultMetrics = Object.entries(categoryBenchmarks)
-    .filter(([category]) => !storedMetricNames.has(`${category}`))
     .map(([category, benches]) => ({
       name: `${category}`,
       criteria: Object.entries(benches).map(([bench, weight]) => ({ bench, weight }))
     }));
 
   // Combine default metrics with any stored user metrics.
+  // Default metrics always come first, followed by user metrics.
   state.metrics = [...defaultMetrics, ...storedMetrics];
   // Select the first metric (the first default) as the current metric.
   state.currentMetricIndex = state.metrics.length > 0 ? 0 : null;

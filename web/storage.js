@@ -2,13 +2,15 @@
 
 const STORAGE_KEY = 'benchmark-metrics';
 
-// Save metrics to localStorage
+// Save user metrics to localStorage (excludes default metrics)
 // - metrics: Array<{ name: string, criteria: Array<{ bench: string, weight: number }> }>
 function saveMetrics(metrics) {
   try {
-    const serialized = JSON.stringify(metrics);
+    // Filter out default metrics (those with category names)
+    const userMetrics = metrics.filter(metric => !isDefaultMetric(metric.name));
+    const serialized = JSON.stringify(userMetrics);
     localStorage.setItem(STORAGE_KEY, serialized);
-    console.log(`Saved ${metrics.length} metrics to localStorage`);
+    console.log(`Saved ${userMetrics.length} user metrics to localStorage`);
     return true;
   } catch (error) {
     console.error('Failed to save metrics to localStorage:', error);
@@ -25,32 +27,32 @@ function loadMetrics() {
       console.log('No metrics found in localStorage');
       return [];
     }
-    
+
     const metrics = JSON.parse(serialized);
-    
+
     // Validate the loaded data structure
     if (!Array.isArray(metrics)) {
       console.warn('Invalid metrics data in localStorage, resetting');
       localStorage.removeItem(STORAGE_KEY);
       return [];
     }
-    
+
     // Validate each metric object
-    const validMetrics = metrics.filter(metric => 
-      metric && 
-      typeof metric.name === 'string' && 
+    const validMetrics = metrics.filter(metric =>
+      metric &&
+      typeof metric.name === 'string' &&
       Array.isArray(metric.criteria) &&
-      metric.criteria.every(criterion => 
-        criterion && 
-        typeof criterion.bench === 'string' && 
+      metric.criteria.every(criterion =>
+        criterion &&
+        typeof criterion.bench === 'string' &&
         typeof criterion.weight === 'number'
       )
     );
-    
+
     if (validMetrics.length !== metrics.length) {
       console.warn('Some metrics were invalid and filtered out');
     }
-    
+
     console.log(`Loaded ${validMetrics.length} metrics from localStorage`);
     return validMetrics;
   } catch (error) {
@@ -80,7 +82,7 @@ function getStorageInfo() {
     if (!serialized) {
       return { exists: false, size: 0 };
     }
-    
+
     const metrics = JSON.parse(serialized);
     return {
       exists: true,
@@ -90,4 +92,20 @@ function getStorageInfo() {
   } catch (error) {
     return { exists: false, size: 0, error: error.message };
   }
+}
+
+// Helper function to identify default metrics by their category names
+function isDefaultMetric(metricName) {
+  // Get the default categories from the global categoryBenchmarks object
+  // If categoryBenchmarks is not available, fall back to hardcoded list
+  if (typeof categoryBenchmarks !== 'undefined') {
+    return Object.keys(categoryBenchmarks).includes(metricName);
+  }
+
+  // Fallback to hardcoded list if categoryBenchmarks is not available
+  const defaultCategories = [
+    'Knowledge', 'Reasoning', 'Search', 'Math', 'Coding',
+    'Agentic Coding', 'Agentic', 'Multimodal'
+  ];
+  return defaultCategories.includes(metricName);
 }
