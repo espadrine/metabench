@@ -3,11 +3,11 @@
 
 // ----- State -----
 let state = {
-  // List of { name: string, company: string, benchmarks: { bench: { score: number, stddev: number, source: string } } }
+  // List of { name: string, company: string, benchmarks: { bench: { score: number, stdDev: number, source: string } } }
   models: [],
   // List of string - all unique benchmark names across all models
   benchmarkNames: [],
-  // Object mapping benchmark names to { mean: number, stddev: number }
+  // Object mapping benchmark names to { mean: number, stdDev: number }
   benchmarkStats: {},
   // List of { name: string, criteria: Array<{ bench: string, weight: number }> }
   metrics: [],
@@ -30,17 +30,17 @@ let state = {
 // Hardcoded colors for specific companies
 function getCompanyColor(company) {
   const colorMap = {
-    'xAI': 'darkpurple',
-    'OpenAI': 'grey',
-    'Anthropic': 'brown',
-    'DeepSeek': 'navy',
-    'Google': 'green',
-    'Moonshot AI': 'darkred',
-    'Z.ai': 'black',
-    'Alibaba': 'darkgoldenrod',
-    'Mistral AI': 'orange',
-    'ServiceNow': 'pink',
-    'LG': 'pink'
+    'OpenAI': 'hsl(223, 75%, 22%)',
+    'Anthropic': 'hsl(15, 52%, 58%)',
+    'Google': 'hsl(136, 53%, 43%)',
+    'Mistral AI': 'hsl(17, 96%, 52%)',
+    'xAI': 'hsl(213, 4%, 57%)',
+    'Alibaba': 'hsl(242, 80%, 65%)',
+    'DeepSeek': 'hsl(230, 80%, 52%)',
+    'Moonshot AI': 'hsl(212, 99%, 51%)',
+    'MiniMax': 'hsl(343, 82%, 56%)',
+    'Z.ai': 'hsl(274, 100%, 50%)',
+    'Microsoft': 'hsl(199, 96%, 48%)',
   };
 
   return colorMap[company] || stringToColor(company);
@@ -55,6 +55,26 @@ function stringToColor(str) {
 
   const hue = hash % 360;
   return `hsl(${hue}, 70%, 60%)`;
+}
+
+// Calculate transparency based on release date (older = more transparent)
+function calculateTransparency(releaseDate) {
+  if (!releaseDate) return 0.7; // Default transparency for models without dates
+
+  const release = new Date(releaseDate);
+  const now = new Date();
+  const ageInMonths = (now - release) / (1000 * 60 * 60 * 24 * 30.44); // Approximate months
+  const ageInYears = (now - release) / (1000 * 60 * 60 * 24 * 365);
+
+  // Older models get more transparent (lower alpha)
+  // Models older than 24 months will be very transparent (0.2)
+  // New models (0 months) will be fully opaque (1.0)
+  const maxAgeMonths = 24;
+  //const transparency = Math.max(0.2, 1.0 - (ageInMonths / maxAgeMonths));
+  const transparency = Math.max(0.0, 1.0 - ageInYears);
+  return transparency;
+
+  return Math.min(1.0, Math.max(0.2, transparency)); // Clamp between 0.2 and 1.0
 }
 
 // ----- Tab management -----
@@ -351,10 +371,10 @@ function renderTable(state, widgets) {
       } else {
         const entry = benchmarks[columnName];
         if (entry) {
-          const { score, stddev, source } = entry;
+          const { score, stdDev, source } = entry;
           const fmtScore = Number(score.toFixed(2));
-          if (stddev && stddev > 0) {
-            const ci = confidenceInterval(stddev, 0.99);
+          if (stdDev && stdDev > 0) {
+            const ci = confidenceInterval(stdDev, 0.99);
             td.textContent = `${fmtScore}±${Number(ci.toFixed(2))}`;
           } else {
             td.textContent = `${fmtScore}`;
@@ -417,7 +437,8 @@ function renderChart(state, widgets) {
         model: model.name,
         company: model.company,
         metricScore: metricScore,
-        outputCost: outputCost
+        outputCost: outputCost,
+        releaseDate: model.release_date
       });
     }
   });
@@ -445,20 +466,47 @@ function renderChart(state, widgets) {
   state.chart = new Chart(ctx, {
     type: 'scatter',
     data: {
-      datasets: chartData.map(item => ({
-        label: item.model,
-        data: [{
-          x: item.outputCost,
-          y: item.metricScore,
-          model: item.model,
-          company: item.company
-        }],
-        backgroundColor: companyColors[item.company],
-        borderColor: companyColors[item.company],
-        borderWidth: 2,
-        pointRadius: 8,
-        pointHoverRadius: 12
-      }))
+      datasets: chartData.map(item => {
+        const baseColor = companyColors[item.company];
+        const transparency = calculateTransparency(item.releaseDate);
+
+        // Convert color to RGBA with transparency
+        let backgroundColor, borderColor;
+        if (baseColor.startsWith('hsl')) {
+          // Convert HSL to RGBA
+          const hslMatch = baseColor.match(/hsl\((\d+),\s*(\d+)%,\s*(\d+)%\)/);
+          if (hslMatch) {
+            const h = parseInt(hslMatch[1]);
+            const s = parseInt(hslMatch[2]);
+            const l = parseInt(hslMatch[3]);
+            backgroundColor = `hsla(${h}, ${s}%, ${l}%, ${transparency})`;
+            borderColor = `hsla(${h}, ${s}%, ${l}%, ${Math.min(1.0, transparency + 0.2)})`; // Slightly more opaque border
+          } else {
+            backgroundColor = baseColor;
+            borderColor = baseColor;
+          }
+        } else {
+          // For other color formats, use a simpler approach
+          backgroundColor = baseColor;
+          borderColor = baseColor;
+        }
+
+        return {
+          label: item.model,
+          data: [{
+            x: item.outputCost,
+            y: item.metricScore,
+            model: item.model,
+            company: item.company,
+            releaseDate: item.releaseDate
+          }],
+          backgroundColor: backgroundColor,
+          borderColor: borderColor,
+          borderWidth: 2,
+          pointRadius: 8,
+          pointHoverRadius: 12
+        };
+      })
     },
     options: {
       responsive: true,
@@ -484,12 +532,21 @@ function renderChart(state, widgets) {
           callbacks: {
             label: function(context) {
               const point = context.raw;
-              return [
+              const tooltipLines = [
                 `Model: ${point.model}`,
                 `Company: ${point.company}`,
                 `Output Cost: ${point.x.toFixed(2)}/M tokens`,
                 `${metric.name}: ${point.y.toFixed(2)}`
               ];
+
+              if (point.releaseDate) {
+                const releaseDate = new Date(point.releaseDate);
+                const now = new Date();
+                const ageInMonths = Math.round((now - releaseDate) / (1000 * 60 * 60 * 24 * 30.44));
+                tooltipLines.push(`Released: ${releaseDate.toLocaleDateString()} (${ageInMonths} months ago)`);
+              }
+
+              return tooltipLines;
             }
           }
         },
@@ -851,21 +908,25 @@ function removeEditMetricCriterion(state, widgets, idx) {
 
 // ----- Utility functions -----
 
-// Returns a list of models { name, company, benchmarks: { bench: { score, stddev } } }.
+// Returns the raw models data including release_date and other fields.
 async function fetchScores() {
   // The HTML file lives in web/, the JSON is now in the sibling data/
   // directory and has the structure:
-  // { models: [ { name, company, benchmarks: [ { name, score, source, stdDev } ] } ] }
+  // { models: [ { name, company, url, release_date, benchmarks: [ { name, score, source, stdDev } ] } ] }
   const response = await fetch('./models-prediction.json');
   if (!response.ok) throw new Error(`Failed to load JSON: ${response.status}`);
   const data = await response.json();
+
+  // Return the raw models data, but convert benchmarks array to object format
   return data.models.map(model => ({
     name: model.name,
     company: model.company,
+    url: model.url,
+    release_date: model.release_date,
     benchmarks: model.benchmarks.reduce((acc, b) => {
       acc[b.name] = {
         score: b.score,
-        stddev: b.stdDev,
+        stdDev: b.stdDev,
         source: b.source,
       };
       return acc;
@@ -874,7 +935,7 @@ async function fetchScores() {
 }
 
 // Determine the full set of benchmark names across all models.
-// - models: list of { name: model name, benchmarks: { bench: { score: number, stddev: number } } }
+// - models: list of { name: model name, benchmarks: { bench: { score: number, stdDev: number } } }
 // Returns a sorted array of benchmark names.
 function gatherBenchmarkNames(models) {
   const benchSet = new Set();
@@ -905,12 +966,12 @@ function computeBenchmarkStats(models, benchmarkNames) {
 
       // Compute standard deviation
       const variance = scores.reduce((sum, score) => sum + Math.pow(score - mean, 2), 0) / scores.length;
-      const stddev = Math.sqrt(variance);
+      const stdDev = Math.sqrt(variance);
 
-      stats[benchmarkName] = { mean, stddev };
+      stats[benchmarkName] = { mean, stdDev };
     } else {
       // If no scores available, use default values
-      stats[benchmarkName] = { mean: 0, stddev: 1 };
+      stats[benchmarkName] = { mean: 0, stdDev: 1 };
     }
   });
 
@@ -919,7 +980,7 @@ function computeBenchmarkStats(models, benchmarkNames) {
 
 // Compute weighted average score for a single model based on current criteria.
 // Uses normalized scores (z-scores) to account for different benchmark ranges.
-// - modelData: { bench: { score: number, stddev: number } }
+// - modelData: { bench: { score: number, stdDev: number } }
 // - sortingCriteria: array of { bench: string, weight: number }
 function computeWeightedScore(modelData, sortingCriteria) {
   if (sortingCriteria.length === 0) return 0;
@@ -929,9 +990,9 @@ function computeWeightedScore(modelData, sortingCriteria) {
     const entry = modelData[bench];
     if (entry && typeof entry.score === 'number') {
       const stats = state.benchmarkStats[bench];
-      if (stats && stats.stddev > 0) {
-        // Normalize the score: (score - mean) / stddev
-        const normalizedScore = (entry.score - stats.mean) / stats.stddev;
+      if (stats && stats.stdDev > 0) {
+        // Normalize the score: (score - mean) / stdDev
+        const normalizedScore = (entry.score - stats.mean) / stats.stdDev;
         sum += weight * normalizedScore;
         weightSum += weight;
       } else {
@@ -944,9 +1005,9 @@ function computeWeightedScore(modelData, sortingCriteria) {
   return weightSum === 0 ? 0 : sum / weightSum;
 }
 
-function confidenceInterval(stddev, confidenceLevel) {
+function confidenceInterval(stdDev, confidenceLevel) {
   // For normal distributions, the CI is value ± σ × √2×erf^-1(ρ)
-  return stddev * Math.sqrt(2) * inverseErf(confidenceLevel);
+  return stdDev * Math.sqrt(2) * inverseErf(confidenceLevel);
 }
 
 function inverseErf(x) {
@@ -987,7 +1048,7 @@ window.addEventListener('click', (event) => {
   }
 
   try {
-    // List of { name, benchmarks: { score: number, stddev: number } }
+    // List of { name, benchmarks: { score: number, stdDev: number } }
     state.models = await fetchScores();
     // List of string
     state.benchmarkNames = gatherBenchmarkNames(state.models);
