@@ -642,7 +642,7 @@
       "name": "GPT-5 High",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5/",
-      "release_date": "2025-01-20",
+      "release_date": "2025-08-07",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -1280,7 +1280,7 @@
       "name": "GPT-5 Medium",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5/",
-      "release_date": "2025-01-20",
+      "release_date": "2025-08-07",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -1918,7 +1918,7 @@
       "name": "GPT-5 Low",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5/",
-      "release_date": "2025-01-20",
+      "release_date": "2025-08-07",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -2556,7 +2556,7 @@
       "name": "GPT-5 Minimal",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5/",
-      "release_date": "2025-01-20",
+      "release_date": "2025-08-07",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -3194,7 +3194,7 @@
       "name": "GPT-5 mini High",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5/",
-      "release_date": "2025-01-20",
+      "release_date": "2025-08-07",
       "benchmarks": [
         {
           "name": "Input cost",
@@ -3832,7 +3832,7 @@
       "name": "GPT-5 nano High",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5/",
-      "release_date": "2025-01-20",
+      "release_date": "2025-08-07",
       "benchmarks": [
         {
           "name": "Input cost",
