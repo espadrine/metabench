@@ -5,11 +5,45 @@ const {
   trainModelForBenchmark,
   gaussianElimination,
   predictMissingScore,
-  computeMeans,
   listBenchmarkNames,
   deepCopy,
   invertMatrix,
-} = require('../lib/score-prediction');
+} = require('../lib/score-prediction-multivariate');
+
+// computeMeans is not available in multivariate, using a simple implementation
+function computeMeans(benchmarks) {
+  const means = {};
+  const counts = {};
+  
+  // Handle both data structures: models array and modelFromName object
+  if (benchmarks.models) {
+    // Original data structure: { models: [...] }
+    benchmarks.models.forEach(model => {
+      model.benchmarks.forEach(bench => {
+        if (bench.score !== null && typeof bench.score === 'number') {
+          means[bench.name] = (means[bench.name] || 0) + bench.score;
+          counts[bench.name] = (counts[bench.name] || 0) + 1;
+        }
+      });
+    });
+  } else if (benchmarks.modelFromName) {
+    // New data structure: { modelFromName: { ... } }
+    Object.values(benchmarks.modelFromName).forEach(model => {
+      Object.values(model).forEach(bench => {
+        if (bench.score !== null && typeof bench.score === 'number') {
+          means[bench.name] = (means[bench.name] || 0) + bench.score;
+          counts[bench.name] = (counts[bench.name] || 0) + 1;
+        }
+      });
+    });
+  }
+  
+  Object.keys(means).forEach(bench => {
+    means[bench] = means[bench] / counts[bench];
+  });
+  
+  return means;
+}
 
 // ---------- estimateMissingBenchmarks ----------
 test('estimateMissingBenchmarks - basic functionality', () => {
