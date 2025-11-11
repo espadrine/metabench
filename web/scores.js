@@ -57,6 +57,135 @@ function stringToColor(str) {
   return `hsl(${hue}, 70%, 60%)`;
 }
 
+// Function to build company colors object for chart
+function buildCompanyColors(state, metric) {
+  const companyColors = {};
+  const companies = new Set();
+
+  // Collect companies that have valid data for the current metric
+  state.models.forEach(model => {
+    const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
+    const outputCost = model.benchmarks['Output cost']?.score;
+
+    if (typeof metricScore === 'number' && typeof outputCost === 'number') {
+      companies.add(model.company);
+    }
+  });
+
+  // Assign colors to companies
+  Array.from(companies).forEach(company => {
+    companyColors[company] = getCompanyColor(company);
+  });
+
+  return companyColors;
+}
+
+// Function to build chart datasets from state and metric
+function buildChartDatasets(state, metric, companyColors) {
+  const datasets = [];
+
+  state.models.forEach(model => {
+    const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
+    const outputCost = model.benchmarks['Output cost']?.score;
+
+    if (typeof metricScore === 'number' && typeof outputCost === 'number') {
+      let backgroundColor, borderColor;
+      
+      if (Object.keys(companyColors).length > 0) {
+        // If company colors are provided, use them with transparency
+        const baseColor = companyColors[model.company];
+        const transparency = calculateTransparency(model.release_date);
+
+        // Convert color to RGBA with transparency
+        if (baseColor.startsWith('hsl')) {
+          // Convert HSL to RGBA
+          const hslMatch = baseColor.match(/hsl\((\d+),\s*(\d+)%,\s*(\d+)%\)/);
+          if (hslMatch) {
+            const h = parseInt(hslMatch[1]);
+            const s = parseInt(hslMatch[2]);
+            const l = parseInt(hslMatch[3]);
+            backgroundColor = `hsla(${h}, ${s}%, ${l}%, ${transparency})`;
+            borderColor = `hsla(${h}, ${s}%, ${l}%, ${Math.min(1.0, transparency + 0.2)})`; // Slightly more opaque border
+          } else {
+            backgroundColor = baseColor;
+            borderColor = baseColor;
+          }
+        } else {
+          // For other color formats, use a simpler approach
+          backgroundColor = baseColor;
+          borderColor = baseColor;
+        }
+      } else {
+        // If no company colors provided, use default colors
+        backgroundColor = 'rgba(54, 162, 235, 0.7)';
+        borderColor = 'rgba(54, 162, 235, 0.9)';
+      }
+
+      datasets.push({
+        label: model.name,
+        data: [{
+          x: outputCost,
+          y: metricScore,
+          model: model.name,
+          company: model.company,
+          releaseDate: model.release_date
+        }],
+        backgroundColor: backgroundColor,
+        borderColor: borderColor,
+        borderWidth: 2,
+        pointRadius: 8,
+        pointHoverRadius: 12
+      });
+    }
+  });
+
+  return datasets;
+}
+
+// Function to generate legend labels with company colors and ordered by best score
+function generateLegendLabels(state, companyColors, metric) {
+  const companies = {};
+  const companyBestScores = {};
+  
+  // First pass: collect companies and compute their best scores
+  state.models.forEach(model => {
+    const company = model.company;
+    const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
+    
+    if (typeof metricScore === 'number') {
+      if (!companies[company]) {
+        companies[company] = {
+          text: company,
+          fillStyle: companyColors[company],
+          strokeStyle: companyColors[company],
+          lineWidth: 2,
+          hidden: false,
+          index: Object.keys(companies).length
+        };
+        companyBestScores[company] = metricScore;
+      } else {
+        // Update best score if current model has a higher score
+        companyBestScores[company] = Math.max(companyBestScores[company], metricScore);
+      }
+    }
+  });
+  
+  // Add best scores to company objects
+  Object.keys(companies).forEach(company => {
+    companies[company].bestScore = companyBestScores[company];
+  });
+  
+  // Sort companies by best score (descending)
+  const sortedCompanies = Object.values(companies).sort((a, b) => b.bestScore - a.bestScore);
+  
+  // Update indices after sorting
+  sortedCompanies.forEach((company, index) => {
+    company.index = index;
+  });
+  
+  return sortedCompanies;
+}
+
 // Calculate transparency based on release date (older = more transparent)
 function calculateTransparency(releaseDate) {
   if (!releaseDate) return 0.7; // Default transparency for models without dates
@@ -422,28 +551,14 @@ function renderChart(state, widgets) {
     return;
   }
 
-  // Prepare data for chart
-  const chartData = [];
-  const companies = new Set();
+  // Group data by company for coloring
+  // Build company colors for chart
+  const companyColors = buildCompanyColors(state, metric);
 
-  state.models.forEach(model => {
-    const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
-    const outputCost = model.benchmarks['Output cost']?.score;
+  // Build chart datasets with company colors
+  const datasets = buildChartDatasets(state, metric, companyColors);
 
-    if (typeof metricScore === 'number' && typeof outputCost === 'number') {
-      companies.add(model.company);
-
-      chartData.push({
-        model: model.name,
-        company: model.company,
-        metricScore: metricScore,
-        outputCost: outputCost,
-        releaseDate: model.release_date
-      });
-    }
-  });
-
-  if (chartData.length === 0) {
+  if (datasets.length === 0) {
     widgets.chartElement.innerHTML = '<p>No data available for chart.</p>';
     return;
   }
@@ -455,58 +570,12 @@ function renderChart(state, widgets) {
   canvas.style.height = '500px';
   widgets.chartElement.appendChild(canvas);
 
-  // Group data by company for coloring
-  const companyColors = {};
-  Array.from(companies).forEach(company => {
-    companyColors[company] = getCompanyColor(company);
-  });
-
   // Create chart
   const ctx = canvas.getContext('2d');
   state.chart = new Chart(ctx, {
     type: 'scatter',
     data: {
-      datasets: chartData.map(item => {
-        const baseColor = companyColors[item.company];
-        const transparency = calculateTransparency(item.releaseDate);
-
-        // Convert color to RGBA with transparency
-        let backgroundColor, borderColor;
-        if (baseColor.startsWith('hsl')) {
-          // Convert HSL to RGBA
-          const hslMatch = baseColor.match(/hsl\((\d+),\s*(\d+)%,\s*(\d+)%\)/);
-          if (hslMatch) {
-            const h = parseInt(hslMatch[1]);
-            const s = parseInt(hslMatch[2]);
-            const l = parseInt(hslMatch[3]);
-            backgroundColor = `hsla(${h}, ${s}%, ${l}%, ${transparency})`;
-            borderColor = `hsla(${h}, ${s}%, ${l}%, ${Math.min(1.0, transparency + 0.2)})`; // Slightly more opaque border
-          } else {
-            backgroundColor = baseColor;
-            borderColor = baseColor;
-          }
-        } else {
-          // For other color formats, use a simpler approach
-          backgroundColor = baseColor;
-          borderColor = baseColor;
-        }
-
-        return {
-          label: item.model,
-          data: [{
-            x: item.outputCost,
-            y: item.metricScore,
-            model: item.model,
-            company: item.company,
-            releaseDate: item.releaseDate
-          }],
-          backgroundColor: backgroundColor,
-          borderColor: borderColor,
-          borderWidth: 2,
-          pointRadius: 8,
-          pointHoverRadius: 12
-        };
-      })
+      datasets: datasets
     },
     options: {
       responsive: true,
@@ -555,21 +624,7 @@ function renderChart(state, widgets) {
           position: 'right',
           labels: {
             generateLabels: function(chart) {
-              const companies = {};
-              chart.data.datasets.forEach(dataset => {
-                const company = dataset.data[0].company;
-                if (!companies[company]) {
-                  companies[company] = {
-                    text: company,
-                    fillStyle: dataset.backgroundColor,
-                    strokeStyle: dataset.borderColor,
-                    lineWidth: 2,
-                    hidden: false,
-                    index: Object.keys(companies).length
-                  };
-                }
-              });
-              return Object.values(companies);
+              return generateLegendLabels(state, companyColors, metric);
             }
           }
         }
