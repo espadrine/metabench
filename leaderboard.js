@@ -50,12 +50,50 @@ function printTable(benchmarks) {
   console.log(table.toString());
 }
 
+// Calculate "Cost of 1K responses" benchmark
+// Formula: (ArtificialAnalysis Consumed Tokens (Millions) / 7.3) * (119 / 1000)
+function addCostOf1KResponses(benchmarks) {
+  // Mistral Small 3.2 tokens consumed by Artificial Analysis benchmarks, in millions
+  const BASELINE_AA_TOKEN_CONSUMPTION = 7.3;
+  // Tokens from sample question "What is the unit of cross-entropy?" given to Mistral Small 3.2
+  const BASELINE_TOKENS_PER_RESPONSE = 119;
+  const RESPONSES_PER_K = 1000; // 1K responses
+
+  benchmarks.models.forEach(model => {
+    const costPerMillionTokens = model.benchmarks.find(b =>
+      b.name === 'Output cost'
+    );
+    // Find the ArtificialAnalysis Consumed Tokens (Millions) benchmark
+    const aaTokenConsumption = model.benchmarks.find(b =>
+      b.name === 'ArtificialAnalysis Consumed Tokens (Millions)'
+    );
+
+    if (aaTokenConsumption && typeof aaTokenConsumption.score === 'number') {
+      const costPerToken = costPerMillionTokens.score / 1e6;
+      const tokensPerResponse = aaTokenConsumption.score / BASELINE_AA_TOKEN_CONSUMPTION * BASELINE_TOKENS_PER_RESPONSE;
+      // Calculate expected cost per responses.
+      const costPerResponse = costPerToken * tokensPerResponse;
+
+      // Add the new benchmark
+      model.benchmarks.push({
+        name: 'Cost of 1K responses',
+        score: costPerResponse * 1e3,
+        source: 'Calculated from ArtificialAnalysis Consumed Tokens',
+        stdDev: 0
+      });
+    }
+  });
+
+  return benchmarks;
+}
+
 // Main execution: read scores, impute missing benchmarks, and print each model
 if (require.main === module) {
   const raw = loadScoresSync();
   const benchmarks = estimateMissingBenchmarks(raw);
-  //printTable(benchmarks);
+  const benchmarksWithCost = addCostOf1KResponses(benchmarks);
+  //printTable(benchmarksWithCost);
 
   const outputPath = path.join(__dirname, 'data', 'models-prediction.json');
-  writePredictionsOutput(benchmarks, outputPath);
+  writePredictionsOutput(benchmarksWithCost, outputPath);
 }

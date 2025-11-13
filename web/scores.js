@@ -65,9 +65,9 @@ function buildCompanyColors(state, metric) {
   // Collect companies that have valid data for the current metric
   state.models.forEach(model => {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
-    const outputCost = model.benchmarks['Output cost']?.score;
+    const costOf1KResponses = model.benchmarks['Cost of 1K responses']?.score;
 
-    if (typeof metricScore === 'number' && typeof outputCost === 'number') {
+    if (typeof metricScore === 'number' && typeof costOf1KResponses === 'number') {
       companies.add(model.company);
     }
   });
@@ -86,9 +86,9 @@ function buildChartDatasets(state, metric, companyColors) {
 
   state.models.forEach(model => {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
-    const outputCost = model.benchmarks['Output cost']?.score;
+    const costOf1KResponses = model.benchmarks['Cost of 1K responses']?.score;
 
-    if (typeof metricScore === 'number' && typeof outputCost === 'number') {
+    if (typeof metricScore === 'number' && typeof costOf1KResponses === 'number') {
       let backgroundColor, borderColor;
       
       if (Object.keys(companyColors).length > 0) {
@@ -124,11 +124,12 @@ function buildChartDatasets(state, metric, companyColors) {
       datasets.push({
         label: model.name,
         data: [{
-          x: outputCost,
+          x: costOf1KResponses,
           y: metricScore,
           model: model.name,
           company: model.company,
-          releaseDate: model.release_date
+          releaseDate: model.release_date,
+          outputCost: model.benchmarks['Output cost']?.score
         }],
         backgroundColor: backgroundColor,
         borderColor: borderColor,
@@ -584,7 +585,7 @@ function renderChart(state, widgets) {
         x: {
           title: {
             display: true,
-            text: 'Output Cost ($/M tokens)'
+            text: 'Cost of 1K Responses ($)'
           },
           type: 'logarithmic',
           position: 'bottom'
@@ -604,7 +605,8 @@ function renderChart(state, widgets) {
               const tooltipLines = [
                 `Model: ${point.model}`,
                 `Company: ${point.company}`,
-                `Output Cost: ${point.x.toFixed(2)}/M tokens`,
+                `Cost of 1K Responses: $${point.x.toFixed(2)}`,
+                `Output Cost: $${point.outputCost?.toFixed(2) || 'N/A'}/M tokens`,
                 `${metric.name}: ${point.y.toFixed(2)}`
               ];
 
