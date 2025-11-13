@@ -56,11 +56,15 @@ function addCostOf1KResponses(benchmarks) {
   // Mistral Small 3.2 tokens consumed by Artificial Analysis benchmarks, in millions
   const BASELINE_AA_TOKEN_CONSUMPTION = 7.3;
   // Tokens from sample question "What is the unit of cross-entropy?" given to Mistral Small 3.2
-  const BASELINE_TOKENS_PER_RESPONSE = 119;
+  const BASELINE_TOKENS_PER_INPUT = 11;
+  const BASELINE_TOKENS_PER_OUTPUT = 119;
   const RESPONSES_PER_K = 1000; // 1K responses
 
   benchmarks.models.forEach(model => {
-    const costPerMillionTokens = model.benchmarks.find(b =>
+    const inputCostPerMillionTokens = model.benchmarks.find(b =>
+      b.name === 'Input cost'
+    );
+    const outputCostPerMillionTokens = model.benchmarks.find(b =>
       b.name === 'Output cost'
     );
     // Find the ArtificialAnalysis Consumed Tokens (Millions) benchmark
@@ -69,10 +73,11 @@ function addCostOf1KResponses(benchmarks) {
     );
 
     if (aaTokenConsumption && typeof aaTokenConsumption.score === 'number') {
-      const costPerToken = costPerMillionTokens.score / 1e6;
-      const tokensPerResponse = aaTokenConsumption.score / BASELINE_AA_TOKEN_CONSUMPTION * BASELINE_TOKENS_PER_RESPONSE;
+      const costPerOutputToken = outputCostPerMillionTokens.score / 1e6;
+      const costPerInputToken = inputCostPerMillionTokens.score / 1e6;
+      const tokensPerResponse = aaTokenConsumption.score / BASELINE_AA_TOKEN_CONSUMPTION * BASELINE_TOKENS_PER_OUTPUT;
       // Calculate expected cost per responses.
-      const costPerResponse = costPerToken * tokensPerResponse;
+      const costPerResponse = costPerInputToken * BASELINE_TOKENS_PER_INPUT + costPerOutputToken * tokensPerResponse;
 
       // Add the new benchmark
       model.benchmarks.push({
