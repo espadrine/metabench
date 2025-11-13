@@ -22,7 +22,9 @@ let state = {
   // string - current active tab ('chart' or 'table')
   currentTab: 'chart',
   // Chart.js instance
-  chart: null
+  chart: null,
+  // string - current X-axis metric
+  xAxisMetric: 'Cost of 1K responses'
 };
 
 // ----- Utility functions -----
@@ -46,6 +48,19 @@ function getCompanyColor(company) {
   return colorMap[company] || stringToColor(company);
 }
 
+// Get display label for X-axis metric
+function getXAxisLabel(metricName) {
+  const labelMap = {
+    'Cost of 1K responses': 'Cost of 1K Responses ($)',
+    'Active parameters': 'Active Parameters',
+    'Input cost': 'Input Cost ($/M tokens)',
+    'Output cost': 'Output Cost ($/M tokens)',
+    'Size': 'Size (bytes)',
+    'ArtificialAnalysis Consumed Tokens (Millions)': 'ArtificialAnalysis Consumed Tokens (Millions)'
+  };
+  return labelMap[metricName] || metricName;
+}
+
 // Generate a consistent color from a string (company name) - fallback for unknown companies
 function stringToColor(str) {
   let hash = 0;
@@ -65,9 +80,9 @@ function buildCompanyColors(state, metric) {
   // Collect companies that have valid data for the current metric
   state.models.forEach(model => {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
-    const costOf1KResponses = model.benchmarks['Cost of 1K responses']?.score;
+    const xAxisValue = model.benchmarks[state.xAxisMetric]?.score;
 
-    if (typeof metricScore === 'number' && typeof costOf1KResponses === 'number') {
+    if (typeof metricScore === 'number' && typeof xAxisValue === 'number') {
       companies.add(model.company);
     }
   });
@@ -86,9 +101,9 @@ function buildChartDatasets(state, metric, companyColors) {
 
   state.models.forEach(model => {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
-    const costOf1KResponses = model.benchmarks['Cost of 1K responses']?.score;
+    const xAxisValue = model.benchmarks[state.xAxisMetric]?.score;
 
-    if (typeof metricScore === 'number' && typeof costOf1KResponses === 'number') {
+    if (typeof metricScore === 'number' && typeof xAxisValue === 'number') {
       let backgroundColor, borderColor;
       
       if (Object.keys(companyColors).length > 0) {
@@ -124,7 +139,7 @@ function buildChartDatasets(state, metric, companyColors) {
       datasets.push({
         label: model.name,
         data: [{
-          x: costOf1KResponses,
+          x: xAxisValue,
           y: metricScore,
           model: model.name,
           company: model.company,
@@ -376,8 +391,17 @@ const widgets = {
   tableTab: document.getElementById('table-tab'),
   chartContainer: document.getElementById('chart-container'),
   tableContainer: document.getElementById('table-container'),
+  xAxisSelect: document.getElementById('x-axis-select'),
   chartElement: document.getElementById('chart')
 };
+
+// Add event listener for X-axis dropdown
+if (widgets.xAxisSelect) {
+  widgets.xAxisSelect.addEventListener('change', (e) => {
+    state.xAxisMetric = e.target.value;
+    render(state, widgets);
+  });
+}
 
 // ----- Rendering -----
 
@@ -546,9 +570,9 @@ function renderChart(state, widgets) {
 
   const metric = state.metrics[state.currentMetricIndex];
 
-  // Check if Output cost benchmark exists
-  if (!state.benchmarkNames.includes('Output cost')) {
-    widgets.chartElement.innerHTML = '<p>Output cost benchmark not found in data.</p>';
+  // Check if selected X-axis benchmark exists
+  if (!state.benchmarkNames.includes(state.xAxisMetric)) {
+    widgets.chartElement.innerHTML = `<p>${state.xAxisMetric} benchmark not found in data.</p>`;
     return;
   }
 
@@ -585,7 +609,7 @@ function renderChart(state, widgets) {
         x: {
           title: {
             display: true,
-            text: 'Cost of 1K Responses ($)'
+            text: getXAxisLabel(state.xAxisMetric)
           },
           type: 'logarithmic',
           position: 'bottom'
@@ -602,10 +626,11 @@ function renderChart(state, widgets) {
           callbacks: {
             label: function(context) {
               const point = context.raw;
+              const xAxisLabel = getXAxisLabel(state.xAxisMetric);
               const tooltipLines = [
                 `Model: ${point.model}`,
                 `Company: ${point.company}`,
-                `Cost of 1K Responses: $${point.x.toFixed(2)}`,
+                `${xAxisLabel}: ${point.x.toFixed(2)}`,
                 `Output Cost: $${point.outputCost?.toFixed(2) || 'N/A'}/M tokens`,
                 `${metric.name}: ${point.y.toFixed(2)}`
               ];
