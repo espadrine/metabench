@@ -2614,6 +2614,16 @@
           "source": "https://web.archive.org/web/20230510031654/https://openai.com/pricing"
         },
         {
+          "name": "Size",
+          "score": 175000000000,
+          "source": "https://arxiv.org/abs/2005.14165"
+        },
+        {
+          "name": "Active parameters",
+          "score": 175000000000,
+          "source": "https://arxiv.org/abs/2005.14165"
+        },
+        {
           "name": "LAMBADA",
           "score": 76.2,
           "source": "https://arxiv.org/abs/2005.14165"
