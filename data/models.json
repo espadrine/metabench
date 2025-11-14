@@ -1,6 +1,138 @@
 {
   "models": [
     {
+      "name": "GPT-5.1 High",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-1/",
+      "release_date": "2025-11-12",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.3,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.1,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.0,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "FrontierMath (with tools)",
+          "score": 26.7,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 85.4,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 67.0,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 95.6,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 77.9,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 90.0,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1 Medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-1/",
+      "release_date": "2025-11-12",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1 Low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-1/",
+      "release_date": "2025-11-12",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.1 None",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-1/",
+      "release_date": "2025-11-12",
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 63,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        }
+      ]
+    },
+    {
       "name": "GPT-5 Codex High",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-upgrades-to-codex/",
@@ -528,6 +660,51 @@
           "name": "GPQA",
           "score": 85.7,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.8,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "FrontierMath (with tools)",
+          "score": 26.3,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "MMMU",
+          "score": 84.2,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 62.6,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 96.7,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 81.1,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "BrowseComp Long Context 128k",
+          "score": 90.0,
+          "source": "https://openai.com/index/gpt-5-1-for-developers/"
         }
       ]
     },
