@@ -1,6 +1,43 @@
 {
   "models": [
     {
+      "name": "GPT-5.1 Codex",
+      "company": "OpenAI",
+      "url": "https://platform.openai.com/docs/models/gpt-5.1-codex",
+      "release_date": "2025-11-12",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool", "image"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-codex"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 56.3,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-codex"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70.4,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-codex"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.1 High",
       "company": "OpenAI",
       "url": "https://openai.com/index/gpt-5-1/",
@@ -19,6 +56,16 @@
           "name": "Output cost",
           "score": 10,
           "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 81,
+          "source": "https://artificialanalysis.ai/?models=gpt-5-codex"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 70,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "SWE-bench Verified",
@@ -64,6 +111,101 @@
           "name": "BrowseComp Long Context 128k",
           "score": 90.0,
           "source": "https://openai.com/index/gpt-5-1-for-developers/"
+        },
+        {
+          "name": "SAGE",
+          "score": 43.2,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 55.9,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "CorpFin",
+          "score": 64.6,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 71.4,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.6,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 61.4,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 93.3,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.9,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.9,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.4,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.6,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 86.4,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "MMMU",
+          "score": 83.2,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 86.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "IOI",
+          "score": 21.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 47.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.2,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "Vals Index",
+          "score": 61.1,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 59.7,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         }
       ]
     },
@@ -140,6 +282,16 @@
           "name": "Output cost",
           "score": 10,
           "source": "https://openai.com/api/pricing/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 5,
+          "source": "https://artificialanalysis.ai/?models=gpt-5-codex"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "SWE-bench Verified",
@@ -5102,6 +5254,11 @@
           "source": "https://docs.x.ai/docs/models/grok-4-0709"
         },
         {
+          "name": "Size",
+          "score": 3000000000000,
+          "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
+        },
+        {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 120,
           "source": "https://artificialanalysis.ai/"
@@ -5234,6 +5391,11 @@
           "source": "https://docs.x.ai/docs/models/grok-3"
         },
         {
+          "name": "Size",
+          "score": 3000000000000,
+          "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
+        },
+        {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 9.2,
           "source": "https://artificialanalysis.ai/"
@@ -5304,6 +5466,11 @@
           "name": "Output cost",
           "score": 15,
           "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Size",
+          "score": 3000000000000,
+          "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
