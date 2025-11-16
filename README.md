@@ -115,29 +115,38 @@ and the [1, s1, s2, ...] form a latent vector on each model.
 
 ## Adding benchmarking data
 
-Rules to add data:
-- Only add data to `data/models.json`. Other `/data/` files are generated from it.
-- All data must be sourced with links to the authoritative information, typically the official model announcement,
-  or the official model benchmark.
-- Each defined model should correspond to a unique set of weights.
-  If a company publishes a new set of weights under the same name,
-  add the date (typically as YYYY-MM) to the model name to differentiate it.
-- Keep an empty line between companies.
-- Keep the models of a given company ordered from most recent to oldest.
-- Always put the input and output costs as a benchmark when adding a new model.
-  The website requires them to be present, and will break if they are not.
-  Use the price of the official provider's API if it exists, or openrouter otherwise.
+Rules to add a benchmark:
+- Only add benchmarks to `data/models.json`. Other `/data/` files are generated from it.
+- All benchmarks must be sourced with links to the authoritative information,
+  typically the official model announcement, or the official model benchmark.
 - For a given source page, add all the benchmark scores listed on the page,
   except if they clearly are reusing numbers from a different source.
 - Do not merge benchmark results. When a benchmark score appears in multiple sources with a different result,
   add both results as separate benchmarks, each referencing its source.
   They will be averaged in the estimation process.
-- When a specific benchmark changes over time, such as LiveCodeBench or LMArena, keep it as if it was a continuous benchmark.
-  Indeed, there is some intrinsic variance in all benchmark scores: running any twice will yield slightly different values,
+- When a specific benchmark changes over time, such as LiveCodeBench or LMArena,
+  keep it as if it was a continuous benchmark.
+  Indeed, there is some intrinsic variance in all benchmark scores:
+  running any twice will yield slightly different values,
   [even when they are run with a temperature of 0][determinism].
   We presume that the benchmark will maintain similar scores for a given set of weights over time.
 - If a benchmark that can be run without tools, was ran with tools,
   label it as a separate benchmark, adding "(with tools)" to the benchmark name.
 - The default benchmark for for Aider Polyglot should be diff (or diff-fenced for Gemini).
+- If the model does not support vision, add a *MMMU* benchmark with a score of 25, with a source saying "No vision capabilities".
+- if the model does not support tool calls, add a *τ²-Bench Telecom* benchmark with a score of 0, with a source saying "No tool capabilities".
+
+Rules to add a model:
+- Only add models to `data/models.json`. Other `/data/` files are generated from it.
+- Keep an empty line between companies.
+- Keep the models of a given company ordered from most recent to oldest.
+- Each defined model should correspond to a unique set of weights and a reasoning setting.
+  If a company publishes a new set of weights under the same name,
+  add the date (typically as YYYY-MM) to the model name to differentiate it.
+- The following fields are mandatory: `name`, `company`, `url` (of announcement), `release_date`.
+- The following benchmarks are mandatory, placed at the top, and in this order: `Input cost`, `Output cost`.
+  The website requires them to be present, and will break if they are not.
+  Use the price of the official provider's API if it exists, or openrouter otherwise.
+- If open-sourced, the following benchmarks are mandatory, at the top, and in this order: `Input cost`, `Output cost`.
 
 [determinism]; https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/

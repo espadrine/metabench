@@ -1,0 +1,150 @@
+{
+  "benchmarks": [
+    {
+      "name": "τ-Bench Airline",
+      "url": "https://arxiv.org/abs/2406.12045",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "τ-Bench Retail",
+      "url": "https://arxiv.org/abs/2406.12045",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "τ²-Bench",
+      "url": "https://arxiv.org/abs/2506.07982",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "τ²-Bench Airline",
+      "url": "https://arxiv.org/abs/2506.07982",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "τ²-Bench Retail",
+      "url": "https://arxiv.org/abs/2506.07982",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "τ²-Bench Telecom",
+      "url": "https://arxiv.org/abs/2506.07982",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+
+    {
+      "name": "MMMU",
+      "url": "https://arxiv.org/abs/2311.16502",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "random_score": 25
+    },
+    {
+      "name": "MMMU-Pro",
+      "url": "https://arxiv.org/abs/2409.02813",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "random_score": 25
+    },
+    {
+      "name": "Humanity's Last Exam (with tools)",
+      "url": "https://arxiv.org/abs/2501.14249",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "ArtifactsBench",
+      "url": "https://arxiv.org/abs/2507.04952",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "OSWorld",
+      "url": "https://arxiv.org/abs/2404.07972",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "tool"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "Vibe-Eval",
+      "url": "https://arxiv.org/abs/2405.02287",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "random_score": 0
+    },
+    {
+      "name": "CharXiv reasoning (with tools)",
+      "url": "https://arxiv.org/abs/2406.18521",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "random_score": 0
+    },
+
+    {
+      "name": "VideoMMMU",
+      "url": "https://arxiv.org/abs/2501.13826",
+      "capabilities": {
+        "input": ["text", "video"],
+        "output": ["text"]
+      },
+      "random_score": 25
+    },
+    {
+      "name": "VideoMME",
+      "url": "https://arxiv.org/abs/2405.21075",
+      "capabilities": {
+        "input": ["text", "video"],
+        "output": ["text"]
+      },
+      "random_score": 25
+    },
+    {
+      "name": "EgoSchema",
+      "url": "https://arxiv.org/abs/2308.09126",
+      "capabilities": {
+        "input": ["text", "video"],
+        "output": ["text"]
+      },
+      "random_score": 20
+    }
+  ]
+}
