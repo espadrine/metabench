@@ -1,12 +1,12 @@
 const fs = require('fs');
 const path = require('path');
-const { estimateMissingBenchmarks } = require('./lib/score-prediction-weighed-bivariate.js');
-const Table = require('./lib/cli-table');
+const { estimateMissingBenchmarks } = require('../lib/score-prediction-weighed-bivariate.js');
+const Table = require('../lib/cli-table');
 
 // Load the benchmark data from data/models.json.
 // File format:
 // { models: [ { name: string, benchmarks: [ { name: string, score: number }, … ] }, … ] }
-function loadScoresSync(filePath = path.join(__dirname, 'data', 'models.json')) {
+function loadScoresSync(filePath = path.join(__dirname, '..', 'data', 'models.json')) {
   const content = fs.readFileSync(filePath, 'utf8');
   return JSON.parse(content);
 }
@@ -52,7 +52,7 @@ function printTable(benchmarks) {
 
 // Load benchmark capability data from data/benchmarks.json
 function loadBenchmarkCapabilities() {
-  const filePath = path.join(__dirname, 'data', 'benchmarks.json');
+  const filePath = path.join(__dirname, '..', 'data', 'benchmarks.json');
   const content = fs.readFileSync(filePath, 'utf8');
   return JSON.parse(content);
 }
@@ -190,6 +190,6 @@ if (require.main === module) {
   benchmarks = addCostOf1KResponses(benchmarks);
   //printTable(benchmarks);
 
-  const outputPath = path.join(__dirname, 'data', 'models-prediction.json');
+  const outputPath = path.join(__dirname, '..', 'data', 'models-prediction.json');
   writePredictionsOutput(benchmarks, outputPath);
 }
