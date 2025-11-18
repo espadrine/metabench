@@ -107,11 +107,16 @@ function findMissingBenchmarks(aaBenchData, models) {
 }
 
 const aaModelsToIgnore = [
-  "Grok-1",  // Already imported, but AA price is incorrect
-  "Llama 65B",  // Already imported, but AA price is incorrect
-  "GPT-5 (ChatGPT)",  // Don't study chat constructs for now.
-  "GPT-5.1 (Non-reasoning)",  // Already imported; name mismatch.
+  // Already imported, but AA price is different
+  "Grok-1",
+  "Llama 3.3 Instruct 70B",
+  "Llama 3.1 Instruct 405B",
+  "Llama 4 Scout",
   // Don't care, too edge-case, not relevant anymore:
+  "Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning)",
+  "Gemini 2.5 Flash-Lite Preview (Sep '25) (Reasoning)",
+  "Gemini 2.5 Flash Preview (Sep '25) (Reasoning)",
+  "Gemini 2.5 Flash-Lite Preview (Sep '25) (Non-reasoning)",
   "DeepSeek R1 Distill Llama 70B",
   "DeepSeek R1 Distill Llama 8B",
   "Llama 3.1 Tulu3 405B",
@@ -128,6 +133,9 @@ const aaModelsToIgnore = [
   "Hermes 4 - Llama-3.1 405B (Reasoning)",
   "Hermes 4 - Llama-3.1 70B (Non-reasoning)",
   "Hermes 4 - Llama-3.1 70B (Reasoning)",
+  // Other reasons
+  "GPT-5 (ChatGPT)",  // Don't study chat constructs for now.
+  "GPT-5.1 (Non-reasoning)",  // Already imported; name mismatch.
 ];
 
 function equalEpsilon(a, b, epsilon = 0.0001) {
