@@ -81,9 +81,11 @@ function findMissingBenchmarks(aaBenchData, models) {
             b.name === mappedBenchName &&
             equalEpsilon(b.score, scoreFromAAScore(score, aaBenchName))
           );
+          // Check if benchmark is useful. When zero or null, it is not useful.
+          const isUseful = score !== 0 && score != null;
 
           // If the benchmark is not present, add it to the list of missing benchmarks
-          if (!existingBenchmark) {
+          if (!existingBenchmark && isUseful) {
             // Only scale benchmarks that are on 0-1 scale (not index benchmarks)
             const finalScore = scoreFromAAScore(score, aaBenchName);
             modelWithMissingBenchmarks.benchmarks.push({
