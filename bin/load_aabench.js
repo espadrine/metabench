@@ -26,18 +26,19 @@ function findMissingBenchmarks(aaBenchData, models) {
       continue;
     }
 
-    // For each model, find the best match by name in `models`
-    const bestMatch = findBestModelMatch(aaModel.name, models);
-
     // Merge evaluations and pricing data into a single object for processing
     const allBenchmarks = {
       ...(aaModel.evaluations || {}),
       ...(aaModel.pricing || {})
     };
 
-    if (!bestMatch) {
+    // For each model, find the best match by name in `models`
+    const model = findModel(aaModel.name, models);
+    let newModel = model;
+
+    if (!newModel) {
       // If there is no match, add all its benchmarks to the list of missing benchmarks
-      const newModel = {
+      newModel = {
         name: aaModel.name,
         company: aaModel.model_creator?.name || '',
         url: '',
@@ -45,11 +46,29 @@ function findMissingBenchmarks(aaBenchData, models) {
         capabilities: { input: [], output: [] },
         benchmarks: []
       };
+    }
 
-      // Add all benchmarks from AA data (both evaluations and pricing)
-      for (const [aaBenchName, score] of Object.entries(allBenchmarks)) {
-        const mappedBenchName = benchNameFromAA[aaBenchName] || benchNameFromAAPricing[aaBenchName];
-        if (mappedBenchName && typeof score === 'number') {
+    newModel = {
+      aa_name: aaModel.name,
+      ...newModel,
+      benchmarks: []
+    };
+
+    // For each AA benchmark for that model (both evaluations and pricing),
+    // check if it is already present in `models`
+    for (const [aaBenchName, score] of Object.entries(allBenchmarks)) {
+      const mappedBenchName = benchNameFromAA[aaBenchName] || benchNameFromAAPricing[aaBenchName];
+      if (mappedBenchName && typeof score === 'number') {
+        // Check if benchmark is already present
+        const existingBenchmark = model?.benchmarks?.find(b =>
+          b.name === mappedBenchName &&
+          equalEpsilon(b.score, scoreFromAAScore(score, aaBenchName))
+        );
+        // Check if benchmark is useful. When zero or null, it is not useful.
+        const isUseful = score !== 0 && score != null;
+
+        // If the benchmark is not present, add it to the list of missing benchmarks
+        if (!existingBenchmark && isUseful) {
           // Only scale benchmarks that are on 0-1 scale (not index benchmarks)
           const finalScore = scoreFromAAScore(score, aaBenchName);
           newModel.benchmarks.push({
@@ -59,47 +78,10 @@ function findMissingBenchmarks(aaBenchData, models) {
           });
         }
       }
+    }
 
-      if (newModel.benchmarks.length > 0) {
-        missingBenchmarks.models.push(newModel);
-      }
-    } else {
-      // If there is a match, check for missing benchmarks
-      const modelWithMissingBenchmarks = {
-        aa_name: aaModel.name,
-        ...bestMatch,
-        benchmarks: []
-      };
-
-      // For each AA benchmark for that model (both evaluations and pricing),
-      // check if it is already present in `models`
-      for (const [aaBenchName, score] of Object.entries(allBenchmarks)) {
-        const mappedBenchName = benchNameFromAA[aaBenchName] || benchNameFromAAPricing[aaBenchName];
-        if (mappedBenchName && typeof score === 'number') {
-          // Check if benchmark is already present
-          const existingBenchmark = bestMatch.benchmarks?.find(b =>
-            b.name === mappedBenchName &&
-            equalEpsilon(b.score, scoreFromAAScore(score, aaBenchName))
-          );
-          // Check if benchmark is useful. When zero or null, it is not useful.
-          const isUseful = score !== 0 && score != null;
-
-          // If the benchmark is not present, add it to the list of missing benchmarks
-          if (!existingBenchmark && isUseful) {
-            // Only scale benchmarks that are on 0-1 scale (not index benchmarks)
-            const finalScore = scoreFromAAScore(score, aaBenchName);
-            modelWithMissingBenchmarks.benchmarks.push({
-              name: mappedBenchName,
-              score: Math.round(finalScore * 100) / 100, // Round to 2 decimal places
-              source: "https://artificialanalysis.ai/api/v2/data/llms/models"
-            });
-          }
-        }
-      }
-
-      if (modelWithMissingBenchmarks.benchmarks.length > 0) {
-        missingBenchmarks.models.push(modelWithMissingBenchmarks);
-      }
+    if (newModel.benchmarks.length > 0) {
+      missingBenchmarks.models.push(newModel);
     }
   }
 
@@ -146,7 +128,7 @@ function equalEpsilon(a, b, epsilon = 0.0001) {
 // - models is the raw data from ./data/models.json
 // Return the model from `models` that best matches `aaModelName`,
 // or null if no good match is found.
-function findBestModelMatch(aaModelName, models) {
+function findModel(aaModelName, models) {
   if (modelNameFromAA[aaModelName] != null) {
     aaModelName = modelNameFromAA[aaModelName];
   }
