@@ -36,7 +36,7 @@ function findMissingBenchmarks(aaBenchData, models) {
     const model = findModel(aaModel.name, models);
     let newModel = model;
 
-    if (!newModel) {
+    if (!model) {
       // If there is no match, add all its benchmarks to the list of missing benchmarks
       newModel = {
         name: aaModel.name,
@@ -165,7 +165,13 @@ const modelNameFromAA = {
 // If the file exists, overwrite it.
 function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
   const outputPath = path.resolve(outputFilePath);
-  fs.writeFileSync(outputPath, JSON.stringify(missingBenchmarks, null, 2), 'utf8');
+
+  // Sort models by name before storing
+  const sortedBenchmarks = {
+    models: missingBenchmarks.models.sort((a, b) => a.name.localeCompare(b.name))
+  };
+
+  fs.writeFileSync(outputPath, JSON.stringify(sortedBenchmarks, null, 2), 'utf8');
   console.error(`Stored ${missingBenchmarks.models.length} models with missing benchmarks to ${outputPath}`);
 }
 

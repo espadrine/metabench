@@ -70,25 +70,25 @@ function findMissingBenchmarks(lmarenaData, models) {
 function findModel(arenaModelName, models) {
   // Lowercase the model names for comparison.
   const arenaNameLower = arenaModelName.toLowerCase();
-  
+
   let bestMatch = null;
   let bestDistance = Infinity;
-  
+
   // Use the levenshtein distance to find the best match.
   for (const model of models.models) {
     const modelNameLower = model.name.toLowerCase();
     const distance = levenshteinDistance(arenaNameLower, modelNameLower);
-    
+
     // If the distance is too high (more than 30% of the length of the AA model name),
     // skip this match and loop.
     const maxAllowedDistance = Math.floor(arenaNameLower.length * 0.3);
-    
+
     if (distance <= maxAllowedDistance && distance < bestDistance) {
       bestDistance = distance;
       bestMatch = model;
     }
   }
-  
+
   return bestMatch;
 }
 
@@ -99,8 +99,8 @@ function findBenchmark(benchmarkName, model) {
   if (!model || !model.benchmarks) {
     return null;
   }
-  
-  return model.benchmarks.find(benchmark => 
+
+  return model.benchmarks.find(benchmark =>
     benchmark.name === benchmarkName
   ) || null;
 }
@@ -139,7 +139,13 @@ function levenshteinDistance(str1, str2) {
 // If the file exists, overwrite it.
 function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
   const outputPath = path.resolve(outputFilePath);
-  fs.writeFileSync(outputPath, JSON.stringify(missingBenchmarks, null, 2), 'utf8');
+
+  // Sort models by name before storing
+  const sortedBenchmarks = {
+    models: missingBenchmarks.models.sort((a, b) => a.name.localeCompare(b.name))
+  };
+
+  fs.writeFileSync(outputPath, JSON.stringify(sortedBenchmarks, null, 2), 'utf8');
   console.error(`Stored ${missingBenchmarks.models.length} models with missing benchmarks to ${outputPath}`);
 }
 
