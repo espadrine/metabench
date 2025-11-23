@@ -366,6 +366,11 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 61.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 81.9,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
@@ -1221,6 +1226,26 @@
           "name": "τ²-Bench",
           "score": 84.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 61.60,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 45.5,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "FRAMES",
+          "score": 86.0,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "X Browse",
+          "score": 24.2,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
@@ -5216,6 +5241,11 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 47.1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 68.68,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
@@ -5253,6 +5283,26 @@
           "name": "GPQA",
           "score": 83.4,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 78.1,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 41.2,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "FRAMES",
+          "score": 85.0,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "X Browse",
+          "score": 14.6,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
@@ -6313,6 +6363,31 @@
           "name": "MRCR v2: 1M",
           "score": 26.3,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 87.1,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 63.00,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 55.9,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "FRAMES",
+          "score": 90.9,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "X Browse",
+          "score": 26.5,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
@@ -7918,6 +7993,215 @@
     },
 
     {
+      "name": "Grok 4.1 Fast Reasoning",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-1",
+      "release_date": "2025-11-19",
+      "capabilities": {
+        "input": ["text", "image", "video", "audio"],
+        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 71,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 69.73,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 64.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 49.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 89.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 89.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 52.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 22.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 93.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Grok 4.1 Fast Non-Reasoning",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-1",
+      "release_date": "2025-11-19",
+      "capabilities": {
+        "input": ["text", "image", "video", "audio"],
+        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 6.5,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 63.9,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "FRAMES",
+          "score": 87.6,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "X Browse",
+          "score": 56.3,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 27.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 34.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 74.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 63.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 39.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 29.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 34.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 36.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 13.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 63.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Grok 4 Fast",
       "company": "xAI",
       "url": "https://x.ai/news/grok-4-fast",
@@ -7996,6 +8280,11 @@
           "name": "GPQA",
           "score": 85.7,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
@@ -8133,6 +8422,16 @@
           "name": "GPQA",
           "score": 87.5,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 87.1,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 62.27,
+          "source": "https://x.ai/news/grok-4-1-fast"
         }
       ]
     },
