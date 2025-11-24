@@ -4693,7 +4693,7 @@
           "source": "https://arxiv.org/abs/2005.14165"
         },
         {
-          "name": "ARC (Challenge)",
+          "name": "ARC-Challenge",
           "score": 51.4,
           "source": "https://arxiv.org/abs/2005.14165"
         },
@@ -4715,6 +4715,100 @@
       ]
     },
 
+    {
+      "name": "Claude Opus 4.5 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "release_date": "2025-11-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 88.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 62.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "OSWorld",
+          "score": 66.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 37.6,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 80.7,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 90.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "release_date": "2025-11-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        }
+      ]
+    },
     {
       "name": "Claude Haiku 4.5 Thinking",
       "company": "Anthropic",
@@ -5246,6 +5340,56 @@
           "name": "BFCL v4 MultiTurn",
           "score": 68.68,
           "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 50.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 43.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "OSWorld",
+          "score": 61.4,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 13.6,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 77.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.1,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         }
       ]
     },
@@ -5440,6 +5584,51 @@
           "name": "SWE-bench Verified",
           "score": 74.5,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 40.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "OSWorld",
+          "score": 44.4,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 77.1,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         }
       ]
     },
@@ -6388,6 +6577,41 @@
           "name": "X Browse",
           "score": 26.5,
           "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 85.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 31.1,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         }
       ]
     },
@@ -7773,7 +7997,7 @@
           "source": "https://huggingface.co/google/gemma-3-270m-it"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 28.2,
           "source": "https://huggingface.co/google/gemma-3-270m-it"
         },
