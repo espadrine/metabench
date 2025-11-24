@@ -311,7 +311,8 @@ const categoryBenchmarks = {
     'ArtifactsBench': 1,
     'BIRD-SQL': 1,
     'HumanEval': 1,
-    'Natural2Code': 1,
+    // Only has one entry:
+    //'Natural2Code': 1,
     'OJ-Bench': 1,
     'SciCode': 1,
   },
