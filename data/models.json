@@ -4358,6 +4358,116 @@
           "name": "DocVQA",
           "score": 92.8,
           "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU",
+          "score": 87.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 88,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 72.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "DROP",
+          "score": 83.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "IFEval",
+          "score": 84.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 49.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 38.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "FRAMES",
+          "score": 80.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 48.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval-Mul",
+          "score": 80.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 33.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 34.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Codeforces",
+          "score": 23.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 38.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider-Edit",
+          "score": 72.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider",
+          "score": 16,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 9.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MATH",
+          "score": 74.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 10.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CLUEWSC",
+          "score": 87.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Eval Chinese",
+          "score": 76,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 59.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
         }
       ]
     },
@@ -6372,6 +6482,116 @@
           "name": "DocVQA",
           "score": 95.2,
           "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 88.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 78,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "DROP",
+          "score": 88.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 28.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "FRAMES",
+          "score": 72.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 41,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval-Mul",
+          "score": 81.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 36.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 32.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Codeforces",
+          "score": 20.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 50.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider-Edit",
+          "score": 84.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider",
+          "score": 45.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 16,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MATH",
+          "score": 78.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 13.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CLUEWSC",
+          "score": 85.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Eval Chinese",
+          "score": 76.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 51.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
         }
       ]
     },
@@ -9342,6 +9562,11 @@
           "name": "GPQA",
           "score": 79.9,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1412,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -9414,6 +9639,11 @@
           "name": "GPQA",
           "score": 74.9,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1416,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -9502,6 +9732,11 @@
           "name": "DROP",
           "score": 91.6,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1391,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -9663,6 +9898,11 @@
           "name": "GPQA",
           "score": 81,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1418,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -9799,6 +10039,11 @@
           "name": "GPQA",
           "score": 73.3,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1395,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -9866,6 +10111,153 @@
           "name": "LiveCodeBench",
           "score": 60.5,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V3",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news1226",
+      "release_date": "2024-12-26",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.27,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 89.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 75.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "DROP",
+          "score": 91.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 59.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 24.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "FRAMES",
+          "score": 73.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 48.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval-Mul",
+          "score": 82.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 40.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 37.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Codeforces",
+          "score": 51.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 42,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider-Edit",
+          "score": 79.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider",
+          "score": 49.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 39.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MATH",
+          "score": 90.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 43.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CLUEWSC",
+          "score": 90.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Eval Chinese",
+          "score": 86.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 64.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1357,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -12790,6 +13182,116 @@
           "name": "τ²-Bench",
           "score": 19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 86.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 73.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "DROP",
+          "score": 88.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "IFEval",
+          "score": 86,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 51.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 17.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "FRAMES",
+          "score": 70,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 36.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval-Mul",
+          "score": 77.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 28.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 30.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Codeforces",
+          "score": 25.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 24.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider-Edit",
+          "score": 63.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider",
+          "score": 5.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 23.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MATH",
+          "score": 73.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 6.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CLUEWSC",
+          "score": 84.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Eval Chinese",
+          "score": 61.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 50.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
         }
       ]
     },
