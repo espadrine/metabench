@@ -1,0 +1,555 @@
+{
+  "models": [
+    {
+      "name": "Kimi K2 Thinking",
+      "company": "Moonshot AI",
+      "url": "https://moonshotai.github.io/Kimi-K2/thinking.html",
+      "release_date": "2025-11-07",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 1029173256720,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 140,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 67,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 23.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 44.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 99.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 89.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 95.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 78.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 84.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 94.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 73.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 58,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 60.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 62.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 56.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 47.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 87,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 71.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 61.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 41.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 48.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 47.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        }
+      ]
+    },
+    {
+      "name": "Kimi K2 0905",
+      "company": "Moonshot AI",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
+      "release_date": "2025-09-05",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 1029173256720,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 16,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 55.9,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 33.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 44.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 66.6,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 33.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 55.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 44.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 54.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 14.1,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 28.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 60.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 61,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 26.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 70.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 29.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 30,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 57,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 82,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 77,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 31,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 42,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 52,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 73,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 23,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 7.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 21.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 51,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 75.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 38.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 70.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 45.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 74.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 81.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 92.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 62.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 43.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 7.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 22.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 25.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 10.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 58.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 69.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 55.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 33.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 30.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 56.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 25.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 44.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HumanEval",
+          "score": 94.5,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "GPQA",
+          "score": 75.8,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Kimi K2",
+      "company": "Moonshot AI",
+      "url": "https://moonshotai.github.io/Kimi-K2/",
+      "release_date": "2025-07-11",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 1029173256720,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 30,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 48,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 65.8,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 47.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 31.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 61.9,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "GPQA",
+          "score": 75.1,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "HumanEval",
+          "score": 93.3,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    }
+  ]
+}

@@ -8,14 +8,14 @@ const path = require('path');
 
 function main() {
   const aaBenchData = loadAABenchData("./data/aabench.json");
-  const models = loadModelData("./data/models.json");
+  const models = loadModelData();
   const missingBenchmarks = findMissingBenchmarks(aaBenchData, models);
   storeMissingBenchmarks(missingBenchmarks, "./data/missing_aabench_benchmarks.json");
 }
 
 // Return the list of benchmarks from `aaBenchData`
 // which are not already present in `models`.
-// The list is in the same format as ./data/models.json benchmarks:
+// The list is in the same format as the data/models/ data:
 // {models: [{name, company, url, release_date, capabilities, benchmarks: [{name, score, source}]}]}
 function findMissingBenchmarks(aaBenchData, models) {
   const missingBenchmarks = { models: [] };
@@ -125,7 +125,7 @@ function equalEpsilon(a, b, epsilon = 0.0001) {
 }
 
 // - The aaModelName is a string from AA data.
-// - models is the raw data from ./data/models.json
+// - models is the raw data from data/models/ company model files
 // Return the model from `models` that best matches `aaModelName`,
 // or null if no good match is found.
 function findModel(aaModelName, models) {
@@ -241,11 +241,10 @@ function downloadAABenchData(pathToStoreJSONFile) {
   }
 }
 
-// Load the data from ./data/models.json
-function loadModelData(modelsFilePath) {
-  const filePath = path.resolve(modelsFilePath);
-  const content = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(content);
+// Load the data from data/models/ company model files
+function loadModelData() {
+  const { loadModels } = require('../lib/load-models');
+  return loadModels();
 }
 
 // Levenshtein distance implementation

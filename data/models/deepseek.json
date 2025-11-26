@@ -1,0 +1,982 @@
+{
+  "models": [
+    {
+      "name": "DeepSeek V3.2 Exp",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250929",
+      "release_date": "2025-09-29",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.42,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 62,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 30.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 57.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 55.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 40.1,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 47.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 63.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 71,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 27.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 66.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 26.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 34,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 80,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 38,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 54,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 69,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 34,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 29,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 19.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 20.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 89.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 58.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 83.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 49.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 76,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 93.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 72.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 46.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 40.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 47.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 38.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 27,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 80.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 67.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 57.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 30.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 74.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 38.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA",
+          "score": 79.9,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1412,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V3.1",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250821",
+      "release_date": "2025-08-21",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.56,
+          "source": "https://api-docs.deepseek.com/news/news250821"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.68,
+          "source": "https://api-docs.deepseek.com/news/news250821"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 63,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 54.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 29,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 31.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 53.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "GPQA",
+          "score": 74.9,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1416,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-V3-0324",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250325",
+      "release_date": "2025-03-24",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.27,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 11,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 39.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 59.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 33.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 75.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 24.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 2.5
+        },
+        {
+          "name": "Aider",
+          "score": 55.1
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 38.8
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 46.9
+        },
+        {
+          "name": "DROP",
+          "score": 91.6,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1391,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek R1 0528",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "release_date": "2025-05-28",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.55,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.19,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 99,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 93.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 27.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "FRAMES",
+          "score": 83,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1930,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 91.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 79.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 86.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 14,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 71.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 27.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 82.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 17.5
+        },
+        {
+          "name": "GPQA",
+          "score": 81,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1418,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek R1",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250120",
+      "release_date": "2025-01-20",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.55,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.19,
+          "source": "https://api-docs.deepseek.com/news/news250120"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 72,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 44,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Aider",
+          "score": 56.9
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 92.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 84,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 30.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "FRAMES",
+          "score": 82.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1530,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 53.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 79.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 41.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 78.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 37,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 53.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 63.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA",
+          "score": 73.3,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1395,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek-R1-0528-Qwen3-8B",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news250528",
+      "release_date": "2025-01-20",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.18,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.1,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 8190735360,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8190735360,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 94,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 31,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 86,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 76.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 61.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 61.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V3",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news1226",
+      "release_date": "2024-12-26",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.27,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Size",
+          "score": 684531386000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37000000000,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 89.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 75.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "DROP",
+          "score": 91.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 59.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 24.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "FRAMES",
+          "score": 73.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 48.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval-Mul",
+          "score": 82.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 40.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 37.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Codeforces",
+          "score": 51.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 42,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider-Edit",
+          "score": 79.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider",
+          "score": 49.6,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 39.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MATH",
+          "score": 90.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 43.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CLUEWSC",
+          "score": 90.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Eval Chinese",
+          "score": 86.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 64.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1357,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    }
+  ]
+}

@@ -6,14 +6,14 @@ const path = require('path');
 
 function main() {
   const lmarenaData = loadLMArenaData("./data/lmarena.json");
-  const models = loadModelData("./data/models.json");
+  const models = loadModelData();
   const missingBenchmarks = findMissingBenchmarks(lmarenaData, models);
   storeMissingBenchmarks(missingBenchmarks, "./data/missing_lmarena_benchmarks.json");
 }
 
 // Return the list of benchmarks from `lmarenaData`
 // which are not already present in `models`.
-// The list should be in the same format as ./data/models.json benchmarks:
+// The list should be in the same format as the aggregated model data:
 // {models: [{name, company, url, release_date, capabilities, benchmarks: [{name, score, source}]}]}
 function findMissingBenchmarks(lmarenaData, models) {
   const missingBenchmarks = { models: [] };
@@ -76,7 +76,7 @@ function findMissingBenchmarks(lmarenaData, models) {
 }
 
 // - The arenaModelName is a model name string from LMArena data.
-// - models is the raw data from ./data/models.json
+// - models is the raw data from aggregated company model files
 // Return the model from `models` that best matches `arenaModelName`,
 // or null if no good match is found.
 function findModel(arenaModelName, models) {
@@ -105,7 +105,7 @@ function findModel(arenaModelName, models) {
 }
 
 // Find a benchmark named `benchmarkName` in the `model`.
-// `matchingModel` is a model object from ./data/models.json
+// `matchingModel` is a model object from aggregated company model files
 // Return the benchmark object if found, or null if not found.
 function findBenchmark(benchmarkName, model) {
   if (!model || !model.benchmarks) {
@@ -259,11 +259,10 @@ function parseRSCResponse(rscResponse) {
   return null;
 }
 
-// Load the data from ./data/models.json
-function loadModelData(modelsFilePath) {
-  const filePath = path.resolve(modelsFilePath);
-  const content = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(content);
+// Load the data from aggregated company model files
+function loadModelData() {
+  const { loadModels } = require('../lib/load-models');
+  return loadModels();
 }
 
 main();

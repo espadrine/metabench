@@ -2,12 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const { estimateMissingBenchmarks } = require('../lib/score-prediction-weighed-bivariate.js');
 
-// Load the benchmark data from data/models.json.
-// @param {string} filePath - Path to the models.json file
+// Load the benchmark data from aggregated company model files.
 // @returns {object} The parsed benchmark data
-function loadScoresSync(filePath = path.join(__dirname, '..', 'data', 'models.json')) {
-  const content = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(content);
+function loadScoresSync() {
+  const { loadModels } = require('../lib/load-models');
+  return loadModels();
 }
 
 // Calculate means and standard deviations for each benchmark

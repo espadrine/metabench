@@ -1,0 +1,367 @@
+{
+  "models": [
+    {
+      "name": "Qwen3-235B-A22B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.7,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.8,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 235093634560,
+          "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 22000000000,
+          "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 85,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 85.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 81.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Aider",
+          "score": 65,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 62.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA",
+          "score": 81.1,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-235B-Thinking 2507",
+      "company": "Alibaba",
+      "url": "https://x.com/Alibaba_Qwen/status/1948688466386280706",
+      "release_date": "2025-07-25",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.7,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 8.4,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 235093634560,
+          "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"
+        },
+        {
+          "name": "Active parameters",
+          "score": 22000000000,
+          "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 110,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 78.2
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Coder 480B-A35B-Instruct",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=d927d7d2e59d059045ce758ded34f98c0186d2d7&from=research.research-list",
+      "release_date": "2025-07-22",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.5,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 7.5,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 480154875392,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 35000000000,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 9.7,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 42,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.6,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 54.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 32.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 37.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 64.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-Coder 30B-A3B Instruct",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=qwen3-coder",
+      "release_date": "2025-07-22",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.45,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.25,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 30532122624,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3000000000,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 14,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 33,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 31.3
+        },
+        {
+          "name": "Aider",
+          "score": 33.3
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 51.6
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-32B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.7,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 8.4,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 32762123264,
+          "source": "https://huggingface.co/Qwen/Qwen3-32B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32762123264,
+          "source": "https://huggingface.co/Qwen/Qwen3-32B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 55,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 39,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 81.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 72.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 68.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-8B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.18,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.1,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 8190735360,
+          "source": "https://huggingface.co/Qwen/Qwen3-8B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8190735360,
+          "source": "https://huggingface.co/Qwen/Qwen3-8B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 70,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 28,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 76,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 67.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 62,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        }
+      ]
+    }
+  ]
+}

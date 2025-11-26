@@ -1,0 +1,844 @@
+{
+  "models": [
+    {
+      "name": "Grok 4.1 Fast Reasoning",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-1",
+      "release_date": "2025-11-19",
+      "capabilities": {
+        "input": ["text", "image", "video", "audio"],
+        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 71,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 69.73,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 64.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 49.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 89.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 89.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 52.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 22.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 93.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Grok 4.1 Fast Non-Reasoning",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-1",
+      "release_date": "2025-11-19",
+      "capabilities": {
+        "input": ["text", "image", "video", "audio"],
+        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 6.5,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 63.9,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "FRAMES",
+          "score": 87.6,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "X Browse",
+          "score": 56.3,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 27.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 34.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 74.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 63.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 39.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 29.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 34.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 36.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 13.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 63.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Grok 4 Fast",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-fast",
+      "release_date": "2025-07-09",
+      "capabilities": {
+        "input": ["text", "image", "video", "audio"],
+        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 61,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 92,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 20,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (with tools)",
+          "score": 44.9,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "SimpleQA (with tools)",
+          "score": 95,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 66,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 51.2,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "GPQA",
+          "score": 85.7,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 93.3,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        }
+      ]
+    },
+    {
+      "name": "Grok 4",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4",
+      "release_date": "2025-07-09",
+      "capabilities": {
+        "input": ["text", "image", "video", "audio"],
+        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://docs.x.ai/docs/models/grok-4-0709"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://docs.x.ai/docs/models/grok-4-0709"
+        },
+        {
+          "name": "Size",
+          "score": 3000000000000,
+          "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 120,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 65,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 25.4,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "USAMO 2025",
+          "score": 37.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 90,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.7,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 15.9,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "BrowseComp (with tools)",
+          "score": 43,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "SimpleQA (with tools)",
+          "score": 94,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 58,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 45,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 25.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 41,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 98.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 90,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 93.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 73.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA",
+          "score": 87.5,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 87.1,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 62.27,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        }
+      ]
+    },
+    {
+      "name": "Grok 3 High",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "release_date": "2025-02-19",
+      "capabilities": {
+        "input": ["text", "image", "video"],
+        "output": ["text", "thinking", "tool", "image", "video"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Size",
+          "score": 3000000000000,
+          "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 9.2,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 52.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 75.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 57,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 79.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 83.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 43.6,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 73.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 74.5,
+          "source": "https://x.ai/news/grok-3"
+        }
+      ]
+    },
+    {
+      "name": "Grok 3",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "release_date": "2025-02-19",
+      "capabilities": {
+        "input": ["text", "image", "video"],
+        "output": ["text", "thinking", "tool", "image", "video"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://docs.x.ai/docs/models/grok-3"
+        },
+        {
+          "name": "Size",
+          "score": 3000000000000,
+          "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 9.2,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SimpleQA (with tools)",
+          "score": 82,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 37,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 10.8,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "GPQA",
+          "score": 84.6,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "MMMU",
+          "score": 78,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Grok 3 Mini High",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-3",
+      "release_date": "2025-02-19",
+      "capabilities": {
+        "input": ["text", "image", "video"],
+        "output": ["text", "thinking", "tool", "image", "video"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://docs.x.ai/docs/models/grok-3-mini"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.x.ai/docs/models/grok-3-mini"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 110,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 39.7,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 66.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 41.5,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 78.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 83.1,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 21.7,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 69.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "EgoSchema",
+          "score": 74.3,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 74,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11,
+          "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70,
+          "source": "https://x.ai/news/grok-4-fast"
+        }
+      ]
+    },
+    {
+      "name": "Grok 2",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-2",
+      "release_date": "2024-08-13",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 270000000000,
+          "source": "https://huggingface.co/xai-org/grok-2/discussions/24"
+        },
+        {
+          "name": "Active parameters",
+          "score": 115500000000,
+          "source": "https://huggingface.co/xai-org/grok-2/discussions/24"
+        },
+        {
+          "name": "GPQA",
+          "score": 56.0,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU",
+          "score": 87.5,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 76.1,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MATH",
+          "score": 50.6,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "HumanEval",
+          "score": 88.4,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMMU",
+          "score": 66.1,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MathVista",
+          "score": 69.0,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "DocVQA",
+          "score": 93.6,
+          "source": "https://x.ai/news/grok-2"
+        }
+      ]
+    },
+    {
+      "name": "Grok 1",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok",
+      "release_date": "2023-11-03",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 314000000000,
+          "source": "https://github.com/xai-org/grok-1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 78500000000,
+          "source": "https://github.com/xai-org/grok-1"
+        },
+        {
+          "name": "GSM8K",
+          "score": 62.9,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "MMLU",
+          "score": 73.0,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "HumanEval",
+          "score": 63.2,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "MATH",
+          "score": 23.9,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "HNHSME 2023",
+          "score": 59.0,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 18.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Grok 0",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok",
+      "release_date": "2023-11-03",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 33000000000,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "Active parameters",
+          "score": 33000000000,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "GSM8K",
+          "score": 56.8,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "MMLU",
+          "score": 65.7,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "HumanEval",
+          "score": 39.7,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "MATH",
+          "score": 15.7,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "HNHSME 2023",
+          "score": 37.0,
+          "source": "https://x.ai/news/grok"
+        }
+      ]
+    }
+  ]
+}

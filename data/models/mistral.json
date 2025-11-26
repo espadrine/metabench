@@ -1,0 +1,418 @@
+{
+  "models": [
+    {
+      "name": "Devstral Small 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral-2507",
+      "release_date": "2025-06-10",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 5.4,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 27,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 53.6
+        }
+      ]
+    },
+    {
+      "name": "Devstral Small 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral",
+      "release_date": "2025-05-21",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 20,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 46.8
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-09-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 77,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 91.82,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.48,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.26,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 75,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "GPQA",
+          "score": 70.8,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-07-24",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 72.03,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 60.99,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.46,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.35,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-06-10",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 150,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 33,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 73.59,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 64.95,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 70.83,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.36,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-09-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 24011361280,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "Active parameters",
+          "score": 24011361280,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 62,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 86.14,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 77.34,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 70.07,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.88,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-07-24",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 70.52,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 62.03,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.78,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.17,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-06-10",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23572403200,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 140,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 32,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 70.68,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 62.76,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 68.18,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.84,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        }
+      ]
+    }
+  ]
+}

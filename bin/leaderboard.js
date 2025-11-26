@@ -3,12 +3,12 @@ const path = require('path');
 const { estimateMissingBenchmarks } = require('../lib/score-prediction-weighed-bivariate.js');
 const Table = require('../lib/cli-table');
 
-// Load the benchmark data from data/models.json.
+// Load the benchmark data from aggregated company model files.
 // File format:
 // { models: [ { name: string, benchmarks: [ { name: string, score: number }, … ] }, … ] }
-function loadScoresSync(filePath = path.join(__dirname, '..', 'data', 'models.json')) {
-  const content = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(content);
+function loadScoresSync() {
+  const { loadModels } = require('../lib/load-models');
+  return loadModels();
 }
 
 // Write the predicted scores (with uncertainties) to a JSON file.

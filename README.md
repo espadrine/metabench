@@ -10,7 +10,7 @@ We thus need to find the parameters of `f` that minimize
 the mean squared error of this prediction,
 `L = \Sigma_i \Sigma_{jk} (\hat{s}_{r_i, b_k} - s_{r_i, b_k})^2`.
 
-The known model benchmark information is located in data/models.json.
+The known model benchmark information is located in the `data/models/` directory, with separate JSON files for each company.
 
 We evaluate different approaches (described in the next section) below,
 using the data snapshot 8a6870be:
@@ -116,7 +116,7 @@ and the [1, s1, s2, ...] form a latent vector on each model.
 ## Adding benchmarking data
 
 Rules to add a benchmark:
-- Only add benchmarks to `data/models.json`. Other `/data/` files are generated from it.
+- Only add benchmarks to the appropriate company file in `data/models/`. Other `/data/` files are generated.
 - All benchmarks must be sourced with links to the authoritative information,
   typically the official model announcement, or the official model benchmark.
 - For a given source page, add all the benchmark scores listed on the page,
@@ -137,7 +137,7 @@ Rules to add a benchmark:
 - if the model does not support tool calls, add a *τ²-Bench Telecom* benchmark with a score of 0, with a source saying "No tool capabilities".
 
 Rules to add a model:
-- Only add models to `data/models.json`. Other `/data/` files are generated from it.
+- Only add models to the appropriate company file in `data/models/`. Other `/data/` files are generated.
 - Keep an empty line between companies.
 - Keep the models of a given company ordered from most recent to oldest.
 - Each defined model should correspond to a unique set of weights and a reasoning setting.

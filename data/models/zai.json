@@ -1,0 +1,297 @@
+{
+  "models": [
+    {
+      "name": "GLM-4.6",
+      "company": "Z.ai",
+      "url": "https://x.com/Zai_org/status/1973034639708344767",
+      "release_date": "2025-09-30",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.6,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.2,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 358337791296,
+          "source": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 86,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 56,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 68,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 30,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 53.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 40.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 59.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 45.1,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 49.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 71.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 70,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 30.4,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 75.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 29.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 35,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 86,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 83,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 38,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 43,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 54,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 23,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA",
+          "score": 81,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "GLM-4.5",
+      "company": "Z.ai",
+      "url": "https://x.com/Zai_org/status/1949831552189518044",
+      "release_date": "2025-07-28",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.6,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.2,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 358337791296,
+          "source": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32000000000,
+          "source": "https://huggingface.co/zai-org/GLM-4.5"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 100,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 64.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 52.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 31.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 39.9,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 63.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "GPQA",
+          "score": 79.1,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "GLM-4.5-Air",
+      "company": "Z.ai",
+      "url": "https://x.com/Zai_org/status/1949831552189518044",
+      "release_date": "2025-07-28",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.1,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 110468824832,
+          "source": "https://huggingface.co/zai-org/GLM-4.5-Air"
+        },
+        {
+          "name": "Active parameters",
+          "score": 12000000000,
+          "source": "https://huggingface.co/zai-org/GLM-4.5-Air"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 110,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 30
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 57.6
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.7
+        },
+        {
+          "name": "GPQA",
+          "score": 75,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    }
+  ]
+}

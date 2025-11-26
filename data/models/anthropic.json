@@ -1,0 +1,1826 @@
+{
+  "models": [
+    {
+      "name": "Claude Opus 4.5 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "release_date": "2025-11-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 88.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 62.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "OSWorld",
+          "score": 66.3,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 37.6,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 80.7,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 90.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "release_date": "2025-11-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Claude Haiku 4.5 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "release_date": "2025-10-15",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 39,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 73.3,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 41,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 83.2,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 63.6,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 83,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 50.7,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 96.3,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 80.7,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 83,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 73.2,
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        },
+        {
+          "name": "GPQA",
+          "score": 73,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.3,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4.5 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "release_date": "2025-09-29",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 42,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 63,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 77.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 50,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 70,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 61.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 100,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 55.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 44.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 68,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 50,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 61.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 19.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 40.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 71.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 66,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 24.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 60.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 41,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 88,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 71,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 45,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 57,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 66,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 33,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 19.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 32,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 100,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 74.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HMMT 2025 (with tools)",
+          "score": 88.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 65.9,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 87.5,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 95.6,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Longform Writing",
+          "score": 79.8,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "HealthBench",
+          "score": 44.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 24.1,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 42.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 53.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FinSearchComp-T3",
+          "score": 44,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "FRAMES",
+          "score": 85,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 77.2,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 68,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 44.3,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.7,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 64,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 30.4,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 51,
+          "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 13.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 100.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MathArena Apex",
+          "score": 1.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 68.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "ScreenSpot Pro",
+          "score": 36.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv reasoning (with tools)",
+          "score": 68.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.145,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 77.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 1418.0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 42.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 3838.74,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 50.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 29.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMLU",
+          "score": 89.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Global PIQA",
+          "score": 90.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 47.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 68.68,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 50.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.2,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 43.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "OSWorld",
+          "score": 61.4,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 13.6,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 77.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.1,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "release_date": "2025-09-29",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 7.9,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "GPQA",
+          "score": 83.4,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 78.1,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Reka Research Eval (with tools)",
+          "score": 41.2,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "FRAMES",
+          "score": 85.0,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "X Browse",
+          "score": 14.6,
+          "source": "https://x.ai/news/grok-4-1-fast"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.1",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-1",
+      "release_date": "2025-08-05",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 75,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 30,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 59,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 43.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 80.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 82.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 56,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 46.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 63,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 44.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 50.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA",
+          "score": 80.9,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.5,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.8,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 40.9,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "OSWorld",
+          "score": 44.4,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 77.1,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "release_date": "2025-04-22",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 75,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 27,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 39.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 81.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 59.6,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 76.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 39.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 81.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 59.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 76.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 58.3,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 58.3,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "ARC AGI 2",
+          "score": 8.6,
+          "source": "https://x.ai/news/grok-4"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 75.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 51.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 72,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 77.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 76.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 16.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.5,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 43.2,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "GPQA",
+          "score": 79.6,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "release_date": "2025-04-22",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 33.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 80.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 60,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 35.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 80.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 60,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 48.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "Aider",
+          "score": 61.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 79.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 39.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 36.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 83.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 63,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 49.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "OSWorld",
+          "score": 42.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 44.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 35.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 56.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 36.4,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 57.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 12.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 29.1,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GAIA (text)",
+          "score": 68.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "xbench-DeepSearch",
+          "score": 64.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 20.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 65.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 42,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "AgentCompany",
+          "score": 37,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 53.3,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 35.7,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 36.4,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "SWE-Dev",
+          "score": 67.1,
+          "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 74,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 84,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SciCode",
+          "score": 40,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "IFBench",
+          "score": 55,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "LCR",
+          "score": 65,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 65,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 30,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "GPQA",
+          "score": 75.4,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 3.7",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "release_date": "2025-02-24",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "thinking", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 98,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 62.3,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 35.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 81.2,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 58.4,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 85.9,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "MMMU",
+          "score": 75,
+          "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 54.8,
+          "source": "https://www.anthropic.com/news/claude-4"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 3.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "release_date": "2024-06-21",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 16,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "GPQA",
+          "score": 65,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 40.2,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 78,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LOFT (128k)",
+          "score": 69.9,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 28.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 70.4,
+          "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "DROP",
+          "score": 87.1,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "HumanEval",
+          "score": 92,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49,
+          "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "GPQA",
+          "score": 59.6,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.3,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 76.1,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MATH",
+          "score": 71.1,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "HumanEval",
+          "score": 92.0,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMMU",
+          "score": 68.3,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MathVista",
+          "score": 67.7,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "DocVQA",
+          "score": 95.2,
+          "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 88.9,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 78,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "DROP",
+          "score": 88.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 28.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "FRAMES",
+          "score": 72.5,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 41,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval-Mul",
+          "score": 81.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 36.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 32.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Codeforces",
+          "score": 20.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 50.8,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider-Edit",
+          "score": 84.2,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Aider",
+          "score": 45.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 16,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "MATH",
+          "score": 78.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CNMO 2024",
+          "score": 13.1,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "CLUEWSC",
+          "score": 85.4,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "Eval Chinese",
+          "score": 76.7,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 51.3,
+          "source": "https://api-docs.deepseek.com/news/news1226"
+        }
+      ]
+    },
+    {
+      "name": "Claude 2",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-2",
+      "release_date": "2023-07-11",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 8,
+          "source": "https://www.prompthub.us/models/claude-2"
+        },
+        {
+          "name": "Output cost",
+          "score": 24,
+          "source": "https://www.prompthub.us/models/claude-2"
+        },
+        {
+          "name": "HumanEval",
+          "score": 56,
+          "source": "https://www.anthropic.com/news/claude-2"
+        },
+        {
+          "name": "GSM8K",
+          "score": 88,
+          "source": "https://www.anthropic.com/news/claude-2"
+        },
+        {
+          "name": "GSM8K",
+          "score": 88,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "MMLU",
+          "score": 75,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "HumanEval",
+          "score": 70,
+          "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "HNHSME 2023",
+          "score": 55,
+          "source": "https://x.ai/news/grok"
+        }
+      ]
+    }
+  ]
+}
