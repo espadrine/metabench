@@ -6,8 +6,14 @@
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
       "release_date": "2025-10-27",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +28,12 @@
         },
         {
           "name": "Size",
-          "score": 240418294272,
+          "score": 240.418294272,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
           "name": "Active parameters",
-          "score": 10000000000,
+          "score": 10,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {

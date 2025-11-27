@@ -52,10 +52,10 @@ function getCompanyColor(company) {
 function getXAxisLabel(metricName) {
   const labelMap = {
     'Cost of 1K responses': 'Cost of 1K Responses ($)',
-    'Active parameters': 'Active Parameters',
+    'Active parameters': 'Billion Active Parameters',
     'Input cost': 'Input Cost ($/M tokens)',
     'Output cost': 'Output Cost ($/M tokens)',
-    'Size': 'Size (bytes)',
+    'Size': 'Size (Billion Parameters)',
     'ArtificialAnalysis Consumed Tokens (Millions)': 'ArtificialAnalysis Consumed Tokens (Millions)'
   };
   return labelMap[metricName] || metricName;

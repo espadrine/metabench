@@ -6,8 +6,19 @@
       "url": "https://blog.google/products/gemini/gemini-3/",
       "release_date": "2025-11-18",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -37,12 +48,12 @@
         },
         {
           "name": "AIME 2025",
-          "score": 95.0,
+          "score": 95,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
           "name": "AIME 2025 (with tools)",
-          "score": 100.0,
+          "score": 100,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -52,7 +63,7 @@
         },
         {
           "name": "MMMU-Pro",
-          "score": 81.0,
+          "score": 81,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -77,7 +88,7 @@
         },
         {
           "name": "LiveCodeBench Pro",
-          "score": 2439.0,
+          "score": 2439,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -122,7 +133,7 @@
         },
         {
           "name": "MRCR v2: 8-needle 128K",
-          "score": 77.0,
+          "score": 77,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -137,7 +148,7 @@
         },
         {
           "name": "BFCL v4 MultiTurn",
-          "score": 63.00,
+          "score": 63,
           "source": "https://x.ai/news/grok-4-1-fast"
         },
         {
@@ -172,7 +183,7 @@
         },
         {
           "name": "τ²-Bench Telecom",
-          "score": 98.0,
+          "score": 98,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
@@ -198,8 +209,19 @@
       "url": "https://blog.google/products/gemini/gemini-2-5-model-family-expands/",
       "release_date": "2025-06-17",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -504,7 +526,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 88.0,
+          "score": 88,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -514,7 +536,7 @@
         },
         {
           "name": "MMMU-Pro",
-          "score": 68.0,
+          "score": 68,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -539,7 +561,7 @@
         },
         {
           "name": "LiveCodeBench Pro",
-          "score": 1775.0,
+          "score": 1775,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -584,7 +606,7 @@
         },
         {
           "name": "MRCR v2: 8-needle 128K",
-          "score": 58.0,
+          "score": 58,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -600,8 +622,19 @@
       "url": "https://blog.google/products/gemini/gemini-2-5-pro-updates/",
       "release_date": "2025-05-06",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -762,8 +795,19 @@
       "url": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/#flash-improvements",
       "release_date": "2025-03-25",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -834,8 +878,18 @@
       "url": "https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/",
       "release_date": "2025-03-25",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -916,8 +970,13 @@
       "url": "https://deepmind.google/models/gemma/gemma-3/",
       "release_date": "2025-03-12",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -927,17 +986,17 @@
         },
         {
           "name": "Output cost",
-          "score": 0.20,
+          "score": 0.2,
           "source": "https://openrouter.ai/google/gemma-3-27b-it"
         },
         {
           "name": "Size",
-          "score": 27432406640,
+          "score": 27.43240664,
           "source": "https://huggingface.co/google/gemma-3-27b-it"
         },
         {
           "name": "Active parameters",
-          "score": 27432406640,
+          "score": 27.43240664,
           "source": "https://huggingface.co/google/gemma-3-27b-it"
         },
         {
@@ -962,7 +1021,7 @@
         },
         {
           "name": "SimpleQA",
-          "score": 10.0,
+          "score": 10,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
@@ -977,7 +1036,7 @@
         },
         {
           "name": "MATH",
-          "score": 89.0,
+          "score": 89,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
@@ -1073,8 +1132,13 @@
       "url": "https://deepmind.google/models/gemma/gemma-3/",
       "release_date": "2025-03-12",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -1089,12 +1153,12 @@
         },
         {
           "name": "Size",
-          "score": 12187325040,
+          "score": 12.18732504,
           "source": "https://huggingface.co/google/gemma-3-12b-it"
         },
         {
           "name": "Active parameters",
-          "score": 12187325040,
+          "score": 12.18732504,
           "source": "https://huggingface.co/google/gemma-3-12b-it"
         },
         {
@@ -1230,8 +1294,13 @@
       "url": "https://deepmind.google/models/gemma/gemma-3/",
       "release_date": "2025-03-12",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -1246,12 +1315,12 @@
         },
         {
           "name": "Size",
-          "score": 4300079472,
+          "score": 4.300079472,
           "source": "https://huggingface.co/google/gemma-3-4b-it"
         },
         {
           "name": "Active parameters",
-          "score": 4300079472,
+          "score": 4.300079472,
           "source": "https://huggingface.co/google/gemma-3-4b-it"
         },
         {
@@ -1276,7 +1345,7 @@
         },
         {
           "name": "SimpleQA",
-          "score": 4.0,
+          "score": 4,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
@@ -1296,7 +1365,7 @@
         },
         {
           "name": "HiddenMath",
-          "score": 43.0,
+          "score": 43,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
@@ -1387,8 +1456,13 @@
       "url": "https://deepmind.google/models/gemma/gemma-3/",
       "release_date": "2025-03-13",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -1403,12 +1477,12 @@
         },
         {
           "name": "Size",
-          "score": 1000000000,
+          "score": 1,
           "source": "https://huggingface.co/google/gemma-3-1b-it"
         },
         {
           "name": "Active parameters",
-          "score": 1000000000,
+          "score": 1,
           "source": "https://huggingface.co/google/gemma-3-1b-it"
         },
         {
@@ -1448,7 +1522,7 @@
         },
         {
           "name": "MATH",
-          "score": 48.0,
+          "score": 48,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
@@ -1539,8 +1613,12 @@
       "url": "https://deepmind.google/models/gemma/gemma-3/",
       "release_date": "2025-08-14",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -1555,12 +1633,12 @@
         },
         {
           "name": "Size",
-          "score": 270000000,
+          "score": 0.27,
           "source": "https://huggingface.co/google/gemma-3-270m-it"
         },
         {
           "name": "Active parameters",
-          "score": 270000000,
+          "score": 0.27,
           "source": "https://huggingface.co/google/gemma-3-270m-it"
         },
         {
@@ -1666,8 +1744,19 @@
       "url": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/",
       "release_date": "2024-12-11",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {

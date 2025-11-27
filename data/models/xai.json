@@ -6,8 +6,20 @@
       "url": "https://x.ai/news/grok-4-1",
       "release_date": "2025-11-19",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -103,8 +115,20 @@
       "url": "https://x.ai/news/grok-4-1",
       "release_date": "2025-11-19",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -215,8 +239,20 @@
       "url": "https://x.ai/news/grok-4-fast",
       "release_date": "2025-07-09",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -302,8 +338,20 @@
       "url": "https://x.ai/news/grok-4",
       "release_date": "2025-07-09",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "thinking", "tool", "image", "video", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -318,7 +366,7 @@
         },
         {
           "name": "Size",
-          "score": 3000000000000,
+          "score": 3000,
           "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
         },
         {
@@ -449,8 +497,18 @@
       "url": "https://x.ai/news/grok-3",
       "release_date": "2025-02-19",
       "capabilities": {
-        "input": ["text", "image", "video"],
-        "output": ["text", "thinking", "tool", "image", "video"]
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video"
+        ]
       },
       "benchmarks": [
         {
@@ -465,7 +523,7 @@
         },
         {
           "name": "Size",
-          "score": 3000000000000,
+          "score": 3000,
           "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
         },
         {
@@ -526,8 +584,18 @@
       "url": "https://x.ai/news/grok-3",
       "release_date": "2025-02-19",
       "capabilities": {
-        "input": ["text", "image", "video"],
-        "output": ["text", "thinking", "tool", "image", "video"]
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video"
+        ]
       },
       "benchmarks": [
         {
@@ -542,7 +610,7 @@
         },
         {
           "name": "Size",
-          "score": 3000000000000,
+          "score": 3000,
           "source": "https://youtu.be/q_mMV5OpRd4?si=jxsHZn336LhMraIz&t=1389"
         },
         {
@@ -588,8 +656,18 @@
       "url": "https://x.ai/news/grok-3",
       "release_date": "2025-02-19",
       "capabilities": {
-        "input": ["text", "image", "video"],
-        "output": ["text", "thinking", "tool", "image", "video"]
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video"
+        ]
       },
       "benchmarks": [
         {
@@ -685,23 +763,28 @@
       "url": "https://x.ai/news/grok-2",
       "release_date": "2024-08-13",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
           "name": "Size",
-          "score": 270000000000,
+          "score": 270,
           "source": "https://huggingface.co/xai-org/grok-2/discussions/24"
         },
         {
           "name": "Active parameters",
-          "score": 115500000000,
+          "score": 115.5,
           "source": "https://huggingface.co/xai-org/grok-2/discussions/24"
         },
         {
           "name": "GPQA",
-          "score": 56.0,
+          "score": 56,
           "source": "https://x.ai/news/grok-2"
         },
         {
@@ -731,7 +814,7 @@
         },
         {
           "name": "MathVista",
-          "score": 69.0,
+          "score": 69,
           "source": "https://x.ai/news/grok-2"
         },
         {
@@ -747,18 +830,22 @@
       "url": "https://x.ai/news/grok",
       "release_date": "2023-11-03",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
           "name": "Size",
-          "score": 314000000000,
+          "score": 314,
           "source": "https://github.com/xai-org/grok-1"
         },
         {
           "name": "Active parameters",
-          "score": 78500000000,
+          "score": 78.5,
           "source": "https://github.com/xai-org/grok-1"
         },
         {
@@ -768,7 +855,7 @@
         },
         {
           "name": "MMLU",
-          "score": 73.0,
+          "score": 73,
           "source": "https://x.ai/news/grok"
         },
         {
@@ -783,7 +870,7 @@
         },
         {
           "name": "HNHSME 2023",
-          "score": 59.0,
+          "score": 59,
           "source": "https://x.ai/news/grok"
         },
         {
@@ -799,18 +886,22 @@
       "url": "https://x.ai/news/grok",
       "release_date": "2023-11-03",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
           "name": "Size",
-          "score": 33000000000,
+          "score": 33,
           "source": "https://x.ai/news/grok"
         },
         {
           "name": "Active parameters",
-          "score": 33000000000,
+          "score": 33,
           "source": "https://x.ai/news/grok"
         },
         {
@@ -835,7 +926,7 @@
         },
         {
           "name": "HNHSME 2023",
-          "score": 37.0,
+          "score": 37,
           "source": "https://x.ai/news/grok"
         }
       ]

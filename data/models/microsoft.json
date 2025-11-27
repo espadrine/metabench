@@ -6,8 +6,13 @@
       "url": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
       "release_date": "2025-04-30",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +27,12 @@
         },
         {
           "name": "Size",
-          "score": 14659507200,
+          "score": 14.6595072,
           "source": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
         },
         {
           "name": "Active parameters",
-          "score": 14659507200,
+          "score": 14.6595072,
           "source": "https://huggingface.co/microsoft/Phi-4-reasoning-plus"
         },
         {

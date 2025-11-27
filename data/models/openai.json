@@ -6,8 +6,16 @@
       "url": "https://platform.openai.com/docs/models/gpt-5.1-codex",
       "release_date": "2025-11-12",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool", "image"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image"
+        ]
       },
       "benchmarks": [
         {
@@ -43,8 +51,18 @@
       "url": "https://openai.com/index/gpt-5-1/",
       "release_date": "2025-11-12",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -79,7 +97,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 94.0,
+          "score": 94,
           "source": "https://openai.com/index/gpt-5-1-for-developers/"
         },
         {
@@ -94,7 +112,7 @@
         },
         {
           "name": "τ²-Bench Airline",
-          "score": 67.0,
+          "score": 67,
           "source": "https://openai.com/index/gpt-5-1-for-developers/"
         },
         {
@@ -109,7 +127,7 @@
         },
         {
           "name": "BrowseComp Long Context 128k",
-          "score": 90.0,
+          "score": 90,
           "source": "https://openai.com/index/gpt-5-1-for-developers/"
         },
         {
@@ -284,12 +302,12 @@
         },
         {
           "name": "AIME 2025",
-          "score": 94.0,
+          "score": 94,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
           "name": "MathArena Apex",
-          "score": 1.0,
+          "score": 1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -319,7 +337,7 @@
         },
         {
           "name": "LiveCodeBench Pro",
-          "score": 2243.0,
+          "score": 2243,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -354,7 +372,7 @@
         },
         {
           "name": "MMLU",
-          "score": 91.0,
+          "score": 91,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -380,8 +398,18 @@
       "url": "https://openai.com/index/gpt-5-1/",
       "release_date": "2025-11-12",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -407,8 +435,18 @@
       "url": "https://openai.com/index/gpt-5-1/",
       "release_date": "2025-11-12",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -434,8 +472,18 @@
       "url": "https://openai.com/index/gpt-5-1/",
       "release_date": "2025-11-12",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -531,8 +579,15 @@
       "url": "https://openai.com/index/introducing-upgrades-to-codex/",
       "release_date": "2025-09-15",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -638,8 +693,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -1164,7 +1229,7 @@
         },
         {
           "name": "BrowseComp Long Context 128k",
-          "score": 90.0,
+          "score": 90,
           "source": "https://openai.com/index/gpt-5-1-for-developers/"
         },
         {
@@ -1229,7 +1294,7 @@
         },
         {
           "name": "BFCL v4 MultiTurn",
-          "score": 61.60,
+          "score": 61.6,
           "source": "https://x.ai/news/grok-4-1-fast"
         },
         {
@@ -1239,7 +1304,7 @@
         },
         {
           "name": "FRAMES",
-          "score": 86.0,
+          "score": 86,
           "source": "https://x.ai/news/grok-4-1-fast"
         },
         {
@@ -1255,8 +1320,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -1362,8 +1437,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -1469,8 +1554,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -1576,8 +1671,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -1843,8 +1948,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -1940,8 +2055,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -2037,8 +2162,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -2279,8 +2414,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -2366,8 +2511,18 @@
       "url": "https://openai.com/index/introducing-gpt-5/",
       "release_date": "2025-08-07",
       "capabilities": {
-        "input": ["text", "image", "audio"],
-        "output": ["text", "thinking", "tool", "image", "audio"]
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -2463,8 +2618,15 @@
       "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
       "release_date": "2025-04-16",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -2693,8 +2855,14 @@
       "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
       "release_date": "2025-04-16",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3152,8 +3320,14 @@
       "url": "https://openai.com/index/openai-o3-mini/",
       "release_date": "2025-01-31",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3193,8 +3367,14 @@
       "url": "https://openai.com/index/openai-o3-mini/",
       "release_date": "2025-01-31",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3253,8 +3433,14 @@
       "url": "https://openai.com/index/gpt-4-1/",
       "release_date": "2025-04-14",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3465,8 +3651,14 @@
       "url": "https://openai.com/index/gpt-4-1/",
       "release_date": "2025-04-14",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3642,8 +3834,14 @@
       "url": "https://openai.com/index/gpt-4-1/",
       "release_date": "2025-04-14",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3779,8 +3977,14 @@
       "url": "https://openai.com/index/introducing-gpt-oss/",
       "release_date": "2025-08-05",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3795,12 +3999,12 @@
         },
         {
           "name": "Size",
-          "score": 117000000000,
+          "score": 117,
           "source": "https://huggingface.co/openai/gpt-oss-120b"
         },
         {
           "name": "Active parameters",
-          "score": 5100000000,
+          "score": 5.1,
           "source": "https://huggingface.co/openai/gpt-oss-120b"
         },
         {
@@ -3902,8 +4106,14 @@
       "url": "https://openai.com/index/introducing-gpt-oss/",
       "release_date": "2025-08-05",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -3918,12 +4128,12 @@
         },
         {
           "name": "Size",
-          "score": 117000000000,
+          "score": 117,
           "source": "https://huggingface.co/openai/gpt-oss-120b"
         },
         {
           "name": "Active parameters",
-          "score": 5100000000,
+          "score": 5.1,
           "source": "https://huggingface.co/openai/gpt-oss-120b"
         },
         {
@@ -4004,8 +4214,14 @@
       "url": "https://openai.com/index/introducing-gpt-oss/",
       "release_date": "2025-08-05",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -4020,12 +4236,12 @@
         },
         {
           "name": "Size",
-          "score": 21000000000,
+          "score": 21,
           "source": "https://huggingface.co/openai/gpt-oss-20b"
         },
         {
           "name": "Active parameters",
-          "score": 3600000000,
+          "score": 3.6,
           "source": "https://huggingface.co/openai/gpt-oss-20b"
         },
         {
@@ -4123,8 +4339,14 @@
       "url": "https://openai.com/index/introducing-gpt-oss/",
       "release_date": "2025-08-05",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -4139,12 +4361,12 @@
         },
         {
           "name": "Size",
-          "score": 21000000000,
+          "score": 21,
           "source": "https://huggingface.co/openai/gpt-oss-20b"
         },
         {
           "name": "Active parameters",
-          "score": 3600000000,
+          "score": 3.6,
           "source": "https://huggingface.co/openai/gpt-oss-20b"
         },
         {
@@ -4220,8 +4442,17 @@
       "url": "https://openai.com/index/hello-gpt-4o/",
       "release_date": "2024-05-13",
       "capabilities": {
-        "input": ["text", "image", "video", "audio"],
-        "output": ["text", "tool", "audio"]
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "tool",
+          "audio"
+        ]
       },
       "benchmarks": [
         {
@@ -4477,8 +4708,14 @@
       "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
       "release_date": "2023-11-06",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -4528,7 +4765,7 @@
         },
         {
           "name": "GPQA",
-          "score": 48.0,
+          "score": 48,
           "source": "https://x.ai/news/grok-2"
         },
         {
@@ -4574,8 +4811,12 @@
       "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
       "release_date": "2023-03-14",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -4630,7 +4871,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 92.0,
+          "score": 92,
           "source": "https://x.ai/news/grok"
         },
         {
@@ -4640,7 +4881,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 67.0,
+          "score": 67,
           "source": "https://x.ai/news/grok"
         },
         {
@@ -4650,7 +4891,7 @@
         },
         {
           "name": "HNHSME 2023",
-          "score": 68.0,
+          "score": 68,
           "source": "https://x.ai/news/grok"
         }
       ]
@@ -4661,8 +4902,12 @@
       "url": "https://openai.com/index/chatgpt/",
       "release_date": "2022-11-30",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -4702,7 +4947,7 @@
         },
         {
           "name": "MMLU",
-          "score": 70.0,
+          "score": 70,
           "source": "https://x.ai/news/grok"
         },
         {
@@ -4733,8 +4978,12 @@
       "url": "https://openai.com/index/language-models-are-few-shot-learners/",
       "release_date": "2020-05-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -4749,12 +4998,12 @@
         },
         {
           "name": "Size",
-          "score": 175000000000,
+          "score": 175,
           "source": "https://arxiv.org/abs/2005.14165"
         },
         {
           "name": "Active parameters",
-          "score": 175000000000,
+          "score": 175,
           "source": "https://arxiv.org/abs/2005.14165"
         },
         {

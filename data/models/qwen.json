@@ -6,8 +6,14 @@
       "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
       "release_date": "2025-04-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +28,12 @@
         },
         {
           "name": "Size",
-          "score": 235093634560,
+          "score": 235.09363456,
           "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
         },
         {
           "name": "Active parameters",
-          "score": 22000000000,
+          "score": 22,
           "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
         },
         {
@@ -88,8 +94,14 @@
       "url": "https://x.com/Alibaba_Qwen/status/1948688466386280706",
       "release_date": "2025-07-25",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -104,12 +116,12 @@
         },
         {
           "name": "Size",
-          "score": 235093634560,
+          "score": 235.09363456,
           "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"
         },
         {
           "name": "Active parameters",
-          "score": 22000000000,
+          "score": 22,
           "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B-Thinking-2507"
         },
         {
@@ -134,8 +146,13 @@
       "url": "https://qwen.ai/blog?id=d927d7d2e59d059045ce758ded34f98c0186d2d7&from=research.research-list",
       "release_date": "2025-07-22",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -150,12 +167,12 @@
         },
         {
           "name": "Size",
-          "score": 480154875392,
+          "score": 480.15487539200006,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
         },
         {
           "name": "Active parameters",
-          "score": 35000000000,
+          "score": 35,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct"
         },
         {
@@ -201,8 +218,13 @@
       "url": "https://qwen.ai/blog?id=qwen3-coder",
       "release_date": "2025-07-22",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -217,12 +239,12 @@
         },
         {
           "name": "Size",
-          "score": 30532122624,
+          "score": 30.532122624,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
           "name": "Active parameters",
-          "score": 3000000000,
+          "score": 3,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -255,8 +277,14 @@
       "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
       "release_date": "2025-04-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -271,12 +299,12 @@
         },
         {
           "name": "Size",
-          "score": 32762123264,
+          "score": 32.762123264,
           "source": "https://huggingface.co/Qwen/Qwen3-32B"
         },
         {
           "name": "Active parameters",
-          "score": 32762123264,
+          "score": 32.762123264,
           "source": "https://huggingface.co/Qwen/Qwen3-32B"
         },
         {
@@ -312,8 +340,14 @@
       "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
       "release_date": "2025-04-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -328,12 +362,12 @@
         },
         {
           "name": "Size",
-          "score": 8190735360,
+          "score": 8.19073536,
           "source": "https://huggingface.co/Qwen/Qwen3-8B"
         },
         {
           "name": "Active parameters",
-          "score": 8190735360,
+          "score": 8.19073536,
           "source": "https://huggingface.co/Qwen/Qwen3-8B"
         },
         {

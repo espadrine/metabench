@@ -6,8 +6,14 @@
       "url": "https://moonshotai.github.io/Kimi-K2/thinking.html",
       "release_date": "2025-11-07",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +28,12 @@
         },
         {
           "name": "Size",
-          "score": 1029173256720,
+          "score": 1029.17325672,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
         },
         {
           "name": "Active parameters",
-          "score": 32000000000,
+          "score": 32,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
         },
         {
@@ -168,8 +174,13 @@
       "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
       "release_date": "2025-09-05",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -184,12 +195,12 @@
         },
         {
           "name": "Size",
-          "score": 1029173256720,
+          "score": 1029.17325672,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
         },
         {
           "name": "Active parameters",
-          "score": 32000000000,
+          "score": 32,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
         },
         {
@@ -480,8 +491,13 @@
       "url": "https://moonshotai.github.io/Kimi-K2/",
       "release_date": "2025-07-11",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -496,12 +512,12 @@
         },
         {
           "name": "Size",
-          "score": 1029173256720,
+          "score": 1029.17325672,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
         },
         {
           "name": "Active parameters",
-          "score": 32000000000,
+          "score": 32,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
         },
         {

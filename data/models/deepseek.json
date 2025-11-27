@@ -6,8 +6,14 @@
       "url": "https://api-docs.deepseek.com/news/news250929",
       "release_date": "2025-09-29",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +28,12 @@
         },
         {
           "name": "Size",
-          "score": 684531386000,
+          "score": 684.531386,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
         },
         {
           "name": "Active parameters",
-          "score": 37000000000,
+          "score": 37,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
         },
         {
@@ -293,8 +299,14 @@
       "url": "https://api-docs.deepseek.com/news/news250821",
       "release_date": "2025-08-21",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -309,12 +321,12 @@
         },
         {
           "name": "Size",
-          "score": 684531386000,
+          "score": 684.531386,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
         },
         {
           "name": "Active parameters",
-          "score": 37000000000,
+          "score": 37,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1"
         },
         {
@@ -370,8 +382,13 @@
       "url": "https://api-docs.deepseek.com/news/news250325",
       "release_date": "2025-03-24",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -386,12 +403,12 @@
         },
         {
           "name": "Size",
-          "score": 684531386000,
+          "score": 684.531386,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
         },
         {
           "name": "Active parameters",
-          "score": 37000000000,
+          "score": 37,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
         },
         {
@@ -463,8 +480,14 @@
       "url": "https://api-docs.deepseek.com/news/news250528",
       "release_date": "2025-05-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -479,12 +502,12 @@
         },
         {
           "name": "Size",
-          "score": 684531386000,
+          "score": 684.531386,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
           "name": "Active parameters",
-          "score": 37000000000,
+          "score": 37,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
@@ -629,8 +652,14 @@
       "url": "https://api-docs.deepseek.com/news/news250120",
       "release_date": "2025-01-20",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -645,12 +674,12 @@
         },
         {
           "name": "Size",
-          "score": 684531386000,
+          "score": 684.531386,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
         },
         {
           "name": "Active parameters",
-          "score": 37000000000,
+          "score": 37,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1"
         },
         {
@@ -770,8 +799,14 @@
       "url": "https://api-docs.deepseek.com/news/news250528",
       "release_date": "2025-01-20",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -786,12 +821,12 @@
         },
         {
           "name": "Size",
-          "score": 8190735360,
+          "score": 8.19073536,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
         },
         {
           "name": "Active parameters",
-          "score": 8190735360,
+          "score": 8.19073536,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"
         },
         {
@@ -837,8 +872,13 @@
       "url": "https://api-docs.deepseek.com/news/news1226",
       "release_date": "2024-12-26",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -853,12 +893,12 @@
         },
         {
           "name": "Size",
-          "score": 684531386000,
+          "score": 684.531386,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
         },
         {
           "name": "Active parameters",
-          "score": 37000000000,
+          "score": 37,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324"
         },
         {

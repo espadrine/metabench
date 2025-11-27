@@ -6,8 +6,14 @@
       "url": "https://x.com/Zai_org/status/1973034639708344767",
       "release_date": "2025-09-30",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +28,12 @@
         },
         {
           "name": "Size",
-          "score": 358337791296,
+          "score": 358.337791296,
           "source": "https://huggingface.co/zai-org/GLM-4.5"
         },
         {
           "name": "Active parameters",
-          "score": 32000000000,
+          "score": 32,
           "source": "https://huggingface.co/zai-org/GLM-4.5"
         },
         {
@@ -168,8 +174,14 @@
       "url": "https://x.com/Zai_org/status/1949831552189518044",
       "release_date": "2025-07-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -184,12 +196,12 @@
         },
         {
           "name": "Size",
-          "score": 358337791296,
+          "score": 358.337791296,
           "source": "https://huggingface.co/zai-org/GLM-4.5"
         },
         {
           "name": "Active parameters",
-          "score": 32000000000,
+          "score": 32,
           "source": "https://huggingface.co/zai-org/GLM-4.5"
         },
         {
@@ -240,8 +252,14 @@
       "url": "https://x.com/Zai_org/status/1949831552189518044",
       "release_date": "2025-07-28",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -256,12 +274,12 @@
         },
         {
           "name": "Size",
-          "score": 110468824832,
+          "score": 110.468824832,
           "source": "https://huggingface.co/zai-org/GLM-4.5-Air"
         },
         {
           "name": "Active parameters",
-          "score": 12000000000,
+          "score": 12,
           "source": "https://huggingface.co/zai-org/GLM-4.5-Air"
         },
         {

@@ -6,8 +6,13 @@
       "url": "https://mistral.ai/news/devstral-2507",
       "release_date": "2025-06-10",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -22,12 +27,12 @@
         },
         {
           "name": "Size",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
         },
         {
           "name": "Active parameters",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
         },
         {
@@ -52,8 +57,13 @@
       "url": "https://mistral.ai/news/devstral",
       "release_date": "2025-05-21",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -68,12 +78,12 @@
         },
         {
           "name": "Size",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
         },
         {
           "name": "Active parameters",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2507"
         },
         {
@@ -93,8 +103,15 @@
       "url": "https://mistral.ai/news/magistral",
       "release_date": "2025-09-24",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -150,8 +167,14 @@
       "url": "https://mistral.ai/news/magistral",
       "release_date": "2025-07-24",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -192,8 +215,14 @@
       "url": "https://mistral.ai/news/magistral",
       "release_date": "2025-06-10",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -244,8 +273,15 @@
       "url": "https://mistral.ai/news/magistral",
       "release_date": "2025-09-24",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -260,12 +296,12 @@
         },
         {
           "name": "Size",
-          "score": 24011361280,
+          "score": 24.01136128,
           "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
         },
         {
           "name": "Active parameters",
-          "score": 24011361280,
+          "score": 24.01136128,
           "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
         },
         {
@@ -306,8 +342,14 @@
       "url": "https://mistral.ai/news/magistral",
       "release_date": "2025-07-24",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -322,12 +364,12 @@
         },
         {
           "name": "Size",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
         },
         {
           "name": "Active parameters",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
         },
         {
@@ -358,8 +400,14 @@
       "url": "https://mistral.ai/news/magistral",
       "release_date": "2025-06-10",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -374,12 +422,12 @@
         },
         {
           "name": "Size",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
         },
         {
           "name": "Active parameters",
-          "score": 23572403200,
+          "score": 23.5724032,
           "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
         },
         {
