@@ -181,10 +181,32 @@ function addCostOf1KResponses(benchmarks) {
   return benchmarks;
 }
 
+// Add timestamp benchmark to all models
+function addTimestampBenchmark(benchmarks) {
+  benchmarks.models.forEach(model => {
+    // Convert release_date to floating-point year
+    const date = new Date(model.release_date);
+    const year = date.getUTCFullYear();
+    const startOfYear = new Date(Date.UTC(year, 0, 1));
+    const endOfYear = new Date(Date.UTC(year + 1, 0, 1));
+    const yearFraction = (date - startOfYear) / (endOfYear - startOfYear);
+    const yearValue = year + yearFraction;
+
+    model.benchmarks.push({
+      name: 'Release date',
+      score: yearValue,
+      source: model.url,
+    });
+  });
+
+  return benchmarks;
+}
+
 // Main execution: read scores, impute missing benchmarks, and print each model
 if (require.main === module) {
   const rawScores = loadScoresSync();
-  let benchmarks = adjustScoresByCapabilities(rawScores);
+  let benchmarks = addTimestampBenchmark(rawScores);
+  benchmarks = adjustScoresByCapabilities(benchmarks);
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
   benchmarks = addCostOf1KResponses(benchmarks);
