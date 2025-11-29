@@ -56,9 +56,20 @@ function getXAxisLabel(metricName) {
     'Input cost': 'Input Cost ($/M tokens)',
     'Output cost': 'Output Cost ($/M tokens)',
     'Size': 'Size (Billion Parameters)',
+    'Release date': 'Release Date (Year)',
     'ArtificialAnalysis Consumed Tokens (Millions)': 'ArtificialAnalysis Consumed Tokens (Millions)'
   };
   return labelMap[metricName] || metricName;
+}
+
+// Get scale type (linear/logarithmic) for X-axis metric
+function getXAxisScaleType(metricName) {
+  // Time-based metrics work best with linear scale
+  if (metricName === 'Release date') {
+    return 'linear';
+  }
+  // Default to logarithmic for most metrics (cost, size, etc.)
+  return 'logarithmic';
 }
 
 // Generate a consistent color from a string (company name) - fallback for unknown companies
@@ -612,7 +623,7 @@ function renderChart(state, widgets) {
             display: true,
             text: getXAxisLabel(state.xAxisMetric)
           },
-          type: 'logarithmic',
+          type: getXAxisScaleType(state.xAxisMetric),
           position: 'bottom'
         },
         y: {
