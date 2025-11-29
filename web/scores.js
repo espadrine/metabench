@@ -328,13 +328,13 @@ const categoryBenchmarks = {
     'SciCode': 1,
   },
   'Agentic Coding': {
-    'Aider': 10,
     'Terminal-Bench': 10,
+    'Terminal-Bench-Hard': 10,
+    'Terminal-Bench 2.0': 10,
+    'Aider': 10,
+    'SWE-bench Verified (with tools)': 1,
     // FIXME: need to fix prediction on Codeforces + tool.
-    //'Codeforces (with tools)': 10,
-    'SWE-bench Verified (with tools)': 10,
-    'LiveCodeBench': 1,
-    'SWE-bench Verified': 1,
+    //'Codeforces (with tools)': 1,
   },
   Agentic: {
     'τ-Bench Airline': 1,
