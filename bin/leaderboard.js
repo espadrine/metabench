@@ -202,10 +202,35 @@ function addTimestampBenchmark(benchmarks) {
   return benchmarks;
 }
 
+// Add synthetic benchmark: Release Date × log(Size)
+function addReleaseDateSizeProduct(benchmarks) {
+  benchmarks.models.forEach(model => {
+    // Find Release date and Size benchmarks
+    const releaseDateBench = model.benchmarks.find(b => b.name === 'Release date');
+    const sizeBench = model.benchmarks.find(b => b.name === 'Size');
+
+    // Only add if both benchmarks are present
+    if (releaseDateBench && sizeBench && typeof releaseDateBench.score === 'number' && typeof sizeBench.score === 'number') {
+      // Calculate log(Size) using natural logarithm, then multiply by Release Date
+      const logSize = Math.log(sizeBench.score);
+      const product = releaseDateBench.score * logSize;
+
+      model.benchmarks.push({
+        name: 'Release date × log(Size)',
+        score: product,
+        source: model.url,
+      });
+    }
+  });
+
+  return benchmarks;
+}
+
 // Main execution: read scores, impute missing benchmarks, and print each model
 if (require.main === module) {
   const rawScores = loadScoresSync();
   let benchmarks = addTimestampBenchmark(rawScores);
+  benchmarks = addReleaseDateSizeProduct(benchmarks);
   benchmarks = adjustScoresByCapabilities(benchmarks);
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
