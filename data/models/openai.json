@@ -4008,30 +4008,54 @@
           "source": "https://huggingface.co/openai/gpt-oss-120b"
         },
         {
-          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 110,
-          "source": "https://artificialanalysis.ai/?models=gpt-5-codex"
+          "name": "Codeforces (with tools)",
+          "score": 2622,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
           "name": "Codeforces",
-          "score": 2463
+          "score": 2463,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "Aider",
-          "score": 41.8
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 19,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
-          "score": 62
+          "name": "Humanity's Last Exam",
+          "score": 14.9,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "Codeforces (with tools)",
-          "score": 2622
+          "name": "AIME 2024 (with tools)",
+          "score": 96.6,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "GPQA",
+          "name": "AIME 2025 (with tools)",
+          "score": 97.9,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "GPQA Diamond",
           "score": 80.1,
-          "source": "https://llm-stats.com/benchmarks"
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "MMLU",
+          "score": 90,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 67.8,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 110,
+          "source": "https://artificialanalysis.ai/?models=gpt-5-codex"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
@@ -4097,6 +4121,11 @@
           "name": "τ²-Bench",
           "score": 65.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA",
+          "score": 80.1,
+          "source": "https://llm-stats.com/benchmarks"
         }
       ]
     },
@@ -4135,6 +4164,16 @@
           "name": "Active parameters",
           "score": 5.1,
           "source": "https://huggingface.co/openai/gpt-oss-120b"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 72.9,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "GPQA Diamond (with tools)",
+          "score": 68.1,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
@@ -4245,26 +4284,54 @@
           "source": "https://huggingface.co/openai/gpt-oss-20b"
         },
         {
-          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 90,
-          "source": "https://artificialanalysis.ai/?models=gpt-5-codex"
+          "name": "Codeforces (with tools)",
+          "score": 2516,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
           "name": "Codeforces",
-          "score": 2230
+          "score": 2230,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
-          "score": 60
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 17.3,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "Codeforces (with tools)",
-          "score": 2516
+          "name": "Humanity's Last Exam",
+          "score": 10.9,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
-          "name": "GPQA",
+          "name": "AIME 2024 (with tools)",
+          "score": 96,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 98.7,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "GPQA Diamond",
           "score": 71.5,
-          "source": "https://llm-stats.com/benchmarks"
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "MMLU",
+          "score": 85.3,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 54.8,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 90,
+          "source": "https://artificialanalysis.ai/?models=gpt-5-codex"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
@@ -4330,6 +4397,11 @@
           "name": "τ²-Bench",
           "score": 60.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA",
+          "score": 71.5,
+          "source": "https://llm-stats.com/benchmarks"
         }
       ]
     },
@@ -4368,6 +4440,16 @@
           "name": "Active parameters",
           "score": 3.6,
           "source": "https://huggingface.co/openai/gpt-oss-20b"
+        },
+        {
+          "name": "AIME 2025 (with tools)",
+          "score": 57.5,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
+        },
+        {
+          "name": "GPQA Diamond (with tools)",
+          "score": 58,
+          "source": "https://openai.com/index/introducing-gpt-oss/"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
