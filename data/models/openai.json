@@ -3642,6 +3642,51 @@
           "name": "GPQA",
           "score": 66.3,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 25.3,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 48.6,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "SWE-bench Live",
+          "score": 23.5,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 31.5,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Aider",
+          "score": 52.4,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Spider2",
+          "score": 25.6,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "WebArena",
+          "score": 44.3,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Mind2Web",
+          "score": 49.6,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 62.9,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         }
       ]
     },

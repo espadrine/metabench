@@ -564,6 +564,71 @@
           "name": "HumanEval",
           "score": 93.3,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 30.0,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 65.4,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "SWE-bench Live",
+          "score": 22.3,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 47.3,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Multi-SWE-bench mini",
+          "score": 19.8,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Multi-SWE-bench flash",
+          "score": 20.7,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Aider",
+          "score": 60.0,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Spider2",
+          "score": 25.2,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "WebArena",
+          "score": 47.4,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "Mind2Web",
+          "score": 42.7,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 65.2,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 70.7,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 53.5,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         }
       ]
     }

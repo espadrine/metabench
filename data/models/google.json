@@ -869,6 +869,121 @@
           "name": "MMMU",
           "score": 79.7,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 81.9,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 92.1,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "GPQA",
+          "score": 82.8,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "SuperGPQA",
+          "score": 57.8,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 72.0,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 64.2,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "LiveBench",
+          "score": 74.3,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61.2,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "CFEval",
+          "score": 1995,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "OJ-Bench",
+          "score": 23.5,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "IFEval",
+          "score": 89.8,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "Arena-Hard v2",
+          "score": 56.7,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "WritingBench",
+          "score": 83.9,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 68.6,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 65.2,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 54.0,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 66.7,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 52.0,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 31.6,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "MultiIF",
+          "score": 74.4,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "MMLU-ProX",
+          "score": 80.2,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "INCLUDE",
+          "score": 83.9,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "PolyMATH",
+          "score": 49.8,
+          "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         }
       ]
     },
