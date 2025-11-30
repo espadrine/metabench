@@ -1174,7 +1174,7 @@
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
         {
-          "name": "Codeforces",
+          "name": "Codeforces percentile",
           "score": 25.3,
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
@@ -1876,6 +1876,11 @@
           "name": "Active parameters",
           "score": 68.976658432,
           "source": "https://huggingface.co/meta-llama/Llama-2-70b-chat-hf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 26.5,
+          "source": "https://arxiv.org/abs/2311.12022"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",

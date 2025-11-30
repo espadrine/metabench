@@ -1784,7 +1784,7 @@
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
         {
-          "name": "Codeforces",
+          "name": "Codeforces percentile",
           "score": 20.3,
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
@@ -1832,6 +1832,302 @@
           "name": "SimpleQA Chinese",
           "score": 51.3,
           "source": "https://api-docs.deepseek.com/news/news1226"
+        }
+      ]
+    },
+    {
+      "name": "Claude 3 Opus",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "release_date": "2024-03-04",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://www.prompthub.us/models/claude-3-opus"
+        },
+        {
+          "name": "Output cost",
+          "score": 75,
+          "source": "https://www.prompthub.us/models/claude-3-opus"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 50.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 95.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 60.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 84.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 83.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 86.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 96.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 95.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU",
+          "score": 59.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ANLS",
+          "score": 89.3,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MathVista",
+          "score": 50.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "AI2D",
+          "score": 88.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ChartQA",
+          "score": 80.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "SWE-bench",
+          "score": 3.79,
+          "source": "https://arxiv.org/abs/2310.06770"
+        }
+      ]
+    },
+    {
+      "name": "Claude 3 Sonnet",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "release_date": "2024-03-04",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://www.prompthub.us/models/claude-3-sonnet"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://www.prompthub.us/models/claude-3-sonnet"
+        },
+        {
+          "name": "MMLU",
+          "score": 79.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 40.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 92.3,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 43.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MGSM",
+          "score": 83.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 73.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 78.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 82.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 93.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 89.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU",
+          "score": 53.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ANLS",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MathVista",
+          "score": 47.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "AI2D",
+          "score": 88.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ChartQA",
+          "score": 81.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        }
+      ]
+    },
+    {
+      "name": "Claude 3 Haiku",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "release_date": "2024-03-04",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.25,
+          "source": "https://www.prompthub.us/models/claude-3-opus"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.25,
+          "source": "https://www.prompthub.us/models/claude-3-opus"
+        },
+        {
+          "name": "MMLU",
+          "score": 75.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 33.3,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 88.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 38.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MGSM",
+          "score": 75.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 75.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 78.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 73.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 89.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 85.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU",
+          "score": 50.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ANLS",
+          "score": 88.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MathVista",
+          "score": 46.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "AI2D",
+          "score": 86.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ChartQA",
+          "score": 81.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
         }
       ]
     },
@@ -1884,6 +2180,11 @@
           "name": "HNHSME 2023",
           "score": 55,
           "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "SWE-bench",
+          "score": 1.97,
+          "source": "https://arxiv.org/abs/2310.06770"
         }
       ]
     }

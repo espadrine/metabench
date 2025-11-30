@@ -4778,7 +4778,7 @@
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
         {
-          "name": "Codeforces",
+          "name": "Codeforces percentile",
           "score": 23.6,
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
@@ -4929,6 +4929,11 @@
           "name": "DocVQA",
           "score": 87.2,
           "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "SWE-bench",
+          "score": 1.31,
+          "source": "https://arxiv.org/abs/2310.06770"
         }
       ]
     },
@@ -4960,6 +4965,51 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 21,
           "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.4,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 95.3,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 96.3,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 87.5,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.0,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "DROP",
+          "score": 80.9,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "GSM8K",
+          "score": 92.0,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "Codeforces",
+          "score": 392,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 34.2,
+          "source": "https://arxiv.org/abs/2311.12022"
         },
         {
           "name": "MMLU",
@@ -5020,6 +5070,81 @@
           "name": "HNHSME 2023",
           "score": 68,
           "source": "https://x.ai/news/grok"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 35.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 92.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 52.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MGSM",
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 80.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 83.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 96.3,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 95.3,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU",
+          "score": 56.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ANLS",
+          "score": 88.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MathVista",
+          "score": 49.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "AI2D",
+          "score": 78.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ChartQA",
+          "score": 78.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
         }
       ]
     },
@@ -5046,6 +5171,51 @@
           "name": "Output cost",
           "score": 2,
           "source": "https://web.archive.org/web/20230510031654/https://openai.com/pricing"
+        },
+        {
+          "name": "MMLU",
+          "score": 70,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 85.5,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 85.2,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 81.6,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "HumanEval",
+          "score": 48.1,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "DROP",
+          "score": 64.1,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "GSM8K",
+          "score": 57.1,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "Codeforces",
+          "score": 260,
+          "source": "https://arxiv.org/abs/2303.08774"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 30.6,
+          "source": "https://arxiv.org/abs/2311.12022"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
@@ -5096,6 +5266,56 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 18.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench",
+          "score": 0.17,
+          "source": "https://arxiv.org/abs/2310.06770"
+        },
+        {
+          "name": "MMLU",
+          "score": 70.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 28.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 57.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 34.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 48.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 64.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 66.6,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 85.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 85.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
         }
       ]
     },
@@ -5197,6 +5417,21 @@
           "name": "SuperGLUE",
           "score": 71.8,
           "source": "https://arxiv.org/abs/2005.14165"
+        },
+        {
+          "name": "MMLU",
+          "score": 43.9,
+          "source": "https://arxiv.org/abs/2009.03300"
+        },
+        {
+          "name": "HumanEval",
+          "score": 0,
+          "source": "https://arxiv.org/pdf/2107.03374"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 25,
+          "source": "https://arxiv.org/abs/2311.12022"
         }
       ]
     }
