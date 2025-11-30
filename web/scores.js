@@ -264,6 +264,7 @@ const categoryBenchmarks = {
     'SimpleQA': 1,
     'MMLU Pro': 1,
     'MMLU-Redux': 1,
+    'MMLU': 1,
     'MMMLU': 1,
     'MMMU': 1,
     'MMMU-Pro': 1,
