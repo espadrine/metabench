@@ -874,6 +874,31 @@
           "source": "https://x.ai/news/grok"
         },
         {
+          "name": "MMLU",
+          "score": 79.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "GSM8K",
+          "score": 81.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MATH",
+          "score": 23.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HumanEval",
+          "score": 44.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 89.0,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 18.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"

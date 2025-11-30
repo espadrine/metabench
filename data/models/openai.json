@@ -5145,6 +5145,46 @@
           "name": "ChartQA",
           "score": 78.5,
           "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MATH",
+          "score": 52.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "BIG-Bench-Hard",
+          "score": 83.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.0,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 73.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "DROP",
+          "score": 80.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 95.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "WMT23",
+          "score": 73.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         }
       ]
     },
@@ -5316,6 +5356,46 @@
           "name": "HellaSwag",
           "score": 85.5,
           "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMLU",
+          "score": 70.0,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "GSM8K",
+          "score": 57.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MATH",
+          "score": 34.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "BIG-Bench-Hard",
+          "score": 66.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HumanEval",
+          "score": 48.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 62.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 85.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "WMT23",
+          "score": 72.7,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         }
       ]
     },

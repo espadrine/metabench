@@ -1878,6 +1878,36 @@
           "source": "https://huggingface.co/meta-llama/Llama-2-70b-chat-hf"
         },
         {
+          "name": "MMLU",
+          "score": 68.0,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "GSM8K",
+          "score": 56.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MATH",
+          "score": 13.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "BIG-Bench-Hard",
+          "score": 51.2,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HumanEval",
+          "score": 29.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 80.0,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
           "name": "GPQA Diamond",
           "score": 26.5,
           "source": "https://arxiv.org/abs/2311.12022"

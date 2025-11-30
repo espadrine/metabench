@@ -1995,6 +1995,276 @@
           "source": "https://x.ai/news/grok-3"
         }
       ]
+    },
+    {
+      "name": "Gemini 1.0 Ultra",
+      "company": "Google",
+      "url": "https://blog.google/technology/ai/google-gemini-ai",
+      "release_date": "2023-12-06",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://www.walturn.com/insights/what-is-gemini-features-pricing-and-use-cases"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://www.walturn.com/insights/what-is-gemini-features-pricing-and-use-cases"
+        },
+        {
+          "name": "MMLU",
+          "score": 83.7,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MATH",
+          "score": 53.2,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 83.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HumanEval",
+          "score": 74.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 74.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "DROP",
+          "score": 82.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 87.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "WMT23",
+          "score": 74.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MMLU",
+          "score": 83.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 94.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 53.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MGSM",
+          "score": 79.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 74.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 82.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 83.6,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 87.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU",
+          "score": 59.4,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ANLS",
+          "score": 90.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MathVista",
+          "score": 53.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "AI2D",
+          "score": 79.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ChartQA",
+          "score": 80.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 1.0 Pro",
+      "company": "Google",
+      "url": "https://blog.google/technology/ai/google-gemini-ai",
+      "release_date": "2023-12-06",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.125,
+          "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.375,
+          "source": "https://cloud.google.com/vertex-ai/generative-ai/pricing"
+        },
+        {
+          "name": "MMLU",
+          "score": 71.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MATH",
+          "score": 32.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "BIG-Bench-Hard",
+          "score": 75.0,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.7,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 69.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "DROP",
+          "score": 74.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 84.7,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "WMT23",
+          "score": 71.7,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MMLU",
+          "score": 71.8,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "GSM8K",
+          "score": 86.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MATH",
+          "score": 32.6,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MGSM",
+          "score": 63.5,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "DROP",
+          "score": 74.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 75.0,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 84.7,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU",
+          "score": 47.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ANLS",
+          "score": 88.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MathVista",
+          "score": 45.2,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "AI2D",
+          "score": 73.9,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "ChartQA",
+          "score": 74.1,
+          "source": "https://www.anthropic.com/news/claude-3-family"
+        }
+      ]
     }
   ]
 }
