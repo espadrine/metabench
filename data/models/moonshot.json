@@ -245,6 +245,11 @@
           "name": "Tool-Decathlon",
           "score": 17.6,
           "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 35.7,
+          "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
         }
       ]
     },
@@ -562,6 +567,11 @@
           "name": "GPQA",
           "score": 75.8,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 26.7,
+          "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
         }
       ]
     },

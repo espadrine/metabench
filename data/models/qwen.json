@@ -547,6 +547,11 @@
           "name": "SWE-Dev",
           "score": 64.7,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 23.9,
+          "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
         }
       ]
     },

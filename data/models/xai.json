@@ -488,6 +488,11 @@
           "name": "BFCL v4 MultiTurn",
           "score": 62.27,
           "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 27.2,
+          "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
         }
       ]
     },
