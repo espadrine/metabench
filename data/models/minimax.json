@@ -160,6 +160,81 @@
           "name": "Terminal-Bench-Hard",
           "score": 24,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 82.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 77.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 12.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 83.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78.3,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 89.4,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 30.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "SWE Verified",
+          "score": 69.4,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "SWE Multilingual",
+          "score": 56.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 44.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 48.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 76.9,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "MCP-Universe",
+          "score": 29.4,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "MCP-Mark",
+          "score": 24.4,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Tool-Decathlon",
+          "score": 16.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
         }
       ]
     }

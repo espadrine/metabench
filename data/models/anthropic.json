@@ -422,7 +422,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 74.6,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -680,6 +680,91 @@
           "name": "MMMLU",
           "score": 89.1,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 88.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 64.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1480,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 87.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 79.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 81.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 42.8,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "SWE Verified",
+          "score": 77.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "SWE Multilingual",
+          "score": 68.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 24.1,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 42.4,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "MCP-Universe",
+          "score": 46.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "MCP-Mark",
+          "score": 33.3,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Tool-Decathlon",
+          "score": 38.6,
+          "source": "https://api-docs.deepseek.com/news/news251201"
         }
       ]
     },
@@ -1033,12 +1118,12 @@
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 58.3,
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 58.3,
           "source": "https://x.ai/news/grok-4"
         },

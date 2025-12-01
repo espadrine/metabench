@@ -758,7 +758,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 93.3,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1043,7 +1043,7 @@
           "source": "https://x.ai/news/grok-4-fast"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 93.3,
           "source": "https://x.ai/news/grok-4-fast"
         },
@@ -1078,7 +1078,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 93.3,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -1311,6 +1311,96 @@
           "name": "X Browse",
           "score": 24.2,
           "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 87.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 26.3,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 84.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2537,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 88.3,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 89.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "IMOAnswerBench",
+          "score": 76.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 35.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "SWE Verified",
+          "score": 74.9,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "SWE Multilingual",
+          "score": 55.3,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 54.9,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 63.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "MCP-Universe",
+          "score": 47.9,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "MCP-Mark",
+          "score": 50.9,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Tool-Decathlon",
+          "score": 29.0,
+          "source": "https://api-docs.deepseek.com/news/news251201"
         }
       ]
     },
@@ -1721,7 +1811,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 87.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1856,7 +1946,7 @@
           "source": "https://x.ai/news/grok-4-fast"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 87.8,
           "source": "https://x.ai/news/grok-4-fast"
         },
@@ -2212,7 +2302,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 75.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -2720,7 +2810,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 85,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -2996,7 +3086,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 81.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3206,7 +3296,7 @@
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 77.5,
           "source": "https://x.ai/news/grok-4"
         },
@@ -3411,7 +3501,7 @@
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 53.3,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
         },
@@ -3479,7 +3569,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 28.9,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3742,7 +3832,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "HMMT 2025",
+          "name": "HMMT Feb 2025",
           "score": 35,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
