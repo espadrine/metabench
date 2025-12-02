@@ -579,6 +579,56 @@
           "name": "LMArena Text",
           "score": 1416,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "HumanEval",
+          "score": 93.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 42.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 84.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 97.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "IfEval",
+          "score": 89.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MATH",
+          "score": 93.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 61.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 81.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 95.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 91.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
         }
       ]
     },

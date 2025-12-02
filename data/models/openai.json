@@ -4956,6 +4956,136 @@
           "name": "SimpleQA Chinese",
           "score": 59.3,
           "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "HumanEval",
+          "score": 91.5,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 31.4,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 79.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 95.4,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "IfEval",
+          "score": 87.2,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MATH",
+          "score": 76.4,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 52.5,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 75.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 96.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 88.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 68.7,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "DocVQA",
+          "score": 85.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "AI2D",
+          "score": 93.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "ChartQA",
+          "score": 86.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MathVista",
+          "score": 65.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MMMU",
+          "score": 68.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "ChartQA",
+          "score": 85.2,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "DocVQA",
+          "score": 88.5,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "VQAv2",
+          "score": 76.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "AI2D",
+          "score": 93.2,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MM MT-Bench",
+          "score": 6.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 68.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Mathvista (thinking)",
+          "score": 64.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "ChartQA (thinking)",
+          "score": 85.1,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "DocVQA",
+          "score": 88.9,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "VQAv2",
+          "score": 77.8,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         }
       ]
     },
@@ -5315,6 +5445,36 @@
           "name": "WMT23",
           "score": 73.8,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.4,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 95.3,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 87.5,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 96.3,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.0,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "GSM8K",
+          "score": 92.0,
+          "source": "https://mistral.ai/news/mistral-large"
         }
       ]
     },
@@ -5526,6 +5686,36 @@
           "name": "WMT23",
           "score": 72.7,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
+        },
+        {
+          "name": "MMLU",
+          "score": 70.0,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 85.5,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 81.6,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 85.2,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HumanEval",
+          "score": 48.1,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "GSM8K",
+          "score": 57.1,
+          "source": "https://mistral.ai/news/mistral-large"
         }
       ]
     },
@@ -5642,6 +5832,41 @@
           "name": "GPQA Diamond",
           "score": 25,
           "source": "https://arxiv.org/abs/2311.12022"
+        },
+        {
+          "name": "BoolQ",
+          "score": 60.5,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "PIQA",
+          "score": 81.0,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 78.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 70.2,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "ARC-e",
+          "score": 68.8,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "ARC-c",
+          "score": 51.4,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 57.6,
+          "source": "https://arxiv.org/abs/2302.13971"
         }
       ]
     }

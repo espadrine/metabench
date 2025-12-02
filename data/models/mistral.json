@@ -1,6 +1,414 @@
 {
   "models": [
     {
+      "name": "Magistral Medium 1.2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-09-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 77,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 91.82,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.48,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.26,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 75,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "GPQA",
+          "score": 70.8,
+          "source": "https://llm-stats.com/benchmarks"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-09-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 24.01136128,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "Active parameters",
+          "score": 24.01136128,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 62,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 86.14,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 77.34,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 70.07,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.88,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Medium 3.1",
+      "company": "Mistral AI",
+      "url": "https://x.com/MistralAI/status/1959015454359585230",
+      "release_date": "2025-08-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.4,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 35,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1436,
+          "source": "https://x.com/MistralAI/status/1959015454359585230"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-07-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 72.03,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 60.99,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.46,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.35,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-07-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23.5724032,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23.5724032,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 70.52,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 62.03,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.78,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.17,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Medium 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-06-10",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 150,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 33,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 73.59,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 64.95,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 70.83,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.36,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        }
+      ]
+    },
+    {
+      "name": "Magistral Small 1.0",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/magistral",
+      "release_date": "2025-06-10",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23.5724032,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23.5724032,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 140,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 32,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 70.68,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 62.76,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 68.18,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.84,
+          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+        }
+      ]
+    },
+    {
       "name": "Devstral Small 1.1",
       "company": "Mistral AI",
       "url": "https://mistral.ai/news/devstral-2507",
@@ -98,10 +506,10 @@
       ]
     },
     {
-      "name": "Magistral Medium 1.2",
+      "name": "Mistral Medium 3",
       "company": "Mistral AI",
-      "url": "https://mistral.ai/news/magistral",
-      "release_date": "2025-09-24",
+      "url": "https://mistral.ai/news/mistral-medium-3",
+      "release_date": "2025-05-07",
       "capabilities": {
         "input": [
           "text",
@@ -109,169 +517,332 @@
         ],
         "output": [
           "text",
-          "thinking",
           "tool"
         ]
       },
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2,
+          "score": 0.4,
           "source": "https://mistral.ai/pricing#api-pricing"
         },
         {
           "name": "Output cost",
-          "score": 5,
+          "score": 2,
           "source": "https://mistral.ai/pricing#api-pricing"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 77,
+          "score": 7.6,
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 52,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 91.82,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 83.48,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 76.26,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+          "name": "HumanEval",
+          "score": 92.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
           "name": "LiveCodeBench",
-          "score": 75,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+          "score": 30.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 81.4,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 97.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "IfEval",
+          "score": 89.4,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MATH",
+          "score": 91.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 57.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 77.2,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 96.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 90.2,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 66.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "DocVQA",
+          "score": 95.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "AI2D",
+          "score": 93.7,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "ChartQA",
+          "score": 82.6,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 34,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small 3.1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-3-1",
+      "release_date": "2025-03-17",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 24.01136128,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "Active parameters",
+          "score": 24.01136128,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 6.3,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU",
+          "score": 80.62,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 66.76,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MATH",
+          "score": 69.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "GPQA Main",
+          "score": 44.42,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 45.96,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MBPP",
+          "score": 74.71,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "HumanEval",
+          "score": 88.41,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 10.43,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMMU",
+          "score": 64,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 49.25,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MathVista",
+          "score": 68.91,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "ChartQA",
+          "score": 86.24,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "DocVQA",
+          "score": 94.08,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "AI2D",
+          "score": 93.72,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MM MT Bench",
+          "score": 7.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 37.18,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 93.96,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 81.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small 3",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-3",
+      "release_date": "2025-01-30",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 23.5724032,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23.5724032,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 6.3,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 66.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
           "name": "GPQA",
-          "score": 70.8,
-          "source": "https://llm-stats.com/benchmarks"
-        }
-      ]
-    },
-    {
-      "name": "Magistral Medium 1.1",
-      "company": "Mistral AI",
-      "url": "https://mistral.ai/news/magistral",
-      "release_date": "2025-07-24",
-      "capabilities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text",
-          "thinking",
-          "tool"
-        ]
-      },
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 2,
-          "source": "https://mistral.ai/pricing#api-pricing"
+          "score": 45.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "Output cost",
-          "score": 5,
-          "source": "https://mistral.ai/pricing#api-pricing"
+          "name": "HumanEval",
+          "score": 84.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "AIME 2024",
-          "score": 72.03,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+          "name": "MATH",
+          "score": 70.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "AIME 2025",
-          "score": 60.99,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+          "name": "MT-Bench Dev",
+          "score": 8.35,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "GPQA Diamond",
-          "score": 71.46,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+          "name": "WildBench",
+          "score": 52.27,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "LiveCodeBench",
-          "score": 59.35,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
-        }
-      ]
-    },
-    {
-      "name": "Magistral Medium 1.0",
-      "company": "Mistral AI",
-      "url": "https://mistral.ai/news/magistral",
-      "release_date": "2025-06-10",
-      "capabilities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text",
-          "thinking",
-          "tool"
-        ]
-      },
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 2,
-          "source": "https://mistral.ai/pricing#api-pricing"
+          "name": "Arena-Hard",
+          "score": 87.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "Output cost",
-          "score": 5,
-          "source": "https://mistral.ai/pricing#api-pricing"
-        },
-        {
-          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 150,
-          "source": "https://artificialanalysis.ai/"
+          "name": "IF Eval",
+          "score": 82.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33,
+          "score": 21,
           "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 73.59,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 64.95,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 70.83,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 59.36,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
         }
       ]
     },
     {
-      "name": "Magistral Small 1.2",
+      "name": "Pixtral Large",
       "company": "Mistral AI",
-      "url": "https://mistral.ai/news/magistral",
-      "release_date": "2025-09-24",
+      "url": "https://mistral.ai/news/pixtral-large",
+      "release_date": "2024-11-18",
       "capabilities": {
         "input": [
           "text",
@@ -279,186 +850,1510 @@
         ],
         "output": [
           "text",
-          "thinking",
           "tool"
         ]
       },
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.5,
+          "score": 2,
           "source": "https://mistral.ai/pricing#api-pricing"
         },
         {
           "name": "Output cost",
-          "score": 1.5,
+          "score": 6,
           "source": "https://mistral.ai/pricing#api-pricing"
         },
         {
           "name": "Size",
-          "score": 24.01136128,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+          "score": 124,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
         },
         {
           "name": "Active parameters",
-          "score": 24.01136128,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
+          "score": 124,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 5.4,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MathVista",
+          "score": 69.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MMMU",
+          "score": 64.0,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "ChartQA",
+          "score": 88.1,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "DocVQA",
+          "score": 93.3,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "VQAv2",
+          "score": 80.9,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "AI2D",
+          "score": 93.8,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MM MT Bench",
+          "score": 7.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Ministral 8B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/ministraux",
+      "release_date": "2024-10-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/news/ministraux"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/news/ministraux"
+        },
+        {
+          "name": "Size",
+          "score": 8.019808256,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8.019808256,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 5.8,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MTBench",
+          "score": 8.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 70.9,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "WildBench",
+          "score": 41.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MBPP",
+          "score": 70.0,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "HumanEval",
+          "score": 76.8,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MATH",
+          "score": 54.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 65.0,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "AGIEval",
+          "score": 48.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Winogrande",
+          "score": 75.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 71.9,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 65.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (fr)",
+          "score": 57.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (de)",
+          "score": 57.4,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (es)",
+          "score": 59.6,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Ministral 3B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/ministraux",
+      "release_date": "2024-10-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.04,
+          "source": "https://mistral.ai/news/ministraux"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.04,
+          "source": "https://mistral.ai/news/ministraux"
+        },
+        {
+          "name": "Size",
+          "score": 3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MTBench",
+          "score": 8.1,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 64.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "WildBench",
+          "score": 36.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MBPP",
+          "score": 67.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "HumanEval",
+          "score": 77.4,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MATH",
+          "score": 51.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 60.9,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "AGIEval",
+          "score": 42.1,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Winogrande",
+          "score": 72.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 64.2,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 56.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (fr)",
+          "score": 49.1,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (de)",
+          "score": 48.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (es)",
+          "score": 49.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 11,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small 2 2409",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/september-24-release",
+      "release_date": "2024-09-17",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 22.247282688,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-Instruct-2409"
+        },
+        {
+          "name": "Active parameters",
+          "score": 22.247282688,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-Instruct-2409"
+        },
+        {
+          "name": "GSM8K",
+          "score": 88,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "MATH",
+          "score": 60,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "HumanEval",
+          "score": 78,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 76,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "MTBench",
+          "score": 8.1,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "WildBench",
+          "score": 48,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 13,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Pixtral 12B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/pixtral-12b",
+      "release_date": "2024-09-17",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.15,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 12,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Active parameters",
+          "score": 12,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 52.5,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Mathvista (thinking)",
+          "score": 58.0,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "ChartQA (thinking)",
+          "score": 81.8,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "DocVQA",
+          "score": 90.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "VQAv2",
+          "score": 78.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "MM MT-Bench",
+          "score": 6.05,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Text MT-Bench",
+          "score": 7.68,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "MM IF-Eval",
+          "score": 52.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Text IF-Eval",
+          "score": 61.3,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "MMLU",
+          "score": 69.2,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Math",
+          "score": 48.1,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "HumanEval",
+          "score": 72.0,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 9,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Large 2",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-2407",
+      "release_date": "2024-07-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 122.610069504,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "Active parameters",
+          "score": 122.610069504,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "MMLU",
+          "score": 84.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 8.63,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "WildBench",
+          "score": 56.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 73.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "HumanEval",
+          "score": 92.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "HumanEval EvalPlus",
+          "score": 87.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "MBPP",
+          "score": 80.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "MBPP EvalPlus",
+          "score": 69.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "GSM8K",
+          "score": 93.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "Math Instruct",
+          "score": 70.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "Math Instruct (thinking)",
+          "score": 71.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 22,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Nemo",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-nemo",
+      "release_date": "2024-07-18",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 12.247782400,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "Active parameters",
+          "score": 12.247782400,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 83.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "Winogrande",
+          "score": 76.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 60.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "CommonSenseQA",
+          "score": 70.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": 50.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "MMLU",
+          "score": 68.0,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 73.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 31.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 7.84,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "WildBench",
+          "score": 42.57,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 5,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mixtral 8x22B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large",
+      "release_date": "2024-02-26",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 140.630071296,
+          "source": "https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 39,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "HumanEval",
+          "score": 45.1,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MBPP",
+          "score": 71.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "GSM8K",
+          "score": 78.6,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "GSM8K (thinking)",
+          "score": 88.4,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MATH",
+          "score": 41.8,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MMLU",
+          "score": 77.75,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 88.5,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 84.7,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 91.3,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 82.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 40.1,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Large 1",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large",
+      "release_date": "2024-02-26",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "Output cost",
+          "score": 9,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "MMLU",
+          "score": 81.2,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 89.2,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 86.7,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 94.2,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 82.7,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": 50.5,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HumanEval",
+          "score": 45.1,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "MBPP",
+          "score": 73.1,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "GSM8K",
+          "score": 81.0,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small 1 2402",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large",
+      "release_date": "2024-02-26",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "Output cost",
+          "score": 3,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "Size",
+          "score": 22,
+          "source": "Guessing that Mixtral was upcycled"
+        },
+        {
+          "name": "Active parameters",
+          "score": 22,
+          "source": "Guessing that Mixtral was upcycled"
+        },
+        {
+          "name": "GSM8K",
+          "score": 80,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "MATH",
+          "score": 40,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "HumanEval",
           "score": 62,
-          "source": "https://artificialanalysis.ai/"
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 60,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "MTBench",
+          "score": 7.8,
+          "source": "https://mistral.ai/news/september-24-release"
+        },
+        {
+          "name": "WildBench",
+          "score": 38,
+          "source": "https://mistral.ai/news/september-24-release"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 43,
+          "score": 8,
           "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 86.14,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 77.34,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 70.07,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 70.88,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2509"
         }
       ]
     },
     {
-      "name": "Magistral Small 1.1",
+      "name": "Mistral Medium 1",
       "company": "Mistral AI",
-      "url": "https://mistral.ai/news/magistral",
-      "release_date": "2025-07-24",
+      "url": "https://mistral.ai/news/mistral-large",
+      "release_date": "2024-02-26",
       "capabilities": {
         "input": [
           "text"
         ],
         "output": [
-          "text",
-          "thinking",
-          "tool"
+          "text"
         ]
       },
       "benchmarks": [
         {
-          "name": "Input cost",
-          "score": 0.5,
-          "source": "https://mistral.ai/pricing#api-pricing"
-        },
-        {
-          "name": "Output cost",
-          "score": 1.5,
-          "source": "https://mistral.ai/pricing#api-pricing"
-        },
-        {
           "name": "Size",
-          "score": 23.5724032,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+          "score": 70,
+          "source": "https://huggingface.co/miqudev/miqu-1-70b"
         },
         {
           "name": "Active parameters",
-          "score": 23.5724032,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+          "score": 70,
+          "source": "https://huggingface.co/miqudev/miqu-1-70b"
         },
         {
-          "name": "AIME 2024",
-          "score": 70.52,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 62.03,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 65.78,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 59.17,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2507"
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 8,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         }
       ]
     },
     {
-      "name": "Magistral Small 1.0",
+      "name": "Mixtral 8x7B",
       "company": "Mistral AI",
-      "url": "https://mistral.ai/news/magistral",
-      "release_date": "2025-06-10",
+      "url": "https://mistral.ai/news/mixtral-of-experts",
+      "release_date": "2023-12-11",
       "capabilities": {
         "input": [
           "text"
         ],
         "output": [
-          "text",
-          "thinking",
-          "tool"
+          "text"
         ]
       },
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.5,
+          "score": 0.7,
           "source": "https://mistral.ai/pricing#api-pricing"
         },
         {
           "name": "Output cost",
-          "score": 1.5,
+          "score": 0.7,
           "source": "https://mistral.ai/pricing#api-pricing"
         },
         {
           "name": "Size",
-          "score": 23.5724032,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+          "score": 46.702792704,
+          "source": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1"
         },
         {
           "name": "Active parameters",
-          "score": 23.5724032,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+          "score": 12.9,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
-          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 140,
-          "source": "https://artificialanalysis.ai/"
+          "name": "BBQ",
+          "score": 55.98,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "MMLU",
+          "score": 70.6,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 86.7,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 85.8,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 81.2,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "MBPP",
+          "score": 60.7,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "GSM8K",
+          "score": 58.4,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 8.3,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "PIQA",
+          "score": 83.6,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ARC-Easy",
+          "score": 83.1,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 59.7,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 30.6,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 71.5,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "HumanEval",
+          "score": 40.2,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "Math",
+          "score": 28.4,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "HumanEval",
+          "score": 40.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MBPP",
+          "score": 60.7,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "GSM8K",
+          "score": 58.4,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "GSM8K (thinking)",
+          "score": 74.4,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MATH",
+          "score": 28.4,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MMLU",
+          "score": 70.63,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 86.6,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 81.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 85.8,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 78.4,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 36.5,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 32,
+          "score": 3,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        }
+      ]
+    },
+    {
+      "name": "Mistral 7B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/announcing-mistral-7b",
+      "release_date": "2023-09-27",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.25,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.25,
+          "source": "https://mistral.ai/pricing#api-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 8.019808256,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8.019808256,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 60.1,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 81.3,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 75.3,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "PIQA",
+          "score": 83.0,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "ARC-Easy",
+          "score": 80.0,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 55.5,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 28.8,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 69.9,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "HumanEval",
+          "score": 30.5,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "MBPP",
+          "score": 47.5,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "MATH",
+          "score": 13.1,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "GSM8K",
+          "score": 52.1,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 6.84,
+          "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 1,
           "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
-          "name": "AIME 2024",
-          "score": 70.68,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+          "name": "MTBench",
+          "score": 6.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "AIME 2025",
-          "score": 62.76,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+          "name": "Arena-Hard",
+          "score": 44.3,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "GPQA Diamond",
-          "score": 68.18,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+          "name": "WildBench",
+          "score": 33.1,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "LiveCodeBench",
-          "score": 55.84,
-          "source": "https://huggingface.co/mistralai/Magistral-Small-2506"
+          "name": "MBPP",
+          "score": 50.2,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "HumanEval",
+          "score": 38.4,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MATH",
+          "score": 13.2,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 62.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "AGIEval",
+          "score": 42.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Winogrande",
+          "score": 74.2,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 67.9,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 62.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (fr)",
+          "score": 50.6,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (de)",
+          "score": 49.6,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (es)",
+          "score": 51.4,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 62.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 60.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "GSM8K",
+          "score": 39.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "AGIEval",
+          "score": 44.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "DROP",
+          "score": 63.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BBH",
+          "score": 56.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "Winogrande",
+          "score": 78.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 83.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 12.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-e",
+          "score": 80.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "PIQA",
+          "score": 82.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "SIQA",
+          "score": 47.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BoolQ",
+          "score": 83.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 62.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 23.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HumanEval",
+          "score": 26.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MBPP",
+          "score": 40.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 6.48,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "WildBench",
+          "score": 25.55,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "HumanEval",
+          "score": 26.22,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MBPP",
+          "score": 50.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "GSM8K",
+          "score": 36.5,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "GSM8K (thinking)",
+          "score": 50.0,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MATH",
+          "score": 12.7,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MMLU",
+          "score": 62.47,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 83.1,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 78.0,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 77.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 68.8,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 28.1,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "BBQ",
+          "score": null,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "MMLU",
+          "score": 44.4,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 77.1,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 43.2,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 69.5,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "MBPP",
+          "score": 26.1,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "GSM8K",
+          "score": 16.0,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "PIQA",
+          "score": 77.9,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ARC-Easy",
+          "score": 68.7,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 39.0,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 17.5,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 56.6,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "HumanEval",
+          "score": 11.6,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "Math",
+          "score": 3.9,
+          "source": "https://mistral.ai/news/mixtral-of-experts"
         }
       ]
     }

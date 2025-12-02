@@ -1,0 +1,220 @@
+{
+  "models": [
+    {
+      "name": "Command-A",
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/command-a",
+      "release_date": "2025-03-13",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://cohere.com/blog/command-a"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://cohere.com/blog/command-a"
+        },
+        {
+          "name": "Size",
+          "score": 111.057580032,
+          "source": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+        },
+        {
+          "name": "Active parameters",
+          "score": 111.057580032,
+          "source": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 7.5,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "HumanEval",
+          "score": 82.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 26.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 73.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 95.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "IfEval",
+          "score": 89.7,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MATH",
+          "score": 82.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 46.5,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 68.9,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 95.6,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 91.2,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        }
+      ]
+    },
+    {
+      "name": "Command-R+",
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/command-r-plus-microsoft-azure",
+      "release_date": "2024-04-04",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://cohere.com/blog/command-r"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://cohere.com/blog/command-r"
+        },
+        {
+          "name": "Size",
+          "score": 104,
+          "source": "https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024"
+        },
+        {
+          "name": "Active parameters",
+          "score": 104,
+          "source": "https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024"
+        },
+        {
+          "name": "GSM8K",
+          "score": 70.7,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MMLU",
+          "score": 75.7,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 88.6,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 85.4,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 71.0,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        }
+      ]
+    },
+    {
+      "name": "Command-R",
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/command-r",
+      "release_date": "2024-03-11",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://cohere.com/blog/command-r"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://cohere.com/blog/command-r"
+        },
+        {
+          "name": "Size",
+          "score": 35,
+          "source": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+        },
+        {
+          "name": "Active parameters",
+          "score": 35,
+          "source": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025"
+        },
+        {
+          "name": "GSM8K",
+          "score": 56.6,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "MMLU",
+          "score": 68.2,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 87.0,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 81.5,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 66.5,
+          "source": "https://mistral.ai/news/mixtral-8x22b"
+        }
+      ]
+    }
+  ]
+}

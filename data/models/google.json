@@ -1328,6 +1328,96 @@
           "name": "τ²-Bench",
           "score": 10.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU",
+          "score": 76.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 67.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MATH",
+          "score": 89,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "GPQA Main",
+          "score": 36.83,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 42.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MBPP",
+          "score": 74.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "HumanEval",
+          "score": 87.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 10,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMMU",
+          "score": 64.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 48.38,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MathVista",
+          "score": 67.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "ChartQA",
+          "score": 76,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "DocVQA",
+          "score": 86.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "AI2D",
+          "score": 84.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MM MT Bench",
+          "score": 7,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 34.59,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 91.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 66,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
         }
       ]
     },
@@ -2087,6 +2177,1237 @@
       ]
     },
     {
+      "name": "Gemini 1.5 Flash 8B",
+      "company": "Google",
+      "url": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/",
+      "release_date": "2024-10-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.0375,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.15,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Size",
+          "score": 8,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 58.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 75.5,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MATH",
+          "score": 58.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "HiddenMath",
+          "score": 32.8,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "GPQA",
+          "score": 38.4,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "WMT23",
+          "score": 72.6,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MRCR 1M",
+          "score": 54.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MMMU",
+          "score": 53.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 40.9,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MathVista",
+          "score": 54.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "FLEURS (55 lang)",
+          "score": 13.6,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Video-MME",
+          "score": 66.2,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "XSTest",
+          "score": 92.6,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 50.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Mathvista (thinking)",
+          "score": 56.9,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "ChartQA (thinking)",
+          "score": 78.0,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "DocVQA",
+          "score": 79.5,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "VQAv2",
+          "score": 65.5,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 2 27B",
+      "company": "Google",
+      "url": "https://blog.google/technology/developers/google-gemma-2/",
+      "release_date": "2024-06-27",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.65,
+          "source": "https://openrouter.ai/google/gemma-2-27b-it"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.65,
+          "source": "https://openrouter.ai/google/gemma-2-27b-it"
+        },
+        {
+          "name": "Size",
+          "score": 27.227128320,
+          "source": "https://huggingface.co/google/gemma-2-27b"
+        },
+        {
+          "name": "Active parameters",
+          "score": 27.227128320,
+          "source": "https://huggingface.co/google/gemma-2-27b"
+        },
+        {
+          "name": "MMLU",
+          "score": 75.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 71.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "GSM8K",
+          "score": 74.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "AGIEval",
+          "score": 55.1,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "DROP",
+          "score": 74.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BBH",
+          "score": 74.9,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "Winogrande",
+          "score": 83.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 86.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 42.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-e",
+          "score": 88.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "PIQA",
+          "score": 83.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "SIQA",
+          "score": 53.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BoolQ",
+          "score": 84.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 83.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 34.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HumanEval",
+          "score": 51.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MBPP",
+          "score": 62.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 2 9B",
+      "company": "Google",
+      "url": "https://blog.google/technology/developers/google-gemma-2/",
+      "release_date": "2024-06-27",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.03,
+          "source": "https://openrouter.ai/google/gemma-2-9b-it"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.09,
+          "source": "https://openrouter.ai/google/gemma-2-9b-it"
+        },
+        {
+          "name": "Size",
+          "score": 9.241705984,
+          "source": "https://huggingface.co/google/gemma-2-9b"
+        },
+        {
+          "name": "Active parameters",
+          "score": 9.241705984,
+          "source": "https://huggingface.co/google/gemma-2-9b"
+        },
+        {
+          "name": "MMLU",
+          "score": 71.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 68.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "GSM8K",
+          "score": 68.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "AGIEval",
+          "score": 52.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "DROP",
+          "score": 69.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BBH",
+          "score": 68.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "Winogrande",
+          "score": 80.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 81.9,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 36.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-e",
+          "score": 88.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "PIQA",
+          "score": 81.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "SIQA",
+          "score": 53.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BoolQ",
+          "score": 84.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 76.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 29.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HumanEval",
+          "score": 40.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MBPP",
+          "score": 52.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MTBench",
+          "score": 7.6,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 68.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "WildBench",
+          "score": 43.8,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MBPP",
+          "score": 68.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MATH",
+          "score": 47.4,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 68.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "AGIEval",
+          "score": 68.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Winogrande",
+          "score": 74.2,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 68.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 67.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 80.1,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "Winogrande",
+          "score": 74.0,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 29.8,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 71.3,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "MMLU",
+          "score": 71.5,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 50.8,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "CommonSenseQA",
+          "score": 60.8,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": 46.6,
+          "source": "https://mistral.ai/news/mistral-nemo"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 2 2B",
+      "company": "Google",
+      "url": "https://blog.google/technology/developers/google-gemma-2/",
+      "release_date": "2024-06-27",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 2.614341888,
+          "source": "https://huggingface.co/google/gemma-2-2b"
+        },
+        {
+          "name": "Active parameters",
+          "score": 2.614341888,
+          "source": "https://huggingface.co/google/gemma-2-2b"
+        },
+        {
+          "name": "MMLU",
+          "score": 52.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 55.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "GSM8K",
+          "score": 24.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "AGIEval",
+          "score": 31.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "DROP",
+          "score": 51.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BBH",
+          "score": 41.9,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "Winogrande",
+          "score": 71.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 72.9,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 16.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-e",
+          "score": 80.6,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "PIQA",
+          "score": 78.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "SIQA",
+          "score": 51.9,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BoolQ",
+          "score": 72.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 60.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 17.1,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HumanEval",
+          "score": 20.1,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MBPP",
+          "score": 30.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MTBench",
+          "score": 7.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 51.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "WildBench",
+          "score": 32.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MBPP",
+          "score": 54.5,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "HumanEval",
+          "score": 42.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MATH",
+          "score": 22.8,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU",
+          "score": 52.4,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "AGIEval",
+          "score": 33.8,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "Winogrande",
+          "score": 68.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 42.6,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 47.8,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (fr)",
+          "score": 41.0,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (de)",
+          "score": 40.1,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "MMLU (es)",
+          "score": 41.7,
+          "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 1.5 Pro",
+      "company": "Google",
+      "url": "https://developers.googleblog.com/en/gemini-15-pro-and-15-flash-now-available/",
+      "release_date": "2024-05-30",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.35,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://ai.google.dev/gemini-api/docs/pricing"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 69.0,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 82.6,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MATH",
+          "score": 67.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "HiddenMath",
+          "score": 28.0,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "GPQA",
+          "score": 46.0,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "WMT23",
+          "score": 75.3,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MRCR 1M",
+          "score": 70.5,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MMMU",
+          "score": 62.2,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 48.9,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MathVista",
+          "score": 63.9,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "FLEURS (55 lang)",
+          "score": 6.5,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Video-MME",
+          "score": 77.9,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "XSTest",
+          "score": 88.4,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        }
+      ]
+    },
+    {
+      "name": "Gemini 1.5 Flash",
+      "company": "Google",
+      "url": "https://developers.googleblog.com/en/gemini-15-pro-and-15-flash-now-available/",
+      "release_date": "2024-05-30",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.075,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-updates-google-ai-studio-gemini-api/"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-updates-google-ai-studio-gemini-api/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 59.1,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Natural2Code",
+          "score": 77.2,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MATH",
+          "score": 54.9,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "HiddenMath",
+          "score": 20.3,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "GPQA",
+          "score": 41.4,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "WMT23",
+          "score": 74.1,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MRCR 1M",
+          "score": 70.1,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MMMU",
+          "score": 56.1,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Vibe-Eval",
+          "score": 44.8,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "MathVista",
+          "score": 58.4,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "FLEURS (55 lang)",
+          "score": 9.8,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "Video-MME",
+          "score": 74.7,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        },
+        {
+          "name": "XSTest",
+          "score": 86.9,
+          "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 1 7B",
+      "company": "Google",
+      "url": "https://blog.google/technology/developers/gemma-open-models/",
+      "release_date": "2024-02-21",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 8.537680896,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8.537680896,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MMLU",
+          "score": 64.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 81.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "PIQA",
+          "score": 81.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "SocialIQA",
+          "score": 51.8,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "BoolQ",
+          "score": 83.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 72.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 71.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 52.8,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "ARC-e",
+          "score": 81.5,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 53.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 63.4,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "Natural Questions",
+          "score": 23,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "HumanEval",
+          "score": 32.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MBPP",
+          "score": 44.4,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "GSM8K",
+          "score": 46.4,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MATH",
+          "score": 24.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "AGIEval",
+          "score": 41.7,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "BIG-Bench",
+          "score": 55.1,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MMLU",
+          "score": 64.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 61.1,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "GSM8K",
+          "score": 51.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "AGIEval",
+          "score": 44.9,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "DROP",
+          "score": 56.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BBH",
+          "score": 59.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "Winogrande",
+          "score": 79.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 82.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 24.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-e",
+          "score": 81.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "PIQA",
+          "score": 81.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "SIQA",
+          "score": 51.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BoolQ",
+          "score": 83.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 63.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 23.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HumanEval",
+          "score": 32.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MBPP",
+          "score": 44.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 1 2B",
+      "company": "Google",
+      "url": "https://blog.google/technology/developers/gemma-open-models/",
+      "release_date": "2024-02-21",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 2.506172416,
+          "source": "https://huggingface.co/google/gemma-2b-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 2.506172416,
+          "source": "https://huggingface.co/google/gemma-2b-it"
+        },
+        {
+          "name": "MMLU",
+          "score": 42.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 71.4,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "PIQA",
+          "score": 77.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "SocialIQA",
+          "score": 49.7,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "BoolQ",
+          "score": 69.4,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 65.4,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 65.3,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 47.8,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "ARC-e",
+          "score": 73.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "ARC-c",
+          "score": 42.1,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 53.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "Natural Questions",
+          "score": 12.5,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "HumanEval",
+          "score": 22.0,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MBPP",
+          "score": 29.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "GSM8K",
+          "score": 17.7,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MATH",
+          "score": 11.8,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "AGIEval",
+          "score": 24.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "BIG-Bench",
+          "score": 35.2,
+          "source": "https://huggingface.co/google/gemma-7b-it"
+        },
+        {
+          "name": "MMLU",
+          "score": 42.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 48.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "GSM8K",
+          "score": 15.1,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "AGIEval",
+          "score": 24.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "DROP",
+          "score": 48.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BBH",
+          "score": 35.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "Winogrande",
+          "score": 66.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 71.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 11.8,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ARC-e",
+          "score": 73.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "PIQA",
+          "score": 77.3,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "SIQA",
+          "score": 49.7,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "BoolQ",
+          "score": 69.4,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 53.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 12.5,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "HumanEval",
+          "score": 22.0,
+          "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MBPP",
+          "score": 29.2,
+          "source": "https://arxiv.org/abs/2408.00118"
+        }
+      ]
+    },
+    {
       "name": "Gemini 1.0 Ultra",
       "company": "Google",
       "url": "https://blog.google/technology/ai/google-gemini-ai",
@@ -2353,6 +3674,31 @@
           "name": "ChartQA",
           "score": 74.1,
           "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMLU",
+          "score": 71.8,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 84.7,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "TruthfulQA",
+          "score": null,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "HumanEval",
+          "score": 67.7,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "GSM8K",
+          "score": 86.5,
+          "source": "https://mistral.ai/news/mistral-large"
         }
       ]
     }

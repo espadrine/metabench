@@ -1705,11 +1705,310 @@
           "name": "AIME 2025",
           "score": 54.8,
           "source": "https://www.anthropic.com/news/claude-4"
+        },
+        {
+          "name": "HumanEval",
+          "score": 92.1,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 36.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 83.4,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 93.2,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "IfEval",
+          "score": 91.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MATH",
+          "score": 83.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 69.7,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 80.0,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 95.7,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 93.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "MMMU",
+          "score": 71.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "DocVQA",
+          "score": 84.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "AI2D",
+          "score": 78.8,
+          "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "ChartQA",
+          "score": 76.3,
+          "source": "https://mistral.ai/news/mistral-medium-3"
         }
       ]
     },
     {
-      "name": "Claude Sonnet 3.5",
+      "name": "Claude 3.5 Sonnet (new)",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "release_date": "2024-10-22",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "GPQA Diamond (thinking)",
+          "score": 65.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MMLU Pro (thinking)",
+          "score": 78.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "HumanEval",
+          "score": 93.7,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MATH (thinking)",
+          "score": 78.3,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "AIME 2024 (thinking)",
+          "score": 16.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 70.4,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 49.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 69.2,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 46.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1372,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Claude 3.5 Haiku",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "release_date": "2024-10-22",
+      "capabilities": {
+        "input": ["text", "image"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.8,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "Output cost",
+          "score": 4,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "GPQA Diamond (thinking)",
+          "score": 41.6,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MMLU Pro (thinking)",
+          "score": 65.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "HumanEval",
+          "score": 88.1,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MATH (thinking)",
+          "score": 69.2,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "AIME 2024 (thinking)",
+          "score": 5.3,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 40.6,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 51.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 22.8,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1322,
+          "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "MMLU",
+          "score": 77.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 65,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MATH",
+          "score": 69.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "GPQA Main",
+          "score": 37.05,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 41.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MBPP",
+          "score": 85.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "HumanEval",
+          "score": 88.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 8.02,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMMU",
+          "score": 60.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 45.03,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MathVista",
+          "score": 61.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "ChartQA",
+          "score": 87.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "DocVQA",
+          "score": 90,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "AI2D",
+          "score": 92.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "MM MT Bench",
+          "score": 6.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 35.19,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "RULER 32K",
+          "score": 92.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 91.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+        }
+      ]
+    },
+    {
+      "name": "Claude 3.5 Sonnet",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
       "release_date": "2024-06-21",
@@ -1727,6 +2026,51 @@
           "name": "Output cost",
           "score": 15,
           "source": "https://www.anthropic.com/news/claude-3-5-sonnet"
+        },
+        {
+          "name": "GPQA Diamond (thinking)",
+          "score": 59.4,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MMLU Pro (thinking)",
+          "score": 75.1,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "HumanEval",
+          "score": 92.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MATH (thinking)",
+          "score": 71.1,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "AIME 2024 (thinking)",
+          "score": 9.6,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 68.3,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 33.4,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "τ-Bench Retail",
+          "score": 62.6,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+        },
+        {
+          "name": "τ-Bench Airline",
+          "score": 36.0,
+          "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
@@ -1932,6 +2276,71 @@
           "name": "SimpleQA Chinese",
           "score": 51.3,
           "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1343,
+          "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "MathVista",
+          "score": 67.1,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MMMU",
+          "score": 68.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "ChartQA",
+          "score": 89.1,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "DocVQA",
+          "score": 88.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "VQAv2",
+          "score": 69.5,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "AI2D",
+          "score": 76.9,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MM MT-Bench",
+          "score": 7.3,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 68.0,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Mathvista (thinking)",
+          "score": 64.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "ChartQA (thinking)",
+          "score": 87.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "DocVQA",
+          "score": 90.3,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "VQAv2",
+          "score": 70.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         }
       ]
     },
@@ -2228,6 +2637,31 @@
           "name": "ChartQA",
           "score": 81.7,
           "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "MMMU (thinking)",
+          "score": 50.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "Mathvista (thinking)",
+          "score": 44.8,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "ChartQA (thinking)",
+          "score": 69.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "DocVQA",
+          "score": 74.6,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "VQAv2",
+          "score": 68.4,
+          "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         }
       ]
     },
@@ -2315,6 +2749,21 @@
           "name": "SWE-bench",
           "score": 1.97,
           "source": "https://arxiv.org/abs/2310.06770"
+        },
+        {
+          "name": "MMLU",
+          "score": 78.5,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "ARC-Challenge",
+          "score": 91.0,
+          "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 87.5,
+          "source": "https://mistral.ai/news/mistral-large"
         }
       ]
     }
