@@ -117,7 +117,7 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 83,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },

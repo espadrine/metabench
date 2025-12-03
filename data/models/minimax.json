@@ -117,7 +117,7 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 82,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
@@ -162,7 +162,7 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 82.0,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -197,7 +197,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "SWE Verified",
+          "name": "SWE-bench Verified",
           "score": 69.4,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },

@@ -300,7 +300,7 @@ const benchNameFromAA = {
   "artificial_analysis_intelligence_index": "ArtificialAnalysis Intelligence Index",
   "artificial_analysis_coding_index": "ArtificialAnalysis Coding Index",
   "artificial_analysis_math_index": "ArtificialAnalysis Math Index",
-  "mmlu_pro": "MMLU Pro",
+  "mmlu_pro": "MMLU-Pro",
   "gpqa": "GPQA Diamond",
   "hle": "Humanity's Last Exam",
   "livecodebench": "LiveCodeBench",

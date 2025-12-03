@@ -67,7 +67,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 80.5,
           "source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
         },
@@ -97,7 +97,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 80.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -177,7 +177,7 @@
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
-          "name": "IfEval",
+          "name": "IFEval",
           "score": 88.9,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
@@ -192,7 +192,7 @@
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 80.4,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
@@ -295,7 +295,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 74.3,
           "source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
         },
@@ -325,7 +325,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 75.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -427,7 +427,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
         },
         {
-          "name": "MMLU Pro (thinking)",
+          "name": "MMLU-Pro (thinking)",
           "score": 68.9,
           "source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
         },
@@ -482,7 +482,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 71.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -542,7 +542,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 66.6,
           "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
@@ -577,7 +577,7 @@
           "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
-          "name": "IF Eval",
+          "name": "IFEval",
           "score": 88.35,
           "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         }
@@ -625,7 +625,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 67.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -743,7 +743,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 46.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -850,7 +850,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 34.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -905,7 +905,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MTBench",
+          "name": "MT-Bench",
           "score": 7.2,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -945,7 +945,7 @@
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 59.6,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -1027,7 +1027,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 20,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1129,7 +1129,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-405B"
         },
         {
-          "name": "MMLU Pro (thinking)",
+          "name": "MMLU-Pro (thinking)",
           "score": 73.3,
           "source": "https://huggingface.co/meta-llama/Llama-3.1-405B"
         },
@@ -1144,7 +1144,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-405B"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 86.7,
           "source": "https://huggingface.co/meta-llama/Llama-3.1-405B"
         },
@@ -1264,7 +1264,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 73.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1334,7 +1334,7 @@
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 73.3,
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
@@ -1476,7 +1476,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-70B"
         },
         {
-          "name": "MMLU Pro (thinking)",
+          "name": "MMLU-Pro (thinking)",
           "score": 66.4,
           "source": "https://huggingface.co/meta-llama/Llama-3.1-70B"
         },
@@ -1491,7 +1491,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-70B"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 83.3,
           "source": "https://huggingface.co/meta-llama/Llama-3.1-70B"
         },
@@ -1611,7 +1611,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 67.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1713,7 +1713,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-8B"
         },
         {
-          "name": "MMLU Pro (thinking)",
+          "name": "MMLU-Pro (thinking)",
           "score": 48.3,
           "source": "https://huggingface.co/meta-llama/Llama-3.1-8B"
         },
@@ -1728,7 +1728,7 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-8B"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 60.5,
           "source": "https://huggingface.co/meta-llama/Llama-3.1-8B"
         },
@@ -1848,7 +1848,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 47.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1908,7 +1908,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MTBench",
+          "name": "MT-Bench",
           "score": 7.5,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -1948,7 +1948,7 @@
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 74.6,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -2008,7 +2008,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 76.1,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2060,7 +2060,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 57.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2137,7 +2137,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 40.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2177,7 +2177,7 @@
           "source": "https://mistral.ai/news/mistral-nemo"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 73.5,
           "source": "https://mistral.ai/news/mistral-nemo"
         },
@@ -2263,7 +2263,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
-          "name": "BIG-Bench-Hard",
+          "name": "BIG-Bench Hard",
           "score": 51.2,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
@@ -2288,7 +2288,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 40.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2478,7 +2478,7 @@
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
-          "name": "Math",
+          "name": "MATH",
           "score": 13.8,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         }
@@ -2514,7 +2514,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 40.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2609,7 +2609,7 @@
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
-          "name": "Math",
+          "name": "MATH",
           "score": 8.4,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
@@ -2644,7 +2644,7 @@
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
         {
-          "name": "NQ",
+          "name": "NaturalQuestions",
           "score": 29.0,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
@@ -2715,7 +2715,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 16.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2810,7 +2810,7 @@
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
-          "name": "Math",
+          "name": "MATH",
           "score": 3.9,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
@@ -2845,7 +2845,7 @@
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
         {
-          "name": "NQ",
+          "name": "NaturalQuestions",
           "score": 24.7,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
@@ -2926,12 +2926,12 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 78.9,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 56.0,
           "source": "https://arxiv.org/abs/2302.13971"
         },
@@ -2997,12 +2997,12 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 80.0,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 57.8,
           "source": "https://arxiv.org/abs/2302.13971"
         },
@@ -3072,7 +3072,7 @@
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
-          "name": "Math",
+          "name": "MATH",
           "score": 8.4,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         }
@@ -3128,12 +3128,12 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 74.8,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 52.7,
           "source": "https://arxiv.org/abs/2302.13971"
         },
@@ -3194,12 +3194,12 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 72.8,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 47.6,
           "source": "https://arxiv.org/abs/2302.13971"
         },

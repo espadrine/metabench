@@ -61,7 +61,7 @@
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
-          "name": "IfEval",
+          "name": "IFEval",
           "score": 89.7,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
@@ -76,7 +76,7 @@
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 68.9,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },

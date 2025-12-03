@@ -58,7 +58,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 85.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -182,7 +182,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 74.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -460,7 +460,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "HMMT 2025 (with tools)",
+          "name": "HMMT Feb 2025 (with tools)",
           "score": 93.9,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -557,7 +557,7 @@
           "source": "https://x.ai/news/grok-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 79.9,
           "source": "https://x.ai/news/grok-3"
         },
@@ -711,7 +711,7 @@
           "source": "https://x.ai/news/grok-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 78.9,
           "source": "https://x.ai/news/grok-3"
         },
@@ -798,7 +798,7 @@
           "source": "https://x.ai/news/grok-2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 76.1,
           "source": "https://x.ai/news/grok-2"
         },

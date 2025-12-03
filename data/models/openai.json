@@ -191,7 +191,7 @@
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 86.4,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
@@ -246,7 +246,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -532,7 +532,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 80.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -646,7 +646,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 86.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -868,7 +868,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 86.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -998,7 +998,7 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 87,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
@@ -1098,7 +1098,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "HMMT 2025 (with tools)",
+          "name": "HMMT Feb 2025 (with tools)",
           "score": 96.7,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -1113,7 +1113,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 87.1,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -1328,7 +1328,7 @@
           "source": "https://x.ai/news/grok-4-1-fast"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 87.5,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -1368,7 +1368,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 76.0,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -1378,7 +1378,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "SWE Verified",
+          "name": "SWE-bench Verified",
           "score": 74.9,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -1480,7 +1480,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 86.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1597,7 +1597,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1714,7 +1714,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 80.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1936,7 +1936,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 78.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -2001,7 +2001,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 83.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2103,7 +2103,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 82.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2210,7 +2210,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 77.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2432,7 +2432,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 65.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -2472,7 +2472,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2574,7 +2574,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 77.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2671,7 +2671,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 55.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2935,7 +2935,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 79.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3211,7 +3211,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 84.9,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3373,7 +3373,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 85.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -3704,7 +3704,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 78.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3967,7 +3967,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 68.4,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -4125,7 +4125,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 55.2,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -4238,7 +4238,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 80.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -4366,7 +4366,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 77.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -4519,7 +4519,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 74.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -4642,7 +4642,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 71.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -4778,7 +4778,7 @@
           "source": "https://x.ai/news/grok-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 72.6,
           "source": "https://x.ai/news/grok-3"
         },
@@ -4818,7 +4818,7 @@
           "source": "https://x.ai/news/grok-2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 72.6,
           "source": "https://x.ai/news/grok-2"
         },
@@ -4858,7 +4858,7 @@
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 72.6,
           "source": "https://api-docs.deepseek.com/news/news1226"
         },
@@ -4978,7 +4978,7 @@
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
-          "name": "IfEval",
+          "name": "IFEval",
           "score": 87.2,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
@@ -4993,7 +4993,7 @@
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 75.8,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
@@ -5161,7 +5161,7 @@
           "source": "https://x.ai/news/grok-2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 63.7,
           "source": "https://x.ai/news/grok-2"
         },
@@ -5417,7 +5417,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
-          "name": "BIG-Bench-Hard",
+          "name": "BIG-Bench Hard",
           "score": 83.1,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
@@ -5663,7 +5663,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
-          "name": "BIG-Bench-Hard",
+          "name": "BIG-Bench Hard",
           "score": 66.6,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
@@ -5779,7 +5779,7 @@
           "source": "https://arxiv.org/abs/2005.14165"
         },
         {
-          "name": "HellaSwag (one-shot)",
+          "name": "HellaSwag",
           "score": 78.1,
           "source": "https://arxiv.org/abs/2005.14165"
         },
@@ -5789,7 +5789,7 @@
           "source": "https://arxiv.org/abs/2005.14165"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 70.2,
           "source": "https://arxiv.org/abs/2005.14165"
         },
@@ -5854,12 +5854,12 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 68.8,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 51.4,
           "source": "https://arxiv.org/abs/2302.13971"
         },

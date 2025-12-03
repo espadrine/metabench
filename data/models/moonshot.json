@@ -87,7 +87,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 84.6,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -167,7 +167,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 84.6,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -202,7 +202,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 78.6,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -212,7 +212,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "SWE Verified",
+          "name": "SWE-bench Verified",
           "score": 71.3,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -394,7 +394,7 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 82,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
@@ -479,7 +479,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 81.9,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },

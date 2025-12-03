@@ -202,7 +202,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 90.1,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -242,7 +242,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 83.3,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -252,7 +252,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "SWE Verified",
+          "name": "SWE-bench Verified",
           "score": 76.2,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -380,7 +380,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 86.9,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
@@ -545,7 +545,7 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 86,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
@@ -793,7 +793,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 84.8,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
         },
@@ -961,7 +961,7 @@
           "source": "https://llm-stats.com/benchmarks"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 81.9,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -1235,7 +1235,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
-          "name": "Global MMLU-Lite",
+          "name": "Global MMLU Lite",
           "score": 75.1,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
@@ -1270,7 +1270,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 66.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1335,7 +1335,7 @@
           "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 67.5,
           "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
         },
@@ -1400,7 +1400,7 @@
           "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
         },
         {
-          "name": "MM MT Bench",
+          "name": "MM MT-Bench",
           "score": 7,
           "source": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
         },
@@ -1487,7 +1487,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
-          "name": "Global MMLU-Lite",
+          "name": "Global MMLU Lite",
           "score": 69.5,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
@@ -1522,7 +1522,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 59.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1580,6 +1580,21 @@
           "name": "τ²-Bench",
           "score": 10.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 43.6,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
+        },
+        {
+          "name": "WildBench",
+          "score": 63.2,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
+        },
+        {
+          "name": "MATH",
+          "score": 85.4,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         }
       ]
     },
@@ -1649,7 +1664,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
-          "name": "Global MMLU-Lite",
+          "name": "Global MMLU Lite",
           "score": 54.5,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
@@ -1684,7 +1699,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 41.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1742,6 +1757,26 @@
           "name": "τ²-Bench",
           "score": 5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 31.8,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
+        },
+        {
+          "name": "WildBench",
+          "score": 49.1,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
+        },
+        {
+          "name": "MATH",
+          "score": 75.9,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
+        },
+        {
+          "name": "MM MT-Bench",
+          "score": 5.23,
+          "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         }
       ]
     },
@@ -1811,7 +1846,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
         {
-          "name": "Global MMLU-Lite",
+          "name": "Global MMLU Lite",
           "score": 34.2,
           "source": "https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf"
         },
@@ -1841,7 +1876,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 13.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -1962,7 +1997,7 @@
           "source": "https://huggingface.co/google/gemma-3-270m-it"
         },
         {
-          "name": "IF Eval",
+          "name": "IFEval",
           "score": 51.2,
           "source": "https://huggingface.co/google/gemma-3-270m-it"
         },
@@ -1982,7 +2017,7 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 5.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
@@ -2075,7 +2110,7 @@
           "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 76.4,
           "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
         },
@@ -2150,7 +2185,7 @@
           "source": "https://x.ai/news/grok-3"
         },
         {
-          "name": "MMLU Pro",
+          "name": "MMLU-Pro",
           "score": 79.1,
           "source": "https://x.ai/news/grok-3"
         },
@@ -2368,7 +2403,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 83.7,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2383,7 +2418,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 88.6,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2489,7 +2524,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 80.6,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2504,7 +2539,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 88.0,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2544,7 +2579,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "MTBench",
+          "name": "MT-Bench",
           "score": 7.6,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -2584,7 +2619,7 @@
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 74.2,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -2604,7 +2639,7 @@
           "source": "https://mistral.ai/news/mistral-nemo"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 74.0,
           "source": "https://mistral.ai/news/mistral-nemo"
         },
@@ -2695,7 +2730,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 71.3,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2710,7 +2745,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 80.6,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -2750,7 +2785,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "MTBench",
+          "name": "MT-Bench",
           "score": 7.5,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -2790,7 +2825,7 @@
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 68.7,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
@@ -3060,7 +3095,7 @@
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "CommonsenseQA",
+          "name": "CommonSenseQA",
           "score": 71.3,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
@@ -3070,7 +3105,7 @@
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 81.5,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
@@ -3150,7 +3185,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 79.0,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -3165,7 +3200,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 81.5,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -3261,7 +3296,7 @@
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "CommonsenseQA",
+          "name": "CommonSenseQA",
           "score": 65.3,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
@@ -3271,12 +3306,12 @@
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 73.2,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "ARC-c",
+          "name": "ARC-Challenge",
           "score": 42.1,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
@@ -3351,7 +3386,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "Winogrande",
+          "name": "WinoGrande",
           "score": 66.8,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -3366,7 +3401,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "ARC-e",
+          "name": "ARC-Easy",
           "score": 73.2,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -3581,7 +3616,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
-          "name": "BIG-Bench-Hard",
+          "name": "BIG-Bench Hard",
           "score": 75.0,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },

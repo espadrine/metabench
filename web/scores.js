@@ -259,12 +259,12 @@ function switchTab(state, widgets, tabName) {
 // Define benchmark groups (categories) and associated benchmark names.
 const categoryBenchmarks = {
   Knowledge: {
-    'ArtificialAnalysis Intelligence Index': 1,
-    "Humanity's Last Exam": 1,
-    'SimpleQA': 1,
-    'MMLU Pro': 1,
-    'MMLU-Redux': 1,
-    'MMLU': 1,
+    'ArtificialAnalysis Intelligence Index': 10,
+    "Humanity's Last Exam": 10,
+    'SimpleQA': 10,
+    'MMLU-Pro': 10,
+    'MMLU-Redux': 10,
+    'MMLU': 10,
     'MMMLU': 1,
     'MMMU': 1,
     'MMMU-Pro': 1,
@@ -349,7 +349,7 @@ const categoryBenchmarks = {
     'GAIA (text)': 1,
     'AgentCompany': 1,
     'Finance Agent': 1,
-    'BFCL v3 MultiTurn': 1,
+    'BFCL v3': 1,
     'OSWorld': 1,
   },
   Multimodal: {
@@ -357,7 +357,7 @@ const categoryBenchmarks = {
     'MMMU-Pro': 1,
     'ArtifactsBench': 1,
     'VideoMMMU': 1,
-    'VideoMME': 1,
+    'Video-MME': 1,
     'EgoSchema': 1,
     'OSWorld': 1,
     'Vibe-Eval': 1,
