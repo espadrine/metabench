@@ -19,10 +19,12 @@ let state = {
   editingMetricIndex: null,
   // Array<{ bench: string, weight: number }> - criteria for metric being edited
   editMetricCriteria: [],
-  // string - current active tab ('chart' or 'table')
+  // string - current active tab ('chart', 'table', or 'history')
   currentTab: 'chart',
   // Chart.js instance
   chart: null,
+  // History Chart.js instance
+  historyChart: null,
   // string - current X-axis metric
   xAxisMetric: 'Cost of 1K responses'
 };
@@ -233,16 +235,189 @@ function calculateTransparency(releaseDate) {
   return Math.min(1.0, Math.max(0.2, transparency)); // Clamp between 0.2 and 1.0
 }
 
+// Function to build history chart datasets
+// Shows the best model performance over time for each company
+function buildHistoryChartDatasets(state, metric) {
+  // Sort models by release date
+  const sortedModels = [...state.models].sort((a, b) => {
+    if (!a.release_date) return 1;
+    if (!b.release_date) return -1;
+    return new Date(a.release_date) - new Date(b.release_date);
+  });
+
+  // Track cumulative best score for each company
+  const companyBestScores = {};
+  const companyDataPoints = {};
+
+  // Initialize tracking for each company
+  sortedModels.forEach(model => {
+    const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
+
+    if (typeof metricScore === 'number' && model.release_date) {
+      const company = model.company;
+      const releaseDate = new Date(model.release_date);
+
+      if (!companyBestScores[company]) {
+        companyBestScores[company] = metricScore;
+        companyDataPoints[company] = [{
+          x: releaseDate,
+          y: metricScore,
+          model: model.name,
+          company: company,
+          releaseDate: model.release_date
+        }];
+      } else {
+        // Only update if this model is better than previous best
+        if (metricScore > companyBestScores[company]) {
+          companyBestScores[company] = metricScore;
+          companyDataPoints[company].push({
+            x: releaseDate,
+            y: metricScore,
+            model: model.name,
+            company: company,
+            releaseDate: model.release_date
+          });
+        }
+      }
+    }
+  });
+
+  // Build datasets
+  const datasets = [];
+  Object.keys(companyDataPoints).forEach(company => {
+    if (companyDataPoints[company].length > 0) {
+      const color = getCompanyColor(company);
+
+      datasets.push({
+        label: company,
+        data: companyDataPoints[company],
+        borderColor: color,
+        backgroundColor: color,
+        borderWidth: 3,
+        pointRadius: 6,
+        pointHoverRadius: 10,
+        fill: false,
+        tension: 0.1,
+        stepped: false
+      });
+    }
+  });
+
+  return datasets;
+}
+
+// Function to render the history chart
+function renderHistoryChart(state, widgets) {
+  // Clear previous chart
+  if (state.historyChart) {
+    state.historyChart.destroy();
+    state.historyChart = null;
+  }
+  // Also clear regular chart to save memory
+  if (state.chart) {
+    state.chart.destroy();
+    state.chart = null;
+  }
+
+  widgets.historyChartElement.innerHTML = '';
+
+  // Check if we have a metric selected
+  if (state.currentMetricIndex === null || !state.metrics[state.currentMetricIndex]) {
+    widgets.historyChartElement.innerHTML = '<p>Please select a metric to view the history chart.</p>';
+    return;
+  }
+
+  const metric = state.metrics[state.currentMetricIndex];
+
+  // Build history chart datasets
+  const datasets = buildHistoryChartDatasets(state, metric);
+
+  if (datasets.length === 0) {
+    widgets.historyChartElement.innerHTML = '<p>No data available for history chart.</p>';
+    return;
+  }
+
+  // Create canvas for chart
+  const canvas = document.createElement('canvas');
+  canvas.id = 'history-chart-canvas';
+  canvas.style.width = '100%';
+  canvas.style.height = '500px';
+  widgets.historyChartElement.appendChild(canvas);
+
+  // Create chart
+  const ctx = canvas.getContext('2d');
+  state.historyChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      datasets: datasets
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          type: 'linear',
+          title: {
+            display: true,
+            text: 'Release Date'
+          },
+          ticks: {
+            callback: function(value) {
+              const date = new Date(value);
+              return date.getFullYear() + '-' +
+                     String(date.getMonth() + 1).padStart(2, '0');
+            }
+          }
+        },
+        y: {
+          title: {
+            display: true,
+            text: metric.name
+          }
+        }
+      },
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              const point = context.raw;
+              const date = new Date(point.x);
+              const dateStr = date.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+              });
+
+              return [
+                `Company: ${point.company}`,
+                `Model: ${point.model}`,
+                `Released: ${dateStr}`,
+                `${metric.name}: ${point.y.toFixed(2)}`
+              ];
+            }
+          }
+        },
+        legend: {
+          display: true,
+          position: 'right'
+        }
+      }
+    }
+  });
+}
+
 // ----- Tab management -----
 
 function renderTabs(state, widgets) {
   // Update tab button states
   widgets.chartTab.classList.toggle('active', state.currentTab === 'chart');
   widgets.tableTab.classList.toggle('active', state.currentTab === 'table');
+  widgets.historyTab.classList.toggle('active', state.currentTab === 'history');
 
   // Update tab panel visibility
   widgets.chartContainer.classList.toggle('active', state.currentTab === 'chart');
   widgets.tableContainer.classList.toggle('active', state.currentTab === 'table');
+  widgets.historyContainer.classList.toggle('active', state.currentTab === 'history');
 }
 
 function switchTab(state, widgets, tabName) {
@@ -251,6 +426,8 @@ function switchTab(state, widgets, tabName) {
 
   if (tabName === 'chart') {
     renderChart(state, widgets);
+  } else if (tabName === 'history') {
+    renderHistoryChart(state, widgets);
   } else {
     renderTable(state, widgets);
   }
@@ -403,10 +580,13 @@ const widgets = {
   tabNavigation: document.getElementById('tab-navigation'),
   chartTab: document.getElementById('chart-tab'),
   tableTab: document.getElementById('table-tab'),
+  historyTab: document.getElementById('history-tab'),
   chartContainer: document.getElementById('chart-container'),
   tableContainer: document.getElementById('table-container'),
+  historyContainer: document.getElementById('history-container'),
   xAxisSelect: document.getElementById('x-axis-select'),
-  chartElement: document.getElementById('chart')
+  chartElement: document.getElementById('chart'),
+  historyChartElement: document.getElementById('history-chart')
 };
 
 // Add event listener for X-axis dropdown
@@ -425,6 +605,8 @@ function render(state, widgets) {
 
   if (state.currentTab === 'chart') {
     renderChart(state, widgets);
+  } else if (state.currentTab === 'history') {
+    renderHistoryChart(state, widgets);
   } else {
     renderTable(state, widgets);
   }
@@ -572,6 +754,11 @@ function renderChart(state, widgets) {
   if (state.chart) {
     state.chart.destroy();
     state.chart = null;
+  }
+  // Also clear history chart to save memory
+  if (state.historyChart) {
+    state.historyChart.destroy();
+    state.historyChart = null;
   }
 
   widgets.chartElement.innerHTML = '';
@@ -1122,6 +1309,7 @@ widgets.closeEditMetric.addEventListener('click', closeEditMetricModal);
 // Tab switching
 widgets.chartTab.addEventListener('click', () => switchTab(state, widgets, 'chart'));
 widgets.tableTab.addEventListener('click', () => switchTab(state, widgets, 'table'));
+widgets.historyTab.addEventListener('click', () => switchTab(state, widgets, 'history'));
 
 // Close modal when clicking outside
 window.addEventListener('click', (event) => {
