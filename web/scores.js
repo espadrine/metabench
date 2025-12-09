@@ -118,7 +118,7 @@ function buildChartDatasets(state, metric, companyColors) {
 
     if (typeof metricScore === 'number' && typeof xAxisValue === 'number') {
       let backgroundColor, borderColor;
-      
+
       if (Object.keys(companyColors).length > 0) {
         // If company colors are provided, use them with transparency
         const baseColor = companyColors[model.company];
@@ -175,12 +175,12 @@ function buildChartDatasets(state, metric, companyColors) {
 function generateLegendLabels(state, companyColors, metric) {
   const companies = {};
   const companyBestScores = {};
-  
+
   // First pass: collect companies and compute their best scores
   state.models.forEach(model => {
     const company = model.company;
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
-    
+
     if (typeof metricScore === 'number') {
       if (!companies[company]) {
         companies[company] = {
@@ -198,20 +198,20 @@ function generateLegendLabels(state, companyColors, metric) {
       }
     }
   });
-  
+
   // Add best scores to company objects
   Object.keys(companies).forEach(company => {
     companies[company].bestScore = companyBestScores[company];
   });
-  
+
   // Sort companies by best score (descending)
   const sortedCompanies = Object.values(companies).sort((a, b) => b.bestScore - a.bestScore);
-  
+
   // Update indices after sorting
   sortedCompanies.forEach((company, index) => {
     company.index = index;
   });
-  
+
   return sortedCompanies;
 }
 
@@ -221,18 +221,13 @@ function calculateTransparency(releaseDate) {
 
   const release = new Date(releaseDate);
   const now = new Date();
-  const ageInMonths = (now - release) / (1000 * 60 * 60 * 24 * 30.44); // Approximate months
   const ageInYears = (now - release) / (1000 * 60 * 60 * 24 * 365);
 
   // Older models get more transparent (lower alpha)
-  // Models older than 24 months will be very transparent (0.2)
+  // Models older than 24 months will be fully transparent.
   // New models (0 months) will be fully opaque (1.0)
-  const maxAgeMonths = 24;
-  //const transparency = Math.max(0.2, 1.0 - (ageInMonths / maxAgeMonths));
   const transparency = Math.max(0.0, 1.0 - ageInYears);
   return transparency;
-
-  return Math.min(1.0, Math.max(0.2, transparency)); // Clamp between 0.2 and 1.0
 }
 
 // Function to build history chart datasets
