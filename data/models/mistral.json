@@ -1,6 +1,112 @@
 {
   "models": [
     {
+      "name": "Devstral 2 123B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral-2-vibe-cli",
+      "release_date": "2025-12-09",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.4,
+          "source": "https://mistral.ai/news/devstral-2-vibe-cli"
+        },
+        {
+          "name": "Output cost",
+          "score": 2,
+          "source": "https://mistral.ai/news/devstral-2-vibe-cli"
+        },
+        {
+          "name": "Size",
+          "score": 125.025989840,
+          "source": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
+        },
+        {
+          "name": "Active parameters",
+          "score": 125.025989840,
+          "source": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.2,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 61.3,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 32.6,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        }
+      ]
+    },
+    {
+      "name": "Devstral Small 2 24B",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/devstral-2-vibe-cli",
+      "release_date": "2025-12-09",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mistral.ai/news/devstral-2-vibe-cli"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mistral.ai/news/devstral-2-vibe-cli"
+        },
+        {
+          "name": "Size",
+          "score": 24.011361840,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "Active parameters",
+          "score": 24.011361840,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 68.0,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 55.7,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 22.5,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        }
+      ]
+    },
+    {
       "name": "Mistral Large 3",
       "company": "Mistral AI",
       "url": "https://mistral.ai/news/mistral-3",

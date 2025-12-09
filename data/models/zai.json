@@ -170,6 +170,16 @@
           "name": "Terminal-Bench 2.0",
           "score": 24.5,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 68.0,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 24.6,
+          "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
         }
       ]
     },
