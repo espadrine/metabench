@@ -37,6 +37,11 @@
           "source": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
         },
         {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 5.4,
+          "source": "Guessed to be equal to Devstral Small 1.1 since no data available"
+        },
+        {
           "name": "SWE-bench Verified",
           "score": 72.2,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
@@ -88,6 +93,11 @@
           "name": "Active parameters",
           "score": 24.011361840,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 5.4,
+          "source": "Guessed to be equal to Devstral Small 1.1 since no data available"
         },
         {
           "name": "SWE-bench Verified",
