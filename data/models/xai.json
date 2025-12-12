@@ -329,6 +329,11 @@
           "name": "τ²-Bench Telecom",
           "score": 93.3,
           "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1420,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -759,6 +764,11 @@
           "name": "LiveCodeBench",
           "score": 70,
           "source": "https://x.ai/news/grok-4-fast"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1362,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -826,6 +836,11 @@
           "name": "DocVQA",
           "score": 93.6,
           "source": "https://x.ai/news/grok-2"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1334,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -900,7 +915,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 89.0,
+          "score": 89,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {

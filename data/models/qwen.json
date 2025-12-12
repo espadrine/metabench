@@ -93,7 +93,7 @@
         },
         {
           "name": "MM-MT-Bench",
-          "score": 8.0,
+          "score": 8,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -103,7 +103,7 @@
         },
         {
           "name": "MMLongBench-Doc",
-          "score": 48.0,
+          "score": 48,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -113,7 +113,7 @@
         },
         {
           "name": "InfoVQA",
-          "score": 86.0,
+          "score": 86,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -123,7 +123,7 @@
         },
         {
           "name": "OCRBench",
-          "score": 819.0,
+          "score": 819,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "name": "CharXiv [RQ]",
-          "score": 53.0,
+          "score": 53,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -168,7 +168,7 @@
         },
         {
           "name": "Hypersim",
-          "score": 12.0,
+          "score": 12,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -208,12 +208,12 @@
         },
         {
           "name": "RoboSpatialHome",
-          "score": 62.0,
+          "score": 62,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
           "name": "MVBench",
-          "score": 69.0,
+          "score": 69,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -258,7 +258,7 @@
         },
         {
           "name": "AndroidWorld",
-          "score": 50.0,
+          "score": 50,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -358,7 +358,7 @@
         },
         {
           "name": "BFCL",
-          "score": 63.0,
+          "score": 63,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -458,7 +458,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 58.0,
+          "score": 58,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         }
       ]
@@ -511,7 +511,7 @@
         },
         {
           "name": "MMMU-Pro",
-          "score": 57.0,
+          "score": 57,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -521,7 +521,7 @@
         },
         {
           "name": "MathVision",
-          "score": 60.0,
+          "score": 60,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -561,7 +561,7 @@
         },
         {
           "name": "MIABench",
-          "score": 91.0,
+          "score": 91,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -576,7 +576,7 @@
         },
         {
           "name": "InfoVQA",
-          "score": 83.0,
+          "score": 83,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -586,7 +586,7 @@
         },
         {
           "name": "OCRBench",
-          "score": 808.0,
+          "score": 808,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -636,7 +636,7 @@
         },
         {
           "name": "SUNRGBD",
-          "score": 28.0,
+          "score": 28,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -646,7 +646,7 @@
         },
         {
           "name": "MUIRBENCH",
-          "score": 75.0,
+          "score": 75,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -696,7 +696,7 @@
         },
         {
           "name": "CharadesSTA",
-          "score": 59.0,
+          "score": 59,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -721,7 +721,7 @@
         },
         {
           "name": "AndroidWorld",
-          "score": 52.0,
+          "score": 52,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -756,7 +756,7 @@
         },
         {
           "name": "MMLU-Redux",
-          "score": 86.0,
+          "score": 86,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -816,7 +816,7 @@
         },
         {
           "name": "WritingBench",
-          "score": 84.0,
+          "score": 84,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -831,7 +831,7 @@
         },
         {
           "name": "MMLU-ProX",
-          "score": 65.0,
+          "score": 65,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -954,7 +954,7 @@
         },
         {
           "name": "Size",
-          "score": 81.324862720,
+          "score": 81.32486272,
           "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
         },
         {
@@ -1034,7 +1034,7 @@
         },
         {
           "name": "BFCL v3",
-          "score": 72.0,
+          "score": 72,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1044,7 +1044,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 49.0,
+          "score": 49,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1247,7 +1247,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 46.0,
+          "score": 46,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1257,7 +1257,7 @@
         },
         {
           "name": "τ²-Bench Airline",
-          "score": 58.0,
+          "score": 58,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1272,12 +1272,12 @@
         },
         {
           "name": "MMLU-ProX",
-          "score": 81.0,
+          "score": 81,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
           "name": "INCLUDE",
-          "score": 81.0,
+          "score": 81,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1411,7 +1411,7 @@
         },
         {
           "name": "Multi-SWE-bench flash",
-          "score": 27.0,
+          "score": 27,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -1446,7 +1446,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 60.0,
+          "score": 60,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -1478,6 +1478,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 23.9,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1385,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1573,7 +1578,7 @@
         },
         {
           "name": "Mind2Web",
-          "score": 51.0,
+          "score": 51,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -1588,7 +1593,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 48.0,
+          "score": 48,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         }
       ]
@@ -1656,7 +1661,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 85.0,
+          "score": 85,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1671,7 +1676,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 66.0,
+          "score": 66,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1691,12 +1696,12 @@
         },
         {
           "name": "Arena-Hard v2",
-          "score": 56.0,
+          "score": 56,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
           "name": "WritingBench",
-          "score": 85.0,
+          "score": 85,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1711,7 +1716,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 48.0,
+          "score": 48,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1721,7 +1726,7 @@
         },
         {
           "name": "τ²-Bench Airline",
-          "score": 58.0,
+          "score": 58,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1864,7 +1869,7 @@
         },
         {
           "name": "IFEval",
-          "score": 85.0,
+          "score": 85,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1874,7 +1879,7 @@
         },
         {
           "name": "WritingBench",
-          "score": 79.0,
+          "score": 79,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1889,7 +1894,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 29.0,
+          "score": 29,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1909,7 +1914,7 @@
         },
         {
           "name": "MultiIF",
-          "score": 73.0,
+          "score": 73,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1957,12 +1962,12 @@
         },
         {
           "name": "Size",
-          "score": 14.768307200,
+          "score": 14.7683072,
           "source": "https://huggingface.co/Qwen/Qwen3-14B"
         },
         {
           "name": "Active parameters",
-          "score": 14.768307200,
+          "score": 14.7683072,
           "source": "https://huggingface.co/Qwen/Qwen3-14B"
         },
         {
@@ -2120,7 +2125,7 @@
         },
         {
           "name": "GPQA",
-          "score": 62.0,
+          "score": 62,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -2145,7 +2150,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 51.0,
+          "score": 51,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -2160,7 +2165,7 @@
         },
         {
           "name": "IFEval",
-          "score": 85.0,
+          "score": 85,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
@@ -2175,7 +2180,7 @@
         },
         {
           "name": "WritingBench",
-          "score": 75.0,
+          "score": 75,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {

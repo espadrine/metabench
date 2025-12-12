@@ -67,7 +67,7 @@
         },
         {
           "name": "MATH",
-          "score": 82.0,
+          "score": 82,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -149,8 +149,13 @@
         },
         {
           "name": "TriviaQA",
-          "score": 71.0,
+          "score": 71,
           "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1229,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -201,7 +206,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 87.0,
+          "score": 87,
           "source": "https://mistral.ai/news/mixtral-8x22b"
         },
         {
@@ -213,6 +218,11 @@
           "name": "TriviaQA",
           "score": 66.5,
           "source": "https://mistral.ai/news/mixtral-8x22b"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1229,
+          "source": "https://lmarena.ai/"
         }
       ]
     }

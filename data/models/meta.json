@@ -183,7 +183,7 @@
         },
         {
           "name": "MATH",
-          "score": 90.0,
+          "score": 90,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -573,7 +573,7 @@
         },
         {
           "name": "Arena-Hard",
-          "score": 84.0,
+          "score": 84,
           "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         },
         {
@@ -681,7 +681,7 @@
         },
         {
           "name": "VQAv2",
-          "score": 67.0,
+          "score": 67,
           "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
         },
         {
@@ -911,7 +911,7 @@
         },
         {
           "name": "Arena-Hard",
-          "score": 46.0,
+          "score": 46,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -926,7 +926,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 61.0,
+          "score": 61,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -1919,7 +1919,7 @@
         },
         {
           "name": "WildBench",
-          "score": 37.0,
+          "score": 37,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -1954,7 +1954,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 46.0,
+          "score": 46,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -2014,7 +2014,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 82.0,
+          "score": 82,
           "source": "https://arxiv.org/abs/2408.00118"
         }
       ]
@@ -2188,7 +2188,7 @@
         },
         {
           "name": "TriviaQA",
-          "score": 61.0,
+          "score": 61,
           "source": "https://mistral.ai/news/mistral-nemo"
         },
         {
@@ -2208,7 +2208,7 @@
         },
         {
           "name": "TruthfulQA",
-          "score": 43.0,
+          "score": 43,
           "source": "https://mistral.ai/news/mistral-nemo"
         },
         {
@@ -2249,7 +2249,7 @@
         },
         {
           "name": "MMLU",
-          "score": 68.0,
+          "score": 68,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -2274,7 +2274,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 80.0,
+          "score": 80,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -2334,7 +2334,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 86.0,
+          "score": 86,
           "source": "https://mistral.ai/news/mistral-large"
         },
         {
@@ -2394,7 +2394,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 86.0,
+          "score": 86,
           "source": "https://mistral.ai/news/mixtral-8x22b"
         },
         {
@@ -2469,7 +2469,7 @@
         },
         {
           "name": "TriviaQA",
-          "score": 73.0,
+          "score": 73,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
@@ -2575,7 +2575,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 6.0,
+          "score": 6,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
@@ -2600,7 +2600,7 @@
         },
         {
           "name": "TriviaQA",
-          "score": 64.0,
+          "score": 64,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
@@ -2645,7 +2645,7 @@
         },
         {
           "name": "NaturalQuestions",
-          "score": 29.0,
+          "score": 29,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
         {
@@ -2665,7 +2665,7 @@
         },
         {
           "name": "MATH",
-          "score": 6.0,
+          "score": 6,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
         {
@@ -2791,7 +2791,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 39.0,
+          "score": 39,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
@@ -2871,7 +2871,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 16.0,
+          "score": 16,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         }
       ]
@@ -2922,7 +2922,7 @@
         },
         {
           "name": "WinoGrande",
-          "score": 77.0,
+          "score": 77,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
@@ -2932,7 +2932,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 56.0,
+          "score": 56,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
@@ -2993,12 +2993,12 @@
         },
         {
           "name": "WinoGrande",
-          "score": 76.0,
+          "score": 76,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
           "name": "ARC-Easy",
-          "score": 80.0,
+          "score": 80,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
@@ -3068,7 +3068,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 25.0,
+          "score": 25,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
@@ -3124,7 +3124,7 @@
         },
         {
           "name": "WinoGrande",
-          "score": 73.0,
+          "score": 73,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
@@ -3141,6 +3141,11 @@
           "name": "OpenBookQA",
           "score": 56.4,
           "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 973,
+          "source": "https://lmarena.ai/"
         }
       ]
     },

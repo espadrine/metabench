@@ -173,13 +173,18 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 68.0,
+          "score": 68,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
         },
         {
           "name": "Terminal-Bench 2.0",
           "score": 24.6,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1426,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -258,6 +263,11 @@
           "name": "GPQA",
           "score": 79.1,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1408,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -323,6 +333,11 @@
           "name": "GPQA",
           "score": 75,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1370,
+          "source": "https://lmarena.ai/"
         }
       ]
     }

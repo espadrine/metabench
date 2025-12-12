@@ -7,88 +7,97 @@ const path = require('path');
 function main() {
   const lmarenaData = loadLMArenaData("./data/lmarena.json");
   const models = loadModelData();
-  const missingBenchmarks = findMissingBenchmarks(lmarenaData, models);
-  storeMissingBenchmarks(missingBenchmarks, "./data/missing_lmarena_benchmarks.json");
+
+  // Match LMArena models with our data models
+  const modelMatches = matchBenchmarks(lmarenaData, models);
+
+  // Filter matches using simple predicate functions
+  const unambiguousModels = modelMatches.filter(isUnambiguousMatch);
+  const ambiguousModels = modelMatches.filter(m => !isUnambiguousMatch(m));
+
+  // Log summary
+  logMatchSummary(modelMatches, unambiguousModels, ambiguousModels);
+
+  // Update unambiguous matches
+  updateUnambiguousModels(unambiguousModels, models);
+
+  // Store ambiguous/unmatched models
+  storeMissingBenchmarks(ambiguousModels, "./data/missing_lmarena_benchmarks.json");
 }
 
-// Return the list of benchmarks from `lmarenaData`
-// which are not already present in `models`.
-// The list should be in the same format as the aggregated model data:
-// {models: [{name, company, url, release_date, capabilities, benchmarks: [{name, score, source}]}]}
-function findMissingBenchmarks(lmarenaData, models) {
-  const missingBenchmarks = { models: [] };
+// Match LMArena models with our data models and return match information
+// Returns an array of match objects, each containing:
+// {
+//   lmarenaModel: {name, rating, metadata},  // Original LMArena model data
+//   dataModel: model object or null,         // Matched model from our data, or null if no match
+//   benchmark: {name, score, source},        // The LMArena benchmark to add
+//   needsBenchmark: boolean                  // True if benchmark doesn't already exist
+// }
+function matchBenchmarks(lmarenaData, models) {
+  const matches = [];
 
   // Get the benchmark name from the data (should be "text" for text arena)
   const benchmarkName = Object.keys(lmarenaData)[0];
   const lmarenaBenchmarks = lmarenaData[benchmarkName];
 
-  console.error(`Processing ${Object.keys(lmarenaBenchmarks).length} models from LMArena '${benchmarkName}' benchmark`);
+  console.warn(`Processing ${Object.keys(lmarenaBenchmarks).length} models from LMArena '${benchmarkName}' benchmark`);
 
   // Process each model in the benchmark
   for (const [arenaModelName, ratingData] of Object.entries(lmarenaBenchmarks)) {
     // Check if this model exists in our current data
-    const model = findModel(arenaModelName, models);
-    let newModel = model;
+    const model = findBestMatch(arenaModelName, models);
 
-    if (!model) {
-      // If there is no match, add a new model with extracted metadata
-      newModel = {
+    const benchmarkFullName = `LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)}`;
+    const matchingBenchmark = findBenchmark(benchmarkFullName, model);
+    const needsBenchmark = !matchingBenchmark;
+
+    matches.push({
+      lmarenaModel: {
         name: arenaModelName,
-        company: ratingData.modelOrganization || '',
-        url: ratingData.modelUrl || '',
-        release_date: '',
-        capabilities: { input: [], output: [] },
-        benchmarks: [],
-        // Store additional LMArena metadata
-        lmarena_metadata: {
-          ratingUpper: ratingData.ratingUpper,
-          ratingLower: ratingData.ratingLower,
-          license: ratingData.license,
-          modelOrganization: ratingData.modelOrganization,
-          modelUrl: ratingData.modelUrl,
-          ...(ratingData.modelName && { modelName: ratingData.modelName }),
-          ...(ratingData.modelId && { modelId: ratingData.modelId }),
-          ...(ratingData.arenaId && { arenaId: ratingData.arenaId }),
-          ...(ratingData.leaderboardId && { leaderboardId: ratingData.leaderboardId })
-        }
-      };
-    }
-    newModel = {
-      lmarena_name: arenaModelName,
-      ...newModel,
-      benchmarks: [],
-    };
-
-    const matchingBenchmark = findBenchmark(`LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)}`, model);
-    if (!matchingBenchmark) {
-      newModel.benchmarks.push({
-        name: `LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)}`,
+        rating: ratingData.rating,
+        metadata: ratingData
+      },
+      dataModel: model,
+      benchmark: {
+        name: benchmarkFullName,
         score: Math.round(ratingData.rating),
         source: "https://lmarena.ai/"
-      });
-      missingBenchmarks.models.push(newModel);
-    }
+      },
+      needsBenchmark: needsBenchmark
+    });
   }
 
-  console.error(`Found ${missingBenchmarks.models.length} models with missing LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)} benchmark`);
-
-  return missingBenchmarks;
+  return matches;
 }
+
+
 
 // - The arenaModelName is a model name string from LMArena data.
 // - models is the raw data from aggregated company model files
-// Return the model from `models` that best matches `arenaModelName`,
-// or null if no good match is found.
-function findModel(arenaModelName, models) {
-  // Lowercase the model names for comparison.
-  const arenaNameLower = arenaModelName.toLowerCase();
+// Return the model from `models` that best matches `arenaModelName`.
+function findBestMatch(arenaModelName, models) {
+  if (MODELS_TO_IGNORE.has(arenaModelName)) {
+    return null;
+  }
+
+  // First, check if there's a known mapping for this model name
+  if (KNOWN_MODEL_MAPPINGS[arenaModelName]) {
+    const mappedName = KNOWN_MODEL_MAPPINGS[arenaModelName];
+    // Find the model with the exact mapped name
+    const mappedModel = models.models.find(model => model.name === mappedName);
+    if (mappedModel) {
+      return mappedModel;
+    }
+  }
+
+  // If no known mapping, use levenshtein distance to find the best match
+  const arenaNameLower = normalizeModelName(arenaModelName);
 
   let bestMatch = null;
   let bestDistance = Infinity;
 
-  // Use the levenshtein distance to find the best match.
   for (const model of models.models) {
-    const modelNameLower = model.name.toLowerCase();
+    const modelNameLower = normalizeModelName(model.name);
     const distance = levenshteinDistance(arenaNameLower, modelNameLower);
 
     // If the distance is too high (more than 30% of the length of the AA model name),
@@ -102,6 +111,110 @@ function findModel(arenaModelName, models) {
   }
 
   return bestMatch;
+}
+
+// Known model name mappings for cases where LMArena and our data use different naming conventions
+const KNOWN_MODEL_MAPPINGS = {
+  // LMArena name: Our data name
+  'claude-3-5-sonnet-20241022': 'Claude 3.5 Sonnet (new)',
+  'gpt-4o-2024-05-13': 'GPT-4o',
+};
+
+const MODELS_TO_IGNORE = new Set([
+  'gpt-4o-2024-08-06',
+]);
+
+// Normalize model name for comparison (lowercase, alphanumeric only)
+function normalizeModelName(name) {
+  return name.toLowerCase().replace(/[^a-z0-9]/g, '')
+      .replace(/[0-9]{8}$/, '');  // Remove trailing date.
+}
+
+// Check if a match is unambiguous (for auto-update)
+// Uses a more robust approach: exact matches and known mappings
+function isUnambiguousMatch(match) {
+  if (!match.dataModel) {
+    return false;
+  }
+
+  const lmarenaName = match.lmarenaModel.name;
+  const ourModelName = match.dataModel.name;
+
+  // 1. Check for exact match (case-insensitive, normalized)
+  if (normalizeModelName(lmarenaName) === normalizeModelName(ourModelName)) {
+    return true;
+  }
+
+  // 2. Check for known mappings
+  if (KNOWN_MODEL_MAPPINGS[lmarenaName] === ourModelName) {
+    return true;
+  }
+
+  // If none of the above criteria are met, consider it ambiguous
+  return false;
+}
+
+// Convert match objects to the format expected for storage
+function convertMatchToStorageFormat(match) {
+  const modelBase = match.dataModel ? {
+    // Use the dataModel directly when it exists
+    ...match.dataModel
+  } : {
+    // Fallback for cases where no dataModel exists
+    name: match.lmarenaModel.name,
+    company: match.lmarenaModel.metadata.modelOrganization || '',
+    url: match.lmarenaModel.metadata.modelUrl || '',
+    release_date: '',
+    capabilities: { input: [], output: [] }
+  };
+
+  return {
+    lmarena_name: match.lmarenaModel.name,
+    ...modelBase,
+    benchmarks: [match.benchmark],
+    lmarena_metadata: match.lmarenaModel.metadata
+  };
+}
+
+
+
+// Find the file path for a given model name by searching through all model files
+function findModelFilePath(modelName, models) {
+  // First, try to find the model in the loaded models
+  const model = models.models.find(m => m.name === modelName);
+
+  if (!model) {
+    return null;
+  }
+
+  // Get the company name and try to find the corresponding file
+  const company = model.company || 'unknown';
+  // Handle special cases like "Z.ai" -> "zai"
+  const companyFileName = company.toLowerCase().replace(/\s+/g, '').replace(/\./g, '');
+  const filePath = `./data/models/${companyFileName}.json`;
+
+  // Check if the file exists
+  if (fs.existsSync(filePath)) {
+    return filePath;
+  }
+
+  // If company-based file doesn't exist, search through all model files
+  const modelsDir = './data/models/';
+  const files = fs.readdirSync(modelsDir);
+  for (const file of files) {
+    if (file.endsWith('.json')) {
+      const fullPath = path.join(modelsDir, file);
+      const content = fs.readFileSync(fullPath, 'utf8');
+      const data = JSON.parse(content);
+
+      // Check if this model is in this file
+      if (data.models && data.models.some(m => m.name === modelName)) {
+        return fullPath;
+      }
+    }
+  }
+
+  return null;
 }
 
 // Find a benchmark named `benchmarkName` in the `model`.
@@ -147,18 +260,81 @@ function levenshteinDistance(str1, str2) {
   return matrix[str2.length][str1.length];
 }
 
+// Update model files with new LMArena benchmarks for unambiguous matches
+function updateUnambiguousModels(unambiguousModels, models) {
+  if (unambiguousModels.length === 0) {
+    console.warn('No unambiguous model matches to update.');
+    return;
+  }
+
+  let updatedCount = 0;
+
+  for (const match of unambiguousModels) {
+    const modelName = match.dataModel.name;
+    const filePath = findModelFilePath(modelName, models);
+
+    if (!filePath || !fs.existsSync(filePath)) {
+      console.warn(`⚠️  Model file not found for ${modelName}: ${filePath}`);
+      continue;
+    }
+
+    // Read the existing model file
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const modelData = JSON.parse(fileContent);
+
+    // Find the specific model in the file
+    const modelToUpdate = modelData.models.find(m => m.name === modelName);
+
+    if (!modelToUpdate) {
+      console.warn(`⚠️  Model ${modelName} not found in file ${filePath}`);
+      continue;
+    }
+
+    // Check if benchmark already exists
+    const existingBenchmarkIndex = modelToUpdate.benchmarks.findIndex(
+      b => b.name === match.benchmark.name
+    );
+
+    if (existingBenchmarkIndex >= 0) {
+      // Benchmark exists - update it if the rating is different
+      const existingBenchmark = modelToUpdate.benchmarks[existingBenchmarkIndex];
+      if (existingBenchmark.score !== match.benchmark.score) {
+        modelToUpdate.benchmarks[existingBenchmarkIndex] = match.benchmark;
+        console.warn(`🔄 Updated existing benchmark for ${modelName} (${match.lmarenaModel.name}): ${existingBenchmark.score} → ${match.benchmark.score}`);
+      } else {
+        console.warn(`ℹ️  Benchmark already exists for ${modelName} (${match.lmarenaModel.name}) with same rating (${match.benchmark.score}), no update needed`);
+        continue;
+      }
+    } else {
+      // Add the new benchmark
+      modelToUpdate.benchmarks.push(match.benchmark);
+      console.warn(`✅ Added new benchmark for ${modelName}: ${match.benchmark.score}`);
+    }
+
+    // Write the updated data back to the file
+    fs.writeFileSync(filePath, JSON.stringify(modelData, null, 2), 'utf8');
+    updatedCount++;
+
+  }
+
+  console.warn(`📊 Successfully updated ${updatedCount} model files with LMArena benchmarks`);
+}
+
 // Store the missing benchmarks into outputFilePath as JSON.
 // If the file exists, overwrite it.
+// Accepts the new format: array of match objects
 function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
   const outputPath = path.resolve(outputFilePath);
 
-  // Sort models by name before storing
-  const sortedBenchmarks = {
-    models: missingBenchmarks.models.sort((a, b) => a.name.localeCompare(b.name))
-  };
+  // Convert match objects to storage format
+  const modelsToStore = missingBenchmarks
+    .map(convertMatchToStorageFormat)
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  const sortedBenchmarks = { models: modelsToStore };
 
   fs.writeFileSync(outputPath, JSON.stringify(sortedBenchmarks, null, 2), 'utf8');
-  console.error(`Stored ${missingBenchmarks.models.length} models with missing benchmarks to ${outputPath}`);
+  console.warn(`Stored ${modelsToStore.length} models with ambiguous/unmatched benchmarks to ${outputPath}`);
 }
 
 // Load the LMArena data from the downloaded JSON file
@@ -169,12 +345,12 @@ function loadLMArenaData(pathToJSONFile) {
 
   // Download if file doesn't exist
   if (!fs.existsSync(filePath)) {
-    console.error(`Downloading LMArena data from API...`);
+    console.warn(`Downloading LMArena data from API...`);
     downloadLMArenaData(filePath);
   }
 
   // Always load from file (either existing or newly downloaded)
-  console.error(`Loading LMArena data from ${filePath}`);
+  console.warn(`Loading LMArena data from ${filePath}`);
   const content = fs.readFileSync(filePath, 'utf8');
   return JSON.parse(content);
 }
@@ -199,7 +375,7 @@ function downloadLMArenaData(pathToStoreJSONFile) {
 
     // Store the extracted JSON
     fs.writeFileSync(pathToStoreJSONFile, JSON.stringify(parsedData, null, 2), 'utf8');
-    console.error(`Downloaded and stored LMArena data to ${pathToStoreJSONFile}`);
+    console.warn(`Downloaded and stored LMArena data to ${pathToStoreJSONFile}`);
   } catch (error) {
     throw new Error(`Failed to download LMArena data: ${error.message}`);
   }
@@ -218,44 +394,40 @@ function parseRSCResponse(rscResponse) {
   const leaderboardMatch = rscResponse.match(leaderboardPattern);
 
   if (leaderboardMatch) {
-    try {
-      const entriesStr = leaderboardMatch[1];
-      // Clean up the JSON string (remove trailing commas, etc.)
-      const cleaned = entriesStr.replace(/,\s*\}/g, '}').replace(/,\s*\]/g, ']');
-      const entries = JSON.parse(cleaned);
+    const entriesStr = leaderboardMatch[1];
+    // Clean up the JSON string (remove trailing commas, etc.)
+    const cleaned = entriesStr.replace(/,\s*\}/g, '}').replace(/,\s*\]/g, ']');
+    const entries = JSON.parse(cleaned);
 
-      if (Array.isArray(entries) && entries.length > 0) {
-        console.error(`Successfully extracted ${entries.length} models from leaderboard entries`);
+    if (Array.isArray(entries) && entries.length > 0) {
+      console.warn(`Successfully extracted ${entries.length} models from leaderboard entries`);
 
-        // Convert entries to the expected format with all available fields
-        const fullData = {};
-        for (const entry of entries) {
-          if (entry.modelDisplayName && entry.rating !== undefined) {
-            fullData[entry.modelDisplayName] = {
-              rating: Math.round(entry.rating),
-              modelOrganization: entry.modelOrganization || '',
-              ratingUpper: entry.ratingUpper !== undefined ? Math.round(entry.ratingUpper) : null,
-              ratingLower: entry.ratingLower !== undefined ? Math.round(entry.ratingLower) : null,
-              license: entry.license || '',
-              modelUrl: entry.modelUrl || '',
-              // Include any other fields that might be useful
-              ...(entry.modelName && { modelName: entry.modelName }),
-              ...(entry.modelId && { modelId: entry.modelId }),
-              ...(entry.arenaId && { arenaId: entry.arenaId }),
-              ...(entry.leaderboardId && { leaderboardId: entry.leaderboardId })
-            };
-          }
+      // Convert entries to the expected format with all available fields
+      const fullData = {};
+      for (const entry of entries) {
+        if (entry.modelDisplayName && entry.rating !== undefined) {
+          fullData[entry.modelDisplayName] = {
+            rating: Math.round(entry.rating),
+            modelOrganization: entry.modelOrganization || '',
+            ratingUpper: entry.ratingUpper !== undefined ? Math.round(entry.ratingUpper) : null,
+            ratingLower: entry.ratingLower !== undefined ? Math.round(entry.ratingLower) : null,
+            license: entry.license || '',
+            modelUrl: entry.modelUrl || '',
+            // Include any other fields that might be useful
+            ...(entry.modelName && { modelName: entry.modelName }),
+            ...(entry.modelId && { modelId: entry.modelId }),
+            ...(entry.arenaId && { arenaId: entry.arenaId }),
+            ...(entry.leaderboardId && { leaderboardId: entry.leaderboardId })
+          };
         }
-
-        return { [benchmarkName]: fullData };
       }
-    } catch (e) {
-      console.error('Failed to parse leaderboard entries:', e.message);
+
+      return { [benchmarkName]: fullData };
     }
   }
 
   // If extraction fails, log the response for debugging
-  console.error('RSC Response (first 1000 chars):', rscResponse.substring(0, 1000));
+  console.warn('RSC Response (first 1000 chars):', rscResponse.substring(0, 1000));
   return null;
 }
 
@@ -265,4 +437,23 @@ function loadModelData() {
   return loadModels();
 }
 
-main();
+// Log summary of the matching results
+function logMatchSummary(modelMatches, unambiguousModels, ambiguousModels) {
+  const existingBenchmarks = modelMatches.filter(m => m.dataModel && !m.needsBenchmark).length;
+  console.warn(`📊 Summary:`);
+  console.warn(`   Total LMArena models processed: ${modelMatches.length}`);
+  console.warn(`   Unambiguous matches (will auto-update/add): ${unambiguousModels.length}`);
+  console.warn(`   Ambiguous/unmatched (need manual review): ${ambiguousModels.length}`);
+  console.warn(`   Existing benchmarks (will be updated if rating changed): ${existingBenchmarks}`);
+}
+
+// Export functions for testing
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    isUnambiguousMatch
+  };
+  // Only run main() when executed directly, not when required as a module
+  if (require.main === module) {
+    main();
+  }
+}

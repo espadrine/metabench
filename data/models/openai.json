@@ -409,6 +409,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 47.6,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1454,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1379,7 +1384,7 @@
         },
         {
           "name": "IMO-AnswerBench",
-          "score": 76.0,
+          "score": 76,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -1404,7 +1409,7 @@
         },
         {
           "name": "BrowseComp (zh)",
-          "score": 63.0,
+          "score": 63,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -1424,13 +1429,18 @@
         },
         {
           "name": "Tool-Decathlon",
-          "score": 29.0,
+          "score": 29,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
           "name": "Terminal-Bench 2.0",
           "score": 49.6,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1437,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2064,6 +2074,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 31.9,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1393,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2535,6 +2550,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 11.5,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1338,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2976,6 +2996,11 @@
           "name": "GPQA",
           "score": 81.4,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1391,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -3488,6 +3513,11 @@
           "name": "SWE-bench Verified",
           "score": 49.3,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1348,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -3817,6 +3847,11 @@
           "name": "BFCL v3",
           "score": 62.9,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1412,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -4000,6 +4035,11 @@
           "name": "GPQA",
           "score": 65,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1380,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -4143,6 +4183,11 @@
           "name": "GPQA",
           "score": 50.3,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1320,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -5009,7 +5054,7 @@
         },
         {
           "name": "RULER 32K",
-          "score": 96.0,
+          "score": 96,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -5034,7 +5079,7 @@
         },
         {
           "name": "ChartQA",
-          "score": 86.0,
+          "score": 86,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -5096,6 +5141,11 @@
           "name": "VQAv2",
           "score": 77.8,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1345,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -5204,6 +5254,11 @@
           "name": "SWE-bench",
           "score": 1.31,
           "source": "https://arxiv.org/abs/2310.06770"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1324,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -5258,7 +5313,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 67.0,
+          "score": 67,
           "source": "https://arxiv.org/abs/2303.08774"
         },
         {
@@ -5268,7 +5323,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 92.0,
+          "score": 92,
           "source": "https://arxiv.org/abs/2303.08774"
         },
         {
@@ -5353,7 +5408,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -5368,7 +5423,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 67.0,
+          "score": 67,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -5433,7 +5488,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 67.0,
+          "score": 67,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -5478,12 +5533,12 @@
         },
         {
           "name": "HumanEval",
-          "score": 67.0,
+          "score": 67,
           "source": "https://mistral.ai/news/mistral-large"
         },
         {
           "name": "GSM8K",
-          "score": 92.0,
+          "score": 92,
           "source": "https://mistral.ai/news/mistral-large"
         }
       ]
@@ -5614,7 +5669,7 @@
         },
         {
           "name": "MMLU",
-          "score": 70.0,
+          "score": 70,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -5659,7 +5714,7 @@
         },
         {
           "name": "MMLU",
-          "score": 70.0,
+          "score": 70,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -5699,7 +5754,7 @@
         },
         {
           "name": "MMLU",
-          "score": 70.0,
+          "score": 70,
           "source": "https://mistral.ai/news/mistral-large"
         },
         {
@@ -5850,7 +5905,7 @@
         },
         {
           "name": "PIQA",
-          "score": 81.0,
+          "score": 81,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {

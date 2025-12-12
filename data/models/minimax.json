@@ -163,7 +163,7 @@
         },
         {
           "name": "MMLU-Pro",
-          "score": 82.0,
+          "score": 82,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -178,7 +178,7 @@
         },
         {
           "name": "LiveCodeBench (thinking)",
-          "score": 83.0,
+          "score": 83,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -193,7 +193,7 @@
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 30.0,
+          "score": 30,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -208,7 +208,7 @@
         },
         {
           "name": "BrowseComp",
-          "score": 44.0,
+          "score": 44,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -233,7 +233,7 @@
         },
         {
           "name": "Tool-Decathlon",
-          "score": 16.0,
+          "score": 16,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -253,8 +253,13 @@
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 30.0,
+          "score": 30,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1346,
+          "source": "https://lmarena.ai/"
         }
       ]
     }

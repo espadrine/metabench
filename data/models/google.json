@@ -228,7 +228,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 95.0,
+          "score": 95,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -295,6 +295,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 54.2,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1495,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -713,6 +718,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 32.6,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1451,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -992,7 +1002,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 72.0,
+          "score": 72,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1047,7 +1057,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 54.0,
+          "score": 54,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -1057,7 +1067,7 @@
         },
         {
           "name": "τ²-Bench Airline",
-          "score": 52.0,
+          "score": 52,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
@@ -2333,7 +2343,7 @@
         },
         {
           "name": "ChartQA (thinking)",
-          "score": 78.0,
+          "score": 78,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
@@ -2374,12 +2384,12 @@
         },
         {
           "name": "Size",
-          "score": 27.227128320,
+          "score": 27.22712832,
           "source": "https://huggingface.co/google/gemma-2-27b"
         },
         {
           "name": "Active parameters",
-          "score": 27.227128320,
+          "score": 27.22712832,
           "source": "https://huggingface.co/google/gemma-2-27b"
         },
         {
@@ -2394,7 +2404,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 74.0,
+          "score": 74,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -2550,7 +2560,7 @@
         },
         {
           "name": "ARC-Easy",
-          "score": 88.0,
+          "score": 88,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -2650,7 +2660,7 @@
         },
         {
           "name": "WinoGrande",
-          "score": 74.0,
+          "score": 74,
           "source": "https://mistral.ai/news/mistral-nemo"
         },
         {
@@ -2751,7 +2761,7 @@
         },
         {
           "name": "MATH",
-          "score": 16.0,
+          "score": 16,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -2851,7 +2861,7 @@
         },
         {
           "name": "MMLU (fr)",
-          "score": 41.0,
+          "score": 41,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -2893,7 +2903,7 @@
         },
         {
           "name": "MMLU-Pro",
-          "score": 69.0,
+          "score": 69,
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
         {
@@ -2908,12 +2918,12 @@
         },
         {
           "name": "HiddenMath",
-          "score": 28.0,
+          "score": 28,
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
         {
           "name": "GPQA",
-          "score": 46.0,
+          "score": 46,
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
         {
@@ -3191,12 +3201,12 @@
         },
         {
           "name": "BBH",
-          "score": 59.0,
+          "score": 59,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
           "name": "WinoGrande",
-          "score": 79.0,
+          "score": 79,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3236,7 +3246,7 @@
         },
         {
           "name": "NaturalQuestions",
-          "score": 23.0,
+          "score": 23,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3337,7 +3347,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 22.0,
+          "score": 22,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
@@ -3442,7 +3452,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 22.0,
+          "score": 22,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3537,7 +3547,7 @@
         },
         {
           "name": "MGSM",
-          "score": 79.0,
+          "score": 79,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -3572,7 +3582,7 @@
         },
         {
           "name": "MathVista",
-          "score": 53.0,
+          "score": 53,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -3627,7 +3637,7 @@
         },
         {
           "name": "BIG-Bench Hard",
-          "score": 75.0,
+          "score": 75,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -3687,7 +3697,7 @@
         },
         {
           "name": "BIG-Bench Hard",
-          "score": 75.0,
+          "score": 75,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {

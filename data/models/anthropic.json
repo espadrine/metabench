@@ -6,8 +6,15 @@
       "url": "https://www.anthropic.com/news/claude-opus-4-5",
       "release_date": "2025-11-24",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -52,7 +59,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 87.0,
+          "score": 87,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
@@ -78,8 +85,15 @@
       "url": "https://www.anthropic.com/news/claude-opus-4-5",
       "release_date": "2025-11-24",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -105,8 +119,15 @@
       "url": "https://www.anthropic.com/news/claude-haiku-4-5",
       "release_date": "2025-10-15",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -207,8 +228,15 @@
       "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
       "release_date": "2025-09-29",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -543,12 +571,12 @@
         },
         {
           "name": "AIME 2025",
-          "score": 87.0,
+          "score": 87,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
           "name": "AIME 2025 (with tools)",
-          "score": 100.0,
+          "score": 100,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -558,7 +586,7 @@
         },
         {
           "name": "MMMU-Pro",
-          "score": 68.0,
+          "score": 68,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -583,7 +611,7 @@
         },
         {
           "name": "LiveCodeBench Pro",
-          "score": 1418.0,
+          "score": 1418,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
@@ -643,7 +671,7 @@
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 50.0,
+          "score": 50,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
@@ -653,7 +681,7 @@
         },
         {
           "name": "τ²-Bench Telecom",
-          "score": 98.0,
+          "score": 98,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
@@ -703,7 +731,7 @@
         },
         {
           "name": "LiveCodeBench (thinking)",
-          "score": 64.0,
+          "score": 64,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -713,7 +741,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 87.0,
+          "score": 87,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -738,7 +766,7 @@
         },
         {
           "name": "SWE Multilingual",
-          "score": 68.0,
+          "score": 68,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -783,7 +811,7 @@
         },
         {
           "name": "SWE-bench Multilingual",
-          "score": 68.0,
+          "score": 68,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
         },
         {
@@ -799,8 +827,15 @@
       "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
       "release_date": "2025-09-29",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -840,13 +875,18 @@
         },
         {
           "name": "FRAMES",
-          "score": 85.0,
+          "score": 85,
           "source": "https://x.ai/news/grok-4-1-fast"
         },
         {
           "name": "X Browse",
           "score": 14.6,
           "source": "https://x.ai/news/grok-4-1-fast"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1444,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -856,8 +896,15 @@
       "url": "https://www.anthropic.com/news/claude-opus-4-1",
       "release_date": "2025-08-05",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -1017,7 +1064,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 81.0,
+          "score": 81,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
@@ -1034,6 +1081,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 38,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1440,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1043,8 +1095,15 @@
       "url": "https://www.anthropic.com/news/claude-4",
       "release_date": "2025-04-22",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -1226,6 +1285,11 @@
           "name": "GPQA",
           "score": 79.6,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1412,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1235,8 +1299,15 @@
       "url": "https://www.anthropic.com/news/claude-4",
       "release_date": "2025-04-22",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -1591,7 +1662,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 68.0,
+          "score": 68,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -1611,7 +1682,7 @@
         },
         {
           "name": "Multi-SWE-bench flash",
-          "score": 25.0,
+          "score": 25,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -1646,8 +1717,13 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 60.0,
+          "score": 60,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1389,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1657,8 +1733,15 @@
       "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
       "release_date": "2025-02-24",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "thinking", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -1728,7 +1811,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 36.0,
+          "score": 36,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -1748,7 +1831,7 @@
         },
         {
           "name": "MATH",
-          "score": 83.0,
+          "score": 83,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -1758,7 +1841,7 @@
         },
         {
           "name": "MMLU-Pro",
-          "score": 80.0,
+          "score": 80,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -1799,8 +1882,14 @@
       "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
       "release_date": "2024-10-22",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -1815,12 +1904,12 @@
         },
         {
           "name": "GPQA Diamond (thinking)",
-          "score": 65.0,
+          "score": 65,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
           "name": "MMLU-Pro (thinking)",
-          "score": 78.0,
+          "score": 78,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -1835,7 +1924,7 @@
         },
         {
           "name": "AIME 2024 (thinking)",
-          "score": 16.0,
+          "score": 16,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -1845,7 +1934,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 49.0,
+          "score": 49,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -1855,7 +1944,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 46.0,
+          "score": 46,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -1871,8 +1960,14 @@
       "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
       "release_date": "2024-10-22",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -1892,7 +1987,7 @@
         },
         {
           "name": "MMLU-Pro (thinking)",
-          "score": 65.0,
+          "score": 65,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -1917,7 +2012,7 @@
         },
         {
           "name": "τ-Bench Retail",
-          "score": 51.0,
+          "score": 51,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -2028,8 +2123,14 @@
       "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
       "release_date": "2024-06-21",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text", "tool"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -2054,7 +2155,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -2084,7 +2185,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 36.0,
+          "score": 36,
           "source": "https://www.anthropic.com/news/3-5-models-and-computer-use"
         },
         {
@@ -2164,7 +2265,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 92.0,
+          "score": 92,
           "source": "https://x.ai/news/grok-2"
         },
         {
@@ -2334,7 +2435,7 @@
         },
         {
           "name": "MMMU (thinking)",
-          "score": 68.0,
+          "score": 68,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
@@ -2365,8 +2466,13 @@
       "url": "https://www.anthropic.com/news/claude-3-family",
       "release_date": "2024-03-04",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -2391,7 +2497,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -2458,6 +2564,11 @@
           "name": "SWE-bench",
           "score": 3.79,
           "source": "https://arxiv.org/abs/2310.06770"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1322,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2467,8 +2578,13 @@
       "url": "https://www.anthropic.com/news/claude-3-family",
       "release_date": "2024-03-04",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -2483,7 +2599,7 @@
         },
         {
           "name": "MMLU",
-          "score": 79.0,
+          "score": 79,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -2508,7 +2624,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 73.0,
+          "score": 73,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -2528,7 +2644,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 89.0,
+          "score": 89,
           "source": "https://www.anthropic.com/news/claude-3-family"
         },
         {
@@ -2555,6 +2671,11 @@
           "name": "ChartQA",
           "score": 81.1,
           "source": "https://www.anthropic.com/news/claude-3-family"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1282,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2564,8 +2685,13 @@
       "url": "https://www.anthropic.com/news/claude-3-family",
       "release_date": "2024-03-04",
       "capabilities": {
-        "input": ["text", "image"],
-        "output": ["text"]
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -2677,6 +2803,11 @@
           "name": "VQAv2",
           "score": 68.4,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1262,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2686,8 +2817,12 @@
       "url": "https://www.anthropic.com/news/claude-2",
       "release_date": "2023-07-11",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
       },
       "benchmarks": [
         {
@@ -2732,7 +2867,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 80.0,
+          "score": 80,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -2747,12 +2882,12 @@
         },
         {
           "name": "HumanEval",
-          "score": 70.0,
+          "score": 70,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
           "name": "DROP",
-          "score": 82.0,
+          "score": 82,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf"
         },
         {
@@ -2772,7 +2907,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 91.0,
+          "score": 91,
           "source": "https://mistral.ai/news/mistral-large"
         },
         {
