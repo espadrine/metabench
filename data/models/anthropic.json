@@ -219,6 +219,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 29.8,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1402,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -891,7 +896,7 @@
       ]
     },
     {
-      "name": "Claude Opus 4.1",
+      "name": "Claude Opus 4.1 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-opus-4-1",
       "release_date": "2025-08-05",
@@ -1084,13 +1089,51 @@
         },
         {
           "name": "LMArena Text",
+          "score": 1449,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.1",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-1",
+      "release_date": "2025-08-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 75,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "LMArena Text",
           "score": 1440,
           "source": "https://lmarena.ai/"
         }
       ]
     },
     {
-      "name": "Claude Opus 4",
+      "name": "Claude Opus 4 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-4",
       "release_date": "2025-04-22",
@@ -1120,6 +1163,11 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 27,
           "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 54,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "SWE-bench Verified",
@@ -1288,13 +1336,51 @@
         },
         {
           "name": "LMArena Text",
+          "score": 1399,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "release_date": "2025-04-22",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 75,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 42,
+          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
+        },
+        {
+          "name": "LMArena Text",
           "score": 1412,
           "source": "https://lmarena.ai/"
         }
       ]
     },
     {
-      "name": "Claude Sonnet 4",
+      "name": "Claude Sonnet 4 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-4",
       "release_date": "2025-04-22",
@@ -1728,7 +1814,7 @@
       ]
     },
     {
-      "name": "Claude Sonnet 3.7",
+      "name": "Claude Sonnet 3.7 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
       "release_date": "2025-02-24",
@@ -1873,6 +1959,124 @@
           "name": "ChartQA",
           "score": 76.3,
           "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1387,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 3.7",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "release_date": "2025-02-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 7,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 32.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 4.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 39.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 22.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 48.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 19.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1371,
+          "source": "https://lmarena.ai/"
         }
       ]
     },

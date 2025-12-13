@@ -44,19 +44,22 @@ function matchBenchmarks(lmarenaData, models) {
 
   // Process each model in the benchmark
   for (const [arenaModelName, ratingData] of Object.entries(lmarenaBenchmarks)) {
+    // Create the arena model object
+    const arenaModel = {
+      name: arenaModelName,
+      rating: ratingData.rating,
+      metadata: ratingData
+    };
+
     // Check if this model exists in our current data
-    const model = findBestMatch(arenaModelName, models);
+    const model = findBestMatch(arenaModel, models);
 
     const benchmarkFullName = `LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)}`;
     const matchingBenchmark = findBenchmark(benchmarkFullName, model);
     const needsBenchmark = !matchingBenchmark;
 
     matches.push({
-      lmarenaModel: {
-        name: arenaModelName,
-        rating: ratingData.rating,
-        metadata: ratingData
-      },
+      lmarenaModel: arenaModel,
       dataModel: model,
       benchmark: {
         name: benchmarkFullName,
@@ -72,26 +75,23 @@ function matchBenchmarks(lmarenaData, models) {
 
 
 
-// - The arenaModelName is a model name string from LMArena data.
+// - The arenaModel is a model object from LMArena data.
 // - models is the raw data from aggregated company model files
-// Return the model from `models` that best matches `arenaModelName`.
-function findBestMatch(arenaModelName, models) {
-  if (MODELS_TO_IGNORE.has(arenaModelName)) {
+// Return the model from `models` that best matches `arenaModel`.
+function findBestMatch(arenaModel, models) {
+  if (MODELS_TO_IGNORE.has(arenaModel.name)) {
     return null;
   }
 
-  // First, check if there's a known mapping for this model name
-  if (KNOWN_MODEL_MAPPINGS[arenaModelName]) {
-    const mappedName = KNOWN_MODEL_MAPPINGS[arenaModelName];
-    // Find the model with the exact mapped name
-    const mappedModel = models.models.find(model => model.name === mappedName);
-    if (mappedModel) {
-      return mappedModel;
+  // First, check for unambiguous matches (exact or known mappings)
+  for (const model of models.models) {
+    if (isUnambiguousModelMatch(arenaModel, model)) {
+      return model;
     }
   }
 
-  // If no known mapping, use levenshtein distance to find the best match
-  const arenaNameLower = normalizeModelName(arenaModelName);
+  // If no unambiguous match, use levenshtein distance to find the best match
+  const arenaNameLower = normalizeModelName(arenaModel.name);
 
   let bestMatch = null;
   let bestDistance = Infinity;
@@ -116,12 +116,17 @@ function findBestMatch(arenaModelName, models) {
 // Known model name mappings for cases where LMArena and our data use different naming conventions
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
-  'claude-3-5-sonnet-20241022': 'Claude 3.5 Sonnet (new)',
-  'gpt-4o-2024-05-13': 'GPT-4o',
+  "claude-3-5-sonnet-20241022": "Claude 3.5 Sonnet (new)",
+  "claude-haiku-4-5-20251001": "Claude Haiku 4.5 Thinking",
+  "claude-3-7-sonnet-20250219-thinking-32k": "Claude Sonnet 3.7 Thinking",
+  "claude-3-7-sonnet-20250219": "Claude Sonnet 3.7",
+  "claude-opus-4-1-20250805-thinking-16k": "Claude Opus 4.1 Thinking",
+  "claude-sonnet-4-20250514-thinking-32k": "Claude Opus 4 Thinking",
+  "gpt-4o-2024-05-13": "GPT-4o",
 };
 
 const MODELS_TO_IGNORE = new Set([
-  'gpt-4o-2024-08-06',
+  "gpt-4o-2024-08-06",
 ]);
 
 // Normalize model name for comparison (lowercase, alphanumeric only)
@@ -130,15 +135,15 @@ function normalizeModelName(name) {
       .replace(/[0-9]{8}$/, '');  // Remove trailing date.
 }
 
-// Check if a match is unambiguous (for auto-update)
-// Uses a more robust approach: exact matches and known mappings
-function isUnambiguousMatch(match) {
-  if (!match.dataModel) {
+// Check if two model names represent an unambiguous match
+// Returns true if the models match exactly (normalized) or via known mapping
+function isUnambiguousModelMatch(lmarenaModel, ourModel) {
+  if (!ourModel) {
     return false;
   }
 
-  const lmarenaName = match.lmarenaModel.name;
-  const ourModelName = match.dataModel.name;
+  const lmarenaName = lmarenaModel.name;
+  const ourModelName = ourModel.name;
 
   // 1. Check for exact match (case-insensitive, normalized)
   if (normalizeModelName(lmarenaName) === normalizeModelName(ourModelName)) {
@@ -152,6 +157,16 @@ function isUnambiguousMatch(match) {
 
   // If none of the above criteria are met, consider it ambiguous
   return false;
+}
+
+// Check if a match is unambiguous (for auto-update)
+// Uses isUnambiguousModelMatch to determine if the match is clear
+function isUnambiguousMatch(match) {
+  if (!match.dataModel) {
+    return false;
+  }
+
+  return isUnambiguousModelMatch(match.lmarenaModel, match.dataModel);
 }
 
 // Convert match objects to the format expected for storage
@@ -450,7 +465,8 @@ function logMatchSummary(modelMatches, unambiguousModels, ambiguousModels) {
 // Export functions for testing
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
-    isUnambiguousMatch
+    isUnambiguousMatch,
+    isUnambiguousModelMatch
   };
   // Only run main() when executed directly, not when required as a module
   if (require.main === module) {
