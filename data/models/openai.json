@@ -1,6 +1,305 @@
 {
   "models": [
     {
+      "name": "GPT-5.2 xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "release_date": "2025-12-11",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.75,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "Output cost",
+          "score": 14,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 86,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GDPval",
+          "score": 70.9,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 55.6,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.0,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.4,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 88.7,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 100.0,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 40.3,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 14.6,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 86.2,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 52.9,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 4-needle 128K",
+          "score": 97,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 4-needle 256K",
+          "score": 98,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 85,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 70,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.7,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 82,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 72.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 61.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 98.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 98.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 72.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.2 none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "release_date": "2025-12-11",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.75,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "Output cost",
+          "score": 14,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 3.9,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 42,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 57.2,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 77.6,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 45.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 81.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 40.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 47.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 29.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 46.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.1 Codex",
       "company": "OpenAI",
       "url": "https://platform.openai.com/docs/models/gpt-5.1-codex",
@@ -414,6 +713,86 @@
           "name": "LMArena Text",
           "score": 1454,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "GDPval",
+          "score": 38.8,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 50.8,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.3,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.1,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 80.3,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.0,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 31.0,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 12.5,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 72.8,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 17.6,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 4-needle 128K",
+          "score": 42,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 4-needle 256K",
+          "score": 63,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 36,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 95.6,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 77.9,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
         }
       ]
     },
@@ -595,6 +974,16 @@
           "name": "τ²-Bench",
           "score": 46.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 47.8,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 62.9,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
         }
       ]
     },
@@ -3852,6 +4241,16 @@
           "name": "LMArena Text",
           "score": 1412,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 49.2,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 72.6,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
         }
       ]
     },
