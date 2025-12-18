@@ -5148,6 +5148,204 @@
       ]
     },
     {
+      "name": "o1 pro",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "release_date": "2024-12-05",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 150,
+          "source": "https://platform.openai.com/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 600,
+          "source": "https://platform.openai.com/docs/pricing"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 86,
+          "source": "https://openai.com/index/introducing-chatgpt-pro/"
+        },
+        {
+          "name": "Codeforces percentile",
+          "score": 90.0,
+          "source": "https://openai.com/index/introducing-chatgpt-pro/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79,
+          "source": "https://openai.com/index/introducing-chatgpt-pro/"
+        }
+      ]
+    },
+    {
+      "name": "o1",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "release_date": "2024-12-05",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://platform.openai.com/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 60,
+          "source": "https://platform.openai.com/docs/pricing"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 78,
+          "source": "https://openai.com/index/introducing-chatgpt-pro/"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1673,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Codeforces percentile",
+          "score": 89.0,
+          "source": "https://openai.com/index/introducing-chatgpt-pro/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76,
+          "source": "https://openai.com/index/introducing-chatgpt-pro/"
+        },
+        {
+          "name": "Biology",
+          "score": 69.2,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Chemistry",
+          "score": 64.7,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Physics",
+          "score": 92.8,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "MATH",
+          "score": 94.8,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "MMLU",
+          "score": 90.8,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        }
+      ]
+    },
+    {
+      "name": "o1-preview",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "release_date": "2024-09-12",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 15,
+          "source": "https://platform.openai.com/docs/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 60,
+          "source": "https://platform.openai.com/docs/pricing"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 44.6,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1258,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Codeforces percentile",
+          "score": 62.0,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73.3,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Biology",
+          "score": 65.9,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Chemistry",
+          "score": 59.9,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Physics",
+          "score": 89.4,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "MATH",
+          "score": 85.5,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "MMLU",
+          "score": 92.3,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 44.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 92.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GPT-4o",
       "company": "OpenAI",
       "url": "https://openai.com/index/hello-gpt-4o/",
@@ -5545,6 +5743,51 @@
           "name": "LMArena Text",
           "score": 1345,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 9.3,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Codeforces",
+          "score": 808,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Codeforces percentile",
+          "score": 11.0,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 50.6,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Biology",
+          "score": 61.6,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Chemistry",
+          "score": 40.2,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "Physics",
+          "score": 59.5,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "MATH",
+          "score": 60.3,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.0,
+          "source": "https://openai.com/index/learning-to-reason-with-llms/"
         }
       ]
     },
