@@ -2224,7 +2224,7 @@
       ]
     },
     {
-      "name": "Llama 2 Chat 70B",
+      "name": "Llama 2 70B Chat",
       "company": "Meta",
       "url": "https://www.llama.com/llama2/",
       "release_date": "2023-07-18",
@@ -2481,11 +2481,16 @@
           "name": "MATH",
           "score": 13.8,
           "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1173,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
     {
-      "name": "Llama 2 Chat 13B",
+      "name": "Llama 2 13B Chat",
       "company": "Meta",
       "url": "https://www.llama.com/llama2/",
       "release_date": "2023-07-18",
@@ -2672,11 +2677,16 @@
           "name": "GSM8K",
           "score": 34.3,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1144,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
     {
-      "name": "Llama 2 Chat 7B",
+      "name": "Llama 2 7B Chat",
       "company": "Meta",
       "url": "https://www.llama.com/llama2/",
       "release_date": "2023-07-18",
@@ -2873,6 +2883,11 @@
           "name": "GSM8K",
           "score": 16,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1110,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2938,6 +2953,51 @@
         {
           "name": "OpenBookQA",
           "score": 60.2,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 23.8,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 68.2,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-middle",
+          "score": 67.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-high",
+          "score": 51.6,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MATH",
+          "score": 10.6,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "GSM8k",
+          "score": 50.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "HumanEval",
+          "score": 23.7,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MBPP",
+          "score": 37.7,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MMLU",
+          "score": 63.4,
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
@@ -3012,6 +3072,51 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
+          "name": "NaturalQuestions",
+          "score": 24.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 65.1,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-middle",
+          "score": 64.1,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-high",
+          "score": 48.3,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MATH",
+          "score": 7.1,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "GSM8k",
+          "score": 35.6,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "HumanEval",
+          "score": 21.7,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MBPP",
+          "score": 30.2,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MMLU",
+          "score": 57.8,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
           "name": "MMLU",
           "score": 56.8,
           "source": "https://mistral.ai/news/mixtral-of-experts"
@@ -3075,6 +3180,11 @@
           "name": "MATH",
           "score": 8.4,
           "source": "https://mistral.ai/news/mixtral-of-experts"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 0,
+          "source": "Educated guess"
         }
       ]
     },
@@ -3143,9 +3253,59 @@
           "source": "https://arxiv.org/abs/2302.13971"
         },
         {
+          "name": "NaturalQuestions",
+          "score": 20.1,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 56.6,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-middle",
+          "score": 61.6,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-high",
+          "score": 47.2,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MATH",
+          "score": 3.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "GSM8k",
+          "score": 17.8,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "HumanEval",
+          "score": 15.8,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MBPP",
+          "score": 22,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MMLU",
+          "score": 46.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
           "name": "LMArena Text",
           "score": 973,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 0,
+          "source": "Educated guess"
         }
       ]
     },
@@ -3212,6 +3372,56 @@
           "name": "OpenBookQA",
           "score": 57.2,
           "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "NaturalQuestions",
+          "score": 16.8,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 50,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-middle",
+          "score": 61.1,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-high",
+          "score": 46.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MATH",
+          "score": 2.9,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "GSM8k",
+          "score": 11,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "HumanEval",
+          "score": 10.5,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MBPP",
+          "score": 17.7,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "MMLU",
+          "score": 35.1,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 0,
+          "source": "Educated guess"
         }
       ]
     }

@@ -47,7 +47,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 80.0,
+          "score": 80,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
@@ -62,7 +62,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 100.0,
+          "score": 100,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
@@ -741,12 +741,12 @@
         },
         {
           "name": "AIME 2025",
-          "score": 94.0,
+          "score": 94,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
           "name": "FrontierMath (Tier 1–3)",
-          "score": 31.0,
+          "score": 31,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
@@ -5178,7 +5178,7 @@
         },
         {
           "name": "Codeforces percentile",
-          "score": 90.0,
+          "score": 90,
           "source": "https://openai.com/index/introducing-chatgpt-pro/"
         },
         {
@@ -5224,7 +5224,7 @@
         },
         {
           "name": "Codeforces percentile",
-          "score": 89.0,
+          "score": 89,
           "source": "https://openai.com/index/introducing-chatgpt-pro/"
         },
         {
@@ -5256,6 +5256,11 @@
           "name": "MMLU",
           "score": 90.8,
           "source": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1400,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -5295,7 +5300,7 @@
         },
         {
           "name": "Codeforces percentile",
-          "score": 62.0,
+          "score": 62,
           "source": "https://openai.com/index/learning-to-reason-with-llms/"
         },
         {
@@ -5342,6 +5347,11 @@
           "name": "MATH",
           "score": 92.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1387,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -5756,7 +5766,7 @@
         },
         {
           "name": "Codeforces percentile",
-          "score": 11.0,
+          "score": 11,
           "source": "https://openai.com/index/learning-to-reason-with-llms/"
         },
         {
@@ -5786,7 +5796,7 @@
         },
         {
           "name": "MMLU",
-          "score": 88.0,
+          "score": 88,
           "source": "https://openai.com/index/learning-to-reason-with-llms/"
         }
       ]
@@ -6574,6 +6584,26 @@
           "name": "OpenBookQA",
           "score": 57.6,
           "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-middle",
+          "score": 58.4,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "RACE-high",
+          "score": 45.5,
+          "source": "https://arxiv.org/abs/2302.13971"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 0,
+          "source": "Educated guess"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 0,
+          "source": "Educated guess"
         }
       ]
     }
