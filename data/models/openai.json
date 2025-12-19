@@ -1,6 +1,48 @@
 {
   "models": [
     {
+      "name": "GPT-5.2 Codex",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
+      "release_date": "2025-12-18",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.75,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "Output cost",
+          "score": 14,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 56.4,
+          "source": "https://openai.com/index/introducing-gpt-5-2-codex/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 44,
+          "source": "https://openai.com/index/introducing-gpt-5-2-codex/"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.2 xhigh",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5-2/",
@@ -179,6 +221,11 @@
           "name": "τ²-Bench",
           "score": 84.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 44,
+          "source": "https://openai.com/index/introducing-gpt-5-2-codex/"
         }
       ]
     },
