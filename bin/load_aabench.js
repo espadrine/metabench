@@ -159,6 +159,8 @@ const modelNameFromAA = {
   "o3": "o3 (high)",
   "gpt-oss-120B (high)": "gpt-oss-120b High",
   "gpt-oss-120B (low)": "gpt-oss-120b Low",
+  "Command-R (Mar '24)": "Command-R",
+  "Command-R+ (Apr '24)": "Command-R+",
 };
 
 // Store the missing benchmarks into outputFilePath as JSON.
