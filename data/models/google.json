@@ -163,7 +163,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 78.0,
+          "score": 78,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -210,6 +210,11 @@
           "name": "MRCR v2: 8-needle 1M",
           "score": 22.1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1477,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -619,7 +624,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1495,
+          "score": 1491,
           "source": "https://lmarena.ai/"
         },
         {
@@ -709,17 +714,17 @@
         },
         {
           "name": "AIME 2024",
-          "score": 95.0,
+          "score": 95,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
           "name": "AIME 2024 (with tools)",
-          "score": 100.0,
+          "score": 100,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
           "name": "MMMU-Pro",
-          "score": 81.0,
+          "score": 81,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -789,7 +794,7 @@
         },
         {
           "name": "MRCR v2: 8-needle 128K",
-          "score": 77.0,
+          "score": 77,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -1320,7 +1325,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1451,
+          "score": 1450,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1335,7 +1340,7 @@
         },
         {
           "name": "ARC-AGI-2",
-          "score": 88.0,
+          "score": 88,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -1350,12 +1355,12 @@
         },
         {
           "name": "AIME 2024 (with tools)",
-          "score": 88.0,
+          "score": 88,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
           "name": "MMMU-Pro",
-          "score": 68.0,
+          "score": 68,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -1425,7 +1430,7 @@
         },
         {
           "name": "MRCR v2: 8-needle 128K",
-          "score": 58.0,
+          "score": 58,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -1806,7 +1811,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 11.0,
+          "score": 11,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -1826,7 +1831,7 @@
         },
         {
           "name": "AIME 2024",
-          "score": 72.0,
+          "score": 72,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
@@ -1911,7 +1916,7 @@
         },
         {
           "name": "MRCR v2: 8-needle 1M",
-          "score": 21.0,
+          "score": 21,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         }
       ]

@@ -28,12 +28,12 @@
         },
         {
           "name": "Size",
-          "score": 125.025989840,
+          "score": 125.02598984,
           "source": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
         },
         {
           "name": "Active parameters",
-          "score": 125.025989840,
+          "score": 125.02598984,
           "source": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512"
         },
         {
@@ -86,12 +86,12 @@
         },
         {
           "name": "Size",
-          "score": 24.011361840,
+          "score": 24.01136184,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
         },
         {
           "name": "Active parameters",
-          "score": 24.011361840,
+          "score": 24.01136184,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
         },
         {
@@ -101,7 +101,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 68.0,
+          "score": 68,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
         },
         {
@@ -174,7 +174,7 @@
         },
         {
           "name": "AMC",
-          "score": 52.0,
+          "score": 52,
           "source": "https://mistral.ai/news/mistral-3"
         },
         {
@@ -184,8 +184,8 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1418,
-          "source": "https://mistral.ai/news/mistral-3"
+          "score": 1419,
+          "source": "https://lmarena.ai/"
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
@@ -282,17 +282,17 @@
         },
         {
           "name": "Size",
-          "score": 13.945031680,
+          "score": 13.94503168,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         },
         {
           "name": "Active parameters",
-          "score": 13.945031680,
+          "score": 13.94503168,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         },
         {
           "name": "AIME 2025",
-          "score": 85.0,
+          "score": 85,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         },
         {
@@ -340,12 +340,12 @@
         },
         {
           "name": "Size",
-          "score": 13.945031680,
+          "score": 13.94503168,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         },
         {
           "name": "Active parameters",
-          "score": 13.945031680,
+          "score": 13.94503168,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         },
         {
@@ -468,12 +468,12 @@
         },
         {
           "name": "Size",
-          "score": 8.918026240,
+          "score": 8.91802624,
           "source": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512"
         },
         {
           "name": "Active parameters",
-          "score": 8.918026240,
+          "score": 8.91802624,
           "source": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512"
         },
         {
@@ -521,12 +521,12 @@
         },
         {
           "name": "Size",
-          "score": 8.918026240,
+          "score": 8.91802624,
           "source": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512"
         },
         {
           "name": "Active parameters",
-          "score": 8.918026240,
+          "score": 8.91802624,
           "source": "https://huggingface.co/mistralai/Ministral-3-8B-Reasoning-2512"
         },
         {
@@ -727,7 +727,7 @@
         },
         {
           "name": "MATH",
-          "score": 83.0,
+          "score": 83,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
         },
         {
@@ -1634,7 +1634,7 @@
         },
         {
           "name": "MATH",
-          "score": 91.0,
+          "score": 91,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -1649,7 +1649,7 @@
         },
         {
           "name": "RULER 32K",
-          "score": 96.0,
+          "score": 96,
           "source": "https://mistral.ai/news/mistral-medium-3"
         },
         {
@@ -2162,7 +2162,7 @@
         },
         {
           "name": "MMMU",
-          "score": 64.0,
+          "score": 64,
           "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
         },
         {
@@ -2314,7 +2314,7 @@
         },
         {
           "name": "MBPP",
-          "score": 70.0,
+          "score": 70,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -2329,7 +2329,7 @@
         },
         {
           "name": "MMLU",
-          "score": 65.0,
+          "score": 65,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
         },
         {
@@ -2645,7 +2645,7 @@
         },
         {
           "name": "Mathvista (thinking)",
-          "score": 58.0,
+          "score": 58,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
@@ -2695,7 +2695,7 @@
         },
         {
           "name": "HumanEval",
-          "score": 72.0,
+          "score": 72,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
@@ -2742,7 +2742,7 @@
         },
         {
           "name": "MMLU",
-          "score": 84.0,
+          "score": 84,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
@@ -2762,32 +2762,32 @@
         },
         {
           "name": "HumanEval",
-          "score": 92.0,
+          "score": 92,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
           "name": "HumanEval Plus",
-          "score": 87.0,
+          "score": 87,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
           "name": "MBPP",
-          "score": 80.0,
+          "score": 80,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
           "name": "MBPP EvalPlus",
-          "score": 69.0,
+          "score": 69,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
           "name": "GSM8K",
-          "score": 93.0,
+          "score": 93,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
           "name": "MATH",
-          "score": 70.0,
+          "score": 70,
           "source": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407"
         },
         {
@@ -2879,12 +2879,12 @@
         },
         {
           "name": "Size",
-          "score": 12.247782400,
+          "score": 12.2477824,
           "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
         },
         {
           "name": "Active parameters",
-          "score": 12.247782400,
+          "score": 12.2477824,
           "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
         },
         {
@@ -2914,7 +2914,7 @@
         },
         {
           "name": "MMLU",
-          "score": 68.0,
+          "score": 68,
           "source": "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407"
         },
         {
@@ -3108,7 +3108,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 81.0,
+          "score": 81,
           "source": "https://mistral.ai/news/mistral-large"
         },
         {
@@ -3443,12 +3443,12 @@
         },
         {
           "name": "PIQA",
-          "score": 83.0,
+          "score": 83,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
         {
           "name": "ARC-Easy",
-          "score": 80.0,
+          "score": 80,
           "source": "https://mistral.ai/news/announcing-mistral-7b"
         },
         {
@@ -3583,7 +3583,7 @@
         },
         {
           "name": "AGIEval",
-          "score": 44.0,
+          "score": 44,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3593,7 +3593,7 @@
         },
         {
           "name": "BBH",
-          "score": 56.0,
+          "score": 56,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3603,7 +3603,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 83.0,
+          "score": 83,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3623,7 +3623,7 @@
         },
         {
           "name": "SIQA",
-          "score": 47.0,
+          "score": 47,
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
@@ -3678,7 +3678,7 @@
         },
         {
           "name": "GSM8K (thinking)",
-          "score": 50.0,
+          "score": 50,
           "source": "https://mistral.ai/news/mixtral-8x22b"
         },
         {
@@ -3698,7 +3698,7 @@
         },
         {
           "name": "WinoGrande",
-          "score": 78.0,
+          "score": 78,
           "source": "https://mistral.ai/news/mixtral-8x22b"
         },
         {
@@ -3748,7 +3748,7 @@
         },
         {
           "name": "GSM8K",
-          "score": 16.0,
+          "score": 16,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {
@@ -3763,7 +3763,7 @@
         },
         {
           "name": "ARC-Challenge",
-          "score": 39.0,
+          "score": 39,
           "source": "https://mistral.ai/news/mixtral-of-experts"
         },
         {

@@ -38,7 +38,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 96.0,
+          "score": 96,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -116,7 +116,7 @@
         },
         {
           "name": "MMLU-Pro",
-          "score": 85.0,
+          "score": 85,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -181,7 +181,7 @@
         },
         {
           "name": "BrowseComp (zh)",
-          "score": 65.0,
+          "score": 65,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -196,7 +196,7 @@
         },
         {
           "name": "MCP-Mark",
-          "score": 38.0,
+          "score": 38,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
@@ -218,6 +218,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 46.4,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1417,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -509,7 +514,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1412,
+          "score": 1423,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -724,7 +729,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1391,
+          "score": 1392,
           "source": "https://lmarena.ai/"
         },
         {
@@ -739,12 +744,12 @@
         },
         {
           "name": "SWE-bench Live",
-          "score": 13.0,
+          "score": 13,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
           "name": "SWE-bench Multilingual",
-          "score": 13.0,
+          "score": 13,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -764,12 +769,12 @@
         },
         {
           "name": "WebArena",
-          "score": 40.0,
+          "score": 40,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
           "name": "Mind2Web",
-          "score": 36.0,
+          "score": 36,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -784,7 +789,7 @@
         },
         {
           "name": "τ-Bench Airline",
-          "score": 40.0,
+          "score": 40,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         }
       ]
@@ -1103,7 +1108,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1395,
+          "score": 1396,
           "source": "https://lmarena.ai/"
         }
       ]
