@@ -176,7 +176,7 @@ function convertMatchToStorageFormat(match) {
     ...match.dataModel
   } : {
     // Fallback for cases where no dataModel exists
-    name: match.lmarenaModel.name,
+    name: null,
     company: match.lmarenaModel.metadata.modelOrganization || '',
     url: match.lmarenaModel.metadata.modelUrl || '',
     release_date: '',
@@ -344,7 +344,7 @@ function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
   // Convert match objects to storage format
   const modelsToStore = missingBenchmarks
     .map(convertMatchToStorageFormat)
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .sort((a, b) => a.lmarena_name.localeCompare(b.lmarena_name));
 
   const sortedBenchmarks = { models: modelsToStore };
 
