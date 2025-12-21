@@ -662,6 +662,11 @@
           "name": "MMMU",
           "score": 78,
           "source": "https://llm-stats.com/benchmarks"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1334,
+          "source": "https://lmarena.ai/"
         }
       ]
     },

@@ -76,6 +76,11 @@
           "name": "SWE-bench Verified",
           "score": 80.9,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1468,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1341,7 +1346,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1399,
+          "score": 1423,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -1813,7 +1818,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1389,
+          "score": 1399,
           "source": "https://lmarena.ai/"
         }
       ]

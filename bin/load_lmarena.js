@@ -44,6 +44,10 @@ function matchBenchmarks(lmarenaData, models) {
 
   // Process each model in the benchmark
   for (const [arenaModelName, ratingData] of Object.entries(lmarenaBenchmarks)) {
+    if (ignoreModel(arenaModelName)) {
+      continue;
+    }
+
     // Create the arena model object
     const arenaModel = {
       name: arenaModelName,
@@ -79,10 +83,6 @@ function matchBenchmarks(lmarenaData, models) {
 // - models is the raw data from aggregated company model files
 // Return the model from `models` that best matches `arenaModel`.
 function findBestMatch(arenaModel, models) {
-  if (MODELS_TO_IGNORE.has(arenaModel.name)) {
-    return null;
-  }
-
   // First, check for unambiguous matches (exact or known mappings)
   for (const model of models.models) {
     if (isUnambiguousModelMatch(arenaModel, model)) {
@@ -116,23 +116,45 @@ function findBestMatch(arenaModel, models) {
 // Known model name mappings for cases where LMArena and our data use different naming conventions
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
+  "claude-opus-4-20250514-thinking-16k": "Claude Opus 4 Thinking",
+  "claude-opus-4-5-20251101-thinking-32k": "Claude Opus 4.5 Thinking",
   "claude-3-5-sonnet-20241022": "Claude 3.5 Sonnet (new)",
   "claude-haiku-4-5-20251001": "Claude Haiku 4.5 Thinking",
   "claude-3-7-sonnet-20250219-thinking-32k": "Claude Sonnet 3.7 Thinking",
   "claude-3-7-sonnet-20250219": "Claude Sonnet 3.7",
   "claude-opus-4-1-20250805-thinking-16k": "Claude Opus 4.1 Thinking",
-  "claude-sonnet-4-20250514-thinking-32k": "Claude Opus 4 Thinking",
+  "claude-sonnet-4-20250514-thinking-32k": "Claude Sonnet 4 Thinking",
   "gpt-4o-2024-05-13": "GPT-4o",
+  "command-r": "Command-R",
+  "command-r-plus": "Command-R+",
 };
 
-const MODELS_TO_IGNORE = new Set([
+const MODEL_PREFIXES_TO_IGNORE = [
+  // Ignore for now, reconsider later as we add new companies etc.
+  "amazon-",
+  "c4ai-aya-expanse-",
+  "chatglm",
+  // Ignore forever.
   "gpt-4o-2024-08-06",
-]);
+  "chatgpt-4o-latest-20250326",
+  "athene-",
+  "alpaca-13b",
+];
+
+function ignoreModel(modelName) {
+  for (const prefix of MODEL_PREFIXES_TO_IGNORE) {
+    if (modelName.startsWith(prefix)) {
+      return true;
+    }
+  }
+  return false;
+}
 
 // Normalize model name for comparison (lowercase, alphanumeric only)
 function normalizeModelName(name) {
-  return name.toLowerCase().replace(/[^a-z0-9]/g, '')
-      .replace(/[0-9]{8}$/, '');  // Remove trailing date.
+  return name.toLowerCase()
+    .replace(/[0-9]{8}/, '')  // Remove date.
+    .replace(/[\-\.]/g, ' ');
 }
 
 // Check if two model names represent an unambiguous match
@@ -145,13 +167,13 @@ function isUnambiguousModelMatch(lmarenaModel, ourModel) {
   const lmarenaName = lmarenaModel.name;
   const ourModelName = ourModel.name;
 
-  // 1. Check for exact match (case-insensitive, normalized)
-  if (normalizeModelName(lmarenaName) === normalizeModelName(ourModelName)) {
+  // 1. Check for known mappings
+  if (KNOWN_MODEL_MAPPINGS[lmarenaName] === ourModelName) {
     return true;
   }
 
-  // 2. Check for known mappings
-  if (KNOWN_MODEL_MAPPINGS[lmarenaName] === ourModelName) {
+  // 2. Check for exact match (case-insensitive, normalized)
+  if (normalizeModelName(lmarenaName) === normalizeModelName(ourModelName)) {
     return true;
   }
 
@@ -323,7 +345,7 @@ function updateUnambiguousModels(unambiguousModels, models) {
     } else {
       // Add the new benchmark
       modelToUpdate.benchmarks.push(match.benchmark);
-      console.warn(`✅ Added new benchmark for ${modelName}: ${match.benchmark.score}`);
+      console.warn(`✅ Added new benchmark for ${modelName} (${match.lmarenaModel.name}): ${match.benchmark.score}`);
     }
 
     // Write the updated data back to the file
