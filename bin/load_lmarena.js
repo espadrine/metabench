@@ -31,86 +31,92 @@ function main() {
 //   lmarenaModel: {name, rating, metadata},  // Original LMArena model data
 //   dataModel: model object or null,         // Matched model from our data, or null if no match
 //   benchmark: {name, score, source},        // The LMArena benchmark to add
-//   needsBenchmark: boolean                  // True if benchmark doesn't already exist
 // }
 function matchBenchmarks(lmarenaData, models) {
-  const matches = [];
-
   // Get the benchmark name from the data (should be "text" for text arena)
   const benchmarkName = Object.keys(lmarenaData)[0];
-  const lmarenaBenchmarks = lmarenaData[benchmarkName];
 
-  console.warn(`Processing ${Object.keys(lmarenaBenchmarks).length} models from LMArena '${benchmarkName}' benchmark`);
+  // First, filter out the models we want to ignore.
+  const lmArenaModelNames = Object.keys(lmarenaData[benchmarkName]).filter(name => !ignoreModel(name));
+  const textLMArenaData = lmArenaModelNames.map(name => ({
+    name,
+    rating: lmarenaData[benchmarkName][name].rating,
+    metadata: lmarenaData[benchmarkName][name],
+  }));
+
+  // We now want the matching score of all the LMArena models against our model data.
+  // It is a map from LMArena model name to our model.
+  const modelMap = mapModels(textLMArenaData, models);
+
+  const matches = [];
+
+  console.warn(`Processing ${lmArenaModelNames.length} models from LMArena '${benchmarkName}' benchmark`);
 
   // Process each model in the benchmark
-  for (const [arenaModelName, ratingData] of Object.entries(lmarenaBenchmarks)) {
-    if (ignoreModel(arenaModelName)) {
-      continue;
-    }
-
-    // Create the arena model object
-    const arenaModel = {
-      name: arenaModelName,
-      rating: ratingData.rating,
-      metadata: ratingData
-    };
-
+  for (const arenaModel of textLMArenaData) {
     // Check if this model exists in our current data
-    const model = findBestMatch(arenaModel, models);
+    const model = modelMap[arenaModel.name];
 
     const benchmarkFullName = `LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)}`;
     const matchingBenchmark = findBenchmark(benchmarkFullName, model);
-    const needsBenchmark = !matchingBenchmark;
 
     matches.push({
       lmarenaModel: arenaModel,
       dataModel: model,
       benchmark: {
         name: benchmarkFullName,
-        score: Math.round(ratingData.rating),
+        score: Math.round(arenaModel.rating),
         source: "https://lmarena.ai/"
       },
-      needsBenchmark: needsBenchmark
     });
   }
 
   return matches;
 }
 
-
-
-// - The arenaModel is a model object from LMArena data.
-// - models is the raw data from aggregated company model files
-// Return the model from `models` that best matches `arenaModel`.
-function findBestMatch(arenaModel, models) {
-  // First, check for unambiguous matches (exact or known mappings)
-  for (const model of models.models) {
-    if (isUnambiguousModelMatch(arenaModel, model)) {
-      return model;
+// Map LMArena models to our data models.
+// Return a map from LMArena model name to our model.
+function mapModels(lmarenaData, models) {
+  // 1. Compute the levenshtein distance for each possible mapping.
+  // We create a list of {arenaModelName, modelName, distance}.
+  const modelMappings = [];
+  for (const arenaModel of lmarenaData) {
+    const arenaNameNormalized = normalizeModelName(arenaModel.name);
+    for (const model of models.models) {
+      const modelNameNormalized = normalizeModelName(model.name);
+      const distance = levenshteinDistance(arenaNameNormalized, modelNameNormalized);
+      modelMappings.push({arenaModelName: arenaModel.name, modelName: model.name, distance});
     }
   }
 
-  // If no unambiguous match, use levenshtein distance to find the best match
-  const arenaNameLower = normalizeModelName(arenaModel.name);
-
-  let bestMatch = null;
-  let bestDistance = Infinity;
-
-  for (const model of models.models) {
-    const modelNameLower = normalizeModelName(model.name);
-    const distance = levenshteinDistance(arenaNameLower, modelNameLower);
-
-    // If the distance is too high (more than 30% of the length of the AA model name),
-    // skip this match and loop.
-    const maxAllowedDistance = Math.floor(arenaNameLower.length * 0.3);
-
-    if (distance <= maxAllowedDistance && distance < bestDistance) {
-      bestDistance = distance;
-      bestMatch = model;
+  // 2. Assign unambiguous mappings.
+  const modelMap = {};
+  for (const arenaModel of lmarenaData) {
+    for (const model of models.models) {
+      if (isUnambiguousModelMatch(arenaModel, model)) {
+        modelMap[arenaModel.name] = model;
+      }
     }
   }
 
-  return bestMatch;
+  // 3. Assign the mapping with the best levenshtein match, then iterate mappings.
+  const sortedModelMappings = modelMappings.sort((a, b) => a.distance - b.distance);
+  const assignedModels = new Set();
+  for (const mapping of sortedModelMappings) {
+    const arenaModelName = mapping.arenaModelName;
+    const modelName = mapping.modelName;
+
+    // If these models are already mapped, skip.
+    if (modelMap[arenaModelName] || assignedModels.has(modelName)) {
+      continue;
+    }
+
+    // Assign the mapping
+    const model = models.models.find(m => m.name === modelName);
+    modelMap[arenaModelName] = model;
+  }
+
+  return modelMap;
 }
 
 // Known model name mappings for cases where LMArena and our data use different naming conventions
@@ -476,7 +482,7 @@ function loadModelData() {
 
 // Log summary of the matching results
 function logMatchSummary(modelMatches, unambiguousModels, ambiguousModels) {
-  const existingBenchmarks = modelMatches.filter(m => m.dataModel && !m.needsBenchmark).length;
+  const existingBenchmarks = modelMatches.filter(m => m.dataModel && m.dataModel.benchmarks.some(b => b.name === m.benchmark.name)).length;
   console.warn(`📊 Summary:`);
   console.warn(`   Total LMArena models processed: ${modelMatches.length}`);
   console.warn(`   Unambiguous matches (will auto-update/add): ${unambiguousModels.length}`);
