@@ -758,7 +758,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1458,
+          "score": 1457,
           "source": "https://lmarena.ai/"
         },
         {
@@ -840,6 +840,61 @@
           "name": "τ²-Bench Retail",
           "score": 77.9,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 25.7,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 96.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 43.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 47.6,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 50.8,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 82.7,
+          "source": "https://z.ai/blog/glm-4.7"
         }
       ]
     },
@@ -1877,6 +1932,76 @@
           "name": "LMArena Text",
           "score": 1436,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 26.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 35.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.6,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 88.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 76.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.9,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 30.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 35.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 54.9,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 63.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 82.4,
+          "source": "https://z.ai/blog/glm-4.7"
         }
       ]
     },

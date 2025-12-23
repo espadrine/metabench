@@ -213,7 +213,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1477,
+          "score": 1476,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -624,7 +624,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1491,
+          "score": 1490,
           "source": "https://lmarena.ai/"
         },
         {
@@ -801,6 +801,71 @@
           "name": "MRCR v2: 8-needle 1M",
           "score": 26.3,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 37.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 45.8,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 95.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 97.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 93.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 83.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.7,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 39.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 90.7,
+          "source": "https://z.ai/blog/glm-4.7"
         }
       ]
     },
@@ -1325,7 +1390,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1450,
+          "score": 1451,
           "source": "https://lmarena.ai/"
         },
         {

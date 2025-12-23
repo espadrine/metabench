@@ -1,84 +1,6 @@
 {
   "models": [
     {
-      "name": "DeepSeek V3.2 Speciale",
-      "company": "DeepSeek",
-      "url": "https://api-docs.deepseek.com/news/news251201",
-      "release_date": "2025-12-01",
-      "capabilities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text",
-          "thinking",
-          "tool"
-        ]
-      },
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0.28,
-          "source": "https://api-docs.deepseek.com/news/news250929"
-        },
-        {
-          "name": "Output cost",
-          "score": 0.42,
-          "source": "https://api-docs.deepseek.com/news/news250929"
-        },
-        {
-          "name": "Size",
-          "score": 684.531386,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
-        },
-        {
-          "name": "Active parameters",
-          "score": 37,
-          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 96,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "HMMT Feb 2025",
-          "score": 99.2,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "HMMT Nov 2025",
-          "score": 90.2,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "IMO-AnswerBench",
-          "score": 84.5,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "LiveCodeBench (thinking)",
-          "score": 88.7,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "Codeforces",
-          "score": 2701,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 85.7,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 30.6,
-          "source": "https://api-docs.deepseek.com/news/news251201"
-        }
-      ]
-    },
-    {
       "name": "DeepSeek V3.2",
       "company": "DeepSeek",
       "url": "https://api-docs.deepseek.com/news/news251201",
@@ -221,8 +143,166 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1417,
+          "score": 1416,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.4,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 25.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 40.8,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 93.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 92.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 90.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 78.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 70.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 35.4,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.4,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 51.4,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 65.0,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 85.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V3.2 Speciale",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news251201",
+      "release_date": "2025-12-01",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.42,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 684.531386,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
+        },
+        {
+          "name": "Active parameters",
+          "score": 37,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 96,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 99.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 90.2,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 84.5,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "LiveCodeBench (thinking)",
+          "score": 88.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2701,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://api-docs.deepseek.com/news/news251201"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.6,
+          "source": "https://api-docs.deepseek.com/news/news251201"
         }
       ]
     },
@@ -597,7 +677,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1416,
+          "score": 1417,
           "source": "https://lmarena.ai/"
         },
         {

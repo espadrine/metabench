@@ -265,6 +265,86 @@
           "name": "Terminal-Bench 2.0",
           "score": 35.7,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.6,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 23.9,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 44.9,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.5,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 89.4,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 89.2,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 78.6,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 61.1,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 30.6,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 35.7,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": null,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 62.3,
+          "source": "https://z.ai/blog/glm-4.7"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 74.3,
+          "source": "https://z.ai/blog/glm-4.7"
         }
       ]
     },
