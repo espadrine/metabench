@@ -1,6 +1,169 @@
 {
   "models": [
     {
+      "name": "MiniMax M2.1",
+      "company": "MiniMax",
+      "url": "https://www.minimax.io/news/minimax-m21",
+      "release_date": "2025-12-23",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.2,
+          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+        },
+        {
+          "name": "Size",
+          "score": 240.418294272,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "Active parameters",
+          "score": 10,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWT-bench",
+          "score": 69.3,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-Perf",
+          "score": 3.1,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-Review",
+          "score": 8.9,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "OctoCodingbench",
+          "score": 26.1,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE",
+          "score": 88.6,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Web",
+          "score": 91.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Simulation",
+          "score": 87.1,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Android",
+          "score": 89.7,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-iOS",
+          "score": 88.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Backend",
+          "score": 86.7,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 43.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 47.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 81.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 88.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 22.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 78.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SciCode",
+          "score": 39.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "IFBench",
+          "score": 70.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "LCR",
+          "score": 62.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 87.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 49.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 72.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 47.9,
+          "source": "https://www.minimax.io/news/minimax-m2"
+        }
+      ]
+    },
+    {
       "name": "MiniMax M2",
       "company": "MiniMax",
       "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2",
@@ -260,6 +423,131 @@
           "name": "LMArena Text",
           "score": 1346,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWT-bench",
+          "score": 32.8,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-Perf",
+          "score": 1.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-Review",
+          "score": 3.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "OctoCodingbench",
+          "score": 13.3,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE",
+          "score": 67.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Web",
+          "score": 80.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Simulation",
+          "score": 77.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Android",
+          "score": 69.2,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-iOS",
+          "score": 39.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "VIBE-Backend",
+          "score": 67.8,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 16.7,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 44.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 12.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SciCode",
+          "score": 36.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "LCR",
+          "score": 61.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 87.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Multi-SWE-bench",
+          "score": 36.2,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 56.5,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 30.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
         }
       ]
     }

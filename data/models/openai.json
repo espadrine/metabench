@@ -226,6 +226,86 @@
           "name": "Terminal-Bench 2.0",
           "score": 44,
           "source": "https://openai.com/index/introducing-gpt-5-2-codex/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWT-bench",
+          "score": 80.7,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-Perf",
+          "score": 3.6,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 41.7,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 65.8,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 98.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 31.4,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "LCR",
+          "score": 73.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 85.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 72.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.0,
+          "source": "https://www.minimax.io/news/minimax-m21"
         }
       ]
     },
