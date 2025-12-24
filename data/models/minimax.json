@@ -37,6 +37,11 @@
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2"
         },
         {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 90,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
           "name": "SWE-bench Verified",
           "score": 74.0,
           "source": "https://www.minimax.io/news/minimax-m21"
