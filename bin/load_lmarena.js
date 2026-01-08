@@ -89,17 +89,29 @@ function mapModels(lmarenaData, models) {
     }
   }
 
-  // 2. Assign unambiguous mappings.
+  // 2. Assign known mappings.
   const modelMap = {};
   for (const arenaModel of lmarenaData) {
-    for (const model of models.models) {
-      if (isUnambiguousModelMatch(arenaModel, model)) {
+    const knownMappingName = KNOWN_MODEL_MAPPINGS[arenaModel.name];
+    if (knownMappingName) {
+      const model = models.models.find(m => m.name === knownMappingName);
+      if (model) {
         modelMap[arenaModel.name] = model;
       }
     }
   }
 
-  // 3. Assign the mapping with the best levenshtein match, then iterate mappings.
+  // 3. Assign unambiguous mappings.
+  for (const arenaModel of lmarenaData) {
+    for (const model of models.models) {
+      const notAlreadyMapped = !modelMap[arenaModel.name];
+      if (isUnambiguousModelMatch(arenaModel, model) && notAlreadyMapped) {
+        modelMap[arenaModel.name] = model;
+      }
+    }
+  }
+
+  // 4. Assign the mapping with the best levenshtein match, then iterate mappings.
   const sortedModelMappings = modelMappings.sort((a, b) => a.distance - b.distance);
   const assignedModels = new Set();
   for (const mapping of sortedModelMappings) {
@@ -125,6 +137,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "claude-opus-4-20250514-thinking-16k": "Claude Opus 4 Thinking",
   "claude-opus-4-5-20251101-thinking-32k": "Claude Opus 4.5 Thinking",
   "claude-3-5-sonnet-20241022": "Claude 3.5 Sonnet (new)",
+  "claude-3-5-sonnet-20240620": "Claude 3.5 Sonnet",
   "claude-haiku-4-5-20251001": "Claude Haiku 4.5 Thinking",
   "claude-3-7-sonnet-20250219-thinking-32k": "Claude Sonnet 3.7 Thinking",
   "claude-3-7-sonnet-20250219": "Claude Sonnet 3.7",
@@ -140,6 +153,7 @@ const MODEL_PREFIXES_TO_IGNORE = [
   "amazon-",
   "c4ai-aya-expanse-",
   "chatglm",
+
   // Ignore forever.
   "gpt-4o-2024-08-06",
   "chatgpt-4o-latest-20250326",
@@ -160,7 +174,9 @@ function ignoreModel(modelName) {
 function normalizeModelName(name) {
   return name.toLowerCase()
     .replace(/[0-9]{8}/, '')  // Remove date.
-    .replace(/[\-\.]/g, ' ');
+    .replace(/[\-\._]/g, ' ')  // Replace dashes, dots, and underscores with spaces
+    .replace(/\s+/g, ' ')     // Collapse multiple spaces
+    .trim();                   // Remove leading/trailing spaces
 }
 
 // Check if two model names represent an unambiguous match
