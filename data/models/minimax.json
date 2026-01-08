@@ -19,12 +19,12 @@
         {
           "name": "Input cost",
           "score": 0.3,
-          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+          "source": "https://platform.minimax.io/docs/pricing/pay-as-you-go"
         },
         {
           "name": "Output cost",
           "score": 1.2,
-          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+          "source": "https://platform.minimax.io/docs/pricing/pay-as-you-go"
         },
         {
           "name": "Size",
@@ -187,12 +187,12 @@
         {
           "name": "Input cost",
           "score": 0.3,
-          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+          "source": "https://platform.minimax.io/docs/pricing/pay-as-you-go"
         },
         {
           "name": "Output cost",
           "score": 1.2,
-          "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
+          "source": "https://platform.minimax.io/docs/pricing/pay-as-you-go"
         },
         {
           "name": "Size",

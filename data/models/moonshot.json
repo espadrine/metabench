@@ -18,7 +18,7 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.15,
+          "score": 0.6,
           "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
         },
         {
@@ -485,7 +485,7 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.15,
+          "score": 0.6,
           "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
         },
         {
@@ -807,7 +807,7 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.15,
+          "score": 0.6,
           "source": "https://platform.moonshot.ai/docs/pricing/chat#product-pricing"
         },
         {
