@@ -143,12 +143,12 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1416,
+          "score": 1420,
           "source": "https://lmarena.ai/"
         },
         {
           "name": "MMLU-Pro",
-          "score": 85.0,
+          "score": 85,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -218,7 +218,7 @@
         },
         {
           "name": "BrowseComp (zh)",
-          "score": 65.0,
+          "score": 65,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -233,7 +233,7 @@
         },
         {
           "name": "SWT-bench",
-          "score": 62.0,
+          "score": 62,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
@@ -248,92 +248,92 @@
         },
         {
           "name": "OctoCodingbench",
-          "score": 26.0,
+          "score": 26,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Web",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Simulation",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Android",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-iOS",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Backend",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "Toolathlon",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "BrowseComp",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "AIME 2025",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "MMLU-Pro",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "GPQA Diamond",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "Humanity's Last Exam (text)",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "LiveCodeBench",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "SciCode",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "IFBench",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "LCR",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "τ²-Bench Telecom",
-          "score": 92.0,
+          "score": 92,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
@@ -934,7 +934,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1392,
+          "score": 1393,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1166,7 +1166,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1418,
+          "score": 1419,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -1543,7 +1543,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1357,
+          "score": 1358,
           "source": "https://lmarena.ai/"
         },
         {

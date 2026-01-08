@@ -229,7 +229,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 80.0,
+          "score": 80,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
@@ -254,17 +254,17 @@
         },
         {
           "name": "AIME 2025",
-          "score": 98.0,
+          "score": 98,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "MMLU-Pro",
-          "score": 87.0,
+          "score": 87,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "GPQA Diamond",
-          "score": 90.0,
+          "score": 90,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
@@ -274,37 +274,37 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 89.0,
+          "score": 89,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "SciCode",
-          "score": 52.0,
+          "score": 52,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "IFBench",
-          "score": 75.0,
+          "score": 75,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "LCR",
-          "score": 73.0,
+          "score": 73,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "τ²-Bench Telecom",
-          "score": 85.0,
+          "score": 85,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "SWE-bench Multilingual",
-          "score": 72.0,
+          "score": 72,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 54.0,
+          "score": 54,
           "source": "https://www.minimax.io/news/minimax-m21"
         }
       ]
@@ -838,7 +838,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1457,
+          "score": 1458,
           "source": "https://lmarena.ai/"
         },
         {
@@ -923,7 +923,7 @@
         },
         {
           "name": "MMLU-Pro",
-          "score": 87.0,
+          "score": 87,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -938,7 +938,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 94.0,
+          "score": 94,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -948,7 +948,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 87.0,
+          "score": 87,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -958,7 +958,7 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 43.0,
+          "score": 43,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -2045,12 +2045,12 @@
         },
         {
           "name": "IMO-AnswerBench",
-          "score": 76.0,
+          "score": 76,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
           "name": "LiveCodeBench",
-          "score": 87.0,
+          "score": 87,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -2075,7 +2075,7 @@
         },
         {
           "name": "BrowseComp (zh)",
-          "score": 63.0,
+          "score": 63,
           "source": "https://z.ai/blog/glm-4.7"
         },
         {
@@ -6444,6 +6444,11 @@
           "name": "GSM8K",
           "score": 92,
           "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1300,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
