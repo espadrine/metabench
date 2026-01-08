@@ -398,20 +398,35 @@ function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
 
 // Load the LMArena data from the downloaded JSON file
 // If the file exists, load it from there.
-// If not, download it from the LMArena API.
+// If not, try to download it from the LMArena API, but handle failures gracefully.
 function loadLMArenaData(pathToJSONFile) {
   const filePath = path.resolve(pathToJSONFile);
 
-  // Download if file doesn't exist
-  if (!fs.existsSync(filePath)) {
-    console.warn(`Downloading LMArena data from API...`);
-    downloadLMArenaData(filePath);
+  // Check if file exists first
+  if (fs.existsSync(filePath)) {
+    console.warn(`Loading LMArena data from ${filePath}`);
+    const content = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(content);
   }
 
-  // Always load from file (either existing or newly downloaded)
-  console.warn(`Loading LMArena data from ${filePath}`);
-  const content = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(content);
+  // File doesn't exist, try to download it
+  console.warn(`LMArena data file not found at ${filePath}`);
+  console.warn(`Attempting to download LMArena data from API...`);
+
+  try {
+    downloadLMArenaData(filePath);
+    console.warn(`Successfully downloaded LMArena data to ${filePath}`);
+    const content = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(content);
+  } catch (error) {
+    console.error(`❌ Failed to download LMArena data: ${error.message}`);
+    console.error(`📋 To use this script, you need to provide LMArena data in JSON format.`);
+    console.error(`📁 Expected file location: ${filePath}`);
+    console.error(`📝 Expected format: {"text": {"model-name": {"rating": number, ...}}}`);
+    console.error(`🌐 You can try to download it manually from https://lmarena.ai/leaderboard/text`);
+    console.error(`   or create a sample file with the expected format.`);
+    process.exit(1);
+  }
 }
 
 // Fetch the data directly from LMArena API
