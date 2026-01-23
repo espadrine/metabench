@@ -1481,7 +1481,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1387,
+          "score": 1386,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -1756,7 +1756,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 85.0,
+          "score": 85,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {
@@ -1766,7 +1766,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 66.0,
+          "score": 66,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {
@@ -1776,12 +1776,12 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 22.0,
+          "score": 22,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {
           "name": "τ²-Bench",
-          "score": 49.0,
+          "score": 49,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {

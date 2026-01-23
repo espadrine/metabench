@@ -48,7 +48,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 64.0,
+          "score": 64,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {
@@ -301,7 +301,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1439,
+          "score": 1441,
           "source": "https://lmarena.ai/"
         }
       ]

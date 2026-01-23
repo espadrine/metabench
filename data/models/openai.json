@@ -2010,7 +2010,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1436,
+          "score": 1435,
           "source": "https://lmarena.ai/"
         },
         {
@@ -2718,7 +2718,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1392,
+          "score": 1390,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -5296,7 +5296,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 61.0,
+          "score": 61,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {
@@ -5306,7 +5306,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 34.0,
+          "score": 34,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         },
         {
@@ -5637,7 +5637,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1387,
+          "score": 1388,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -6038,7 +6038,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1345,
+          "score": 1346,
           "source": "https://lmarena.ai/"
         },
         {

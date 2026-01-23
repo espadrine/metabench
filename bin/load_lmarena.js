@@ -440,6 +440,11 @@ function downloadLMArenaData(pathToStoreJSONFile) {
   try {
     const result = execSync(curlCommand, { encoding: 'utf8' });
 
+    // Save the raw HTML response for debugging
+    const htmlFilePath = path.resolve('./data/lmarena.html');
+    fs.writeFileSync(htmlFilePath, result, 'utf8');
+    console.warn(`Saved raw HTML response to ${htmlFilePath} for debugging`);
+
     // Parse the RSC response to extract JSON data
     const parsedData = parseRSCResponse(result);
 
@@ -457,7 +462,7 @@ function downloadLMArenaData(pathToStoreJSONFile) {
 
 // Parse React Server Component response to extract JSON data
 // The RSC response contains JSON data embedded in the response
-function parseRSCResponse(rscResponse) {
+function parseRSCResponse(rscResponse, isFallback = false) {
   // Extract arena slug to use as benchmark name
   const arenaPattern = /"arena"\s*:\s*\{[\s\S]*?"slug"\s*:\s*"([^"]+)"[\s\S]*?\}/;
   const arenaMatch = rscResponse.match(arenaPattern);
@@ -497,6 +502,16 @@ function parseRSCResponse(rscResponse) {
       }
 
       return { [benchmarkName]: fullData };
+    }
+  }
+
+  // If extraction fails and we haven't tried fallback yet, check if there's a saved HTML response file
+  if (!isFallback) {
+    const htmlFilePath = path.resolve('./data/lmarena.html');
+    if (fs.existsSync(htmlFilePath)) {
+      console.warn('⚠️  Using saved HTML response from data/lmarena.html as fallback');
+      const savedResponse = fs.readFileSync(htmlFilePath, 'utf8');
+      return parseRSCResponse(savedResponse, true); // Mark as fallback to prevent infinite recursion
     }
   }
 
