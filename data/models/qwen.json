@@ -1753,6 +1753,41 @@
           "name": "PolyMATH",
           "score": 52.6,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 85.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "GPQA",
+          "score": 73.4,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.8,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 22.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 49.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 2.29,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         }
       ]
     },

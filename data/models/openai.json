@@ -5283,6 +5283,41 @@
           "name": "Terminal-Bench 2.0",
           "score": 3.4,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.7,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "GPQA",
+          "score": 71.5,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.9,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 34.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 47.7,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 28.3,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
         }
       ]
     },

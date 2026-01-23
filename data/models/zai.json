@@ -1,6 +1,124 @@
 {
   "models": [
     {
+      "name": "GLM-4.7 Flash",
+      "company": "Z.ai",
+      "url": "https://huggingface.co/zai-org/GLM-4.7-Flash",
+      "release_date": "2026-01-19",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.07,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 31.221488576,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91.6,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "GPQA",
+          "score": 75.2,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 64.0,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 14.4,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 59.2,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 79.5,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 42.8,
+          "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 30.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 25.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 58.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 33.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 60.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 98.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GLM-4.7",
       "company": "Z.ai",
       "url": "https://z.ai/blog/glm-4.7",
