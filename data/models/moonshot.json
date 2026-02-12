@@ -42,11 +42,6 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 67,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
-        },
-        {
           "name": "Humanity's Last Exam (text)",
           "score": 23.9,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
@@ -353,7 +348,7 @@
         },
         {
           "name": "SWE-Perf",
-          "score": 1.0,
+          "score": 1,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
@@ -368,87 +363,87 @@
         },
         {
           "name": "VIBE",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Web",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Simulation",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Android",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-iOS",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "VIBE-Backend",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "Toolathlon",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "BrowseComp",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "AIME 2025",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "MMLU-Pro",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "GPQA Diamond",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "Humanity's Last Exam (text)",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "LiveCodeBench",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "SciCode",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "IFBench",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "LCR",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
           "name": "τ²-Bench Telecom",
-          "score": 95.0,
+          "score": 95,
           "source": "https://www.minimax.io/news/minimax-m21"
         },
         {
@@ -465,6 +460,71 @@
           "name": "Terminal-Bench 2.0",
           "score": 35.2,
           "source": "https://www.minimax.io/news/minimax-m21"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 40.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 34.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 94.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 22.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 42.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 68.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 66.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 31.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -507,11 +567,6 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 16,
           "source": "https://artificialanalysis.ai/"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 50,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "SWE-bench Verified",
@@ -787,6 +842,71 @@
           "name": "Terminal-Bench 2.0",
           "score": 26.7,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 28.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 25.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 57.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 81.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 30.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 57.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 41.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 52.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 23.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 73.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -831,11 +951,6 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 48,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
-        },
-        {
           "name": "SWE-bench Verified",
           "score": 65.8,
           "source": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
@@ -872,7 +987,7 @@
         },
         {
           "name": "Terminal-Bench",
-          "score": 30.0,
+          "score": 30,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -902,7 +1017,7 @@
         },
         {
           "name": "Aider",
-          "score": 60.0,
+          "score": 60,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
         },
         {
@@ -934,6 +1049,81 @@
           "name": "τ-Bench Airline",
           "score": 53.5,
           "source": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 22.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 34.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 97.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 69.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 41.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 15.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 61.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     }

@@ -43,13 +43,18 @@
           "source": "https://x.ai/news/grok-4-1-fast"
         },
         {
+          "name": "LMArena Text",
+          "score": 1430,
+          "source": "https://lmarena.ai/"
+        },
+        {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 64.1,
+          "score": 38.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 49.7,
+          "score": 30.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -99,18 +104,13 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 22.7,
+          "score": 24.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
           "score": 93.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LMArena Text",
-          "score": 1430,
-          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -173,12 +173,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.3,
+          "score": 23.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 27.7,
+          "score": 19.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -228,7 +228,7 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 13.5,
+          "score": 14.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -274,11 +274,6 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 61,
           "source": "https://artificialanalysis.ai/"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 60,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "GPQA Diamond",
@@ -383,11 +378,6 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 120,
           "source": "https://artificialanalysis.ai/"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 65,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "Humanity's Last Exam",
@@ -503,6 +493,81 @@
           "name": "Terminal-Bench 2.0",
           "score": 27.2,
           "source": "https://www.tbench.ai/leaderboard/terminal-bench/2.0"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 40.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 92.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 23.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 81.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 45.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 94.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 92.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 53.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 37.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 74.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -545,11 +610,6 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 9.2,
           "source": "https://artificialanalysis.ai/"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 45,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "AIME 2025",
@@ -634,11 +694,6 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 45,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
-        },
-        {
           "name": "SimpleQA (with tools)",
           "score": 82,
           "source": "https://x.ai/news/grok-4-fast"
@@ -667,6 +722,81 @@
           "name": "LMArena Text",
           "score": 1334,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 19.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 79.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 69.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 42.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 36.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 46.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 54.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 11.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 48.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -704,11 +834,6 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 110,
           "source": "https://artificialanalysis.ai/"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 57,
-          "source": "https://artificialanalysis.ai/?intelligence=artificial-analysis-intelligence-index#artificial-analysis-intelligence-index"
         },
         {
           "name": "AIME 2025",
@@ -930,7 +1055,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.2,
+          "score": 11.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

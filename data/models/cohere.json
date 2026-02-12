@@ -92,12 +92,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 26.9,
+          "score": 13.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 19.2,
+          "score": 9.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -157,7 +157,7 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 0.7,
+          "score": 0.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -234,7 +234,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 5.5,
+          "score": 8.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -341,7 +341,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 1,
+          "score": 7.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

@@ -19,12 +19,12 @@
         {
           "name": "Input cost",
           "score": 0.27,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "Output cost",
           "score": 0.85,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "Size",
@@ -80,81 +80,6 @@
           "name": "MGSM",
           "score": 92.3,
           "source": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 35.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Coding Index",
-          "score": 26.4,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Math Index",
-          "score": 19.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 80.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 67.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 4.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 39.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 33.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 88.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 39,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 19.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "IFBench",
-          "score": 43,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LCR",
-          "score": 46,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Terminal-Bench-Hard",
-          "score": 6.4,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "τ²-Bench",
-          "score": 17.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "HumanEval",
@@ -225,6 +150,81 @@
           "name": "ChartQA",
           "score": 90.4,
           "source": "https://mistral.ai/news/mistral-medium-3"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 15.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 19.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 67.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 4.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 39.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 33.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 88.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 19.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 6.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 17.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -247,12 +247,12 @@
         {
           "name": "Input cost",
           "score": 0.14,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "Output cost",
           "score": 0.55,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "Size",
@@ -311,12 +311,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 28.1,
+          "score": 14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 16.1,
+          "score": 6.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -376,7 +376,7 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 1.4,
+          "score": 1.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -467,13 +467,53 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct"
         },
         {
+          "name": "MMLU-Pro",
+          "score": 66.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "GPQA",
+          "score": 53.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "HumanEval",
+          "score": 85.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "MATH",
+          "score": 74.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "MT-Bench Dev",
+          "score": 7.96,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "WildBench",
+          "score": 50.04,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 84,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
+          "name": "IFEval",
+          "score": 88.35,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
+        },
+        {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 27.9,
+          "score": 15.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 19.2,
+          "score": 10.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -533,53 +573,13 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 2.8,
+          "score": 3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
           "score": 26.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 66.6,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "GPQA",
-          "score": 53.1,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "HumanEval",
-          "score": 85.4,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "MATH",
-          "score": 74.3,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "MT-Bench Dev",
-          "score": 7.96,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "WildBench",
-          "score": 50.04,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "Arena-Hard",
-          "score": 84,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
-        },
-        {
-          "name": "IFEval",
-          "score": 88.35,
-          "source": "https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501"
         }
       ]
     },
@@ -602,12 +602,12 @@
         {
           "name": "Input cost",
           "score": 0.72,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai"
         },
         {
           "name": "Output cost",
           "score": 0.72,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai"
         },
         {
           "name": "Size",
@@ -620,8 +620,38 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.2-90B-Vision"
         },
         {
+          "name": "MathVista",
+          "score": 49.1,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MMMU",
+          "score": 53.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "ChartQA",
+          "score": 70.8,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "DocVQA",
+          "score": 85.7,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "VQAv2",
+          "score": 67,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
+          "name": "MM MT-Bench",
+          "score": 5.5,
+          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
+        },
+        {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.9,
+          "score": 11.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -658,36 +688,6 @@
           "name": "AIME 2024",
           "score": 5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MathVista",
-          "score": 49.1,
-          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
-        },
-        {
-          "name": "MMMU",
-          "score": 53.7,
-          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
-        },
-        {
-          "name": "ChartQA",
-          "score": 70.8,
-          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
-        },
-        {
-          "name": "DocVQA",
-          "score": 85.7,
-          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
-        },
-        {
-          "name": "VQAv2",
-          "score": 67,
-          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
-        },
-        {
-          "name": "MM MT-Bench",
-          "score": 5.5,
-          "source": "https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411"
         }
       ]
     },
@@ -710,12 +710,12 @@
         {
           "name": "Input cost",
           "score": 0.16,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai"
         },
         {
           "name": "Output cost",
           "score": 0.16,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai"
         },
         {
           "name": "Size",
@@ -729,12 +729,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 15.5,
+          "score": 10.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 7.7,
+          "score": 4.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -794,7 +794,7 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 0.7,
+          "score": 0.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -822,12 +822,12 @@
         {
           "name": "Input cost",
           "score": 0.06,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai"
         },
         {
           "name": "Output cost",
           "score": 0.06,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+          "source": "https://artificialanalysis.ai"
         },
         {
           "name": "Size",
@@ -838,71 +838,6 @@
           "name": "Active parameters",
           "score": 3.212749824,
           "source": "https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 11.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Math Index",
-          "score": 3.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 34.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 25.5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 5.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 8.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 5.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 48.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 6.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 3.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "IFBench",
-          "score": 26.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LCR",
-          "score": 2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "τ²-Bench",
-          "score": 21.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "MT-Bench",
@@ -973,6 +908,71 @@
           "name": "MMLU (es)",
           "score": 43.1,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 9.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 3.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 34.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 25.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 8.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 5.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 48.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 6.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 3.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 26.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 21.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1013,17 +1013,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.9,
+          "score": 9.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 1.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Math Index",
-          "score": 0,
+          "score": 0.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1057,16 +1052,6 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "AIME 2024",
-          "score": 0,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 0,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
           "name": "IFBench",
           "score": 22.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
@@ -1074,11 +1059,6 @@
         {
           "name": "LCR",
           "score": 5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Terminal-Bench-Hard",
-          "score": 0,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1249,81 +1229,6 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-405B"
         },
         {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 28.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Coding Index",
-          "score": 22.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Math Index",
-          "score": 3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 73.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 51.5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 4.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 30.5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 29.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 70.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 21.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "IFBench",
-          "score": 39,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LCR",
-          "score": 24.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Terminal-Bench-Hard",
-          "score": 6.4,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "τ²-Bench",
-          "score": 19,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
           "name": "MMLU",
           "score": 88.6,
           "source": "https://api-docs.deepseek.com/news/news1226"
@@ -1432,6 +1337,81 @@
           "name": "SimpleQA Chinese",
           "score": 50.4,
           "source": "https://api-docs.deepseek.com/news/news1226"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 17.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 14.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 73.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 51.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 4.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 30.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 29.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 70.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 21.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 24.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 6.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1597,12 +1577,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 22.6,
+          "score": 13.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 17.6,
+          "score": 10.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1662,7 +1642,7 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 2.8,
+          "score": 3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1833,81 +1813,6 @@
           "source": "https://huggingface.co/meta-llama/Llama-3.1-8B"
         },
         {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 16.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Coding Index",
-          "score": 8.5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "ArtificialAnalysis Math Index",
-          "score": 4.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 47.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 25.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 5.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 11.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 13.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 51.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 7.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2025",
-          "score": 4.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "IFBench",
-          "score": 28.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LCR",
-          "score": 15.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Terminal-Bench-Hard",
-          "score": 0.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "τ²-Bench",
-          "score": 16.4,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
           "name": "MT-Bench",
           "score": 7.5,
           "source": "https://huggingface.co/mistralai/Ministral-8B-Instruct-2410"
@@ -2016,6 +1921,81 @@
           "name": "HellaSwag",
           "score": 82,
           "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 12.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 4.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 4.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 47.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 25.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 11.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 13.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 51.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 7.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 4.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 28.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 15.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 0.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 16.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2035,16 +2015,6 @@
       },
       "benchmarks": [
         {
-          "name": "Input cost",
-          "score": 0.65,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Output cost",
-          "score": 0.88,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
           "name": "Size",
           "score": 70.553706496,
           "source": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct"
@@ -2056,7 +2026,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 13,
+          "score": 8.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 6.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2090,8 +2065,13 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "AIME 2024",
-          "score": 0,
+          "name": "IFBench",
+          "score": 37.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 0.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2130,46 +2110,6 @@
           "name": "Active parameters",
           "score": 8.030261248,
           "source": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 40.5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 29.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 5.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 9.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 11.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 49.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 0,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "HellaSwag",
@@ -2220,6 +2160,51 @@
           "name": "WildBench",
           "score": 28.77,
           "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 8.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 40.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 29.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 9.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 11.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 49.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 24.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2281,41 +2266,6 @@
           "name": "GPQA Diamond",
           "score": 26.5,
           "source": "https://arxiv.org/abs/2311.12022"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 5.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 40.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 32.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 9.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 32.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 0,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "MMLU",
@@ -2486,6 +2436,36 @@
           "name": "LMArena Text",
           "score": 1172,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 8.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 40.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 32.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 9.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 32.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2512,46 +2492,6 @@
           "name": "Active parameters",
           "score": 13.01586944,
           "source": "https://huggingface.co/meta-llama/Llama-2-13b-chat-hf"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 5.5,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 40.6,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 32.1,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 4.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 9.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 11.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 32.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 1.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "MMLU",
@@ -2682,6 +2622,46 @@
           "name": "LMArena Text",
           "score": 1142,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 8.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 40.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 32.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 4.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 9.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 11.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 32.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 1.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2718,46 +2698,6 @@
           "name": "Active parameters",
           "score": 6.738417664,
           "source": "https://huggingface.co/meta-llama/Llama-2-7b-chat-hf"
-        },
-        {
-          "name": "ArtificialAnalysis Intelligence Index",
-          "score": 11.3,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MMLU-Pro",
-          "score": 16.4,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "GPQA Diamond",
-          "score": 22.7,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "Humanity's Last Exam",
-          "score": 5.8,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": 0.2,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "SciCode",
-          "score": 0,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "MATH",
-          "score": 5.9,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "AIME 2024",
-          "score": 0,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "MMLU",
@@ -2888,6 +2828,36 @@
           "name": "LMArena Text",
           "score": 1109,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 9.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 16.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 22.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 0.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 5.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3002,7 +2972,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 1,
+          "score": 7.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
