@@ -8,6 +8,10 @@ const path = require('path');
 const { normalizeModelName, isUnambiguousModelMatch, levenshteinDistance } = require('../lib/load-bench');
 
 function main() {
+  // Parse command line arguments
+  const args = process.argv.slice(2);
+  const verbose = args.includes('--verbose') || args.includes('-v');
+
   const aaBenchData = loadAABenchData("./data/aabench.json");
   const models = loadModelData();
 
@@ -22,7 +26,7 @@ function main() {
   logMatchSummary(modelMatches, unambiguousModels, ambiguousModels);
 
   // Update unambiguous matches
-  updateUnambiguousModels(unambiguousModels, models);
+  updateUnambiguousModels(unambiguousModels, models, verbose);
 
   // Store ambiguous/unmatched models
   storeMissingBenchmarks(ambiguousModels, "./data/missing_aabench_benchmarks.json");
@@ -174,7 +178,7 @@ function isUnambiguousMatch(match) {
 }
 
 // Update model files with new AA benchmarks for unambiguous matches
-function updateUnambiguousModels(unambiguousModels, models) {
+function updateUnambiguousModels(unambiguousModels, models, verbose = false) {
   if (unambiguousModels.length === 0) {
     console.error('No unambiguous model matches to update.');
     return;
@@ -217,7 +221,9 @@ function updateUnambiguousModels(unambiguousModels, models) {
           modelToUpdate.benchmarks[existingBenchmarkIndex] = benchmark;
           console.error(`🔄 Updated existing benchmark for ${modelName} (${match.aaModel.name}): ${existingBenchmark.score} → ${benchmark.score}`);
         } else {
-          console.error(`ℹ️  Benchmark already exists for ${modelName} (${match.aaModel.name}) with same score (${benchmark.score}), no update needed`);
+          if (verbose) {
+            console.error(`ℹ️  Benchmark already exists for ${modelName} (${match.aaModel.name}) with same score (${benchmark.score}), no update needed`);
+          }
           continue;
         }
       } else {
