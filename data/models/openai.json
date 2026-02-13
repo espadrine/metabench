@@ -1,6 +1,68 @@
 {
   "models": [
     {
+      "name": "GPT-5.3 Codex",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex/",
+      "release_date": "2026-02-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.75,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "Output cost",
+          "score": 14,
+          "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 56.8,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 77.3,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 64.7,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "GDPval",
+          "score": 70.9,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Cybersecurity Capture The Flag Challenges",
+          "score": 77.6,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "SWE-Lancer IC Diamond",
+          "score": 81.4,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.2 Codex",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5-2-codex/",
@@ -39,6 +101,31 @@
           "name": "Terminal-Bench 2.0",
           "score": 44,
           "source": "https://openai.com/index/introducing-gpt-5-2-codex/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 56.4,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 64,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 38.2,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Cybersecurity Capture The Flag Challenges",
+          "score": 67.4,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "SWE-Lancer IC Diamond",
+          "score": 76,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
         }
       ]
     },
@@ -556,6 +643,31 @@
           "name": "MMLU",
           "score": 89.6,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 55.6,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 62.2,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 37.9,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Cybersecurity Capture The Flag Challenges",
+          "score": 67.7,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "SWE-Lancer IC Diamond",
+          "score": 74.6,
+          "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
         }
       ]
     },
