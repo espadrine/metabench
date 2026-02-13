@@ -502,6 +502,7 @@ const modelNameFromAA = {
   "GLM-4.6 (Reasoning)": "GLM-4.6",
   "GLM-4.7 (Reasoning)": "GLM-4.7",
   "GLM-4.7-Flash (Reasoning)": "GLM-4.7 Flash",
+  "GLM-5 (Reasoning)": "GLM-5",
   "GPT-4o (May '24)": "GPT-4o",
   "GPT-5 (high)": "GPT-5 High",
   "GPT-5 (low)": "GPT-5 Low",

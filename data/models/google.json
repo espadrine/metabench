@@ -1251,6 +1251,86 @@
           "name": "MMLU",
           "score": 91.8,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.2,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.8,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 90.6,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 93,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "IMOAnswerBench",
+          "score": 83.3,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 91.9,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 65,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.2,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "CyberGym",
+          "score": 39.9,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 37.8,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 66.8,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 59.2,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 90.7,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 66.6,
+          "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "Tool-Decathlon",
+          "score": 36.4,
+          "source": "https://z.ai/blog/glm-5"
         }
       ]
     },
