@@ -338,6 +338,7 @@ const aaModelsToIgnore = [
   "Doubao-Seed-1.8",
   "ERNIE 4.5 300B A47B",
   "ERNIE 5.0 Thinking Preview",
+  "Kimi K2.5 (Non-reasoning)",
   // Don't care, too edge-case, not relevant anymore:
   "Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning)",
   "Gemini 2.5 Flash-Lite Preview (Sep '25) (Reasoning)",
@@ -516,9 +517,12 @@ const modelNameFromAA = {
   "Llama 2 Chat 70B": "Llama 2 70B Chat",
   "Llama 2 Chat 13B": "Llama 2 13B Chat",
   "Llama 2 Chat 7B": "Llama 2 7B Chat",
+  "Qwen3 VL 235B A22B (Reasoning)": "Qwen3-VL 235B-A22B Thinking",
   "Qwen3 VL 8B (Reasoning)": "Qwen3-VL 8B Thinking",
+  "Qwen3 VL 4B (Reasoning)": "Qwen3-VL 4B Thinking",
   "Qwen3 Next 80B A3B (Reasoning)": "Qwen3-Next Thinking",
   "Qwen3 14B (Reasoning)": "Qwen3-14B Thinking",
+  "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",
   "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",
 };

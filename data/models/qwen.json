@@ -1,13 +1,208 @@
 {
   "models": [
     {
+      "name": "Qwen3-VL 235B-A22B Thinking",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=qwen3-vl",
+      "release_date": "2025-09-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.4,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.6,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 235.670022896,
+          "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 22,
+          "source": "https://huggingface.co/Qwen/Qwen3-235B-A22B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 69.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 66.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MathVision",
+          "score": 74.6,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MathVista",
+          "score": 85.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "ZeroBench",
+          "score": 4,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 3,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OCRBench",
+          "score": 87.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 82,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "InfoVQA",
+          "score": 89.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 56.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "WorldVQA",
+          "score": 23.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 80,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MMVU",
+          "score": 71.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "VideoMME",
+          "score": 79,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "LongVideoBench",
+          "score": 65.6,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "LVBench",
+          "score": 63.6,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 38.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 27.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 20.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 88.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 77.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 64.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 39.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 56.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 58.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 11.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 54.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Qwen3-VL 8B Thinking",
       "company": "Alibaba",
       "url": "https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef",
       "release_date": "2025-09-23",
       "capabilities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text",
@@ -398,7 +593,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 17.1,
+          "score": 16.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -470,7 +665,8 @@
       "release_date": "2025-09-23",
       "capabilities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text",
@@ -858,6 +1054,71 @@
           "name": "LiveCodeBench",
           "score": 51.3,
           "source": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 14.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 6.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 25.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 70,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 49.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 4.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 17.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 25.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 36.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 21.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 1.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 15.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1019,7 +1280,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 26.6,
+          "score": 26.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1471,7 +1732,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25,
+          "score": 24.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1653,7 +1914,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 20.3,
+          "score": 20,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2157,7 +2418,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 16.8,
+          "score": 16.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

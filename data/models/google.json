@@ -153,7 +153,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 46.2,
+          "score": 46.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -986,6 +986,206 @@
           "name": "τ²-Bench",
           "score": 87.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 95,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 97.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 83.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 91.9,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 81.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MathVision",
+          "score": 86.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MathVista",
+          "score": 89.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "ZeroBench",
+          "score": 8,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 12,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OCRBench",
+          "score": 90.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 88.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "InfoVQA",
+          "score": 57.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 69.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "WorldVQA",
+          "score": 47.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 87.6,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MMVU",
+          "score": 77.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "MotionBench",
+          "score": 70.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "VideoMME",
+          "score": 88.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "LongVideoBench",
+          "score": 77.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "LVBench",
+          "score": 73.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 76.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "SWE-Bench Multilingual",
+          "score": 65,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "CyberGym",
+          "score": 39.9,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OJBench",
+          "score": 68.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Longbench v2",
+          "score": 68.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 65.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 37.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 59.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "WideSearch",
+          "score": 57,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 63.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "FinSearchComp-global",
+          "score": 49.9,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Seal-0",
+          "score": 45.5,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 20.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         }
       ]
     },
@@ -1027,7 +1227,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 40.9,
+          "score": 41.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1620,7 +1820,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.4,
+          "score": 34.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2166,7 +2366,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 27.4,
+          "score": 26.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2505,7 +2705,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.6,
+          "score": 10.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2682,7 +2882,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 9.4,
+          "score": 8.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2864,7 +3064,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 6.6,
+          "score": 6.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
