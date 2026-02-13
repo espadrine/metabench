@@ -110,7 +110,7 @@
       "random_score": 0
     },
     {
-      "name": "CharXiv reasoning (with tools)",
+      "name": "CharXiv Reasoning (with tools)",
       "url": "https://arxiv.org/abs/2406.18521",
       "capabilities": {
         "input": ["text", "image"],

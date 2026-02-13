@@ -363,7 +363,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 31.1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -393,12 +393,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 72.7,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 81.4,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -513,7 +513,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 31.1,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
@@ -1108,12 +1108,12 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 76.2,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Multilingual",
+          "name": "SWE-bench Multilingual",
           "score": 65,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1186,6 +1186,71 @@
           "name": "OSWorld-Verified",
           "score": 20.7,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 54.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 85.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 54.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 59.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 44.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 45.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro",
+          "score": 81,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMLU",
+          "score": 91.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
         }
       ]
     },
@@ -1454,7 +1519,7 @@
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 4.9,
           "source": "https://x.ai/news/grok-4"
         },
@@ -1599,7 +1664,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 4.9,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -1624,12 +1689,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 11.4,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 69.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -2185,7 +2250,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 23.5,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },

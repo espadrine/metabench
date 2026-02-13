@@ -13,5 +13,9 @@ test:
 serve:
 	cd web && python3 -m http.server 8901
 
+# List all benchmark names from AA Bench data
+list-benchmarks:
+	node bin/list-benchmarks.js
+
 # Default target
-.PHONY: test serve aabench lmarena
+.PHONY: test serve aabench lmarena list-benchmarks

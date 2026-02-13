@@ -1,6 +1,238 @@
 {
   "models": [
     {
+      "name": "Claude Opus 4.6 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "release_date": "2026-02-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 65,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 65.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "OSWorld",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 91.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 99.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 59.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 53.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 60.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GDPVal-AA Elo",
+          "score": 1606,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 68.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro",
+          "score": 73.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro (with tools)",
+          "score": 77.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMLU",
+          "score": 91.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 48.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 53.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 70.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 46.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 92.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.6",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "release_date": "2026-02-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 47.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 18.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 45.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 44.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 58.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 48.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Claude Opus 4.5 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-opus-4-5",
@@ -53,7 +285,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 37.6,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
@@ -383,17 +615,17 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80.9,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Multilingual",
+          "name": "SWE-bench Multilingual",
           "score": 77.5,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -476,6 +708,86 @@
           "name": "WebArena",
           "score": 63.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 59.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "OSWorld",
+          "score": 66.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 88.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 62.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 67.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 43.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 55.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GDPVal-AA Elo",
+          "score": 1416,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 37.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro",
+          "score": 70.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro (with tools)",
+          "score": 73.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMLU",
+          "score": 90.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
         }
       ]
     },
@@ -1075,7 +1387,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 30.4,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -1090,7 +1402,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 13.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -1120,12 +1432,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 36.2,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 68.5,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -1225,7 +1537,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 13.6,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
@@ -1613,6 +1925,86 @@
           "name": "τ²-Bench",
           "score": 78.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 51,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "OSWorld",
+          "score": 61.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 43.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 43.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 33.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 54.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GDPVal-AA Elo",
+          "score": 1277,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 13.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro",
+          "score": 63.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro (with tools)",
+          "score": 68.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMLU",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
         }
       ]
     },
@@ -2175,7 +2567,7 @@
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 8.6,
           "source": "https://x.ai/news/grok-4"
         },

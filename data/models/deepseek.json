@@ -447,12 +447,12 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 73.1,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Multilingual",
+          "name": "SWE-bench Multilingual",
           "score": 70.2,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1038,7 +1038,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 38.2,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },

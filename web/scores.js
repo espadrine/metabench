@@ -444,7 +444,7 @@ const categoryBenchmarks = {
     'Vibe-Eval': 1,
   },
   Reasoning: {
-    'ARC AGI 2': 10,
+    'ARC-AGI-2': 10,
     'BIG-Bench Hard': 10,
     'IFBench': 10,
     'IFEval': 10,
@@ -456,7 +456,7 @@ const categoryBenchmarks = {
     'SIQA': 1,
     'HellaSwag': 1,
     'ERQA': 1,
-    'CharXiv reasoning (with tools)': 1,
+    'CharXiv Reasoning (with tools)': 1,
     'Graphwalks bfs <128k': 1,
     'Graphwalks parents <128k': 1,
     'COLLIE': 1,
@@ -505,10 +505,10 @@ const categoryBenchmarks = {
     'ArtifactsBench': 1,
     'BIRD-SQL': 1,
     'HumanEval': 1,
-    // Only has one entry:
-    //'Natural2Code': 1,
-    'OJ-Bench': 1,
+    'OJBench': 1,
     'SciCode': 1,
+    // Too few data points.
+    //'Natural2Code': 1,
   },
   'Agentic Coding': {
     'Terminal-Bench': 10,

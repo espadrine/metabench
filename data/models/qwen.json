@@ -479,7 +479,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MM-MT-Bench",
+          "name": "MM MT-Bench",
           "score": 8,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -634,7 +634,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 46.6,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -704,7 +704,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "LiveBench 241125",
+          "name": "LiveBench",
           "score": 69.8,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -943,7 +943,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MM-MT-Bench",
+          "name": "MM MT-Bench",
           "score": 7.7,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -1098,7 +1098,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 49.2,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -1168,7 +1168,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "LiveBench 241125",
+          "name": "LiveBench",
           "score": 68.4,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -1401,7 +1401,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 29.7,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -1664,7 +1664,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 32.5,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -2268,7 +2268,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 25.1,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -2476,7 +2476,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 24.1,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -2757,7 +2757,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "LiveBench 241125",
+          "name": "LiveBench",
           "score": 67.1,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },

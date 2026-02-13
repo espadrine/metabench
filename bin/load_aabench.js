@@ -464,6 +464,8 @@ const modelNameFromAA = {
   "Claude 4.5 Sonnet (Reasoning)": "Claude Sonnet 4.5 Thinking",
   "Claude Opus 4.5 (Non-reasoning)": "Claude Opus 4.5",
   "Claude Opus 4.5 (Reasoning)": "Claude Opus 4.5 Thinking",
+  "Claude Opus 4.6 (Adaptive Reasoning)": "Claude Opus 4.6 Thinking",
+  "Claude Opus 4.6 (Non-reasoning)": "Claude Opus 4.6",
   "DeepSeek R1 (Jan '25)": "DeepSeek R1",
   "DeepSeek R1 0528 (May '25)": "DeepSeek R1 0528",
   "DeepSeek V3 (Dec '24)": "DeepSeek V3",

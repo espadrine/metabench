@@ -164,17 +164,17 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 76.8,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 50.7,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Multilingual",
+          "name": "SWE-bench Multilingual",
           "score": 73,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -467,7 +467,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 48.7,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -1134,7 +1134,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 25.5,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },

@@ -31,7 +31,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 56.4,
           "source": "https://openai.com/index/introducing-gpt-5-2-codex/"
         },
@@ -83,7 +83,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.6,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
@@ -423,17 +423,17 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.6,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "SWE-Bench Multilingual",
+          "name": "SWE-bench Multilingual",
           "score": 72,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -481,6 +481,81 @@
           "name": "OSWorld-Verified",
           "score": 8.6,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "Terminal-Bench",
+          "score": 64.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 82,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 60.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 77.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 50,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 56.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GDPVal-AA Elo",
+          "score": 1462,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 54.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro",
+          "score": 79.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMMU Pro (with tools)",
+          "score": 80.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "MMLU",
+          "score": 89.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-6"
         }
       ]
     },
@@ -520,7 +595,7 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 42,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
@@ -777,7 +852,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 17.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -802,12 +877,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 3.5,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 69.5,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf"
         },
@@ -892,7 +967,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 50.8,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
@@ -1479,7 +1554,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 81.1,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -1869,7 +1944,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "OJ-Bench",
+          "name": "OJBench",
           "score": 56.2,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -2622,7 +2697,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 75.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3103,7 +3178,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 62.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3606,7 +3681,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 72,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -3887,7 +3962,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 78.6,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -4092,7 +4167,7 @@
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "ARC AGI 2",
+          "name": "ARC-AGI-2",
           "score": 6.5,
           "source": "https://x.ai/news/grok-4"
         },
@@ -4415,7 +4490,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 56.7,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -4763,7 +4838,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 56.8,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
@@ -5006,7 +5081,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
         {
-          "name": "CharXiv reasoning (with tools)",
+          "name": "CharXiv Reasoning (with tools)",
           "score": 40.5,
           "source": "https://openai.com/index/introducing-gpt-5-for-developers/"
         },
