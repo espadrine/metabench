@@ -230,6 +230,31 @@
           "name": "τ²-Bench",
           "score": 85.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.8,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 66.2,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 34.6,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 32.6,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Spider",
+          "score": 83.66,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
         }
       ]
     },

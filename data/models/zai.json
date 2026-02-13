@@ -303,6 +303,86 @@
           "name": "τ²-Bench",
           "score": 95.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.2,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 63.7,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 40.6,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 44.9,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "EvalPlus",
+          "score": 86.66,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 88,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "CRUXEval",
+          "score": 92.13,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 44.93,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "OJBench",
+          "score": 14.98,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1800,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Spider",
+          "score": 82.5,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "BIRD-SQL",
+          "score": 66.62,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU",
+          "score": 87.87,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 91.14,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.89,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "GPQA",
+          "score": 73.54,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
         }
       ]
     },

@@ -1,6 +1,198 @@
 {
   "models": [
     {
+      "name": "Qwen3-Coder-Next",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=qwen3-coder-next",
+      "release_date": "2026-02-02",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://openrouter.ai/qwen/qwen3-coder-next"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.2,
+          "source": "https://openrouter.ai/qwen/qwen3-coder-next"
+        },
+        {
+          "name": "Size",
+          "score": 80,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3,
+          "source": "https://huggingface.co/Qwen/Qwen3-Coder-Next"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 26,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70.6,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 62.8,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 44.3,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 36.2,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Aider",
+          "score": 66.2,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "EvalPlus",
+          "score": 86.56,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 88.23,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "CRUXEval",
+          "score": 95.88,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 58.93,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "OJBench",
+          "score": 23.01,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2100,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Spider",
+          "score": 83.66,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "BIRD-SQL",
+          "score": 63.56,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU",
+          "score": 87.73,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 91.18,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.52,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "GPQA",
+          "score": 74.49,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 70.21,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 75.57,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 89.01,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.07,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 28.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 22.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 32.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 35.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 40,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 18.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 79.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Qwen3-VL 235B-A22B Thinking",
       "company": "Alibaba",
       "url": "https://qwen.ai/blog?id=qwen3-vl",

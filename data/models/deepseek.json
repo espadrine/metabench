@@ -530,6 +530,106 @@
           "name": "WebArena",
           "score": 26.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70.2,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 62.3,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 40.9,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 34.8,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "EvalPlus",
+          "score": 89,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MultiPL-E",
+          "score": 89,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "CRUXEval",
+          "score": 94.81,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 51.79,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "OJBench",
+          "score": 20.04,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1875,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "Spider",
+          "score": 85.98,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "BIRD-SQL",
+          "score": 64.15,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU",
+          "score": 87.87,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 91.14,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.89,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "GPQA",
+          "score": 73.54,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 54.27,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 68.07,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 82.92,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 69.64,
+          "source": "https://qwen.ai/blog?id=qwen3-coder-next"
         }
       ]
     },
