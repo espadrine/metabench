@@ -33,6 +33,11 @@
           "source": "https://ernie.baidu.com/blog/posts/ernie5.0/"
         },
         {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 40,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
           "name": "SimpleQA",
           "score": 74.01,
           "source": "https://arxiv.org/abs/2602.04705"

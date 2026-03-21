@@ -1,6 +1,249 @@
 {
   "models": [
     {
+      "name": "Claude Sonnet 4.6 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "release_date": "2026-02-17",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 200,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 72.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 91.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 97.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 61.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 74.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 49,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 63.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1633,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 58.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 75.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 50.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 46.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 56.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 70.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 75.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4.6",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "release_date": "2026-02-17",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 3,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 14,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 44.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 46.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 13.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 46.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 41.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 57.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 46.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 79.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1465,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "Claude Opus 4.6 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-opus-4-6",
@@ -161,6 +404,86 @@
           "name": "LMArena Text",
           "score": 1502,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 91.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 99.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 59.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 53,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 60.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1606,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 68.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 77.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         }
       ]
     },
@@ -192,7 +515,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 46.4,
+          "score": 46.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -878,6 +1201,86 @@
           "name": "Tool-Decathlon",
           "score": 43.5,
           "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 66.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 88.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 62.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 67.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 43.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 58.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1416,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 37.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 70.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 73.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 90.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         }
       ]
     },
@@ -920,7 +1323,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 43,
+          "score": 43.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1094,7 +1497,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 37,
+          "score": 37.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1953,7 +2356,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 42.9,
+          "score": 43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2095,6 +2498,86 @@
           "name": "MMLU",
           "score": 89.5,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 51,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 61.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 86.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 43.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 43.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 33.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 54.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1276,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 13.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 63.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 68.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         }
       ]
     },
@@ -2421,7 +2904,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 31.9,
+          "score": 42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2519,7 +3002,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 23.6,
+          "score": 36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2728,7 +3211,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 27.4,
+          "score": 39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2798,7 +3281,7 @@
         },
         {
           "name": "τ²-Bench",
-          "score": 70.5,
+          "score": 73.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2836,7 +3319,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 22.2,
+          "score": 33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3325,7 +3808,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.6,
+          "score": 38.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3549,7 +4032,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.6,
+          "score": 34.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4578,7 +5061,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 12.5,
+          "score": 18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4902,7 +5385,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 9.3,
+          "score": 12.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4923,6 +5406,41 @@
         {
           "name": "AIME 2024",
           "score": 1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 6.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 37.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 3.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 36.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 0.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 21.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

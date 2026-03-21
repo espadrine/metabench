@@ -256,7 +256,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 35.1,
+          "score": 35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1606,6 +1606,86 @@
           "name": "VocalSound",
           "score": 92.01,
           "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 56.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": null,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 85.3,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 54.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 59.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 55.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1201,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 31.1,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": null,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.8,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         }
       ]
     },
@@ -1647,7 +1727,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41.1,
+          "score": 41.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2240,7 +2320,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.5,
+          "score": 34.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2981,7 +3061,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 26.8,
+          "score": 27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3320,7 +3400,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.2,
+          "score": 10.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3826,7 +3906,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.6,
+          "score": 5.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3877,6 +3957,11 @@
         {
           "name": "IFBench",
           "score": 19.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 10.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3937,7 +4022,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.4,
+          "score": 7.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

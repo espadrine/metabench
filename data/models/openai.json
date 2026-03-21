@@ -31,6 +31,11 @@
           "source": "https://openai.com/index/introducing-gpt-5-2/"
         },
         {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 77,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
           "name": "SWE-bench Pro",
           "score": 56.8,
           "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
@@ -91,6 +96,11 @@
           "name": "Output cost",
           "score": 14,
           "source": "https://openai.com/index/introducing-gpt-5-2/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 200,
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "SWE-bench Pro",
@@ -331,7 +341,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 51.2,
+          "score": 51.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -723,6 +733,81 @@
           "name": "Tool-Decathlon",
           "score": 46.3,
           "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 64.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 82,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.7,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 60.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 77.9,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 50,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 59,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1462,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 54.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.2,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 79.5,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 80.4,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.6,
+          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         }
       ]
     },
@@ -1265,7 +1350,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 47.6,
+          "score": 47.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1570,7 +1655,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 44.5,
+          "score": 44.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2679,7 +2764,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41.8,
+          "score": 42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2796,7 +2881,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 39,
+          "score": 39.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2913,7 +2998,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 23.7,
+          "score": 23.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3210,7 +3295,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41,
+          "score": 41.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3307,7 +3392,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.8,
+          "score": 38.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3666,7 +3751,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 26.7,
+          "score": 26.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3763,7 +3848,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.7,
+          "score": 25.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3860,7 +3945,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 13.7,
+          "score": 13.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4552,7 +4637,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.3,
+          "score": 38.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5063,7 +5148,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.6,
+          "score": 26.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5321,7 +5406,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 22.4,
+          "score": 22.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5539,7 +5624,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 12.9,
+          "score": 13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5830,7 +5915,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 23.9,
+          "score": 24.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6328,7 +6413,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 30.7,
+          "score": 30.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
