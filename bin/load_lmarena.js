@@ -147,6 +147,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "gpt-4o-2024-05-13": "GPT-4o",
   "command-r": "Command-R",
   "command-r-plus": "Command-R+",
+  "ernie-5.0-0110": "ERNIE 5",
 };
 
 const MODEL_PREFIXES_TO_IGNORE = [
@@ -340,28 +341,28 @@ function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
 // If the file exists, load it from there.
 // If not, try to download it from the LMArena API, but handle failures gracefully.
 function loadLMArenaData(pathToJSONFile) {
-  const filePath = path.resolve(pathToJSONFile);
+  const jsonFilePath = path.resolve(pathToJSONFile);
 
   // Check if file exists first
-  if (fs.existsSync(filePath)) {
-    console.warn(`Loading LMArena data from ${filePath}`);
-    const content = fs.readFileSync(filePath, 'utf8');
+  if (fs.existsSync(jsonFilePath)) {
+    console.warn(`Loading LMArena data from ${jsonFilePath}`);
+    const content = fs.readFileSync(jsonFilePath, 'utf8');
     return JSON.parse(content);
   }
 
   // File doesn't exist, try to download it
-  console.warn(`LMArena data file not found at ${filePath}`);
+  console.warn(`LMArena data file not found at ${jsonFilePath}`);
   console.warn(`Attempting to download LMArena data from API...`);
 
   try {
-    downloadLMArenaData(filePath);
-    console.warn(`Successfully downloaded LMArena data to ${filePath}`);
-    const content = fs.readFileSync(filePath, 'utf8');
+    downloadLMArenaData(jsonFilePath);
+    console.warn(`Successfully downloaded LMArena data to ${jsonFilePath}`);
+    const content = fs.readFileSync(jsonFilePath, 'utf8');
     return JSON.parse(content);
   } catch (error) {
     console.error(`❌ Failed to download LMArena data: ${error.message}`);
     console.error(`📋 To use this script, you need to provide LMArena data in JSON format.`);
-    console.error(`📁 Expected file location: ${filePath}`);
+    console.error(`📁 Expected file location: ${jsonFilePath}`);
     console.error(`📝 Expected format: {"text": {"model-name": {"rating": number, ...}}}`);
     console.error(`🌐 You can try to download it manually from https://lmarena.ai/leaderboard/text`);
     console.error(`   or create a sample file with the expected format.`);
@@ -375,7 +376,7 @@ function downloadLMArenaData(pathToStoreJSONFile) {
   const { execSync } = require('child_process');
 
   // Use curl to fetch the RSC data
-  const curlCommand = `curl -s 'https://lmarena.ai/leaderboard/text' -H 'RSC: 1'`;
+  const curlCommand = `curl -sL 'https://arena.ai/leaderboard/text' -H 'RSC: 1'`;
 
   try {
     const result = execSync(curlCommand, { encoding: 'utf8' });

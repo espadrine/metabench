@@ -1,3 +1,6 @@
+data/models.json: data/models/*.json bin/*.js lib/*.js
+	node bin/leaderboard.js
+
 # Download and create data/aabench.json and data/missing_aabench_benchmarks.json
 aabench:
 	node bin/load_aabench.js

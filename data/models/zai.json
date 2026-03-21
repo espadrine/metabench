@@ -165,6 +165,11 @@
           "name": "τ²-Bench",
           "score": 98.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1455,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -288,6 +293,11 @@
           "name": "τ²-Bench",
           "score": 98.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1368,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -414,7 +424,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1441,
+          "score": 1443,
           "source": "https://lmarena.ai/"
         },
         {
@@ -822,7 +832,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1425,
+          "score": 1426,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1170,7 +1180,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1409,
+          "score": 1411,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1310,7 +1320,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1371,
+          "score": 1372,
           "source": "https://lmarena.ai/"
         },
         {

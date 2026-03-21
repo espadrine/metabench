@@ -343,7 +343,6 @@ const aaModelsToIgnore = [
   "Doubao Seed Code",
   "Doubao-Seed-1.8",
   "ERNIE 4.5 300B A47B",
-  "ERNIE 5.0 Thinking Preview",
   "Kimi K2.5 (Non-reasoning)",
   // Don't care, too edge-case, not relevant anymore:
   "Gemini 2.5 Flash Preview (Sep '25) (Non-reasoning)",
@@ -534,6 +533,7 @@ const modelNameFromAA = {
   "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",
   "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",
+  "ERNIE 5.0 Thinking Preview": "ERNIE 5",
 };
 
 // Store the missing benchmarks into outputFilePath as JSON.

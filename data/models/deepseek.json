@@ -143,7 +143,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1418,
+          "score": 1425,
           "source": "https://lmarena.ai/"
         },
         {
@@ -710,6 +710,231 @@
           "name": "Tool-Decathlon",
           "score": 35.2,
           "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 28.02,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 72.37,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 25.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.4,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 93.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 86.67,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 81.06,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 90.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 81.48,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 97.6,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BBEH",
+          "score": 67.04,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "IFEval",
+          "score": 91.87,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 42.43,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MultiIF",
+          "score": 71.17,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.3,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ACEBench (en)",
+          "score": 81.4,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ACEBench (zh)",
+          "score": 83.4,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 61.18,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 65,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 35.29,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 68.28,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVista",
+          "score": 86.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVerse",
+          "score": 83.96,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVision",
+          "score": 71.84,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartQA",
+          "score": 84.6,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AI2D",
+          "score": 96.96,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "DocVQA",
+          "score": 95.44,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 62.37,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AISHELL-1",
+          "score": 0.6,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AISHELL-2",
+          "score": 2.56,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "FLEURS (en)",
+          "score": 4.44,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "FLEURS (zh)",
+          "score": 2.69,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench AlpacaEval",
+          "score": 4.46,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench CommonEval",
+          "score": 3.97,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SD-QA",
+          "score": 63.12,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMSU",
+          "score": 62.17,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench OpenBookQA",
+          "score": 83.52,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench IFEval",
+          "score": 61.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench AdvBench",
+          "score": 100,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMAU",
+          "score": 65.2,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "TUT2017",
+          "score": 65.25,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CochlScene",
+          "score": 80.42,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ClothoAQA",
+          "score": 72.21,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VocalSound",
+          "score": 94.85,
+          "source": "https://arxiv.org/abs/2602.04705"
         }
       ]
     },
@@ -1277,7 +1502,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1417,
+          "score": 1418,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1771,7 +1996,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1418,
+          "score": 1421,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1988,7 +2213,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1397,
+          "score": 1398,
           "source": "https://lmarena.ai/"
         },
         {

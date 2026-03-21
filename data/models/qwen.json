@@ -383,6 +383,121 @@
           "name": "τ²-Bench",
           "score": 54.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 68.28,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVista",
+          "score": 86.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVerse",
+          "score": 83.96,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVision",
+          "score": 71.84,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VisualPuzzle",
+          "score": 57.01,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VisuLogic",
+          "score": 31.93,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VLMAreBlind",
+          "score": 75.13,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartQA",
+          "score": 84.6,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AI2D",
+          "score": 96.96,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "DocVQA",
+          "score": 95.44,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "OCRBench",
+          "score": 863,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartXiv-RQ",
+          "score": 63,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartXiv-DQ",
+          "score": 92.92,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 61.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 64.01,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMStar",
+          "score": 76.88,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BLINK",
+          "score": 66.6,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CV-Bench",
+          "score": 87.57,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CountBench",
+          "score": 92.67,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VideoMME",
+          "score": 80.97,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 80,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMVU",
+          "score": 71.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1396,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1919,7 +2034,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1386,
+          "score": 1387,
           "source": "https://lmarena.ai/"
         },
         {

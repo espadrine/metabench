@@ -1,0 +1,562 @@
+{
+  "models": [
+    {
+      "name": "ERNIE 5",
+      "company": "Baidu",
+      "url": "https://x.com/Baidu_Inc/status/2014252300018254054",
+      "release_date": "2026-01-22",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio",
+          "video"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 2400,
+          "source": "https://ernie.baidu.com/blog/posts/ernie5.0/"
+        },
+        {
+          "name": "Active parameters",
+          "score": 72,
+          "source": "https://ernie.baidu.com/blog/posts/ernie5.0/"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 74.01,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 86.03,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 25.81,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.36,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 89.06,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HMMT 2025",
+          "score": 79.58,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 76.21,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 94.48,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 82.54,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 96.5,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BBEH",
+          "score": 66.63,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "IFEval",
+          "score": 93.35,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 65.98,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MultiIF",
+          "score": 85.56,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 78.79,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ACEBench (en)",
+          "score": 87.7,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ACEBench (zh)",
+          "score": 89.6,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 66.47,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BrowseComp (zh)",
+          "score": 64.71,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 40.08,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 68.63,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVista",
+          "score": 84.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVerse",
+          "score": 85.13,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MathVision",
+          "score": 74.34,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VisualPuzzle",
+          "score": 54.24,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VisuLogic",
+          "score": 28.5,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VLMAreBlind",
+          "score": 91.38,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartQA",
+          "score": 87.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AI2D",
+          "score": 96.89,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "DocVQA",
+          "score": 95.45,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "OCRBench",
+          "score": 878,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartXiv-RQ",
+          "score": 67.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ChartXiv-DQ",
+          "score": 89.05,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 67.64,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 63.87,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMStar",
+          "score": 75.54,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BLINK",
+          "score": 70.02,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CV-Bench",
+          "score": 87.19,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CountBench",
+          "score": 96.54,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VideoMME",
+          "score": 81.35,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 81.11,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMVU",
+          "score": 72.24,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "GenEval",
+          "score": 90.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VBench",
+          "score": 84.2,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AISHELL-1",
+          "score": 0.31,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AISHELL-2",
+          "score": 2.64,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "FLEURS (en)",
+          "score": 3.14,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "FLEURS (zh)",
+          "score": 0.83,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench AlpacaEval",
+          "score": 4.62,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench CommonEval",
+          "score": 3.74,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SD-QA",
+          "score": 77.58,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMSU",
+          "score": 84.68,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench OpenBookQA",
+          "score": 92.97,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench IFEval",
+          "score": 72.67,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VoiceBench AdvBench",
+          "score": 99.23,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMAU",
+          "score": 80.4,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "TUT2017",
+          "score": 68.09,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CochlScene",
+          "score": 82.77,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ClothoAQA",
+          "score": 73.68,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "VocalSound",
+          "score": 90.73,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 29.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 29.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 77.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 12.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 81.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 41.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 6.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 83.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1452,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "ERNIE 5 base",
+      "company": "Baidu",
+      "url": "https://x.com/Baidu_Inc/status/2014252300018254054",
+      "release_date": "2026-01-22",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio",
+          "video"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 2400,
+          "source": "https://ernie.baidu.com/blog/posts/ernie5.0/"
+        },
+        {
+          "name": "Active parameters",
+          "score": 72,
+          "source": "https://ernie.baidu.com/blog/posts/ernie5.0/"
+        },
+        {
+          "name": "PreciseWikiQA",
+          "score": 74.48,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "PopQA",
+          "score": 65.24,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HotPotQA",
+          "score": 67.08,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 90.09,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 75.58,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMCU",
+          "score": 93.92,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "AGIEval",
+          "score": 80.22,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMLU",
+          "score": 90.58,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 92.19,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "C-Eval",
+          "score": 91.98,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CMMLU",
+          "score": 89.69,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "BBH",
+          "score": 75.69,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 92.66,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MATH (CoT)",
+          "score": 73.89,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 57.3,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.8,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "LiveCodeBench v61-shot",
+          "score": 31.94,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "HumanEval+0-shot",
+          "score": 80.86,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MBPP+0-shot",
+          "score": 79.1,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CRUXEval-I1-shot",
+          "score": 79.75,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "CRUXEval-O1-shot",
+          "score": 84.01,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "MMMNLU",
+          "score": 78.94,
+          "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "INCLUDE",
+          "score": 77.81,
+          "source": "https://arxiv.org/abs/2602.04705"
+        }
+      ]
+    }
+  ]
+}

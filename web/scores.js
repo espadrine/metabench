@@ -45,6 +45,7 @@ function getCompanyColor(company) {
     'MiniMax': 'hsl(343, 82%, 56%)',
     'Z.ai': 'hsl(274, 100%, 50%)',
     'Microsoft': 'hsl(199, 96%, 48%)',
+    'Baidu': 'hsl(237, 75%, 52%)',
   };
 
   return colorMap[company] || stringToColor(company);
