@@ -808,6 +808,86 @@
           "name": "MMMLU",
           "score": 89.6,
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 80,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SWE-bench Pro (with tools)",
+          "score": 55.6,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 65.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "MEWC",
+          "score": 41.3,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "GDPval-MM",
+          "score": 54.5,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 72,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "RISE",
+          "score": 50,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.7,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Finance Modeling",
+          "score": 20,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 98,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31.4,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SciCode",
+          "score": 52,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "IFBench",
+          "score": 75,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 73,
+          "source": "https://www.minimax.io/news/minimax-m25"
         }
       ]
     },

@@ -484,6 +484,131 @@
           "name": "MMMLU",
           "score": 91.1,
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 80.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SWE-bench Pro (with tools)",
+          "score": 55.4,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 50.3,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Pro (with tools)",
+          "score": 55.6,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BFCL multi-turn",
+          "score": 63.3,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "MEWC",
+          "score": 89.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "GDPval-MM",
+          "score": 73.5,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 55.1,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 77.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Web",
+          "score": 40.7,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Simulation",
+          "score": 81.2,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Android",
+          "score": 54.9,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-iOS",
+          "score": 45.7,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "WideSearch",
+          "score": 79.4,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "RISE",
+          "score": 62.5,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 63.3,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 99.3,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Finance Modeling",
+          "score": 33.2,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 95.6,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.7,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SciCode",
+          "score": 52,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "IFBench",
+          "score": 53,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 71,
+          "source": "https://www.minimax.io/news/minimax-m25"
         }
       ]
     },
@@ -1281,6 +1406,131 @@
           "name": "MMMLU",
           "score": 90.8,
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified (with tools)",
+          "score": 80.9,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SWE-bench Pro (with tools)",
+          "score": 56.9,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Multi-SWE-bench (with tools)",
+          "score": 50,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Pro (with tools)",
+          "score": 55.2,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 67.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BFCL multi-turn",
+          "score": 68,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "MEWC",
+          "score": 82.1,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "GDPval-MM",
+          "score": 61.1,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 53.4,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SWE-bench Multilingual (with tools)",
+          "score": 77.5,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Web",
+          "score": 37.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Simulation",
+          "score": 78.8,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-Android",
+          "score": 58.4,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "VIBE-iOS",
+          "score": 45.7,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "WideSearch",
+          "score": 76.2,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "RISE",
+          "score": 50.5,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 68,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.2,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Finance Modeling",
+          "score": 30.1,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 91,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 28.4,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "SciCode",
+          "score": 50,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "IFBench",
+          "score": 58,
+          "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 74,
+          "source": "https://www.minimax.io/news/minimax-m25"
         }
       ]
     },
