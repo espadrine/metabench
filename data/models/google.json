@@ -112,7 +112,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 57.4,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
@@ -703,7 +703,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 54.1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
@@ -1208,7 +1208,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 54.1,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -1323,7 +1323,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 66.6,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -2409,7 +2409,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 8.8,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
@@ -3150,7 +3150,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 3.4,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf"
         },

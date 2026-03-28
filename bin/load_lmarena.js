@@ -59,7 +59,6 @@ function matchBenchmarks(lmarenaData, models) {
     const model = modelMap[arenaModel.name];
 
     const benchmarkFullName = `LMArena ${benchmarkName.charAt(0).toUpperCase() + benchmarkName.slice(1)}`;
-    const matchingBenchmark = findBenchmark(benchmarkFullName, model);
 
     matches.push({
       lmarenaModel: arenaModel,
@@ -92,12 +91,14 @@ function mapModels(lmarenaData, models) {
 
   // 2. Assign known mappings.
   const modelMap = {};
+  const assignedDataModels = new Set();
   for (const arenaModel of lmarenaData) {
     const knownMappingName = KNOWN_MODEL_MAPPINGS[arenaModel.name];
     if (knownMappingName) {
       const model = models.models.find(m => m.name === knownMappingName);
       if (model) {
         modelMap[arenaModel.name] = model;
+        assignedDataModels.add(model.name);
       }
     }
   }
@@ -105,22 +106,22 @@ function mapModels(lmarenaData, models) {
   // 3. Assign unambiguous mappings.
   for (const arenaModel of lmarenaData) {
     for (const model of models.models) {
-      const notAlreadyMapped = !modelMap[arenaModel.name];
+      const notAlreadyMapped = !modelMap[arenaModel.name] && !assignedDataModels.has(model.name);
       if (isUnambiguousModelMatch(arenaModel, model, KNOWN_MODEL_MAPPINGS) && notAlreadyMapped) {
         modelMap[arenaModel.name] = model;
+        assignedDataModels.add(model.name);
       }
     }
   }
 
   // 4. Assign the mapping with the best levenshtein match, then iterate mappings.
   const sortedModelMappings = modelMappings.sort((a, b) => a.distance - b.distance);
-  const assignedModels = new Set();
   for (const mapping of sortedModelMappings) {
     const arenaModelName = mapping.arenaModelName;
     const modelName = mapping.modelName;
 
     // If these models are already mapped, skip.
-    if (modelMap[arenaModelName] || assignedModels.has(modelName)) {
+    if (modelMap[arenaModelName] || assignedDataModels.has(modelName)) {
       continue;
     }
 
@@ -145,6 +146,9 @@ const KNOWN_MODEL_MAPPINGS = {
   "claude-opus-4-1-20250805-thinking-16k": "Claude Opus 4.1 Thinking",
   "claude-sonnet-4-20250514-thinking-32k": "Claude Sonnet 4 Thinking",
   "gpt-4o-2024-05-13": "GPT-4o",
+  "gpt-5.1": "GPT-5.1 High",
+  "gpt-5.2-high": "GPT-5.2 xhigh",
+  "gpt-5.4-high": "GPT-5.4",
   "command-r": "Command-R",
   "command-r-plus": "Command-R+",
   "ernie-5.0-0110": "ERNIE 5",
@@ -243,19 +247,6 @@ function findModelFilePath(modelName, models) {
   }
 
   return null;
-}
-
-// Find a benchmark named `benchmarkName` in the `model`.
-// `matchingModel` is a model object from aggregated company model files
-// Return the benchmark object if found, or null if not found.
-function findBenchmark(benchmarkName, model) {
-  if (!model || !model.benchmarks) {
-    return null;
-  }
-
-  return model.benchmarks.find(benchmark =>
-    benchmark.name === benchmarkName
-  ) || null;
 }
 
 

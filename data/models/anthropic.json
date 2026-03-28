@@ -301,7 +301,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 59.5,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -733,7 +733,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 62.3,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
@@ -1193,7 +1193,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 62.3,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -1318,7 +1318,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 65.2,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -2270,7 +2270,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 43.8,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
@@ -2695,7 +2695,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 43.8,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -3118,7 +3118,7 @@
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 40.9,
           "source": "https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf"
         },
