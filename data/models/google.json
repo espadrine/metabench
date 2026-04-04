@@ -1,6 +1,189 @@
 {
   "models": [
     {
+      "name": "Gemini 3.1 Pro",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "release_date": "2026-02-19",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://blog.google/products/gemini/gemini-3-flash/"
+        },
+        {
+          "name": "Output cost",
+          "score": 12,
+          "source": "https://blog.google/products/gemini/gemini-3-flash/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 57,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 51.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 77.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 80.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 54.2,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 2887,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "SciCode",
+          "score": 59,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 33.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1317,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 90.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 99.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69.2,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 85.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 92.6,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 84.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 26.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 55.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 58.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 77.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 72.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 53.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 95.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1493,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "Gemini 3 Flash",
       "company": "Google",
       "url": "https://blog.google/products/gemini/gemini-3-flash/",
@@ -1811,6 +1994,96 @@
           "name": "AA-LCR",
           "score": 71,
           "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.5,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 31.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 56.9,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 76.2,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 43.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 2439,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "SciCode",
+          "score": 56,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 18.4,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1195,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 85.3,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 54.1,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 59.2,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.8,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 77,
+          "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
         }
       ]
     },

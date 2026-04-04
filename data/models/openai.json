@@ -448,6 +448,21 @@
           "name": "τ²-Bench",
           "score": 90.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 0,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-3-codex-model-card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 64.7,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-3-codex-model-card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0 (Codex)",
+          "score": 77.3,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-3-codex-model-card.pdf"
         }
       ]
     },
@@ -1382,6 +1397,96 @@
           "name": "LMArena Text",
           "score": 1442,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.5,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.5,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 52.9,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.4,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 80,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 55.6,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 2393,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "SciCode",
+          "score": 52,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 23,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1462,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 82,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 98.7,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 60.6,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 65.8,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 79.5,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.6,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 83.8,
+          "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
         }
       ]
     },

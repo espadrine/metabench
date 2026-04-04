@@ -156,6 +156,96 @@
           "name": "τ²-Bench",
           "score": 75.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.2,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 49,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 58.3,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.9,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.1,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 79.6,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 47,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 0,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "SciCode",
+          "score": 47,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 0,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1633,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 91.7,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 97.9,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 61.3,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 74.7,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74.5,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 89.3,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 84.9,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
         }
       ]
     },
@@ -609,6 +699,96 @@
           "name": "AA-LCR",
           "score": 71,
           "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 53.1,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 68.8,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 80.8,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 0,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 0,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "SciCode",
+          "score": 52,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 29.8,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1606,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 91.9,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 99.3,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 59.5,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.9,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.1,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 84,
+          "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
         }
       ]
     },

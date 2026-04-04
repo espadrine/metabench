@@ -499,6 +499,7 @@ const modelNameFromAA = {
   "Gemini 3 Pro Preview (low)": "Gemini 3 Pro Low",
   "Gemini 3 Flash Preview (Reasoning)": "Gemini 3 Flash",
   "Gemini 3 Flash Preview (Non-reasoning)": "Gemini 3 Flash Low",
+  "Gemini 3.1 Pro Preview": "Gemini 3.1 Pro",
   "GLM-4.5 (Reasoning)": "GLM-4.5",
   "GLM-4.6 (Reasoning)": "GLM-4.6",
   "GLM-4.7 (Reasoning)": "GLM-4.7",
