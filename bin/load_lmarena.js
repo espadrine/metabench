@@ -150,6 +150,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "gpt-5.2-high": "GPT-5.2 xhigh",
   "gpt-5.4-high": "GPT-5.4",
   "gemini-3.1-pro-preview": "Gemini 3.1 Pro",
+  "gemini-3.1-flash-lite-preview": "Gemini 3.1 Flash-Lite",
   "command-r": "Command-R",
   "command-r-plus": "Command-R+",
   "ernie-5.0-0110": "ERNIE 5",

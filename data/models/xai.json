@@ -111,6 +111,61 @@
           "name": "τ²-Bench",
           "score": 93.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 63,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 31.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 74.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 19.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 42.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 76.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 54.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 6.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
         }
       ]
     },

@@ -1989,6 +1989,56 @@
           "name": "τ²-Bench",
           "score": 54.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 58,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 61.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 0,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 5.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 18.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 83,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 53.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 35.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
         }
       ]
     },

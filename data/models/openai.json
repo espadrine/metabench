@@ -4036,6 +4036,56 @@
           "name": "τ²-Bench",
           "score": 68.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 16.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 75.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 82.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 9.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 33.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 84.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 52.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/GPT-5-mini-Model-Card.pdf"
         }
       ]
     },

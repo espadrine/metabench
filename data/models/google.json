@@ -1,6 +1,149 @@
 {
   "models": [
     {
+      "name": "Gemini 3.1 Flash-Lite",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "release_date": "2026-03-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.25,
+          "source": "https://blog.google/products/gemini/gemini-3-flash/"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.5,
+          "source": "https://blog.google/products/gemini/gemini-3-flash/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 53,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 16,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 76.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 73.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 84.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 43.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 40.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 60.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 12.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-1-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 33.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 30.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 16.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 41.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 77.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 65.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 24.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 31.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1438,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "Gemini 3.1 Pro",
       "company": "Google",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
@@ -3531,6 +3674,61 @@
           "name": "τ²-Bench",
           "score": 31.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 66.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 63.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 79.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 28.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "FACTS Grounding",
+          "score": 50.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 62.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 54.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 21,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
         }
       ]
     },
