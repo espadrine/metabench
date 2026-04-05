@@ -1649,6 +1649,21 @@
           "name": "τ²-Bench",
           "score": 41.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 75,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },

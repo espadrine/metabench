@@ -6588,6 +6588,21 @@
           "name": "τ²-Bench",
           "score": 65.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 51,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 89,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },
@@ -6706,6 +6721,21 @@
           "name": "τ²-Bench",
           "score": 45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 40,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 45,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },

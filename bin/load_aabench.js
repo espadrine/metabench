@@ -473,6 +473,8 @@ const modelNameFromAA = {
   "DeepSeek V3.1 (Reasoning)": "DeepSeek V3.1",
   "DeepSeek V3.2 (Reasoning)": "DeepSeek V3.2",
   "DeepSeek V3.2 Exp (Reasoning)": "DeepSeek V3.2 Exp",
+  "Mistral Small 4 (Reasoning)": "Mistral Small 4 Reasoning",
+  "Mistral Small 4 (Non-reasoning)": "Mistral Small 4 Instruct",
   "Devstral 2": "Devstral 2 123B",
   "Devstral Medium": "Devstral Medium 1",
   "Devstral Small (Jul '25)": "Devstral Small 1.1",

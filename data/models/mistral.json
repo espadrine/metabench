@@ -1,6 +1,272 @@
 {
   "models": [
     {
+      "name": "Mistral Small 4 Reasoning",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "release_date": "2026-03-16",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://mistral.ai/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.6,
+          "source": "https://mistral.ai/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 119.401317952,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Active parameters",
+          "score": 6.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 78,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "IFBench",
+          "score": 48,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 58.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 60,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 71.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "COLLIE",
+          "score": 62.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 36,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 26.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 24.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 48.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 44.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 17.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Small 4 Instruct",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-small-4",
+      "release_date": "2026-03-16",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://mistral.ai/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.6,
+          "source": "https://mistral.ai/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 119.401317952,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Active parameters",
+          "score": 6.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 3.9,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 59.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 73.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "IFBench",
+          "score": 35.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 55.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 46.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 44,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 32,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 36,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 18.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 16.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 57.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 3.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 28.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 32.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 21.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 10.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 18.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Devstral 2 123B",
       "company": "Mistral AI",
       "url": "https://mistral.ai/news/devstral-2-vibe-cli",
@@ -38,8 +304,8 @@
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 5.4,
-          "source": "Guessed to be equal to Devstral Small 1.1 since no data available"
+          "score": 7.4,
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "SWE-bench Verified",
@@ -161,8 +427,8 @@
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 5.4,
-          "source": "Guessed to be equal to Devstral Small 1.1 since no data available"
+          "score": 8.6,
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "SWE-bench Verified",
@@ -381,6 +647,31 @@
           "name": "τ²-Bench",
           "score": 24.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 64.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "IFBench",
+          "score": 37.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 66.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 54,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },
@@ -1048,6 +1339,26 @@
           "name": "τ²-Bench",
           "score": 52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 73,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 84.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "COLLIE",
+          "score": 61.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },
@@ -1177,6 +1488,26 @@
           "name": "τ²-Bench",
           "score": 27.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 27,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 80.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "COLLIE",
+          "score": 60.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },
@@ -1280,6 +1611,31 @@
           "name": "τ²-Bench",
           "score": 40.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 76.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "IFBench",
+          "score": 40.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Arena-Hard",
+          "score": 67.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 43.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
         }
       ]
     },
