@@ -138,7 +138,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-4/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 57.7,
           "source": "https://openai.com/index/introducing-gpt-5-4/"
         },
@@ -244,7 +244,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1485,
+          "score": 1479,
           "source": "https://lmarena.ai/"
         },
         {
@@ -375,7 +375,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-4/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 56.8,
           "source": "https://openai.com/index/introducing-gpt-5-4/"
         },
@@ -909,7 +909,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 86,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -949,7 +949,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "Longbench v2",
+          "name": "LongBench v2",
           "score": 54.5,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1039,12 +1039,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro",
+          "name": "MMMU-Pro",
           "score": 79.5,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro (with tools)",
+          "name": "MMMU-Pro (with tools)",
           "score": 80.4,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -1089,7 +1089,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 86.3,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1129,7 +1129,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 46.3,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1304,7 +1304,7 @@
           "source": "https://openai.com/index/introducing-gpt-5-4/"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.6,
           "source": "https://openai.com/index/introducing-gpt-5-4/"
         },
@@ -1395,7 +1395,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1442,
+          "score": 1438,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1424,12 +1424,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80,
           "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.6,
           "source": "https://storage.googleapis.com/deepmind-media/openai/gpt-5-2-model-card.pdf"
         },
@@ -1504,7 +1504,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Mathvista(mini)",
+          "name": "MathVista(mini)",
           "score": 83.1,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1559,12 +1559,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "OmniDocBench1.5",
+          "name": "OmniDocBench 1.5",
           "score": 85.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "CharXiv(RQ)",
+          "name": "CharXiv[RQ]",
           "score": 82.1,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1609,12 +1609,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w sub.)",
+          "name": "Video-MME",
           "score": 86,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w/o sub.)",
+          "name": "Video-MME (w/o sub)",
           "score": 85.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1714,47 +1714,47 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE",
+          "name": "Humanity's Last Exam",
           "score": 35.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE-Verified",
+          "name": "Humanity's Last Exam-Verified",
           "score": 43.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "LiveCodeBench v6",
+          "name": "LiveCodeBench",
           "score": 87.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Feb 25",
+          "name": "HMMT Feb 2025",
           "score": 99.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Nov 25",
+          "name": "HMMT Nov 2025",
           "score": 100,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 86.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "AIME26",
+          "name": "AIME 2026",
           "score": 96.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BFCL-V4",
+          "name": "BFCL v4",
           "score": 63.1,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "TAU2-Bench",
+          "name": "τ²-Bench",
           "score": 87.1,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1779,7 +1779,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE w/ tool",
+          "name": "Humanity's Last Exam w/ tool",
           "score": 45.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1859,7 +1859,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Terminal Bench 2",
+          "name": "Terminal-Bench 2.0",
           "score": 54,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         }
@@ -3420,7 +3420,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 29,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -3760,7 +3760,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 87.36,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -8073,7 +8073,7 @@
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
-          "name": "Mathvista (thinking)",
+          "name": "MathVista (thinking)",
           "score": 64.6,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
@@ -8094,7 +8094,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1345,
+          "score": 1346,
           "source": "https://lmarena.ai/"
         },
         {

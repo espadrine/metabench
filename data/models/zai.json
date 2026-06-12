@@ -62,7 +62,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 82.5,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -117,7 +117,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 38,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -168,7 +168,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1455,
+          "score": 1457,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -593,7 +593,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 82,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -648,7 +648,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 23.8,
           "source": "https://z.ai/blog/glm-5"
         }
@@ -1320,7 +1320,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1372,
+          "score": 1373,
           "source": "https://lmarena.ai/"
         },
         {

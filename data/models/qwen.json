@@ -59,7 +59,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Mathvista",
+          "name": "MathVista",
           "score": 90.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -109,12 +109,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "OmniDocBench1.5",
+          "name": "OmniDocBench 1.5",
           "score": 90.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "CharXiv(RQ)",
+          "name": "CharXiv[RQ]",
           "score": 80.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -154,7 +154,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ODInW13",
+          "name": "ODinW13",
           "score": 47,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -194,12 +194,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w sub.)",
+          "name": "Video-MME",
           "score": 87.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w/o sub.)",
+          "name": "Video-MME (w/o sub)",
           "score": 83.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -229,7 +229,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 65.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -309,47 +309,47 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE",
+          "name": "Humanity's Last Exam",
           "score": 28.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE-Verified",
+          "name": "Humanity's Last Exam-Verified",
           "score": 37.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "LiveCodeBench v6",
+          "name": "LiveCodeBench",
           "score": 83.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Feb 25",
+          "name": "HMMT Feb 2025",
           "score": 94.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Nov 25",
+          "name": "HMMT Nov 2025",
           "score": 92.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 80.9,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "AIME26",
+          "name": "AIME 2026",
           "score": 91.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BFCL-V4",
+          "name": "BFCL v4",
           "score": 72.9,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "TAU2-Bench",
+          "name": "τ²-Bench",
           "score": 86.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -374,7 +374,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE w/ tool",
+          "name": "Humanity's Last Exam w/ tool",
           "score": 48.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -454,7 +454,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Terminal Bench 2",
+          "name": "Terminal-Bench 2.0",
           "score": 52.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -505,7 +505,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1452,
+          "score": 1444,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -810,7 +810,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 79,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -990,7 +990,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 80.97,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -1149,7 +1149,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "CC-OCR-Bench",
+          "name": "CC-OCR",
           "score": 76.3,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -1229,7 +1229,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "VideoMME (w/o sub)",
+          "name": "Video-MME (w/o sub)",
           "score": 71.8,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -1613,7 +1613,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "CC-OCR-Bench",
+          "name": "CC-OCR",
           "score": 73.8,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -1693,7 +1693,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "VideoMME (w/o sub)",
+          "name": "Video-MME (w/o sub)",
           "score": 68.9,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -2559,7 +2559,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1387,
+          "score": 1388,
           "source": "https://lmarena.ai/"
         },
         {

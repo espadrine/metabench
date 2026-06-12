@@ -213,7 +213,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1405,
+          "score": 1390,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -828,7 +828,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 16,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -854,7 +854,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1347,
+          "score": 1346,
           "source": "https://lmarena.ai/"
         },
         {

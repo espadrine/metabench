@@ -238,7 +238,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 81.35,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -409,7 +409,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1452,
+          "score": 1447,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -527,7 +527,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "LiveCodeBench v61-shot",
+          "name": "LiveCodeBench1-shot",
           "score": 31.94,
           "source": "https://arxiv.org/abs/2602.04705"
         },

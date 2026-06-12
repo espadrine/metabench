@@ -1,6 +1,644 @@
 {
   "models": [
     {
+      "name": "Gemma 4 E2B",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "release_date": "2026-04-02",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 5.1,
+          "source": "https://huggingface.co/google/gemma-4-E2B-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 5.1,
+          "source": "https://huggingface.co/google/gemma-4-E2B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 20,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 69.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 42.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 52,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 940,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 58.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 42.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 76.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 52.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.181,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 59.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 28.7,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "CoVoST",
+          "score": 35.54,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "FLEURS (en)",
+          "score": 0.08,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 25.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 15.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 43.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 4.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 20.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 38.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 3.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 20.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 4 E4B",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "release_date": "2026-04-02",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 8,
+          "source": "https://huggingface.co/google/gemma-4-E4B-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 8,
+          "source": "https://huggingface.co/google/gemma-4-E4B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 22,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 69.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 42.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 52,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 940,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 58.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 42.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 76.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 52.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.181,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 59.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 28.7,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "CoVoST",
+          "score": 35.54,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "FLEURS (en)",
+          "score": 0.08,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 25.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 18.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 13.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 57.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 3.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 24.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 44.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 30.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 8.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 20.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 4 26B-A4B",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "release_date": "2026-04-02",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.06,
+          "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.33,
+          "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+        },
+        {
+          "name": "Size",
+          "score": 26.544131376,
+          "source": "https://huggingface.co/google/gemma-4-26B-A4B-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 4,
+          "source": "https://huggingface.co/google/gemma-4-26B-A4B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 73,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 88.3,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.1,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1718,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.3,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 68.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.7,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 17.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "BigBench",
+          "score": 64.8,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.3,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.8,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.149,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 82.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 58.1,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 44.1,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1438,
+          "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 31.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 22.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 18.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 40,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 55.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 13.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 43.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Gemma 4 31B",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "release_date": "2026-04-02",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.12,
+          "source": "https://openrouter.ai/google/gemma-4-31b-it"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.35,
+          "source": "https://openrouter.ai/google/gemma-4-31b-it"
+        },
+        {
+          "name": "Size",
+          "score": 32.682372656,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32.682372656,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 39,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 89.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2150,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.3,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 76.9,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 19.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 26.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "BigBench",
+          "score": 74.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 76.9,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.131,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 85.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 61.3,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 66.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1451,
+          "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 39.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 38.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 22.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 43.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 36.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 59.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Gemini 3.1 Flash-Lite",
       "company": "Google",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
@@ -138,7 +776,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1438,
+          "score": 1433,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -205,12 +843,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80.6,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 54.2,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3-1_pro_model_evaluation.pdf"
         },
@@ -321,7 +959,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1493,
+          "score": 1487,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -474,7 +1112,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1475,
+          "score": 1473,
           "source": "https://lmarena.ai/"
         },
         {
@@ -929,7 +1567,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 36.4,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -1419,7 +2057,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 88.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1469,7 +2107,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "Longbench v2",
+          "name": "LongBench v2",
           "score": 68.2,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1569,7 +2207,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro",
+          "name": "MMMU-Pro",
           "score": 81,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -1599,7 +2237,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 83.3,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1654,7 +2292,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 36.4,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1839,7 +2477,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 88.4,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -1944,11 +2582,6 @@
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         },
         {
-          "name": "OSWorld-Verified",
-          "score": null,
-          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
-        },
-        {
           "name": "τ²-Bench Retail",
           "score": 85.3,
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
@@ -2001,11 +2634,6 @@
         {
           "name": "MMMU-Pro",
           "score": 81,
-          "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
-        },
-        {
-          "name": "MMMU-Pro (with tools)",
-          "score": null,
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         },
         {
@@ -2164,12 +2792,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 76.2,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 43.3,
           "source": "https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_model_evaluation.pdf"
         },
@@ -2244,7 +2872,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Mathvista(mini)",
+          "name": "MathVista(mini)",
           "score": 87.9,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2299,12 +2927,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "OmniDocBench1.5",
+          "name": "OmniDocBench 1.5",
           "score": 88.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "CharXiv(RQ)",
+          "name": "CharXiv[RQ]",
           "score": 81.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2344,7 +2972,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ODInW13",
+          "name": "ODinW13",
           "score": 46.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2369,27 +2997,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Hypersim",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "SUNRGBD",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "Nuscene",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "VideoMME(w sub.)",
+          "name": "Video-MME",
           "score": 88.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w/o sub.)",
+          "name": "Video-MME (w/o sub)",
           "score": 87.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2419,18 +3032,8 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 72.7,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "OSWorld-Verified",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "AndroidWorld",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
@@ -2499,47 +3102,47 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE",
+          "name": "Humanity's Last Exam",
           "score": 37.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE-Verified",
+          "name": "Humanity's Last Exam-Verified",
           "score": 48,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "LiveCodeBench v6",
+          "name": "LiveCodeBench",
           "score": 90.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Feb 25",
+          "name": "HMMT Feb 2025",
           "score": 97.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Nov 25",
+          "name": "HMMT Nov 2025",
           "score": 93.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 83.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "AIME26",
+          "name": "AIME 2026",
           "score": 90.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BFCL-V4",
+          "name": "BFCL v4",
           "score": 72.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "TAU2-Bench",
+          "name": "τ²-Bench",
           "score": 85.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2564,7 +3167,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE w/ tool",
+          "name": "Humanity's Last Exam w/ tool",
           "score": 45.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2644,7 +3247,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Terminal Bench 2",
+          "name": "Terminal-Bench 2.0",
           "score": 54.2,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         }
@@ -3166,7 +3769,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1448,
+          "score": 1446,
           "source": "https://lmarena.ai/"
         },
         {
@@ -3535,7 +4138,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "VideoMME",
+          "name": "Video-MME",
           "score": 86.9,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -4488,6 +5091,66 @@
           "name": "τ²-Bench",
           "score": 10.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 67.6,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 20.8,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 29.1,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 110,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 42.4,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 16.2,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "BigBench",
+          "score": 19.3,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 70.7,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 49.7,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.365,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 46,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 13.5,
+          "source": "https://huggingface.co/google/gemma-4-31B-it"
         }
       ]
     },
@@ -5332,7 +5995,7 @@
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
-          "name": "Mathvista (thinking)",
+          "name": "MathVista (thinking)",
           "score": 56.9,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
@@ -6265,7 +6928,7 @@
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "Natural Questions",
+          "name": "NaturalQuestions",
           "score": 23,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
@@ -6466,7 +7129,7 @@
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
         {
-          "name": "Natural Questions",
+          "name": "NaturalQuestions",
           "score": 12.5,
           "source": "https://huggingface.co/google/gemma-7b-it"
         },
@@ -6873,11 +7536,6 @@
         {
           "name": "HellaSwag",
           "score": 84.7,
-          "source": "https://mistral.ai/news/mistral-large"
-        },
-        {
-          "name": "TruthfulQA",
-          "score": null,
           "source": "https://mistral.ai/news/mistral-large"
         },
         {

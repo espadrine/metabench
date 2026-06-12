@@ -188,12 +188,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 79.6,
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 47,
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
         },
@@ -333,7 +333,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1465,
+          "score": 1471,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -441,12 +441,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro",
+          "name": "MMMU-Pro",
           "score": 73.9,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro (with tools)",
+          "name": "MMMU-Pro (with tools)",
           "score": 77.3,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -502,7 +502,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1502,
+          "score": 1504,
           "source": "https://lmarena.ai/"
         },
         {
@@ -736,12 +736,12 @@
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80.8,
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 0,
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/opus-4-6-model-card.pdf"
         },
@@ -880,7 +880,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1501,
+          "score": 1498,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -969,7 +969,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1474,
+          "score": 1473,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1318,7 +1318,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "Longbench v2",
+          "name": "LongBench v2",
           "score": 64.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1433,12 +1433,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro",
+          "name": "MMMU-Pro",
           "score": 70.6,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro (with tools)",
+          "name": "MMMU-Pro (with tools)",
           "score": 73.9,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -1468,7 +1468,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 78.5,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1523,7 +1523,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 43.5,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1748,7 +1748,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Mathvista(mini)",
+          "name": "MathVista(mini)",
           "score": 80,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1803,12 +1803,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "OmniDocBench1.5",
+          "name": "OmniDocBench 1.5",
           "score": 87.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "CharXiv(RQ)",
+          "name": "CharXiv[RQ]",
           "score": 68.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1848,7 +1848,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ODInW13",
+          "name": "ODinW13",
           "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1888,12 +1888,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w sub.)",
+          "name": "Video-MME",
           "score": 77.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VideoMME(w/o sub.)",
+          "name": "Video-MME (w/o sub)",
           "score": 81.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1923,7 +1923,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ScreenSpot Pro",
+          "name": "ScreenSpot-Pro",
           "score": 45.7,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2003,47 +2003,47 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE",
+          "name": "Humanity's Last Exam",
           "score": 30.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE-Verified",
+          "name": "Humanity's Last Exam-Verified",
           "score": 38.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "LiveCodeBench v6",
+          "name": "LiveCodeBench",
           "score": 84.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Feb 25",
+          "name": "HMMT Feb 2025",
           "score": 92.9,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HMMT Nov 25",
+          "name": "HMMT Nov 2025",
           "score": 93.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "IMOAnswerBench",
+          "name": "IMO-AnswerBench",
           "score": 84,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "AIME26",
+          "name": "AIME 2026",
           "score": 93.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BFCL-V4",
+          "name": "BFCL v4",
           "score": 77.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "TAU2-Bench",
+          "name": "τ²-Bench",
           "score": 91.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2068,7 +2068,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "HLE w/ tool",
+          "name": "Humanity's Last Exam w/ tool",
           "score": 43.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -2148,7 +2148,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Terminal Bench 2",
+          "name": "Terminal-Bench 2.0",
           "score": 59.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         }
@@ -2367,7 +2367,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1407,
+          "score": 1411,
           "source": "https://lmarena.ai/"
         },
         {
@@ -3055,7 +3055,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "Tool-Decathlon",
+          "name": "Tool Decathlon",
           "score": 38.6,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -3410,12 +3410,12 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro",
+          "name": "MMMU-Pro",
           "score": 63.4,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "MMMU Pro (with tools)",
+          "name": "MMMU-Pro (with tools)",
           "score": 68.9,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -3565,7 +3565,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1453,
+          "score": 1455,
           "source": "https://lmarena.ai/"
         },
         {
@@ -4239,7 +4239,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1413,
+          "score": 1412,
           "source": "https://lmarena.ai/"
         },
         {
@@ -5218,7 +5218,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1372,
+          "score": 1373,
           "source": "https://lmarena.ai/"
         },
         {
@@ -5813,7 +5813,7 @@
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
-          "name": "Mathvista (thinking)",
+          "name": "MathVista (thinking)",
           "score": 64.4,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
@@ -6284,7 +6284,7 @@
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
         {
-          "name": "Mathvista (thinking)",
+          "name": "MathVista (thinking)",
           "score": 44.8,
           "source": "https://huggingface.co/mistralai/Pixtral-12B-2409"
         },
@@ -6305,7 +6305,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1260,
+          "score": 1261,
           "source": "https://lmarena.ai/"
         },
         {
