@@ -149,17 +149,17 @@
         },
         {
           "name": "LCR",
-          "score": 70.7,
+          "score": 70.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 53,
+          "score": 53.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 75.7,
+          "score": 75.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -313,22 +313,22 @@
         },
         {
           "name": "IFBench",
-          "score": 41.2,
+          "score": 41.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 57.7,
+          "score": 57.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 46.2,
+          "score": 46.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 79.5,
+          "score": 79.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -457,7 +457,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 53,
+          "score": 52.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -482,22 +482,22 @@
         },
         {
           "name": "IFBench",
-          "score": 53.1,
+          "score": 53.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 70.7,
+          "score": 70.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 46.2,
+          "score": 46.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 92.1,
+          "score": 92.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -860,17 +860,17 @@
         },
         {
           "name": "IFBench",
-          "score": 44.6,
+          "score": 44.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 58.3,
+          "score": 58.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 48.5,
+          "score": 48.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1139,12 +1139,12 @@
         },
         {
           "name": "AIME 2025",
-          "score": 91.3,
+          "score": 91.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 58,
+          "score": 57.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1154,12 +1154,12 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 47,
+          "score": 46.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 89.5,
+          "score": 89.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1731,6 +1731,426 @@
           "name": "AA-LCR",
           "score": 74,
           "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "MMMU",
+          "score": 80.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 70.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MathVision",
+          "score": 74.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Mathvista(mini)",
+          "score": 80,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "We-Math",
+          "score": 70,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "DynaMath",
+          "score": 79.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "ZEROBench",
+          "score": 3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "ZEROBench_sub",
+          "score": 28.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "BabyVision",
+          "score": 14.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 77,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMStar",
+          "score": 73.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 64.1,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMBenchEN-DEV-v1.1",
+          "score": 89.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 65.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "OmniDocBench1.5",
+          "score": 87.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "CharXiv(RQ)",
+          "score": 68.5,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMLongBench-Doc",
+          "score": 61.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "CC-OCR",
+          "score": 76.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "AI2D_TEST",
+          "score": 87.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "OCRBench",
+          "score": 85.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "ERQA",
+          "score": 46.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "CountBench",
+          "score": 90.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "RefCOCO(avg)",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "ODInW13",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 75.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "RefSpatialBench",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "LingoQA",
+          "score": 78.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "V*",
+          "score": 67,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Hypersim",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SUNRGBD",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Nuscene",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "VideoMME(w sub.)",
+          "score": 77.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "VideoMME(w/o sub.)",
+          "score": 81.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "VideoMMMU",
+          "score": 84.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MLVU (M-Avg)",
+          "score": 81.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MVBench",
+          "score": 67.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "LVBench",
+          "score": 57.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMVU",
+          "score": 77.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "ScreenSpot Pro",
+          "score": 45.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 66.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "AndroidWorld",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SLAKE",
+          "score": 76.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "PMC-VQA",
+          "score": 59.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MedXpertQA-MM",
+          "score": 63.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.5,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 95.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SuperGPQA",
+          "score": 70.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "C-Eval",
+          "score": 92.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "IFEval",
+          "score": 90.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "IFBench",
+          "score": 58,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 54.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 74,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 64.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "GPQA",
+          "score": 87,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "HLE",
+          "score": 30.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "HLE-Verified",
+          "score": 38.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "LiveCodeBench v6",
+          "score": 84.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "HMMT Feb 25",
+          "score": 92.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "HMMT Nov 25",
+          "score": 93.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "IMOAnswerBench",
+          "score": 84,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "AIME26",
+          "score": 93.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "BFCL-V4",
+          "score": 77.5,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "TAU2-Bench",
+          "score": 91.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "VITA-Bench",
+          "score": 56.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "DeepPlanning",
+          "score": 33.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 43.5,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MCP-Mark",
+          "score": 42.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "HLE w/ tool",
+          "score": 43.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 67.8,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "BrowseComp-zh",
+          "score": 62.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "WideSearch",
+          "score": 76.4,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Seal-0",
+          "score": 47.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMMLU",
+          "score": 90.1,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MMLU-ProX",
+          "score": 85.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "NOVA-63",
+          "score": 56.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "INCLUDE",
+          "score": 86.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Global PIQA",
+          "score": 91.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "PolyMATH",
+          "score": 79,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "WMT24++",
+          "score": 79.7,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "MAXIFE",
+          "score": 79.2,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.9,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 77.5,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SecCodeBench",
+          "score": 68.6,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "Terminal Bench 2",
+          "score": 59.3,
+          "source": "https://qwen.ai/blog?id=qwen3.5"
         }
       ]
     },
@@ -1818,27 +2238,27 @@
         },
         {
           "name": "AIME 2025",
-          "score": 62.7,
+          "score": 62.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 43,
+          "score": 42.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 65.3,
+          "score": 65.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 40.9,
+          "score": 40.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 86.3,
+          "score": 86.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1992,27 +2412,27 @@
         },
         {
           "name": "AIME 2025",
-          "score": 83.7,
+          "score": 83.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 54.3,
+          "score": 54.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 70.3,
+          "score": 70.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 27.3,
+          "score": 27.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 54.7,
+          "score": 54.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2906,22 +3326,22 @@
         },
         {
           "name": "IFBench",
-          "score": 57.3,
+          "score": 57.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 65.7,
+          "score": 65.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 35.6,
+          "score": 35.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 78.1,
+          "score": 78.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3195,22 +3615,22 @@
         },
         {
           "name": "IFBench",
-          "score": 42.7,
+          "score": 42.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 51.3,
+          "score": 51.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 28.8,
+          "score": 28.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 70.5,
+          "score": 70.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3449,27 +3869,27 @@
         },
         {
           "name": "AIME 2025",
-          "score": 80.3,
+          "score": 80.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 55.4,
+          "score": 55.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 66.3,
+          "score": 66.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 34.3,
+          "score": 34.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 71.4,
+          "score": 71.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3761,32 +4181,32 @@
         },
         {
           "name": "AIME 2024",
-          "score": 75.7,
+          "score": 75.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2025",
-          "score": 73.3,
+          "score": 73.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 53.7,
+          "score": 53.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 33.7,
+          "score": 33.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 31.1,
+          "score": 31.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 73.4,
+          "score": 73.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3859,22 +4279,22 @@
         },
         {
           "name": "MATH",
-          "score": 94.1,
+          "score": 94.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 56.3,
+          "score": 56.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2025",
-          "score": 36.3,
+          "score": 36.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 43.3,
+          "score": 43.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4353,37 +4773,37 @@
         },
         {
           "name": "MATH",
-          "score": 99.1,
+          "score": 99.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 77.3,
+          "score": 77.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2025",
-          "score": 74.3,
+          "score": 74.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 54.7,
+          "score": 54.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 64.7,
+          "score": 64.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 31.1,
+          "score": 31.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 64.6,
+          "score": 64.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4577,17 +4997,17 @@
         },
         {
           "name": "MATH",
-          "score": 94.7,
+          "score": 94.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 48.7,
+          "score": 48.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2025",
-          "score": 56.3,
+          "score": 56.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4597,17 +5017,17 @@
         },
         {
           "name": "LCR",
-          "score": 60.7,
+          "score": 60.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 21.2,
+          "score": 21.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 54.7,
+          "score": 54.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4695,7 +5115,7 @@
         },
         {
           "name": "AIME 2024",
-          "score": 22.3,
+          "score": 22.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4705,17 +5125,17 @@
         },
         {
           "name": "IFBench",
-          "score": 44,
+          "score": 44.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 48.3,
+          "score": 48.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 21.2,
+          "score": 21.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4838,12 +5258,12 @@
         },
         {
           "name": "MATH",
-          "score": 77.1,
+          "score": 77.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 15.7,
+          "score": 15.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5046,32 +5466,32 @@
         },
         {
           "name": "MATH",
-          "score": 72.1,
+          "score": 72.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 3.3,
+          "score": 3.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 42.8,
+          "score": 42.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 23.3,
+          "score": 23.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 2.3,
+          "score": 2.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 24.6,
+          "score": 24.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5444,12 +5864,12 @@
         },
         {
           "name": "MATH",
-          "score": 69.5,
+          "score": 69.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 9.7,
+          "score": 9.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5601,12 +6021,12 @@
         },
         {
           "name": "MATH",
-          "score": 64.1,
+          "score": 64.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AIME 2024",
-          "score": 3.3,
+          "score": 3.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5753,7 +6173,7 @@
         },
         {
           "name": "AIME 2024",
-          "score": 4.7,
+          "score": 4.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5930,7 +6350,7 @@
         },
         {
           "name": "IFBench",
-          "score": 36.1,
+          "score": 36.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5940,12 +6360,12 @@
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 0.8,
+          "score": 0.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 21.1,
+          "score": 21.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

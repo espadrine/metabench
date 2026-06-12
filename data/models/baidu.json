@@ -389,12 +389,12 @@
         },
         {
           "name": "IFBench",
-          "score": 41.4,
+          "score": 41.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 6.7,
+          "score": 6.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -404,7 +404,7 @@
         },
         {
           "name": "τ²-Bench",
-          "score": 83.9,
+          "score": 83.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

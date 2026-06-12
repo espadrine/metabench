@@ -154,6 +154,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "command-r": "Command-R",
   "command-r-plus": "Command-R+",
   "ernie-5.0-0110": "ERNIE 5",
+  "qwen3.5-397b-a17b": "Qwen3.5-397B-A17B Reasoning",
 };
 
 const MODEL_PREFIXES_TO_IGNORE = [

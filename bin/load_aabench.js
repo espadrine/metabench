@@ -539,6 +539,7 @@ const modelNameFromAA = {
   "Qwen3 VL 4B (Reasoning)": "Qwen3-VL 4B Thinking",
   "Qwen3 Next 80B A3B (Reasoning)": "Qwen3-Next Thinking",
   "Qwen3 14B (Reasoning)": "Qwen3-14B Thinking",
+  "Qwen3.5 397B A17B (Reasoning)": "Qwen3.5-397B-A17B Reasoning",
   "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",
   "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",
