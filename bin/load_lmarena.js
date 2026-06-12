@@ -156,6 +156,8 @@ const KNOWN_MODEL_MAPPINGS = {
   "ernie-5.0-0110": "ERNIE 5",
   "gemma-4-26b-a4b": "Gemma 4 26B-A4B",
   "gemma-4-31b": "Gemma 4 31B",
+  "qwen3.5-27b": "Qwen3.5-27B",
+  "qwen3.5-35b-a3b": "Qwen3.5-35B-A3B",
   "qwen3.5-397b-a17b": "Qwen3.5-397B-A17B Reasoning",
   "qwen3.6-plus": "Qwen3.6-Plus",
 };
