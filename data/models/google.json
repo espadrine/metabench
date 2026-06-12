@@ -1562,7 +1562,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "MCP-Mark",
+          "name": "MCPMark",
           "score": 43.1,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
@@ -3162,7 +3162,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MCP-Mark",
+          "name": "MCPMark",
           "score": 53.9,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },

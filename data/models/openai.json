@@ -1774,7 +1774,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MCP-Mark",
+          "name": "MCPMark",
           "score": 57.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -3415,7 +3415,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "MCP-Mark",
+          "name": "MCPMark",
           "score": 50.9,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },

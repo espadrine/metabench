@@ -724,7 +724,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MCP-Mark",
+          "name": "MCPMark",
           "score": 29.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -812,6 +812,336 @@
           "name": "Terminal-Bench 2.0",
           "score": 50.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 73,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 53.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 50.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Claw-Eval",
+          "score": 71.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 42,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "QwenClawBench",
+          "score": 54.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 32,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "QwenWebBench",
+          "score": 1159.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 65.7,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "VITA-Bench",
+          "score": 36,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "DeepPlanning",
+          "score": 14.4,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 27.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MCPMark",
+          "score": 29.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 59.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 50.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "WideSearch",
+          "score": 72.7,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 94.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "SuperGPQA",
+          "score": 69.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "C-Eval",
+          "score": 94,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "IFEval",
+          "score": 93.9,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "IFBench",
+          "score": 70.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 70,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 61,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "GPQA",
+          "score": 87.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 95.4,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 91.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 87.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 81.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMLU-ProX",
+          "score": 82.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "NOVA-63",
+          "score": 56,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "INCLUDE",
+          "score": 83.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Global PIQA",
+          "score": 89.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "PolyMATH",
+          "score": 43.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "WMT24++",
+          "score": 77.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MAXIFE",
+          "score": 72.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMMU",
+          "score": 84.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 78.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MathVision",
+          "score": 84.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "We-Math",
+          "score": 84.7,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "DynaMath",
+          "score": 84.4,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 81,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMStar",
+          "score": 80.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 71.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 88.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 77.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MMLongBench-Doc",
+          "score": 58.5,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "CC-OCR",
+          "score": 79.7,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "AI2D_TEST",
+          "score": 90.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "CountBench",
+          "score": 94.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "RefCOCO",
+          "score": 87.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "ODinW13",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "ERQA",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "V*",
+          "score": 77,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Video-MME",
+          "score": 87.4,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 83.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 86.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "MLVU",
+          "score": 85,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "TIR-Bench",
+          "score": 29.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 63.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6"
         }
       ]
     },
@@ -1047,7 +1377,7 @@
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
         {
-          "name": "MCP-Mark",
+          "name": "MCPMark",
           "score": 20.4,
           "source": "https://api-docs.deepseek.com/news/news251201"
         },
