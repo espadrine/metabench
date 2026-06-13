@@ -1,6 +1,279 @@
 {
   "models": [
     {
+      "name": "GLM-5.1",
+      "company": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.1",
+      "release_date": "2026-04-07",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 753.864158464,
+          "source": "https://huggingface.co/zai-org/GLM-5"
+        },
+        {
+          "name": "Active parameters",
+          "score": 40,
+          "source": "https://huggingface.co/zai-org/GLM-5"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 63.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 41,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "QwenWebBench",
+          "score": 1564,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "QwenClawBench",
+          "score": 58.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "Claw-Eval",
+          "score": 62.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 53.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 70.9,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MCPMark",
+          "score": 57.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 71.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "VitaBench",
+          "score": 45.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 85.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "QwenWorldBench",
+          "score": 50.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 89.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 83.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "CritPT",
+          "score": 4.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MathArena Apex",
+          "score": 11.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 94.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "SuperGPQA",
+          "score": 68,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "IFEval",
+          "score": 94.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "IFBench",
+          "score": 76,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 62,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "WMT24++",
+          "score": 81.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MAXIFE",
+          "score": 87.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MMMLU",
+          "score": 87.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "MMLU-ProX",
+          "score": 83.9,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "NOVA-63",
+          "score": 54.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "INCLUDE",
+          "score": 84.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "Global PIQA",
+          "score": 89.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "PolyMATH",
+          "score": 67.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1475,
+          "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 43.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 28,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 43.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 76.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 62.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 43.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 97.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GLM-5",
       "company": "Z.ai",
       "url": "https://z.ai/blog/glm-5",

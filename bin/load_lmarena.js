@@ -160,6 +160,9 @@ const KNOWN_MODEL_MAPPINGS = {
   "qwen3.5-35b-a3b": "Qwen3.5-35B-A3B",
   "qwen3.5-397b-a17b": "Qwen3.5-397B-A17B Reasoning",
   "qwen3.6-plus": "Qwen3.6-Plus",
+  "deepseek-v4-pro-thinking": "DeepSeek V4 Pro",
+  "glm-5.1": "GLM-5.1",
+  "kimi-k2.6": "Kimi K2.6",
 };
 
 const MODEL_PREFIXES_TO_IGNORE = [

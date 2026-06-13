@@ -1556,6 +1556,151 @@
           "name": "LMArena Text",
           "score": 1487,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 44.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 83.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 80.6,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 47.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "MCPMark",
+          "score": 56.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 70.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 33.0,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 72.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 53.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 77.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.9,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "OJBench",
+          "score": 60.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 88.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.0,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 96.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 96.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 75.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 91.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.9,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 77.3,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 69.1,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 84.7,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "MathVision",
+          "score": 71.2,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "MathVision (with tools)",
+          "score": 84.6,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "BabyVision",
+          "score": 14.8,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 38.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
+        },
+        {
+          "name": "V* (with tools)",
+          "score": 86.4,
+          "source": "https://www.kimi.com/blog/kimi-k2-6"
         }
       ]
     },
