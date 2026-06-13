@@ -37,23 +37,98 @@
           "source": "https://huggingface.co/zai-org/GLM-5"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 31,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 94,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 82.6,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 83.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 86.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.4,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 42.7,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 63.5,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "CyberGym",
+          "score": 68.7,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 68,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 79.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 70.6,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 71.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 40.7,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 5634.41,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
           "name": "Terminal-Bench 2.0",
           "score": 63.5,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "SWE-bench Verified",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.7"
-        },
-        {
           "name": "SWE-bench Pro",
           "score": 58.8,
-          "source": "https://qwen.ai/blog?id=qwen3.7"
-        },
-        {
-          "name": "SWE-bench Multilingual",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
@@ -124,11 +199,6 @@
         {
           "name": "GPQA Diamond",
           "score": 86.2,
-          "source": "https://qwen.ai/blog?id=qwen3.7"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
@@ -773,6 +843,91 @@
           "name": "OSWorld-Verified",
           "score": 62.2,
           "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.5,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 50.4,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.4,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 96.9,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 82.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 82.5,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 86,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 55.1,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 35.9,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 56.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "CyberGym",
+          "score": 48.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 62,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 75.9,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 69.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 38,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 4432.12,
+          "source": "https://z.ai/blog/glm-5.1"
         }
       ]
     },

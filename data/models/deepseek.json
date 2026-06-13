@@ -1218,6 +1218,91 @@
           "name": "VocalSound",
           "score": 94.85,
           "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 25.1,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": null,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.1,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 90.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 79.9,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 78.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 82.4,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": null,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "NL2Repo",
+          "score": null,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 39.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "CyberGym",
+          "score": 17.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 51.4,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 67.6,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 69.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 62.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 35.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 1034,
+          "source": "https://z.ai/blog/glm-5.1"
         }
       ]
     },

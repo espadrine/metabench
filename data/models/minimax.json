@@ -1,6 +1,179 @@
 {
   "models": [
     {
+      "name": "MiniMax M2.7",
+      "company": "MiniMax",
+      "url": "https://www.minimax.io/news/minimax-m27-en",
+      "release_date": "2026-03-18",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://platform.minimax.io/docs/guides/pricing-paygo"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.2,
+          "source": "https://platform.minimax.io/docs/guides/pricing-paygo"
+        },
+        {
+          "name": "Size",
+          "score": 233.041522176,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7"
+        },
+        {
+          "name": "Active parameters",
+          "score": 10,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 87,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 28,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 89.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 81,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 72.7,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 66.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "GPQA-Diamond",
+          "score": 87,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 56.2,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 39.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": null,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 40.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "CyberGym",
+          "score": 17.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 51.4,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 67.6,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 67.6,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 48.8,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 46.3,
+          "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 41.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 28.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 39.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1416,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "MiniMax M2.5",
       "company": "MiniMax",
       "url": "https://www.minimax.io/news/minimax-m21",
