@@ -251,6 +251,46 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 84.9,
           "source": "https://storage.googleapis.com/deepmind-media/anthropic/sonnet-4-6-model-card.pdf"
+        },
+        {
+          "name": "SWE Bench Pro",
+          "score": 57.2,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Multi-SWE Bench",
+          "score": 50.3,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "VIBE-Pro",
+          "score": 56.1,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MLE-Bench lite",
+          "score": 72.7,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 57,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 44.8,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MM-ClawBench",
+          "score": 64.2,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Artificial Analysis",
+          "score": 52,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
         }
       ]
     },
@@ -1214,6 +1254,46 @@
           "name": "VendingBench 2",
           "score": 8017.59,
           "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "SWE Bench Pro",
+          "score": 57.3,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Multi-SWE Bench",
+          "score": 49,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "VIBE-Pro",
+          "score": 55.6,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MLE-Bench lite",
+          "score": 75.7,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 55,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 47.2,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MM-ClawBench",
+          "score": 73.6,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Artificial Analysis",
+          "score": 53,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
         }
       ]
     },

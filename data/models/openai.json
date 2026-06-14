@@ -516,6 +516,41 @@
           "name": "VendingBench 2",
           "score": 6144.18,
           "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "SWE Bench Pro",
+          "score": 57.7,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Multi-SWE Bench",
+          "score": 50,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MLE-Bench lite",
+          "score": 71.2,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 58,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 54.6,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MM-ClawBench",
+          "score": 75.4,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Artificial Analysis",
+          "score": 57,
+          "source": "https://www.minimax.io/news/minimax-m27-en"
         }
       ]
     },
