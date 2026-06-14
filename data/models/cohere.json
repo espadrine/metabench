@@ -164,6 +164,11 @@
           "name": "τ²-Bench",
           "score": 15.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 73.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

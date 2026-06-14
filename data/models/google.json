@@ -556,6 +556,11 @@
           "name": "Video-MMMU",
           "score": 81.6,
           "source": "https://qwen.ai/blog?id=qwen3.6-27b"
+        },
+        {
+          "name": "Output speed",
+          "score": 35.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1373,6 +1378,11 @@
           "name": "LMArena Text",
           "score": 1433,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 319.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1931,6 +1941,11 @@
           "name": "Toolathlon",
           "score": 48.8,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Output speed",
+          "score": 130.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2149,6 +2164,11 @@
           "name": "τ²-Bench",
           "score": 80.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 203.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2251,6 +2271,11 @@
         {
           "name": "τ²-Bench",
           "score": 43.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 190.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5121,6 +5146,11 @@
           "name": "MMVU",
           "score": 76.1,
           "source": "https://arxiv.org/abs/2602.04705"
+        },
+        {
+          "name": "Output speed",
+          "score": 132.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5722,6 +5752,11 @@
           "name": "MRCR v2: 8-needle 1M",
           "score": 21,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Dynamic-Model-Card.pdf"
+        },
+        {
+          "name": "Output speed",
+          "score": 232.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

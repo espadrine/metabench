@@ -135,6 +135,11 @@
           "name": "τ²-Bench",
           "score": 41.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 171.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -263,6 +268,11 @@
           "name": "τ²-Bench",
           "score": 18.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 147.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -386,6 +396,11 @@
           "name": "τ²-Bench",
           "score": 24.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 33.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -508,6 +523,11 @@
         {
           "name": "τ²-Bench",
           "score": 23.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 33.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -672,6 +692,11 @@
           "name": "MMMU-Pro",
           "score": 54,
           "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Output speed",
+          "score": 62.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -858,6 +883,11 @@
           "name": "τ²-Bench",
           "score": 27.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 101.63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1039,6 +1069,11 @@
           "name": "τ²-Bench",
           "score": 26.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 95.34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1215,6 +1250,11 @@
           "name": "τ²-Bench",
           "score": 24.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 171.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1359,6 +1399,11 @@
           "name": "LiveCodeBench",
           "score": 66.1,
           "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Output speed",
+          "score": 39.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1508,6 +1553,11 @@
           "name": "LiveCodeBench",
           "score": 60.7,
           "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Output speed",
+          "score": 112.35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1636,6 +1686,11 @@
           "name": "MMMU-Pro",
           "score": 43.8,
           "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Output speed",
+          "score": 89.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2105,6 +2160,11 @@
           "name": "τ²-Bench",
           "score": 19.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 40.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2221,6 +2281,11 @@
         {
           "name": "τ²-Bench",
           "score": 28.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 49.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2507,6 +2572,11 @@
           "name": "τ²-Bench",
           "score": 24.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 45.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2715,6 +2785,11 @@
           "name": "τ²-Bench",
           "score": 25.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 145.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2856,6 +2931,11 @@
         {
           "name": "τ²-Bench",
           "score": 19.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 155.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2999,6 +3079,11 @@
         {
           "name": "τ²-Bench",
           "score": 36.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 60.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3325,6 +3410,11 @@
         {
           "name": "AIME 2024",
           "score": 6.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 151.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3998,6 +4088,11 @@
           "name": "AIME 2024",
           "score": 0.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 152.41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4063,6 +4158,11 @@
         {
           "name": "AIME 2024",
           "score": 3.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 60.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4695,6 +4795,11 @@
         {
           "name": "IFBench",
           "score": 19.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 88.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

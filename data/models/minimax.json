@@ -210,6 +210,11 @@
           "name": "LMArena Text",
           "score": 1416,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 43.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -468,6 +473,11 @@
           "name": "Artificial Analysis",
           "score": 42,
           "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Output speed",
+          "score": 157.68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -851,6 +861,11 @@
           "name": "AA-LCR",
           "score": 62,
           "source": "https://www.minimax.io/news/minimax-m25"
+        },
+        {
+          "name": "Output speed",
+          "score": 169,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1298,6 +1313,11 @@
         {
           "name": "τ²-Bench",
           "score": 86.84,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 114.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

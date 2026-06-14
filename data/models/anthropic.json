@@ -291,6 +291,11 @@
           "name": "Artificial Analysis",
           "score": 52,
           "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "Output speed",
+          "score": 63.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -375,6 +380,11 @@
           "name": "LMArena Text",
           "score": 1471,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 47.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1399,6 +1409,11 @@
           "name": "Toolathlon",
           "score": 47.2,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Output speed",
+          "score": 47.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1482,6 +1497,11 @@
           "name": "LMArena Text",
           "score": 1498,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 44.91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2956,6 +2976,11 @@
           "name": "MAXIFE",
           "score": 79.2,
           "source": "https://qwen.ai/blog?id=qwen3.6"
+        },
+        {
+          "name": "Output speed",
+          "score": 52.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3245,6 +3270,11 @@
           "name": "V*",
           "score": 67,
           "source": "https://qwen.ai/blog?id=qwen3.6-27b"
+        },
+        {
+          "name": "Output speed",
+          "score": 50.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3469,6 +3499,11 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 35.3,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Claude-4-5-Haiku-Model-Card.pdf"
+        },
+        {
+          "name": "Output speed",
+          "score": 142.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4488,6 +4523,11 @@
           "name": "MMMLU",
           "score": 89.5,
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
+        },
+        {
+          "name": "Output speed",
+          "score": 50.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4616,6 +4656,11 @@
         {
           "name": "τ²-Bench",
           "score": 70.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 48.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4876,6 +4921,11 @@
           "name": "τ²-Bench",
           "score": 71.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 36.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4913,6 +4963,11 @@
         {
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 35.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5193,6 +5248,11 @@
           "name": "τ²-Bench",
           "score": 73.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 36.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5285,6 +5345,11 @@
         {
           "name": "LCR",
           "score": 36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 36.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5789,6 +5854,11 @@
         {
           "name": "τ²-Bench",
           "score": 64.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 46.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -385,6 +385,11 @@
           "name": "τ²-Bench",
           "score": 96.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 57.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -583,6 +588,11 @@
           "name": "LMArena Text",
           "score": 1457,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 59.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -766,6 +776,11 @@
           "name": "LMArena Text",
           "score": 1457,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 54.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -963,6 +978,11 @@
         {
           "name": "τ²-Bench",
           "score": 95.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 96.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1345,6 +1365,11 @@
           "name": "LMArena Text",
           "score": 1434,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 91.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

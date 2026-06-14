@@ -527,6 +527,11 @@
           "name": "Toolathlon",
           "score": 50,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Output speed",
+          "score": 40.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1907,6 +1912,11 @@
           "name": "VendingBench 2",
           "score": 1198.46,
           "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Output speed",
+          "score": 47.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2435,6 +2445,11 @@
           "name": "τ²-Bench",
           "score": 92.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 128.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2817,6 +2832,11 @@
           "name": "τ²-Bench",
           "score": 73.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 22.83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3033,6 +3053,11 @@
         {
           "name": "τ²-Bench",
           "score": 61.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 23.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -425,6 +425,11 @@
           "name": "Toolathlon",
           "score": 40.7,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Output speed",
+          "score": 71.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1013,6 +1018,11 @@
           "name": "VendingBench 2",
           "score": 4432.12,
           "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "Output speed",
+          "score": 76.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1141,6 +1151,11 @@
           "name": "LMArena Text",
           "score": 1368,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Output speed",
+          "score": 76.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1494,6 +1509,11 @@
           "name": "Tool Decathlon",
           "score": 23.8,
           "source": "https://z.ai/blog/glm-5"
+        },
+        {
+          "name": "Output speed",
+          "score": 106.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1947,6 +1967,11 @@
           "name": "τ²-Bench",
           "score": 70.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 42.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2100,6 +2125,11 @@
           "name": "τ²-Bench",
           "score": 42.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 49.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2239,6 +2269,11 @@
         {
           "name": "τ²-Bench",
           "score": 46.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 82.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

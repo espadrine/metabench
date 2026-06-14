@@ -139,14 +139,15 @@ function addCapabilitiesToPrediction(benchmarks, rawScores) {
   return benchmarks;
 }
 
+// Mistral Small 3.2 tokens consumed by Artificial Analysis benchmarks, in millions
+const BASELINE_AA_TOKEN_CONSUMPTION = 7.3;
+// Tokens from sample question "What is the unit of cross-entropy?" given to Mistral Small 3.2
+const BASELINE_TOKENS_PER_INPUT = 11;
+const BASELINE_TOKENS_PER_OUTPUT = 119;
+
 // Calculate "Cost of 1K responses" benchmark
 // Formula: (ArtificialAnalysis Consumed Tokens (Millions) / 7.3) * (119 / 1000)
 function addCostOf1KResponses(benchmarks) {
-  // Mistral Small 3.2 tokens consumed by Artificial Analysis benchmarks, in millions
-  const BASELINE_AA_TOKEN_CONSUMPTION = 7.3;
-  // Tokens from sample question "What is the unit of cross-entropy?" given to Mistral Small 3.2
-  const BASELINE_TOKENS_PER_INPUT = 11;
-  const BASELINE_TOKENS_PER_OUTPUT = 119;
   const RESPONSES_PER_K = 1000; // 1K responses
 
   benchmarks.models.forEach(model => {
@@ -175,6 +176,48 @@ function addCostOf1KResponses(benchmarks) {
         source: 'Calculated from ArtificialAnalysis Consumed Tokens',
         stdDev: 0
       });
+    }
+  });
+
+  return benchmarks;
+}
+
+// Calculate "Completion Latency" benchmark
+function addCompletionLatency(benchmarks) {
+  benchmarks.models.forEach(model => {
+    const aaTokenConsumption = model.benchmarks.find(b =>
+      b.name === 'ArtificialAnalysis Consumed Tokens (Millions)'
+    );
+    const outputSpeed = model.benchmarks.find(b => b.name === 'Output speed');
+    const activeParams = model.benchmarks.find(b => b.name === 'Active parameters');
+    if (aaTokenConsumption && typeof aaTokenConsumption.score === 'number') {
+      // How many times more tokens does it consume over the Mistral baseline?
+      const consumptionMultiplier = aaTokenConsumption.score / BASELINE_AA_TOKEN_CONSUMPTION;
+      // How many tokens would it consume for the baseline question?
+      const consumedTokens = BASELINE_TOKENS_PER_OUTPUT * consumptionMultiplier;
+
+      let tokensPerSecond = -1;
+      if (outputSpeed && typeof outputSpeed.score === 'number') {
+        tokensPerSecond = outputSpeed.score;
+      } else if (activeParams && typeof activeParams.score === 'number') {
+        // Typical LLM providers intentionally set a high batch size and become CPU-bound,
+        // to maximize batch throughput at the expense of individual request latency.
+        // However, when we don't know the API speed,
+        // let's estimate it on an H100 SXM in memory-bound regime in FP16.
+        const memoryBandwidth = 3.35e12; // bytes per second, cf. https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet?ncid=no-ncid
+        const weightTransferSize = activeParams.score * 1e9 * 2; // bytes per token (in FP16, 2 bytes per parameter)
+        tokensPerSecond = memoryBandwidth / weightTransferSize;
+      }
+
+      if (tokensPerSecond > 0) {
+        const latency = consumedTokens / tokensPerSecond;
+        model.benchmarks.push({
+          name: 'Completion Latency',
+          score: latency,
+          source: 'Calculated from ArtificialAnalysis Consumed Tokens and Active Parameters',
+          stdDev: 0
+        });
+      }
     }
   });
 
@@ -232,6 +275,7 @@ if (require.main === module) {
   let benchmarks = addTimestampBenchmark(rawScores);
   benchmarks = addReleaseDateSizeProduct(benchmarks);
   benchmarks = adjustScoresByCapabilities(benchmarks);
+  benchmarks = addCompletionLatency(benchmarks);
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
   benchmarks = addCostOf1KResponses(benchmarks);

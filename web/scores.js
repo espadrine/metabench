@@ -55,10 +55,11 @@ function getCompanyColor(company) {
 function getXAxisLabel(metricName) {
   const labelMap = {
     'Cost of 1K responses': 'Cost of 1K Responses ($)',
-    'Active parameters': 'Billion Active Parameters',
+    'Completion Latency': 'Time to give an answer (seconds)',
     'Input cost': 'Input Cost ($/M tokens)',
     'Output cost': 'Output Cost ($/M tokens)',
     'Size': 'Size (Billion Parameters)',
+    'Active parameters': 'Billion Active Parameters',
     'Release date': 'Release Date (Year)',
     'ArtificialAnalysis Consumed Tokens (Millions)': 'ArtificialAnalysis Consumed Tokens (Millions)'
   };

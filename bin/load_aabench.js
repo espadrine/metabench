@@ -54,10 +54,11 @@ function matchAABenchmarks(aaBenchData, models) {
     // Get the mapped model from our model map
     const model = modelMap[aaModel.name];
 
-    // Merge evaluations and pricing data into a single object for processing
+    // Merge evaluations, pricing, and top-level scalar properties into a single object for processing
     const allBenchmarks = {
       ...(aaModel.evaluations || {}),
-      ...(aaModel.pricing || {})
+      ...(aaModel.pricing || {}),
+      ...(aaModel.median_output_tokens_per_second != null ? { median_output_tokens_per_second: aaModel.median_output_tokens_per_second } : {})
     };
 
     // Create match object
@@ -70,7 +71,7 @@ function matchAABenchmarks(aaBenchData, models) {
     // For each AA benchmark for that model (both evaluations and pricing),
     // check if it is useful and should be processed
     for (const [aaBenchName, score] of Object.entries(allBenchmarks)) {
-      const mappedBenchName = benchNameFromAA[aaBenchName] || benchNameFromAAPricing[aaBenchName];
+      const mappedBenchName = benchNameFromAA[aaBenchName] || benchNameFromAAPricing[aaBenchName] || benchNameFromAATopLevel[aaBenchName];
       if (mappedBenchName && typeof score === 'number') {
         // Check if benchmark is useful. When zero or null, it is not useful.
         const isUseful = score !== 0 && score != null;
@@ -693,6 +694,7 @@ function shouldScaleBenchmark(aaBenchName) {
     "artificial_analysis_math_index",
     "price_1m_input_tokens",
     "price_1m_output_tokens",
+    "median_output_tokens_per_second",
   ];
 
   return !indexBenchmarks.includes(aaBenchName);
@@ -719,6 +721,10 @@ const benchNameFromAA = {
 const benchNameFromAAPricing = {
   "price_1m_input_tokens": "Input cost",
   "price_1m_output_tokens": "Output cost",
+};
+
+const benchNameFromAATopLevel = {
+  "median_output_tokens_per_second": "Output speed",
 };
 
 // Benchmarks to exclude from automatic processing
