@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "name": "DeepSeek V4 Pro",
+      "name": "DeepSeek V4 Pro Max",
       "company": "DeepSeek",
       "url": "https://api-docs.deepseek.com/news/news260424",
       "release_date": "2026-04-24",
@@ -40,6 +40,116 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 187,
           "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 57.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 84.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 93.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Codeforces",
+          "score": 3206,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 95.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 89.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 38.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 90.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 83.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 62,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 67.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 55.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 76.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 83.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 48.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 73.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1554,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 51.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
         },
         {
           "name": "Terminal-Bench 2.0",
@@ -275,6 +385,966 @@
           "name": "τ²-Bench",
           "score": 96.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Pro",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "release_date": "2026-04-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.74,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 3.48,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 1600,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 49,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 104,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 46.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 77.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2919,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 94,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 88,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 27.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 85.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 83.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 56.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 63.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 74.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 80.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 44.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 74.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 49,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 43.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 46.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 71.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 41.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 94.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1457,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Pro Non-Think",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "release_date": "2026-04-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.74,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 3.48,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 1600,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 49,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 14,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 45,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 75.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 72.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 56.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 31.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 35.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 0.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 9.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 44.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 35.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 52.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 69.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 46.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 39.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 38.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 42.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 45.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 36.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 91.23,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1457,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Flash Max",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "release_date": "2026-04-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.14,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 284,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 13,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 241,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 34.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 78.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 91.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Codeforces",
+          "score": 3052,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 94.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 88.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 33,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 85.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 78.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 60.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 56.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 52.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 73.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 73.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1395,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 47.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 38.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 32.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 35.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 95.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Flash",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "release_date": "2026-04-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.14,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 284,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 13,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 99,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 28.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 73.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 29.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 88.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2816,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 91.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 85.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 19.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 72.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 76.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 59.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 56.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 52.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 70.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 53.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 40.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 67.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 43.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 39.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 27.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 73.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 62.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 38.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 95.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1436,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "DeepSeek V4 Flash Non-Think",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "release_date": "2026-04-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.14,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 284,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 13,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 11,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 23.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 71.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 40.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 41.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 9.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 37.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 15.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 49.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 49.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 69.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 64,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 40.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 36.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 35.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 47.21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 33.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 34.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 94.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1434,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1225,11 +2295,6 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "Humanity's Last Exam (with tools)",
-          "score": null,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
           "name": "AIME 2026",
           "score": 95.1,
           "source": "https://z.ai/blog/glm-5.1"
@@ -1252,16 +2317,6 @@
         {
           "name": "GPQA-Diamond",
           "score": 82.4,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
-          "name": "SWE-bench Pro",
-          "score": null,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
-          "name": "NL2Repo",
-          "score": null,
           "source": "https://z.ai/blog/glm-5.1"
         },
         {

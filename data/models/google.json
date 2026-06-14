@@ -1826,6 +1826,111 @@
           "name": "Artificial Analysis",
           "score": 57,
           "source": "https://www.minimax.io/news/minimax-m27-en"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 91,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 75.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SimpleQA Chinese",
+          "score": 85.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 91.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Codeforces",
+          "score": 3052,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 94.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 81,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex",
+          "score": 60.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Apex Shortlist",
+          "score": 89.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MRCR: 8-needle 1M",
+          "score": 76.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "CorpusQA 1M",
+          "score": 53.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 85.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 51.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1314,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 48.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
         }
       ]
     },
@@ -6693,7 +6798,7 @@
           "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
         },
         {
-          "name": "MRCR: 2 needle 1M",
+          "name": "GDM MRCR: 2 needle 1M",
           "score": 69.2,
           "source": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/#project-astra"
         },
@@ -6820,7 +6925,7 @@
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
         {
-          "name": "MRCR 1M",
+          "name": "GDM MRCR: 2 needle 1M",
           "score": 54.7,
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
@@ -7495,7 +7600,7 @@
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
         {
-          "name": "MRCR 1M",
+          "name": "GDM MRCR: 2 needle 1M",
           "score": 70.5,
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
@@ -7637,7 +7742,7 @@
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
         {
-          "name": "MRCR 1M",
+          "name": "GDM MRCR: 2 needle 1M",
           "score": 70.1,
           "source": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
         },
