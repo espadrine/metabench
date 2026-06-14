@@ -958,7 +958,7 @@
         },
         {
           "name": "Active parameters",
-          "score": 8,
+          "score": 4,
           "source": "https://huggingface.co/google/gemma-4-E4B-it"
         },
         {
@@ -1108,7 +1108,7 @@
         },
         {
           "name": "Active parameters",
-          "score": 5.1,
+          "score": 2,
           "source": "https://huggingface.co/google/gemma-4-E2B-it"
         },
         {
