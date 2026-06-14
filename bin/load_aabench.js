@@ -562,6 +562,8 @@ const modelNameFromAA = {
   "MiniMax-M2.7": "MiniMax M2.7",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",
   "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",
+  "Grok 4.2 (Reasoning)": "Grok 4.2",
+  "Muse Spark": "Muse Spark",
   "ERNIE 5.0 Thinking Preview": "ERNIE 5",
 };
 

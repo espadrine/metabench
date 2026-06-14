@@ -1,6 +1,130 @@
 {
   "models": [
     {
+      "name": "Grok 4.2",
+      "company": "xAI",
+      "url": "https://x.com/elonmusk/status/2023829664318583105",
+      "release_date": "2026-02-17",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://docs.x.ai/docs/models/grok-4-fast-reasoning"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 54,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 60.9,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 75.2,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ERQA",
+          "score": 54.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 57.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31.6,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 53.3,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.5,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 74.2,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "HealthBench Hard",
+          "score": 20.3,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MedXpertQA Text",
+          "score": 50.2,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MedXpertQA MM",
+          "score": 65.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 62.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.7,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 51.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 47.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 96.5,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1055,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        }
+      ]
+    },
+    {
       "name": "Grok 4.1 Fast Reasoning",
       "company": "xAI",
       "url": "https://x.ai/news/grok-4-1",

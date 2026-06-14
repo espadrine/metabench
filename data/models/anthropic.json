@@ -1414,6 +1414,101 @@
           "name": "Output speed",
           "score": 47.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 65.3,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 77.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ERQA",
+          "score": 51.6,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 62.2,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 83.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.0,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 53.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 63.3,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.7,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 70.7,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "HealthBench Hard",
+          "score": 14.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MedXpertQA Text",
+          "score": 52.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MedXpertQA MM",
+          "score": 64.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 73.7,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 53.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 92.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1606,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         }
       ]
     },
@@ -2568,7 +2663,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MedXpertQA-MM",
+          "name": "MedXpertQA MM",
           "score": 63.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },

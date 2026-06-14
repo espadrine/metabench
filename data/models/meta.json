@@ -1,6 +1,129 @@
 {
   "models": [
     {
+      "name": "Muse Spark",
+      "company": "Meta",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "release_date": "2026-04-08",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 58,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 86.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ERQA",
+          "score": 64.7,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 71.3,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 84.1,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ZeroBench",
+          "score": 33.0,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 50.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 42.5,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.5,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 80.0,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "HealthBench Hard",
+          "score": 42.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MedXpertQA Text",
+          "score": 52.6,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "MedXpertQA MM",
+          "score": 78.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 74.8,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 52.4,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.0,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 91.5,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "GDPval-AA Elo",
+          "score": 1444,
+          "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        }
+      ]
+    },
+    {
       "name": "Llama 4 Maverick",
       "company": "Meta",
       "url": "https://www.llama.com/models/llama-4/",

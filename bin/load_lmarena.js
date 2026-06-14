@@ -166,7 +166,10 @@ const KNOWN_MODEL_MAPPINGS = {
   "deepseek-v4-pro-thinking": "DeepSeek V4 Pro",
   "glm-5.1": "GLM-5.1",
   "kimi-k2.6": "Kimi K2.6",
+  "grok-4.2": "Grok 4.2",
+  "grok-4.20-beta1": "Grok 4.2",
   "minimax-m2.7": "MiniMax M2.7",
+  "muse-spark": "Muse Spark",
 };
 
 const MODEL_PREFIXES_TO_IGNORE = [
