@@ -29,13 +29,118 @@
         },
         {
           "name": "Size",
-          "score": 1000,
+          "score": 5000,
           "source": "https://x.com/elonmusk/status/2042123561666855235"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 112,
           "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 87.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 80.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 34.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 69.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 79.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 46.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 82.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 91,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OSWorld",
+          "score": 78,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 79.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ScreenSpot-Pro (with tools)",
+          "score": 87.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 86.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 80.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 64.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 77.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 92,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 75.83,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
         },
         {
           "name": "SWE-bench Pro",
@@ -213,7 +318,7 @@
         },
         {
           "name": "Size",
-          "score": 1000,
+          "score": 5000,
           "source": "https://x.com/elonmusk/status/2042123561666855235"
         },
         {
@@ -574,6 +679,56 @@
           "name": "Output speed",
           "score": 63.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 86.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "IFBench",
+          "score": 57.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "COLLIE",
+          "score": 67.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Beyond AIME",
+          "score": 76.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Telecom",
+          "score": 47.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Airline",
+          "score": 38.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Retail",
+          "score": 67.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 7,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 28.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79.6,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
         }
       ]
     },
@@ -1787,6 +1942,111 @@
           "name": "GDPval-AA Elo",
           "score": 1606,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 53.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 77.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 27.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 83.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MMMLU",
+          "score": 91.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 53.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 69.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 84.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OSWorld",
+          "score": 72.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 57.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ScreenSpot-Pro (with tools)",
+          "score": 83.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 73.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 57.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 60.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 75.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 93,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 68.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
         }
       ]
     },
@@ -4901,6 +5161,56 @@
           "name": "Output speed",
           "score": 50.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 86.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "IFBench",
+          "score": 55.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "COLLIE",
+          "score": 90.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Beyond AIME",
+          "score": 59.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Telecom",
+          "score": 60.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Airline",
+          "score": 53.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Retail",
+          "score": 70.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 7.7,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 10,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
         }
       ]
     },

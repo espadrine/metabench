@@ -430,6 +430,56 @@
           "name": "Output speed",
           "score": 71.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 83.1,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "COLLIE",
+          "score": 88.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Beyond AIME",
+          "score": 60.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Telecom",
+          "score": 86.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Airline",
+          "score": 79.5,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Retail",
+          "score": 72.8,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 16.2,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 74.9,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.4,
+          "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
         }
       ]
     },

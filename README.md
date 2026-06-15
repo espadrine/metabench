@@ -1,5 +1,7 @@
 # Benchmark score prediction
 
+> Find the leaderboard here: https://metabench.organisons.com/
+
 We are given a set of language models `r_1, r_2, …`
 that are scored on various benchmarks `b_1, b_2, …` with scores `s_{r_i, b_j}`.
 But some of the `s_{r_i, b_j}` are unknown, and some are known.
@@ -132,7 +134,7 @@ Rules to add a benchmark:
   We presume that the benchmark will maintain similar scores for a given set of weights over time.
 - If a benchmark that can be run without tools, was ran with tools,
   label it as a separate benchmark, adding "(with tools)" to the benchmark name.
-- The default benchmark for for Aider Polyglot should be diff (or diff-fenced for Gemini).
+- The default benchmark for Aider Polyglot should be diff (or diff-fenced for Gemini).
 - If the model does not support vision, add a *MMMU* benchmark with a score of 25, with a source saying "No vision capabilities".
 - if the model does not support tool calls, add a *τ²-Bench Telecom* benchmark with a score of 0, with a source saying "No tool capabilities".
 
@@ -149,4 +151,4 @@ Rules to add a model:
   Use the price of the official provider's API if it exists, or openrouter otherwise.
 - If open-sourced, the following benchmarks are mandatory, at the top, and in this order: `Input cost`, `Output cost`.
 
-[determinism]; https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
+[determinism]: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/

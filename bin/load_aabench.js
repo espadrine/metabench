@@ -498,6 +498,7 @@ const modelNameFromAA = {
   "Mistral Large (Feb '24)": "Mistral Large 1",
   "Mistral Large 2 (Jul '24)": "Mistral Large 2",
   "Mistral Medium": "Mistral Medium 1",
+  "Mistral Medium 3.5": "Mistral Medium 3.5",
   "Mistral Small (Feb '24)": "Mistral Small 1 2402",
   "Mistral Small (Sep '24)": "Mistral Small 2 2409",
   "Mixtral 8x22B Instruct": "Mixtral 8x22B",

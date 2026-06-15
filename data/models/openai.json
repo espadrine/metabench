@@ -719,6 +719,51 @@
           "name": "ARC-AGI-2",
           "score": 83.3,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 89.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 58.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 61.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 61.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 94.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 83.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
         }
       ]
     },
@@ -1516,6 +1561,71 @@
           "name": "ARC-AGI-2",
           "score": 73.3,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 57.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 75.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 82.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 39.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OSWorld",
+          "score": 75,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.8,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 68.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 51.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 57.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 68.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 93.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 73.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
         }
       ]
     },

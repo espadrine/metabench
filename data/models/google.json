@@ -2116,6 +2116,71 @@
           "name": "ARC-AGI-2",
           "score": 77.1,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.2,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.5,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 85.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MMMLU",
+          "score": 92.6,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 51.4,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.3,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 42.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "Finance Agent",
+          "score": 59.7,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 73.9,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 98,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 77.1,
+          "source": "https://www.anthropic.com/news/claude-opus-4-7"
         }
       ]
     },
