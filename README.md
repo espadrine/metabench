@@ -119,28 +119,36 @@ and the [1, s1, s2, ...] form a latent vector on each model.
 
 Rules to add a benchmark:
 - Only add benchmarks to the appropriate company file in `data/models/`. Other `/data/` files are generated.
+- The benchmark name should follow the official, case-sensitive name given in
+  the academic paper that introduced it.
 - All benchmarks must be sourced with links to the authoritative information,
-  typically the official model announcement, or the official model benchmark.
-- For a given source page, add all the benchmark scores listed on the page,
-  except if they clearly are reusing numbers from a different source.
-- Do not merge benchmark results. When a benchmark score appears in multiple sources with a different result,
+  typically the official model announcement, model card, technical report, or
+  the official model weights repository.
+- For a given source page, add all the benchmark scores listed on the page.
+- Do not merge benchmark results.
+  When a benchmark score appears in multiple sources with a different result,
   add both results as separate benchmarks, each referencing its source.
   They will be averaged in the estimation process.
 - When a specific benchmark changes over time, such as LiveCodeBench or LMArena,
   keep it as if it was a continuous benchmark.
+  Even if the dataset changes, those are assumed to give consistent results over time.
+  If they change later, update them in place.
   Indeed, there is some intrinsic variance in all benchmark scores:
   running any twice will yield slightly different values,
   [even when they are run with a temperature of 0][determinism].
   We presume that the benchmark will maintain similar scores for a given set of weights over time.
+- The assumed methodology is `avg@N` (for whichever N).
+  If the benchmark is `pass@N`, `pass^N`, or `maj@N` (for N > 1),
+  you should specify it in the benchmark name, e.g. "MMLU (pass@5)".
+  It will thus be treated as a separate benchmark.
 - If a benchmark that can be run without tools, was ran with tools,
   label it as a separate benchmark, adding "(with tools)" to the benchmark name.
-- The default benchmark for Aider Polyglot should be diff (or diff-fenced for Gemini).
 - If the model does not support vision, add a *MMMU* benchmark with a score of 25, with a source saying "No vision capabilities".
 - if the model does not support tool calls, add a *τ²-Bench Telecom* benchmark with a score of 0, with a source saying "No tool capabilities".
+- The default benchmark for Aider Polyglot should be diff (or diff-fenced for Gemini).
 
 Rules to add a model:
 - Only add models to the appropriate company file in `data/models/`. Other `/data/` files are generated.
-- Keep an empty line between companies.
 - Keep the models of a given company ordered from most recent to oldest.
 - Each defined model should correspond to a unique set of weights and a reasoning setting.
   If a company publishes a new set of weights under the same name,
@@ -150,5 +158,6 @@ Rules to add a model:
   The website requires them to be present, and will break if they are not.
   Use the price of the official provider's API if it exists, or openrouter otherwise.
 - If open-sourced, the following benchmarks are mandatory, at the top, and in this order: `Input cost`, `Output cost`.
+- If available, add the "ArtificialAnalysis Consumed Tokens (Millions)" benchmark afterwards.
 
 [determinism]: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
