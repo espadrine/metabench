@@ -1,6 +1,284 @@
 {
   "models": [
     {
+      "name": "Claude Opus 4.7 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "release_date": "2026-04-16",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 1000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 112,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 69.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GDPval",
+          "score": 80.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 64.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 43.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 79.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 79.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "CyberGym",
+          "score": 73.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 76.9,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks parents 256k",
+          "score": 93.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks parents 1M",
+          "score": 72,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 59.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 32.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 46.9,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 93.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 75.8,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 52.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 39.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 58.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 70.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 51.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 88.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 45.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1502,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.7",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "release_date": "2026-04-16",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 1000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 53.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 43.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 54.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 73.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 42.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1492,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "Claude Sonnet 4.6 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
@@ -476,7 +754,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "GDPVal-AA Elo",
+          "name": "GDPval-AA Elo",
           "score": 1606,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -1442,7 +1720,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 40.0,
+          "score": 40,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         },
         {
@@ -2133,7 +2411,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "GDPVal-AA Elo",
+          "name": "GDPval-AA Elo",
           "score": 1416,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
@@ -4510,7 +4788,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "GDPVal-AA Elo",
+          "name": "GDPval-AA Elo",
           "score": 1277,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },

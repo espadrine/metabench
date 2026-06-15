@@ -48,7 +48,7 @@
         },
         {
           "name": "ZeroBench",
-          "score": 33.0,
+          "score": 33,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         },
         {
@@ -73,7 +73,7 @@
         },
         {
           "name": "LiveCodeBench Pro",
-          "score": 80.0,
+          "score": 80,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         },
         {
@@ -108,7 +108,7 @@
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 59.0,
+          "score": 59,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         },
         {
@@ -120,6 +120,56 @@
           "name": "GDPval-AA Elo",
           "score": 1444,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 47.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 39.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 45.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 91.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1487,
+          "source": "https://lmarena.ai/"
         }
       ]
     },

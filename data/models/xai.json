@@ -121,6 +121,11 @@
           "name": "GDPval-AA Elo",
           "score": 1055,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1474,
+          "source": "https://lmarena.ai/"
         }
       ]
     },

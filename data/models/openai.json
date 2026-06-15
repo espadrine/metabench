@@ -1,6 +1,591 @@
 {
   "models": [
     {
+      "name": "GPT-5.5 Pro",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "release_date": "2026-04-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Output cost",
+          "score": 180,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GDPval",
+          "score": 82.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 61.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 90.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 52.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 39.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 57.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 94.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 83.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5 xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "release_date": "2026-04-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 75,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 82.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GDPval",
+          "score": 84.9,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 60,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 54.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 83.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 75.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 55.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 25,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 51.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 35.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BixBench",
+          "score": 80.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Cybersecurity Capture The Flag Challenges",
+          "score": 88.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "CyberGym",
+          "score": 81.8,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 73.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 45.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks parents 256k",
+          "score": 90.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks parents 1M",
+          "score": 58.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 87.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 81.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 74,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 95,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 85,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 59.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 60.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 93.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 59.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5 high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "release_date": "2026-04-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 45,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 58.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 58.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 71.63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 73.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 59.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 92.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 54.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1481,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5 low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "release_date": "2026-04-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 7,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 52.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 64.35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 52.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 83.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 55.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5 none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "release_date": "2026-04-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 3,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 40.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 48.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 12.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 47.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 46.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 56.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 49.24,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 69.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 51.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1474,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.4 Pro",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5-4/",
@@ -84,6 +669,56 @@
           "name": "ARC-AGI-2",
           "score": 83.3,
           "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "GDPval",
+          "score": 82,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 61.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 89.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 50,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 38,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 58.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 94.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 83.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
         }
       ]
     },
@@ -669,7 +1304,7 @@
         },
         {
           "name": "ZeroBench",
-          "score": 41.0,
+          "score": 41,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         },
         {
@@ -736,6 +1371,151 @@
           "name": "GDPval-AA Elo",
           "score": 1672,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 57.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 75.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GDPval",
+          "score": 83,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 56,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 53.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 75,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 82.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 82.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 70.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 54.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 19,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 47.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 27.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BixBench",
+          "score": 74,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.8,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 39.8,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Cybersecurity Capture The Flag Challenges",
+          "score": 83.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "CyberGym",
+          "score": 79,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 62.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 9.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks parents 256k",
+          "score": 82.8,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Graphwalks parents 1M",
+          "score": 44.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 79.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 57.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 36.6,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 93.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 73.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
         }
       ]
     },
@@ -1474,7 +2254,7 @@
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },
         {
-          "name": "GDPVal-AA Elo",
+          "name": "GDPval-AA Elo",
           "score": 1462,
           "source": "https://www.anthropic.com/news/claude-opus-4-6"
         },

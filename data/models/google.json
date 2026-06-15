@@ -1974,7 +1974,7 @@
         },
         {
           "name": "ZeroBench",
-          "score": 29.0,
+          "score": 29,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
         },
         {
@@ -2046,6 +2046,76 @@
           "name": "GDPval-AA Elo",
           "score": 1320,
           "source": "https://ai.meta.com/static-resource/muse-spark-eval-methodology"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GDPval",
+          "score": 67.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Finance Agent v1.1",
+          "score": 59.7,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 18.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 85.9,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 78.2,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 48.8,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.3,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 51.4,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 98,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 77.1,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
         }
       ]
     },
