@@ -286,6 +286,66 @@
           "name": "LMArena Text",
           "score": 1502,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 64.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 79.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 51.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1753,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 82.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 75.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Blueprint-Bench 2",
+          "score": 24.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2 (8-needle)",
+          "score": 59.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 46.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 75.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-bench 2.1",
+          "score": 66.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         }
       ]
     },
@@ -729,6 +789,61 @@
           "name": "SWE-bench Verified",
           "score": 79.6,
           "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 53,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 69.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 72.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 51,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1674,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 70.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Blueprint-Bench 2",
+          "score": 6.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2 (8-needle)",
+          "score": 84.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 58.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         }
       ]
     },
