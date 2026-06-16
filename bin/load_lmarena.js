@@ -173,6 +173,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "kimi-k2.6": "Kimi K2.6",
   "grok-4.2": "Grok 4.2",
   "grok-4.20-beta1": "Grok 4.2",
+  "grok-4.3": "Grok 4.3",
   "minimax-m2.7": "MiniMax M2.7",
   "mistral-medium-3.5": "Mistral Medium 3.5",
   "muse-spark": "Muse Spark",
