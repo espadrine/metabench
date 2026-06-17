@@ -1691,6 +1691,171 @@
           "name": "ARC-AGI-2",
           "score": 73.3,
           "source": "https://www.anthropic.com/news/claude-opus-4-7"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MathVision",
+          "score": 91.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "BabyVision",
+          "score": 53.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 84.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "HiPhO",
+          "score": 65.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "ERQA",
+          "score": 67.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "VisFactor",
+          "score": 40.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MedXpertQA MM",
+          "score": 77.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 67.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 75.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "AndroidWorld",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "QwenVision2Code",
+          "score": 1884.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 54.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 69.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "WorldVQA",
+          "score": 45.9,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MMSearchPlus",
+          "score": 19.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "BC-VL",
+          "score": 48.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MMBC",
+          "score": 18.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 83.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "CountQA",
+          "score": 58.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 85.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "OCRBenchV2 (en)",
+          "score": 59.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "OCRBenchV2 (zh)",
+          "score": 57.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "ODinW13",
+          "score": null,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "LingoQA",
+          "score": 78.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Ego3D-Bench",
+          "score": 6.9,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SURDS",
+          "score": 64.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "VLADBench",
+          "score": 77.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Video-MME",
+          "score": 89.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 82.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MLVU (M-Avg)",
+          "score": 86.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "TVBench",
+          "score": 82.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "LVBench",
+          "score": 77.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         }
       ]
     },
@@ -3164,7 +3329,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VITA-Bench",
+          "name": "VitaBench",
           "score": 38.2,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },

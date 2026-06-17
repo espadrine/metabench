@@ -568,6 +568,7 @@ const modelNameFromAA = {
   "Qwen3.6 27B (Reasoning)": "Qwen3.6-27B",
   "Qwen3.6 35B A3B (Reasoning)": "Qwen3.6-35B-A3B",
   "Qwen3.6 Plus": "Qwen3.6-Plus",
+  "Qwen3.7 Plus": "Qwen3.7-Plus",
   "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Kimi K2.6": "Kimi K2.6",
   "MiniMax-M2.7": "MiniMax M2.7",

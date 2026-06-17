@@ -224,11 +224,6 @@
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "QwenWebBench",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.7"
-        },
-        {
           "name": "QwenClawBench",
           "score": 54.7,
           "source": "https://qwen.ai/blog?id=qwen3.7"
@@ -532,6 +527,211 @@
           "name": "Output speed",
           "score": 40.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 66.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 59.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 76.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 42.8,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "QwenSVG",
+          "score": 1325,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "QwenClawBench",
+          "score": 54.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 58.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Claw-Eval",
+          "score": 61.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 56.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 71.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MCPMark",
+          "score": 55.9,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 66.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "VitaBench",
+          "score": 39.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "DeepPlanning",
+          "score": 42.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 84.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "KernelBench L3 median speedup",
+          "score": 1.41,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "KernelBench L3",
+          "score": 80,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "QwenWorldBench",
+          "score": 50.9,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.4,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 92.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 86.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "CritPT",
+          "score": 8.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Apex",
+          "score": 24.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MMLU-Redux",
+          "score": 95.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SuperGPQA",
+          "score": 71.3,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "IFEval",
+          "score": 94.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "IFBench",
+          "score": 76.0,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MRCR v2: 2-needle 128k",
+          "score": 63.1,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "WMT24++",
+          "score": 81.6,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MAXIFE",
+          "score": 87.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MMMLU",
+          "score": 87.5,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "MMLU-ProX",
+          "score": 83.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "NOVA-63",
+          "score": 56.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "INCLUDE",
+          "score": 84.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "Global PIQA",
+          "score": 89.2,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "PolyMATH",
+          "score": 82.7,
+          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         }
       ]
     },
@@ -1029,11 +1229,6 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ERQA",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
           "name": "CountBench",
           "score": 94.1,
           "source": "https://qwen.ai/blog?id=qwen3.5"
@@ -1044,18 +1239,8 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ODinW13",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
           "name": "EmbSpatialBench",
           "score": 77.4,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "RefSpatialBench",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
@@ -1066,21 +1251,6 @@
         {
           "name": "V*",
           "score": 77,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "Hypersim",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "SUNRGBD",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "Nuscene",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
@@ -1119,18 +1289,8 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "ScreenSpot-Pro",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
           "name": "OSWorld-Verified",
           "score": 63.3,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "AndroidWorld",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
@@ -1204,11 +1364,6 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Humanity's Last Exam-Verified",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
           "name": "LiveCodeBench",
           "score": 85,
           "source": "https://qwen.ai/blog?id=qwen3.5"
@@ -1244,7 +1399,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "VITA-Bench",
+          "name": "VitaBench",
           "score": 41.9,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1271,11 +1426,6 @@
         {
           "name": "BrowseComp",
           "score": 74.9,
-          "source": "https://qwen.ai/blog?id=qwen3.5"
-        },
-        {
-          "name": "BrowseComp-zh",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
@@ -1399,7 +1549,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
-          "name": "VITA-Bench",
+          "name": "VitaBench",
           "score": 36,
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
@@ -1629,16 +1779,6 @@
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
-          "name": "ODinW13",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.6"
-        },
-        {
-          "name": "ERQA",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.6"
-        },
-        {
           "name": "V*",
           "score": 77,
           "source": "https://qwen.ai/blog?id=qwen3.6"
@@ -1661,11 +1801,6 @@
         {
           "name": "MLVU",
           "score": 85,
-          "source": "https://qwen.ai/blog?id=qwen3.6"
-        },
-        {
-          "name": "ScreenSpot-Pro",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
