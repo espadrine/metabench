@@ -15,17 +15,12 @@ function main() {
   try {
     const benchmarks = extractBenchmarkNamesFromModelFiles();
 
-    console.log("Available Benchmark Names:");
-    console.log("========================");
-
     // Sort and display benchmarks
     const sortedBenchmarks = Object.keys(benchmarks).sort();
     for (const benchmarkName of sortedBenchmarks) {
       const count = benchmarks[benchmarkName];
-      console.log(`${benchmarkName} (found in ${count} models)`);
+      console.log(`${benchmarkName}\t${count}`);
     }
-
-    console.log(`\nTotal unique benchmarks: ${sortedBenchmarks.length}`);
 
   } catch (error) {
     console.error(`Error: ${error.message}`);

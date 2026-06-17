@@ -121,6 +121,12 @@ Rules to add a benchmark:
 - Only add benchmarks to the appropriate company file in `data/models/`. Other `/data/` files are generated.
 - The benchmark name should follow the official, case-sensitive name given in
   the academic paper that introduced it.
+- The name of the benchmark should match that which is already used in the `data/models/` files.
+  Before adding new benchmarks, compare the benchmarks by matching them to existing ones:
+  ```
+  node bin/list-benchmarks.js | awk '{print $1}' > bm
+  node bin/check_bench_names.js ./benchmarks.json ./bm
+  ```
 - All benchmarks must be sourced with links to the authoritative information,
   typically the official model announcement, model card, technical report, or
   the official model weights repository.
