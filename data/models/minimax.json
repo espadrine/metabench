@@ -1,6 +1,259 @@
 {
   "models": [
     {
+      "name": "MiniMax M3",
+      "company": "MiniMax",
+      "url": "https://www.minimax.io/blog/minimax-m3",
+      "release_date": "2026-06-01",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.3,
+          "source": "https://platform.minimax.io/docs/guides/pricing-paygo"
+        },
+        {
+          "name": "Output cost",
+          "score": 1.2,
+          "source": "https://platform.minimax.io/docs/guides/pricing-paygo"
+        },
+        {
+          "name": "Size",
+          "score": 434.578848512,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3"
+        },
+        {
+          "name": "Active parameters",
+          "score": 23,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 89,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 80.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 59,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Terminal Bench 2.1",
+          "score": 66,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 37.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 42.13,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE Atlas-Test Writing",
+          "score": 30.83,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-fficiency",
+          "score": 34.8,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "LiveSQLBench",
+          "score": 40.17,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "CL-Bench",
+          "score": 20.48,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VIBE-V2",
+          "score": 50.12,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SVG-Bench",
+          "score": 63.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 37.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "KernelBench L3",
+          "score": 28.8,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PaperBench",
+          "score": 52.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 83.52,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "DRACO",
+          "score": 73.23,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "GDPval rubrics",
+          "score": 74.78,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BankerToolBench",
+          "score": 76.12,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 45.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 89.35,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "YC-Bench",
+          "score": 2.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "LOCA-Bench (256k)",
+          "score": 49.3,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 74.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 27.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Claw-Eval",
+          "score": 74.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 70.06,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 91.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 78.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 84.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VideoMME",
+          "score": 85.4,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "IMO 2025",
+          "score": 35,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 54.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 43.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 45.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 82.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 42.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 88.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 47.91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1451,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "MiniMax M2.7",
       "company": "MiniMax",
       "url": "https://www.minimax.io/news/minimax-m27-en",
@@ -122,11 +375,6 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "Terminal-Bench 2.0",
-          "score": null,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
           "name": "Humanity's Last Exam (with tools)",
           "score": 40.8,
           "source": "https://z.ai/blog/glm-5.1"
@@ -215,6 +463,126 @@
           "name": "Output speed",
           "score": 43.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 79.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 56.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Terminal Bench 2.1",
+          "score": 51.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 11.29,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 34.99,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE Atlas-Test Writing",
+          "score": 18.89,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-fficiency",
+          "score": 13.98,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "LiveSQLBench",
+          "score": 33.17,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "CL-Bench",
+          "score": 15.38,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VIBE-V2",
+          "score": 37.89,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SVG-Bench",
+          "score": 48,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 13.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "KernelBench L3",
+          "score": 10.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PaperBench",
+          "score": 30.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 76.3,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "DRACO",
+          "score": 66.77,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "GDPval rubrics",
+          "score": 66.44,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BankerToolBench",
+          "score": 63.89,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 84.92,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "YC-Bench",
+          "score": 0,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "LOCA-Bench (256k)",
+          "score": 0,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 49.4,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 5.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Claw-Eval",
+          "score": 49.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
         }
       ]
     },

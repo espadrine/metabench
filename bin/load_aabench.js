@@ -573,6 +573,7 @@ const modelNameFromAA = {
   "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Kimi K2.6": "Kimi K2.6",
   "MiniMax-M2.7": "MiniMax M2.7",
+  "MiniMax-M3": "MiniMax M3",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",
   "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",
   "Grok 4.2 (Reasoning)": "Grok 4.2",

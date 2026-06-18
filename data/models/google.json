@@ -2092,11 +2092,6 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "BrowseComp",
-          "score": null,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
           "name": "BrowseComp (with context manage)",
           "score": 85.9,
           "source": "https://z.ai/blog/glm-5.1"
@@ -2780,6 +2775,141 @@
           "name": "Automation Bench",
           "score": 9.6,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 80.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 54.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Terminal Bench 2.1",
+          "score": 70.3,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 13.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 21.62,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE Atlas-Test Writing",
+          "score": 29.84,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-fficiency",
+          "score": 19.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "LiveSQLBench",
+          "score": 39.83,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "CL-Bench",
+          "score": 21.06,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VIBE-V2",
+          "score": 28,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SVG-Bench",
+          "score": 59.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 15.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "KernelBench L3",
+          "score": 18.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PaperBench",
+          "score": 46.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 85.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "GDPval rubrics",
+          "score": 57.82,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BankerToolBench",
+          "score": 67.03,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 18.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 56.06,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 33.4,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Claw-Eval",
+          "score": 57.8,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 76.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 88.1,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 87.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VideoMME",
+          "score": 87.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
         }
       ]
     },

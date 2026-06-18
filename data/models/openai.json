@@ -378,23 +378,8 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
         {
-          "name": "SWE-bench Verified",
-          "score": null,
-          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
-        },
-        {
           "name": "SWE-bench Pro",
           "score": 58.6,
-          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
-        },
-        {
-          "name": "SWE-bench Multilingual",
-          "score": null,
-          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
-        },
-        {
-          "name": "SWE-bench Multimodal",
-          "score": null,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
         {
@@ -446,6 +431,141 @@
           "name": "GraphWalks Parents 256K",
           "score": 90.1,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 82.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 58.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Terminal Bench 2.1",
+          "score": 78.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 45.43,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 52.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE Atlas-Test Writing",
+          "score": 42.59,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-fficiency",
+          "score": 46.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "LiveSQLBench",
+          "score": 40.17,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "CL-Bench",
+          "score": 25.38,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VIBE-V2",
+          "score": 50.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SVG-Bench",
+          "score": 58.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 39.3,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "KernelBench L3",
+          "score": 20.9,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "PaperBench",
+          "score": 57.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.4,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "GDPval rubrics",
+          "score": 80.66,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BankerToolBench",
+          "score": 70.04,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 52.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 88.11,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "YC-Bench",
+          "score": 1.28,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 75.3,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 41.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78.7,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 87.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 86.4,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "VideoMME",
+          "score": 89.4,
+          "source": "https://www.minimax.io/blog/minimax-m3"
         }
       ]
     },
@@ -1158,23 +1278,8 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "SWE-bench Verified",
-          "score": null,
-          "source": "https://www.kimi.com/blog/kimi-k2-6"
-        },
-        {
           "name": "SciCode",
           "score": 56.6,
-          "source": "https://www.kimi.com/blog/kimi-k2-6"
-        },
-        {
-          "name": "OJBench",
-          "score": null,
-          "source": "https://www.kimi.com/blog/kimi-k2-6"
-        },
-        {
-          "name": "LiveCodeBench",
-          "score": null,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
@@ -1293,18 +1398,8 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "Terminal-Bench 2.0",
-          "score": null,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
           "name": "CyberGym",
           "score": 66.3,
-          "source": "https://z.ai/blog/glm-5.1"
-        },
-        {
-          "name": "BrowseComp",
-          "score": null,
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
@@ -1813,11 +1908,6 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "AndroidWorld",
-          "score": null,
-          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
-        },
-        {
           "name": "QwenVision2Code",
           "score": 1884,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
@@ -1875,11 +1965,6 @@
         {
           "name": "OCRBenchV2 (zh)",
           "score": 57.7,
-          "source": "https://qwen.ai/blog?id=qwen3.7-plus"
-        },
-        {
-          "name": "ODinW13",
-          "score": null,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {

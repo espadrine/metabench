@@ -124,7 +124,7 @@ Rules to add a benchmark:
 - The name of the benchmark should match that which is already used in the `data/models/` files.
   Before adding new benchmarks, compare the benchmarks by matching them to existing ones:
   ```
-  node bin/list-benchmarks.js | awk '{print $1}' > bm
+  node bin/list-benchmarks.js | awk 'FS="\t" {print $1}' > bm
   node bin/check_bench_names.js ./benchmarks.json ./bm
   ```
 - All benchmarks must be sourced with links to the authoritative information,

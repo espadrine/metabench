@@ -732,6 +732,36 @@
           "name": "PolyMATH",
           "score": 82.7,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "SWE-Bench Verified",
+          "score": 80.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 58.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 83.2,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "GDPval rubrics",
+          "score": 65.12,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 84.5,
+          "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 66.6,
+          "source": "https://www.minimax.io/blog/minimax-m3"
         }
       ]
     },

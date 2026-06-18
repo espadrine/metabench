@@ -177,6 +177,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "grok-4.20-beta1": "Grok 4.2",
   "grok-4.3": "Grok 4.3",
   "minimax-m2.7": "MiniMax M2.7",
+  "minimax-m3": "MiniMax M3",
   "mistral-medium-3.5": "Mistral Medium 3.5",
   "muse-spark": "Muse Spark",
 };
