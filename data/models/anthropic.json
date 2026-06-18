@@ -1367,6 +1367,96 @@
           "name": "OmniDocBench 1.5",
           "score": 86.9,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 95.6,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.9,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.1,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79.6,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 87,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 29,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "IF Bench",
+          "score": 50,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "AdvancedIF",
+          "score": 86,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Multi-Challenge",
+          "score": 57,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GraphWalks 128K",
+          "score": 96,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 76,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "AIR-Bench",
+          "score": 88,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "CyberSecEval 4 Instruct",
+          "score": 62,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "CyberSecEval 4 Auto",
+          "score": 56,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "LongFact",
+          "score": 98,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Truthful QA",
+          "score": 88,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "HealthBench",
+          "score": 38,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "MedXpert Text",
+          "score": 49,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
       ]
     },
@@ -3025,6 +3115,31 @@
           "name": "LVBench",
           "score": 63,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 99.8,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 53.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
       ]
     },
@@ -5080,6 +5195,81 @@
           "name": "Output speed",
           "score": 142.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66.6,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 35.2,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 62.7,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 41.6,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "IFBench",
+          "score": 46.1,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Advanced IF",
+          "score": 56.9,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Robust IF",
+          "score": 45.0,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 54.7,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 83.3,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "AMO-Bench",
+          "score": 16,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "FrontierMath (with tools)",
+          "score": 2.8,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 9.5,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73.2,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "FrontierScience Research",
+          "score": 42.3,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 36.6,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
         }
       ]
     },

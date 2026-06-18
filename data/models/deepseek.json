@@ -625,6 +625,36 @@
           "name": "MCP-Atlas",
           "score": 73.6,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 95.2,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.1,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 93.5,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 67.9,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.6,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 55.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
       ]
     },
@@ -2618,6 +2648,26 @@
           "name": "VendingBench 2",
           "score": 1034,
           "source": "https://z.ai/blog/glm-5.1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 93.1,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.1,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
       ]
     },

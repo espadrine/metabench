@@ -1,6 +1,247 @@
 {
   "models": [
     {
+      "name": "MAI-Thinking-1",
+      "company": "Microsoft",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "release_date": "2026-06-02",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 962,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Active parameters",
+          "score": 34.7,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 97.0,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 94.5,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 84.9,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.2,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.7,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.0,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.5,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 52.8,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "MMLU Pro",
+          "score": 85,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 31,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "IF Bench",
+          "score": 69,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "AdvancedIF",
+          "score": 85,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Multi-Challenge",
+          "score": 53,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GraphWalks 128K",
+          "score": 90,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 72,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "AIR-Bench",
+          "score": 88,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "CyberSecEval 4 Instruct",
+          "score": 63,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "CyberSecEval 4 Auto",
+          "score": 63,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "LongFact",
+          "score": 98,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Truthful QA",
+          "score": 88,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "HealthBench",
+          "score": 35,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "MedXpert Text",
+          "score": 43,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        }
+      ]
+    },
+    {
+      "name": "MAI-Code-1-Flash",
+      "company": "Microsoft",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "release_date": "2026-06-02",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 5,
+          "source": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+        },
+        {
+          "name": "Active parameters",
+          "score": 5,
+          "source": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71.6,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 51.2,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 65.5,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.8,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "IFBench",
+          "score": 75.0,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Advanced IF",
+          "score": 71.4,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Robust IF",
+          "score": 61.2,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 71.7,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 92.5,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "AMO-Bench",
+          "score": 40,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "FrontierMath (with tools)",
+          "score": 6.3,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 18,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.6,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "FrontierScience Research",
+          "score": 58.2,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "ArtifactsBench",
+          "score": 36.4,
+          "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        }
+      ]
+    },
+    {
       "name": "Phi 4 Reasoning Plus 14B",
       "company": "Microsoft",
       "url": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",

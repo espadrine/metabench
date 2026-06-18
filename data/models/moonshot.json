@@ -762,6 +762,36 @@
           "name": "MCP-Atlas",
           "score": 66.6,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 96.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 92.7,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.5,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 66.7,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.2,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 58.6,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
       ]
     },

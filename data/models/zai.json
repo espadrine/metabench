@@ -695,6 +695,31 @@
           "name": "SpreadSheetBench",
           "score": 85.2,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.3,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 82.6,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.2,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 69.0,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "SWE-Bench Pro",
+          "score": 58.4,
+          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
       ]
     },
