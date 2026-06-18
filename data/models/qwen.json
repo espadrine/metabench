@@ -160,12 +160,12 @@
         },
         {
           "name": "IMO-AnswerBench",
-          "score": 86.0,
+          "score": 86,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "CritPT",
-          "score": 6.0,
+          "score": 6,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -215,7 +215,7 @@
         },
         {
           "name": "MMMLU",
-          "score": 89.0,
+          "score": 89,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -230,7 +230,7 @@
         },
         {
           "name": "INCLUDE",
-          "score": 83.0,
+          "score": 83,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -240,12 +240,12 @@
         },
         {
           "name": "PolyMATH",
-          "score": 84.0,
+          "score": 84,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "MMMU-Pro",
-          "score": 79.0,
+          "score": 79,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -280,12 +280,12 @@
         },
         {
           "name": "MedXpertQA MM",
-          "score": 71.0,
+          "score": 71,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "ScreenSpot-Pro",
-          "score": 79.0,
+          "score": 79,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -295,12 +295,12 @@
         },
         {
           "name": "AndroidWorld",
-          "score": 81.0,
+          "score": 81,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "QwenVision2Code",
-          "score": 1772.0,
+          "score": 1772,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -340,7 +340,7 @@
         },
         {
           "name": "CountQA",
-          "score": 77.0,
+          "score": 77,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -385,7 +385,7 @@
         },
         {
           "name": "Video-MME",
-          "score": 88.0,
+          "score": 88,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -407,6 +407,56 @@
           "name": "LVBench",
           "score": 76.2,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 53.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 46.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 45.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 77.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 46.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 92.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 52.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2445,7 +2495,7 @@
         },
         {
           "name": "MathVision",
-          "score": 88.0,
+          "score": 88,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2470,7 +2520,7 @@
         },
         {
           "name": "VisFactor",
-          "score": 36.0,
+          "score": 36,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2495,7 +2545,7 @@
         },
         {
           "name": "QwenVision2Code",
-          "score": 1522.0,
+          "score": 1522,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2545,7 +2595,7 @@
         },
         {
           "name": "OCRBenchV2 (en)",
-          "score": 67.0,
+          "score": 67,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2560,7 +2610,7 @@
         },
         {
           "name": "LingoQA",
-          "score": 76.0,
+          "score": 76,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2585,7 +2635,7 @@
         },
         {
           "name": "Video-MMMU",
-          "score": 84.0,
+          "score": 84,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2595,7 +2645,7 @@
         },
         {
           "name": "TVBench",
-          "score": 76.0,
+          "score": 76,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {

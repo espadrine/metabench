@@ -470,6 +470,7 @@ const modelNameFromAA = {
   "Claude Opus 4.6 (Adaptive Reasoning, Max Effort)": "Claude Opus 4.6 Thinking",
   "Claude Opus 4.7 (Non-reasoning, High Effort)": "Claude Opus 4.7",
   "Claude Opus 4.7 (Adaptive Reasoning, Max Effort)": "Claude Opus 4.7 Thinking",
+  "Claude Opus 4.8 (Adaptive Reasoning, Max Effort)": "Claude Opus 4.8 Thinking",
   "DeepSeek R1 (Jan '25)": "DeepSeek R1",
   "DeepSeek R1 0528 (May '25)": "DeepSeek R1 0528",
   "DeepSeek V3 (Dec '24)": "DeepSeek V3",

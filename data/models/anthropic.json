@@ -1,6 +1,239 @@
 {
   "models": [
     {
+      "name": "Claude Opus 4.8 Thinking",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "release_date": "2026-05-28",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 117,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 88.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 69.2,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 84.4,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 38.4,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.3,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 74.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity’s Last Exam",
+          "score": 49.8,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity’s Last Exam (with tools)",
+          "score": 57.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ChartQAPro",
+          "score": 69.4,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ChartQAPro (with tools)",
+          "score": 72.3,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 83.4,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 82.3,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ScreenSpot-Pro (with tools)",
+          "score": 87.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 53.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1890,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 82.2,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Automation Bench",
+          "score": 15.5,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GraphWalks BFS 256K",
+          "score": 85.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GraphWalks Parents 256K",
+          "score": 99.3,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 61.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 56.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 45.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 53.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 62.24,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 67.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 58.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 94.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 57.38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1486,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 4.8",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "release_date": "2026-05-28",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1477,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "Claude Opus 4.7 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-opus-4-7",
@@ -346,6 +579,106 @@
           "name": "Terminal-bench 2.1",
           "score": 66.1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 87.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.3,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 80.5,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 34.5,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 88.5,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 66.1,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity’s Last Exam",
+          "score": 46.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity’s Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ChartQAPro",
+          "score": 67.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ChartQAPro (with tools)",
+          "score": 69.8,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 82.8,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.2,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 79.5,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "ScreenSpot-Pro (with tools)",
+          "score": 87.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 51.5,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1753,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 79.1,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Automation Bench",
+          "score": 9.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GraphWalks BFS 256K",
+          "score": 76.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GraphWalks Parents 256K",
+          "score": 93.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         }
       ]
     },
@@ -2265,7 +2598,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 40.0,
+          "score": 40,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2320,7 +2653,7 @@
         },
         {
           "name": "MRCR v2: 2-needle 128k",
-          "score": 84.0,
+          "score": 84,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2380,7 +2713,7 @@
         },
         {
           "name": "CharXiv [RQ]",
-          "score": 66.0,
+          "score": 66,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2415,12 +2748,12 @@
         },
         {
           "name": "AndroidWorld",
-          "score": 62.0,
+          "score": 62,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "QwenVision2Code",
-          "score": 1518.0,
+          "score": 1518,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2495,7 +2828,7 @@
         },
         {
           "name": "VLADBench",
-          "score": 48.0,
+          "score": 48,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -2520,7 +2853,7 @@
         },
         {
           "name": "LVBench",
-          "score": 63.0,
+          "score": 63,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         }
       ]

@@ -136,6 +136,7 @@ function mapModels(lmarenaData, models) {
 // Known model name mappings for cases where LMArena and our data use different naming conventions
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
+  "claude-sonnet-4-20250514-thinking-32k": "Claude Sonnet 4 Thinking",
   "claude-opus-4-20250514-thinking-16k": "Claude Opus 4 Thinking",
   "claude-opus-4-5-20251101-thinking-32k": "Claude Opus 4.5 Thinking",
   "claude-3-5-sonnet-20241022": "Claude 3.5 Sonnet (new)",
@@ -146,7 +147,8 @@ const KNOWN_MODEL_MAPPINGS = {
   "claude-opus-4-1-20250805-thinking-16k": "Claude Opus 4.1 Thinking",
   "claude-opus-4-7": "Claude Opus 4.7",
   "claude-opus-4-7-thinking": "Claude Opus 4.7 Thinking",
-  "claude-sonnet-4-20250514-thinking-32k": "Claude Sonnet 4 Thinking",
+  "claude-opus-4-8": "Claude Opus 4.8",
+  "claude-opus-4-8-thinking": "Claude Opus 4.8 Thinking",
   "gpt-4o-2024-05-13": "GPT-4o",
   "gpt-5.1": "GPT-5.1 High",
   "gpt-5.2-high": "GPT-5.2 xhigh",

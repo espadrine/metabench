@@ -376,6 +376,76 @@
           "name": "ARC-AGI-2",
           "score": 85,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": null,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.6,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": null,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": null,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.4,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.2,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity’s Last Exam",
+          "score": 41.4,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity’s Last Exam (with tools)",
+          "score": 52.2,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78.7,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 51.8,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 75.3,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "Automation Bench",
+          "score": 12.9,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GraphWalks BFS 256K",
+          "score": 73.7,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
+        },
+        {
+          "name": "GraphWalks Parents 256K",
+          "score": 90.1,
+          "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         }
       ]
     },
@@ -1699,7 +1769,7 @@
         },
         {
           "name": "MathVision",
-          "score": 91.0,
+          "score": 91,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -1714,7 +1784,7 @@
         },
         {
           "name": "HiPhO",
-          "score": 65.0,
+          "score": 65,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -1739,7 +1809,7 @@
         },
         {
           "name": "OSWorld-Verified",
-          "score": 75.0,
+          "score": 75,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -1749,7 +1819,7 @@
         },
         {
           "name": "QwenVision2Code",
-          "score": 1884.0,
+          "score": 1884,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {

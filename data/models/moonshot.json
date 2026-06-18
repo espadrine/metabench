@@ -650,17 +650,17 @@
         },
         {
           "name": "IMO-AnswerBench",
-          "score": 86.0,
+          "score": 86,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "CritPT",
-          "score": 8.0,
+          "score": 8,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "Apex",
-          "score": 24.0,
+          "score": 24,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -685,7 +685,7 @@
         },
         {
           "name": "IFBench",
-          "score": 76.0,
+          "score": 76,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {

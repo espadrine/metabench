@@ -493,7 +493,7 @@
         },
         {
           "name": "NL2Repo",
-          "score": 41.0,
+          "score": 41,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -518,7 +518,7 @@
         },
         {
           "name": "CoWorkBench",
-          "score": 66.0,
+          "score": 66,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -563,7 +563,7 @@
         },
         {
           "name": "KernelBench L3 median speedup",
-          "score": 2.0,
+          "score": 2,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -618,7 +618,7 @@
         },
         {
           "name": "SuperGPQA",
-          "score": 68.0,
+          "score": 68,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
@@ -628,12 +628,12 @@
         },
         {
           "name": "IFBench",
-          "score": 76.0,
+          "score": 76,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
           "name": "MRCR v2: 2-needle 128k",
-          "score": 62.0,
+          "score": 62,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
