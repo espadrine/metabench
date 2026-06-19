@@ -313,12 +313,12 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "Terminal-bench 2.1",
+          "name": "Terminal-Bench 2.1",
           "score": 78.2,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 58.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
@@ -393,12 +393,12 @@
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
         {
-          "name": "Humanity’s Last Exam",
+          "name": "Humanity's Last Exam",
           "score": 41.4,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
         {
-          "name": "Humanity’s Last Exam (with tools)",
+          "name": "Humanity's Last Exam (with tools)",
           "score": 52.2,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
@@ -423,27 +423,27 @@
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
         {
-          "name": "GraphWalks BFS 256K",
+          "name": "Graphwalks bfs 256k",
           "score": 73.7,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
         {
-          "name": "GraphWalks Parents 256K",
+          "name": "Graphwalks parents 256k",
           "score": 90.1,
           "source": "https://www-cdn.anthropic.com/0f0c97ad20d8005706296bd92aa1c27c6b2f4f61/Claude%20Opus%204.8%20System%20Card.pdf"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 82.9,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 58.6,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "Terminal Bench 2.1",
+          "name": "Terminal-Bench 2.1",
           "score": 78.2,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
@@ -566,6 +566,101 @@
           "name": "VideoMME",
           "score": 89.4,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.6,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.4,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.4,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.4,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.2,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78.7,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "CritPt",
+          "score": 27.1,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 71.5,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 73.7,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Graphwalks parents 256k",
+          "score": 90.1,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode Diamond",
+          "score": 5.7,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1769,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 24.9,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 52.6,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 12.9,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Blueprint-Bench 2",
+          "score": 36.2,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Legal Agent",
+          "score": 2.1,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "HealthBench",
+          "score": 56.5,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 51.8,
+          "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
         }
       ]
     },
@@ -1303,7 +1398,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 92.8,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
@@ -1328,12 +1423,12 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 92,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "MathVision (with tools)",
+          "name": "MATH-Vision (with tools)",
           "score": 96.1,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
@@ -1383,7 +1478,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 92,
           "source": "https://z.ai/blog/glm-5.1"
         },
@@ -1428,12 +1523,12 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "SWE Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 57.7,
           "source": "https://www.minimax.io/news/minimax-m27-en"
         },
         {
-          "name": "Multi-SWE Bench",
+          "name": "Multi-SWE-bench",
           "score": 50,
           "source": "https://www.minimax.io/news/minimax-m27-en"
         },
@@ -1863,7 +1958,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 91,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -2048,7 +2143,7 @@
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 57.7,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
@@ -2594,7 +2689,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 92.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -2614,7 +2709,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 83,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -2859,7 +2954,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 92.4,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -3264,7 +3359,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 83,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -3544,7 +3639,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Humanity's Last Exam w/ tool",
+          "name": "Humanity's Last Exam (with tools)",
           "score": 45.5,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -5485,7 +5580,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 78.06,
           "source": "https://arxiv.org/abs/2602.04705"
         },

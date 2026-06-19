@@ -67,7 +67,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 86.2,
           "source": "https://z.ai/blog/glm-5.1"
         },
@@ -212,7 +212,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 4.6,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
@@ -597,7 +597,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 4.6,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -713,11 +713,11 @@
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 69.0,
+          "score": 69,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 58.4,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
@@ -790,7 +790,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 86,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1110,7 +1110,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 88.6,
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
@@ -1255,7 +1255,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 86,
           "source": "https://z.ai/blog/glm-5.1"
         },
@@ -1746,7 +1746,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 85.7,
           "source": "https://z.ai/blog/glm-5"
         },

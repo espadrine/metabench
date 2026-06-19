@@ -257,7 +257,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 12.9,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
@@ -517,7 +517,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 12.9,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -597,12 +597,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80.6,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.4,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
@@ -652,7 +652,7 @@
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.4,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
@@ -2080,7 +2080,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 82.4,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -2300,7 +2300,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 82.4,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -2475,7 +2475,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 71.84,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -2605,7 +2605,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 82.4,
           "source": "https://z.ai/blog/glm-5.1"
         },

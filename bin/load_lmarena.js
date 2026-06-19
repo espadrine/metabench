@@ -149,6 +149,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "claude-opus-4-7-thinking": "Claude Opus 4.7 Thinking",
   "claude-opus-4-8": "Claude Opus 4.8",
   "claude-opus-4-8-thinking": "Claude Opus 4.8 Thinking",
+  "claude-fable-5": "Claude Fable 5 Thinking",
   "gpt-4o-2024-05-13": "GPT-4o",
   "gpt-5.1": "GPT-5.1 High",
   "gpt-5.2-high": "GPT-5.2 xhigh",

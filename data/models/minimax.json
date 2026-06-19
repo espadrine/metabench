@@ -42,17 +42,17 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80.5,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 59,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "Terminal Bench 2.1",
+          "name": "Terminal-Bench 2.1",
           "score": 66,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
@@ -295,12 +295,12 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "SWE Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 56.2,
           "source": "https://www.minimax.io/news/minimax-m27-en"
         },
         {
-          "name": "Multi-SWE Bench",
+          "name": "Multi-SWE-bench",
           "score": 52.7,
           "source": "https://www.minimax.io/news/minimax-m27-en"
         },
@@ -360,7 +360,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 87,
           "source": "https://z.ai/blog/glm-5.1"
         },
@@ -465,17 +465,17 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 79.9,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 56.2,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "Terminal Bench 2.1",
+          "name": "Terminal-Bench 2.1",
           "score": 51.1,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
@@ -803,12 +803,12 @@
           "source": "https://lmarena.ai/"
         },
         {
-          "name": "SWE Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 55.4,
           "source": "https://www.minimax.io/news/minimax-m27-en"
         },
         {
-          "name": "Multi-SWE Bench",
+          "name": "Multi-SWE-bench",
           "score": 51.3,
           "source": "https://www.minimax.io/news/minimax-m27-en"
         },

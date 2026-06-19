@@ -149,7 +149,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 90.5,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
@@ -174,12 +174,12 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 87.4,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "MathVision (with tools)",
+          "name": "MATH-Vision (with tools)",
           "score": 93.2,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
@@ -299,7 +299,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 8,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
@@ -654,7 +654,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 8,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -734,12 +734,12 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "SWE-Bench Verified",
+          "name": "SWE-bench Verified",
           "score": 80.2,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 58.6,
           "source": "https://www.minimax.io/blog/minimax-m3"
         },
@@ -789,7 +789,7 @@
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 58.6,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         }
@@ -864,7 +864,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 87.6,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -884,7 +884,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 84.2,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -1134,7 +1134,7 @@
           "source": "https://z.ai/blog/glm-5"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 87.6,
           "source": "https://z.ai/blog/glm-5"
         },
@@ -1199,7 +1199,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 84.2,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1479,7 +1479,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Humanity's Last Exam w/ tool",
+          "name": "Humanity's Last Exam (with tools)",
           "score": 50.2,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -1774,7 +1774,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 84.2,
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
@@ -1974,7 +1974,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 87.6,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
@@ -1999,12 +1999,12 @@
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 84.2,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
         {
-          "name": "MathVision (with tools)",
+          "name": "MATH-Vision (with tools)",
           "score": 85,
           "source": "https://www.kimi.com/blog/kimi-k2-6"
         },
@@ -2054,7 +2054,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 87.6,
           "source": "https://z.ai/blog/glm-5.1"
         },

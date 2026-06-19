@@ -62,7 +62,7 @@
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "SWE-Bench Pro",
+          "name": "SWE-bench Pro",
           "score": 52.8,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
@@ -77,7 +77,7 @@
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "IF Bench",
+          "name": "IFBench",
           "score": 69,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
@@ -92,7 +92,7 @@
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "GraphWalks 128K",
+          "name": "Graphwalks 128k",
           "score": 90,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },

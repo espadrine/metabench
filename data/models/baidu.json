@@ -158,7 +158,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 74.34,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -517,7 +517,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 57.3,
           "source": "https://arxiv.org/abs/2602.04705"
         },

@@ -164,7 +164,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 6,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -249,7 +249,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 90.3,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -599,7 +599,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 11.4,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
@@ -1854,7 +1854,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 88,
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
@@ -2124,7 +2124,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 2.9,
           "source": "https://qwen.ai/blog?id=qwen3.7"
         },
@@ -2234,7 +2234,7 @@
           "source": "https://z.ai/blog/glm-5.1"
         },
         {
-          "name": "GPQA-Diamond",
+          "name": "GPQA Diamond",
           "score": 90.4,
           "source": "https://z.ai/blog/glm-5.1"
         },
@@ -2409,7 +2409,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "CritPT",
+          "name": "CritPt",
           "score": 2.9,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -2494,7 +2494,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 88,
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
@@ -3624,7 +3624,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 88.6,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -3944,7 +3944,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "Humanity's Last Exam w/ tool",
+          "name": "Humanity's Last Exam (with tools)",
           "score": 48.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -4294,7 +4294,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 88.6,
           "source": "https://qwen.ai/blog?id=qwen3.6"
         },
@@ -4900,7 +4900,7 @@
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 74.6,
           "source": "https://www.kimi.com/blog/kimi-k2-5.html"
         },
@@ -5055,7 +5055,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 71.84,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -5219,7 +5219,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 62.7,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -5688,7 +5688,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MathVision",
+          "name": "MATH-Vision",
           "score": 60,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
