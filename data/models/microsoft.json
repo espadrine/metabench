@@ -155,11 +155,6 @@
       },
       "benchmarks": [
         {
-          "name": "Size",
-          "score": 5,
-          "source": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
-        },
-        {
           "name": "Active parameters",
           "score": 5,
           "source": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
