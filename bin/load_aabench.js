@@ -573,6 +573,7 @@ const modelNameFromAA = {
   "Qwen3.7 Plus": "Qwen3.7-Plus",
   "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Kimi K2.6": "Kimi K2.6",
+  "Kimi K2.7 Code": "Kimi K2.7 Code",
   "MiniMax-M2.7": "MiniMax M2.7",
   "MiniMax-M3": "MiniMax M3",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",

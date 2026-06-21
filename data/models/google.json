@@ -47,7 +47,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 83.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
@@ -103,12 +103,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 55.3,
+          "score": 50.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 45,
+          "score": 70.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "name": "Output speed",
-          "score": 219.85,
+          "score": 239.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -186,7 +186,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 54.8,
+          "score": 45.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -231,12 +231,12 @@
         },
         {
           "name": "Output speed",
-          "score": 209.01,
+          "score": 240.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LMArena Text",
-          "score": 1477,
+          "score": 1476,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -274,7 +274,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 43.3,
+          "score": 34.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -319,7 +319,7 @@
         },
         {
           "name": "Output speed",
-          "score": 202.87,
+          "score": 205.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -448,12 +448,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 39.2,
+          "score": 29.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 38.7,
+          "score": 43.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -883,7 +883,7 @@
         },
         {
           "name": "Output speed",
-          "score": 35.14,
+          "score": 35.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1012,12 +1012,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 31.2,
+          "score": 25.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 22.4,
+          "score": 39.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1367,7 +1367,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.8,
+          "score": 12.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1517,7 +1517,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 15.2,
+          "score": 9.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1655,12 +1655,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33.5,
+          "score": 25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 30.1,
+          "score": 34.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1700,12 +1700,12 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1433,
+          "score": 1432,
           "source": "https://lmarena.ai/"
         },
         {
           "name": "Output speed",
-          "score": 319.93,
+          "score": 327.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1843,12 +1843,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 57.2,
+          "score": 46.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 55.5,
+          "score": 68.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1888,7 +1888,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1487,
+          "score": 1486,
           "source": "https://lmarena.ai/"
         },
         {
@@ -2263,7 +2263,7 @@
         },
         {
           "name": "Output speed",
-          "score": 130.22,
+          "score": 137.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2512,7 +2512,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 78.2,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
@@ -3141,7 +3141,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 46.4,
+          "score": 37.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3206,7 +3206,7 @@
         },
         {
           "name": "Output speed",
-          "score": 203.59,
+          "score": 209.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3220,7 +3220,7 @@
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 62,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
         },
@@ -3314,7 +3314,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 35,
+          "score": 27.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3379,7 +3379,7 @@
         },
         {
           "name": "Output speed",
-          "score": 190.69,
+          "score": 174.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3987,7 +3987,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 48.4,
+          "score": 39.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5390,7 +5390,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41.3,
+          "score": 33.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5983,7 +5983,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.6,
+          "score": 27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6253,7 +6253,7 @@
         },
         {
           "name": "Output speed",
-          "score": 132.3,
+          "score": 120.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6729,7 +6729,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 27,
+          "score": 20.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6859,7 +6859,7 @@
         },
         {
           "name": "Output speed",
-          "score": 232.27,
+          "score": 205.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7128,7 +7128,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.3,
+          "score": 4.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7365,7 +7365,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.8,
+          "score": 3.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7547,7 +7547,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 6.3,
+          "score": 1.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7694,7 +7694,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 5.6,
+          "score": 1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7810,7 +7810,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7.7,
+          "score": 2.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8125,7 +8125,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 11.1,
+          "score": 5.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8780,7 +8780,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 12,
+          "score": 6.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8917,7 +8917,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.5,
+          "score": 4.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9494,7 +9494,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.1,
+          "score": 4.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9659,7 +9659,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.5,
+          "score": 3.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

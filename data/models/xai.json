@@ -34,12 +34,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 53.2,
+          "score": 37.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 41,
+          "score": 42.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -79,12 +79,12 @@
         },
         {
           "name": "Output speed",
-          "score": 151.27,
+          "score": 175.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LMArena Text",
-          "score": 1443,
+          "score": 1444,
           "source": "https://lmarena.ai/"
         }
       ]
@@ -128,12 +128,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 31,
+          "score": 24.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 25.1,
+          "score": 35.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -173,7 +173,7 @@
         },
         {
           "name": "Output speed",
-          "score": 135.65,
+          "score": 145.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -356,7 +356,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.6,
+          "score": 30.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -535,7 +535,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 23.6,
+          "score": 16.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -858,7 +858,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41.5,
+          "score": 33.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1087,7 +1087,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.2,
+          "score": 18.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1417,7 +1417,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 11.7,
+          "score": 6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

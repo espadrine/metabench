@@ -37,17 +37,19 @@ function parseArguments() {
   };
 }
 
-// Loads benchmark names from a JSON file containing benchmark data.
+// Loads benchmark names from a JSON file containing benchmarks data.
+// The file format is: {"benchmarks": [{name: string}, ...]}
 // - filePath: string, Path to the benchmarks JSON file.
-// Returns {Array<string>} Array of benchmark names.
+// Returns: Array of benchmark names.
 function loadNewBenchmarkNames(filePath) {
   const benchmarksData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  return benchmarksData.map(b => b.name);
+  return benchmarksData.benchmarks.map(b => b.name);
 }
 
 // Loads existing benchmark names from the bm file.
-// - path: string, Path to the bm file.
-// Returns Array of benchmark names from the file.
+// The benchmark file is a plain text file with one benchmark name per line.
+// - path: string, Path to the benchark file.
+// Returns: Array of benchmark names from the file.
 function loadExistingBenchmarkNames(path) {
   const content = fs.readFileSync(path, 'utf8');
   return content.split('\n').filter(l => l.trim() !== '');
@@ -55,17 +57,17 @@ function loadExistingBenchmarkNames(path) {
 
 // Finds benchmark names that are in newBenchmarks but not in existingBenchmarks.
 // - newBenchmarks: Array of new benchmark names to check.
-// - existingBenchmarks - Array of known benchmark names.
-// Returns Array of benchmark names that are missing.
+// - existingBenchmarks: Array of known benchmark names.
+// Returns: Array of benchmark names that are missing.
 function findMissingBenchmarks(newBenchmarks, existingBenchmarks) {
   return newBenchmarks.filter(b => !existingBenchmarks.includes(b));
 }
 
 // For each missing benchmark, finds the closest match from existing benchmarks
 // using Levenshtein distance, then sorts results by distance (lowest to highest).
-// - missingBenchmarks - Array of benchmark names not in existing list.
-// - existingBenchmarks - Array of known benchmark names.
-// Returns Array of objects with name, closest match, and distance properties,
+// - missingBenchmarks: Array of benchmark names not in existing list.
+// - existingBenchmarks: Array of known benchmark names.
+// Returns: Array of objects with name, closest match, and distance properties,
 // sorted by distance ascending.
 function findNearestBenchmarkNames(missingBenchmarks, existingBenchmarks) {
   return missingBenchmarks.map(missingBench => {
@@ -102,15 +104,14 @@ Arguments:
 Description:
   Finds benchmarks listed in <benchmarks.json> that are not in <existing-benchmarks.txt>.
   For each missing benchmark, outputs the benchmark name and its closest match
-  from bm, ordered by Levenshtein distance from lowest to highest.
+  from <existing-benchmarks.txt>, ordered by Levenshtein distance from lowest to highest.
 
   The output has two tab-separated columns:
-  - First column: Benchmark name from benchmarks.json that is not in bm
-  - Second column: Closest matching benchmark from bm (by Levenshtein distance)
+  - First column: Benchmark name from benchmarks.json that is not in existing benchmarks
+  - Second column: Closest matching benchmark from existing benchmarks (by Levenshtein distance)
 
-Examples:
+Example:
   node bin/check_bench_names.js ./benchmarks.json ./bm
-  node bin/check_bench_names.js benchmarks.json bm --help
 
 Options:
   --help, -h    Show this help message
