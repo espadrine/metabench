@@ -727,6 +727,66 @@
           "name": "Output speed",
           "score": 200.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 53.5,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "CritPt",
+          "score": 13.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 97,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 95,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 97.1,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 90,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 60.6,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 47.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 18,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 76.4,
+          "source": "https://z.ai/blog/glm-5.2"
         }
       ]
     },

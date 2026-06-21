@@ -250,6 +250,51 @@
           "name": "LMArena Text",
           "score": 1448,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "CritPt",
+          "score": 3.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 84.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 84.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 59,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 42.1,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 20,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 74.2,
+          "source": "https://z.ai/blog/glm-5.2"
         }
       ]
     },

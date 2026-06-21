@@ -173,6 +173,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "deepseek-v4-pro": "DeepSeek V4 Pro Non-Think",
   "deepseek-v4-pro-thinking": "DeepSeek V4 Pro",
   "glm-5.1": "GLM-5.1",
+  "glm-5.2 (max)": "GLM-5.2",
   "kimi-k2.6": "Kimi K2.6",
   "grok-4.2": "Grok 4.2",
   "grok-4.20-beta1": "Grok 4.2",

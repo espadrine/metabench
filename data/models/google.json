@@ -2985,6 +2985,96 @@
           "name": "Legal Agent",
           "score": 0,
           "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 45,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 51.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "CritPt",
+          "score": 17.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 98.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 94.8,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 87.3,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 81,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.3,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 33.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 10,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Program Bench",
+          "score": 39.5,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 70.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 39.6,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 21.6,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 48.8,
+          "source": "https://z.ai/blog/glm-5.2"
         }
       ]
     },

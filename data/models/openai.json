@@ -691,6 +691,61 @@
           "name": "MCP Mark Verified",
           "score": 92.9,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 98.3,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 96.5,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 96.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 50.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 70,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Program Bench",
+          "score": 70.8,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 72.6,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 28.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 12,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 55.6,
+          "source": "https://z.ai/blog/glm-5.2"
         }
       ]
     },

@@ -1,6 +1,194 @@
 {
   "models": [
     {
+      "name": "GLM-5.2",
+      "company": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.2",
+      "release_date": "2026-06-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 753.864158464,
+          "source": "https://huggingface.co/zai-org/GLM-5.2"
+        },
+        {
+          "name": "Active parameters",
+          "score": 40,
+          "source": "https://huggingface.co/zai-org/GLM-5.2"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 141,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.5,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "CritPt",
+          "score": 20.9,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 99.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 94.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 92.5,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 91,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 62.1,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 48.9,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 46.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Program Bench",
+          "score": 63.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 74.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 34.3,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 13,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 76.8,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 48.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 68.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 73.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 71.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 50.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 99.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 88.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1471,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "GLM-5.1",
       "company": "Z.ai",
       "url": "https://z.ai/blog/glm-5.1",
@@ -35,6 +223,11 @@
           "name": "Active parameters",
           "score": 40,
           "source": "https://huggingface.co/zai-org/GLM-5"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 122,
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "Humanity's Last Exam",

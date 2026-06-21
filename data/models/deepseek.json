@@ -858,6 +858,81 @@
           "name": "Output speed",
           "score": 98.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.7,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 48.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "CritPt",
+          "score": 12.9,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 94.6,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 94.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 95.2,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 89.8,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.1,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 55.4,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 35.5,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 8,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Program Bench",
+          "score": 47.8,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 29,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 73.6,
+          "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Tool Decathlon",
+          "score": 52.8,
+          "source": "https://z.ai/blog/glm-5.2"
         }
       ]
     },
