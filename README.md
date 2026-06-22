@@ -122,11 +122,16 @@ Rules to add a benchmark:
 - The benchmark name should follow the official, case-sensitive name given in
   the academic paper that introduced it.
 - The name of the benchmark should match that which is already used in the `data/models/` files.
-  Before adding new benchmarks, compare the benchmarks by matching them to existing ones:
+  Before adding new benchmarks, compare the benchmarks by matching them to existing ones.
+  First, generate the canonical name list from all model files (do not edit `./bm` directly):
   ```
   node bin/list-benchmarks.js | awk 'FS="\t" {print $1}' > bm
-  node bin/check_bench_names.js ./benchmarks.json ./bm
   ```
+  Then check your proposed names against it:
+  ```
+  node bin/check_bench_names.js <(jq '.models[0]' data/models/<company>.json) ./bm
+  ```
+  Fix any mismatches before proceeding. For each flagged name, use the closest match shown.
 - All benchmarks must be sourced with links to the authoritative information,
   typically the official model announcement, model card, technical report, or
   the official model weights repository.
@@ -165,5 +170,21 @@ Rules to add a model:
   Use the price of the official provider's API if it exists, or openrouter otherwise.
 - If open-sourced, the following benchmarks are mandatory, at the top, and in this order: `Input cost`, `Output cost`.
 - If available, add the "ArtificialAnalysis Consumed Tokens (Millions)" benchmark afterwards.
+
+Rules to add model name mappings to external benchmark data:
+- When adding a new model, also add mapping entries in `bin/load_aabench.js`
+  (`modelNameFromAA`) and `bin/load_lmarena.js` (`KNOWN_MODEL_MAPPINGS`) so
+  external benchmark data (AA/LMArena) can be matched to the model.
+- Find the exact external name by searching the data files for similar models:
+  for instance if the model is `GLM-5.2`,
+  ```
+  node -e "const d=JSON.parse(require('fs').readFileSync('data/aabench.json','utf8')); console.log(d.data.map(m=>m.name).filter(n=>n.includes('GLM')))"
+  node -e "const d=JSON.parse(require('fs').readFileSync('data/lmarena.json','utf8')); console.log(Object.keys(d.text).filter(k=>k.includes('glm')))"
+  ```
+  Do not guess the external name; it must match exactly.
+- For models with both a base and "Thinking" variant: when adding comparison
+  benchmarks from another model's announcement blog, the table typically refers
+  to the best/reasoning variant. Add the scores to the "Thinking" variant if
+  one exists, unless the source explicitly states otherwise.
 
 [determinism]: https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/
