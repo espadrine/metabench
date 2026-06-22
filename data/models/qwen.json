@@ -1662,6 +1662,36 @@
           "name": "Output speed",
           "score": 177.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 35.0,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "Terminal-Bench v2",
+          "score": 51.5,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.4,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 49.5,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SciCode",
+          "score": 35.8,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.4,
+          "source": "https://cohere.com/blog/north-mini-code"
         }
       ]
     },

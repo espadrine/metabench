@@ -1259,6 +1259,36 @@
           "name": "Video-MMMU",
           "score": 76,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+     {
+          "name": "SWE-bench Pro",
+          "score": 13,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "Terminal-Bench v2",
+          "score": 34.2,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 25.0,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 17.4,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SciCode",
+          "score": 40.0,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.1,
+          "source": "https://cohere.com/blog/north-mini-code"
         }
       ]
     },

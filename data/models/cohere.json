@@ -1,6 +1,64 @@
 {
   "models": [
     {
+      "name": "North Mini Code 1.0",
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/north-mini-code",
+      "release_date": "2026-06-09",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 30,
+          "source": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3,
+          "source": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4"
+        },
+        {
+          "name": "Terminal-Bench v2",
+          "score": 36.0,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 31.1,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 67.6,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 40.2,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "SciCode",
+          "score": 38.2,
+          "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.3,
+          "source": "https://cohere.com/blog/north-mini-code"
+        }
+      ]
+    },
+    {
       "name": "Command A+",
       "company": "Cohere",
       "url": "https://cohere.com/blog/command-a-plus",
@@ -17,16 +75,6 @@
         ]
       },
       "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 0,
-          "source": "https://cohere.com/pricing"
-        },
-        {
-          "name": "Output cost",
-          "score": 0,
-          "source": "https://cohere.com/pricing"
-        },
         {
           "name": "Size",
           "score": 218,
