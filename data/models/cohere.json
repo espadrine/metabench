@@ -1,6 +1,208 @@
 {
   "models": [
     {
+      "name": "Command A+",
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/command-a-plus",
+      "release_date": "2026-05-20",
+      "capabilities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0,
+          "source": "https://cohere.com/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0,
+          "source": "https://cohere.com/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 218,
+          "source": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4"
+        },
+        {
+          "name": "Active parameters",
+          "score": 25,
+          "source": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 85,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 25,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "IFBench",
+          "score": 74,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 90,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "SciCode",
+          "score": 38,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "MMMU",
+          "score": 75.1,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "MathVista",
+          "score": 80.6,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 52.7,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "WMT24++",
+          "score": 81,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 63,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 29.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 73.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 196.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Command A Reasoning",
+      "company": "Cohere",
+      "url": "https://cohere.com/blog/command-a-reasoning",
+      "release_date": "2025-08-21",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://cohere.com/blog/command-a"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://cohere.com/blog/command-a"
+        },
+        {
+          "name": "Size",
+          "score": 111.057580032,
+          "source": "https://huggingface.co/CohereLabs/command-a-reasoning-08-2025"
+        },
+        {
+          "name": "Active parameters",
+          "score": 111.057580032,
+          "source": "https://huggingface.co/CohereLabs/command-a-reasoning-08-2025"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 37,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 3,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "IFBench",
+          "score": 36,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 57,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "SciCode",
+          "score": 30,
+          "source": "https://cohere.com/blog/command-a-plus"
+        },
+        {
+          "name": "WMT24++",
+          "score": 73,
+          "source": "https://cohere.com/blog/command-a-plus"
+        }
+      ]
+    },
+    {
       "name": "Command-A",
       "company": "Cohere",
       "url": "https://cohere.com/blog/command-a",
