@@ -1,6 +1,131 @@
 {
   "models": [
     {
+      "name": "Gemma 4 12B",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
+      "release_date": "2026-06-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.05,
+          "source": "https://openrouter.ai/google/gemma-3-12b-it"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.15,
+          "source": "https://openrouter.ai/google/gemma-3-12b-it"
+        },
+        {
+          "name": "Size",
+          "score": 11.95,
+          "source": "https://huggingface.co/google/gemma-4-12B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 11.95,
+          "source": "https://huggingface.co/google/gemma-4-12B"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 77.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 77.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1659,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.8,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 69.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 26.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 53.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 83.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 69.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.164,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 79.7,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 48.7,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "CoVoST",
+          "score": 38.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "FLEURS (en)",
+          "score": 0.069,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 43.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        }
+      ]
+    },
+    {
       "name": "Gemini 3.5 Flash high",
       "company": "Google",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/#gemini-3-5-flash",
@@ -885,6 +1010,81 @@
           "name": "Output speed",
           "score": 35.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 89.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Codeforces",
+          "score": 2150,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.3,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 76.9,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 19.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 26.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 74.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 88.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 76.9,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.131,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 85.6,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 61.3,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 66.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         }
       ]
     },
@@ -1289,6 +1489,81 @@
           "name": "LiveCodeBench",
           "score": 77.1,
           "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.6,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 88.3,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1718,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.3,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 68.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.7,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 17.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 64.8,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.3,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.8,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.149,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 82.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 58.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 44.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         }
       ]
     },
@@ -1439,6 +1714,66 @@
           "name": "τ²-Bench",
           "score": 20.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 69.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 42.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 52.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Codeforces",
+          "score": 940,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 58.6,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 42.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 33.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 76.6,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 52.6,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.181,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 59.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 25.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         }
       ]
     },
@@ -1589,6 +1924,66 @@
           "name": "τ²-Bench",
           "score": 20.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 60.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 37.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 44.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Codeforces",
+          "score": 633,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 43.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 24.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 21.9,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 67.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 44.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.290,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 52.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 19.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         }
       ]
     },
@@ -7380,6 +7775,66 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 13.5,
           "source": "https://huggingface.co/google/gemma-4-31B-it"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 67.6,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 20.8,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 29.1,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Codeforces",
+          "score": 110,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 42.4,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 16.2,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 19.3,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMLU",
+          "score": 70.7,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 49.7,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.365,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 46.0,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 13.5,
+          "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         }
       ]
     },
