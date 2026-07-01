@@ -19,12 +19,12 @@
         {
           "name": "Input cost",
           "score": 1.74,
-          "source": "https://api-docs.deepseek.com/news/news250929"
+          "source": "https://api-docs.deepseek.com/news/news260424"
         },
         {
           "name": "Output cost",
           "score": 3.48,
-          "source": "https://api-docs.deepseek.com/news/news250929"
+          "source": "https://api-docs.deepseek.com/news/news260424"
         },
         {
           "name": "Size",

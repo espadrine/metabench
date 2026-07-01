@@ -132,6 +132,17 @@
           <option value="ArtificialAnalysis Consumed Tokens (Millions)">ArtificialAnalysis Consumed Tokens (Millions)</option>
         </select>
       </div>
+      <div id="filter-controls" style="margin-bottom: 1em;">
+        <label>Filter: </label>
+        <select id="filter-metric">
+          <option value="">No metric</option>
+        </select>
+        <select id="filter-operator">
+          <option value="&lt;">&lt;</option>
+          <option value="&gt;" selected>&gt;</option>
+        </select>
+        <input type="number" id="filter-value" placeholder="Value" style="width: 100px;" />
+      </div>
     </div>
     <div id="table-container" class="tab-panel">
       <div id="leaderboard">Loading…</div>

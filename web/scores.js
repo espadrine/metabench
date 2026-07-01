@@ -26,7 +26,11 @@ let state = {
   // History Chart.js instance
   historyChart: null,
   // string - current X-axis metric
-  xAxisMetric: 'Cost of 1K responses'
+  xAxisMetric: 'Cost of 1K responses',
+  // Filter state
+  filterMetric: null,
+  filterOperator: '>',
+  filterValue: null
 };
 
 // ----- Utility functions -----
@@ -97,7 +101,7 @@ function buildCompanyColors(state, metric) {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
     const xAxisValue = model.benchmarks[state.xAxisMetric]?.score;
 
-    if (typeof metricScore === 'number' && typeof xAxisValue === 'number') {
+    if (typeof metricScore === 'number' && typeof xAxisValue === 'number' && modelPassesFilter(model, state)) {
       companies.add(model.company);
     }
   });
@@ -118,7 +122,7 @@ function buildChartDatasets(state, metric, companyColors) {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
     const xAxisValue = model.benchmarks[state.xAxisMetric]?.score;
 
-    if (typeof metricScore === 'number' && typeof xAxisValue === 'number') {
+    if (typeof metricScore === 'number' && typeof xAxisValue === 'number' && modelPassesFilter(model, state)) {
       let backgroundColor, borderColor;
 
       if (Object.keys(companyColors).length > 0) {
@@ -183,7 +187,7 @@ function generateLegendLabels(state, companyColors, metric) {
     const company = model.company;
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
 
-    if (typeof metricScore === 'number') {
+    if (typeof metricScore === 'number' && modelPassesFilter(model, state)) {
       if (!companies[company]) {
         companies[company] = {
           text: company,
@@ -627,6 +631,9 @@ const widgets = {
   tableContainer: document.getElementById('table-container'),
   historyContainer: document.getElementById('history-container'),
   xAxisSelect: document.getElementById('x-axis-select'),
+  filterMetric: document.getElementById('filter-metric'),
+  filterOperator: document.getElementById('filter-operator'),
+  filterValue: document.getElementById('filter-value'),
   chartElement: document.getElementById('chart'),
   historyChartElement: document.getElementById('history-chart')
 };
@@ -639,10 +646,31 @@ if (widgets.xAxisSelect) {
   });
 }
 
+// Add event listeners for filter controls
+if (widgets.filterMetric) {
+  widgets.filterMetric.addEventListener('change', (e) => {
+    state.filterMetric = e.target.value || null;
+    render(state, widgets);
+  });
+}
+if (widgets.filterOperator) {
+  widgets.filterOperator.addEventListener('change', (e) => {
+    state.filterOperator = e.target.value;
+    render(state, widgets);
+  });
+}
+if (widgets.filterValue) {
+  widgets.filterValue.addEventListener('input', (e) => {
+    state.filterValue = e.target.value === '' ? null : parseFloat(e.target.value);
+    render(state, widgets);
+  });
+}
+
 // ----- Rendering -----
 
 function render(state, widgets) {
   renderMetricControls(state, widgets);
+  renderFilterMetricDropdown(state, widgets);
   renderTabs(state, widgets);
 
   if (state.currentTab === 'chart') {
@@ -708,6 +736,18 @@ function renderMetricControls(state, widgets) {
   widgets.metricControls.appendChild(addMetricBtn);
 }
 
+// Populate filter metric dropdown with benchmark names
+function renderFilterMetricDropdown(state, widgets) {
+  if (!widgets.filterMetric) return;
+  widgets.filterMetric.innerHTML = '<option value="">No metric</option>';
+  state.benchmarkNames.forEach((bench) => {
+    const option = document.createElement('option');
+    option.value = bench;
+    option.textContent = bench;
+    widgets.filterMetric.appendChild(option);
+  });
+}
+
 // Leaderboard table.
 function renderTable(state, widgets) {
   // Determine column order
@@ -738,8 +778,8 @@ function renderTable(state, widgets) {
 
   const tbody = document.createElement('tbody');
 
-  // Sort models if we have a current metric
-  let modelsToRender = [...state.models];
+  // Filter and sort models
+  let modelsToRender = state.models.filter(model => modelPassesFilter(model, state));
   if (state.currentMetricIndex !== null && state.metrics[state.currentMetricIndex]) {
     const metric = state.metrics[state.currentMetricIndex];
     modelsToRender.sort((a, b) => {
@@ -818,6 +858,9 @@ function renderChart(state, widgets) {
     widgets.chartElement.innerHTML = `<p>${state.xAxisMetric} benchmark not found in data.</p>`;
     return;
   }
+
+  // Filter models based on filter criteria
+  const filteredModels = state.models.filter(model => modelPassesFilter(model, state));
 
   // Group data by company for coloring
   // Build company colors for chart
@@ -1342,6 +1385,18 @@ function inverseErf(x) {
   return Math.sign(x) * Math.sqrt(Math.sqrt(b * b - ln / a) - b);
 }
 
+// Check if a model passes the current filter
+function modelPassesFilter(model, state) {
+  if (!state.filterMetric || state.filterValue === null) return true;
+  const entry = model.benchmarks[state.filterMetric];
+  if (!entry || typeof entry.score !== 'number') return false;
+  const score = entry.score;
+  const value = state.filterValue;
+  if (state.filterOperator === '<') {
+    return score < value;
+  }
+  return score > value;
+}
 
 // ----- Event listeners -----
 
