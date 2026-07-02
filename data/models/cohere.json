@@ -28,7 +28,7 @@
         },
         {
           "name": "Terminal-Bench v2",
-          "score": 36.0,
+          "score": 36,
           "source": "https://cohere.com/blog/north-mini-code"
         },
         {
@@ -177,7 +177,7 @@
         },
         {
           "name": "Output speed",
-          "score": 196.59,
+          "score": 157.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -417,7 +417,7 @@
         },
         {
           "name": "Output speed",
-          "score": 72.92,
+          "score": 57.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

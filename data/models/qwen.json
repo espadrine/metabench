@@ -455,7 +455,7 @@
         },
         {
           "name": "Output speed",
-          "score": 50.95,
+          "score": 50.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -725,7 +725,7 @@
         },
         {
           "name": "Output speed",
-          "score": 200.22,
+          "score": 197.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1100,7 +1100,7 @@
         },
         {
           "name": "Output speed",
-          "score": 64.02,
+          "score": 57.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1660,12 +1660,12 @@
         },
         {
           "name": "Output speed",
-          "score": 177.2,
+          "score": 138.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench Hard",
-          "score": 35.0,
+          "score": 35,
           "source": "https://cohere.com/blog/north-mini-code"
         },
         {
@@ -2365,7 +2365,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.69,
+          "score": 52.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3305,7 +3305,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.1,
+          "score": 83.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3655,7 +3655,7 @@
         },
         {
           "name": "Output speed",
-          "score": 169.05,
+          "score": 158.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4685,7 +4685,7 @@
         },
         {
           "name": "Output speed",
-          "score": 51.37,
+          "score": 51.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4932,7 +4932,7 @@
         },
         {
           "name": "Output speed",
-          "score": 95.02,
+          "score": 126.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5246,7 +5246,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.27,
+          "score": 59.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5715,7 +5715,7 @@
         },
         {
           "name": "Output speed",
-          "score": 134.11,
+          "score": 135.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6422,7 +6422,7 @@
         },
         {
           "name": "Output speed",
-          "score": 189.33,
+          "score": 174.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6889,7 +6889,7 @@
         },
         {
           "name": "Output speed",
-          "score": 66.94,
+          "score": 64.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7076,7 +7076,7 @@
         },
         {
           "name": "Output speed",
-          "score": 108.84,
+          "score": 109.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7510,12 +7510,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.1,
+          "score": 10.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 13.1,
+          "score": 13.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7580,7 +7580,7 @@
         },
         {
           "name": "Output speed",
-          "score": 63.24,
+          "score": 61.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -79,6 +79,61 @@
           "name": "ARC-AGI-2",
           "score": 83.3,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.6,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.4,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.4,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.4,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.2,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78.7,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1",
+          "score": 25.5,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1509,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 12.9,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Legal Agent",
+          "score": 2.1,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 51.8,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
         }
       ]
     },
@@ -309,7 +364,7 @@
         },
         {
           "name": "Output speed",
-          "score": 66.8,
+          "score": 80.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -831,7 +886,7 @@
         },
         {
           "name": "Output speed",
-          "score": 66.77,
+          "score": 63.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -923,7 +978,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.15,
+          "score": 65.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1010,7 +1065,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.81,
+          "score": 68.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1729,7 +1784,7 @@
         },
         {
           "name": "Output speed",
-          "score": 162.47,
+          "score": 157.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2406,7 +2461,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.7,
+          "score": 79.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3810,7 +3865,7 @@
         },
         {
           "name": "Output speed",
-          "score": 89.92,
+          "score": 71.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4419,7 +4474,7 @@
         },
         {
           "name": "Output speed",
-          "score": 113.43,
+          "score": 98.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4615,7 +4670,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.45,
+          "score": 83.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4734,7 +4789,7 @@
         },
         {
           "name": "Output speed",
-          "score": 195.38,
+          "score": 143.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5741,7 +5796,7 @@
         },
         {
           "name": "Output speed",
-          "score": 99.36,
+          "score": 93.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5863,7 +5918,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.7,
+          "score": 69.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5985,7 +6040,7 @@
         },
         {
           "name": "Output speed",
-          "score": 92.14,
+          "score": 84.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6107,7 +6162,7 @@
         },
         {
           "name": "Output speed",
-          "score": 73.69,
+          "score": 70.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6449,7 +6504,7 @@
         },
         {
           "name": "Output speed",
-          "score": 92.87,
+          "score": 93.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6551,7 +6606,7 @@
         },
         {
           "name": "Output speed",
-          "score": 102.68,
+          "score": 100.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6653,7 +6708,7 @@
         },
         {
           "name": "Output speed",
-          "score": 95.6,
+          "score": 95.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6920,7 +6975,7 @@
         },
         {
           "name": "Output speed",
-          "score": 169.67,
+          "score": 138.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7022,7 +7077,7 @@
         },
         {
           "name": "Output speed",
-          "score": 167.18,
+          "score": 139.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7124,7 +7179,7 @@
         },
         {
           "name": "Output speed",
-          "score": 172.86,
+          "score": 141.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7831,7 +7886,7 @@
         },
         {
           "name": "Output speed",
-          "score": 172,
+          "score": 138.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7938,7 +7993,7 @@
         },
         {
           "name": "Output speed",
-          "score": 232.69,
+          "score": 219.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8352,7 +8407,7 @@
         },
         {
           "name": "Output speed",
-          "score": 139.83,
+          "score": 126.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8615,7 +8670,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.56,
+          "score": 83.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8763,12 +8818,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7.3,
+          "score": 9.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 11.2,
+          "score": 11.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8838,7 +8893,7 @@
         },
         {
           "name": "Output speed",
-          "score": 191.92,
+          "score": 182.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9352,7 +9407,7 @@
         },
         {
           "name": "Output speed",
-          "score": 234.23,
+          "score": 227.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9470,7 +9525,7 @@
         },
         {
           "name": "Output speed",
-          "score": 261.56,
+          "score": 264.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9662,7 +9717,7 @@
         },
         {
           "name": "Output speed",
-          "score": 146.04,
+          "score": 123.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10244,7 +10299,7 @@
         },
         {
           "name": "Output speed",
-          "score": 105.05,
+          "score": 100.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10397,7 +10452,7 @@
         },
         {
           "name": "Output speed",
-          "score": 37.68,
+          "score": 38.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10693,7 +10748,7 @@
         },
         {
           "name": "Output speed",
-          "score": 40.69,
+          "score": 39.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

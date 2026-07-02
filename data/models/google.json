@@ -50,7 +50,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 72.0,
+          "score": 72,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -65,7 +65,7 @@
         },
         {
           "name": "τ²-Bench",
-          "score": 69.0,
+          "score": 69,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -80,7 +80,7 @@
         },
         {
           "name": "BIG-Bench Extra Hard",
-          "score": 53.0,
+          "score": 53,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -273,7 +273,7 @@
         },
         {
           "name": "Output speed",
-          "score": 239.77,
+          "score": 219.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -356,13 +356,48 @@
         },
         {
           "name": "Output speed",
-          "score": 240.41,
+          "score": 216.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LMArena Text",
           "score": 1476,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 55.1,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 76.2,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.2,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 78.4,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1357,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 14.5,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Legal Agent",
+          "score": 0.8,
+          "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
         }
       ]
     },
@@ -444,7 +479,7 @@
         },
         {
           "name": "Output speed",
-          "score": 205.19,
+          "score": 200.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1008,7 +1043,7 @@
         },
         {
           "name": "Output speed",
-          "score": 35.35,
+          "score": 34.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1023,7 +1058,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 80.0,
+          "score": 80,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -1460,7 +1495,7 @@
           "score": 76,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
-     {
+        {
           "name": "SWE-bench Pro",
           "score": 13,
           "source": "https://cohere.com/blog/north-mini-code"
@@ -1472,7 +1507,7 @@
         },
         {
           "name": "Terminal-Bench Hard",
-          "score": 25.0,
+          "score": 25,
           "source": "https://cohere.com/blog/north-mini-code"
         },
         {
@@ -1482,7 +1517,7 @@
         },
         {
           "name": "SciCode",
-          "score": 40.0,
+          "score": 40,
           "source": "https://cohere.com/blog/north-mini-code"
         },
         {
@@ -1727,7 +1762,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 52.0,
+          "score": 52,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -1927,7 +1962,7 @@
         },
         {
           "name": "MMLU-Pro",
-          "score": 60.0,
+          "score": 60,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -1937,7 +1972,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 44.0,
+          "score": 44,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -1972,7 +2007,7 @@
         },
         {
           "name": "OmniDocBench 1.5",
-          "score": 0.290,
+          "score": 0.29,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -2130,7 +2165,7 @@
         },
         {
           "name": "Output speed",
-          "score": 327.63,
+          "score": 313.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2688,7 +2723,7 @@
         },
         {
           "name": "Output speed",
-          "score": 137.93,
+          "score": 133.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3721,7 +3756,7 @@
         },
         {
           "name": "Output speed",
-          "score": 209.31,
+          "score": 189.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3894,7 +3929,7 @@
         },
         {
           "name": "Output speed",
-          "score": 174.94,
+          "score": 185.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6498,12 +6533,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 27,
+          "score": 25.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 32,
+          "score": 33.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6768,7 +6803,7 @@
         },
         {
           "name": "Output speed",
-          "score": 120.59,
+          "score": 136.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7374,7 +7409,7 @@
         },
         {
           "name": "Output speed",
-          "score": 205.67,
+          "score": 221.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7643,12 +7678,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 4.8,
+          "score": 7.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 9.6,
+          "score": 10.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7828,7 +7863,7 @@
         },
         {
           "name": "MATH-Vision",
-          "score": 46.0,
+          "score": 46,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
         },
         {
@@ -7945,7 +7980,7 @@
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 6.3,
+          "score": 5.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

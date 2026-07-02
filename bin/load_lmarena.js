@@ -144,6 +144,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "claude-haiku-4-5-20251001": "Claude Haiku 4.5 Thinking",
   "claude-3-7-sonnet-20250219-thinking-32k": "Claude Sonnet 3.7 Thinking",
   "claude-3-7-sonnet-20250219": "Claude Sonnet 3.7",
+  "claude-sonnet-5-20260630-thinking-32k": "Claude Sonnet 5 Thinking",
   "claude-opus-4-1-20250805-thinking-16k": "Claude Opus 4.1 Thinking",
   "claude-opus-4-7": "Claude Opus 4.7",
   "claude-opus-4-7-thinking": "Claude Opus 4.7 Thinking",
