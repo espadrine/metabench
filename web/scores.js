@@ -562,7 +562,6 @@ const categoryBenchmarks = {
     'τ²-Bench Telecom': 1,
     'APEX-Agents': 1,
     'BrowseComp': 1,
-    'BrowseComp (with tools)': 1,
     'GAIA (text)': 1,
     'AgentCompany': 1,
     'Finance Agent': 1,

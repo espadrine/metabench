@@ -663,7 +663,7 @@
           "source": "https://x.ai/news/grok-4-fast"
         },
         {
-          "name": "BrowseComp (with tools)",
+          "name": "BrowseComp",
           "score": 44.9,
           "source": "https://x.ai/news/grok-4-fast"
         },
@@ -777,7 +777,7 @@
           "source": "https://x.ai/news/grok-4"
         },
         {
-          "name": "BrowseComp (with tools)",
+          "name": "BrowseComp",
           "score": 43,
           "source": "https://x.ai/news/grok-4-fast"
         },
