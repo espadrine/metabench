@@ -607,6 +607,7 @@ const modelNameFromAA = {
   "Grok 4.3 (high)": "Grok 4.3",
   "Grok 4.3 (Non-reasoning)": "Grok 4.3 none",
   "Muse Spark": "Muse Spark",
+  "Muse Spark 1.1 (xhigh)": "Muse Spark 1.1",
   "ERNIE 5.0 Thinking Preview": "ERNIE 5",
 };
 

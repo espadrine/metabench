@@ -1,6 +1,139 @@
 {
   "models": [
     {
+      "name": "Muse Spark 1.1",
+      "company": "Meta",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "release_date": "2026-07-09",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://developer.meta.com/ai/resources/blog/build-with-muse-spark/"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.25,
+          "source": "https://developer.meta.com/ai/resources/blog/build-with-muse-spark/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 94,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 88.1,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "JobBench",
+          "score": 54.7,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 75.6,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 80.8,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 62.1,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 57.2,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 61.5,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 53.3,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 88.4,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "BabyVision",
+          "score": 76.3,
+          "source": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 71.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 45.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 58.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 63.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 77.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 25.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 122.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Muse Spark",
       "company": "Meta",
       "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
@@ -162,23 +295,23 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
-          "name": "τ²-Bench",
-          "score": 91.52,
-          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        },
-        {
-          "name": "LMArena Text",
-          "score": 1487,
-          "source": "https://lmarena.ai/"
-        },
-        {
           "name": "Terminal-Bench 2.1",
           "score": 62.17,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
+          "name": "τ²-Bench",
+          "score": 91.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
           "name": "τ³ Banking",
           "score": 19.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 122.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
