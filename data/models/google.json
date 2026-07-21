@@ -1,6 +1,175 @@
 {
   "models": [
     {
+      "name": "DiffusionGemma",
+      "company": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "release_date": "2026-06-10",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.06,
+          "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.33,
+          "source": "https://openrouter.ai/google/gemma-4-26b-a4b-it"
+        },
+        {
+          "name": "Size",
+          "score": 25.823778864,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Active parameters",
+          "score": 4,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Output speed",
+          "score": 1100,
+          "source": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 37,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 77.6,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 69.1,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 69.1,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1429,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73.2,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 56.2,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 11.9,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 47.6,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 81.5,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 54.3,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.319,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 70.5,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 49,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 32,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 13.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 19.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 66.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 34.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 59.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 14.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 12.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 6.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Gemma 4 12B",
       "company": "Google",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12B/",
@@ -1649,6 +1818,81 @@
           "name": "τ³ Banking",
           "score": 11.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.6,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 88.3,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.1,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Codeforces",
+          "score": 1718,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.3,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 68.2,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 8.7,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 17.2,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "BIG-Bench Extra Hard",
+          "score": 64.8,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MMMLU",
+          "score": 86.3,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.8,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 0.149,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 82.4,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MedXPertQA MM",
+          "score": 58.1,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 44.1,
+          "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
         }
       ]
     },

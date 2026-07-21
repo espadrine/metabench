@@ -525,6 +525,7 @@ const modelNameFromAA = {
   "Gemma 4 31B (Reasoning)": "Gemma 4 31B",
   "Gemma 4 E2B (Reasoning)": "Gemma 4 E2B",
   "Gemma 4 E4B (Reasoning)": "Gemma 4 E4B",
+  "DiffusionGemma 26B A4B": "DiffusionGemma",
   "GLM-4.5 (Reasoning)": "GLM-4.5",
   "GLM-4.6 (Reasoning)": "GLM-4.6",
   "GLM-4.7 (Reasoning)": "GLM-4.7",
