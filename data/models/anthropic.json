@@ -340,6 +340,101 @@
           "name": "ExploitBench",
           "score": 78,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 80.3,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 88,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BenchCAD",
+          "score": 38.4,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 65,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 78,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 61.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 91.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 79.4,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 77.8,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 87.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BenchCAD",
+          "score": 35.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 61,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 74.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.6,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 61.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 85.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 74.3,
+          "source": "https://openai.com/index/gpt-5-6/"
         }
       ]
     },
@@ -499,6 +594,71 @@
           "name": "Toolathlon",
           "score": 61.7,
           "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 77.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 80,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 69.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 40.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1759.6,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Management Consulting Tasks (Internal)",
+          "score": 35.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 59.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 17.4,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 61.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.6,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 87,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 87.8,
+          "source": "https://openai.com/index/gpt-5-6/"
         }
       ]
     },
@@ -988,6 +1148,106 @@
           "name": "ExploitBench",
           "score": 40,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 72.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 69.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 59,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 45.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1600.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BigFinanceBench",
+          "score": 44,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.3,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BenchCAD",
+          "score": 27.3,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 51.8,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 54.8,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 40,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 80,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 56.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 15.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 59.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 85.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 68.1,
+          "source": "https://openai.com/index/gpt-5-6/"
         }
       ]
     },

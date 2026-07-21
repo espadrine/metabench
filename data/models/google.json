@@ -398,6 +398,26 @@
           "name": "Legal Agent",
           "score": 0.8,
           "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1348.8,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GeneBench Pro",
+          "score": 8.14,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 14.5,
+          "source": "https://openai.com/index/gpt-5-6/"
         }
       ]
     },
@@ -3545,6 +3565,91 @@
           "name": "Terminal-Bench 2.1",
           "score": 70.7,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 32.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 962.3,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Management Consulting Tasks (Internal)",
+          "score": 13.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 42.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.2,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 11.8,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 70.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GeneBench Pro",
+          "score": 3.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 85.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.5,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 16.7,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.3,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "FrontierMath (Tier 1–3)",
+          "score": 59.6,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 256k",
+          "score": 85.9,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 68.1,
+          "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 48.8,
+          "source": "https://openai.com/index/gpt-5-6/"
         }
       ]
     },
