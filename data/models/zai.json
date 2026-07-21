@@ -185,6 +185,101 @@
           "name": "LMArena Text",
           "score": 1471,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 46.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Program Bench",
+          "score": 63.7,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.7,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 67.3,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 13,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 34.3,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 40.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Kimi Code Bench v2",
+          "score": 64.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1514,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 59.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 82.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 12.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OJBench",
+          "score": 43.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1260,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 35.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 41.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 28.12,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "DECK-Bench (Internal)",
+          "score": 68.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
         }
       ]
     },

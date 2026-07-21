@@ -341,6 +341,176 @@
           "name": "Output speed",
           "score": 68.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 73,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Program Bench",
+          "score": 77.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 71.3,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 39,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 34.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 46.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Kimi Code Bench v2",
+          "score": 64.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1748,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 90.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 74.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 83.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 29.7,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OJBench",
+          "score": 46.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1495,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 39.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 63.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 32.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "DECK-Bench (Internal)",
+          "score": 74.7,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.1,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 58,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 83,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 84.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 84.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 89.1,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 95.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MATH-Vision (with tools)",
+          "score": 97.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 88.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "ZeroBench",
+          "score": 17,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 35,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "WorldVQA",
+          "score": 41.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 85.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "PerceptionBench",
+          "score": 59.7,
+          "source": "https://www.kimi.com/blog/kimi-k3"
         }
       ]
     },
@@ -3359,6 +3529,176 @@
           "name": "Tool Decathlon",
           "score": 55.6,
           "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 67,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Program Bench",
+          "score": 70.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 64.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 14,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 28.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 35.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Kimi Code Bench v2",
+          "score": 69,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1494,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 73.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 82.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 22.7,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OJBench",
+          "score": 38.3,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1158,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 38.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 60.9,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "SpreadSheetBench",
+          "score": 29.05,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "DECK-Bench (Internal)",
+          "score": 68.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 52.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 83.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 84.1,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 89,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 92.2,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "MATH-Vision (with tools)",
+          "score": 96.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 83.6,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "ZeroBench",
+          "score": 22,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 41,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "WorldVQA",
+          "score": 38.5,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 89.4,
+          "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "PerceptionBench",
+          "score": 55.8,
+          "source": "https://www.kimi.com/blog/kimi-k3"
         }
       ]
     },
