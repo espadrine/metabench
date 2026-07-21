@@ -137,7 +137,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 29.3,
+          "score": 22.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -177,7 +177,12 @@
         },
         {
           "name": "Output speed",
-          "score": 157.24,
+          "score": 178.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 27.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -417,7 +422,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.1,
+          "score": 62.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

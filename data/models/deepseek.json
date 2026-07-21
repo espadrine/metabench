@@ -388,7 +388,7 @@
         },
         {
           "name": "Output speed",
-          "score": 72.72,
+          "score": 73.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -806,12 +806,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 40.8,
+          "score": 43.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 43.2,
+          "score": 58.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -856,7 +856,7 @@
         },
         {
           "name": "Output speed",
-          "score": 69.83,
+          "score": 68.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1119,7 +1119,7 @@
         },
         {
           "name": "Output speed",
-          "score": 71.61,
+          "score": 70.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1322,7 +1322,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.42,
+          "score": 112.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1708,7 +1708,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.03,
+          "score": 112.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2071,12 +2071,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33.4,
+          "score": 32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 36.7,
+          "score": 44.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

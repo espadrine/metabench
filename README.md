@@ -136,6 +136,7 @@ Rules to add a benchmark:
   typically the official model announcement, model card, technical report, or
   the official model weights repository.
 - For a given source page, add all the benchmark scores listed on the page.
+  Even if that benchmark score is already present with a different source.
 - Do not merge benchmark results.
   When a benchmark score appears in multiple sources with a different result,
   add both results as separate benchmarks, each referencing its source.

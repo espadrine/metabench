@@ -1,6 +1,1809 @@
 {
   "models": [
     {
+      "name": "GPT-5.6 Sol ultra",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 91.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol max",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 70,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 30.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 73.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 24.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 33.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 58.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 77.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 47.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 73.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 65.91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 85.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 68.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 35,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 26.94,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 70.3,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 23.1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 30.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 78.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 71.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 61.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 84.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 65.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 21,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 25,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 63,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 21.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 26.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 77.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 69.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 62.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 83.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 61.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 18.69,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 51.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 15.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 18.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 53.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 76.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 39.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 69.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 62.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 61.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 7,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 10.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 27.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 5.6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 5.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 69.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 66.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 67.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 60.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 76.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 59.21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Sol none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 3,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 65.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 15.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 47.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 55.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 57.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Terra max",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 96,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.3,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 28.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 52.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 17.1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 23.2,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 76.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 53.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 71.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 57.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 86.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 153.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Terra xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 36,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 17.23,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 46.2,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 14.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 18.2,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 70.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 66.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 71.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 62.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 146.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Terra high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 24,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 16.14,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 41.3,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 9.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 10.1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 67.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 64.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 72.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 57.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 78.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 140.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Terra medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 10,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 8.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 28.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 1.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 1.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 64.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 49.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 62.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 72.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 133.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Terra low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 6,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 5.83,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 22.1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 0.2,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 0.2,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 40.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 58.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 27.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 49.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 59.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 64.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 43.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 60.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 134.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Terra none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 3,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 2.18,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 52.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 74.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 135.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna max",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 125,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 14.44,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 33.2,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 8.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 12.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 71.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 212.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 67,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 12.01,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 30.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 6.6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 11,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 68.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 35.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 206.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 37,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 9.47,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 29.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 4.5,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 4.6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 63.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 31.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 206.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 4.85,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 23.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 0.3,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 0.3,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 50.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 24.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 45.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 188.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 7,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 2.55,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 16.8,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 0,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 0,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 33.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 44.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 18.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 45.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 59.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 187.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.6 Luna none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "release_date": "2026-06-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 2,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 1.58,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 26.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 39.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 64.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 39.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 36.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 201.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.5 Pro",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-5-5/",
@@ -166,6 +1969,26 @@
           "name": "Output cost",
           "score": 30,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 22.94,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 47.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 15.1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
@@ -364,7 +2187,7 @@
         },
         {
           "name": "Output speed",
-          "score": 80.75,
+          "score": 86.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -835,6 +2658,16 @@
           "source": "https://openai.com/index/introducing-gpt-5-5/"
         },
         {
+          "name": "GeneBench",
+          "score": 19.42,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 47.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 45,
           "source": "https://artificialanalysis.ai/"
@@ -886,13 +2719,105 @@
         },
         {
           "name": "Output speed",
-          "score": 63.08,
+          "score": 78.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LMArena Text",
           "score": 1481,
           "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.5 medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "release_date": "2026-04-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "Output cost",
+          "score": 30,
+          "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 15.29,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 40.1,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 71.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 53.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 70.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 72.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 57.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 91.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 77.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -925,6 +2850,16 @@
           "name": "Output cost",
           "score": 30,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 4.25,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 27.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
@@ -978,7 +2913,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.2,
+          "score": 78.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1012,6 +2947,11 @@
           "name": "Output cost",
           "score": 30,
           "source": "https://openai.com/index/introducing-gpt-5-5/"
+        },
+        {
+          "name": "GeneBench",
+          "score": 2.31,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
@@ -1065,7 +3005,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.67,
+          "score": 74.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1784,7 +3724,7 @@
         },
         {
           "name": "Output speed",
-          "score": 157.21,
+          "score": 163.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2286,6 +4226,172 @@
           "name": "SWE-bench Pro",
           "score": 57.7,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 38,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitGym 2h",
+          "score": 7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "release_date": "2026-03-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 33.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "release_date": "2026-03-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 30.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        }
+      ]
+    },
+    {
+      "name": "GPT-5.4 low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "release_date": "2026-03-05",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2.5,
+          "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "Output cost",
+          "score": 15,
+          "source": "https://openai.com/index/introducing-gpt-5-4/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 26.4,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 39.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 28.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 65.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 67.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 43.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 74.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 92.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2461,7 +4567,7 @@
         },
         {
           "name": "Output speed",
-          "score": 79.9,
+          "score": 130.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3865,7 +5971,7 @@
         },
         {
           "name": "Output speed",
-          "score": 71.81,
+          "score": 85.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4409,12 +6515,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.9,
+          "score": 36.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 44.7,
+          "score": 49.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4474,7 +6580,7 @@
         },
         {
           "name": "Output speed",
-          "score": 98.22,
+          "score": 111.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4670,7 +6776,7 @@
         },
         {
           "name": "Output speed",
-          "score": 83.32,
+          "score": 108.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4789,7 +6895,7 @@
         },
         {
           "name": "Output speed",
-          "score": 143.01,
+          "score": 173.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5526,12 +7632,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 36.1,
+          "score": 34.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 36,
+          "score": 37.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5796,7 +7902,7 @@
         },
         {
           "name": "Output speed",
-          "score": 93.38,
+          "score": 112.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5918,7 +8024,7 @@
         },
         {
           "name": "Output speed",
-          "score": 69.44,
+          "score": 103.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6040,7 +8146,7 @@
         },
         {
           "name": "Output speed",
-          "score": 84.57,
+          "score": 92.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6162,7 +8268,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.33,
+          "score": 81.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6389,12 +8495,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33,
+          "score": 25.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 35.3,
+          "score": 15.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6504,7 +8610,7 @@
         },
         {
           "name": "Output speed",
-          "score": 93.15,
+          "score": 112.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6606,7 +8712,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.67,
+          "score": 100.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6708,7 +8814,7 @@
         },
         {
           "name": "Output speed",
-          "score": 95.81,
+          "score": 97.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6975,7 +9081,7 @@
         },
         {
           "name": "Output speed",
-          "score": 138.25,
+          "score": 174.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7077,7 +9183,7 @@
         },
         {
           "name": "Output speed",
-          "score": 139.65,
+          "score": 166.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7179,7 +9285,7 @@
         },
         {
           "name": "Output speed",
-          "score": 141.93,
+          "score": 178.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7886,7 +9992,7 @@
         },
         {
           "name": "Output speed",
-          "score": 138.75,
+          "score": 153.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7993,7 +10099,7 @@
         },
         {
           "name": "Output speed",
-          "score": 219.61,
+          "score": 222.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8407,7 +10513,7 @@
         },
         {
           "name": "Output speed",
-          "score": 126.74,
+          "score": 150.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8595,12 +10701,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 16.3,
+          "score": 14.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 18.5,
+          "score": 20.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8670,7 +10776,7 @@
         },
         {
           "name": "Output speed",
-          "score": 83.97,
+          "score": 83.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8893,7 +10999,7 @@
         },
         {
           "name": "Output speed",
-          "score": 182.3,
+          "score": 185.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10299,7 +12405,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.22,
+          "score": 103.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10452,7 +12558,7 @@
         },
         {
           "name": "Output speed",
-          "score": 38.92,
+          "score": 39.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10748,7 +12854,7 @@
         },
         {
           "name": "Output speed",
-          "score": 39.52,
+          "score": 43.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

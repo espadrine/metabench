@@ -204,7 +204,7 @@
         },
         {
           "name": "Output speed",
-          "score": 88.58,
+          "score": 91.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -335,6 +335,11 @@
           "name": "HealthBench Professional",
           "score": 66,
           "source": "https://www-cdn.anthropic.com/2f9323abbcc4abe219577539efe19a623c9ca2bd/Claude%20Fable%205%20&%20Claude%20Mythos%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 78,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         }
       ]
     },
@@ -472,7 +477,7 @@
         },
         {
           "name": "Output speed",
-          "score": 63.21,
+          "score": 70.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -721,7 +726,7 @@
         },
         {
           "name": "Output speed",
-          "score": 64.81,
+          "score": 62.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -973,6 +978,16 @@
           "name": "Tool Decathlon",
           "score": 59.9,
           "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 40,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         }
       ]
     },
@@ -1294,7 +1309,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.72,
+          "score": 60.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1606,6 +1621,16 @@
           "name": "Video-MMMU",
           "score": 83,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.9,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 27.7,
+          "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         }
       ]
     },
@@ -1693,7 +1718,7 @@
         },
         {
           "name": "Output speed",
-          "score": 41.78,
+          "score": 55.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2082,7 +2107,7 @@
         },
         {
           "name": "Output speed",
-          "score": 63.66,
+          "score": 69.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2411,7 +2436,7 @@
         },
         {
           "name": "Output speed",
-          "score": 48.65,
+          "score": 57.71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3420,7 +3445,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.25,
+          "score": 63.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4093,7 +4118,7 @@
         },
         {
           "name": "Output speed",
-          "score": 45.51,
+          "score": 51.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5537,7 +5562,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.93,
+          "score": 65.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5831,7 +5856,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.39,
+          "score": 63.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6060,7 +6085,7 @@
         },
         {
           "name": "Output speed",
-          "score": 126.06,
+          "score": 151.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6934,12 +6959,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.7,
+          "score": 36.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 38.6,
+          "score": 52.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7159,7 +7184,7 @@
         },
         {
           "name": "Output speed",
-          "score": 51.49,
+          "score": 60.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7343,7 +7368,7 @@
         },
         {
           "name": "Output speed",
-          "score": 49.23,
+          "score": 60.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
