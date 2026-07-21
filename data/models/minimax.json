@@ -295,6 +295,16 @@
           "name": "MCP-Atlas",
           "score": 74.2,
           "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 65.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 12.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -628,6 +638,16 @@
           "name": "Claw-Eval",
           "score": 49.7,
           "source": "https://www.minimax.io/blog/minimax-m3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 55.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 8.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

@@ -247,6 +247,16 @@
           "name": "Output speed",
           "score": 39.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 85.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 33.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -366,6 +376,16 @@
         {
           "name": "Output speed",
           "score": 47.79,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 67.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 18.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1192,6 +1212,16 @@
           "name": "MCP Mark Verified",
           "score": 72.8,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 65.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 20.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2562,6 +2592,16 @@
           "name": "SWE-bench Verified",
           "score": 76.8,
           "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 45.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 14.23,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

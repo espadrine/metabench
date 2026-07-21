@@ -275,6 +275,16 @@
           "name": "Output speed",
           "score": 293.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 25.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1140,6 +1150,16 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 66.4,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 43.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 15.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1619,6 +1639,16 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 44.1,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 38.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 11.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2191,6 +2221,16 @@
         {
           "name": "Output speed",
           "score": 326.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 31.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 8.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3650,6 +3690,16 @@
           "name": "Toolathlon",
           "score": 48.8,
           "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 73.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 16.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3938,6 +3988,11 @@
           "name": "ARC-AGI-2",
           "score": 33.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 17.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -6920,6 +6975,16 @@
           "name": "Output speed",
           "score": 151.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 28.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 9.28,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -7985,6 +8050,16 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 13.5,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 4.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 0.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -8161,6 +8236,11 @@
         {
           "name": "τ²-Bench",
           "score": 10.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 0.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8343,6 +8423,16 @@
         {
           "name": "τ²-Bench",
           "score": 4.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 0.37,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 0.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

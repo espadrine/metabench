@@ -145,6 +145,16 @@
           "name": "LMArena Text",
           "score": 1426,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 50.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 14.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -313,6 +323,16 @@
           "name": "BrowseComp (with context manage)",
           "score": 21.3,
           "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 20.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -574,6 +594,16 @@
           "name": "Output speed",
           "score": 79.71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 30.34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 10.31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -732,6 +762,16 @@
           "name": "LiveCodeBench",
           "score": 40.3,
           "source": "https://cohere.com/blog/north-mini-code"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 29.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 9.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -899,6 +939,16 @@
         {
           "name": "Output speed",
           "score": 61.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 11.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1091,6 +1141,16 @@
           "name": "Output speed",
           "score": 63.71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 9.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 6.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1277,6 +1337,16 @@
           "name": "Output speed",
           "score": 110.86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 4.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 3.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1458,6 +1528,11 @@
           "name": "Output speed",
           "score": 157.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 4.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1632,6 +1707,16 @@
           "name": "BrowseComp (with context manage)",
           "score": 10,
           "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 12.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1785,6 +1870,16 @@
         {
           "name": "Output speed",
           "score": 83.63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 4.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 4.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1944,6 +2039,16 @@
           "name": "BrowseComp (with context manage)",
           "score": 7.8,
           "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 13.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 8.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3042,6 +3147,16 @@
         {
           "name": "Output speed",
           "score": 148.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 26.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 7.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

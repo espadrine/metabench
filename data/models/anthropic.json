@@ -206,6 +206,16 @@
           "name": "Output speed",
           "score": 91.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 28.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -834,6 +844,16 @@
           "name": "PerceptionBench",
           "score": 57.2,
           "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 26.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1598,6 +1618,16 @@
           "name": "PerceptionBench",
           "score": 47.2,
           "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 27.63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2241,6 +2271,16 @@
           "name": "ExploitBench",
           "score": 27.7,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 28.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2959,6 +2999,16 @@
           "name": "MedXpert Text",
           "score": 49,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 71.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 30.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -6772,6 +6822,16 @@
           "name": "ArtifactsBench",
           "score": 36.6,
           "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 44.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 9.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -7846,6 +7906,16 @@
           "name": "SWE-bench Verified",
           "score": 77.2,
           "source": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 55.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 18.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -9178,6 +9248,16 @@
           "name": "Output speed",
           "score": 46.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 36.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 13.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -9865,6 +9945,16 @@
         {
           "name": "τ²-Bench",
           "score": 24.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 10.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

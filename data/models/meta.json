@@ -170,6 +170,16 @@
           "name": "LMArena Text",
           "score": 1487,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 62.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 19.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -403,6 +413,16 @@
           "name": "Output speed",
           "score": 113.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 7.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 3.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -565,6 +585,16 @@
         {
           "name": "Output speed",
           "score": 98.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 3.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 3.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -767,6 +797,16 @@
         {
           "name": "Output speed",
           "score": 82.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 4.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 1.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2218,6 +2258,16 @@
         {
           "name": "Output speed",
           "score": 164.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 1.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 1.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

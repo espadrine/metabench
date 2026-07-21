@@ -655,6 +655,16 @@
           "name": "SWE-bench Pro",
           "score": 55.4,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 64.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 25.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -933,6 +943,16 @@
           "name": "Tool Decathlon",
           "score": 52.8,
           "source": "https://z.ai/blog/glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 64.79,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 23.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1323,6 +1343,16 @@
         {
           "name": "Output speed",
           "score": 112.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 22.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2743,6 +2773,16 @@
           "name": "SWE-bench Verified",
           "score": 73.1,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 46.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 18.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3639,6 +3679,16 @@
           "name": "τ²-Bench",
           "score": 47.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 13.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 4.54,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4098,6 +4148,16 @@
           "name": "τ²-Bench",
           "score": 11.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 19.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 6.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4467,6 +4527,16 @@
         {
           "name": "τ²-Bench",
           "score": 22.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 16.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 4.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -760,7 +760,9 @@ const benchNameFromAA = {
   "ifbench": "IFBench",
   "lcr": "LCR",
   "terminalbench_hard": "Terminal-Bench-Hard",
+  "terminalbench_v2_1": "Terminal-Bench 2.1",
   "tau2": "τ²-Bench",
+  "tau_banking": "τ³ Banking",
 };
 
 const benchNameFromAAPricing = {

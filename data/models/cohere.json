@@ -184,6 +184,16 @@
           "name": "ArtificialAnalysis Coding Index",
           "score": 27.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 22.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

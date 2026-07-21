@@ -280,6 +280,16 @@
           "name": "GPQA Diamond",
           "score": 91.2,
           "source": "https://www.kimi.com/blog/kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 77.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 26.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1008,6 +1018,16 @@
           "name": "SWE-bench Pro",
           "score": 58.4,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 11.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2092,6 +2112,16 @@
           "name": "Output speed",
           "score": 116.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 45.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 9.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2549,6 +2579,16 @@
         {
           "name": "Output speed",
           "score": 45.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 49.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 10.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
