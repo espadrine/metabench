@@ -388,7 +388,7 @@
         },
         {
           "name": "Output speed",
-          "score": 73.95,
+          "score": 73.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -866,7 +866,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.61,
+          "score": 71.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1139,7 +1139,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.04,
+          "score": 67.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1342,7 +1342,7 @@
         },
         {
           "name": "Output speed",
-          "score": 112.73,
+          "score": 113.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1505,12 +1505,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 37.4,
+          "score": 37.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 39.8,
+          "score": 52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1552,6 +1552,16 @@
           "name": "LMArena Text",
           "score": 1436,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 56.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 19.79,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1738,7 +1748,7 @@
         },
         {
           "name": "Output speed",
-          "score": 112.13,
+          "score": 109.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

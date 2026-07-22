@@ -521,6 +521,8 @@ const modelNameFromAA = {
   "Gemini 3.5 Flash (high)": "Gemini 3.5 Flash high",
   "Gemini 3.5 Flash (medium)": "Gemini 3.5 Flash",
   "Gemini 3.5 Flash (minimal)": "Gemini 3.5 Flash minimal",
+  "Gemini 3.5 Flash-Lite": "Gemini 3.5 Flash-Lite",
+  "Gemini 3.6 Flash (high)": "Gemini 3.6 Flash",
   "Gemma 4 26B A4B (Reasoning)": "Gemma 4 26B-A4B",
   "Gemma 4 31B (Reasoning)": "Gemma 4 31B",
   "Gemma 4 E2B (Reasoning)": "Gemma 4 E2B",

@@ -119,6 +119,7 @@ and the [1, s1, s2, ...] form a latent vector on each model.
 
 Rules to add a benchmark:
 - Only add benchmarks to the appropriate company file in `data/models/`. Other `/data/` files are generated.
+- Add the new benchmark scores at the end of the list.
 - The benchmark name should follow the official, case-sensitive name given in
   the academic paper that introduced it.
 - The name of the benchmark should match that which is already used in the `data/models/` files.
@@ -137,6 +138,7 @@ Rules to add a benchmark:
   the official model weights repository.
 - For a given source page, add all the benchmark scores listed on the page.
   Even if that benchmark score is already present with a different source.
+  Except for input and output prices; those should always be listed only once.
 - Do not merge benchmark results.
   When a benchmark score appears in multiple sources with a different result,
   add both results as separate benchmarks, each referencing its source.

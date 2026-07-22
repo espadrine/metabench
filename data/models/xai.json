@@ -109,8 +109,43 @@
         },
         {
           "name": "Output speed",
-          "score": 74.9,
+          "score": 72.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 54,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MLE-Bench lite",
+          "score": 43.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1535,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 81.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 81.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
         }
       ]
     },
@@ -141,7 +176,7 @@
         },
         {
           "name": "Terminal-Bench 2.1",
-          "score": 73.0,
+          "score": 73,
           "source": "https://cursor.com/blog/grok-4-5"
         },
         {
@@ -151,12 +186,12 @@
         },
         {
           "name": "DeepSWE",
-          "score": 18.0,
+          "score": 18,
           "source": "https://cursor.com/blog/grok-4-5"
         },
         {
           "name": "SWE-bench Pro",
-          "score": 54.0,
+          "score": 54,
           "source": "https://cursor.com/blog/grok-4-5"
         }
       ]
@@ -344,7 +379,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.66,
+          "score": 95.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

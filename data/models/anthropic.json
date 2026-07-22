@@ -204,7 +204,7 @@
         },
         {
           "name": "Output speed",
-          "score": 91.2,
+          "score": 86.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -216,6 +216,51 @@
           "name": "τ³ Banking",
           "score": 28.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 63.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 54,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MLE-Bench lite",
+          "score": 66.9,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1607,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 81.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 77,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 88.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 71.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
         }
       ]
     },
@@ -582,7 +627,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.34,
+          "score": 70.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1106,7 +1151,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.49,
+          "score": 64.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2004,7 +2049,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.16,
+          "score": 61.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2423,7 +2468,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.61,
+          "score": 45.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2817,7 +2862,7 @@
         },
         {
           "name": "Output speed",
-          "score": 69.57,
+          "score": 71.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3156,7 +3201,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.71,
+          "score": 59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4838,7 +4883,7 @@
         },
         {
           "name": "Output speed",
-          "score": 51.4,
+          "score": 53.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6282,7 +6327,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.89,
+          "score": 67.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6576,7 +6621,7 @@
         },
         {
           "name": "Output speed",
-          "score": 63.01,
+          "score": 67.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6805,7 +6850,7 @@
         },
         {
           "name": "Output speed",
-          "score": 151.81,
+          "score": 150.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6892,6 +6937,31 @@
           "name": "τ³ Banking",
           "score": 9.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 39.5,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 44.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 907,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 50.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 61.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
         }
       ]
     },
@@ -7914,7 +7984,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.38,
+          "score": 66.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8108,7 +8178,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.98,
+          "score": 66.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

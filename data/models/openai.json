@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.49,
+          "score": 67.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -626,7 +626,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.11,
+          "score": 64.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -743,7 +743,7 @@
         },
         {
           "name": "Output speed",
-          "score": 61.94,
+          "score": 59.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -860,7 +860,7 @@
         },
         {
           "name": "Output speed",
-          "score": 61.44,
+          "score": 60.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -977,7 +977,7 @@
         },
         {
           "name": "Output speed",
-          "score": 59.21,
+          "score": 55.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1059,7 +1059,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.58,
+          "score": 55.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1361,7 +1361,7 @@
         },
         {
           "name": "Output speed",
-          "score": 153.86,
+          "score": 148.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1478,7 +1478,7 @@
         },
         {
           "name": "Output speed",
-          "score": 146.87,
+          "score": 121.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1595,7 +1595,7 @@
         },
         {
           "name": "Output speed",
-          "score": 140.64,
+          "score": 125.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1707,7 +1707,7 @@
         },
         {
           "name": "Output speed",
-          "score": 133.22,
+          "score": 100.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1824,7 +1824,7 @@
         },
         {
           "name": "Output speed",
-          "score": 134.13,
+          "score": 113.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1911,7 +1911,7 @@
         },
         {
           "name": "Output speed",
-          "score": 135.65,
+          "score": 102.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2198,7 +2198,7 @@
         },
         {
           "name": "Output speed",
-          "score": 212.1,
+          "score": 202.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2210,6 +2210,46 @@
           "name": "τ³ Banking",
           "score": 27.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 62.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MLE-Bench lite",
+          "score": 47.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1584,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 72.6,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 82.7,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "MRCR v2: 8-needle 128K",
+          "score": 74.8,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
         }
       ]
     },
@@ -2300,7 +2340,7 @@
         },
         {
           "name": "Output speed",
-          "score": 206.12,
+          "score": 190.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2402,7 +2442,7 @@
         },
         {
           "name": "Output speed",
-          "score": 206.43,
+          "score": 193.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2504,7 +2544,7 @@
         },
         {
           "name": "Output speed",
-          "score": 188.99,
+          "score": 178.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2606,7 +2646,7 @@
         },
         {
           "name": "Output speed",
-          "score": 187.47,
+          "score": 181.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2693,7 +2733,7 @@
         },
         {
           "name": "Output speed",
-          "score": 201.59,
+          "score": 178.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3272,7 +3312,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.19,
+          "score": 92.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4116,7 +4156,7 @@
         },
         {
           "name": "Output speed",
-          "score": 77.36,
+          "score": 74.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4325,7 +4365,7 @@
         },
         {
           "name": "Output speed",
-          "score": 74.49,
+          "score": 75.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5054,7 +5094,7 @@
         },
         {
           "name": "Output speed",
-          "score": 163.2,
+          "score": 149.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5576,6 +5616,31 @@
           "name": "τ³ Banking",
           "score": 30.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.4,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 59.2,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1171,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 72.1,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 80.3,
+          "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
         }
       ]
     },
@@ -5730,7 +5795,7 @@
         },
         {
           "name": "Output speed",
-          "score": 92.18,
+          "score": 91.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5907,7 +5972,7 @@
         },
         {
           "name": "Output speed",
-          "score": 130.67,
+          "score": 126.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -7920,7 +7985,7 @@
         },
         {
           "name": "Output speed",
-          "score": 111.6,
+          "score": 110.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8126,7 +8191,7 @@
         },
         {
           "name": "Output speed",
-          "score": 108.24,
+          "score": 98.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8245,7 +8310,7 @@
         },
         {
           "name": "Output speed",
-          "score": 173.33,
+          "score": 173.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9252,7 +9317,7 @@
         },
         {
           "name": "Output speed",
-          "score": 112.38,
+          "score": 108.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9384,7 +9449,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.84,
+          "score": 102.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9506,7 +9571,7 @@
         },
         {
           "name": "Output speed",
-          "score": 92.24,
+          "score": 92.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9628,7 +9693,7 @@
         },
         {
           "name": "Output speed",
-          "score": 81.18,
+          "score": 85.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9970,7 +10035,7 @@
         },
         {
           "name": "Output speed",
-          "score": 112.75,
+          "score": 108.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10082,7 +10147,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.94,
+          "score": 99.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10184,7 +10249,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.57,
+          "score": 96.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10553,7 +10618,7 @@
         },
         {
           "name": "Output speed",
-          "score": 166.06,
+          "score": 176.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10655,7 +10720,7 @@
         },
         {
           "name": "Output speed",
-          "score": 178.63,
+          "score": 182.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -11362,7 +11427,7 @@
         },
         {
           "name": "Output speed",
-          "score": 153.16,
+          "score": 161.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -11469,7 +11534,7 @@
         },
         {
           "name": "Output speed",
-          "score": 222.67,
+          "score": 225.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -13795,7 +13860,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.46,
+          "score": 106.86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -13948,7 +14013,7 @@
         },
         {
           "name": "Output speed",
-          "score": 39.39,
+          "score": 39.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -14244,7 +14309,7 @@
         },
         {
           "name": "Output speed",
-          "score": 43.62,
+          "score": 43.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
