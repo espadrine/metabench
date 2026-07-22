@@ -854,6 +854,31 @@
           "name": "τ³ Banking",
           "score": 26.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.3,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 66.1,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 80.3,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 70,
+          "source": "https://x.ai/news/grok-4-5"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 24,
+          "source": "https://x.ai/news/grok-4-5"
         }
       ]
     },
@@ -1667,6 +1692,36 @@
           "name": "LMArena Text",
           "score": 1478,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.9,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 84.4,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 55.8,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 69.2,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 59,
+          "source": "https://x.ai/news/grok-4-5"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 26,
+          "source": "https://x.ai/news/grok-4-5"
         }
       ]
     },
@@ -2375,6 +2430,11 @@
           "name": "LMArena Text",
           "score": 1493,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 16,
+          "source": "https://x.ai/news/grok-4-5"
         }
       ]
     },

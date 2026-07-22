@@ -3889,6 +3889,31 @@
           "name": "τ³ Banking",
           "score": 31.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.4,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 77.8,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 64.3,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 58.6,
+          "source": "https://cursor.com/blog/grok-4-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67,
+          "source": "https://x.ai/news/grok-4-5"
         }
       ]
     },
