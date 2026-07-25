@@ -109,7 +109,7 @@
         },
         {
           "name": "Output speed",
-          "score": 72.76,
+          "score": 55.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -146,6 +146,11 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 81.4,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 65.99,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
         }
       ]
     },
@@ -379,7 +384,7 @@
         },
         {
           "name": "Output speed",
-          "score": 95.94,
+          "score": 96.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

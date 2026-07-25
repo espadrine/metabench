@@ -455,7 +455,7 @@
         },
         {
           "name": "Output speed",
-          "score": 51.78,
+          "score": 52.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -735,7 +735,7 @@
         },
         {
           "name": "Output speed",
-          "score": 207.47,
+          "score": 199.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1120,7 +1120,7 @@
         },
         {
           "name": "Output speed",
-          "score": 59.86,
+          "score": 58.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1690,7 +1690,7 @@
         },
         {
           "name": "Output speed",
-          "score": 151.85,
+          "score": 149.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2405,7 +2405,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.41,
+          "score": 52.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4094,7 +4094,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BrowseComp-zh",
+          "name": "BrowseComp (zh)",
           "score": 70.3,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -4735,7 +4735,7 @@
         },
         {
           "name": "Output speed",
-          "score": 61.34,
+          "score": 66.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4992,7 +4992,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.38,
+          "score": 123.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6492,7 +6492,7 @@
         },
         {
           "name": "Output speed",
-          "score": 178.88,
+          "score": 182.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

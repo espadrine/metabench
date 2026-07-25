@@ -85,6 +85,51 @@
           "name": "MRCR v2: 1M",
           "score": 54,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 69.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 38.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 77.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 24.54,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 219.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -163,6 +208,51 @@
           "name": "MRCR v2: 1M",
           "score": 21.3,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Lite-Model-Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 36.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 49.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 17.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 40.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 53.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 16.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 362.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -608,7 +698,7 @@
         },
         {
           "name": "Output speed",
-          "score": 283.06,
+          "score": 250.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -701,7 +791,7 @@
         },
         {
           "name": "Output speed",
-          "score": 292.83,
+          "score": 265.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -894,7 +984,7 @@
         },
         {
           "name": "Output speed",
-          "score": 229.49,
+          "score": 228.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1458,7 +1548,7 @@
         },
         {
           "name": "Output speed",
-          "score": 35.21,
+          "score": 35.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2217,7 +2307,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 12.2,
+          "score": 11.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2227,7 +2317,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 57.6,
+          "score": 52.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2242,7 +2332,7 @@
         },
         {
           "name": "IFBench",
-          "score": 44.22,
+          "score": 40.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2322,7 +2412,7 @@
         },
         {
           "name": "Output speed",
-          "score": 109.21,
+          "score": 106.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2333,6 +2423,11 @@
         {
           "name": "τ³ Banking",
           "score": 5.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 91.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2442,7 +2537,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 9.3,
+          "score": 9.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2452,7 +2547,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 37.5,
+          "score": 40.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2467,7 +2562,7 @@
         },
         {
           "name": "IFBench",
-          "score": 35.1,
+          "score": 35.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2547,7 +2642,7 @@
         },
         {
           "name": "MATH",
-          "score": 86.96,
+          "score": 86.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2705,7 +2800,7 @@
         },
         {
           "name": "Output speed",
-          "score": 325.78,
+          "score": 298.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3318,7 +3413,7 @@
         },
         {
           "name": "Output speed",
-          "score": 134.87,
+          "score": 132.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4280,6 +4375,11 @@
           "name": "MRCR v2: 1M",
           "score": 26.3,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 65.99,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
         }
       ]
     },
@@ -6576,7 +6676,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BrowseComp-zh",
+          "name": "BrowseComp (zh)",
           "score": 66.8,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -7553,7 +7653,7 @@
         },
         {
           "name": "Output speed",
-          "score": 144.04,
+          "score": 135.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

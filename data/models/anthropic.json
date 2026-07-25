@@ -1,6 +1,786 @@
 {
   "models": [
     {
+      "name": "Claude Opus 5 max",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "release_date": "2026-07-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 101,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 43.3,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1861,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "ARC-AGI-3",
+          "score": 30.2,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 90.8,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 56.3,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 64.7,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 70.6,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 68.8,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 26,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Legal Agent",
+          "score": 11.7,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 59.8,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BioMystery Bench Hard",
+          "score": 49.4,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 90.1,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 68.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 48,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 58.9,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 43,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "IMO 2026",
+          "score": 100,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "RiemannBench",
+          "score": 60,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "RiemannBench (with tools)",
+          "score": 79,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 90.82,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArxivMath (with tools)",
+          "score": 91.33,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 56.3,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 64.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 95,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 88.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography",
+          "score": 29.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 83,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code",
+          "score": 0.366,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code (with tools)",
+          "score": 0.821,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 83.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf (with tools)",
+          "score": 85.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 78.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 85.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1720,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 80.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 26,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 97.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 90.42,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 52.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 70,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 30.31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 43.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5 xhigh",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "release_date": "2026-07-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 76,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 43.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 56.9,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 44.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 56.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 64.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 94.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 88.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1693,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 52.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 68.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 31.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 60.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5 high",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "release_date": "2026-07-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 68,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 48,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 58.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 39,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 56,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 63.2,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 94.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 87,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1606,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 58.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 76.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 50.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 87.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 32.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 50.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5 medium",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "release_date": "2026-07-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 29,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 66.9,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 53.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 63.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 54.2,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 61.3,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 92.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 86.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 24,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 56.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 74.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 49.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 86.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 28.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 55.63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Opus 5 low",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "release_date": "2026-07-24",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 5,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Output cost",
+          "score": 25,
+          "source": "https://claude.com/pricing#api"
+        },
+        {
+          "name": "Size",
+          "score": 5000,
+          "source": "https://x.com/elonmusk/status/2042123561666855235"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 57.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 41.9,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 55.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 25,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 47.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 56.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 91,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 83.2,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 66.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 76.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 23.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 46.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Claude Sonnet 5 Thinking",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/news/claude-sonnet-5",
@@ -204,7 +984,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.06,
+          "score": 83.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -261,6 +1041,66 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 71.6,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 53.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 17,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 57.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 92.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 84.3,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography",
+          "score": 16,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 71.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code",
+          "score": 0.267,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code (with tools)",
+          "score": 0.376,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 51.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 74.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
         }
       ]
     },
@@ -490,6 +1330,76 @@
           "name": "Graphwalks bfs 1M",
           "score": 74.3,
           "source": "https://openai.com/index/gpt-5-6/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 66,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 89,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "RiemannBench",
+          "score": 63,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "RiemannBench (with tools)",
+          "score": 72,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 87.76,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 87.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography",
+          "score": 36,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 85.2,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code",
+          "score": 0.378,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code (with tools)",
+          "score": 0.678,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 81.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf (with tools)",
+          "score": 87.3,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 79,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 79.3,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
         }
       ]
     },
@@ -627,7 +1537,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.38,
+          "score": 58.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -924,6 +1834,106 @@
           "name": "SWE-Marathon",
           "score": 24,
           "source": "https://x.ai/news/grok-4-5"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 33.7,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1747,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 87.4,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 56.5,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 63.9,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 66.1,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 53.5,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 17.4,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Legal Agent",
+          "score": 13.3,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BioMystery Bench Hard",
+          "score": 46.5,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 51.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 63.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 33.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 63.9,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 56.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 94.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 66.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 17.4,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
         }
       ]
     },
@@ -1151,7 +2161,7 @@
         },
         {
           "name": "Output speed",
-          "score": 64.02,
+          "score": 62.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1698,6 +2708,196 @@
           "name": "τ³ Banking",
           "score": 27.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 21.1,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1593,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "ARC-AGI-3",
+          "score": 1.5,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.3,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 49.8,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 57.9,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 55.7,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 59,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 46.5,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 17,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "Legal Agent",
+          "score": 10.4,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 57.4,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BioMystery Bench Hard",
+          "score": 42.4,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 88.5,
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 59,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 46.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 59.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Frontier-Bench v0.1",
+          "score": 18.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "RiemannBench",
+          "score": 48,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "RiemannBench (with tools)",
+          "score": 66,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 82.65,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 49.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 58,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 93.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "DRACO",
+          "score": 80.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography",
+          "score": 17,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 75,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code",
+          "score": 0.277,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "BenchCAD Vision2Code (with tools)",
+          "score": 0.521,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 55.7,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 77.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "GDP.pdf (with tools)",
+          "score": 84.8,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 77.6,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 82.2,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Toolathlon",
+          "score": 79.9,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 17,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 92.5,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 72.1,
+          "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
         }
       ]
     },
@@ -2468,7 +3668,7 @@
         },
         {
           "name": "Output speed",
-          "score": 45.28,
+          "score": 46.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6046,7 +7246,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
         {
-          "name": "BrowseComp-zh",
+          "name": "BrowseComp (zh)",
           "score": 62.4,
           "source": "https://qwen.ai/blog?id=qwen3.5"
         },
@@ -6850,7 +8050,7 @@
         },
         {
           "name": "Output speed",
-          "score": 150.2,
+          "score": 150.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
