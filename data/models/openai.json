@@ -1201,12 +1201,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2.5,
+          "score": 2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 15,
+          "score": 12,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -1503,12 +1503,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2.5,
+          "score": 2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 15,
+          "score": 12,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -1620,12 +1620,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2.5,
+          "score": 2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 15,
+          "score": 12,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -1737,12 +1737,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2.5,
+          "score": 2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 15,
+          "score": 12,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -1849,12 +1849,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2.5,
+          "score": 2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 15,
+          "score": 12,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -1966,12 +1966,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 2.5,
+          "score": 2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 15,
+          "score": 12,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -2053,12 +2053,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1,
+          "score": 0.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 6,
+          "score": 1.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -2380,12 +2380,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1,
+          "score": 0.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 6,
+          "score": 1.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -2482,12 +2482,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1,
+          "score": 0.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 6,
+          "score": 1.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -2584,12 +2584,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1,
+          "score": 0.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 6,
+          "score": 1.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -2686,12 +2686,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1,
+          "score": 0.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 6,
+          "score": 1.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
@@ -2788,12 +2788,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 1,
+          "score": 0.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
           "name": "Output cost",
-          "score": 6,
+          "score": 1.2,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
         },
         {
