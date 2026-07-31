@@ -489,6 +489,7 @@ const modelNameFromAA = {
   "DeepSeek V4 Pro (Non-reasoning)": "DeepSeek V4 Pro Non-Think",
   "DeepSeek V4 Pro (Reasoning, High Effort)": "DeepSeek V4 Pro",
   "DeepSeek V4 Pro (Reasoning, Max Effort)": "DeepSeek V4 Pro Max",
+  "DeepSeek V4 Flash 0731 (Reasoning, Max Effort)": "DeepSeek V4 Flash Max 0731",
   "DeepSeek V4 Flash (Non-reasoning)": "DeepSeek V4 Flash Non-Think",
   "DeepSeek V4 Flash (Reasoning, High Effort)": "DeepSeek V4 Flash",
   "DeepSeek V4 Flash (Reasoning, Max Effort)": "DeepSeek V4 Flash Max",

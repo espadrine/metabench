@@ -274,7 +274,7 @@
         },
         {
           "name": "Output speed",
-          "score": 43.94,
+          "score": 56.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -403,7 +403,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.36,
+          "score": 53.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -532,7 +532,7 @@
         },
         {
           "name": "Output speed",
-          "score": 50.12,
+          "score": 52.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -656,7 +656,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.63,
+          "score": 54.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -775,7 +775,7 @@
         },
         {
           "name": "Output speed",
-          "score": 46.69,
+          "score": 50.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -984,7 +984,7 @@
         },
         {
           "name": "Output speed",
-          "score": 83.42,
+          "score": 84.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1537,7 +1537,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.31,
+          "score": 59.86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2161,7 +2161,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.55,
+          "score": 61.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2898,6 +2898,51 @@
           "name": "ARC-AGI-2",
           "score": 72.1,
           "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 85,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 69.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "CyberGym",
+          "score": 83.1,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 58,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 76.2,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 25.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 27.2,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 71.6,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 71.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
         }
       ]
     },
@@ -3668,7 +3713,7 @@
         },
         {
           "name": "Output speed",
-          "score": 46.27,
+          "score": 56.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8050,7 +8095,7 @@
         },
         {
           "name": "Output speed",
-          "score": 150.22,
+          "score": 134.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

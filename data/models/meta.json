@@ -128,7 +128,7 @@
         },
         {
           "name": "Output speed",
-          "score": 123.88,
+          "score": 146.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -544,7 +544,7 @@
         },
         {
           "name": "Output speed",
-          "score": 98.61,
+          "score": 106.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -717,7 +717,7 @@
         },
         {
           "name": "Output speed",
-          "score": 94.37,
+          "score": 82.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -929,7 +929,7 @@
         },
         {
           "name": "Output speed",
-          "score": 81.06,
+          "score": 75.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1170,7 +1170,7 @@
         },
         {
           "name": "Output speed",
-          "score": 16.68,
+          "score": 2.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1297,7 +1297,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 22.4,
+          "score": 25.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1317,7 +1317,7 @@
         },
         {
           "name": "MATH",
-          "score": 47,
+          "score": 48.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1332,7 +1332,7 @@
         },
         {
           "name": "IFBench",
-          "score": 25.24,
+          "score": 26.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1404,7 +1404,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 20.8,
+          "score": 19.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1424,12 +1424,12 @@
         },
         {
           "name": "MATH",
-          "score": 27.72,
+          "score": 14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 23.47,
+          "score": 22.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

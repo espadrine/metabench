@@ -1,6 +1,134 @@
 {
   "models": [
     {
+      "name": "DeepSeek V4 Flash Max 0731",
+      "company": "DeepSeek",
+      "url": "https://x.com/deepseek_ai/status/2083084415157022911",
+      "release_date": "2026-07-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.14,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.28,
+          "source": "https://api-docs.deepseek.com/news/news250929"
+        },
+        {
+          "name": "Size",
+          "score": 284,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 13,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 206,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 54.2,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "CyberGym",
+          "score": 76.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 54.4,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 70.3,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 25.2,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 25.1,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 68.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 59.6,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 69.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 36.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 49.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 65.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 31.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "DeepSeek V4 Pro Max",
       "company": "DeepSeek",
       "url": "https://api-docs.deepseek.com/news/news260424",
@@ -388,7 +516,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.89,
+          "score": 64.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -665,6 +793,51 @@
           "name": "τ³ Banking",
           "score": 25.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 72.1,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 38.5,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "CyberGym",
+          "score": 52.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 12.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 55.9,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 16.5,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 12.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 41.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 31.1,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
         }
       ]
     },
@@ -866,7 +1039,7 @@
         },
         {
           "name": "Output speed",
-          "score": 72.93,
+          "score": 55.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1139,7 +1312,7 @@
         },
         {
           "name": "Output speed",
-          "score": 72.7,
+          "score": 63.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1342,7 +1515,7 @@
         },
         {
           "name": "Output speed",
-          "score": 117.73,
+          "score": 106.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1354,6 +1527,51 @@
           "name": "τ³ Banking",
           "score": 22.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 39.4,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "CyberGym",
+          "score": 38.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 7.3,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 49.7,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 15.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 10.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 37,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 25.8,
+          "source": "https://x.com/deepseek_ai/status/2083084415157022911"
         }
       ]
     },
@@ -1748,7 +1966,7 @@
         },
         {
           "name": "Output speed",
-          "score": 115.18,
+          "score": 104.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
