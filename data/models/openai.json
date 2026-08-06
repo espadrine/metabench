@@ -748,6 +748,11 @@
           "name": "τ³ Banking",
           "score": 32.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1483,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1615,6 +1620,11 @@
           "name": "τ³ Banking",
           "score": 24.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1468,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -2477,6 +2487,11 @@
           "name": "τ³ Banking",
           "score": 24.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1450,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -4179,7 +4194,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1481,
+          "score": 1482,
           "source": "https://lmarena.ai/"
         },
         {
@@ -4495,7 +4510,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1475,
+          "score": 1476,
           "source": "https://lmarena.ai/"
         },
         {
@@ -4849,7 +4864,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1478,
+          "score": 1477,
           "source": "https://lmarena.ai/"
         },
         {
@@ -7031,7 +7046,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1438,
+          "score": 1437,
           "source": "https://lmarena.ai/"
         },
         {
@@ -13479,7 +13494,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1388,
+          "score": 1389,
           "source": "https://lmarena.ai/"
         },
         {

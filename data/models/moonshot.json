@@ -267,6 +267,11 @@
           "name": "MCP-Atlas",
           "score": 82.3,
           "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1485,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -780,7 +785,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1460,
+          "score": 1461,
           "source": "https://lmarena.ai/"
         },
         {

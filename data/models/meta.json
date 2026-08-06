@@ -243,6 +243,11 @@
           "name": "DeepSWE 1.1",
           "score": 53,
           "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1490,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -426,6 +431,11 @@
           "name": "Output speed",
           "score": 122.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1488,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -3355,7 +3365,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1107,
+          "score": 1108,
           "source": "https://lmarena.ai/"
         },
         {
@@ -3803,7 +3813,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 973,
+          "score": 974,
           "source": "https://lmarena.ai/"
         },
         {

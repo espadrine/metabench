@@ -296,6 +296,11 @@
           "name": "DeepSWE 1.1",
           "score": 65,
           "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1490,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -559,6 +564,11 @@
           "name": "Output speed",
           "score": 53.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1492,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1126,6 +1136,11 @@
           "name": "Toolathlon",
           "score": 74.7,
           "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1462,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -1567,7 +1582,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1508,
+          "score": 1509,
           "source": "https://lmarena.ai/"
         },
         {
@@ -2196,7 +2211,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1483,
+          "score": 1484,
           "source": "https://lmarena.ai/"
         },
         {
@@ -3010,7 +3025,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1478,
+          "score": 1475,
           "source": "https://lmarena.ai/"
         },
         {
@@ -3748,7 +3763,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1493,
+          "score": 1492,
           "source": "https://lmarena.ai/"
         },
         {
@@ -4645,7 +4660,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1504,
+          "score": 1505,
           "source": "https://lmarena.ai/"
         },
         {
@@ -6153,7 +6168,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1499,
+          "score": 1497,
           "source": "https://lmarena.ai/"
         },
         {
@@ -8005,7 +8020,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1411,
+          "score": 1412,
           "source": "https://lmarena.ai/"
         },
         {
@@ -9964,7 +9979,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1424,
+          "score": 1425,
           "source": "https://lmarena.ai/"
         },
         {
@@ -10077,7 +10092,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1412,
+          "score": 1413,
           "source": "https://lmarena.ai/"
         },
         {
@@ -10810,7 +10825,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1387,
+          "score": 1388,
           "source": "https://lmarena.ai/"
         },
         {
@@ -10923,7 +10938,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1371,
+          "score": 1372,
           "source": "https://lmarena.ai/"
         },
         {
@@ -11637,7 +11652,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1342,
+          "score": 1343,
           "source": "https://lmarena.ai/"
         },
         {
@@ -11849,7 +11864,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1321,
+          "score": 1322,
           "source": "https://lmarena.ai/"
         },
         {
@@ -12001,7 +12016,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1280,
+          "score": 1281,
           "source": "https://lmarena.ai/"
         },
         {

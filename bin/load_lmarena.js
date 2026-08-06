@@ -136,6 +136,16 @@ function mapModels(lmarenaData, models) {
 // Known model name mappings for cases where LMArena and our data use different naming conventions
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
+  "claude-opus-5-max": "Claude Opus 5 max",
+  "claude-opus-5-high": "Claude Opus 5 high",
+  "gemini-3.6-flash": "Gemini 3.6 Flash",
+  "gemini-3.5-flash-lite": "Gemini 3.5 Flash-Lite",
+  "grok-4.5": "Grok 4.5",
+  "muse-spark-1.1": "Muse Spark 1.1",
+  "kimi-k3-max": "Kimi K3",
+  "gpt-5.6-sol-xhigh": "GPT-5.6 Sol xhigh",
+  "gpt-5.6-terra-xhigh": "GPT-5.6 Terra xhigh",
+  "gpt-5.6-luna-xhigh": "GPT-5.6 Luna xhigh",
   "claude-sonnet-4-20250514-thinking-32k": "Claude Sonnet 4 Thinking",
   "claude-opus-4-20250514-thinking-16k": "Claude Opus 4 Thinking",
   "claude-opus-4-5-20251101-thinking-32k": "Claude Opus 4.5 Thinking",
@@ -144,7 +154,7 @@ const KNOWN_MODEL_MAPPINGS = {
   "claude-haiku-4-5-20251001": "Claude Haiku 4.5 Thinking",
   "claude-3-7-sonnet-20250219-thinking-32k": "Claude Sonnet 3.7 Thinking",
   "claude-3-7-sonnet-20250219": "Claude Sonnet 3.7",
-  "claude-sonnet-5-20260630-thinking-32k": "Claude Sonnet 5 Thinking",
+  "claude-sonnet-5-high": "Claude Sonnet 5 Thinking",
   "claude-opus-4-1-20250805-thinking-16k": "Claude Opus 4.1 Thinking",
   "claude-opus-4-7": "Claude Opus 4.7",
   "claude-opus-4-7-thinking": "Claude Opus 4.7 Thinking",

@@ -166,6 +166,11 @@
           "name": "DeepSWE 1.1",
           "score": 56.6,
           "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1469,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -300,7 +305,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1444,
+          "score": 1442,
           "source": "https://lmarena.ai/"
         },
         {

@@ -467,6 +467,11 @@
           "name": "τ³ Banking",
           "score": 17.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1459,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -3350,7 +3355,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1409,
+          "score": 1408,
           "source": "https://lmarena.ai/"
         },
         {
@@ -3700,7 +3705,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1396,
+          "score": 1395,
           "source": "https://lmarena.ai/"
         },
         {
@@ -4215,7 +4220,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1444,
+          "score": 1442,
           "source": "https://lmarena.ai/"
         },
         {
@@ -5311,7 +5316,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1396,
+          "score": 1395,
           "source": "https://lmarena.ai/"
         },
         {
