@@ -34,6 +34,11 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
+          "name": "Active parameters",
+          "score": 104,
+          "source": "https://huggingface.co/moonshotai/Kimi-K3"
+        },
+        {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 133,
           "source": "https://artificialanalysis.ai/"
