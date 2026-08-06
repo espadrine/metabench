@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 70.45,
+          "score": 68.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -626,6 +626,11 @@
           "name": "ARC-AGI-3",
           "score": 7.8,
           "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 81.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
         }
       ]
     },
@@ -731,7 +736,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.84,
+          "score": 60.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -848,7 +853,7 @@
         },
         {
           "name": "Output speed",
-          "score": 59.22,
+          "score": 57.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -965,7 +970,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.6,
+          "score": 56.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1082,7 +1087,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.68,
+          "score": 58.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1164,7 +1169,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.23,
+          "score": 58.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1466,7 +1471,7 @@
         },
         {
           "name": "Output speed",
-          "score": 134.32,
+          "score": 126.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1478,6 +1483,21 @@
           "name": "τ³ Banking",
           "score": 31.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1577,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 64.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
         }
       ]
     },
@@ -1583,7 +1603,7 @@
         },
         {
           "name": "Output speed",
-          "score": 109.67,
+          "score": 109.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1700,7 +1720,7 @@
         },
         {
           "name": "Output speed",
-          "score": 116.31,
+          "score": 102.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1812,7 +1832,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.46,
+          "score": 102.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1929,7 +1949,7 @@
         },
         {
           "name": "Output speed",
-          "score": 108.82,
+          "score": 104.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2016,7 +2036,7 @@
         },
         {
           "name": "Output speed",
-          "score": 102.71,
+          "score": 109.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2303,7 +2323,7 @@
         },
         {
           "name": "Output speed",
-          "score": 174.15,
+          "score": 167.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2445,7 +2465,7 @@
         },
         {
           "name": "Output speed",
-          "score": 173.97,
+          "score": 162.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2547,7 +2567,7 @@
         },
         {
           "name": "Output speed",
-          "score": 172.08,
+          "score": 158.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2649,7 +2669,7 @@
         },
         {
           "name": "Output speed",
-          "score": 160.97,
+          "score": 169.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2751,7 +2771,7 @@
         },
         {
           "name": "Output speed",
-          "score": 162.1,
+          "score": 157.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2838,7 +2858,7 @@
         },
         {
           "name": "Output speed",
-          "score": 165.61,
+          "score": 165.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6077,7 +6097,7 @@
         },
         {
           "name": "Output speed",
-          "score": 109.08,
+          "score": 111.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -11532,7 +11552,7 @@
         },
         {
           "name": "Output speed",
-          "score": 140.06,
+          "score": 113.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -1,6 +1,99 @@
 {
   "models": [
     {
+      "name": "Muse Spark 1.2",
+      "company": "Meta",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "release_date": "2026-08-06",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://developer.meta.com/ai/models/muse-spark/"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.25,
+          "source": "https://developer.meta.com/ai/models/muse-spark/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 95,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 90.3,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.9,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1631,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 59.3,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 54.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 72.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 64.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 27.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Muse Spark 1.1",
       "company": "Meta",
       "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
@@ -128,8 +221,28 @@
         },
         {
           "name": "Output speed",
-          "score": 146.41,
+          "score": 202.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 88.1,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 76.2,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1371,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 53,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
         }
       ]
     },
@@ -544,7 +657,7 @@
         },
         {
           "name": "Output speed",
-          "score": 106.25,
+          "score": 96.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -717,7 +830,7 @@
         },
         {
           "name": "Output speed",
-          "score": 82.49,
+          "score": 105.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -929,7 +1042,7 @@
         },
         {
           "name": "Output speed",
-          "score": 75.6,
+          "score": 81.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1170,7 +1283,7 @@
         },
         {
           "name": "Output speed",
-          "score": 2.32,
+          "score": 17.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

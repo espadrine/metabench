@@ -618,6 +618,7 @@ const modelNameFromAA = {
   "Grok 4.5 (high)": "Grok 4.5",
   "Muse Spark": "Muse Spark",
   "Muse Spark 1.1 (xhigh)": "Muse Spark 1.1",
+  "Muse Spark 1.2 (xhigh)": "Muse Spark 1.2",
   "ERNIE 5.0 Thinking Preview": "ERNIE 5",
 };
 

@@ -177,7 +177,7 @@
         },
         {
           "name": "Output speed",
-          "score": 193.29,
+          "score": 196.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -432,7 +432,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.71,
+          "score": 55.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

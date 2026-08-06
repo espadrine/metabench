@@ -109,7 +109,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.78,
+          "score": 57.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -151,6 +151,21 @@
           "name": "ArxivMath",
           "score": 65.99,
           "source": "https://www-cdn.anthropic.com/b514064af1408018e64b1ad24e7d5e75850b4ffd/Claude%20Opus%205%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81.6,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1526,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 56.6,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
         }
       ]
     },
@@ -384,7 +399,7 @@
         },
         {
           "name": "Output speed",
-          "score": 115.58,
+          "score": 128.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

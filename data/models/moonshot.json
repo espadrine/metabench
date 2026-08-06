@@ -257,6 +257,11 @@
           "name": "τ³ Banking",
           "score": 33.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 82.3,
+          "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
         }
       ]
     },
@@ -375,7 +380,7 @@
         },
         {
           "name": "Output speed",
-          "score": 42.36,
+          "score": 38.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
