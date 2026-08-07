@@ -1618,7 +1618,7 @@
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 99,
+          "score": 24,
           "source": "https://artificialanalysis.ai/"
         },
         {
@@ -1784,6 +1784,11 @@
         {
           "name": "τ³ Banking",
           "score": 19.79,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 99.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
