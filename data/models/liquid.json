@@ -1,0 +1,86 @@
+{
+  "models": [
+    {
+      "name": "LFM2.5 350M",
+      "company": "Liquid",
+      "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind",
+      "release_date": "2026-03-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.350,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.350,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 30.64,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 20.01,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "IFEval",
+          "score": 76.96,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "IFBench",
+          "score": 40.69,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 44.92,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "CaseReportBench",
+          "score": 32.45,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 44.11,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 21.86,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 18.86,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 17.84,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "MMMU",
+          "score": 25,
+          "source": "No vision capabilities"
+        }
+      ]
+    }
+  ]
+}

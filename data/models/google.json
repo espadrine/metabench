@@ -9281,6 +9281,56 @@
           "name": "τ²-Bench",
           "score": 10.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 23.89,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 14.04,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "IFEval",
+          "score": 63.49,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "IFBench",
+          "score": 20.33,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 44.25,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "CaseReportBench",
+          "score": 2.28,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 16.61,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 7.17,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 9.36,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 6.43,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         }
       ]
     },
