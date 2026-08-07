@@ -772,6 +772,7 @@ function renderFilterMetricDropdown(state, widgets) {
     const option = document.createElement('option');
     option.value = bench;
     option.textContent = bench;
+    option.selected = bench === state.filterMetric;
     widgets.filterMetric.appendChild(option);
   });
 }

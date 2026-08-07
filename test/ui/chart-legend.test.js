@@ -163,3 +163,16 @@ test('chart tab legend interactions', skipOpts, async t => {
     assert.deepStrictEqual(visible, [pos.company], 'only the double-clicked company should be visible');
   });
 });
+
+test('chart filter keeps the selected metric visible', skipOpts, async () => {
+  await loadPage();
+  await page.select('#filter-metric', 'Size');
+  await sleep(300);
+
+  const selectedFilter = await page.$eval('#filter-metric', select => ({
+    value: select.value,
+    label: select.options[select.selectedIndex].textContent
+  }));
+
+  assert.deepStrictEqual(selectedFilter, { value: 'Size', label: 'Size' });
+});
