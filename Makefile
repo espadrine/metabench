@@ -12,6 +12,10 @@ lmarena:
 test:
 	node --test
 
+# UI tests (headless-browser tests for web/scores.js)
+test-ui:
+	node --test test/ui/chart-legend.test.js
+
 # Development server
 serve:
 	cd web && python3 -m http.server 8901
@@ -21,4 +25,4 @@ list-benchmarks:
 	node bin/list-benchmarks.js
 
 # Default target
-.PHONY: test serve aabench lmarena list-benchmarks
+.PHONY: test test-ui serve aabench lmarena list-benchmarks

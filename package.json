@@ -1,0 +1,13 @@
+{
+  "name": "metabench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LLM Benchmark Aggregator & Estimator",
+  "scripts": {
+    "test": "node --test",
+    "test-ui": "node --test test/ui/chart-legend.test.js"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.5.0"
+  }
+}

@@ -30,7 +30,11 @@ let state = {
   // Filter state
   filterMetric: null,
   filterOperator: '>',
-  filterValue: null
+  filterValue: null,
+  // string | null - company currently hovered in the chart legend
+  hoverCompany: null,
+  // Set<string> - companies toggled invisible via the chart legend
+  hiddenCompanies: new Set()
 };
 
 // ----- Utility functions -----
@@ -169,7 +173,8 @@ function buildChartDatasets(state, metric, companyColors) {
         borderColor: borderColor,
         borderWidth: 2,
         pointRadius: 8,
-        pointHoverRadius: 12
+        pointHoverRadius: 12,
+        hidden: state.hiddenCompanies.has(model.company)
       });
     }
   });
@@ -194,7 +199,7 @@ function generateLegendLabels(state, companyColors, metric) {
           fillStyle: companyColors[company],
           strokeStyle: companyColors[company],
           lineWidth: 2,
-          hidden: false,
+          hidden: state.hiddenCompanies.has(company),
           index: Object.keys(companies).length
         };
         companyBestScores[company] = metricScore;
@@ -219,6 +224,30 @@ function generateLegendLabels(state, companyColors, metric) {
   });
 
   return sortedCompanies;
+}
+
+// Update which datasets are visible based on the currently hovered company
+// and the companies toggled invisible via legend clicks. Shared by the
+// legend hover and click handlers.
+function updateChartCompanyVisibility(state, chart) {
+  if (!chart) return;
+
+  chart.data.datasets.forEach(dataset => {
+    const point = dataset.data[0];
+    if (!point || !point.company) return;
+
+    let visible;
+    if (state.hoverCompany) {
+      // Hovering shows only models from the hovered company
+      visible = point.company === state.hoverCompany;
+    } else {
+      // Otherwise hide models from companies toggled invisible by clicking
+      visible = !state.hiddenCompanies.has(point.company);
+    }
+    dataset.hidden = !visible;
+  });
+
+  chart.update();
 }
 
 // Calculate transparency based on release date (older = more transparent)
@@ -938,6 +967,40 @@ function renderChart(state, widgets) {
             generateLabels: function(chart) {
               return generateLegendLabels(state, companyColors, metric);
             }
+          },
+          onHover: function(event, legendItem, legend) {
+            if (state.hoverCompany !== legendItem.text) {
+              state.hoverCompany = legendItem.text;
+              updateChartCompanyVisibility(state, legend.chart);
+            }
+          },
+          onLeave: function(event, legendItem, legend) {
+            if (state.hoverCompany !== null) {
+              state.hoverCompany = null;
+              updateChartCompanyVisibility(state, legend.chart);
+            }
+          },
+          onClick: function(event, legendItem, legend) {
+            const company = legendItem.text;
+            state.hoverCompany = null;
+            if (event.native && event.native.detail > 1) {
+              // Double-click: show only this company, hide every other company
+              legend.chart.data.datasets.forEach(dataset => {
+                const point = dataset.data[0];
+                if (point && point.company) {
+                  if (point.company === company) {
+                    state.hiddenCompanies.delete(company);
+                  } else {
+                    state.hiddenCompanies.add(point.company);
+                  }
+                }
+              });
+            } else if (state.hiddenCompanies.has(company)) {
+              state.hiddenCompanies.delete(company);
+            } else {
+              state.hiddenCompanies.add(company);
+            }
+            updateChartCompanyVisibility(state, legend.chart);
           }
         }
       }

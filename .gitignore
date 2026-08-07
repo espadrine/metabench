@@ -1,4 +1,5 @@
 /.env
+/node_modules/
 /data/aabench.json
 /data/missing_aabench_benchmarks.json
 /arena-catalog/
