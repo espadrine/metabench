@@ -1,6 +1,103 @@
 {
   "models": [
     {
+      "name": "LFM2.5-2.6B",
+      "company": "Liquid",
+      "url": "https://www.liquid.ai/blog/lfm2-5-2-6b",
+      "release_date": "2026-08-04",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 2.69,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 2.69,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Index",
+          "score": -29.5,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Accuracy",
+          "score": 8.13,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Non-hallucination",
+          "score": 59.04,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 51.87,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 59.41,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFBench",
+          "score": 59.17,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 80.07,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFStruct",
+          "score": 85.49,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 56.88,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 77.83,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Claw-Eval average (EN)",
+          "score": 62.85,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "PinchBench",
+          "score": 68.22,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "BrowseComp+",
+          "score": 26.89,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        }
+      ]
+    },
+    {
       "name": "LFM2.5-230M",
       "company": "Liquid",
       "url": "https://www.liquid.ai/blog/lfm2-5-230m",
@@ -17,12 +114,12 @@
       "benchmarks": [
         {
           "name": "Size",
-          "score": 0.230,
+          "score": 0.23,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
           "name": "Active parameters",
-          "score": 0.230,
+          "score": 0.23,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
@@ -42,12 +139,12 @@
         },
         {
           "name": "IFBench",
-          "score": 38.40,
+          "score": 38.4,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
-          "name": "MultiIF",
-          "score": 37.70,
+          "name": "Multi-IF",
+          "score": 37.7,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
@@ -104,7 +201,7 @@
         },
         {
           "name": "AA-Omniscience Index",
-          "score": -24.70,
+          "score": -24.7,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -128,7 +225,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 79.93,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
@@ -144,7 +241,7 @@
         },
         {
           "name": "AIME 2026",
-          "score": 50.00,
+          "score": 50,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -159,7 +256,7 @@
         },
         {
           "name": "BFCL v4",
-          "score": 48.50,
+          "score": 48.5,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -176,6 +273,46 @@
           "name": "τ²-Bench Retail",
           "score": 39.82,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 8.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 51.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 7.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 55.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 4.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 16.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 339.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -196,12 +333,12 @@
       "benchmarks": [
         {
           "name": "Size",
-          "score": 0.350,
+          "score": 0.35,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
         {
           "name": "Active parameters",
-          "score": 0.350,
+          "score": 0.35,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
         {
@@ -225,7 +362,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 44.92,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
@@ -275,7 +412,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 44.92,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
@@ -348,11 +485,11 @@
         },
         {
           "name": "IFBench",
-          "score": 18.20,
+          "score": 18.2,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 32.92,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },

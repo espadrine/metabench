@@ -9331,7 +9331,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 70,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -13123,7 +13123,7 @@
         },
         {
           "name": "AA-Omniscience Non-Hallucination Rate",
-          "score": 24.50,
+          "score": 24.5,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -13137,7 +13137,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 76.64,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }

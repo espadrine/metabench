@@ -1618,7 +1618,7 @@
         },
         {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
-          "score": 24,
+          "score": 99,
           "source": "https://artificialanalysis.ai/"
         },
         {
@@ -2768,7 +2768,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 71.17,
           "source": "https://arxiv.org/abs/2602.04705"
         },

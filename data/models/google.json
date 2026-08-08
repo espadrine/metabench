@@ -2252,7 +2252,7 @@
         },
         {
           "name": "IFEval",
-          "score": 91.40,
+          "score": 91.4,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -2261,7 +2261,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 82.06,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }
@@ -2502,7 +2502,7 @@
         },
         {
           "name": "AA-Omniscience Accuracy",
-          "score": 8.10,
+          "score": 8.1,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -2521,13 +2521,13 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 77.58,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
           "name": "MATH500",
-          "score": 65.00,
+          "score": 65,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -2559,6 +2559,61 @@
           "name": "τ²-Bench Retail",
           "score": 42.11,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omni-Public Index",
+          "score": -49.03,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Accuracy",
+          "score": 8.33,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Non-hallucination",
+          "score": 37.42,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 34.27,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.77,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFBench",
+          "score": 39.24,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 77.35,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFStruct",
+          "score": 76.65,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 46.39,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 65,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 4.12,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
         }
       ]
     },
@@ -2792,7 +2847,7 @@
         },
         {
           "name": "AA-Omniscience Accuracy",
-          "score": 7.00,
+          "score": 7,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -2811,13 +2866,13 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
-          "name": "MultiIF",
-          "score": 69.70,
+          "name": "Multi-IF",
+          "score": 69.7,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
           "name": "MATH500",
-          "score": 64.00,
+          "score": 64,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -2849,6 +2904,61 @@
           "name": "τ²-Bench Retail",
           "score": 18.95,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omni-Public Index",
+          "score": -74.47,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Accuracy",
+          "score": 6.37,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Non-hallucination",
+          "score": 13.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 26.33,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 54.92,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFBench",
+          "score": 34.08,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 69.44,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFStruct",
+          "score": 64.85,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 36.98,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 52.4,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 3.35,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
         }
       ]
     },
@@ -6061,7 +6171,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 81.15,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -7722,7 +7832,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 76.1,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -8203,7 +8313,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 74.4,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -9463,7 +9573,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 44.25,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
@@ -9513,7 +9623,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 44.25,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         }

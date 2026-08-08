@@ -3411,9 +3411,173 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 41.68,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3.5-4B",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
+      "release_date": "2026-02-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 4.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.5-4B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 4.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.5-4B"
+        },
+        {
+          "name": "AA-Omni-Public Index",
+          "score": -54.3,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Accuracy",
+          "score": 17.63,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Non-hallucination",
+          "score": 12.66,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 49.33,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.85,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFBench",
+          "score": 48.4,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 55.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFStruct",
+          "score": 36.25,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 50.56,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 75.55,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.45,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3.5-9B",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "release_date": "2026-02-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 9.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.5-9B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 9.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.5-9B"
+        },
+        {
+          "name": "AA-Omni-Public Index",
+          "score": -50.43,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Accuracy",
+          "score": 21.3,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AA-Omni-Public Non-hallucination",
+          "score": 8.84,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 56.07,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 69.86,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFBench",
+          "score": 56.47,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 62.55,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "IFStruct",
+          "score": 78.5,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 60.13,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 76.44,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.15,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
         }
       ]
     },
@@ -5741,7 +5905,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 75.1,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -6210,7 +6374,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 73.6,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
@@ -6448,7 +6612,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 77.8,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -6741,7 +6905,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 80.6,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -7355,7 +7519,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 76.4,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -7416,7 +7580,7 @@
         },
         {
           "name": "AA-Omniscience Accuracy",
-          "score": 18.80,
+          "score": 18.8,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
@@ -7435,7 +7599,7 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 79.04,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         },
@@ -7628,7 +7792,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 73,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
         },
@@ -7919,7 +8083,7 @@
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
         {
-          "name": "MultiIF",
+          "name": "Multi-IF",
           "score": 71.2,
           "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Thinking"
         },
