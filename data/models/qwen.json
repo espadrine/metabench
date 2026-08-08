@@ -7356,6 +7356,71 @@
           "name": "BrowseComp",
           "score": 2.29,
           "source": "https://huggingface.co/zai-org/GLM-4.7-Flash"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -51.31,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 18.80,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 13.87,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFEval",
+          "score": 90.82,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFBench",
+          "score": 51.11,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MultiIF",
+          "score": 79.04,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MATH500",
+          "score": 86.48,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 71.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 66.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 73.39,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 50.53,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 21.93,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 56.14,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }
       ]
     },

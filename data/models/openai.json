@@ -13110,6 +13110,36 @@
           "name": "Output speed",
           "score": 227.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -49.17,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 14.57,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 24.50,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.73,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFBench",
+          "score": 58.65,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MultiIF",
+          "score": 76.64,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }
       ]
     },

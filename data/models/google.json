@@ -2234,6 +2234,36 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 44.1,
           "source": "https://huggingface.co/google/diffusiongemma-26B-A4B-it"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -62.07,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 14.37,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 10.75,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFEval",
+          "score": 91.40,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFBench",
+          "score": 47.25,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MultiIF",
+          "score": 82.06,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }
       ]
     },
@@ -2464,6 +2494,71 @@
           "name": "MATH",
           "score": 91.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -50.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 8.10,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 36.06,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFEval",
+          "score": 87.74,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFBench",
+          "score": 39.48,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MultiIF",
+          "score": 77.58,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MATH500",
+          "score": 65.00,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 34.33,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 40.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 57.31,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 33.92,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 26.75,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 42.11,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }
       ]
     },
@@ -2689,6 +2784,71 @@
           "name": "τ³ Banking",
           "score": 4.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -72,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 7.00,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 15.05,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFEval",
+          "score": 82.93,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFBench",
+          "score": 33.53,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MultiIF",
+          "score": 69.70,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MATH500",
+          "score": 64.00,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 26,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 30,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 56.44,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 31.91,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 22.37,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 18.95,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
         }
       ]
     },

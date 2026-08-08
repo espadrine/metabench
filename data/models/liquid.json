@@ -1,7 +1,109 @@
 {
   "models": [
     {
-      "name": "LFM2.5 350M",
+      "name": "LFM2.5-8B-A1B",
+      "company": "Liquid",
+      "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
+      "release_date": "2026-05-28",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 8,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 1,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -24.70,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 8.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 63.47,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFEval",
+          "score": 91.84,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "IFBench",
+          "score": 56.47,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MultiIF",
+          "score": 79.93,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "MATH500",
+          "score": 88.76,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 42.53,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 50.00,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 64.36,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 64.79,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 48.50,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 49.73,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 88.07,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 39.82,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        }
+      ]
+    },
+    {
+      "name": "LFM2.5-350M",
       "company": "Liquid",
       "url": "https://www.liquid.ai/blog/lfm2-5-350m-no-size-left-behind",
       "release_date": "2026-03-31",
