@@ -9491,6 +9491,31 @@
           "name": "τ²-Bench Retail",
           "score": 6.43,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 23.89,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 14.04,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFEval",
+          "score": 63.49,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFBench",
+          "score": 20.33,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 44.25,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         }
       ]
     },

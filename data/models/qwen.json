@@ -3366,6 +3366,58 @@
       ]
     },
     {
+      "name": "Qwen3.5-0.8B-Instruct",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Instruct",
+      "release_date": "2026-02-24",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.5-0.8B-Instruct"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 27.41,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 37.42,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFEval",
+          "score": 59.94,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFBench",
+          "score": 22.87,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 41.68,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        }
+      ]
+    },
+    {
       "name": "Qwen3.5-35B-A3B",
       "company": "Alibaba",
       "url": "https://huggingface.co/Qwen/Qwen3.5-35B-A3B",

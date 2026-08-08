@@ -1,6 +1,83 @@
 {
   "models": [
     {
+      "name": "LFM2.5-230M",
+      "company": "Liquid",
+      "url": "https://www.liquid.ai/blog/lfm2-5-230m",
+      "release_date": "2026-06-25",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.230,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.230,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 25.41,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 20.25,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFEval",
+          "score": 71.71,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFBench",
+          "score": 38.40,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 37.70,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "CaseReportBench",
+          "score": 22.51,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 43.26,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 21.03,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 5.26,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 13.68,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        }
+      ]
+    },
+    {
       "name": "LFM2.5-8B-A1B",
       "company": "Liquid",
       "url": "https://www.liquid.ai/blog/lfm2-5-8b-a1b",
@@ -178,9 +255,131 @@
           "source": "https://huggingface.co/LiquidAI/LFM2.5-350M"
         },
         {
-          "name": "MMMU",
-          "score": 25,
-          "source": "No vision capabilities"
+          "name": "GPQA Diamond",
+          "score": 30.64,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 20.01,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFEval",
+          "score": 76.96,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFBench",
+          "score": 40.69,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 44.92,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "CaseReportBench",
+          "score": 32.45,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 44.11,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 21.86,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 18.86,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 17.84,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        }
+      ]
+    },
+    {
+      "name": "LFM2-350M",
+      "company": "Liquid",
+      "url": "https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models",
+      "release_date": "2025-11-28",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.354,
+          "source": "https://huggingface.co/LiquidAI/LFM2-350M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.354,
+          "source": "https://huggingface.co/LiquidAI/LFM2-350M"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 27.58,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 19.29,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFEval",
+          "score": 64.96,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "IFBench",
+          "score": 18.20,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "MultiIF",
+          "score": 32.92,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "CaseReportBench",
+          "score": 11.67,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "BFCL v3",
+          "score": 22.95,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 12.29,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 10.82,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 5.56,
+          "source": "https://huggingface.co/LiquidAI/LFM2.5-230M"
         }
       ]
     }
