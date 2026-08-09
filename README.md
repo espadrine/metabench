@@ -157,8 +157,6 @@ Rules to add a benchmark:
   It will thus be treated as a separate benchmark.
 - If a benchmark that can be run without tools, was ran with tools,
   label it as a separate benchmark, adding "(with tools)" to the benchmark name.
-- If the model does not support vision, add a *MMMU* benchmark with a score of 25, with a source saying "No vision capabilities".
-- if the model does not support tool calls, add a *τ²-Bench Telecom* benchmark with a score of 0, with a source saying "No tool capabilities".
 - The default benchmark for Aider Polyglot should be diff (or diff-fenced for Gemini).
 
 Rules to add a model:
