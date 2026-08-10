@@ -2,21 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>LLM Benchmark Aggregator & Estimator</title>
+  <title>MetaBench - LLM Benchmark Aggregator & Estimator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech&family=Iosevka+Charon&display=swap" rel="stylesheet">
   <style>
     :root {
       background-color: #e4e8f2;
     }
-    h1 {
+    * {
+      font-family: "Iosevka Aile", "Share Tech", "U001", "FreeSans", sans-serif;
+    }
+    .title-group {
       display: inline-block;
-      border: 4px solid black;
+      border: 4px solid #1579aa;
       border-radius: 10px;
       padding: 10px 20px;
       position: relative;
       left: 50%;
       transform: translateX(-50%);
       color: #1579aa;
-      border-color: #1579aa;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .title-group * {
+      margin: 0;
+      font-family: "Rubik Dirt", Monospace;
+      font-weight: normal;
+    }
+    .title-group h2 {
+      font-size: 1.1em;
     }
 
     /* Table */
@@ -105,7 +120,10 @@
   </style>
 </head>
 <body>
-  <h1>LLM Benchmark Aggregator & Estimator</h1>
+  <hgroup class="title-group">
+    <h1>MetaBench</h1>
+    <h2>LLM Benchmark Aggregator & Estimator</h2>
+  </hgroup>
   <div id="metric-controls" style="margin-bottom: 1em;"></div>
 
   <!-- Tab Navigation -->
