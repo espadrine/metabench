@@ -1,6 +1,194 @@
 {
   "models": [
     {
+      "name": "Muse Glimmer-30B",
+      "company": "Meta",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "release_date": "2026-08-10",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 29.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 29.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 75.5,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 74.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 23.5,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "WildClawBench",
+          "score": 47.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 953,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Gaia2",
+          "score": 43.3,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 44.3,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 65.9,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 51.2,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 51.7,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "SciCode",
+          "score": 43.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 78.8,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 75.4,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 75.8,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "CI Memories (Violation)",
+          "score": 26.4,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "CI Memories (Coverage)",
+          "score": 64.8,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Siren AgentDojo (Attack Success Rate)",
+          "score": 28.4,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Siren AgentDojo (Utility)",
+          "score": 94.2,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "IFBench",
+          "score": 77,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 94.7,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.5,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 22,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 80,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Beam128K",
+          "score": 65.1,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "MBCT",
+          "score": 41.5,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "HPCT",
+          "score": 52.3,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "VCT",
+          "score": 37,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "WMDP (Bio)",
+          "score": 86.5,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "WMDP (Chem)",
+          "score": 75.2,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Lab Bench (ProtocolQA)",
+          "score": 80.2,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        }
+      ]
+    },
+    {
       "name": "Muse Spark 1.2",
       "company": "Meta",
       "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",

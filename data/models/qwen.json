@@ -1137,6 +1137,96 @@
           "name": "τ³ Banking",
           "score": 15.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 62.5,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 71.1,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 16.7,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "WildClawBench",
+          "score": 43.2,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1141,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Gaia2",
+          "score": 40,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 46.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 75.6,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 50.2,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 60.7,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 78.4,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 76.1,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "CI Memories (Violation)",
+          "score": 53.4,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "CI Memories (Coverage)",
+          "score": 66.9,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Siren AgentDojo (Attack Success Rate)",
+          "score": 40.3,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Siren AgentDojo (Utility)",
+          "score": 92.7,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 73.3,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Beam128K",
+          "score": 63,
+          "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
         }
       ]
     },
