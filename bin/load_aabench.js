@@ -443,6 +443,7 @@ function findModel(aaModelName, models) {
 }
 
 const modelNameFromAA = {
+  "Inkling (xhigh)": "Inkling",
   "LFM2.5-8B-A1B": "LFM2.5-8B-A1B",
   "o3": "o3 (high)",
   "gpt-oss-120B (high)": "gpt-oss-120b High",

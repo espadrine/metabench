@@ -276,7 +276,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.3,
+          "score": 8.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -311,7 +311,7 @@
         },
         {
           "name": "Output speed",
-          "score": 339.43,
+          "score": 320.71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

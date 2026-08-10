@@ -294,7 +294,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 58.9,
+          "score": 60.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -309,7 +309,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 47.2,
+          "score": 49.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -324,7 +324,7 @@
         },
         {
           "name": "LCR",
-          "score": 73.67,
+          "score": 77.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.49,
+          "score": 68.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -519,7 +519,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 32.99,
+          "score": 44.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -691,7 +691,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 57.7,
+          "score": 59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -706,7 +706,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 44.7,
+          "score": 47.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -721,7 +721,7 @@
         },
         {
           "name": "LCR",
-          "score": 71,
+          "score": 76.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -736,7 +736,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.78,
+          "score": 62.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -746,13 +746,113 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 32.65,
+          "score": 38.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LMArena Text",
           "score": 1483,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 47.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 55,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 99.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1748,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 81.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 33,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 89.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 71.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 22,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 91.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 83,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 84.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 87.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "FORTRESS (Adversarial)",
+          "score": 82.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "FORTRESS (Benign)",
+          "score": 98.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "StrongREJECT",
+          "score": 98.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling"
         }
       ]
     },
@@ -813,7 +913,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 55.9,
+          "score": 57.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -828,7 +928,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 44.1,
+          "score": 46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -843,7 +943,7 @@
         },
         {
           "name": "LCR",
-          "score": 68.33,
+          "score": 75.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -858,7 +958,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.15,
+          "score": 57.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -868,7 +968,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 30.58,
+          "score": 36.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -930,7 +1030,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 53.6,
+          "score": 55.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -945,7 +1045,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 39.7,
+          "score": 42.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -960,7 +1060,7 @@
         },
         {
           "name": "LCR",
-          "score": 68.67,
+          "score": 74.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -975,7 +1075,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.13,
+          "score": 56.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -985,7 +1085,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 26.46,
+          "score": 36.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1047,7 +1147,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 49.4,
+          "score": 50.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1062,7 +1162,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 36.6,
+          "score": 39.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1077,7 +1177,7 @@
         },
         {
           "name": "LCR",
-          "score": 67.67,
+          "score": 73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1092,7 +1192,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.35,
+          "score": 57.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1102,7 +1202,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 24.4,
+          "score": 29.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1144,7 +1244,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41.2,
+          "score": 41.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1159,7 +1259,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 15.8,
+          "score": 16.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1169,12 +1269,12 @@
         },
         {
           "name": "LCR",
-          "score": 55.33,
+          "score": 57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 58.66,
+          "score": 56.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1184,7 +1284,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 16.08,
+          "score": 19.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1431,7 +1531,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 55,
+          "score": 56.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1446,7 +1546,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 41.8,
+          "score": 42.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1461,7 +1561,7 @@
         },
         {
           "name": "LCR",
-          "score": 74,
+          "score": 79.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1476,7 +1576,7 @@
         },
         {
           "name": "Output speed",
-          "score": 126.04,
+          "score": 119.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1486,7 +1586,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 31.75,
+          "score": 40.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1563,7 +1663,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 51.6,
+          "score": 52.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1578,7 +1678,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 40,
+          "score": 41.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1593,7 +1693,7 @@
         },
         {
           "name": "LCR",
-          "score": 71.33,
+          "score": 75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1608,7 +1708,7 @@
         },
         {
           "name": "Output speed",
-          "score": 109.02,
+          "score": 107.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1618,7 +1718,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 24.33,
+          "score": 29.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1685,7 +1785,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 49,
+          "score": 50.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1700,7 +1800,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 36.7,
+          "score": 38.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1715,7 +1815,7 @@
         },
         {
           "name": "LCR",
-          "score": 72.33,
+          "score": 73.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1730,7 +1830,7 @@
         },
         {
           "name": "Output speed",
-          "score": 102.6,
+          "score": 102.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1740,7 +1840,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 22.27,
+          "score": 28.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1802,7 +1902,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 45.6,
+          "score": 46.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1817,7 +1917,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 31.6,
+          "score": 33.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1832,7 +1932,7 @@
         },
         {
           "name": "LCR",
-          "score": 68,
+          "score": 70.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1842,7 +1942,7 @@
         },
         {
           "name": "Output speed",
-          "score": 102.96,
+          "score": 106.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1852,7 +1952,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 19.38,
+          "score": 25.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1914,7 +2014,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 40.5,
+          "score": 41.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1929,7 +2029,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 27.4,
+          "score": 29.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1944,7 +2044,7 @@
         },
         {
           "name": "LCR",
-          "score": 64.33,
+          "score": 68.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1959,7 +2059,7 @@
         },
         {
           "name": "Output speed",
-          "score": 104.36,
+          "score": 101.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1969,7 +2069,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 16.08,
+          "score": 18.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2016,7 +2116,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34,
+          "score": 34.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2031,7 +2131,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 11,
+          "score": 11.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2041,12 +2141,12 @@
         },
         {
           "name": "LCR",
-          "score": 50,
+          "score": 55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 109.61,
+          "score": 98.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2056,7 +2156,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 13.4,
+          "score": 15.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2303,7 +2403,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 51.2,
+          "score": 52.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2318,7 +2418,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 37.2,
+          "score": 39.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2328,12 +2428,12 @@
         },
         {
           "name": "LCR",
-          "score": 74,
+          "score": 78.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 167.3,
+          "score": 162.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2343,7 +2443,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 27.22,
+          "score": 31.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2445,7 +2545,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 49.1,
+          "score": 50.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2460,7 +2560,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 35.6,
+          "score": 37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2470,12 +2570,12 @@
         },
         {
           "name": "LCR",
-          "score": 69.67,
+          "score": 73.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 162.48,
+          "score": 160.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2485,7 +2585,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 24.33,
+          "score": 28.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2552,7 +2652,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 46.1,
+          "score": 47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2567,7 +2667,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 31.6,
+          "score": 33.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2577,12 +2677,12 @@
         },
         {
           "name": "LCR",
-          "score": 69,
+          "score": 74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 158.31,
+          "score": 158.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2592,7 +2692,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 22.27,
+          "score": 25.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2654,7 +2754,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.1,
+          "score": 38.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2669,7 +2769,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 24.5,
+          "score": 25.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2679,12 +2779,12 @@
         },
         {
           "name": "LCR",
-          "score": 66,
+          "score": 72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 169.69,
+          "score": 153.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2694,7 +2794,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 15.26,
+          "score": 17.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2756,7 +2856,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33.3,
+          "score": 33.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2771,7 +2871,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 18.8,
+          "score": 19.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2781,12 +2881,12 @@
         },
         {
           "name": "LCR",
-          "score": 59.33,
+          "score": 65.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 157.75,
+          "score": 161.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2796,7 +2896,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 11.96,
+          "score": 12.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2843,7 +2943,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 26.6,
+          "score": 26.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2858,7 +2958,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 6.7,
+          "score": 7.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2868,12 +2968,12 @@
         },
         {
           "name": "LCR",
-          "score": 36.33,
+          "score": 38.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Output speed",
-          "score": 165.75,
+          "score": 158.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2883,7 +2983,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 9.07,
+          "score": 9.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3407,7 +3507,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 54.8,
+          "score": 56.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3422,7 +3522,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 44.3,
+          "score": 45.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3437,7 +3537,7 @@
         },
         {
           "name": "LCR",
-          "score": 74.33,
+          "score": 79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3826,7 +3926,7 @@
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
         {
-          "name": "MCP Atlas",
+          "name": "MCP-Atlas",
           "score": 79.4,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
@@ -4067,7 +4167,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 31.34,
+          "score": 38.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4144,7 +4244,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 53.1,
+          "score": 54.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4159,7 +4259,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 43,
+          "score": 45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4174,7 +4274,7 @@
         },
         {
           "name": "LCR",
-          "score": 73.33,
+          "score": 79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4204,7 +4304,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 29.48,
+          "score": 36.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4251,7 +4351,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 50.4,
+          "score": 51.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4266,7 +4366,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 40.6,
+          "score": 42.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4281,7 +4381,7 @@
         },
         {
           "name": "LCR",
-          "score": 72.33,
+          "score": 76.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4306,7 +4406,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 25.77,
+          "score": 29.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4358,7 +4458,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 43.5,
+          "score": 44.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4373,7 +4473,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 31,
+          "score": 32.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4388,7 +4488,7 @@
         },
         {
           "name": "LCR",
-          "score": 72,
+          "score": 77.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4413,7 +4513,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 21.24,
+          "score": 24.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4460,7 +4560,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 35.4,
+          "score": 35.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4475,7 +4575,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 12.6,
+          "score": 13.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4490,7 +4590,7 @@
         },
         {
           "name": "LCR",
-          "score": 56.33,
+          "score": 58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4520,7 +4620,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 13.81,
+          "score": 14.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4869,7 +4969,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 51.4,
+          "score": 53.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4884,7 +4984,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 41.6,
+          "score": 43.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4899,7 +4999,7 @@
         },
         {
           "name": "LCR",
-          "score": 74,
+          "score": 77.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5754,7 +5854,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 30.31,
+          "score": 39.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5895,7 +5995,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 39.1,
+          "score": 40.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5905,7 +6005,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 28.9,
+          "score": 30.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5920,7 +6020,7 @@
         },
         {
           "name": "LCR",
-          "score": 67.33,
+          "score": 73.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6052,7 +6152,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 44.3,
+          "score": 45.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6067,7 +6167,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 39.9,
+          "score": 42.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6082,7 +6182,7 @@
         },
         {
           "name": "LCR",
-          "score": 74,
+          "score": 78.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6112,7 +6212,7 @@
         },
         {
           "name": "Output speed",
-          "score": 111.51,
+          "score": 123.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6391,7 +6491,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 42.2,
+          "score": 43.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6416,7 +6516,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 35.4,
+          "score": 37.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6441,7 +6541,7 @@
         },
         {
           "name": "LCR",
-          "score": 72.67,
+          "score": 79.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8060,7 +8160,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 36.9,
+          "score": 37.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8085,7 +8185,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 26.5,
+          "score": 28.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8110,7 +8210,7 @@
         },
         {
           "name": "LCR",
-          "score": 75,
+          "score": 76.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8135,7 +8235,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 14.02,
+          "score": 15.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -8266,7 +8366,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 20.4,
+          "score": 20.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8291,7 +8391,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 5.2,
+          "score": 5.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8316,7 +8416,7 @@
         },
         {
           "name": "LCR",
-          "score": 44,
+          "score": 44.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8385,7 +8485,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 36.1,
+          "score": 37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8410,7 +8510,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 25.6,
+          "score": 27.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8435,7 +8535,7 @@
         },
         {
           "name": "LCR",
-          "score": 69,
+          "score": 71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9187,7 +9287,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.7,
+          "score": 35.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9212,7 +9312,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 26.5,
+          "score": 28.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9247,7 +9347,7 @@
         },
         {
           "name": "LCR",
-          "score": 75.6,
+          "score": 76.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9467,7 +9567,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 19.59,
+          "score": 22.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -9514,7 +9614,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33.7,
+          "score": 34.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9539,7 +9639,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 23.5,
+          "score": 25.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9574,7 +9674,7 @@
         },
         {
           "name": "LCR",
-          "score": 72.8,
+          "score": 76.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9636,7 +9736,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 31.2,
+          "score": 31.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9661,7 +9761,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 18.4,
+          "score": 19.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9696,7 +9796,7 @@
         },
         {
           "name": "LCR",
-          "score": 58.67,
+          "score": 63.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9758,7 +9858,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 17.2,
+          "score": 17.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9783,7 +9883,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 5.4,
+          "score": 6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9818,7 +9918,7 @@
         },
         {
           "name": "LCR",
-          "score": 25,
+          "score": 27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10060,7 +10160,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.3,
+          "score": 25.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10085,7 +10185,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 19.7,
+          "score": 21.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10110,7 +10210,7 @@
         },
         {
           "name": "LCR",
-          "score": 68,
+          "score": 71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10185,7 +10285,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 14.64,
+          "score": 15.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10222,7 +10322,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 30.9,
+          "score": 31.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10247,7 +10347,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 14.6,
+          "score": 15.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10272,7 +10372,7 @@
         },
         {
           "name": "LCR",
-          "score": 66,
+          "score": 69.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10349,7 +10449,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 5,
+          "score": 5.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10374,7 +10474,7 @@
         },
         {
           "name": "LCR",
-          "score": 35.67,
+          "score": 36.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10591,7 +10691,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 19.9,
+          "score": 20.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10616,7 +10716,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 8.2,
+          "score": 9.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10641,7 +10741,7 @@
         },
         {
           "name": "LCR",
-          "score": 41.67,
+          "score": 43.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10693,7 +10793,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 19,
+          "score": 19.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10718,7 +10818,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 7.6,
+          "score": 8.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10743,7 +10843,7 @@
         },
         {
           "name": "LCR",
-          "score": 40,
+          "score": 42.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10795,7 +10895,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8,
+          "score": 7.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10820,7 +10920,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 4.1,
+          "score": 4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11492,7 +11592,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 30.4,
+          "score": 31.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11517,7 +11617,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 20,
+          "score": 20.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11552,7 +11652,7 @@
         },
         {
           "name": "LCR",
-          "score": 69.33,
+          "score": 73.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11567,7 +11667,7 @@
         },
         {
           "name": "Output speed",
-          "score": 113.53,
+          "score": 132.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -11619,7 +11719,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 19,
+          "score": 19.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11639,7 +11739,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 8.7,
+          "score": 7.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12013,7 +12113,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 19.4,
+          "score": 19.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12038,7 +12138,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 4.6,
+          "score": 4.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12073,7 +12173,7 @@
         },
         {
           "name": "LCR",
-          "score": 61,
+          "score": 64.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12301,7 +12401,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 4.6,
+          "score": 5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12336,7 +12436,7 @@
         },
         {
           "name": "LCR",
-          "score": 42.33,
+          "score": 45.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12361,7 +12461,7 @@
         },
         {
           "name": "τ³ Banking",
-          "score": 5.15,
+          "score": 5.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -12534,7 +12634,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 3.9,
+          "score": 3.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12569,7 +12669,7 @@
         },
         {
           "name": "LCR",
-          "score": 17,
+          "score": 19.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13302,7 +13402,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.9,
+          "score": 19.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -13383,7 +13483,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 23.4,
+          "score": 23.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13403,7 +13503,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 7.7,
+          "score": 7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13433,7 +13533,7 @@
         },
         {
           "name": "LCR",
-          "score": 59.33,
+          "score": 63.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13529,7 +13629,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 17,
+          "score": 17.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13985,7 +14085,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.6,
+          "score": 8.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14005,7 +14105,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 2.8,
+          "score": 1.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14143,7 +14243,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7.9,
+          "score": 7.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14158,7 +14258,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 3.3,
+          "score": 3.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14469,7 +14569,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7,
+          "score": 6.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
