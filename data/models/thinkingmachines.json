@@ -1,6 +1,276 @@
 {
   "models": [
     {
+      "name": "Inkling Small",
+      "company": "Thinking Machines",
+      "url": "https://thinkingmachines.ai/news/inkling-small/",
+      "release_date": "2026-07-30",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.16,
+          "source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.88,
+          "source": "https://tinker-docs.thinkingmachines.ai/tinker/models/"
+        },
+        {
+          "name": "Size",
+          "score": 276,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Active parameters",
+          "score": 12,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 130,
+          "source": "https://artificialanalysis.ai/models/inkling-small/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 40,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 55.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 64.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SciCode",
+          "score": 48.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1269,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 79.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 79.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 15.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 77.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 54.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 917,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 31.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 47.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 90.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CritPt",
+          "score": 8.3,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 84,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 40.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 20.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "IFBench",
+          "score": 82.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 86.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "StrongREJECT",
+          "score": 98.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Adversarial)",
+          "score": 71.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Benign)",
+          "score": 96.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 74,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 77.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 81.3,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Audio MC",
+          "score": 54.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MMAU",
+          "score": 77,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "VoiceBench",
+          "score": 90.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 52.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 48.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 69.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 55.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 18.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 145.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ForecastBench (no search)",
+          "score": 61.3,
+          "source": "https://thinkingmachines.ai/news/inkling-small/"
+        },
+        {
+          "name": "ForecastBench (with search)",
+          "score": 61.5,
+          "source": "https://thinkingmachines.ai/news/inkling-small/"
+        },
+        {
+          "name": "Prophet Arena Brier Score",
+          "score": 0.1238,
+          "source": "https://thinkingmachines.ai/news/inkling-small/"
+        }
+      ]
+    },
+    {
       "name": "Inkling",
       "company": "Thinking Machines",
       "url": "https://thinkingmachines.ai/news/introducing-inkling/",
@@ -207,6 +477,161 @@
           "name": "Output speed",
           "score": 80.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.3,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 63.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SciCode",
+          "score": 46.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1238,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 78.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 76,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 23.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 77.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 45.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 839,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 29.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 46,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 97.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 86.3,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CritPt",
+          "score": 5.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 43.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 2.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 88.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "StrongREJECT",
+          "score": 98.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Adversarial)",
+          "score": 78,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Benign)",
+          "score": 95.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 78.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 82,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Audio MC",
+          "score": 56.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MMAU",
+          "score": 77.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "VoiceBench",
+          "score": 91.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
         }
       ]
     }

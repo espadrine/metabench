@@ -1880,6 +1880,126 @@
           "name": "Output speed",
           "score": 99.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 40,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 52.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1189,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 69,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 22.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 73.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 50.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 833,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 32.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 93.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CritPt",
+          "score": 7.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 34.1,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -22.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 88.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "StrongREJECT",
+          "score": 97.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Adversarial)",
+          "score": 32,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Benign)",
+          "score": 99.2,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
         }
       ]
     },

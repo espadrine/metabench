@@ -2485,6 +2485,146 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 74.8,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-6-Flash-Model-Card.pdf"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 93,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 62.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SciCode",
+          "score": 50,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1530,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 77,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 75,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 24.3,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 84,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 67.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 35.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 48.9,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 97.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 98.5,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CritPt",
+          "score": 20.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 87.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 47.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "SimpleQA Verified",
+          "score": 41.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -11.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "IFBench",
+          "score": 67.3,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Global MMLU Lite",
+          "score": 88.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "StrongREJECT",
+          "score": 98.7,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Adversarial)",
+          "score": 83.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "FORTRESS (Benign)",
+          "score": 97.8,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 78.6,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 81.4,
+          "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
         }
       ]
     },

@@ -136,6 +136,8 @@ function mapModels(lmarenaData, models) {
 // Known model name mappings for cases where LMArena and our data use different naming conventions
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
+  "inkling-small": "Inkling Small",
+  "inkling": "Inkling",
   "claude-opus-5-max": "Claude Opus 5 max",
   "claude-opus-5-high": "Claude Opus 5 high",
   "gemini-3.6-flash": "Gemini 3.6 Flash",
