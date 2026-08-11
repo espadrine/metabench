@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.43,
+          "score": 67.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -736,7 +736,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.07,
+          "score": 62.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -958,7 +958,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.67,
+          "score": 56.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1075,7 +1075,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.39,
+          "score": 52.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1192,7 +1192,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.58,
+          "score": 56.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1274,7 +1274,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.2,
+          "score": 54.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1576,7 +1576,7 @@
         },
         {
           "name": "Output speed",
-          "score": 119.64,
+          "score": 121.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1708,7 +1708,7 @@
         },
         {
           "name": "Output speed",
-          "score": 107.03,
+          "score": 109.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1830,7 +1830,7 @@
         },
         {
           "name": "Output speed",
-          "score": 102.74,
+          "score": 104.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2059,7 +2059,7 @@
         },
         {
           "name": "Output speed",
-          "score": 101.16,
+          "score": 97.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2146,7 +2146,7 @@
         },
         {
           "name": "Output speed",
-          "score": 98.15,
+          "score": 100.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2433,7 +2433,7 @@
         },
         {
           "name": "Output speed",
-          "score": 162.8,
+          "score": 162.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2822,7 +2822,7 @@
         },
         {
           "name": "Output speed",
-          "score": 158.08,
+          "score": 156.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3026,7 +3026,7 @@
         },
         {
           "name": "Output speed",
-          "score": 161.84,
+          "score": 164.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6352,7 +6352,7 @@
         },
         {
           "name": "Output speed",
-          "score": 123.62,
+          "score": 133.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -11807,7 +11807,7 @@
         },
         {
           "name": "Output speed",
-          "score": 132.65,
+          "score": 131.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -14720,6 +14720,26 @@
         {
           "name": "Output speed",
           "score": 43.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 56.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 34.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 56.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 33.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

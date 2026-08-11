@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "name": "Muse Glimmer-30B",
+      "name": "Muse Glimmer",
       "company": "Meta",
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
       "release_date": "2026-08-10",
@@ -25,6 +25,11 @@
           "name": "Active parameters",
           "score": 29.6,
           "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 95,
+          "source": "https://artificialanalysis.ai/"
         },
         {
           "name": "MCP Atlas",
@@ -185,6 +190,46 @@
           "name": "Lab Bench (ProtocolQA)",
           "score": 80.2,
           "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 35.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 43.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 51.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 23.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -562,7 +607,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 43.5,
+          "score": 44.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -855,7 +900,7 @@
         },
         {
           "name": "Output speed",
-          "score": 135,
+          "score": 133.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1028,7 +1073,7 @@
         },
         {
           "name": "Output speed",
-          "score": 98.33,
+          "score": 116.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1240,7 +1285,7 @@
         },
         {
           "name": "Output speed",
-          "score": 85.23,
+          "score": 84.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1481,7 +1526,7 @@
         },
         {
           "name": "Output speed",
-          "score": 16.09,
+          "score": 17.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2626,7 +2671,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7.8,
+          "score": 7.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

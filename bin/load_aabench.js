@@ -443,6 +443,7 @@ function findModel(aaModelName, models) {
 }
 
 const modelNameFromAA = {
+  "Muse Glimmer (high)": "Muse Glimmer",
   "Inkling Small": "Inkling Small",
   "Inkling (xhigh)": "Inkling",
   "LFM2.5-8B-A1B": "LFM2.5-8B-A1B",
@@ -544,6 +545,7 @@ const modelNameFromAA = {
   "GLM-5 (Reasoning)": "GLM-5",
   "GLM-5.1 (Reasoning)": "GLM-5.1",
   "GLM-5.2 (max)": "GLM-5.2",
+  "GPT-4": "GPT-4",
   "GPT-4o (May '24)": "GPT-4o",
   "gpt-oss-20B (high)": "gpt-oss-20b High",
   "gpt-oss-20B (low)": "gpt-oss-20b Low",
