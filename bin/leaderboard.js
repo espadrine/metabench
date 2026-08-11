@@ -207,6 +207,13 @@ function addCompletionLatency(benchmarks) {
         const memoryBandwidth = 3.35e12; // bytes per second, cf. https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet?ncid=no-ncid
         const weightTransferSize = activeParams.score * 1e9 * 2; // bytes per token (in FP16, 2 bytes per parameter)
         tokensPerSecond = memoryBandwidth / weightTransferSize;
+        // Add the output speed.
+        model.benchmarks.push({
+          name: 'Output speed',
+          score: tokensPerSecond,
+          source: 'Estimated from Active Parameters and H100 SXM Memory Bandwidth',
+          stdDev: 0
+        });
       }
 
       if (tokensPerSecond > 0) {
@@ -221,6 +228,100 @@ function addCompletionLatency(benchmarks) {
     }
   });
 
+  return benchmarks;
+}
+
+// Estimate Input cost and Output cost per million tokens for models
+// where the price benchmarks are missing
+// but Active parameters and Output speed are known.
+// The estimate is then used by addCostOf1KResponses()
+// to improve the Cost of 1K responses prediction.
+//
+// Rationale:
+// Having prices be estimated from all other benchmark scores is biased,
+// since a cheap model with a high score
+// will wrongly be assumed to be an expensive model.
+// Fundamentally, provider price per token is driven by compute cost,
+// as both reads (compute-bound from KV cache computation)
+// and writes (not memory-IO-bound but attention-bound
+// because of high batch sizes) are compute-bound.
+// Compute is proportional to the number of active parameters,
+// and to the speed of attention.
+// Indeed DeepSeek’s MLA / DSA changes reduce attention FLOPs,
+// which let them lower prices,
+// and shows up as higher Output speed for the same active parameter count.
+// Hence the intensity ratio activeB / speed captures architectural
+// efficiency beyond raw parameter count.
+//
+// Empirical validation on 75 models with both price and speed:
+// - Baseline activeB only
+//   Input:  Input = 0.399 + 0.00549·activeB   R²=0.164 RMSE=0.650
+//   Output: Output = 1.468 + 0.01708·activeB  R²=0.121 RMSE=2.410
+//
+// - activeB + Output speed
+//   Input:  Input = 0.496 + 0.00520·activeB -0.000784·speed   R²=0.183 RMSE=0.643
+//   Output: Output = 1.824 + 0.01602·activeB -0.00288·speed  R²=0.140 RMSE=2.383
+//   Small improvement; speed alone is weakly correlated with price.
+//
+// - activeB + ratio = activeB / speed
+//   Input:  Input = 0.370 -0.00471·activeB + 0.738·ratio   R²=0.255 RMSE=0.613
+//   Output: Output = 1.323 -0.03356·activeB + 3.662·ratio   R²=0.292 RMSE=2.163
+//   ~+9% R² for Input and +17% R² for Output vs baseline, RMSE down ~6% and ~10% respectively.
+function addInputOutputCost(benchmarks) {
+  benchmarks.models.forEach(model => {
+    const active = model.benchmarks.find(b => b.name === 'Active parameters');
+    const hasActive = active && typeof active.score === 'number';
+    if (!hasActive) { return; }
+    const activeB = active.score;
+    const outSpeed = model.benchmarks.find(b => b.name === 'Output speed');
+    const hasSpeed = outSpeed && typeof outSpeed.score === 'number' && outSpeed.score > 0;
+    const speed = hasSpeed ? outSpeed.score : null;
+    const ratio = hasSpeed ? activeB / speed : null;
+
+    // Estimate Input cost per million tokens
+    const inputBench = model.benchmarks.find(b => b.name === 'Input cost');
+    const hasInputCost = inputBench && typeof inputBench.score === 'number';
+    if (!hasInputCost) {
+      let estimatedInput;
+      let source;
+      if (hasSpeed) {
+        estimatedInput = 0.370 - 0.00471 * activeB + 0.738 * ratio;
+        source = 'Estimated from Active parameters + Output speed ratio';
+      } else {
+        // Fallback to activeB-only regression from 75-model set
+        estimatedInput = 0.399 + 0.00549 * activeB;
+        source = 'Estimated from Active parameters';
+      }
+      model.benchmarks.push({
+        name: 'Input cost',
+        score: estimatedInput,
+        source,
+        stdDev: 0
+      });
+    }
+
+    // Estimate Output cost per million tokens
+    const outputBench = model.benchmarks.find(b => b.name === 'Output cost');
+    const hasOutputCost = outputBench && typeof outputBench.score === 'number';
+    if (!hasOutputCost) {
+      let estimatedOutput;
+      let source;
+      if (hasSpeed) {
+        estimatedOutput = 1.323 - 0.03356 * activeB + 3.662 * ratio;
+        source = 'Estimated from Active parameters + Output speed ratio';
+      } else {
+        // Fallback to activeB-only regression from 75-model set
+        estimatedOutput = 1.468 + 0.01708 * activeB;
+        source = 'Estimated from Active parameters';
+      }
+      model.benchmarks.push({
+        name: 'Output cost',
+        score: estimatedOutput,
+        source,
+        stdDev: 0
+      });
+    }
+  });
   return benchmarks;
 }
 
@@ -276,9 +377,10 @@ if (require.main === module) {
   benchmarks = addReleaseDateSizeProduct(benchmarks);
   benchmarks = adjustScoresByCapabilities(benchmarks);
   benchmarks = addCompletionLatency(benchmarks);
+  benchmarks = addInputOutputCost(benchmarks);  // Depends on addCompletionLatency()
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
-  benchmarks = addCostOf1KResponses(benchmarks);
+  benchmarks = addCostOf1KResponses(benchmarks);  // Depends on addInputOutputCost()
   //printTable(benchmarks);
 
   const outputPath = path.join(__dirname, '..', 'data', 'models-prediction.json');
