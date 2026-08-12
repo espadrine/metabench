@@ -29,7 +29,7 @@ let state = {
   xAxisMetric: 'Cost of 1K responses',
   // Filter state
   filterMetric: null,
-  filterOperator: '>',
+  filterOperator: '<',
   filterValue: null,
   // string | null - company currently hovered in the chart legend
   hoverCompany: null,
