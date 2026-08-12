@@ -443,6 +443,13 @@ function findModel(aaModelName, models) {
 }
 
 const modelNameFromAA = {
+  // AABench name: Our data name
+  // Append the latest at the top.
+  "Olmo 3.1 32B Think": "Olmo 3.1 32B Think",
+  "Olmo 3.1 32B Instruct": "Olmo 3.1 32B Instruct",
+  "Olmo 3 32B Think": "Olmo 3 32B Think",
+  "Olmo 3 7B Think": "Olmo 3 7B Think",
+  "Olmo 3 7B Instruct": "Olmo 3 7B Instruct",
   "Muse Glimmer (high)": "Muse Glimmer",
   "Inkling Small": "Inkling Small",
   "Inkling (xhigh)": "Inkling",

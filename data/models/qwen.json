@@ -8025,6 +8025,203 @@
           "name": "PolyMATH",
           "score": 47.4,
           "source": "https://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Thinking"
+        },
+        {
+          "name": "MATH",
+          "score": 95.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 80.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 47.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 90.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 88.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 90,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 91.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 70.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 37.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 88.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 30.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 67.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 75.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-32B Non-Thinking",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.7,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Output cost",
+          "score": 8.4,
+          "source": "https://www.alibabacloud.com/help/en/model-studio/models"
+        },
+        {
+          "name": "Size",
+          "score": 32.762123264,
+          "source": "https://huggingface.co/Qwen/Qwen3-32B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32.762123264,
+          "source": "https://huggingface.co/Qwen/Qwen3-32B"
+        },
+        {
+          "name": "MATH",
+          "score": 84.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 27.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 21.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "OMEGA",
+          "score": 23.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 80.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 28.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 82.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 83.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 67.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 57.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 87.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFBench",
+          "score": 31.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 85.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "PopQA",
+          "score": 25.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "GPQA",
+          "score": 54.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 67.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
         }
       ]
     },
@@ -8177,7 +8374,7 @@
       ]
     },
     {
-      "name": "Qwen3-8B",
+      "name": "Qwen3-8B Thinking",
       "company": "Alibaba",
       "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
       "release_date": "2025-04-28",
@@ -8331,6 +8528,198 @@
           "name": "GPQA Diamond",
           "score": 62,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528"
+        },
+        {
+          "name": "MATH",
+          "score": 95.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 74,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 67.8,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 43.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "BigBench Hard",
+          "score": 84.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 85.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AGIEval",
+          "score": 87,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 80.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 69.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 86.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 87.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 37.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 85.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 24.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 57.7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 60.5,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-8B Non-Thinking",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=1e3fa5c2d4662af2855586055ad037ed9e555125&from=research.research-list",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "MATH",
+          "score": 82.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 26.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 21.7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "OMEGA",
+          "score": 20.5,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 73.7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 25.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 76,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 79.8,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 64.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 53.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 86.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "IFBench",
+          "score": 29.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 80.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "PopQA",
+          "score": 20.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "GPQA",
+          "score": 44.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 49.8,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 79,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "LitQA2",
+          "score": 39.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "BFCL",
+          "score": 60.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
         }
       ]
     }

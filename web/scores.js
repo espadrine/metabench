@@ -52,8 +52,13 @@ function getCompanyColor(company) {
     'Moonshot AI': 'hsl(212, 99%, 51%)',
     'MiniMax': 'hsl(343, 82%, 56%)',
     'Z.ai': 'hsl(274, 100%, 50%)',
+    'Cohere': 'hsl(159, 21%, 28%)',
+    'AllenAI': 'hsl(331, 84%, 63%)',
     'Microsoft': 'hsl(199, 96%, 48%)',
+    'NVIDIA': 'hsl(82, 100%, 36%)',
     'Baidu': 'hsl(237, 75%, 52%)',
+    'Thinking Machines': 'hsl(37, 80%, 66%)',
+    'Liquid': 'hsl(251, 69%, 59%)',
   };
 
   return colorMap[company] || stringToColor(company);

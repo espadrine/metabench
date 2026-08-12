@@ -1247,7 +1247,7 @@
           "source": "https://huggingface.co/google/gemma-4-31B-it"
         },
         {
-          "name": "BigBench",
+          "name": "BIG-bench",
           "score": 74.4,
           "source": "https://huggingface.co/google/gemma-4-31B-it"
         },
@@ -1991,7 +1991,7 @@
           "source": "https://huggingface.co/google/gemma-4-31B-it"
         },
         {
-          "name": "BigBench",
+          "name": "BIG-bench",
           "score": 64.8,
           "source": "https://huggingface.co/google/gemma-4-31B-it"
         },
@@ -9302,7 +9302,7 @@
           "source": "https://huggingface.co/google/gemma-4-31B-it"
         },
         {
-          "name": "BigBench",
+          "name": "BIG-bench",
           "score": 19.3,
           "source": "https://huggingface.co/google/gemma-4-31B-it"
         },
@@ -9400,6 +9400,166 @@
           "name": "τ³ Banking",
           "score": 0.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MATH",
+          "score": 87.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 28.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 22.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 24,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 82.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 24.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 76.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 79.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 65.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 39,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 85.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 31.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 74.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 30.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 45,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 65.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MATH",
+          "score": 87.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 28.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 22.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "OMEGA",
+          "score": 24,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 82.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 24.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 76.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 79.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 65.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 39,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 85.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFBench",
+          "score": 31.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 74.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "PopQA",
+          "score": 30.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "GPQA",
+          "score": 45,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 65.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
         }
       ]
     },
@@ -10455,7 +10615,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "BBH",
+          "name": "BIG-Bench Hard",
           "score": 74.9,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -10513,6 +10673,166 @@
           "name": "MBPP",
           "score": 62.6,
           "source": "https://arxiv.org/abs/2408.00118"
+        },
+        {
+          "name": "MATH",
+          "score": 51.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 4.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 0.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 9.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 66,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 17.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 70.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 67.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 61.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 28.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 62.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 27.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 76.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 30.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 39.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 39.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MATH",
+          "score": 51.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 4.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 0.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "OMEGA",
+          "score": 9.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 66,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 17.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 70.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 67.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 61.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 28.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 62.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFBench",
+          "score": 27.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 76.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "PopQA",
+          "score": 30.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "GPQA",
+          "score": 39.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 39.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
         }
       ]
     },
@@ -10576,7 +10896,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "BBH",
+          "name": "BIG-Bench Hard",
           "score": 68.2,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -10782,7 +11102,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "BBH",
+          "name": "BIG-Bench Hard",
           "score": 41.9,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -11327,7 +11647,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "BBH",
+          "name": "BIG-Bench Hard",
           "score": 59,
           "source": "https://arxiv.org/abs/2408.00118"
         },
@@ -11528,7 +11848,7 @@
           "source": "https://arxiv.org/abs/2408.00118"
         },
         {
-          "name": "BBH",
+          "name": "BIG-Bench Hard",
           "score": 35.2,
           "source": "https://arxiv.org/abs/2408.00118"
         },

@@ -1,0 +1,797 @@
+{
+  "models": [
+    {
+      "name": "Olmo 3.1 32B Think",
+      "company": "AllenAI",
+      "url": "https://allenai.org/blog/olmo3",
+      "release_date": "2025-12-12",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 32,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MATH",
+          "score": 96.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 80.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 78.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 53.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 88.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 80.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 89.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 91.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 68.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.3,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 93.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 68.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 86.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 30.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 57.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 69.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 7.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 77.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 76.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 59.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 69.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 29.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 77.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 65.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1285,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Olmo 3.1 32B Instruct",
+      "company": "AllenAI",
+      "url": "https://allenai.org/blog/olmo3",
+      "release_date": "2025-12-12",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 32,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MATH",
+          "score": 93.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 67.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 57.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "OMEGA",
+          "score": 42.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 84,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 61.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 79.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 86.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 65.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 54.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 88.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "IFBench",
+          "score": 39.7,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 80.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "PopQA",
+          "score": 25,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "GPQA",
+          "score": 48.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 59.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 6.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 53.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 16.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 39.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 21.35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1330,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Olmo 3 32B Think",
+      "company": "AllenAI",
+      "url": "https://allenai.org/blog/olmo3",
+      "release_date": "2025-11-20",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 32,
+          "source": "https://huggingface.co/allenai/Olmo-3-32B-Think"
+        },
+        {
+          "name": "Active parameters",
+          "score": 32,
+          "source": "https://huggingface.co/allenai/Olmo-3-32B-Think"
+        },
+        {
+          "name": "MATH",
+          "score": 96.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 76.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 72.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 50.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 89.8,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 76,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 88.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 91.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 68,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.5,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 89,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 47.6,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 85.4,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 31.9,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 58.1,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 74.2,
+          "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Think"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 6.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 73.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 75.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 67.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 28.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 73.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 49.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 1.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1305,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "Olmo 3 7B Think",
+      "company": "AllenAI",
+      "url": "https://allenai.org/blog/olmo3",
+      "release_date": "2025-11-20",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "Active parameters",
+          "score": 7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "MATH",
+          "score": 95.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 71.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 64.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "OMEGA",
+          "score": 37.8,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "BigBench Hard",
+          "score": 86.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 66.5,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AGIEval",
+          "score": 81.5,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 89.9,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 64.7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 75.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "IFEval",
+          "score": 88.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "IFBench",
+          "score": 41.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "MMLU",
+          "score": 77.8,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "PopQA",
+          "score": 23.7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "GPQA",
+          "score": 46.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 52.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Think"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 3.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 70.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 65.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 51.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 61.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 21.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 70.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 41.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 0.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Olmo 3 7B Instruct",
+      "company": "AllenAI",
+      "url": "https://allenai.org/blog/olmo3",
+      "release_date": "2025-11-20",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 7,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "MATH",
+          "score": 87.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 44.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 32.5,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "OMEGA",
+          "score": 28.9,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 71.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "ZebraLogic",
+          "score": 32.9,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AGIEval English",
+          "score": 64.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 77.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "MBPP Plus",
+          "score": 60.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 29.5,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 85.6,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "IFBench",
+          "score": 32.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 69.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "PopQA",
+          "score": 14.1,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "GPQA",
+          "score": 40.4,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "AlpacaEval 2 LC",
+          "score": 40.9,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "SimpleQA",
+          "score": 79.3,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "LitQA2",
+          "score": 38.2,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "BFCL",
+          "score": 49.8,
+          "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 2.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 41.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 52.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 40,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 5.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 26.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 10.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 41.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 32.79,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 12.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    }
+  ]
+}

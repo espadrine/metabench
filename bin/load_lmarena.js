@@ -136,6 +136,10 @@ function mapModels(lmarenaData, models) {
 // Known model name mappings for cases where LMArena and our data use different naming conventions
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
+  // Insert the latest at the top.
+  "olmo-3-32b-think": "Olmo-3-32B-Think",
+  "olmo-3.1-32b-think": "Olmo-3.1-32B-Think",
+  "olmo-3.1-32b-instruct": "Olmo-3.1-32B-Instruct",
   "inkling-small": "Inkling Small",
   "inkling": "Inkling",
   "claude-opus-5-max": "Claude Opus 5 max",

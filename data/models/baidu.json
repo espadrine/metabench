@@ -502,7 +502,7 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "BBH",
+          "name": "BIG-Bench Hard",
           "score": 75.69,
           "source": "https://arxiv.org/abs/2602.04705"
         },
@@ -532,12 +532,12 @@
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "HumanEval+0-shot",
+          "name": "HumanEval Plus",
           "score": 80.86,
           "source": "https://arxiv.org/abs/2602.04705"
         },
         {
-          "name": "MBPP+0-shot",
+          "name": "MBPP Plus",
           "score": 79.1,
           "source": "https://arxiv.org/abs/2602.04705"
         },

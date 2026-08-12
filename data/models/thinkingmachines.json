@@ -632,6 +632,11 @@
           "name": "VoiceBench",
           "score": 91.4,
           "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1441,
+          "source": "https://lmarena.ai/"
         }
       ]
     }
