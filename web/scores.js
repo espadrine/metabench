@@ -54,6 +54,7 @@ function getCompanyColor(company) {
     'Z.ai': 'hsl(274, 100%, 50%)',
     'Cohere': 'hsl(159, 21%, 28%)',
     'AllenAI': 'hsl(331, 84%, 63%)',
+    'Hugging Face': 'hsl(48, 100%, 56%)',
     'Microsoft': 'hsl(199, 96%, 48%)',
     'NVIDIA': 'hsl(82, 100%, 36%)',
     'Baidu': 'hsl(237, 75%, 52%)',

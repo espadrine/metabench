@@ -1,0 +1,66 @@
+{
+  "models": [
+    {
+      "name": "SmolLM3-3B-Instruct",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm3",
+      "release_date": "2025-07-08",
+      "capabilities": {
+        "input": ["text"],
+        "output": ["text", "tool"]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 9.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GSM-Plus",
+          "score": 72.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 15.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 35.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "IFEval",
+          "score": 76.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "MixEval Hard",
+          "score": 26.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "BFCL",
+          "score": 92.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 53.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        }
+      ]
+    }
+  ]
+}

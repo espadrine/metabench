@@ -8722,6 +8722,204 @@
           "source": "https://huggingface.co/allenai/Olmo-3-7B-Instruct"
         }
       ]
+    },
+    {
+      "name": "Qwen3-4B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=qwen3",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 4.022468096,
+          "source": "https://huggingface.co/Qwen/Qwen3-4B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 4.022468096,
+          "source": "https://huggingface.co/Qwen/Qwen3-4B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 12.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GSM-Plus",
+          "score": 75.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 16.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 34.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "IFEval",
+          "score": 77.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "MixEval Hard",
+          "score": 29.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "BFCL",
+          "score": 91.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 57.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3-1.7B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=qwen3",
+      "release_date": "2025-04-28",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 2.031739904,
+          "source": "https://huggingface.co/Qwen/Qwen3-1.7B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 2.031739904,
+          "source": "https://huggingface.co/Qwen/Qwen3-1.7B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 10.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GSM-Plus",
+          "score": 73.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 14.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 33.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "IFEval",
+          "score": 74.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "MixEval Hard",
+          "score": 28.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "BFCL",
+          "score": 91.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 55.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        }
+      ]
+    },
+    {
+      "name": "Qwen2.5-3B",
+      "company": "Alibaba",
+      "url": "https://qwen.ai/blog?id=qwen2.5",
+      "release_date": "2024-09-18",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 3.085938688,
+          "source": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3.085938688,
+          "source": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 13.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GSM-Plus",
+          "score": 76.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 16.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 31.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "IFEval",
+          "score": 76.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "MixEval Hard",
+          "score": 30.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "BFCL",
+          "score": 90.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 59.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        }
+      ]
     }
   ]
 }
