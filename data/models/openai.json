@@ -631,6 +631,161 @@
           "name": "MCP-Atlas",
           "score": 81.8,
           "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 46.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 67.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 46.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "PaperBench",
+          "score": 90.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "AndroidBench",
+          "score": 74.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 73.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "QwenQoderBench",
+          "score": 53.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "QwenReactBench",
+          "score": 1564,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "QwenSVGBench",
+          "score": 1758,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 71.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "WorkSpaceBench",
+          "score": 65.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "JobBench",
+          "score": 45.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 73.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 53.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Automation Bench",
+          "score": 29.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 74.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "WideSearch",
+          "score": 67.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 58.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 47.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "$OneMillion-Bench",
+          "score": 53.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "HealthBench",
+          "score": 55.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "PLawBench",
+          "score": 72.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "PRBench-Legal",
+          "score": 57.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "PRBench-Finance",
+          "score": 55.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 93.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 67.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         }
       ]
     },
