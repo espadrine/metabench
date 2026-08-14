@@ -117,28 +117,70 @@ and the [1, s1, s2, ...] form a latent vector on each model.
 
 ## Adding benchmarking data
 
+When you add a new model from an announcement page:
+1. Create the model object at the top of its company file under `data/models/<company>.json`.
+   This object must contain:
+   - `name`: use the official name of the model, as given in the announcement page.
+     It may contain the reasoning verbosity, eg. `Claude Opus 5 max`.
+   - `company`: the company name, eg. `Anthropic`. It should be the same for all models in the company file.
+   - `url`: the URL of the announcement page.
+   - `release_date`: the release date of the model, in YYYY-MM-DD format.
+   - `capabilities`:
+     - `input`: what the model can read: text, image, video, audio.
+     - `output`: what the model can produce: text, thinking, tool (for tool calls), image, video, audio.
+   - `benchmarks`: a list of objects.
+2. The first two benchmarks should be `Input cost` and `Output cost`, in dollar per million tokens.
+   Sometimes, the information is in the announcement page.
+   Sometimes, you can look up the source of the previous model's Input Cost, and you may find the information for the latest as well.
+   If there is no official cost, try looking it up on openrouter; otherwise, do not add the cost benchmarks.
+   Always use the most expensive cost: do not use the cache hit cost, nor temporary promotional cost;
+   when the cost depends on the context length: use the largest cost.
+3. If the model is open-weights, or has a published size, look up the Huggingface model page (or similar),
+   and add the `Size` benchmark in billion parameters.
+   Also add the `Active parameters` benchmark, which is the same as `Size` if it is a dense model,
+   or different if it is a mixture-of-experts model.
+4. Look up ArtificialAnalysis to gather the `ArtificialAnalysis Consumed Tokens (Millions)`:
+   the number of million output tokens consumed to run their test suite.
+5. Extract the list of comparative benchmark scores from the announcement,
+   from the linked model card (which usually has better information),
+   or from the model page on Huggingface (which also has more information).
+   The name of the benchmarks we add to the model object,
+   should match that which is already used in the `data/models/` files.
+   Before adding new benchmarks, compare the benchmarks by matching them to existing ones.
+
+   First, generate the canonical name list from all model files (do not edit `./bm` directly):
+   ```
+   node bin/list-benchmarks.js | awk 'FS="\t" {print $1}' > bm
+   ```
+   Then check your proposed names against it:
+   ```
+   node bin/check_bench_names.js <(jq '.models[0]' data/models/<company>.json) ./bm
+   ```
+   Fix any mismatches before proceeding. For each flagged name, use the closest match shown, if it looks like a reasonable match.
+   If it looks like a separate benchmark, look that benchmark up on the Web or ArXiv to find the official name,
+   and use that name in the model object.
+6. Add all the benchmark scores listed on the comparison,
+   to all models mentioned in the comparison, across company files.
+   New benchmark scores should be added at the bottom of the `benchmarks` list.
+   It should have the same benchmark names, as per step 5.
+
+   If that benchmark score is already present with a different source,
+   do not modify the existing benchmark score;
+   instead, add the new benchmark score as a separate entry with its own source.
+   Except for input and output prices: those should always be listed only once.
+7. If the new model is listed on ArtificialAnalysis, do `rm data/aabench.json` and `make aabench` to download fresh data.
+   Find the name that seems to correspond among the models in `data/aabench.json`.
+   Add the model name mapping to `bin/load_aabench.js`, in `modelNameFromAA`, at the top of the list.
+8. Run `make` to compile the latest data.
+
 Rules to add a benchmark:
 - Only add benchmarks to the appropriate company file in `data/models/`. Other `/data/` files are generated.
-- Add the new benchmark scores at the end of the list.
 - The benchmark name should follow the official, case-sensitive name given in
   the academic paper that introduced it.
 - The name of the benchmark should match that which is already used in the `data/models/` files.
-  Before adding new benchmarks, compare the benchmarks by matching them to existing ones.
-  First, generate the canonical name list from all model files (do not edit `./bm` directly):
-  ```
-  node bin/list-benchmarks.js | awk 'FS="\t" {print $1}' > bm
-  ```
-  Then check your proposed names against it:
-  ```
-  node bin/check_bench_names.js <(jq '.models[0]' data/models/<company>.json) ./bm
-  ```
-  Fix any mismatches before proceeding. For each flagged name, use the closest match shown.
 - All benchmarks must be sourced with links to the authoritative information,
   typically the official model announcement, model card, technical report, or
   the official model weights repository.
-- For a given source page, add all the benchmark scores listed on the page.
-  Even if that benchmark score is already present with a different source.
-  Except for input and output prices; those should always be listed only once.
 - Do not merge benchmark results.
   When a benchmark score appears in multiple sources with a different result,
   add both results as separate benchmarks, each referencing its source.
