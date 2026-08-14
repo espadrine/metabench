@@ -445,6 +445,9 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Gemini 3.7 Flash (high)": "Gemini 3.7 Flash",
+  "Gemini 3.7 Flash (medium)": "Gemini 3.7 Flash medium",
+  "Gemini 3.7 Flash (low)": "Gemini 3.7 Flash low",
   "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)": "DeepSeek V4 Pro Max 0813",
   "Qwen3.8 Max": "Qwen3.8-Max",
   "Olmo 3.1 32B Think": "Olmo 3.1 32B Think",

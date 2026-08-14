@@ -843,6 +843,81 @@
           "source": "https://claude.com/pricing#api"
         },
         {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 42.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 53.8,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "Code Arena",
+          "score": 1541,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 10.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1598,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 28,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 77,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 88.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "LVBench",
+          "score": 68.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "GDM MRCR: 2 needle 1M",
+          "score": 81.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 33.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 87.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "BioMystery Bench Hard",
+          "score": 34.1,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 304,
           "source": "https://artificialanalysis.ai/"

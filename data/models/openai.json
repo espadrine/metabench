@@ -1758,6 +1758,81 @@
           "name": "DeepSWE 1.1",
           "score": 64.8,
           "source": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 41.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "Code Arena",
+          "score": 1523,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 87.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 23.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1578,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 24.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "CharXiv Reasoning",
+          "score": 85.9,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "LVBench",
+          "score": 78.9,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "GDM MRCR: 2 needle 1M",
+          "score": 93.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 50.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 83.8,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+        },
+        {
+          "name": "BioMystery Bench Hard",
+          "score": 49.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
         }
       ]
     },
