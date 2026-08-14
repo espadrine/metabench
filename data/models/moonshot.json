@@ -44,6 +44,56 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 43.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 56,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "CyberGym",
+          "score": 80,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 67.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 76.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 30.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 73.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 63,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
           "name": "DeepSWE",
           "score": 67.5,
           "source": "https://www.kimi.com/blog/kimi-k3"
@@ -390,7 +440,7 @@
         },
         {
           "name": "Output speed",
-          "score": 43.27,
+          "score": 37.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

@@ -44,6 +44,56 @@
         {
           "name": "Humanity's Last Exam",
           "score": 40.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 48.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 46.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 59.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 23.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 12.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 61.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 54.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.5,
           "source": "https://z.ai/blog/glm-5.2"
         },
         {
@@ -178,7 +228,7 @@
         },
         {
           "name": "Output speed",
-          "score": 123.71,
+          "score": 110.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

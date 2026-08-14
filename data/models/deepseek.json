@@ -1,6 +1,149 @@
 {
   "models": [
     {
+      "name": "DeepSeek V4 Pro Max 0813",
+      "company": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
+      "release_date": "2026-08-13",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.32,
+          "source": "https://api-docs.deepseek.com/news/news260813/"
+        },
+        {
+          "name": "Output cost",
+          "score": 3.96,
+          "source": "https://api-docs.deepseek.com/news/news260813/"
+        },
+        {
+          "name": "Size",
+          "score": 1600,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Active parameters",
+          "score": 49,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 128,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 60,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 87.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 61.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "CyberGym",
+          "score": 83.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 62.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 74.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 25.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 31.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 71.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 67.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 53.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 68.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 49.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 75.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 78.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 39.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 67.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "DeepSeek V4 Flash Max 0731",
       "company": "DeepSeek",
       "url": "https://x.com/deepseek_ai/status/2083084415157022911",
@@ -18,12 +161,12 @@
       "benchmarks": [
         {
           "name": "Input cost",
-          "score": 0.14,
+          "score": 0.44,
           "source": "https://api-docs.deepseek.com/news/news250929"
         },
         {
           "name": "Output cost",
-          "score": 0.28,
+          "score": 1.32,
           "source": "https://api-docs.deepseek.com/news/news250929"
         },
         {
@@ -40,6 +183,61 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 206,
           "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 51.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 54.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "CyberGym",
+          "score": 76.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 54.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 70.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 25.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 25.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 68.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 59.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
         },
         {
           "name": "Terminal-Bench 2.1",
@@ -128,7 +326,7 @@
         },
         {
           "name": "Output speed",
-          "score": 112.23,
+          "score": 108.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -521,7 +719,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.21,
+          "score": 59.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -888,6 +1086,61 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
+          "name": "Humanity's Last Exam",
+          "score": 37.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 48.2,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 72.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 38.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "CyberGym",
+          "score": 52.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 12.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 55.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 16.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 12.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 41.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 31.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
           "name": "MMLU-Pro",
           "score": 87.1,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf"
@@ -1044,7 +1297,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.51,
+          "score": 61.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1407,7 +1660,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.53,
+          "score": 62.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1452,6 +1705,61 @@
           "name": "ArtificialAnalysis Consumed Tokens (Millions)",
           "score": 241,
           "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 45.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 39.4,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "CyberGym",
+          "score": 38.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 7.3,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 49.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 15.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 10.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-FullStack",
+          "score": 37,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
+        },
+        {
+          "name": "DSBench-Hard",
+          "score": 25.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813"
         },
         {
           "name": "MMLU-Pro",

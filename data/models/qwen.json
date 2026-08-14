@@ -70,12 +70,12 @@
         },
         {
           "name": "MLS Bench Lite",
-          "score": 41.0,
+          "score": 41,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
           "name": "PaperBench",
-          "score": 93.0,
+          "score": 93,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -197,6 +197,51 @@
           "name": "LongBench v2",
           "score": 66.3,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 58.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 71.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 51.34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 44.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -655,7 +700,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.29,
+          "score": 55.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1480,7 +1525,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.33,
+          "score": 54.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2140,7 +2185,7 @@
         },
         {
           "name": "Output speed",
-          "score": 163.46,
+          "score": 145.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5401,7 +5446,7 @@
         },
         {
           "name": "Output speed",
-          "score": 80.18,
+          "score": 78.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5783,7 +5828,7 @@
         },
         {
           "name": "Output speed",
-          "score": 140.06,
+          "score": 127.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7283,7 +7328,7 @@
         },
         {
           "name": "Output speed",
-          "score": 196.92,
+          "score": 197.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9114,7 +9159,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 16.0,
+          "score": 16,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -9200,7 +9245,7 @@
         },
         {
           "name": "BFCL",
-          "score": 91.0,
+          "score": 91,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {

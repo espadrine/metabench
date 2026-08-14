@@ -230,6 +230,11 @@
           "name": "τ³ Banking",
           "score": 23.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 96.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -900,7 +905,7 @@
         },
         {
           "name": "Output speed",
-          "score": 133.04,
+          "score": 119.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1073,7 +1078,7 @@
         },
         {
           "name": "Output speed",
-          "score": 116.69,
+          "score": 130.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1285,7 +1290,7 @@
         },
         {
           "name": "Output speed",
-          "score": 84.08,
+          "score": 79.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1526,7 +1531,7 @@
         },
         {
           "name": "Output speed",
-          "score": 17.55,
+          "score": 20.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

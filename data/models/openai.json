@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 67.72,
+          "score": 60.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -644,7 +644,7 @@
         },
         {
           "name": "DeepSWE 1.1",
-          "score": 73.0,
+          "score": 73,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -669,7 +669,7 @@
         },
         {
           "name": "AndroidBench",
-          "score": 74.0,
+          "score": 74,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -734,7 +734,7 @@
         },
         {
           "name": "Humanity's Last Exam (with tools)",
-          "score": 58.0,
+          "score": 58,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -891,7 +891,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.19,
+          "score": 57.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1113,7 +1113,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.62,
+          "score": 58.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1230,7 +1230,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.69,
+          "score": 51.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1347,7 +1347,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.21,
+          "score": 48.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1429,7 +1429,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.23,
+          "score": 52.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1731,7 +1731,7 @@
         },
         {
           "name": "Output speed",
-          "score": 121.48,
+          "score": 105.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1863,7 +1863,7 @@
         },
         {
           "name": "Output speed",
-          "score": 109.03,
+          "score": 90.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1985,7 +1985,7 @@
         },
         {
           "name": "Output speed",
-          "score": 104.06,
+          "score": 83.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2097,7 +2097,7 @@
         },
         {
           "name": "Output speed",
-          "score": 106.59,
+          "score": 80.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2214,7 +2214,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.94,
+          "score": 76.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2301,7 +2301,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.91,
+          "score": 79.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2588,7 +2588,7 @@
         },
         {
           "name": "Output speed",
-          "score": 162.56,
+          "score": 155.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2870,7 +2870,7 @@
         },
         {
           "name": "Output speed",
-          "score": 160.85,
+          "score": 145.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2977,7 +2977,7 @@
         },
         {
           "name": "Output speed",
-          "score": 156.89,
+          "score": 132.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3079,7 +3079,7 @@
         },
         {
           "name": "Output speed",
-          "score": 153.39,
+          "score": 149.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3181,7 +3181,7 @@
         },
         {
           "name": "Output speed",
-          "score": 164.76,
+          "score": 133.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3268,7 +3268,7 @@
         },
         {
           "name": "Output speed",
-          "score": 158.4,
+          "score": 136.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6507,7 +6507,7 @@
         },
         {
           "name": "Output speed",
-          "score": 133.08,
+          "score": 109.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -11962,7 +11962,7 @@
         },
         {
           "name": "Output speed",
-          "score": 131.47,
+          "score": 106.17,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -13935,6 +13935,26 @@
         {
           "name": "MATH",
           "score": 92.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Math Index",
+          "score": 79.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 79.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -274,7 +274,7 @@
         },
         {
           "name": "Output speed",
-          "score": 49.05,
+          "score": 50.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -428,7 +428,7 @@
         },
         {
           "name": "Output speed",
-          "score": 49.4,
+          "score": 48.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -562,7 +562,7 @@
         },
         {
           "name": "Output speed",
-          "score": 48.86,
+          "score": 47.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -691,7 +691,7 @@
         },
         {
           "name": "Output speed",
-          "score": 47.97,
+          "score": 45.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -810,7 +810,7 @@
         },
         {
           "name": "Output speed",
-          "score": 48.88,
+          "score": 46.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1019,7 +1019,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.16,
+          "score": 72.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1577,7 +1577,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.83,
+          "score": 59.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2087,12 +2087,12 @@
         },
         {
           "name": "SWE-bench Pro",
-          "score": 80.0,
+          "score": 80,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
           "name": "DeepSWE 1.1",
-          "score": 70.0,
+          "score": 70,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -3325,7 +3325,7 @@
         },
         {
           "name": "DeepSWE 1.1",
-          "score": 59.0,
+          "score": 59,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -3335,7 +3335,7 @@
         },
         {
           "name": "FrontierSWE (Dominance)",
-          "score": 70.0,
+          "score": 70,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -3355,7 +3355,7 @@
         },
         {
           "name": "QwenSWEBench",
-          "score": 84.0,
+          "score": 84,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -3420,7 +3420,7 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 92.0,
+          "score": 92,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
         },
         {
@@ -8550,7 +8550,7 @@
         },
         {
           "name": "Output speed",
-          "score": 137.71,
+          "score": 99.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

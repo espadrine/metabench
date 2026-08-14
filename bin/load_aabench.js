@@ -445,6 +445,8 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)": "DeepSeek V4 Pro Max 0813",
+  "Qwen3.8 Max": "Qwen3.8-Max",
   "Olmo 3.1 32B Think": "Olmo 3.1 32B Think",
   "Olmo 3.1 32B Instruct": "Olmo 3.1 32B Instruct",
   "Olmo 3 32B Think": "Olmo 3 32B Think",
