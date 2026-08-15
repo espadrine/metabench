@@ -445,6 +445,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Grok 4.6 (high)": "Grok 4.6",
   "Gemini 3.7 Flash (high)": "Gemini 3.7 Flash",
   "Gemini 3.7 Flash (medium)": "Gemini 3.7 Flash medium",
   "Gemini 3.7 Flash (low)": "Gemini 3.7 Flash low",

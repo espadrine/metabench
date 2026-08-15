@@ -1,6 +1,140 @@
 {
   "models": [
     {
+      "name": "Grok 4.6",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-6",
+      "release_date": "2026-08-12",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://docs.x.ai/developers/models/grok-4.6"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://docs.x.ai/developers/models/grok-4.6"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 72,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 61,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1753,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "CursorBench",
+          "score": 69.9,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 65.9,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 61.3,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 57.5,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 26,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "APEX-SWE",
+          "score": 56.4,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1577,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 15.8,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 76.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 53.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 50.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 57.31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Grok 4.5",
       "company": "xAI",
       "url": "https://x.ai/news/grok-4-5",
@@ -109,7 +243,7 @@
         },
         {
           "name": "Output speed",
-          "score": 50.88,
+          "score": 50.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -171,6 +305,56 @@
           "name": "LMArena Text",
           "score": 1469,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 56,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1526,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "CursorBench",
+          "score": 66.7,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 54,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 56.6,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 47.1,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 15.7,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "APEX-SWE",
+          "score": 53.6,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1313,
+          "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 12.9,
+          "source": "https://x.ai/news/grok-4-6"
         }
       ]
     },
@@ -404,7 +588,7 @@
         },
         {
           "name": "Output speed",
-          "score": 95.66,
+          "score": 93.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
