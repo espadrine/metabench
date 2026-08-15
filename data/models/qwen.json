@@ -1,6 +1,161 @@
 {
   "models": [
     {
+      "name": "Qwen3.8-27B",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "release_date": "2026-08-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 73,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 61.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 42.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 42.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 79,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 70.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "JobBench",
+          "score": 33.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 42.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 30.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 84.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "WebArena-Verified",
+          "score": 64.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "AndroidWorld",
+          "score": 81.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "RecreationBench",
+          "score": 47.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 56.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 38.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Vision2Web",
+          "score": 62.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 94.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "BabyVision",
+          "score": 85.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 90.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 91.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 85.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ERQA",
+          "score": 65.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        }
+      ]
+    },
+    {
       "name": "Qwen3.8-Max",
       "company": "Alibaba",
       "url": "https://qwen.ai/blog?id=qwen3.8",
@@ -240,7 +395,7 @@
         },
         {
           "name": "Output speed",
-          "score": 44.27,
+          "score": 43.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -700,7 +855,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.49,
+          "score": 56.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -717,6 +872,131 @@
           "name": "LMArena Text",
           "score": 1459,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 64,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 57.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 41.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 14.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 59.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 65.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "JobBench",
+          "score": 27.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 33.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 73.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "WebArena-Verified",
+          "score": 55.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "AndroidWorld",
+          "score": 81,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "RecreationBench",
+          "score": 30.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 60.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 30,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Vision2Web",
+          "score": 42.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 90.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "BabyVision",
+          "score": 64.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 85.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 91.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 86.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ERQA",
+          "score": 69.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
         }
       ]
     },
@@ -1525,7 +1805,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.41,
+          "score": 53.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1627,6 +1907,131 @@
           "name": "Beam128K",
           "score": 63,
           "source": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 63.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 53.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 36.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 13.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 49.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 61,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "JobBench",
+          "score": 21.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "IFBench",
+          "score": 69.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 24,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 63.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "WebArena-Verified",
+          "score": 48.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "AndroidWorld",
+          "score": 70.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "RecreationBench",
+          "score": 29.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 50.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 25.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Vision2Web",
+          "score": 45,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 85.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "BabyVision",
+          "score": 28.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 78.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 89.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 84.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ERQA",
+          "score": 62.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
         }
       ]
     },
@@ -2185,7 +2590,7 @@
         },
         {
           "name": "Output speed",
-          "score": 145.58,
+          "score": 138.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5446,7 +5851,7 @@
         },
         {
           "name": "Output speed",
-          "score": 78.53,
+          "score": 80.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5828,7 +6233,7 @@
         },
         {
           "name": "Output speed",
-          "score": 127.33,
+          "score": 134.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7328,7 +7733,7 @@
         },
         {
           "name": "Output speed",
-          "score": 197.61,
+          "score": 197.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
