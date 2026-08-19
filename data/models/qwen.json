@@ -29,6 +29,11 @@
           "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
         },
         {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 163,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
           "name": "Terminal-Bench 2.1",
           "score": 73,
           "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
@@ -152,6 +157,46 @@
           "name": "ERQA",
           "score": 65.5,
           "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 68.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 77.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 79.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 48.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -395,8 +440,73 @@
         },
         {
           "name": "Output speed",
-          "score": 43.41,
+          "score": 46.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 86.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 56.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 55.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 10.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 78.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 28.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 72.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 39.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 56.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1739,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 14,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 26,
+          "source": "https://z.ai/blog/glm-5.3"
         }
       ]
     },
@@ -855,7 +965,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.27,
+          "score": 55.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1805,7 +1915,7 @@
         },
         {
           "name": "Output speed",
-          "score": 53.35,
+          "score": 58.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2590,7 +2700,7 @@
         },
         {
           "name": "Output speed",
-          "score": 130.11,
+          "score": 138.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5851,7 +5961,7 @@
         },
         {
           "name": "Output speed",
-          "score": 83.16,
+          "score": 82.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6233,7 +6343,7 @@
         },
         {
           "name": "Output speed",
-          "score": 130.49,
+          "score": 131.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7733,7 +7843,7 @@
         },
         {
           "name": "Output speed",
-          "score": 197.43,
+          "score": 195.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

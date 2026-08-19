@@ -1,6 +1,179 @@
 {
   "models": [
     {
+      "name": "GLM-5.3",
+      "company": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.3",
+      "release_date": "2026-08-14",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.4,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 753.864158464,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Active parameters",
+          "score": 40,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 168,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 28.3,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 66.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 58,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 19,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 78.1,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 42.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 39.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 84.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 105,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 130,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 54.4,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 73,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 48.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 62.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1769,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 59.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 74.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 76.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 50.31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 79.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GLM-5.2",
       "company": "Z.ai",
       "url": "https://z.ai/blog/glm-5.2",
@@ -147,7 +320,7 @@
           "source": "https://z.ai/blog/glm-5.2"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 63.7,
           "source": "https://z.ai/blog/glm-5.2"
         },
@@ -228,7 +401,7 @@
         },
         {
           "name": "Output speed",
-          "score": 107.87,
+          "score": 68.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -242,7 +415,7 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 63.7,
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
@@ -465,6 +638,91 @@
           "name": "StrongREJECT",
           "score": 98.5,
           "source": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 4.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 46.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 48.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 9.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 67.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 19.4,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 31.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 77.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 24.4,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 59.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 26.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 23.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1508,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 29,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 39,
+          "source": "https://z.ai/blog/glm-5.3"
         }
       ]
     },
@@ -901,7 +1159,7 @@
         },
         {
           "name": "Output speed",
-          "score": 87.59,
+          "score": 28.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

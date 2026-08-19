@@ -99,7 +99,7 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 77.8,
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
@@ -322,6 +322,86 @@
           "name": "LMArena Text",
           "score": 1485,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.3,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 17.4,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 58,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 17.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 48.1,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 32,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 80,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 32.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 76.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 59.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1682,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 36,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 70,
+          "source": "https://z.ai/blog/glm-5.3"
         }
       ]
     },
@@ -369,7 +449,7 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 53.6,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
@@ -440,7 +520,7 @@
         },
         {
           "name": "Output speed",
-          "score": 37.03,
+          "score": 38.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1254,7 +1334,7 @@
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 48.3,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },

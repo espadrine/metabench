@@ -274,7 +274,7 @@
         },
         {
           "name": "Output speed",
-          "score": 47.29,
+          "score": 54.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -428,7 +428,7 @@
         },
         {
           "name": "Output speed",
-          "score": 45.82,
+          "score": 53.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -562,7 +562,7 @@
         },
         {
           "name": "Output speed",
-          "score": 45.52,
+          "score": 51.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -691,7 +691,7 @@
         },
         {
           "name": "Output speed",
-          "score": 45.37,
+          "score": 50.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -810,7 +810,7 @@
         },
         {
           "name": "Output speed",
-          "score": 44.56,
+          "score": 50.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -968,7 +968,7 @@
           "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 81,
           "source": "https://www-cdn.anthropic.com/9e6a1044980d8c4ed85669faf9c2a8342e2e9f1e/Claude%20Sonnet%205%20System%20Card.pdf"
         },
@@ -1094,7 +1094,7 @@
         },
         {
           "name": "Output speed",
-          "score": 73.34,
+          "score": 81.86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1652,7 +1652,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.45,
+          "score": 67.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1746,7 +1746,7 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 76.8,
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
@@ -2359,6 +2359,86 @@
           "name": "Harvey LAB (Vals)",
           "score": 11.3,
           "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 33.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 33,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 88.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 33.1,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 41.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 83.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 78,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 74.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 23.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 63.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1743,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 181,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 247,
+          "source": "https://z.ai/blog/glm-5.3"
         }
       ]
     },
@@ -2725,7 +2805,7 @@
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 63.8,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
@@ -2805,7 +2885,7 @@
           "source": "https://z.ai/blog/glm-5.2"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 71.9,
           "source": "https://z.ai/blog/glm-5.2"
         },
@@ -2955,7 +3035,7 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 71.9,
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
@@ -3368,6 +3448,91 @@
           "name": "DSBench-Hard",
           "score": 71.7,
           "source": "https://x.com/deepseek_ai/status/2083084415157022911"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 85,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 21.1,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 58,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 69.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 15.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "FrontierSWE (Dominance)",
+          "score": 66.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 48.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 32.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 78.1,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 40,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 76.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 41,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 25.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 57.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1588,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 80,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 120,
+          "source": "https://z.ai/blog/glm-5.3"
         }
       ]
     },
@@ -8770,7 +8935,7 @@
         },
         {
           "name": "Output speed",
-          "score": 93.46,
+          "score": 104.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

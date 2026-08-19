@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 61.46,
+          "score": 68.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -348,7 +348,7 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 77.6,
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
@@ -831,6 +831,81 @@
           "name": "Harvey LAB (Vals)",
           "score": 2.5,
           "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 34.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 72.7,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 23,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 42.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 36.2,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "CyberGym",
+          "score": 83.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 76.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 74.9,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 45.8,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28.6,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 64.5,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1730,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 216,
+          "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "ExploitGym 6h",
+          "score": 293,
+          "source": "https://z.ai/blog/glm-5.3"
         }
       ]
     },
@@ -936,7 +1011,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.67,
+          "score": 64.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1158,7 +1233,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.42,
+          "score": 60.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1275,7 +1350,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.55,
+          "score": 55.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1392,7 +1467,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.61,
+          "score": 58.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1474,7 +1549,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.75,
+          "score": 68.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1776,7 +1851,7 @@
         },
         {
           "name": "Output speed",
-          "score": 101.95,
+          "score": 117.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1983,7 +2058,7 @@
         },
         {
           "name": "Output speed",
-          "score": 91.56,
+          "score": 115.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2105,7 +2180,7 @@
         },
         {
           "name": "Output speed",
-          "score": 89.46,
+          "score": 98.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2217,7 +2292,7 @@
         },
         {
           "name": "Output speed",
-          "score": 85.45,
+          "score": 98.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2334,7 +2409,7 @@
         },
         {
           "name": "Output speed",
-          "score": 89.68,
+          "score": 93.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2421,7 +2496,7 @@
         },
         {
           "name": "Output speed",
-          "score": 83.79,
+          "score": 92.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2708,7 +2783,7 @@
         },
         {
           "name": "Output speed",
-          "score": 154.93,
+          "score": 165.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2990,7 +3065,7 @@
         },
         {
           "name": "Output speed",
-          "score": 153.88,
+          "score": 144.71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3097,7 +3172,7 @@
         },
         {
           "name": "Output speed",
-          "score": 156.66,
+          "score": 140.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3199,7 +3274,7 @@
         },
         {
           "name": "Output speed",
-          "score": 153.67,
+          "score": 138.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3301,7 +3376,7 @@
         },
         {
           "name": "Output speed",
-          "score": 146.99,
+          "score": 143.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3388,7 +3463,7 @@
         },
         {
           "name": "Output speed",
-          "score": 141.32,
+          "score": 142.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4326,7 +4401,7 @@
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 69.1,
           "source": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
         },
@@ -4376,7 +4451,7 @@
           "source": "https://z.ai/blog/glm-5.2"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 70.8,
           "source": "https://z.ai/blog/glm-5.2"
         },
@@ -4411,7 +4486,7 @@
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
         {
-          "name": "Program Bench",
+          "name": "ProgramBench",
           "score": 70.8,
           "source": "https://www.kimi.com/blog/kimi-k3"
         },
@@ -6627,7 +6702,7 @@
         },
         {
           "name": "Output speed",
-          "score": 115.86,
+          "score": 132.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -12082,7 +12157,7 @@
         },
         {
           "name": "Output speed",
-          "score": 113.26,
+          "score": 119.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
