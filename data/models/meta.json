@@ -12,6 +12,7 @@
         ],
         "output": [
           "text",
+          "thinking",
           "tool"
         ]
       },
@@ -290,6 +291,7 @@
         ],
         "output": [
           "text",
+          "thinking",
           "tool"
         ]
       },
@@ -413,6 +415,7 @@
         ],
         "output": [
           "text",
+          "thinking",
           "tool"
         ]
       },
@@ -571,6 +574,7 @@
         ],
         "output": [
           "text",
+          "thinking",
           "tool"
         ]
       },
@@ -1783,42 +1787,42 @@
         },
         {
           "name": "AIME 2025",
-          "score": 7.8,
+          "score": 0.3,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "GSM-Plus",
-          "score": 70.2,
+          "score": 59.2,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "LiveCodeBench",
-          "score": 12.8,
+          "score": 3.4,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "GPQA Diamond",
-          "score": 27.9,
+          "score": 29.4,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "IFEval",
-          "score": 71.5,
+          "score": 71.6,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "MixEval Hard",
-          "score": 24.5,
+          "score": 24.9,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "BFCL",
-          "score": 88.4,
+          "score": 92.3,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
           "name": "Global MMLU",
-          "score": 52.3,
+          "score": 46.8,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         }
       ]
@@ -1917,6 +1921,107 @@
           "name": "Output speed",
           "score": 86.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFEval",
+          "score": 53.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 5.48,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 56.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 72.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 12.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 27.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 26.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        }
+      ]
+    },
+    {
+      "name": "Llama 3.2 1B",
+      "company": "Meta",
+      "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
+      "release_date": "2024-09-25",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 1.23231136,
+          "source": "https://huggingface.co/meta-llama/Llama-3.2-1B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 1.23231136,
+          "source": "https://huggingface.co/meta-llama/Llama-3.2-1B"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 61.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "PIQA",
+          "score": 74.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 11.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 41.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 28.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 57.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 38.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "GSM8K",
+          "score": 7.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
         }
       ]
     },

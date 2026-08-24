@@ -1,13 +1,86 @@
 {
   "models": [
     {
+      "name": "SmolLM3-3B-Thinking",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm3",
+      "release_date": "2025-07-08",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 36.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GSM-Plus",
+          "score": 83.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 30.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 41.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "IFEval",
+          "score": 71.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "MixEval Hard",
+          "score": 30.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "BFCL",
+          "score": 88.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 64.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        }
+      ]
+    },
+    {
       "name": "SmolLM3-3B-Instruct",
       "company": "Hugging Face",
       "url": "https://huggingface.co/blog/smollm3",
       "release_date": "2025-07-08",
       "capabilities": {
-        "input": ["text"],
-        "output": ["text", "tool"]
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
       },
       "benchmarks": [
         {
@@ -59,6 +132,774 @@
           "name": "Global MMLU",
           "score": 53.5,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM2-1.7B-Instruct",
+      "company": "Hugging Face",
+      "url": "https://x.com/LoubnaBenAllal1/status/1852055582494294414",
+      "release_date": "2024-10-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 1.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 1.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 56.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 6.13,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 66.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 74.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 19.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 32.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 48.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM2-1.7B",
+      "company": "Hugging Face",
+      "url": "https://x.com/LoubnaBenAllal1/status/1852055582494294414",
+      "release_date": "2024-10-30",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 1.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 1.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 68.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "PIQA",
+          "score": 77.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 19.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 43.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 36.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 59.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 42.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "GSM8K",
+          "score": 31,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM2-360M-Instruct",
+      "company": "Hugging Face",
+      "url": "https://x.com/LoubnaBenAllal1/status/1852055582494294414",
+      "release_date": "2024-10-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.36,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.36,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 41,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 3.66,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 52.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 70.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 32.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 27.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 7.43,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM2-360M",
+      "company": "Hugging Face",
+      "url": "https://x.com/LoubnaBenAllal1/status/1852055582494294414",
+      "release_date": "2024-10-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.36,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.36,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 54.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "PIQA",
+          "score": 71.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "MMLU",
+          "score": 35.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 38,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 16.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 52.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 37.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "GSM8K",
+          "score": 3.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM2-135M-Instruct",
+      "company": "Hugging Face",
+      "url": "https://x.com/LoubnaBenAllal1/status/1852055582494294414",
+      "release_date": "2024-10-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.135,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.135,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 29.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 1.98,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 40.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 66.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 29.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 28.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 1.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM2-135M",
+      "company": "Hugging Face",
+      "url": "https://x.com/LoubnaBenAllal1/status/1852055582494294414",
+      "release_date": "2024-10-31",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.135,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.135,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 42.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "PIQA",
+          "score": 68.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "MMLU",
+          "score": 31.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 33.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 4.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 51.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 34.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "GSM8K",
+          "score": 1.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM-1.7B",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm",
+      "release_date": "2024-07-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 1.711113984,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-1.7B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 1.711113984,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-1.7B"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 62.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "PIQA",
+          "score": 76.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 10.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 38.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 22.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 54.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 42.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        },
+        {
+          "name": "GSM8K",
+          "score": 5.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM-1.7B-Instruct",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm",
+      "release_date": "2024-07-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 1.711113984,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-1.7B-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 1.711113984,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-1.7B-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 23.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 4.33,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 55.5,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 71.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 11.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 25.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 4.62,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM-360M",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm",
+      "release_date": "2024-07-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.36182112,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-360M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.36182112,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-360M"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 51.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "PIQA",
+          "score": 71.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "MMLU",
+          "score": 34.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 35.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 9.1,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 52.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 37.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        },
+        {
+          "name": "GSM8K",
+          "score": 1.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM-360M-Instruct",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm",
+      "release_date": "2024-07-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.36182112,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-360M-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.36182112,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-360M-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 19.8,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 3.37,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 47.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 69.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 30.6,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 24.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 1.36,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM-135M",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm",
+      "release_date": "2024-07-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.134515008,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-135M"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.134515008,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-135M"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 41.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "PIQA",
+          "score": 68.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "MMLU",
+          "score": 30.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "CommonsenseQA",
+          "score": 32.7,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "TriviaQA",
+          "score": 4.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "WinoGrande",
+          "score": 51.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "OpenBookQA",
+          "score": 34.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        },
+        {
+          "name": "GSM8K",
+          "score": 1.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
+        }
+      ]
+    },
+    {
+      "name": "SmolLM-135M-Instruct",
+      "company": "Hugging Face",
+      "url": "https://huggingface.co/blog/smollm",
+      "release_date": "2024-07-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 0.134515008,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-135M-Instruct"
+        },
+        {
+          "name": "Active parameters",
+          "score": 0.134515008,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM-135M-Instruct"
+        },
+        {
+          "name": "IFEval",
+          "score": 17.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "MT-Bench",
+          "score": 1.68,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "HellaSwag",
+          "score": 38.9,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "PIQA",
+          "score": 64.0,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "MMLU",
+          "score": 28.3,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "BIG-Bench Hard",
+          "score": 25.2,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
+        },
+        {
+          "name": "GSM8K",
+          "score": 1.4,
+          "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
         }
       ]
     }
