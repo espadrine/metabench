@@ -6970,6 +6970,86 @@
           "name": "ERQA",
           "score": 40.8,
           "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 53.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 77.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 47.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 68.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "JobBench",
+          "score": 36.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "IFBench",
+          "score": 62.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 88.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 54.7,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "AndroidWorld",
+          "score": 62.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "ERQA",
+          "score": 40.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "LVBench",
+          "score": 63.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 73.9,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 65.5,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 66.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
         }
       ]
     },

@@ -373,6 +373,61 @@
           "name": "Output speed",
           "score": 114.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 54.4,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 56.0,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 54.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 45.1,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "JobBench",
+          "score": 41.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 25.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 70.3,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.2,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.8,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.6,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
         }
       ]
     },
