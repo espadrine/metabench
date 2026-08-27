@@ -370,8 +370,7 @@ function addReleaseDateSizeProduct(benchmarks) {
   return benchmarks;
 }
 
-// Main execution: read scores, impute missing benchmarks, and print each model
-if (require.main === module) {
+function computeBenchmarks() {
   const rawScores = loadScoresSync();
   let benchmarks = addTimestampBenchmark(rawScores);
   benchmarks = addReleaseDateSizeProduct(benchmarks);
@@ -381,8 +380,19 @@ if (require.main === module) {
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
   benchmarks = addCostOf1KResponses(benchmarks);  // Depends on addInputOutputCost()
+  return benchmarks;
+}
+
+// Main execution: read scores, impute missing benchmarks, and print each model
+if (require.main === module) {
+  const { models, estimators } = computeBenchmarks();
+  const benchmarks = { models };
   //printTable(benchmarks);
 
   const outputPath = path.join(__dirname, '..', 'data', 'models-prediction.json');
   writePredictionsOutput(benchmarks, outputPath);
 }
+
+module.exports = {
+  computeBenchmarks,
+};
