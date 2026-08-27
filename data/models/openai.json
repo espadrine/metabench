@@ -6288,38 +6288,13 @@
           "source": "https://qwen.ai/blog?id=qwen3.7-plus"
         },
         {
-          "name": "AIME 2025",
-          "score": null,
-          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
-        },
-        {
-          "name": "AIME 2026",
-          "score": null,
-          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
-        },
-        {
-          "name": "HMMT Feb 2026",
-          "score": null,
-          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
-        },
-        {
           "name": "GPQA Diamond",
           "score": 92.8,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
-          "name": "LiveCodeBench",
-          "score": null,
-          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
-        },
-        {
           "name": "Terminal-Bench 2.0",
           "score": 75.1,
-          "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
-        },
-        {
-          "name": "SWE-bench Verified",
-          "score": null,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {

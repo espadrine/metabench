@@ -5061,11 +5061,6 @@
           "source": "https://mistral.ai/news/mixtral-8x22b"
         },
         {
-          "name": "BBQ",
-          "score": null,
-          "source": "https://mistral.ai/news/mixtral-of-experts"
-        },
-        {
           "name": "MMLU",
           "score": 44.4,
           "source": "https://mistral.ai/news/mixtral-of-experts"

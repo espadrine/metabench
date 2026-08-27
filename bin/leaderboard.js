@@ -122,12 +122,12 @@ function adjustScoresByCapabilities(benchmarks) {
 // Add capabilities back to models in prediction output
 function addCapabilitiesToPrediction(benchmarks, rawScores) {
   const modelCapabilitiesMap = new Map();
-  
+
   // Create a map for model capabilities from original data
   rawScores.models.forEach(model => {
     modelCapabilitiesMap.set(model.name, model.capabilities);
   });
-  
+
   benchmarks.models.forEach(model => {
     // Add capabilities from original data
     const modelCapabilities = modelCapabilitiesMap.get(model.name);
@@ -135,7 +135,7 @@ function addCapabilitiesToPrediction(benchmarks, rawScores) {
       model.capabilities = modelCapabilities;
     }
   });
-  
+
   return benchmarks;
 }
 
