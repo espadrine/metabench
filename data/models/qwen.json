@@ -45,7 +45,7 @@
         },
         {
           "name": "SWE-bench Multilingual",
-          "score": 81.0,
+          "score": 81,
           "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
         },
         {
@@ -115,7 +115,7 @@
         },
         {
           "name": "Vision2Web",
-          "score": 64.0,
+          "score": 64,
           "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
         },
         {
@@ -695,7 +695,7 @@
         },
         {
           "name": "Output speed",
-          "score": 46.69,
+          "score": 23.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1220,7 +1220,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.61,
+          "score": 55.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1435,7 +1435,7 @@
         },
         {
           "name": "AndroidWorld",
-          "score": 81.0,
+          "score": 81,
           "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
         },
         {
@@ -2280,7 +2280,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.08,
+          "score": 55.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3065,7 +3065,7 @@
         },
         {
           "name": "Output speed",
-          "score": 138.9,
+          "score": 137.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6326,7 +6326,7 @@
         },
         {
           "name": "Output speed",
-          "score": 82.67,
+          "score": 81.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6708,7 +6708,7 @@
         },
         {
           "name": "Output speed",
-          "score": 131.09,
+          "score": 123.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8208,7 +8208,7 @@
         },
         {
           "name": "Output speed",
-          "score": 195.81,
+          "score": 192.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10056,7 +10056,7 @@
         },
         {
           "name": "MixEval Hard",
-          "score": 38.0,
+          "score": 38,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -10128,7 +10128,7 @@
         },
         {
           "name": "BFCL",
-          "score": 95.0,
+          "score": 95,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -10233,7 +10233,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 8.0,
+          "score": 8,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -10243,7 +10243,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 15.0,
+          "score": 15,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -10253,7 +10253,7 @@
         },
         {
           "name": "IFEval",
-          "score": 74.0,
+          "score": 74,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -10453,7 +10453,7 @@
         },
         {
           "name": "OpenBookQA",
-          "score": 40.0,
+          "score": 40,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
         },
         {
@@ -10500,7 +10500,7 @@
         },
         {
           "name": "HellaSwag",
-          "score": 48.0,
+          "score": 48,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-360M-Instruct"
         },
         {

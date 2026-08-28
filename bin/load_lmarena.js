@@ -137,6 +137,7 @@ function mapModels(lmarenaData, models) {
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
   // Insert the latest at the top.
+  "glm-5.3-flash": "GLM-5.3-Flash",
   "olmo-3-32b-think": "Olmo-3-32B-Think",
   "olmo-3.1-32b-think": "Olmo-3.1-32B-Think",
   "olmo-3.1-32b-instruct": "Olmo-3.1-32B-Instruct",

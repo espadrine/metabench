@@ -1,6 +1,165 @@
 {
   "models": [
     {
+      "name": "GLM-5.3-Flash",
+      "company": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "release_date": "2026-08-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.15,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.5,
+          "source": "https://docs.z.ai/guides/overview/pricing"
+        },
+        {
+          "name": "Size",
+          "score": 320,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Active parameters",
+          "score": 18,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 160,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 63.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 56.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 78.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 48.8,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 26.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 55.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1773,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 62.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 89.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 78,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "BabyVision",
+          "score": 53.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "MVBench",
+          "score": 77.8,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "MMVU",
+          "score": 80.5,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 71.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 39.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 46.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 84.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 47.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 41.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GLM-5.3",
       "company": "Z.ai",
       "url": "https://z.ai/blog/glm-5.3",
@@ -168,7 +327,7 @@
         },
         {
           "name": "Output speed",
-          "score": 79.59,
+          "score": 80.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -401,7 +560,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.97,
+          "score": 68.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -723,6 +882,46 @@
           "name": "ExploitGym 6h",
           "score": 39,
           "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 46.2,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 48.9,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 59.9,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 26.2,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 20.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 54.7,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1504,
+          "source": "https://z.ai/blog/glm-5.3-flash"
         }
       ]
     },

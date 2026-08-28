@@ -1,6 +1,150 @@
 {
   "models": [
     {
+      "name": "DeepSeek-V4-Vision-Exp",
+      "company": "DeepSeek",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "release_date": "2026-08-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.32,
+          "source": "https://api-docs.deepseek.com/news/news260813/"
+        },
+        {
+          "name": "Output cost",
+          "score": 3.96,
+          "source": "https://api-docs.deepseek.com/news/news260813/"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.9,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 59.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 57.7,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 75.9,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 38.8,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 55.1,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1675,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 57.9,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 80.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 64.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "BabyVision",
+          "score": 35.1,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "MVBench",
+          "score": 69.4,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "MMVU",
+          "score": 72.7,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 34.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 46.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 74.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 41.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 119.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "DeepSeek V4 Pro Max 0813",
       "company": "DeepSeek",
       "url": "https://api-docs.deepseek.com/news/news260813/",
@@ -138,7 +282,7 @@
         },
         {
           "name": "Output speed",
-          "score": 75.26,
+          "score": 61.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -371,7 +515,7 @@
         },
         {
           "name": "Output speed",
-          "score": 114.6,
+          "score": 128.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -381,7 +525,7 @@
         },
         {
           "name": "SWE-bench Pro",
-          "score": 56.0,
+          "score": 56,
           "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
         },
         {
@@ -819,7 +963,7 @@
         },
         {
           "name": "Output speed",
-          "score": 75.68,
+          "score": 61.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1397,7 +1541,7 @@
         },
         {
           "name": "Output speed",
-          "score": 74.13,
+          "score": 62.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1760,7 +1904,7 @@
         },
         {
           "name": "Output speed",
-          "score": 76,
+          "score": 64.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

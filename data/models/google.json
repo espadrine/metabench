@@ -158,8 +158,53 @@
         },
         {
           "name": "Output speed",
-          "score": 339.4,
+          "score": 365.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 85.8,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 65.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 52.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1527,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "CharXiv Reasoning (with tools)",
+          "score": 88.7,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 65,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "BabyVision",
+          "score": 70.9,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "MVBench",
+          "score": 82.2,
+          "source": "https://z.ai/blog/glm-5.3-flash"
+        },
+        {
+          "name": "MMVU",
+          "score": 82.3,
+          "source": "https://z.ai/blog/glm-5.3-flash"
         }
       ]
     },
@@ -236,7 +281,7 @@
         },
         {
           "name": "Output speed",
-          "score": 288.44,
+          "score": 287.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -314,7 +359,7 @@
         },
         {
           "name": "Output speed",
-          "score": 301.92,
+          "score": 300.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -447,7 +492,7 @@
         },
         {
           "name": "Output speed",
-          "score": 187.41,
+          "score": 197.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -670,7 +715,7 @@
         },
         {
           "name": "Output speed",
-          "score": 361.18,
+          "score": 368.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1365,7 +1410,7 @@
         },
         {
           "name": "Output speed",
-          "score": 256.04,
+          "score": 266.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1558,7 +1603,7 @@
         },
         {
           "name": "Output speed",
-          "score": 221.11,
+          "score": 227.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2122,7 +2167,7 @@
         },
         {
           "name": "Output speed",
-          "score": 35.41,
+          "score": 35.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3111,7 +3156,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.71,
+          "score": 57.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4352,7 +4397,7 @@
         },
         {
           "name": "Output speed",
-          "score": 126.26,
+          "score": 125.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

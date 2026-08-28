@@ -445,6 +445,9 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "GLM-5.3-Flash": "GLM-5.3-Flash",
+  "DeepSeek V4 Flash Vision (Reasoning, Max Effort)": "DeepSeek-V4-Vision-Exp",
+  "LFM2.5-2.6B": "LFM2.5-2.6B",
   "GLM-5.3 (max)": "GLM-5.3",
   "Qwen3.8 27B": "Qwen3.8-27B",
   "Grok 4.6 (high)": "Grok 4.6",
