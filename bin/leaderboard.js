@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 const { estimateMissingBenchmarks } = require('../lib/score-prediction-weighed-bivariate.js');
+const { encodePredictions } = require('../lib/compact-prediction.js');
 const Table = require('../lib/cli-table');
 
 // Load the benchmark data from aggregated company model files.
@@ -11,10 +13,17 @@ function loadScoresSync() {
   return loadModels();
 }
 
-// Write the predicted scores (with uncertainties) to a JSON file.
-// This is extracted into a function to keep the main logic focused.
+// Write the predicted scores (with uncertainties) to a compact gzipped JSON file.
+// Schema: see lib/compact-prediction.js. Floating numbers rounded to 3 decimals,
+// CompactModel is list [name, companyIdx, urlIdx, release_date, capBitmap, BenchTuple[]],
+// capabilities is flat list + bitmap after release_date.
 function writePredictionsOutput(predictionOutput, filePath) {
-  fs.writeFileSync(filePath, JSON.stringify(predictionOutput, null, 2), 'utf8');
+  const compact = encodePredictions(predictionOutput);
+  const json = JSON.stringify(compact);
+  // Preserve Unicode (e.g. τ³) — ensure_ascii=False equivalent: write raw utf8, not escaped.
+  // JSON.stringify already preserves Unicode when not escaped.
+  const gz = zlib.gzipSync(Buffer.from(json, 'utf8'), { level: 9 });
+  fs.writeFileSync(filePath, gz);
 }
 
 // benchmarks: {models: [{name, benchmarks: [{name, score: number, source, stdDev}]}]}
@@ -389,7 +398,7 @@ if (require.main === module) {
   const benchmarks = { models };
   //printTable(benchmarks);
 
-  const outputPath = path.join(__dirname, '..', 'data', 'models-prediction.json');
+  const outputPath = path.join(__dirname, '..', 'data', 'models-prediction.json.gz');
   writePredictionsOutput(benchmarks, outputPath);
 }
 

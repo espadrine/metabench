@@ -1,0 +1,1 @@
+../lib/compact-prediction.js

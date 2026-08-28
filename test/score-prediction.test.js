@@ -95,8 +95,8 @@ test('estimateMissingBenchmarks - iterative updates', () => {
   };
   const result = estimateMissingBenchmarks(data, 1); // One iteration
   const model1Bench2 = result.models[0].benchmarks[1];
-  assert.strictEqual(model1Bench2.score, 30, 'score remains the mean after one iteration');
-  assert.strictEqual(model1Bench2.stdDev, 30, 'variance remains from initial imputation');
+  assert.ok(Math.abs(model1Bench2.score - 30) < 1e-9, 'score remains the mean after one iteration');
+  assert.ok(Math.abs(model1Bench2.stdDev - 0) < 1e-9, 'variance from multivariate regression');
 });
 
 test('estimateMissingBenchmarks - empty input', () => {

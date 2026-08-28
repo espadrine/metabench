@@ -1353,26 +1353,28 @@ function removeEditMetricCriterion(state, widgets, idx) {
 // ----- Utility functions -----
 
 // Returns the raw models data including release_date and other fields.
+// Compact file is models-prediction.json.gz: gzip of {version, benchmarks, sources, companies, urls, capabilities, models}
+// where models are lists [name, companyIdx, urlIdx, release_date, capBitmap, [[score,stdDev,srcIdx,isGuessed],...]]
+// and capabilities is flat list + bitmap after release_date.
+// Decoder is reused from lib/compact-prediction.js via web/compact-prediction.js symlink.
 async function fetchScores() {
-  // The HTML file lives in web/, the JSON is now in the sibling data/
-  // directory and has the structure:
-  // { models: [ { name, company, url, release_date, benchmarks: [ { name, score, source, stdDev } ] } ] }
-  const response = await fetch('./models-prediction.json');
-  if (!response.ok) throw new Error(`Failed to load JSON: ${response.status}`);
-  const data = await response.json();
-
-  // Return the raw models data, but convert benchmarks array to object format
-  return data.models.map(model => ({
-    name: model.name,
-    company: model.company,
-    url: model.url,
-    release_date: model.release_date,
-    benchmarks: model.benchmarks.reduce((acc, b) => {
-      acc[b.name] = {
-        score: b.score,
-        stdDev: b.stdDev,
-        source: b.source,
-      };
+  const response = await fetch('./models-prediction.json.gz');
+  if (!response.ok) {
+    throw new Error(`Failed to load JSON: ${response.status}`);
+  }
+  const buf = await response.arrayBuffer();
+  const ds = new DecompressionStream('gzip');
+  const decompressed = new Response(new Blob([buf]).stream().pipeThrough(ds));
+  const jsonText = await decompressed.text();
+  const compact = JSON.parse(jsonText);
+  const decoded = CompactPrediction.decodePredictions(compact);
+  return decoded.models.map(m => ({
+    name: m.name,
+    company: m.company,
+    url: m.url,
+    release_date: m.release_date,
+    benchmarks: m.benchmarks.reduce((acc, b) => {
+      acc[b.name] = { score: b.score, stdDev: b.stdDev, source: b.source };
       return acc;
     }, {}),
   }));

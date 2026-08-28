@@ -14,7 +14,8 @@ const path = require('node:path');
 
 const ROOT = path.join(__dirname, '..', '..');
 const WEB = path.join(ROOT, 'web');
-const DATA = path.join(ROOT, 'data', 'models-prediction.json');
+const DATA_GZ = path.join(ROOT, 'data', 'models-prediction.json.gz');
+const DATA_FALLBACK = path.join(ROOT, 'data', 'models-prediction.json');
 const CHART_UMD = path.join(ROOT, 'vendor', 'chart.umd.js');
 
 let puppeteer;
@@ -44,14 +45,31 @@ before(async () => {
     const url = req.url();
     if (url.endsWith('/index.html')) {
       req.respond({ status: 200, contentType: 'text/html', body: load(path.join(WEB, 'index.html')) });
+    } else if (url.endsWith('compact-prediction.js')) {
+      req.respond({ status: 200, contentType: 'text/javascript', body: load(path.join(WEB, 'compact-prediction.js')) });
     } else if (url.endsWith('storage.js')) {
       req.respond({ status: 200, contentType: 'text/javascript', body: load(path.join(WEB, 'storage.js')) });
     } else if (url.endsWith('scores.js')) {
       req.respond({ status: 200, contentType: 'text/javascript', body: load(path.join(WEB, 'scores.js')) });
     } else if (url.endsWith('chart.js') || url.includes('chart.umd')) {
       req.respond({ status: 200, contentType: 'text/javascript', body: load(CHART_UMD) });
+    } else if (url.endsWith('models-prediction.json.gz')) {
+      const buf = fs.readFileSync(DATA_GZ);
+      req.respond({ status: 200, contentType: 'application/gzip', body: buf });
     } else if (url.endsWith('models-prediction.json')) {
-      req.respond({ status: 200, contentType: 'application/json', body: load(DATA) });
+      // Fallback for legacy fetch path — serve gz if json missing
+      try {
+        const zlib = require('zlib');
+        const buf = fs.readFileSync(DATA_GZ);
+        const json = zlib.gunzipSync(buf).toString('utf8');
+        req.respond({ status: 200, contentType: 'application/json', body: json });
+      } catch (e) {
+        if (fs.existsSync(DATA_FALLBACK)) {
+          req.respond({ status: 200, contentType: 'application/json', body: load(DATA_FALLBACK) });
+        } else {
+          req.respond({ status: 404, contentType: 'text/html', body: 'not found' });
+        }
+      }
     } else {
       req.respond({ status: 404, contentType: 'text/html', body: 'not found' });
     }
