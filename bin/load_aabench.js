@@ -445,6 +445,8 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Fable 5.1",
+  "Qwen3.8-Flash-Next": "Qwen3.8-Flash-Next",
   "GLM-5.3-Flash": "GLM-5.3-Flash",
   "DeepSeek V4 Flash Vision (Reasoning, Max Effort)": "DeepSeek-V4-Vision-Exp",
   "LFM2.5-2.6B": "LFM2.5-2.6B",

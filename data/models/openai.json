@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 69.59,
+          "score": 76.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -906,6 +906,91 @@
           "name": "ExploitGym 6h",
           "score": 293,
           "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.6,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 37.3,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 22.4,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1711,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1502,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 19.6,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 96.5,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 92.5,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 0.32,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "CursorBench",
+          "score": 67.2,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 86.1,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "BioMystery Bench Hard",
+          "score": 28.8,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "ProteinGym Hard",
+          "score": 35.5,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Organic Chemistry",
+          "score": 43.2,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Protocols Troubleshooting",
+          "score": 56.4,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Protocols Understanding",
+          "score": 63.9,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "ArxivMath",
+          "score": 86.73,
+          "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
         }
       ]
     },
@@ -1011,7 +1096,7 @@
         },
         {
           "name": "Output speed",
-          "score": 67.86,
+          "score": 76.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1233,7 +1318,7 @@
         },
         {
           "name": "Output speed",
-          "score": 78.29,
+          "score": 76.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1350,7 +1435,7 @@
         },
         {
           "name": "Output speed",
-          "score": 66.81,
+          "score": 76.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1467,7 +1552,7 @@
         },
         {
           "name": "Output speed",
-          "score": 68.96,
+          "score": 71.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1549,7 +1634,7 @@
         },
         {
           "name": "Output speed",
-          "score": 69.24,
+          "score": 66.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1851,7 +1936,7 @@
         },
         {
           "name": "Output speed",
-          "score": 112.8,
+          "score": 105.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2113,7 +2198,7 @@
         },
         {
           "name": "Output speed",
-          "score": 104.18,
+          "score": 92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2235,7 +2320,7 @@
         },
         {
           "name": "Output speed",
-          "score": 98.11,
+          "score": 86.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2347,7 +2432,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.93,
+          "score": 90.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2464,7 +2549,7 @@
         },
         {
           "name": "Output speed",
-          "score": 98.98,
+          "score": 89.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2551,7 +2636,7 @@
         },
         {
           "name": "Output speed",
-          "score": 96.56,
+          "score": 89.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2838,7 +2923,7 @@
         },
         {
           "name": "Output speed",
-          "score": 124.14,
+          "score": 121.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3120,7 +3205,7 @@
         },
         {
           "name": "Output speed",
-          "score": 128.63,
+          "score": 115.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3227,7 +3312,7 @@
         },
         {
           "name": "Output speed",
-          "score": 119.25,
+          "score": 108.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3329,7 +3414,7 @@
         },
         {
           "name": "Output speed",
-          "score": 115.32,
+          "score": 110.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3431,7 +3516,7 @@
         },
         {
           "name": "Output speed",
-          "score": 116.5,
+          "score": 113.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3518,7 +3603,7 @@
         },
         {
           "name": "Output speed",
-          "score": 116.74,
+          "score": 111.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6732,7 +6817,7 @@
         },
         {
           "name": "Output speed",
-          "score": 121.41,
+          "score": 116.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -12187,7 +12272,7 @@
         },
         {
           "name": "Output speed",
-          "score": 136.57,
+          "score": 127.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
