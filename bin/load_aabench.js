@@ -1,7 +1,4 @@
-// Download the benchmark data from Artificial Analysis.
-// They have an API that can be used in that fashion:
-// curl -X GET https://artificialanalysis.ai/api/v2/data/llms/models -H "x-api-key: $ARTIFICIAL_ANALYSIS_API_KEY"
-// (ARTIFICIAL_ANALYSIS_API_KEY is set in .env)
+// Load benchmark data from Artificial Analysis and match it against our models.
 
 const fs = require('fs');
 const path = require('path');
@@ -12,7 +9,7 @@ function main() {
   const args = process.argv.slice(2);
   const verbose = args.includes('--verbose') || args.includes('-v');
 
-  const aaBenchData = loadAABenchData("./data/aabench.json");
+  const aaBenchData = loadAABenchData("./data/aabench-data.json");
   const models = loadModelData();
 
   // Match AA models with our data models
@@ -35,7 +32,7 @@ function main() {
 // Match AA benchmarks with our data models and return match information
 // Returns an array of match objects, each containing:
 // {
-//   aaModel: {name, evaluations, pricing},  // Original AA model data
+//   aaModel: model object from the AA data, // Original AA model data
 //   dataModel: model object or null,         // Matched model from our data, or null if no match
 //   benchmarks: [{name, score, source}]     // The AA benchmarks to add/update
 // }
@@ -46,7 +43,7 @@ function matchAABenchmarks(aaBenchData, models) {
   const matches = [];
 
   // Look through each model in `aaBenchData`.
-  for (const aaModel of aaBenchData.data) {
+  for (const aaModel of aaBenchData.models) {
     if (aaModelsToIgnore.includes(aaModel.name)) {
       continue;
     }
@@ -54,11 +51,23 @@ function matchAABenchmarks(aaBenchData, models) {
     // Get the mapped model from our model map
     const model = modelMap[aaModel.name];
 
-    // Merge evaluations, pricing, and top-level scalar properties into a single object for processing
+    // Merge the score fields and the output speed into a single object for processing
     const allBenchmarks = {
-      ...(aaModel.evaluations || {}),
-      ...(aaModel.pricing || {}),
-      ...(aaModel.median_output_tokens_per_second != null ? { median_output_tokens_per_second: aaModel.median_output_tokens_per_second } : {})
+      intelligenceIndex: aaModel.intelligenceIndex,
+      gpqa: aaModel.gpqa,
+      hle: aaModel.hle,
+      livecodebench: aaModel.livecodebench,
+      scicode: aaModel.scicode,
+      aime25: aaModel.aime25,
+      ifbench: aaModel.ifbench,
+      lcr: aaModel.lcr,
+      terminalbenchHard: aaModel.terminalbenchHard,
+      terminalbenchV21: aaModel.terminalbenchV21,
+      tau2: aaModel.tau2,
+      tauBanking: aaModel.tauBanking,
+      price1mInputTokens: aaModel.price1mInputTokens,
+      price1mOutputTokens: aaModel.price1mOutputTokens,
+      medianOutputSpeed: aaModel.timescaleData?.medianOutputSpeed,
     };
 
     // Create match object
@@ -68,7 +77,7 @@ function matchAABenchmarks(aaBenchData, models) {
       benchmarks: []
     };
 
-    // For each AA benchmark for that model (both evaluations and pricing),
+    // For each AA benchmark for that model,
     // check if it is useful and should be processed
     for (const [aaBenchName, score] of Object.entries(allBenchmarks)) {
       const mappedBenchName = benchNameFromAA[aaBenchName] || benchNameFromAAPricing[aaBenchName] || benchNameFromAATopLevel[aaBenchName];
@@ -105,7 +114,7 @@ function mapModels(aaBenchData, models) {
   // 1. Compute the levenshtein distance for each possible mapping.
   // We create a list of {aaModelName, modelName, distance}.
   const modelMappings = [];
-  for (const aaModel of aaBenchData.data) {
+  for (const aaModel of aaBenchData.models) {
     if (aaModelsToIgnore.includes(aaModel.name)) {
       continue;
     }
@@ -120,7 +129,7 @@ function mapModels(aaBenchData, models) {
 
   // 2. Assign known mappings.
   const modelMap = {};
-  for (const aaModel of aaBenchData.data) {
+  for (const aaModel of aaBenchData.models) {
     if (aaModelsToIgnore.includes(aaModel.name)) {
       continue;
     }
@@ -135,7 +144,7 @@ function mapModels(aaBenchData, models) {
   }
 
   // 3. Assign unambiguous mappings.
-  for (const aaModel of aaBenchData.data) {
+  for (const aaModel of aaBenchData.models) {
     if (aaModelsToIgnore.includes(aaModel.name)) {
       continue;
     }
@@ -445,6 +454,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.  "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Fable 5.1",
+  "Muse Spark 1.3 (max)": "Muse Spark 1.3",
   "Qwen3.8-Flash-Next": "Qwen3.8-Flash-Next",
   "GLM-5.3-Flash": "GLM-5.3-Flash",
   "DeepSeek V4 Flash Vision (Reasoning, Max Effort)": "DeepSeek-V4-Vision-Exp",
@@ -659,9 +669,9 @@ function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
     } : {
       // Fallback for cases where no dataModel exists
       name: null,
-      company: match.aaModel.model_creator?.name || '',
+      company: match.aaModel.creator?.name || '',
       url: '',
-      release_date: match.aaModel.release_date || '',
+      release_date: match.aaModel.releaseDate || '',
       capabilities: { input: [], output: [] }
     };
 
@@ -669,10 +679,7 @@ function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
       aa_name: match.aaModel.name,
       ...modelBase,
       benchmarks: match.benchmarks,
-      aa_metadata: {
-        evaluations: match.aaModel.evaluations,
-        pricing: match.aaModel.pricing
-      }
+      aa_metadata: match.aaModel
     };
   }).sort((a, b) => a.aa_name.localeCompare(b.aa_name));
 
@@ -682,70 +689,27 @@ function storeMissingBenchmarks(missingBenchmarks, outputFilePath) {
   console.error(`Stored ${modelsToStore.length} models with ambiguous/unmatched benchmarks to ${outputPath}`);
 }
 
-// If ./aabench.json is present, load it from there.
-// If not, download it.
+// Load the AA benchmark data from a JSON file.
 // Return the JSON data as a JS object.
 // It has the form {
-//  status,
-//  prompt_options: {parallel_queries, prompt_length},
-//  data: [{
-//      id, name, slug, release_date,
-//      model_creator: {id, name, slug},
-//      evaluations: {<name>: score},
-//      pricing: {price_1m_blended_3_to_1, price_1m_input_tokens, price_1m_output_tokens},
-//      median_output_tokens_per_second,
-//      median_time_to_first_token_seconds,
-//      median_time_to_first_answer_token}]
+//  models: [{
+//      id, name, slug, releaseDate,
+//      creator: {id, name, slug},
+//      intelligenceIndex, gpqa, hle, livecodebench, scicode, aime25,
+//      ifbench, lcr, terminalbenchHard, terminalbenchV21, tau2, tauBanking,
+//      price1mInputTokens, price1mOutputTokens,
+//      timescaleData: {medianOutputSpeed, ...}}]
 // }
-function loadAABenchData(pathToStoreJSONFile) {
-  const filePath = path.resolve(pathToStoreJSONFile);
+function loadAABenchData(pathToJSONFile) {
+  const filePath = path.resolve(pathToJSONFile);
 
-  if (fs.existsSync(filePath)) {
-    console.error(`Loading AA benchmark data from ${filePath}`);
-    const content = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(content);
-  } else {
-    console.error(`Downloading AA benchmark data...`);
-    return downloadAABenchData(filePath);
-  }
-}
-
-// Fetch the data through the ArtificialAnalysis API.
-// Clean up the JSON, then store it into ./aabench.json
-// Return the JSON data as a JS object.
-function downloadAABenchData(pathToStoreJSONFile) {
-  // Load API key from .env
-  const envPath = path.resolve('.env');
-  let apiKey = '';
-
-  if (fs.existsSync(envPath)) {
-    const envContent = fs.readFileSync(envPath, 'utf8');
-    const match = envContent.match(/ARTIFICIAL_ANALYSIS_API_KEY=(.+)/);
-    if (match) {
-      apiKey = match[1].trim();
-    }
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`AA benchmark data not found at ${filePath}`);
   }
 
-  if (!apiKey) {
-    throw new Error('ARTIFICIAL_ANALYSIS_API_KEY not found in .env file');
-  }
-
-  // Use curl command to fetch data
-  const { execSync } = require('child_process');
-  const curlCommand = `curl -X GET https://artificialanalysis.ai/api/v2/data/llms/models -H "x-api-key: ${apiKey}"`;
-
-  try {
-    const result = execSync(curlCommand, { encoding: 'utf8' });
-    const data = JSON.parse(result);
-
-    // Store the cleaned-up JSON
-    fs.writeFileSync(pathToStoreJSONFile, JSON.stringify(data, null, 2), 'utf8');
-    console.error(`Downloaded and stored AA benchmark data to ${pathToStoreJSONFile}`);
-
-    return data;
-  } catch (error) {
-    throw new Error(`Failed to download AA benchmark data: ${error.message}`);
-  }
+  console.error(`Loading AA benchmark data from ${filePath}`);
+  const content = fs.readFileSync(filePath, 'utf8');
+  return JSON.parse(content);
 }
 
 // Load the data from data/models/ company model files
@@ -769,44 +733,37 @@ function scoreFromAAScore(aaScore, aaBenchName) {
 function shouldScaleBenchmark(aaBenchName) {
   // Index benchmarks are already on 0-100 scale, don't scale them
   const indexBenchmarks = [
-    "artificial_analysis_intelligence_index",
-    "artificial_analysis_coding_index",
-    "artificial_analysis_math_index",
-    "price_1m_input_tokens",
-    "price_1m_output_tokens",
-    "median_output_tokens_per_second",
+    "intelligenceIndex",
+    "price1mInputTokens",
+    "price1mOutputTokens",
+    "medianOutputSpeed",
   ];
 
   return !indexBenchmarks.includes(aaBenchName);
 }
 
 const benchNameFromAA = {
-  "artificial_analysis_intelligence_index": "ArtificialAnalysis Intelligence Index",
-  "artificial_analysis_coding_index": "ArtificialAnalysis Coding Index",
-  "artificial_analysis_math_index": "ArtificialAnalysis Math Index",
-  "mmlu_pro": "MMLU-Pro",
+  "intelligenceIndex": "ArtificialAnalysis Intelligence Index",
   "gpqa": "GPQA Diamond",
   "hle": "Humanity's Last Exam",
   "livecodebench": "LiveCodeBench",
   "scicode": "SciCode",
-  "math_500": "MATH",
-  "aime": "AIME 2024",
-  "aime_25": "AIME 2025",
+  "aime25": "AIME 2025",
   "ifbench": "IFBench",
   "lcr": "LCR",
-  "terminalbench_hard": "Terminal-Bench-Hard",
-  "terminalbench_v2_1": "Terminal-Bench 2.1",
+  "terminalbenchHard": "Terminal-Bench-Hard",
+  "terminalbenchV21": "Terminal-Bench 2.1",
   "tau2": "τ²-Bench",
-  "tau_banking": "τ³ Banking",
+  "tauBanking": "τ³ Banking",
 };
 
 const benchNameFromAAPricing = {
-  "price_1m_input_tokens": "Input cost",
-  "price_1m_output_tokens": "Output cost",
+  "price1mInputTokens": "Input cost",
+  "price1mOutputTokens": "Output cost",
 };
 
 const benchNameFromAATopLevel = {
-  "median_output_tokens_per_second": "Output speed",
+  "medianOutputSpeed": "Output speed",
 };
 
 // Benchmarks to exclude from automatic processing
