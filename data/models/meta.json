@@ -1,6 +1,95 @@
 {
   "models": [
     {
+      "name": "Muse Spark 1.3",
+      "company": "Meta",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "release_date": "2026-09-02",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://developer.meta.com/ai/models/muse-spark/"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.25,
+          "source": "https://developer.meta.com/ai/models/muse-spark/"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 103,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1754,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "JobBench",
+          "score": 64.9,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 66.9,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 89.4,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "IF Index",
+          "score": 57.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 49.4,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 98.5,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 98.1,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 75.4,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 59.4,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        }
+      ]
+    },
+    {
       "name": "Muse Glimmer",
       "company": "Meta",
       "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
@@ -234,7 +323,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.68,
+          "score": 103.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -403,8 +492,63 @@
         },
         {
           "name": "Output speed",
-          "score": 77.29,
+          "score": 162.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1615,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "JobBench",
+          "score": 61.6,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 47.6,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 85.9,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "IF Index",
+          "score": 46.2,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 38.2,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 66.3,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 55.5,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 55,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 46.2,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 82.9,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
         }
       ]
     },
@@ -984,7 +1128,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.79,
+          "score": 86.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1157,7 +1301,7 @@
         },
         {
           "name": "Output speed",
-          "score": 131.82,
+          "score": 118.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1369,7 +1513,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.99,
+          "score": 86.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

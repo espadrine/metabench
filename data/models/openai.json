@@ -339,7 +339,7 @@
         },
         {
           "name": "Output speed",
-          "score": 76.7,
+          "score": 75.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1066,6 +1066,61 @@
           "name": "BabyVision",
           "score": 88.9,
           "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1710,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "JobBench",
+          "score": 45.4,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 62.7,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 93,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "IF Index",
+          "score": 60.5,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.7,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 91.5,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 73.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 53.5,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.8,
+          "source": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
         }
       ]
     },
@@ -1171,7 +1226,7 @@
         },
         {
           "name": "Output speed",
-          "score": 76.34,
+          "score": 75.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1393,7 +1448,7 @@
         },
         {
           "name": "Output speed",
-          "score": 76.04,
+          "score": 76.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1510,7 +1565,7 @@
         },
         {
           "name": "Output speed",
-          "score": 76.87,
+          "score": 76.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2011,7 +2066,7 @@
         },
         {
           "name": "Output speed",
-          "score": 105.74,
+          "score": 98.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2273,7 +2328,7 @@
         },
         {
           "name": "Output speed",
-          "score": 92,
+          "score": 88.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2395,7 +2450,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.96,
+          "score": 84.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2507,7 +2562,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.25,
+          "score": 84.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2624,7 +2679,7 @@
         },
         {
           "name": "Output speed",
-          "score": 89.76,
+          "score": 86.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2711,7 +2766,7 @@
         },
         {
           "name": "Output speed",
-          "score": 89.54,
+          "score": 88.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2998,7 +3053,7 @@
         },
         {
           "name": "Output speed",
-          "score": 121.54,
+          "score": 116.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3280,7 +3335,7 @@
         },
         {
           "name": "Output speed",
-          "score": 115.09,
+          "score": 112.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3387,7 +3442,7 @@
         },
         {
           "name": "Output speed",
-          "score": 108.66,
+          "score": 103.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3489,7 +3544,7 @@
         },
         {
           "name": "Output speed",
-          "score": 110.35,
+          "score": 103.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3591,7 +3646,7 @@
         },
         {
           "name": "Output speed",
-          "score": 113.32,
+          "score": 108.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3678,7 +3733,7 @@
         },
         {
           "name": "Output speed",
-          "score": 111.48,
+          "score": 107.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6892,7 +6947,7 @@
         },
         {
           "name": "Output speed",
-          "score": 116.58,
+          "score": 116.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -12347,7 +12402,7 @@
         },
         {
           "name": "Output speed",
-          "score": 127.77,
+          "score": 131.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -13477,12 +13532,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 33.3,
+          "score": 24.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 28.6,
+          "score": 30.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13502,7 +13557,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 18.5,
+          "score": 19.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13517,27 +13572,27 @@
         },
         {
           "name": "AIME 2025",
-          "score": 93.4,
+          "score": 93.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "IFBench",
-          "score": 69,
+          "score": 68.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 50.7,
+          "score": 51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Terminal-Bench-Hard",
-          "score": 23.5,
+          "score": 23.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "τ²-Bench",
-          "score": 65.8,
+          "score": 65.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13554,6 +13609,21 @@
           "name": "AIME 2025",
           "score": 89,
           "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 26.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 12.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 167.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -13610,12 +13680,12 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 24.5,
+          "score": 14.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "ArtificialAnalysis Coding Index",
-          "score": 15.5,
+          "score": 21.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13635,7 +13705,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 5.2,
+          "score": 5.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13650,7 +13720,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 66.7,
+          "score": 66.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13660,7 +13730,7 @@
         },
         {
           "name": "LCR",
-          "score": 43.7,
+          "score": 46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13670,7 +13740,7 @@
         },
         {
           "name": "τ²-Bench",
-          "score": 45,
+          "score": 45.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13687,6 +13757,21 @@
           "name": "AIME 2025",
           "score": 45,
           "source": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 13.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 2.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 178.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -13823,7 +13908,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 14.9,
+          "score": 15.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13848,7 +13933,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 9.8,
+          "score": 11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13873,7 +13958,7 @@
         },
         {
           "name": "LCR",
-          "score": 30.67,
+          "score": 33.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13888,7 +13973,7 @@
         },
         {
           "name": "Output speed",
-          "score": 227.04,
+          "score": 116.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13920,6 +14005,16 @@
           "name": "Multi-IF",
           "score": 76.64,
           "source": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 13.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 7.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -13971,7 +14066,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 14.3,
+          "score": 14.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13996,7 +14091,7 @@
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 5.1,
+          "score": 5.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14021,7 +14116,7 @@
         },
         {
           "name": "LCR",
-          "score": 31,
+          "score": 30.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14036,7 +14131,7 @@
         },
         {
           "name": "Output speed",
-          "score": 264.23,
+          "score": 136.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
