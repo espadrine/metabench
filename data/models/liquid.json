@@ -97,7 +97,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 11,
+          "score": 10.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -107,17 +107,17 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 55.8,
+          "score": 55.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 6.2,
+          "score": 6.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "SciCode",
-          "score": 14.2,
+          "score": 14.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -321,22 +321,22 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.1,
+          "score": 8.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "GPQA Diamond",
-          "score": 51.3,
+          "score": 51.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 6.9,
+          "score": 6.86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "SciCode",
-          "score": 7.8,
+          "score": 7.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -356,7 +356,7 @@
         },
         {
           "name": "Output speed",
-          "score": 341.96,
+          "score": 334.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

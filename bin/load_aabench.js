@@ -65,6 +65,16 @@ function matchAABenchmarks(aaBenchData, models) {
       terminalbenchV21: aaModel.terminalbenchV21,
       tau2: aaModel.tau2,
       tauBanking: aaModel.tauBanking,
+      mmmuPro: aaModel.mmmuPro,
+      critpt: aaModel.critpt,
+      apexAgents: aaModel.apexAgents,
+      omniscience: aaModel.omniscience,
+      gdpval: aaModel.gdpval,
+      automationBenchPartialScore: aaModel.automationBenchPartialScore,
+      analystAgent: aaModel.analystAgent,
+      enterpriseOpsGym: aaModel.enterpriseOpsGym,
+      itBenchSre: aaModel.itBenchSre,
+      agenticIndex: aaModel.agenticIndex,
       price1mInputTokens: aaModel.price1mInputTokens,
       price1mOutputTokens: aaModel.price1mOutputTokens,
       medianOutputSpeed: aaModel.timescaleData?.medianOutputSpeed,
@@ -734,6 +744,9 @@ function shouldScaleBenchmark(aaBenchName) {
   // Index benchmarks are already on 0-100 scale, don't scale them
   const indexBenchmarks = [
     "intelligenceIndex",
+    "omniscience",
+    "gdpval",
+    "agenticIndex",
     "price1mInputTokens",
     "price1mOutputTokens",
     "medianOutputSpeed",
@@ -755,6 +768,16 @@ const benchNameFromAA = {
   "terminalbenchV21": "Terminal-Bench 2.1",
   "tau2": "τ²-Bench",
   "tauBanking": "τ³ Banking",
+  "mmmuPro": "MMMU-Pro",
+  "critpt": "CritPt",
+  "apexAgents": "APEX-Agents",
+  "omniscience": "AA-Omniscience Index",
+  "gdpval": "GDPval-AA",
+  "automationBenchPartialScore": "AA-AutomationBench Partial Score",
+  "analystAgent": "AA-AnalystAgent",
+  "enterpriseOpsGym": "EnterpriseOps-Gym",
+  "itBenchSre": "ITBench SRE",
+  "agenticIndex": "AA-Agentic Index",
 };
 
 const benchNameFromAAPricing = {

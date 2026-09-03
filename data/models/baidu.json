@@ -344,7 +344,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 22.3,
+          "score": 22.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -364,17 +364,17 @@
         },
         {
           "name": "GPQA Diamond",
-          "score": 77.7,
+          "score": 77.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Humanity's Last Exam",
-          "score": 13.3,
+          "score": 13.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LiveCodeBench",
-          "score": 81.2,
+          "score": 81.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
