@@ -444,14 +444,16 @@ function findModel(aaModelName, models) {
 
 const modelNameFromAA = {
   // AABench name: Our data name
-  // Append the latest at the top.
-  "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Fable 5.1",
+  // Append the latest at the top.  "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Fable 5.1",
   "Qwen3.8-Flash-Next": "Qwen3.8-Flash-Next",
   "GLM-5.3-Flash": "GLM-5.3-Flash",
   "DeepSeek V4 Flash Vision (Reasoning, Max Effort)": "DeepSeek-V4-Vision-Exp",
   "LFM2.5-2.6B": "LFM2.5-2.6B",
   "GLM-5.3 (max)": "GLM-5.3",
-  "Qwen3.8 27B": "Qwen3.8-27B",
+  "Qwen3.8 27B (xhigh)": "Qwen3.8-27B",
+  "Qwen3.8 27B (medium)": "Qwen3.8-27B medium",
+  "Qwen3.8 27B (low)": "Qwen3.8-27B low",
+  "Qwen3.8 27B (Non-reasoning)": "Qwen3.8-27B none",
   "Grok 4.6 (high)": "Grok 4.6",
   "Gemini 3.7 Flash (high)": "Gemini 3.7 Flash",
   "Gemini 3.7 Flash (medium)": "Gemini 3.7 Flash medium",
@@ -468,8 +470,8 @@ const modelNameFromAA = {
   "Inkling (xhigh)": "Inkling",
   "LFM2.5-8B-A1B": "LFM2.5-8B-A1B",
   "o3": "o3 (high)",
-  "gpt-oss-120B (high)": "gpt-oss-120b High",
-  "gpt-oss-120B (low)": "gpt-oss-120b Low",
+  "gpt-oss-120b (high)": "gpt-oss-120b High",
+  "gpt-oss-120b (low)": "gpt-oss-120b Low",
   "Command A+": "Command A+",
   "Command A": "Command-A",
   "Command-R (Mar '24)": "Command-R",
@@ -547,7 +549,7 @@ const modelNameFromAA = {
   "Gemini 3 Flash Preview (Reasoning)": "Gemini 3 Flash",
   "Gemini 3 Flash Preview (Non-reasoning)": "Gemini 3 Flash Low",
   "Gemini 3.1 Pro Preview": "Gemini 3.1 Pro",
-  "Gemini 3.1 Flash-Lite Preview": "Gemini 3.1 Flash-Lite",
+  "Gemini 3.1 Flash-Lite": "Gemini 3.1 Flash-Lite",
   "Gemini 3.5 Flash (high)": "Gemini 3.5 Flash high",
   "Gemini 3.5 Flash (medium)": "Gemini 3.5 Flash",
   "Gemini 3.5 Flash (minimal)": "Gemini 3.5 Flash minimal",
@@ -567,8 +569,8 @@ const modelNameFromAA = {
   "GLM-5.2 (max)": "GLM-5.2",
   "GPT-4": "GPT-4",
   "GPT-4o (May '24)": "GPT-4o",
-  "gpt-oss-20B (high)": "gpt-oss-20b High",
-  "gpt-oss-20B (low)": "gpt-oss-20b Low",
+  "gpt-oss-20b (high)": "gpt-oss-20b High",
+  "gpt-oss-20b (low)": "gpt-oss-20b Low",
   "GPT-5 (high)": "GPT-5 High",
   "GPT-5 (low)": "GPT-5 Low",
   "GPT-5 (medium)": "GPT-5 Medium",
@@ -631,14 +633,10 @@ const modelNameFromAA = {
   "Qwen3.7 Plus": "Qwen3.7-Plus",
   "Kimi K2.5 (Reasoning)": "Kimi K2.5",
   "Kimi K2.6": "Kimi K2.6",
-  "Kimi K2.7 Code": "Kimi K2.7 Code",
-  "Kimi K3": "Kimi K3",
-  "MiniMax-M2.7": "MiniMax M2.7",
+  "Kimi K2.7 Code": "Kimi K2.7 Code",  "MiniMax-M2.7": "MiniMax M2.7",
   "MiniMax-M3": "MiniMax M3",
   "Grok 4.1 Fast (Reasoning)": "Grok 4.1 Fast Reasoning",
-  "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",
-  "Grok 4.2 (Reasoning)": "Grok 4.2",
-  "Grok 4.3 (high)": "Grok 4.3",
+  "Grok 4.1 Fast (Non-reasoning)": "Grok 4.1 Fast Non-Reasoning",  "Grok 4.3 (high)": "Grok 4.3",
   "Grok 4.3 (Non-reasoning)": "Grok 4.3 none",
   "Grok 4.5 (high)": "Grok 4.5",
   "Muse Spark": "Muse Spark",
@@ -814,4 +812,19 @@ const benchNameFromAATopLevel = {
 // Benchmarks to exclude from automatic processing
 const excludedBenchmarks = ["Input cost", "Output cost"];
 
-main();
+if (require.main === module) {
+  main();
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    modelNameFromAA,
+    aaModelsToIgnore,
+    benchNameFromAA,
+    benchNameFromAAPricing,
+    benchNameFromAATopLevel,
+    isUnambiguousMatch,
+    matchAABenchmarks,
+    mapModels,
+  };
+}

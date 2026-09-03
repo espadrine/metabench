@@ -1,6 +1,131 @@
 {
   "models": [
     {
+      "name": "Qwen3.8-Max-0902",
+      "company": "Alibaba",
+      "url": "https://x.com/Alibaba_Qwen/status/2094968708288680276",
+      "release_date": "2026-09-02",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://modelstudio.console.alibabacloud.com/ap-southeast-1#/doc/?type=model&url=prices"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://modelstudio.console.alibabacloud.com/ap-southeast-1#/doc/?type=model&url=prices"
+        },
+        {
+          "name": "Size",
+          "score": 2400,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 95,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 29,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 64.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 28,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 44.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 50.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 66.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 70,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 76.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 64,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 50.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 73.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "WorkArena",
+          "score": 1468,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 82.7,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 78.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 80.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "BabyVision",
+          "score": 93.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        }
+      ]
+    },
+    {
       "name": "Qwen3.8-Flash-Next",
       "company": "Alibaba",
       "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
@@ -497,6 +622,251 @@
           "name": "CharXiv [RQ]",
           "score": 90.2,
           "source": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "name": "Output speed",
+          "score": 44.38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3.8-27B medium",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "release_date": "2026-08-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 75,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 44.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 56.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 14.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 38.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 76.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 65.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 47.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 48.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3.8-27B low",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "release_date": "2026-08-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 43,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 42.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 58.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 39.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 67.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 32.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 46.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Qwen3.8-27B none",
+      "company": "Alibaba",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "release_date": "2026-08-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 27,
+          "source": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "name": "ArtificialAnalysis Consumed Tokens (Millions)",
+          "score": 26,
+          "source": "https://artificialanalysis.ai/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 34.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 44.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 12.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 35.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 49.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 20,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 47.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -807,6 +1177,86 @@
           "name": "ExploitGym 6h",
           "score": 26,
           "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 11.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 56.6,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 55.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 10.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 39.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 41,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 60.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 55.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 74.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 53.4,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 72.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "WorkArena",
+          "score": 1348,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 82.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 77.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 77.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "BabyVision",
+          "score": 91.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
         }
       ]
     },

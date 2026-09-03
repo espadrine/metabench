@@ -236,6 +236,86 @@
           "name": "Output speed",
           "score": 67.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 34,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 70.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 33,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 45,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 49.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 39,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 67.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 75.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 57.4,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 77.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 70,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "BabyVision",
+          "score": 90.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
         }
       ]
     },
@@ -475,6 +555,86 @@
           "name": "Protocols Understanding",
           "score": 77.2,
           "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 34,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 70.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 33,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 45,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 49.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 39,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 67.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 75.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 57.4,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 77.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 70,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "BabyVision",
+          "score": 90.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
         }
       ]
     },
@@ -974,6 +1134,81 @@
           "name": "HealthBench",
           "score": 67.1,
           "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 42.7,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73.6,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 72.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 41.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 50,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 49.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 63.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 68,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 79.6,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 67.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 50.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 77.6,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "WorkArena",
+          "score": 1437,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 82.6,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 67.3,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
         }
       ]
     },
@@ -3512,6 +3747,86 @@
           "name": "HealthBench",
           "score": 61.2,
           "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 34,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 70.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 33,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 45,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 49.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 39,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "QwenSWEBench",
+          "score": 67.1,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 75.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 57.4,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 77.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 70,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "BabyVision",
+          "score": 90.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
         }
       ]
     },

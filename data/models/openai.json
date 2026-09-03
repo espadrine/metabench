@@ -991,6 +991,81 @@
           "name": "ArxivMath",
           "score": 86.73,
           "source": "https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&%20Claude%20Mythos%205.1%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 34.6,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 72.7,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 23,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 42.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MLS Bench Lite",
+          "score": 46.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 46,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "CoWorkBench",
+          "score": 71.5,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "JobBench",
+          "score": 45.4,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 45.8,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 74.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "WorkArena",
+          "score": 1482,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 83,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ERQA",
+          "score": 70,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 81.2,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "BabyVision",
+          "score": 88.9,
+          "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
         }
       ]
     },
