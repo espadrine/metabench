@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "DeepSeek V4.1 Flash (Reasoning, Max Effort)": "DeepSeek V4.1 Flash",
   "GPT-6 Astra (max)": "GPT-6 Astra",
   "GPT-6 Astra (xhigh)": "GPT-6 Astra xhigh",
   "GPT-6 Astra (high)": "GPT-6 Astra high",

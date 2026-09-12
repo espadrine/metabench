@@ -394,6 +394,71 @@
           "name": "AA Output Tokens per Task",
           "score": 71127.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.1,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.2,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 28.3,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 37.9,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 66.9,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 19,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 58,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "CyberGym",
+          "score": 84.5,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 15,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 62.5,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 48.8,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28.5,
+          "source": "https://api-docs.deepseek.com/news/news260910"
         }
       ]
     },

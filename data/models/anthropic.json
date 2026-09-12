@@ -1579,6 +1579,81 @@
           "name": "AA Output Tokens per Task",
           "score": 72511.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.4,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 56.3,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.1,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Terminal-Bench v3.0",
+          "score": 43.3,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 51.8,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 74,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 37,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 75.3,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 22.1,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 63.6,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 50.3,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28.6,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 84,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 94.1,
+          "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 52,
+          "source": "https://api-docs.deepseek.com/news/news260910"
         }
       ]
     },
