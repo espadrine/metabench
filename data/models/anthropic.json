@@ -341,6 +341,71 @@
           "name": "AA-AnalystAgent",
           "score": 57.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 31.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 84.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 65.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 55.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 63.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 50.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 52.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 87.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 65,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 58.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 30.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },
@@ -660,6 +725,11 @@
           "name": "BabyVision",
           "score": 90.5,
           "source": "https://x.com/Alibaba_Qwen/status/2094968708288680276"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 30.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },
@@ -1394,6 +1464,111 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 4.8,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 55.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 70.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 26.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 82.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 90.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 63.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 52.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 63.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 53.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 30,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 73.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 63.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 56.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 70,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 22,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 12.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-3",
+          "score": 30.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 90.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 97.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },
@@ -3093,6 +3268,16 @@
           "name": "CyberGym",
           "score": 83.8,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 87.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 28.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },
@@ -4267,6 +4452,96 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 6.5,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 48.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 87.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 17.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 67.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 87.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 62.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 44.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 64.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 53.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 21.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 90.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 63.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 60.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 28.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 89.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 98.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },

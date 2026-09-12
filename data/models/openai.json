@@ -1,6 +1,673 @@
 {
   "models": [
     {
+      "name": "GPT-6 Astra",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "release_date": "2026-09-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 50,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 59.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 72.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 92.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 41.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 95.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 91.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 61.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 74.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 64.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 53.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 64.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 97.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 96,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 57.2,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GeneBench Pro",
+          "score": 37.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "MedChemBench (Internal)",
+          "score": 49.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "LifeSciBench",
+          "score": 60.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 63.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 100,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 42.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitBench (June-Aug 2026)",
+          "score": 39,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 88,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "SEC-bench Pro",
+          "score": 85.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 100,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 96.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-3",
+          "score": 99.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 95,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 98.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 96.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 54.68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 56.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 41.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 86.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 31.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 43.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1580.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 68.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 51.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 53.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "release_date": "2026-09-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 50,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 96.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 54.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 43.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 86.24,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 31.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 43.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1555.23,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 67.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 51.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "release_date": "2026-09-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 50,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 51.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 53.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 40,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 86.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 28.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 43.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1529.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 66.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 49.81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "release_date": "2026-09-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 50,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 52.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 79.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 35.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 85.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 29.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 42.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1500.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 64.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 49.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "release_date": "2026-09-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 50,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 49.21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 31.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 84.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 26.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 40.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1419.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 59.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 52.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6 Astra none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "release_date": "2026-09-03",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 10,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 50,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        }
+      ]
+    },
+    {
       "name": "GPT-5.6 Sol ultra",
       "company": "OpenAI",
       "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
@@ -1256,6 +1923,146 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 27,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 53.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 65.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 76.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 18.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 83.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 90.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 60.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 37.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 72.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 60.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 47.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 22.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierMath (Tier 4)",
+          "score": 83,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "GeneBench Pro",
+          "score": 32.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "MedChemBench (Internal)",
+          "score": 47.4,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "LifeSciBench",
+          "score": 59.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 60.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 78.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 30.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ExploitBench (June-Aug 2026)",
+          "score": 5.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 55.9,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "SEC-bench Pro",
+          "score": 79.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 256K",
+          "score": 91.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 73.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-3",
+          "score": 7.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-2",
+          "score": 92.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ARC-AGI-1",
+          "score": 97.5,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },

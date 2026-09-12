@@ -175,6 +175,41 @@
           "name": "Output speed",
           "score": 271.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 95.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 52.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 58.7,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 19.1,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73.8,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 56.3,
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 43.6,
+          "source": "https://openai.com/index/gpt-6-astra/"
         }
       ]
     },

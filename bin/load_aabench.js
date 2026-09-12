@@ -468,6 +468,12 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "GPT-6 Astra (max)": "GPT-6 Astra",
+  "GPT-6 Astra (xhigh)": "GPT-6 Astra xhigh",
+  "GPT-6 Astra (high)": "GPT-6 Astra high",
+  "GPT-6 Astra (medium)": "GPT-6 Astra medium",
+  "GPT-6 Astra (low)": "GPT-6 Astra low",
+  "GPT-6 Astra (Non-reasoning)": "GPT-6 Astra none",
   "Gemini 3.8 Flash (high)": "Gemini 3.8 Flash",
   "Gemini 3.8 Flash (medium)": "Gemini 3.8 Flash medium",
   "Gemini 3.8 Flash (low)": "Gemini 3.8 Flash low",
