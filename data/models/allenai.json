@@ -108,7 +108,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 7.9,
+          "score": 7.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -155,6 +155,11 @@
           "name": "LMArena Text",
           "score": 1285,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -43.37,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -265,7 +270,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 6.21,
+          "score": 6.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -297,6 +302,11 @@
           "name": "LMArena Text",
           "score": 1330,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -52.37,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -408,7 +418,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 6.15,
+          "score": 6.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -460,6 +470,11 @@
           "name": "LMArena Text",
           "score": 1305,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -58.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -571,7 +586,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 3.62,
+          "score": 5.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -617,6 +632,11 @@
         {
           "name": "Terminal-Bench-Hard",
           "score": 0.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -71.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -743,7 +763,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 2.4,
+          "score": 5.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -789,6 +809,11 @@
         {
           "name": "τ²-Bench",
           "score": 12.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -77.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

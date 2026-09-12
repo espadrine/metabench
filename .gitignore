@@ -1,6 +1,6 @@
 /.env
 /node_modules/
-/data/aabench-data.json
+/data/aabench.json
 /data/missing_aabench_benchmarks.json
 /arena-catalog/
 /data/lmarena.json

@@ -2,15 +2,19 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
+const crypto = require('crypto');
+const zlib = require('zlib');
 const { normalizeModelName, isUnambiguousModelMatch, levenshteinDistance } = require('../lib/load-bench');
+const { loadModels } = require('../lib/load-models');
 
 function main() {
   // Parse command line arguments
   const args = process.argv.slice(2);
   const verbose = args.includes('--verbose') || args.includes('-v');
 
-  const aaBenchData = loadAABenchData("./data/aabench-data.json");
-  const models = loadModelData();
+  const aaBenchData = loadAABenchData("./data/aabench.json");
+  const models = loadModels();
 
   // Match AA models with our data models
   const modelMatches = matchAABenchmarks(aaBenchData, models);
@@ -714,7 +718,8 @@ function loadAABenchData(pathToJSONFile) {
   const filePath = path.resolve(pathToJSONFile);
 
   if (!fs.existsSync(filePath)) {
-    throw new Error(`AA benchmark data not found at ${filePath}`);
+    console.error(`AA benchmark data not found at ${filePath}, downloading...`);
+    downloadAABenchData(filePath);
   }
 
   console.error(`Loading AA benchmark data from ${filePath}`);
@@ -722,12 +727,79 @@ function loadAABenchData(pathToJSONFile) {
   return JSON.parse(content);
 }
 
-// Load the data from data/models/ company model files
-function loadModelData() {
-  const { loadModels } = require('../lib/load-models');
-  return loadModels();
+// Download the AA benchmark data from https://artificialanalysis.ai.
+// It stores the decoded JSON into pathToStoreJSONFile and returns it as a JS object.
+function downloadAABenchData(pathToStoreJSONFile) {
+  // The homepage HTML contains manifests with the path of an encrypted
+  // payload and its key, e.g.
+  //   "manifest":{"path":"/data/2a1c2b25faec2404.txt","key":"c320ae7d..."}
+  // Each payload is AES-GCM encrypted and gzip compressed.
+  // Fetch each manifest payload in turn and use the first one that
+  // decrypts to the model list. Store the decoded JSON into
+  // pathToStoreJSONFile and return it as a JS object.
+
+  // Fetch the homepage and extract all manifest paths and keys.
+  const homepage = execSync('curl -sSL https://artificialanalysis.ai', { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 });
+  const manifests = findAAManifests(homepage);
+  if (manifests.length === 0) {
+    throw new Error('Could not find the data manifest in the Artificial Analysis homepage');
+  }
+
+  // Fetch each encrypted payload as raw bytes and use the first one
+  // that decrypts to the model list.
+  for (const { path: manifestPath, key: manifestKey } of manifests) {
+    const encrypted = execSync(`curl -sSL https://artificialanalysis.ai${manifestPath}`, { encoding: 'buffer', maxBuffer: 32 * 1024 * 1024 });
+    let data;
+    try {
+      data = decryptAAData(encrypted, manifestKey);
+    } catch {
+      continue;
+    }
+    if (data && Array.isArray(data.models)) {
+      // Store the decoded JSON
+      fs.writeFileSync(pathToStoreJSONFile, JSON.stringify({ models: data.models }, null, 2), 'utf8');
+      console.error(`Downloaded and stored AA benchmark data to ${pathToStoreJSONFile}`);
+      return { models: data.models };
+    }
+  }
+
+  throw new Error('Could not download the AA model list from the Artificial Analysis homepage');
 }
 
+// Extract the {path, key} manifests from the Artificial Analysis homepage HTML.
+// The manifests are embedded with escaped quotes, e.g.
+//   \"manifest\":{\"path\":\"/data/2a1c2b25faec2404.txt\",\"key\":\"c320ae7d...\"}
+// Return an array of {path, key} objects.
+function findAAManifests(homepage) {
+  const manifests = [];
+  const manifestPattern = /\\"manifest\\":\{[^}]*\}/g;
+  for (const block of homepage.match(manifestPattern) || []) {
+    const manifestPath = block.match(/\\"path\\":\\"([^"\\]+)\\"/);
+    const manifestKey = block.match(/\\"key\\":\\"([0-9a-f]+)\\"/);
+    if (manifestPath && manifestKey) {
+      manifests.push({ path: manifestPath[1], key: manifestKey[1] });
+    }
+  }
+  return manifests;
+}
+
+// Decrypt an encrypted AA payload with its manifest key.
+// The key is a hex string; the IV is the first 12 bytes of its SHA-256 hash,
+// and the last 16 bytes of the payload are the GCM authentication tag.
+// The decrypted bytes are gzip compressed JSON.
+// Return the decoded JSON data as a JS object.
+function decryptAAData(encryptedBytes, keyHex) {
+  const key = Buffer.from(keyHex, 'hex');
+  const iv = crypto.createHash('sha256').update(key).digest().slice(0, 12);
+  const ciphertext = encryptedBytes.slice(0, -16);
+  const authTag = encryptedBytes.slice(-16);
+
+  const decipher = crypto.createDecipheriv('aes-256-gcm', key, iv);
+  decipher.setAuthTag(authTag);
+  const compressed = Buffer.concat([decipher.update(ciphertext), decipher.final()]);
+
+  return JSON.parse(zlib.gunzipSync(compressed).toString('utf8'));
+}
 
 
 function scoreFromAAScore(aaScore, aaBenchName) {
@@ -806,5 +878,9 @@ if (typeof module !== 'undefined' && module.exports) {
     isUnambiguousMatch,
     matchAABenchmarks,
     mapModels,
+    loadAABenchData,
+    downloadAABenchData,
+    findAAManifests,
+    decryptAAData,
   };
 }

@@ -89,7 +89,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 60.92,
+          "score": 44.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -109,12 +109,12 @@
         },
         {
           "name": "SciCode",
-          "score": 53.59,
+          "score": 56.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 75,
+          "score": 80.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -129,7 +129,37 @@
         },
         {
           "name": "Output speed",
-          "score": 58.81,
+          "score": 53.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 17.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 30.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1642.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 41.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "EnterpriseOps-Gym",
+          "score": 48.34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 66.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -203,7 +233,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 55.76,
+          "score": 39.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -223,12 +253,12 @@
         },
         {
           "name": "SciCode",
-          "score": 54.05,
+          "score": 54.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 74,
+          "score": 79.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -243,7 +273,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.69,
+          "score": 55.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -355,6 +385,41 @@
           "name": "Harvey LAB (Vals)",
           "score": 12.9,
           "source": "https://x.ai/news/grok-4-6"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 15.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 25.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1429.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 57.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "EnterpriseOps-Gym",
+          "score": 40.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -439,7 +504,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 37.95,
+          "score": 25.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -459,7 +524,7 @@
         },
         {
           "name": "SciCode",
-          "score": 47.34,
+          "score": 48.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -469,7 +534,7 @@
         },
         {
           "name": "LCR",
-          "score": 66,
+          "score": 73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -484,7 +549,7 @@
         },
         {
           "name": "Output speed",
-          "score": 133.83,
+          "score": 119.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -500,6 +565,51 @@
         {
           "name": "τ³ Banking",
           "score": 12.37,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 78.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 17.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 17.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1018.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 1.38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 8.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "EnterpriseOps-Gym",
+          "score": 26.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 32.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -543,7 +653,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.01,
+          "score": 14.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -563,7 +673,7 @@
         },
         {
           "name": "SciCode",
-          "score": 37.38,
+          "score": 39.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -573,7 +683,7 @@
         },
         {
           "name": "LCR",
-          "score": 28,
+          "score": 32.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -588,7 +698,7 @@
         },
         {
           "name": "Output speed",
-          "score": 105.85,
+          "score": 113.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -599,6 +709,26 @@
         {
           "name": "τ³ Banking",
           "score": 8.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 64.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -33.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1030.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 0.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -781,7 +911,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 31.32,
+          "score": 20.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -831,7 +961,7 @@
         },
         {
           "name": "LCR",
-          "score": 70.33,
+          "score": 74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -898,6 +1028,21 @@
           "name": "MRCR v2: 8-needle 1M",
           "score": 6.1,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Grok-4-1-Fast-Model-Card.pdf"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 63.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 2.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -29.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -960,7 +1105,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 17.03,
+          "score": 11.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1010,7 +1155,7 @@
         },
         {
           "name": "LCR",
-          "score": 28.67,
+          "score": 31.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1021,6 +1166,21 @@
         {
           "name": "τ²-Bench",
           "score": 63.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 48.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -50.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 17.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1283,7 +1443,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.08,
+          "score": 22.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1343,7 +1503,7 @@
         },
         {
           "name": "LCR",
-          "score": 67,
+          "score": 68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1354,6 +1514,21 @@
         {
           "name": "τ²-Bench",
           "score": 74.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 68.84,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 2.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1512,7 +1687,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.56,
+          "score": 12.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1572,7 +1747,7 @@
         },
         {
           "name": "LCR",
-          "score": 56.67,
+          "score": 58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1583,6 +1758,11 @@
         {
           "name": "τ²-Bench",
           "score": 48.83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -33.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1842,7 +2022,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 5.77,
+          "score": 6.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

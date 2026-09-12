@@ -344,7 +344,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 22.28,
+          "score": 14.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -411,6 +411,21 @@
           "name": "LMArena Text",
           "score": 1447,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 64.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 1.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -45.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

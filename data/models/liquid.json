@@ -97,7 +97,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 10.99,
+          "score": 8.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -117,12 +117,12 @@
         },
         {
           "name": "SciCode",
-          "score": 14.24,
+          "score": 14.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "LCR",
-          "score": 5.33,
+          "score": 5.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -137,7 +137,17 @@
         },
         {
           "name": "Output speed",
-          "score": 1917.77,
+          "score": 199.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -10.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 202.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -321,7 +331,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.14,
+          "score": 7.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -356,7 +366,12 @@
         },
         {
           "name": "Output speed",
-          "score": 334.41,
+          "score": 333.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -33.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

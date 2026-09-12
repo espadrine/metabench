@@ -1,7 +1,7 @@
 data/models.json: data/models/*.json bin/*.js lib/*.js
 	node bin/leaderboard.js
 
-# Load data/aabench-data.json and create data/missing_aabench_benchmarks.json
+# Load data/aabench.json and create data/missing_aabench_benchmarks.json
 aabench:
 	node bin/load_aabench.js
 
