@@ -219,6 +219,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 1.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 22311.54,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

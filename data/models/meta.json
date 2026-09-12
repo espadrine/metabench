@@ -146,6 +146,11 @@
           "name": "Output speed",
           "score": 224.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 60200.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -455,6 +460,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 6.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 13925.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -669,6 +679,11 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 24.2,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 47874.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -847,6 +862,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 38.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 55582.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1320,6 +1340,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 0.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 2047.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1512,6 +1537,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 0.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 1918.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

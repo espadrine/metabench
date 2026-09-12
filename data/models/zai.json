@@ -181,6 +181,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 60.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 68673.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -384,6 +389,11 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 31.5,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 71127.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1011,6 +1021,11 @@
         {
           "name": "ITBench SRE",
           "score": 42.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 64317.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1774,6 +1789,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 20.31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 41294.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

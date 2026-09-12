@@ -148,15 +148,16 @@ function addCapabilitiesToPrediction(benchmarks, rawScores) {
   return benchmarks;
 }
 
-// Mistral Small 3.2 tokens consumed by Artificial Analysis benchmarks, in millions
-const BASELINE_AA_TOKEN_CONSUMPTION = 7.3;
+// Mistral Small 3.2 tokens output by AA Intelligence Index Output Tokens per Task
+const MISTRAL_AA_TOKEN_OUTPUT = 7146;
 // Tokens from sample question "What is the unit of cross-entropy?" given to Mistral Small 3.2
 const BASELINE_TOKENS_PER_INPUT = 11;
 const BASELINE_TOKENS_PER_OUTPUT = 119;
 
-// Calculate "Cost of 1K responses" benchmark
-// Formula: (ArtificialAnalysis Consumed Tokens (Millions) / 7.3) * (119 / 1000)
-function addCostOf1KResponses(benchmarks) {
+// Calculate "Cost of 1K chats" benchmark
+// Formula: (AA Output Tokens per Task / Mistral's) * (Mistral baseline output) * output price,
+// plus the baseline question input tokens * input price.
+function addCostOf1KChats(benchmarks) {
   const RESPONSES_PER_K = 1000; // 1K responses
 
   benchmarks.models.forEach(model => {
@@ -166,23 +167,24 @@ function addCostOf1KResponses(benchmarks) {
     const outputCostPerMillionTokens = model.benchmarks.find(b =>
       b.name === 'Output cost'
     );
-    // Find the ArtificialAnalysis Consumed Tokens (Millions) benchmark
-    const aaTokenConsumption = model.benchmarks.find(b =>
-      b.name === 'ArtificialAnalysis Consumed Tokens (Millions)'
+    // Find the AA Output Tokens per Task benchmark
+    const aaOutputTokensPerTask = model.benchmarks.find(b =>
+      b.name === 'AA Output Tokens per Task'
     );
 
-    if (aaTokenConsumption && typeof aaTokenConsumption.score === 'number') {
+    if (aaOutputTokensPerTask && typeof aaOutputTokensPerTask.score === 'number') {
       const costPerOutputToken = outputCostPerMillionTokens.score / 1e6;
       const costPerInputToken = inputCostPerMillionTokens.score / 1e6;
-      const tokensPerResponse = aaTokenConsumption.score / BASELINE_AA_TOKEN_CONSUMPTION * BASELINE_TOKENS_PER_OUTPUT;
+      const tokensPerResponse = aaOutputTokensPerTask.score / MISTRAL_AA_TOKEN_OUTPUT * BASELINE_TOKENS_PER_OUTPUT;
       // Calculate expected cost per responses.
-      const costPerResponse = costPerInputToken * BASELINE_TOKENS_PER_INPUT + costPerOutputToken * tokensPerResponse;
+      const costPerResponse = costPerInputToken * BASELINE_TOKENS_PER_INPUT +
+                              costPerOutputToken * tokensPerResponse;
 
       // Add the new benchmark
       model.benchmarks.push({
-        name: 'Cost of 1K responses',
+        name: 'Cost of 1K chats',
         score: costPerResponse * 1e3,
-        source: 'Calculated from ArtificialAnalysis Consumed Tokens',
+        source: 'Calculated from AA Output Tokens per Task',
         stdDev: 0
       });
     }
@@ -194,15 +196,15 @@ function addCostOf1KResponses(benchmarks) {
 // Calculate "Completion Latency" benchmark
 function addCompletionLatency(benchmarks) {
   benchmarks.models.forEach(model => {
-    const aaTokenConsumption = model.benchmarks.find(b =>
-      b.name === 'ArtificialAnalysis Consumed Tokens (Millions)'
+    const aaOutputTokensPerTask = model.benchmarks.find(b =>
+      b.name === 'AA Output Tokens per Task'
     );
     const outputSpeed = model.benchmarks.find(b => b.name === 'Output speed');
     const activeParams = model.benchmarks.find(b => b.name === 'Active parameters');
-    if (aaTokenConsumption && typeof aaTokenConsumption.score === 'number') {
+    if (aaOutputTokensPerTask && typeof aaOutputTokensPerTask.score === 'number') {
       // How many times more tokens does it consume over the Mistral baseline?
-      const consumptionMultiplier = aaTokenConsumption.score / BASELINE_AA_TOKEN_CONSUMPTION;
-      // How many tokens would it consume for the baseline question?
+      const consumptionMultiplier = aaOutputTokensPerTask.score / MISTRAL_AA_TOKEN_OUTPUT;
+      // How many output tokens would it consume for the baseline question?
       const consumedTokens = BASELINE_TOKENS_PER_OUTPUT * consumptionMultiplier;
 
       let tokensPerSecond = -1;
@@ -230,7 +232,7 @@ function addCompletionLatency(benchmarks) {
         model.benchmarks.push({
           name: 'Completion Latency',
           score: latency,
-          source: 'Calculated from ArtificialAnalysis Consumed Tokens and Active Parameters',
+          source: 'Calculated from AA Output Tokens per Task and Active Parameters',
           stdDev: 0
         });
       }
@@ -243,8 +245,8 @@ function addCompletionLatency(benchmarks) {
 // Estimate Input cost and Output cost per million tokens for models
 // where the price benchmarks are missing
 // but Active parameters and Output speed are known.
-// The estimate is then used by addCostOf1KResponses()
-// to improve the Cost of 1K responses prediction.
+// The estimate is then used by addCostOf1KChats()
+// to improve the Cost of 1K chats prediction.
 //
 // Rationale:
 // Having prices be estimated from all other benchmark scores is biased,
@@ -388,7 +390,7 @@ function computeBenchmarks() {
   benchmarks = addInputOutputCost(benchmarks);  // Depends on addCompletionLatency()
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
-  benchmarks = addCostOf1KResponses(benchmarks);  // Depends on addInputOutputCost()
+  benchmarks = addCostOf1KChats(benchmarks);  // Depends on addInputOutputCost()
   return benchmarks;
 }
 

@@ -82,6 +82,7 @@ function matchAABenchmarks(aaBenchData, models) {
       price1mInputTokens: aaModel.price1mInputTokens,
       price1mOutputTokens: aaModel.price1mOutputTokens,
       medianOutputSpeed: aaModel.timescaleData?.medianOutputSpeed,
+      intelligenceIndexOutputTokensPerTask: aaModel.intelligenceIndexOutputTokensPerTask?.output,
     };
 
     // Create match object
@@ -473,7 +474,6 @@ const modelNameFromAA = {
   "GPT-6 Astra (high)": "GPT-6 Astra high",
   "GPT-6 Astra (medium)": "GPT-6 Astra medium",
   "GPT-6 Astra (low)": "GPT-6 Astra low",
-  "GPT-6 Astra (Non-reasoning)": "GPT-6 Astra none",
   "Gemini 3.8 Flash (high)": "Gemini 3.8 Flash",
   "Gemini 3.8 Flash (medium)": "Gemini 3.8 Flash medium",
   "Gemini 3.8 Flash (low)": "Gemini 3.8 Flash low",
@@ -823,7 +823,7 @@ function scoreFromAAScore(aaScore, aaBenchName) {
 
 // Determine if a benchmark should be scaled from 0-1 to 0-100
 function shouldScaleBenchmark(aaBenchName) {
-  // Index benchmarks are already on 0-100 scale, don't scale them
+  // Benchmarks already on their final scale (indices, costs, speeds, token counts) are not scaled
   const indexBenchmarks = [
     "intelligenceIndex",
     "omniscience",
@@ -832,6 +832,7 @@ function shouldScaleBenchmark(aaBenchName) {
     "price1mInputTokens",
     "price1mOutputTokens",
     "medianOutputSpeed",
+    "intelligenceIndexOutputTokensPerTask",
   ];
 
   return !indexBenchmarks.includes(aaBenchName);
@@ -860,6 +861,7 @@ const benchNameFromAA = {
   "enterpriseOpsGym": "EnterpriseOps-Gym",
   "itBenchSre": "ITBench SRE",
   "agenticIndex": "AA-Agentic Index",
+  "intelligenceIndexOutputTokensPerTask": "AA Output Tokens per Task",
 };
 
 const benchNameFromAAPricing = {

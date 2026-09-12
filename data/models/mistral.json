@@ -185,6 +185,11 @@
           "name": "EnterpriseOps-Gym",
           "score": 33.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 26085.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -392,6 +397,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 0.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 14390.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -694,6 +704,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 3.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 12544.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -881,6 +896,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 3.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 13060.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1079,6 +1099,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 1.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 5566.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1301,6 +1326,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 0.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 6016.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1517,6 +1547,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 0.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 7896.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1727,6 +1762,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 0.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 13088.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3472,6 +3512,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 1.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 6312.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

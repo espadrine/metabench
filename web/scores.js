@@ -26,7 +26,7 @@ let state = {
   // History Chart.js instance
   historyChart: null,
   // string - current X-axis metric
-  xAxisMetric: 'Cost of 1K responses',
+  xAxisMetric: 'Cost of 1K chats',
   // Filter state
   filterMetric: null,
   filterOperator: '<',
@@ -68,14 +68,14 @@ function getCompanyColor(company) {
 // Get display label for X-axis metric
 function getXAxisLabel(metricName) {
   const labelMap = {
-    'Cost of 1K responses': 'Cost of 1K Responses ($)',
+    'Cost of 1K chats': 'Cost of 1K Chats ($)',
     'Completion Latency': 'Time to give an answer (seconds)',
     'Input cost': 'Input Cost ($/M tokens)',
     'Output cost': 'Output Cost ($/M tokens)',
     'Size': 'Size (Billion Parameters)',
     'Active parameters': 'Billion Active Parameters',
     'Release date': 'Release Date (Year)',
-    'ArtificialAnalysis Consumed Tokens (Millions)': 'ArtificialAnalysis Consumed Tokens (Millions)'
+    'AA Output Tokens per Task': 'AA Output Tokens per Task'
   };
   return labelMap[metricName] || metricName;
 }

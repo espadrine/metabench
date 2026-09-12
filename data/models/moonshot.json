@@ -562,6 +562,11 @@
           "name": "EnterpriseOps-Gym",
           "score": 40.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 29885.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

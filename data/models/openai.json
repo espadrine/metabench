@@ -244,6 +244,11 @@
           "name": "Output speed",
           "score": 53.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 27205.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -340,6 +345,11 @@
         {
           "name": "Output speed",
           "score": 51.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 16901.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -438,6 +448,11 @@
           "name": "Output speed",
           "score": 49.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 11794.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -534,6 +549,11 @@
         {
           "name": "Output speed",
           "score": 49.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 9589.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -632,38 +652,11 @@
           "name": "Output speed",
           "score": 52.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
-        }
-      ]
-    },
-    {
-      "name": "GPT-6 Astra none",
-      "company": "OpenAI",
-      "url": "https://openai.com/index/gpt-6-astra/",
-      "release_date": "2026-09-03",
-      "capabilities": {
-        "input": [
-          "text",
-          "image",
-          "audio"
-        ],
-        "output": [
-          "text",
-          "thinking",
-          "tool",
-          "image",
-          "audio"
-        ]
-      },
-      "benchmarks": [
-        {
-          "name": "Input cost",
-          "score": 10,
-          "source": "https://openai.com/index/gpt-6-astra/"
         },
         {
-          "name": "Output cost",
-          "score": 50,
-          "source": "https://openai.com/index/gpt-6-astra/"
+          "name": "AA Output Tokens per Task",
+          "score": 4432.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2063,6 +2056,11 @@
           "name": "ARC-AGI-1",
           "score": 97.5,
           "source": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 29309.37,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2310,6 +2308,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 55.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 19576.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2451,6 +2454,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 55.31,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 13249.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2594,6 +2602,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 51.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 7874.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2735,6 +2748,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 40.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 3974.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3400,6 +3418,11 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 37.3,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 38897.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3547,6 +3570,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 47.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 20367.35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3689,6 +3717,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 42.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 11293.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3825,6 +3858,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 33.54,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 5477.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3967,6 +4005,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 29.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 3871.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4587,6 +4630,11 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 50,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 41234.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4719,6 +4767,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 42.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 23624.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4845,6 +4898,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 35.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 13862.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -4973,6 +5031,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 23.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 4486.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5099,6 +5162,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 11.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 2514.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6466,6 +6534,11 @@
           "name": "ITBench SRE",
           "score": 45.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 23658.28,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -6603,6 +6676,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 44.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 15611.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -6734,6 +6812,11 @@
         {
           "name": "EnterpriseOps-Gym",
           "score": 44.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 8553.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -12824,6 +12907,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 6.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 16644.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -15571,6 +15659,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 0.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 26953.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -15996,6 +16089,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 0.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 18108.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
