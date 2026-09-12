@@ -467,7 +467,11 @@ function findModel(aaModelName, models) {
 
 const modelNameFromAA = {
   // AABench name: Our data name
-  // Append the latest at the top.  "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Fable 5.1",
+  // Append the latest at the top.
+  "Gemini 3.8 Flash (high)": "Gemini 3.8 Flash",
+  "Gemini 3.8 Flash (medium)": "Gemini 3.8 Flash medium",
+  "Gemini 3.8 Flash (low)": "Gemini 3.8 Flash low",
+  "Claude Fable 5.1 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Fable 5.1",
   "Muse Spark 1.3 (max)": "Muse Spark 1.3",
   "Qwen3.8-Flash-Next": "Qwen3.8-Flash-Next",
   "GLM-5.3-Flash": "GLM-5.3-Flash",

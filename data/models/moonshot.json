@@ -402,6 +402,11 @@
           "name": "ExploitGym 6h",
           "score": 70,
           "source": "https://z.ai/blog/glm-5.3"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 52.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
         }
       ]
     },

@@ -1397,6 +1397,11 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 49.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 28.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
         }
       ]
     },

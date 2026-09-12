@@ -1848,6 +1848,11 @@
           "name": "GDPval-AA",
           "score": 1218.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 60.1,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
         }
       ]
     },
