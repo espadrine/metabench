@@ -193,6 +193,49 @@ function addCostOf1KChats(benchmarks) {
   return benchmarks;
 }
 
+// Calculate "Cost of agent" benchmark
+// Unlike "Cost of 1K chats" (11 input tokens to 119 output tokens),
+// this uses a 10:1 input-to-output token mix:
+// Formula: 10 * input price per token + 1 * output price per token.
+function addCostOfAgent(benchmarks) {
+  const INPUT_TOKENS_PER_MIX = 10;
+  const OUTPUT_TOKENS_PER_MIX = 1;
+
+  benchmarks.models.forEach(model => {
+    const inputCostPerMillionTokens = model.benchmarks.find(b =>
+      b.name === 'Input cost'
+    );
+    const outputCostPerMillionTokens = model.benchmarks.find(b =>
+      b.name === 'Output cost'
+    );
+    // Find the AA Output Tokens per Task benchmark
+    const aaOutputTokensPerTask = model.benchmarks.find(b =>
+      b.name === 'AA Output Tokens per Task'
+    );
+
+    if (inputCostPerMillionTokens && outputCostPerMillionTokens && aaOutputTokensPerTask &&
+        typeof inputCostPerMillionTokens.score === 'number' &&
+        typeof outputCostPerMillionTokens.score === 'number' &&
+        typeof aaOutputTokensPerTask.score === 'number') {
+      const costPerOutputToken = outputCostPerMillionTokens.score / 1e6;
+      const costPerInputToken = inputCostPerMillionTokens.score / 1e6;
+      const tokensPerResponse = aaOutputTokensPerTask.score / MISTRAL_AA_TOKEN_OUTPUT * OUTPUT_TOKENS_PER_MIX;
+      const costPerMix = costPerInputToken * INPUT_TOKENS_PER_MIX +
+                         costPerOutputToken * tokensPerResponse;
+
+      // Add the new benchmark
+      model.benchmarks.push({
+        name: 'Cost of agent',
+        score: costPerMix * 1e5,
+        source: 'Calculated from Input cost and Output cost',
+        stdDev: 0
+      });
+    }
+  });
+
+  return benchmarks;
+}
+
 // Calculate "Completion Latency" benchmark
 function addCompletionLatency(benchmarks) {
   benchmarks.models.forEach(model => {
@@ -391,6 +434,7 @@ function computeBenchmarks() {
   benchmarks = estimateMissingBenchmarks(benchmarks);
   benchmarks = addCapabilitiesToPrediction(benchmarks, rawScores);
   benchmarks = addCostOf1KChats(benchmarks);  // Depends on addInputOutputCost()
+  benchmarks = addCostOfAgent(benchmarks);  // Depends on addInputOutputCost()
   return benchmarks;
 }
 

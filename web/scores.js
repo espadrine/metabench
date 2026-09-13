@@ -69,6 +69,7 @@ function getCompanyColor(company) {
 function getXAxisLabel(metricName) {
   const labelMap = {
     'Cost of 1K chats': 'Cost of 1K Chats ($)',
+    'Cost of agent': 'Cost of Agent ($)',
     'Completion Latency': 'Time to give an answer (seconds)',
     'Input cost': 'Input Cost ($/M tokens)',
     'Output cost': 'Output Cost ($/M tokens)',
