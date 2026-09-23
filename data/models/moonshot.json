@@ -487,6 +487,86 @@
           "name": "ZeroBench (with tools)",
           "score": 41,
           "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 24.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 60.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1524,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 76.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 12.6,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 88.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 84.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "JobBench",
+          "score": 54.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Visual Coding",
+          "score": 70.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "CyberGym",
+          "score": 80,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 8.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 32.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Cyber Bench",
+          "score": 56.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
         }
       ]
     },

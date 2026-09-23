@@ -1,0 +1,306 @@
+{
+  "models": [
+    {
+      "name": "MiMo-V2.6-Pro",
+      "company": "Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "release_date": "2026-09-22",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.435,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.87,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Size",
+          "score": 1024.216603392,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
+        },
+        {
+          "name": "Active parameters",
+          "score": 42,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 71.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 26.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 63.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1673,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 76.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 53.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 31.6,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 34.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 89.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 82,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "JobBench",
+          "score": 62,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Visual Coding",
+          "score": 72.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "CyberGym",
+          "score": 94,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 17.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 47.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "SEC-bench Pro",
+          "score": 66.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Cyber Bench",
+          "score": 81.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Cyber Bench",
+          "score": 80.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 49.35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 60.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 86.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 26.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 8.38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1673.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 58.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 76.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 64275.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "MiMo-V2.6-Flash",
+      "company": "Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "release_date": "2026-09-22",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.14,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.28,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Size",
+          "score": 310.756322688,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL"
+        },
+        {
+          "name": "Active parameters",
+          "score": 15,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Flash-RL"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 26,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 61.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 73.6,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 52.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27.6,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 28.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 87.6,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 80.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "JobBench",
+          "score": 61.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Visual Coding",
+          "score": 71.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "CyberGym",
+          "score": 95.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 6,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 25.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "SEC-bench Pro",
+          "score": 47.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "MiMo Cyber Bench",
+          "score": 77.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        }
+      ]
+    }
+  ]
+}

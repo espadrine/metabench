@@ -459,6 +459,11 @@
           "name": "Agents' Last Exam",
           "score": 28.5,
           "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "CyberGym",
+          "score": 84.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-6"
         }
       ]
     },

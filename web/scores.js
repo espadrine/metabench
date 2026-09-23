@@ -60,6 +60,7 @@ function getCompanyColor(company) {
     'Baidu': 'hsl(237, 75%, 52%)',
     'Thinking Machines': 'hsl(37, 80%, 66%)',
     'Liquid': 'hsl(251, 69%, 59%)',
+    'Xiaomi': 'hsl(24, 100%, 50%)',
   };
 
   return colorMap[company] || stringToColor(company);

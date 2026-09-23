@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "MiMo-V2.6-Pro": "MiMo-V2.6-Pro",
   "Grok 4.7 (xhigh)": "Grok 4.7",
   "DeepSeek V4.1 Flash (Reasoning, Max Effort)": "DeepSeek V4.1 Flash",
   "GPT-6 Astra (max)": "GPT-6 Astra",
