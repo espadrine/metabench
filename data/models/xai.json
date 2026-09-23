@@ -1,6 +1,130 @@
 {
   "models": [
     {
+      "name": "Grok 4.7",
+      "company": "xAI",
+      "url": "https://x.ai/news/grok-4-7",
+      "release_date": "2026-09-21",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool",
+          "image",
+          "video",
+          "audio"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://docs.x.ai/developers/models/grok-4.7"
+        },
+        {
+          "name": "Output cost",
+          "score": 6,
+          "source": "https://docs.x.ai/developers/models/grok-4.7"
+        },
+        {
+          "name": "CursorBench 4.0",
+          "score": 46.3,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 71,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "EEBench",
+          "score": 64,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "AA-Briefcase v1.1",
+          "score": 1657,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 38,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 19.6,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 56.7,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1695,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 46.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 57.41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 76.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 17.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 32.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1695.21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 65.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 39.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 80561.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Grok 4.6",
       "company": "xAI",
       "url": "https://x.ai/news/grok-4-6",
@@ -89,7 +213,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 44.41,
+          "score": 44.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -129,7 +253,7 @@
         },
         {
           "name": "Output speed",
-          "score": 53.59,
+          "score": 58.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -144,7 +268,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1642.96,
+          "score": 1605.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -171,6 +295,46 @@
           "name": "AA Output Tokens per Task",
           "score": 35834.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CursorBench 4.0",
+          "score": 40.4,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 65.2,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "EEBench",
+          "score": 53,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "AA-Briefcase v1.1",
+          "score": 1546,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 20.3,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 15.8,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 48.5,
+          "source": "https://x.ai/news/grok-4-7"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1605,
+          "source": "https://x.ai/news/grok-4-7"
         }
       ]
     },
@@ -243,7 +407,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 39.08,
+          "score": 38.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -283,7 +447,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.49,
+          "score": 55.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -413,7 +577,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1429.6,
+          "score": 1370.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -519,7 +683,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.39,
+          "score": 24.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -564,7 +728,7 @@
         },
         {
           "name": "Output speed",
-          "score": 119.35,
+          "score": 104.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -604,7 +768,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1018.49,
+          "score": 923.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -673,7 +837,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 14.54,
+          "score": 13.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -718,7 +882,7 @@
         },
         {
           "name": "Output speed",
-          "score": 113.3,
+          "score": 97.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -743,7 +907,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1030.8,
+          "score": 929.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

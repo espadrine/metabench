@@ -89,7 +89,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 48.17,
+          "score": 48.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -134,7 +134,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1703.34,
+          "score": 1674.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -144,7 +144,7 @@
         },
         {
           "name": "Output speed",
-          "score": 224.49,
+          "score": 213.17,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -348,7 +348,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.07,
+          "score": 17.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -388,7 +388,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.35,
+          "score": 96.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -448,7 +448,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 892.72,
+          "score": 774.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -522,7 +522,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 39.8,
+          "score": 39.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -592,7 +592,7 @@
         },
         {
           "name": "Output speed",
-          "score": 186.41,
+          "score": 173.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -662,7 +662,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1523.32,
+          "score": 1481.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -776,7 +776,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.27,
+          "score": 33.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -856,7 +856,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1294.15,
+          "score": 1208.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1075,7 +1075,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1076.31,
+          "score": 985.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1233,7 +1233,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 9.3,
+          "score": 9.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1308,7 +1308,7 @@
         },
         {
           "name": "Output speed",
-          "score": 91.65,
+          "score": 110.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1333,7 +1333,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -44.77,
+          "score": -290.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1431,7 +1431,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 6.45,
+          "score": 8.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1506,7 +1506,7 @@
         },
         {
           "name": "Output speed",
-          "score": 102.59,
+          "score": 101.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1531,7 +1531,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 59.71,
+          "score": -177.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1743,7 +1743,7 @@
         },
         {
           "name": "Output speed",
-          "score": 84.29,
+          "score": 80.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1763,7 +1763,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 49.51,
+          "score": -189.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2004,7 +2004,7 @@
         },
         {
           "name": "Output speed",
-          "score": 22.27,
+          "score": 15.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3033,7 +3033,7 @@
         },
         {
           "name": "Output speed",
-          "score": 59.51,
+          "score": 61.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3390,7 +3390,7 @@
         },
         {
           "name": "Output speed",
-          "score": 142.57,
+          "score": 138.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3410,7 +3410,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -150.78,
+          "score": -402.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
