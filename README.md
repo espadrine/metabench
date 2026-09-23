@@ -139,9 +139,7 @@ When you add a new model from an announcement page:
    and add the `Size` benchmark in billion parameters.
    Also add the `Active parameters` benchmark, which is the same as `Size` if it is a dense model,
    or different if it is a mixture-of-experts model.
-4. Look up ArtificialAnalysis to gather the `ArtificialAnalysis Consumed Tokens (Millions)`:
-   the number of million output tokens consumed to run their test suite.
-5. Extract the list of comparative benchmark scores from the announcement,
+4. Extract the list of comparative benchmark scores from the announcement,
    from the linked model card (which usually has better information),
    or from the model page on Huggingface (which also has more information).
    The name of the benchmarks we add to the model object,
@@ -159,7 +157,7 @@ When you add a new model from an announcement page:
    Fix any mismatches before proceeding. For each flagged name, use the closest match shown, if it looks like a reasonable match.
    If it looks like a separate benchmark, look that benchmark up on the Web or ArXiv to find the official name,
    and use that name in the model object.
-6. Add all the benchmark scores listed on the comparison,
+5. Add all the benchmark scores listed on the comparison,
    to all models mentioned in the comparison, across company files.
    New benchmark scores should be added at the bottom of the `benchmarks` list.
    It should have the same benchmark names, as per step 5.
@@ -168,9 +166,13 @@ When you add a new model from an announcement page:
    do not modify the existing benchmark score;
    instead, add the new benchmark score as a separate entry with its own source.
    Except for input and output prices: those should always be listed only once.
-7. If the new model is listed on ArtificialAnalysis, do `rm data/aabench.json` and `make aabench` to download fresh data.
+6. If the new model is listed on ArtificialAnalysis,
+   do `rm data/aabench.json` and `make aabench` to download fresh data.
    Find the name that seems to correspond among the models in `data/aabench.json`.
    Add the model name mapping to `bin/load_aabench.js`, in `modelNameFromAA`, at the top of the list.
+7. Similarly, if there are models listed on LMArena in `data/lmarena.json`,
+   add the mapping in `bin/load_lmarena.js`, in `KNOWN_MODEL_MAPPINGS`, at the top of the list.
+   Then run `make lmarena` to add the benchmark scores to the data/.
 8. Run `make` to compile the latest data.
 
 Rules to add a benchmark:
@@ -212,7 +214,6 @@ Rules to add a model:
   The website requires them to be present, and will break if they are not.
   Use the price of the official provider's API if it exists, or openrouter otherwise.
 - If open-sourced, the following benchmarks are mandatory, at the top, and in this order: `Input cost`, `Output cost`.
-- If available, add the "ArtificialAnalysis Consumed Tokens (Millions)" benchmark afterwards.
 
 Rules to add model name mappings to external benchmark data:
 - When adding a new model, also add mapping entries in `bin/load_aabench.js`
