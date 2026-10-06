@@ -1,6 +1,160 @@
 {
   "models": [
     {
+      "name": "Mistral Large 4",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "release_date": "2026-10-06",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.36,
+          "source": "https://docs.mistral.ai/models/mistral-large-4"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.18,
+          "source": "https://docs.mistral.ai/models/mistral-large-4"
+        },
+        {
+          "name": "Size",
+          "score": 1050,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4.0-1T05-A52B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 52,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4.0-1T05-A52B"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 61.7,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 59.4,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 28.3,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Index",
+          "score": 49.8,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "Surge Coding Quality (blind human eval)",
+          "score": 3.74,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 59.9,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "AA-Briefcase v1.1",
+          "score": 1393,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "CyberGym",
+          "score": 82,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "Cybench",
+          "score": 93,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "Dense 200",
+          "score": 42,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "B3",
+          "score": 93.3,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "KORA",
+          "score": 1.691,
+          "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38.38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 35.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 81.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 76.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 10.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -5.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1423.91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 59.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 116.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 69329.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Mistral Medium 3.5",
       "company": "Mistral AI",
       "url": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
@@ -1068,7 +1222,7 @@
         },
         {
           "name": "Output speed",
-          "score": 82.76,
+          "score": 81.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1294,7 +1448,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.02,
+          "score": 90.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1515,7 +1669,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.01,
+          "score": 100.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1731,7 +1885,7 @@
         },
         {
           "name": "Output speed",
-          "score": 232.32,
+          "score": 232.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

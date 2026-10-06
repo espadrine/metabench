@@ -367,7 +367,7 @@
         },
         {
           "name": "Output speed",
-          "score": 74.54,
+          "score": 73.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -484,6 +484,11 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 31.5,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Surge Coding Quality (blind human eval)",
+          "score": 3.6,
+          "source": "https://mistral.ai/news/mistral-large-4/"
         }
       ]
     },
@@ -715,7 +720,7 @@
         },
         {
           "name": "Output speed",
-          "score": 93.44,
+          "score": 95.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1117,6 +1122,11 @@
           "name": "AA Output Tokens per Task",
           "score": 64317.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Surge Coding Quality (blind human eval)",
+          "score": 3.4,
+          "source": "https://mistral.ai/news/mistral-large-4/"
         }
       ]
     },
@@ -1553,7 +1563,7 @@
         },
         {
           "name": "Output speed",
-          "score": 59.13,
+          "score": 58.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2476,7 +2486,7 @@
         },
         {
           "name": "Output speed",
-          "score": 78.86,
+          "score": 77.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2992,7 +3002,7 @@
         },
         {
           "name": "Output speed",
-          "score": 44.63,
+          "score": 43.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

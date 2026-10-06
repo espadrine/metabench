@@ -567,6 +567,11 @@
           "name": "MiMo Cyber Bench",
           "score": 56.3,
           "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "Surge Coding Quality (blind human eval)",
+          "score": 3.59,
+          "source": "https://mistral.ai/news/mistral-large-4/"
         }
       ]
     },
@@ -685,7 +690,7 @@
         },
         {
           "name": "Output speed",
-          "score": 79.71,
+          "score": 83.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4150,7 +4155,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55,
+          "score": 54.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4377,7 +4382,7 @@
         },
         {
           "name": "Output speed",
-          "score": 53.59,
+          "score": 54.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

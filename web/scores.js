@@ -570,6 +570,7 @@ const categoryBenchmarks = {
   },
   'Agentic Coding': {
     // Not yet enough data points, so lower weight.
+    'Terminal-Bench 4.0': 10,
     'Terminal-Bench 2.1': 10,
     'Terminal-Bench 2.0': 10,
     'Terminal-Bench-Hard': 10,

@@ -114,7 +114,7 @@
         },
         {
           "name": "Output speed",
-          "score": 127.53,
+          "score": 126.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -463,7 +463,7 @@
         },
         {
           "name": "Output speed",
-          "score": 106.15,
+          "score": 110.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -542,7 +542,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.07,
+          "score": 106.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -621,7 +621,7 @@
         },
         {
           "name": "Output speed",
-          "score": 103.34,
+          "score": 104.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1064,7 +1064,7 @@
         },
         {
           "name": "Output speed",
-          "score": 96.63,
+          "score": 96.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1398,7 +1398,7 @@
         },
         {
           "name": "Output speed",
-          "score": 61.44,
+          "score": 62.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3318,6 +3318,11 @@
           "name": "PhysicianBench",
           "score": 57.6,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "Surge Coding Quality (blind human eval)",
+          "score": 4.22,
+          "source": "https://mistral.ai/news/mistral-large-4/"
         }
       ]
     },
@@ -8880,7 +8885,7 @@
         },
         {
           "name": "Output speed",
-          "score": 44.9,
+          "score": 48.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9289,7 +9294,7 @@
         },
         {
           "name": "Output speed",
-          "score": 46.17,
+          "score": 49.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10697,7 +10702,7 @@
         },
         {
           "name": "Output speed",
-          "score": 40.33,
+          "score": 42.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11390,7 +11395,7 @@
         },
         {
           "name": "Output speed",
-          "score": 40.62,
+          "score": 41.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13024,7 +13029,7 @@
         },
         {
           "name": "Output speed",
-          "score": 51.6,
+          "score": 52.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14891,7 +14896,7 @@
         },
         {
           "name": "Output speed",
-          "score": 43.61,
+          "score": 48.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
