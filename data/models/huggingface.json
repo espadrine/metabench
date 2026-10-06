@@ -38,7 +38,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 30.0,
+          "score": 30,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
         },
         {
@@ -194,6 +194,11 @@
           "name": "GSM8K",
           "score": 48.2,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1114,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
@@ -550,7 +555,7 @@
         },
         {
           "name": "PIQA",
-          "score": 76.0,
+          "score": 76,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
         },
         {
@@ -560,7 +565,7 @@
         },
         {
           "name": "CommonsenseQA",
-          "score": 38.0,
+          "score": 38,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B"
         },
         {
@@ -831,12 +836,12 @@
         },
         {
           "name": "OpenBookQA",
-          "score": 34.0,
+          "score": 34,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
         },
         {
           "name": "GSM8K",
-          "score": 1.0,
+          "score": 1,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M"
         }
       ]
@@ -883,7 +888,7 @@
         },
         {
           "name": "PIQA",
-          "score": 64.0,
+          "score": 64,
           "source": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct"
         },
         {

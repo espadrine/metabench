@@ -685,7 +685,7 @@
         },
         {
           "name": "Output speed",
-          "score": 75.81,
+          "score": 79.71,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1110,7 +1110,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1461,
+          "score": 1460,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1255,7 +1255,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.22,
+          "score": 62.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1690,7 +1690,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1026.09,
+          "score": 1040.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3753,7 +3753,7 @@
         },
         {
           "name": "Output speed",
-          "score": 150.55,
+          "score": 152.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4150,7 +4150,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.97,
+          "score": 55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
