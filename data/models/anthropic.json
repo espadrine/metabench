@@ -121,6 +121,11 @@
           "name": "AA Output Tokens per Task",
           "score": 119166.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 38.23,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -358,7 +363,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.65,
+          "score": 69.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -655,6 +660,26 @@
           "name": "Chartography (with tools)",
           "score": 88.4,
           "source": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 31.4,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 50.3,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.7,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 49.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1256,7 +1281,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.92,
+          "score": 55.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2013,6 +2038,31 @@
           "name": "Chartography (with tools)",
           "score": 83.4,
           "source": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 26.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 48,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73.7,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 52.7,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 70.2,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
         }
       ]
     },
@@ -2140,7 +2190,7 @@
         },
         {
           "name": "Output speed",
-          "score": 53.52,
+          "score": 57.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2177,6 +2227,31 @@
           "name": "AA Output Tokens per Task",
           "score": 60655.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 43.6,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73.2,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 25.3,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 55.5,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 70.1,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
         }
       ]
     },
@@ -2304,7 +2379,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.16,
+          "score": 57.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2341,6 +2416,31 @@
           "name": "AA Output Tokens per Task",
           "score": 46239.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 48,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 72.8,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 20.5,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 55.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 65.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
         }
       ]
     },
@@ -2463,7 +2563,7 @@
         },
         {
           "name": "Output speed",
-          "score": 56.85,
+          "score": 54.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2495,6 +2595,31 @@
           "name": "AA Output Tokens per Task",
           "score": 28977.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 60.3,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 53.4,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 68.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 23.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 53,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
         }
       ]
     },
@@ -2612,7 +2737,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.66,
+          "score": 57.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2644,6 +2769,31 @@
           "name": "AA Output Tokens per Task",
           "score": 14668.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 41.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 58.1,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 20.4,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 51.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 55.2,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
         }
       ]
     },
@@ -2926,7 +3076,7 @@
         },
         {
           "name": "Output speed",
-          "score": 81.15,
+          "score": 82.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3884,7 +4034,7 @@
         },
         {
           "name": "Output speed",
-          "score": 66.7,
+          "score": 68.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5081,6 +5231,11 @@
           "name": "ExploitBench",
           "score": 78,
           "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 69.9,
+          "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
         }
       ]
     },
@@ -5308,7 +5463,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.31,
+          "score": 56.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6796,7 +6951,7 @@
         },
         {
           "name": "Output speed",
-          "score": 49.92,
+          "score": 49.17,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7245,7 +7400,7 @@
         },
         {
           "name": "Output speed",
-          "score": 43.21,
+          "score": 44.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7654,7 +7809,7 @@
         },
         {
           "name": "Output speed",
-          "score": 53.06,
+          "score": 52.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8038,7 +8193,7 @@
         },
         {
           "name": "Output speed",
-          "score": 41.77,
+          "score": 45.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9062,7 +9217,7 @@
         },
         {
           "name": "Output speed",
-          "score": 39.58,
+          "score": 42.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9755,7 +9910,7 @@
         },
         {
           "name": "Output speed",
-          "score": 39.72,
+          "score": 38.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11389,7 +11544,7 @@
         },
         {
           "name": "Output speed",
-          "score": 48.96,
+          "score": 51.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11698,7 +11853,7 @@
         },
         {
           "name": "Output speed",
-          "score": 45.66,
+          "score": 50.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11942,7 +12097,7 @@
         },
         {
           "name": "Output speed",
-          "score": 96.07,
+          "score": 111.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12207,7 +12362,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 718.86,
+          "score": 735.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13256,7 +13411,7 @@
         },
         {
           "name": "Output speed",
-          "score": 43.36,
+          "score": 43.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13336,7 +13491,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 892.87,
+          "score": 910.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13480,7 +13635,7 @@
         },
         {
           "name": "Output speed",
-          "score": 40.11,
+          "score": 46.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14723,7 +14878,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 679.76,
+          "score": 694.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -15456,7 +15611,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 197.5,
+          "score": 214.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

@@ -114,12 +114,17 @@
         },
         {
           "name": "Output speed",
-          "score": 39.16,
+          "score": 44.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "AA Output Tokens per Task",
           "score": 80561.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 42.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -253,7 +258,7 @@
         },
         {
           "name": "Output speed",
-          "score": 58.62,
+          "score": 61.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -447,7 +452,7 @@
         },
         {
           "name": "Output speed",
-          "score": 55.12,
+          "score": 57.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -728,7 +733,7 @@
         },
         {
           "name": "Output speed",
-          "score": 104.09,
+          "score": 123.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -882,7 +887,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.84,
+          "score": 111.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -907,7 +912,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 929.11,
+          "score": 945.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

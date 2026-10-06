@@ -161,7 +161,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1673.19,
+          "score": 1686.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -171,7 +171,7 @@
         },
         {
           "name": "Output speed",
-          "score": 76.19,
+          "score": 44.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -299,6 +299,61 @@
           "name": "MiMo Cyber Bench",
           "score": 77.2,
           "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 37.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 35.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.27,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 74.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 73.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -12.68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1610.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 64.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 62.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 77791.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     }

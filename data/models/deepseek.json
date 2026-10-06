@@ -179,7 +179,7 @@
         },
         {
           "name": "Output speed",
-          "score": 218.92,
+          "score": 232.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -256,6 +256,11 @@
           "name": "MiMo Cyber Bench",
           "score": 62.7,
           "source": "https://mimo.xiaomi.com/mimo-v2-6"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 46.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -398,7 +403,7 @@
         },
         {
           "name": "Output speed",
-          "score": 230.98,
+          "score": 215.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -576,7 +581,7 @@
         },
         {
           "name": "Output speed",
-          "score": 67.07,
+          "score": 76.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -919,7 +924,7 @@
         },
         {
           "name": "Output speed",
-          "score": 221.21,
+          "score": 221.41,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4455,7 +4460,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 680.82,
+          "score": 695,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -5401,7 +5406,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 56.25,
+          "score": 72.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5905,7 +5910,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 282.28,
+          "score": 298.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6310,7 +6315,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -44.14,
+          "score": -25.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

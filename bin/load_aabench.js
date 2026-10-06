@@ -469,7 +469,22 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "GPT-6 Sol (Max)": "GPT-6 Sol",
+  "GPT-6 Sol (Xhigh)": "GPT-6 Sol xhigh",
+  "GPT-6 Sol (High)": "GPT-6 Sol high",
+  "GPT-6 Sol (Medium)": "GPT-6 Sol medium",
+  "GPT-6 Sol (Low)": "GPT-6 Sol low",
+  "GPT-6 Sol (Non-reasoning)": "GPT-6 Sol none",
+  "GPT-6 Luna (Max)": "GPT-6 Luna",
+  "GPT-6 Luna (Xhigh)": "GPT-6 Luna xhigh",
+  "GPT-6 Luna (High)": "GPT-6 Luna high",
+  "GPT-6 Luna (Medium)": "GPT-6 Luna medium",
+  "GPT-6 Luna (Low)": "GPT-6 Luna low",
+  "GPT-6 Luna (Non-reasoning)": "GPT-6 Luna none",
+  "Gemma 4 26B A4B (Reasoning)": "Gemma 4 26B-A4B",
+  "Gemma 4 E4B (Reasoning)": "Gemma 4 E4B",
   "Claude Opus 5.5 (Adaptive Reasoning, Max Effort, Default Fallback)": "Claude Opus 5.5",
+  "MiMo-V2.6-Flash": "MiMo-V2.6-Flash",
   "MiMo-V2.6-Pro": "MiMo-V2.6-Pro",
   "Grok 4.7 (xhigh)": "Grok 4.7",
   "DeepSeek V4.1 Flash (Reasoning, Max Effort)": "DeepSeek V4.1 Flash",
