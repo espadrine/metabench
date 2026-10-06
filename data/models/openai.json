@@ -114,6 +114,46 @@
           "name": "AA Output Tokens per Task",
           "score": 30999.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 49.3,
+          "source": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1487,
+          "source": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1483,
+          "source": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "name": "Chartography",
+          "score": 53.6,
+          "source": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 49.3,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1487,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1483,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 32,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
         }
       ]
     },
@@ -1658,6 +1698,31 @@
           "name": "ITBench SRE",
           "score": 48.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.9,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 64.6,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 0.655,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 70.3,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "Biomedical image analysis",
+          "score": 77.5,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
         }
       ]
     },
@@ -3815,6 +3880,16 @@
           "name": "OSWorld 2.0",
           "score": 66.2,
           "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 37.3,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 0.322,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
         }
       ]
     },

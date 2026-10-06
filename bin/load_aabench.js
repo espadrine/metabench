@@ -469,6 +469,11 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Claude Sonnet 5.5 (Max, Default Fallback)": "Claude Sonnet 5.5",
+  "Claude Sonnet 5.5 (Xhigh, Default Fallback)": "Claude Sonnet 5.5 xhigh",
+  "Claude Sonnet 5.5 (High, Default Fallback)": "Claude Sonnet 5.5 high",
+  "Claude Sonnet 5.5 (Medium, Default Fallback)": "Claude Sonnet 5.5 medium",
+  "Claude Sonnet 5.5 (Low, Default Fallback)": "Claude Sonnet 5.5 low",
   "GPT-6 Sol (Max)": "GPT-6 Sol",
   "GPT-6 Sol (Xhigh)": "GPT-6 Sol xhigh",
   "GPT-6 Sol (High)": "GPT-6 Sol high",

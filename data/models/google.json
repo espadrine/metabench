@@ -6453,6 +6453,11 @@
           "name": "AA Output Tokens per Task",
           "score": 18112.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Biomedical image analysis",
+          "score": 37.8,
+          "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
         }
       ]
     },
