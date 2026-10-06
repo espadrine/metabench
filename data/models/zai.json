@@ -479,6 +479,11 @@
           "name": "ITBench SRE",
           "score": 46.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 31.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
         }
       ]
     },

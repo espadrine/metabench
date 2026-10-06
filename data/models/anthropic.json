@@ -1066,6 +1066,101 @@
           "name": "Output speed",
           "score": 96.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 67,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 42.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 58.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 3.8,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 74.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 62.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 90.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 66.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 49.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 63.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "LABBench2",
+          "score": 73.1,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "RiemannBench",
+          "score": 69.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 90.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Graphwalks bfs 256k-1M",
+          "score": 66.8,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 38.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Chartography",
+          "score": 66.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "LVBench",
+          "score": 83.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "CWE-Bench v1",
+          "score": 67,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 1,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
         }
       ]
     },
@@ -1715,6 +1810,96 @@
           "name": "Morphology-to-molecule matching",
           "score": 25.8,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "Vals Index",
+          "score": 65.8,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 31.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 58.9,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 6.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 56.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 90.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.9,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 40.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 52.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "LABBench2",
+          "score": 68.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "RiemannBench",
+          "score": 65.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Graphwalks bfs <128k",
+          "score": 91.4,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Graphwalks bfs 256k-1M",
+          "score": 65,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Chartography",
+          "score": 46.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "LVBench",
+          "score": 79.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "CWE-Bench v1",
+          "score": 58,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 1,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
         }
       ]
     },
