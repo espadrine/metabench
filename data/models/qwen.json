@@ -3484,7 +3484,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
         {
-          "name": "AIME 2025",
+          "name": "AIME 2026",
           "score": 92.7,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
@@ -3932,6 +3932,11 @@
           "name": "AA Output Tokens per Task",
           "score": 34593.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 50,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         }
       ]
     },
@@ -5199,7 +5204,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
         {
-          "name": "AIME 2025",
+          "name": "AIME 2026",
           "score": 92.6,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
@@ -5602,6 +5607,11 @@
           "name": "ITBench SRE",
           "score": 35.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 46.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         }
       ]
     },
@@ -6000,7 +6010,7 @@
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
         {
-          "name": "AIME 2025",
+          "name": "AIME 2026",
           "score": 91,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         },
@@ -6188,6 +6198,11 @@
           "name": "ITBench SRE",
           "score": 21.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 51,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         }
       ]
     },

@@ -15132,6 +15132,91 @@
           "name": "AA-Omniscience Index",
           "score": -9.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU",
+          "score": 79.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 68.4,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "MathVista mini",
+          "score": 79.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "ZEROBench_sub",
+          "score": 26.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 70.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "MMBenchEN-DEV-v1.1",
+          "score": 88.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 57.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 59.9,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 85.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 67.2,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "CC-OCR",
+          "score": 68.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "AI2D_TEST",
+          "score": 87,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 71.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "Video-MME",
+          "score": 81.1,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 75.3,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 77.6,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "MLVU",
+          "score": 72.8,
+          "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
         }
       ]
     },
