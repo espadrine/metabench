@@ -697,6 +697,126 @@
           "name": "LMArena Text",
           "score": 1437,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 35.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 19,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -5.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 97.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 97.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 76.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 82.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 68.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 83.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 50,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 42.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 73.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 55.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 46.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 93.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 94.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "IFBench",
+          "score": 81.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 67.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "FRAMES",
+          "score": 78.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LongBench Pro",
+          "score": 76.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 81.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
         }
       ]
     },
@@ -3937,6 +4057,121 @@
           "name": "Claw-Eval (pass^3)",
           "score": 50,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 21.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 21,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -12.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 84.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 91,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 99.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 71.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 70.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 10.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 53.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 67.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 58.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 26.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 92.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "IFBench",
+          "score": 66.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 56.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "FRAMES",
+          "score": 74.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LongBench Pro",
+          "score": 70.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 69.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
         }
       ]
     },
@@ -6203,6 +6438,126 @@
           "name": "Claw-Eval (pass^3)",
           "score": 51,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 20.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 22.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -46.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 88.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 92.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 39.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 97.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 70.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 76,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 11.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 54,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 70.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 59.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 36.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 77.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 92.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "IFBench",
+          "score": 72.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 11.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "FRAMES",
+          "score": 75.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LongBench Pro",
+          "score": 70.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 66.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
         }
       ]
     },
@@ -9235,6 +9590,121 @@
           "name": "GDPval-AA",
           "score": 131.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 11.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 24.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -42.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 81.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 84.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 88.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 8.6,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 43.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 60.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 65.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 5.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 51.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 51,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 56,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 2.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 93.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "IFBench",
+          "score": 60.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 12.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "FRAMES",
+          "score": 68.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LongBench Pro",
+          "score": 63.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 46.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
         }
       ]
     },
