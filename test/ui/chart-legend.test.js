@@ -136,6 +136,21 @@ test('chart tab legend interactions', skipOpts, async t => {
     assert.strictEqual(info.labelsOnClick, 'undefined');
   });
 
+  await t.test('datasets are ordered newest first so newer dots render on top', async () => {
+    await loadPage();
+    const dates = await page.evaluate(() => {
+      const chart = window.Chart.getChart(document.getElementById('chart-canvas'));
+      return chart.data.datasets.map(d => d.data[0].releaseDate);
+    });
+    assert.ok(dates.length > 0, 'chart should have datasets');
+    for (let i = 1; i < dates.length; i++) {
+      assert.ok(
+        !dates[i - 1] || !dates[i] || new Date(dates[i]) <= new Date(dates[i - 1]),
+        `dataset ${i} (${dates[i]}) should not be newer than dataset ${i - 1} (${dates[i - 1]})`
+      );
+    }
+  });
+
   await t.test('hover isolates the hovered company and restores on leave', async () => {
     await loadPage();
     const pos = await legendPosition(1);

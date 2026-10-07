@@ -130,7 +130,17 @@ function buildCompanyColors(state, metric) {
 function buildChartDatasets(state, metric, companyColors) {
   const datasets = [];
 
-  state.models.forEach(model => {
+  // Sort models by release date, newest first.
+  // That way newer dots appear in front of older dots.
+  // Chart.js draws datasets in reverse array order,
+  // so the first dataset is painted last, on top of the older ones.
+  const sortedModels = [...state.models].sort((a, b) => {
+    if (!a.release_date) return 1;
+    if (!b.release_date) return -1;
+    return new Date(b.release_date) - new Date(a.release_date);
+  });
+
+  sortedModels.forEach(model => {
     const metricScore = computeWeightedScore(model.benchmarks, metric.criteria);
     const xAxisValue = model.benchmarks[state.xAxisMetric]?.score;
 
