@@ -354,7 +354,7 @@
         },
         {
           "name": "Output speed",
-          "score": 122.72,
+          "score": 116.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -768,7 +768,7 @@
         },
         {
           "name": "Output speed",
-          "score": 277.08,
+          "score": 275.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1006,7 +1006,7 @@
         },
         {
           "name": "Output speed",
-          "score": 275.81,
+          "score": 271.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1109,7 +1109,7 @@
         },
         {
           "name": "Output speed",
-          "score": 285.94,
+          "score": 282.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1262,7 +1262,7 @@
         },
         {
           "name": "Output speed",
-          "score": 189.16,
+          "score": 189.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1515,7 +1515,7 @@
         },
         {
           "name": "Output speed",
-          "score": 348.63,
+          "score": 359.08,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2157,7 +2157,7 @@
         },
         {
           "name": "Output speed",
-          "score": 197.39,
+          "score": 195.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2310,7 +2310,7 @@
         },
         {
           "name": "Output speed",
-          "score": 198.64,
+          "score": 195.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2518,7 +2518,7 @@
         },
         {
           "name": "Output speed",
-          "score": 196.04,
+          "score": 192.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3097,7 +3097,7 @@
         },
         {
           "name": "Output speed",
-          "score": 34.95,
+          "score": 35.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4276,7 +4276,7 @@
         },
         {
           "name": "Output speed",
-          "score": 25.83,
+          "score": 26.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4944,7 +4944,7 @@
         },
         {
           "name": "Output speed",
-          "score": 277.63,
+          "score": 273.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5602,7 +5602,7 @@
         },
         {
           "name": "Output speed",
-          "score": 116.44,
+          "score": 115.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7000,7 +7000,7 @@
         },
         {
           "name": "Output speed",
-          "score": 194.1,
+          "score": 193.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7198,7 +7198,7 @@
         },
         {
           "name": "Output speed",
-          "score": 191.88,
+          "score": 191.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9198,6 +9198,76 @@
           "name": "AA-Omniscience Index",
           "score": 15.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.9,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 95,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 97.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.7,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Hard Prompt)",
+          "score": 72.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Creative Writing)",
+          "score": 93.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 65.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 39,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 54.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 59.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 85.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
         }
       ]
     },
@@ -10107,7 +10177,7 @@
         },
         {
           "name": "Output speed",
-          "score": 118.86,
+          "score": 117.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10753,7 +10823,7 @@
         },
         {
           "name": "Output speed",
-          "score": 205.31,
+          "score": 203.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

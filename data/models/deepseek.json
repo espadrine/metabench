@@ -179,7 +179,7 @@
         },
         {
           "name": "Output speed",
-          "score": 223.11,
+          "score": 216.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -403,7 +403,7 @@
         },
         {
           "name": "Output speed",
-          "score": 220.31,
+          "score": 219.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -581,7 +581,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.55,
+          "score": 94.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -924,7 +924,7 @@
         },
         {
           "name": "Output speed",
-          "score": 228.16,
+          "score": 222.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1472,7 +1472,7 @@
         },
         {
           "name": "Output speed",
-          "score": 97.16,
+          "score": 92.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2095,7 +2095,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.72,
+          "score": 89.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2478,7 +2478,7 @@
         },
         {
           "name": "Output speed",
-          "score": 90.6,
+          "score": 88.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4462,6 +4462,86 @@
           "name": "GDPval-AA",
           "score": 695,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 25.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 93.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 92.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.3,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Hard Prompt)",
+          "score": 53.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Creative Writing)",
+          "score": 88.8,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 58.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 70.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 35.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 51.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 67.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.3,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
         }
       ]
     },

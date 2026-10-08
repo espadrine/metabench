@@ -356,6 +356,184 @@
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
+    },
+    {
+      "name": "MiMo-V2-Flash",
+      "company": "Xiaomi",
+      "url": "https://mimo.xiaomi.com/blog/mimo-v2-flash",
+      "release_date": "2025-12-16",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.1,
+          "source": "https://mimo.mi.com/docs/en-US/updates/model"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.3,
+          "source": "https://mimo.mi.com/docs/en-US/updates/model"
+        },
+        {
+          "name": "Size",
+          "score": 309,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Active parameters",
+          "score": 15,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.9,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.7,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 22.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 84.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Hard Prompt)",
+          "score": 54.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Creative Writing)",
+          "score": 86.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 60.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 71.7,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 30.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 38.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 45.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 58.3,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 80.3,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 20.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 22.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 86.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 96.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 64.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 70.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 28.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 95.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 4.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -45.35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1386,
+          "source": "https://lmarena.ai/"
+        }
+      ]
     }
   ]
 }

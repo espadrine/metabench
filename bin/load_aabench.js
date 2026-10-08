@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "MiMo-V2-Flash (Reasoning)": "MiMo-V2-Flash",
   "Claude Haiku 5.5 (Max)": "Claude Haiku 5.5",
   "Claude Haiku 5.5 (Xhigh)": "Claude Haiku 5.5 xhigh",
   "Claude Haiku 5.5 (High)": "Claude Haiku 5.5 high",
@@ -516,7 +517,7 @@ const modelNameFromAA = {
   "Claude Fable 5.1 (Max, Default Fallback)": "Claude Fable 5.1",
   "Muse Spark 1.3 (Max)": "Muse Spark 1.3",
   "Qwen3.8-Flash-Next": "Qwen3.8-Flash-Next",
-  "GLM 5.3 Flash": "GLM-5.3-Flash",
+  "GLM-5.3-Flash": "GLM-5.3-Flash",
   "DeepSeek V4 Flash Vision (Max)": "DeepSeek-V4-Vision-Exp",
   "LFM2.5-2.6B": "LFM2.5-2.6B",
   "GLM-5.3 (Max)": "GLM-5.3",

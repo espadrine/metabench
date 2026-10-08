@@ -690,7 +690,7 @@
         },
         {
           "name": "Output speed",
-          "score": 81.11,
+          "score": 78.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1260,7 +1260,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.88,
+          "score": 62.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3758,7 +3758,7 @@
         },
         {
           "name": "Output speed",
-          "score": 150.76,
+          "score": 151.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3770,6 +3770,81 @@
           "name": "AA-Omniscience Index",
           "score": -21.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 23.9,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.5,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "HMMT Feb 2025",
+          "score": 89.4,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Hard Prompt)",
+          "score": 71.9,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Arena-Hard (Creative Writing)",
+          "score": 80.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LongBench v2",
+          "score": 45.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71.3,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 61.1,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench Hard",
+          "score": 30.6,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 35.7,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "BrowseComp (with context manage)",
+          "score": 60.2,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 74.3,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
         }
       ]
     },
@@ -4155,7 +4230,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.41,
+          "score": 55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4382,7 +4457,7 @@
         },
         {
           "name": "Output speed",
-          "score": 54.41,
+          "score": 55.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
