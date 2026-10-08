@@ -11125,6 +11125,56 @@
           "name": "GDPval-AA",
           "score": 1248.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 60.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 57.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 89,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 25.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1674,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 72.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 58.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 42.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 75.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
         }
       ]
     },

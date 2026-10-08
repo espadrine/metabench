@@ -137,6 +137,8 @@ function mapModels(lmarenaData, models) {
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
   // Insert the latest at the top.
+  "mimo-v2.5": "MiMo-V2.5",
+  "mimo-v2.5-pro": "MiMo-V2.5-Pro",
   "mimo-v2-flash (thinking)": "MiMo-V2-Flash",
   "qwen3.8-max-0902": "Qwen3.8-Max-0902",
   "claude-fable-5-1": "Claude Fable 5.1",

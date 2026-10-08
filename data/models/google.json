@@ -6779,6 +6779,81 @@
           "name": "Biomedical image analysis",
           "score": 37.8,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 67.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 57.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 54.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 81.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "HR-Bench (4k)",
+          "score": 86.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Video-MME",
+          "score": 88.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "DailyOmni",
+          "score": 84.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "VideoHolmes",
+          "score": 64.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1317,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 67.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 51.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 44.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
         }
       ]
     },

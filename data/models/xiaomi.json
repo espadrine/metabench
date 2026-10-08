@@ -358,6 +358,383 @@
       ]
     },
     {
+      "name": "MiMo-V2.5-Pro",
+      "company": "Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-5-pro/",
+      "release_date": "2026-04-27",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.435,
+          "source": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.87,
+          "source": "https://openrouter.ai/xiaomi/mimo-v2.5-pro"
+        },
+        {
+          "name": "Size",
+          "score": 1020,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 42,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1581,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 72.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 63.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 48,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 34,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 57.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 73.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Graphwalks bfs 1M",
+          "score": 0.37,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
+        },
+        {
+          "name": "Graphwalks parents 1M",
+          "score": 0.62,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 35.68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 50.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 79.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 43.18,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 94.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 9.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 2.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 3.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1123.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 13.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 20,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "ITBench SRE",
+          "score": 38.23,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 30.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 29884.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1467,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
+      "name": "MiMo-V2.5",
+      "company": "Xiaomi",
+      "url": "https://mimo.xiaomi.com/mimo-v2-5/",
+      "release_date": "2026-04-22",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.14,
+          "source": "https://openrouter.ai/xiaomi/mimo-v2.5"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.28,
+          "source": "https://openrouter.ai/xiaomi/mimo-v2.5"
+        },
+        {
+          "name": "Size",
+          "score": 310,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
+        },
+        {
+          "name": "Active parameters",
+          "score": 15,
+          "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2.5"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 71.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 62.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 56.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 81,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 77.9,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "HR-Bench (4k)",
+          "score": 88.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "OmniDocBench 1.5",
+          "score": 87.2,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 23.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Video-MME",
+          "score": 87.7,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "DailyOmni",
+          "score": 83.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "VideoHolmes",
+          "score": 64,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 69.5,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 25.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 27.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 43.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 67.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Hard",
+          "score": 41.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 90.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 8.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 75.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 3.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -9.83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1003.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 18.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 53.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1434,
+          "source": "https://lmarena.ai/"
+        }
+      ]
+    },
+    {
       "name": "MiMo-V2-Flash",
       "company": "Xiaomi",
       "url": "https://mimo.xiaomi.com/blog/mimo-v2-flash",

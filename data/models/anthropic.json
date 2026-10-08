@@ -10370,6 +10370,11 @@
           "name": "AA-Omniscience Index",
           "score": -3.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 23.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
         }
       ]
     },
@@ -12262,6 +12267,61 @@
           "name": "AA-Omniscience Index",
           "score": 2.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MiMo Code Bench",
+          "score": 77.1,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 70.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 57.3,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 65.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 77.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Claw-Eval-MM",
+          "score": 24.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1606,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 72.4,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 53,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 40,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
         }
       ]
     },

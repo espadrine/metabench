@@ -469,6 +469,8 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "MiMo-V2.5-Pro (Reasoning)": "MiMo-V2.5-Pro",
+  "MiMo-V2.5": "MiMo-V2.5",
   "MiMo-V2-Flash (Reasoning)": "MiMo-V2-Flash",
   "Claude Haiku 5.5 (Max)": "Claude Haiku 5.5",
   "Claude Haiku 5.5 (Xhigh)": "Claude Haiku 5.5 xhigh",
