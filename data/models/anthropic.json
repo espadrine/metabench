@@ -1,6 +1,581 @@
 {
   "models": [
     {
+      "name": "Claude Haiku 5.5",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "release_date": "2026-10-07",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 64.8,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 83.7,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 30.7,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "FrontierCode v1.1 Main",
+          "score": 46.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "FrontierCode v1.1 Extended",
+          "score": 58.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 45.9,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 57.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 72.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OSWorld 2.1 (strict pass rate)",
+          "score": 37.1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 64.8,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1620,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1578,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 39.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 20.6,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 0.438,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 82,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Chartography",
+          "score": 46.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 86.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "BenchCAD Vision2Code",
+          "score": 0.67,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "BenchCAD Vision2Code (with tools)",
+          "score": 0.87,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 73.5,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 60.3,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "HealthBench",
+          "score": 61.6,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "PhysicianBench",
+          "score": 43,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 87.8,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "MILU",
+          "score": 87.6,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 7.1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "SpatialBench Verified",
+          "score": 67.7,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "SingleCellBench",
+          "score": 56.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Morphology-to-molecule matching",
+          "score": 25.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Medicinal Chemistry",
+          "score": 58,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protein Design (Sequence Generation)",
+          "score": 33.1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protein Design (Library Ranking)",
+          "score": 45.3,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Biomedical image analysis",
+          "score": 43.5,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protocols Troubleshooting",
+          "score": 58,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protocols Understanding",
+          "score": 64.1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 43.4,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 44.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 82.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 18.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 10.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1620.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 35.41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 243.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 162164.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Haiku 5.5 xhigh",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "release_date": "2026-10-07",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 41.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42.68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 78.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 22.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 6.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1510.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 35.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 188.28,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 89393.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Haiku 5.5 high",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "release_date": "2026-10-07",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 37.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 37.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 48.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 77.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 18.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 5.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1420.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 33.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 173.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 55387.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Haiku 5.5 medium",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "release_date": "2026-10-07",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 34.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 33.78,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 48.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 77.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 12.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 4.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1276.84,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 28.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 137.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 32812.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Claude Haiku 5.5 low",
+      "company": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "release_date": "2026-10-07",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.5,
+          "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 29.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 27.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 49.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 9.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 3.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1124.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 22.91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 181.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 17285.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Claude Sonnet 5.5",
       "company": "Anthropic",
       "url": "https://www.anthropic.com/claude-sonnet-5-5",
@@ -114,7 +689,7 @@
         },
         {
           "name": "Output speed",
-          "score": 126.99,
+          "score": 136.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -361,6 +936,31 @@
           "name": "Protocols Understanding",
           "score": 66.6,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 83.9,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OSWorld 2.1 (strict pass rate)",
+          "score": 48.8,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1840,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 1824,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 3.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
         }
       ]
     },
@@ -463,7 +1063,7 @@
         },
         {
           "name": "Output speed",
-          "score": 110.51,
+          "score": 107.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -542,7 +1142,7 @@
         },
         {
           "name": "Output speed",
-          "score": 106.9,
+          "score": 103.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -621,7 +1221,7 @@
         },
         {
           "name": "Output speed",
-          "score": 104.69,
+          "score": 101.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -700,7 +1300,7 @@
         },
         {
           "name": "Output speed",
-          "score": 100.87,
+          "score": 100.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -819,7 +1419,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1866.24,
+          "score": 1866.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1064,7 +1664,7 @@
         },
         {
           "name": "Output speed",
-          "score": 96.96,
+          "score": 95.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1161,6 +1761,21 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 1,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 87.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OSWorld 2.1 (strict pass rate)",
+          "score": 53.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
         }
       ]
     },
@@ -1398,7 +2013,7 @@
         },
         {
           "name": "Output speed",
-          "score": 62.48,
+          "score": 67.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1493,7 +2108,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1757.77,
+          "score": 1756.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1900,6 +2515,21 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 1,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Global MMLU",
+          "score": 94,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "MILU",
+          "score": 93,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
         }
       ]
     },
@@ -2506,7 +3136,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57,
+          "score": 50.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3450,7 +4080,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.76,
+          "score": 50.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3639,7 +4269,7 @@
         },
         {
           "name": "Output speed",
-          "score": 57.62,
+          "score": 52.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3823,7 +4453,7 @@
         },
         {
           "name": "Output speed",
-          "score": 59.86,
+          "score": 52.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3997,7 +4627,7 @@
         },
         {
           "name": "Output speed",
-          "score": 60.24,
+          "score": 50.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4336,7 +4966,7 @@
         },
         {
           "name": "Output speed",
-          "score": 86.04,
+          "score": 79.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4838,6 +5468,46 @@
           "name": "Protocols Understanding",
           "score": 58.9,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "SpatialBench Verified",
+          "score": 68.9,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "SingleCellBench",
+          "score": 56.5,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Medicinal Chemistry",
+          "score": 41.3,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protein Design (Sequence Generation)",
+          "score": 20.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protein Design (Library Ranking)",
+          "score": 44,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Biomedical image analysis",
+          "score": 42.3,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protocols Troubleshooting",
+          "score": 49.9,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Protocols Understanding",
+          "score": 58.9,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
         }
       ]
     },
@@ -5499,7 +6169,7 @@
         },
         {
           "name": "Output speed",
-          "score": 65.41,
+          "score": 64.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6706,6 +7376,11 @@
           "name": "Terminal-Bench-Science 0.1",
           "score": 24.7,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "FrontierSWE v2",
+          "score": 0.47,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
         }
       ]
     },
@@ -6933,7 +7608,7 @@
         },
         {
           "name": "Output speed",
-          "score": 63.59,
+          "score": 61.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8436,7 +9111,7 @@
         },
         {
           "name": "Output speed",
-          "score": 49.73,
+          "score": 49.28,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8885,7 +9560,7 @@
         },
         {
           "name": "Output speed",
-          "score": 48.29,
+          "score": 47.86,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -9678,7 +10353,7 @@
         },
         {
           "name": "Output speed",
-          "score": 48.9,
+          "score": 43.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10702,7 +11377,7 @@
         },
         {
           "name": "Output speed",
-          "score": 42.44,
+          "score": 43.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -11395,7 +12070,7 @@
         },
         {
           "name": "Output speed",
-          "score": 41.56,
+          "score": 40.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13029,7 +13704,7 @@
         },
         {
           "name": "Output speed",
-          "score": 52.18,
+          "score": 50.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13338,7 +14013,7 @@
         },
         {
           "name": "Output speed",
-          "score": 50.27,
+          "score": 47.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13582,7 +14257,7 @@
         },
         {
           "name": "Output speed",
-          "score": 111.52,
+          "score": 90.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13874,6 +14549,91 @@
           "name": "AA Output Tokens per Task",
           "score": 18484.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 67.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 19.8,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 18.7,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 15.7,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 32.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 735,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "AA-Briefcase",
+          "score": 614,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 0.1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Chartography",
+          "score": 6.4,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 8.8,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "BenchCAD Vision2Code",
+          "score": 0.155,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "BenchCAD Vision2Code (with tools)",
+          "score": 0.21,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OfficeQA",
+          "score": 63,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 47.1,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Gray Swan IPI (Attack Success Rate)",
+          "score": 83.2,
+          "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
         }
       ]
     },
@@ -15120,7 +15880,7 @@
         },
         {
           "name": "Output speed",
-          "score": 46.29,
+          "score": 43.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

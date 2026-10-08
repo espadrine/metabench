@@ -469,6 +469,11 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Claude Haiku 5.5 (Max)": "Claude Haiku 5.5",
+  "Claude Haiku 5.5 (Xhigh)": "Claude Haiku 5.5 xhigh",
+  "Claude Haiku 5.5 (High)": "Claude Haiku 5.5 high",
+  "Claude Haiku 5.5 (Medium)": "Claude Haiku 5.5 medium",
+  "Claude Haiku 5.5 (Low)": "Claude Haiku 5.5 low",
   "Mistral Large 4 Preview": "Mistral Large 4",
   "Gemini 4 Argon (High)": "Gemini 4 Argon",
   "GPT-6.1 Sol (Max)": "GPT-6.1 Sol",
