@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "North Mini Code": "North Mini Code 1.0",
   "MiMo-V2.5-Pro (Reasoning)": "MiMo-V2.5-Pro",
   "MiMo-V2.5": "MiMo-V2.5",
   "MiMo-V2-Flash (Reasoning)": "MiMo-V2-Flash",
