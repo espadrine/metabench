@@ -1,6 +1,293 @@
 {
   "models": [
     {
+      "name": "Muse Wonder Full",
+      "company": "Meta",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "release_date": "2026-10-12",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Personal Superintelligence Index",
+          "score": 59.1,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Harvey LAB-AA",
+          "score": 13.1,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 59.1,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 62.3,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 45.4,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 33.2,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "JobBench",
+          "score": 75.3,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 78.4,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "MemoryBench",
+          "score": 85.5,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.1,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 79,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 57.5,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 59,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 56,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 53.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 62.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 83.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 32.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 30.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1857.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 71.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 53754.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Muse Wonder",
+      "company": "Meta",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "release_date": "2026-10-12",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 4,
+          "source": "https://dev.meta.ai/docs/pricing-rate-limits"
+        },
+        {
+          "name": "Output cost",
+          "score": 20,
+          "source": "https://dev.meta.ai/docs/pricing-rate-limits"
+        },
+        {
+          "name": "Personal Superintelligence Index",
+          "score": 54.3,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Harvey LAB-AA",
+          "score": 10,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 56.6,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "HealthBench Professional",
+          "score": 60.5,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 39.1,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 30.8,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "JobBench",
+          "score": 70.5,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 72.6,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "MemoryBench",
+          "score": 85.6,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 52,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 78.8,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "SWE-Marathon",
+          "score": 53.1,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 50,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52,
+          "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 52.39,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 50.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 60.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 28.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 25.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1770.34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 68.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Output speed",
+          "score": 83.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 54231.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Muse Spark 1.3",
       "company": "Meta",
       "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
@@ -134,7 +421,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1684.29,
+          "score": 1680.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -144,7 +431,7 @@
         },
         {
           "name": "Output speed",
-          "score": 177.02,
+          "score": 127.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -393,7 +680,7 @@
         },
         {
           "name": "Output speed",
-          "score": 104.64,
+          "score": 133.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -453,7 +740,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 790.24,
+          "score": 786.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -473,8 +760,13 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1427,
+          "score": 1425,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 20,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -602,7 +894,7 @@
         },
         {
           "name": "Output speed",
-          "score": 470.4,
+          "score": 271.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -672,7 +964,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1477.53,
+          "score": 1473.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -826,7 +1118,7 @@
         },
         {
           "name": "Output speed",
-          "score": 132.4,
+          "score": 104.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -851,7 +1143,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1493,
+          "score": 1491,
           "source": "https://lmarena.ai/"
         },
         {
@@ -866,7 +1158,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1214.82,
+          "score": 1209.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1065,7 +1357,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1488,
+          "score": 1489,
           "source": "https://lmarena.ai/"
         },
         {
@@ -1085,7 +1377,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1001.07,
+          "score": 997.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1318,7 +1610,7 @@
         },
         {
           "name": "Output speed",
-          "score": 33.28,
+          "score": 45.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1343,7 +1635,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -271.7,
+          "score": -275.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1516,7 +1808,7 @@
         },
         {
           "name": "Output speed",
-          "score": 73.13,
+          "score": 51.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1541,7 +1833,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -159.68,
+          "score": -163.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1753,7 +2045,7 @@
         },
         {
           "name": "Output speed",
-          "score": 84.75,
+          "score": 92.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1773,7 +2065,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -170.35,
+          "score": -174.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2014,7 +2306,7 @@
         },
         {
           "name": "Output speed",
-          "score": 15.12,
+          "score": 22.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3043,7 +3335,7 @@
         },
         {
           "name": "Output speed",
-          "score": 39.88,
+          "score": 39.6,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3400,7 +3692,7 @@
         },
         {
           "name": "Output speed",
-          "score": 134.81,
+          "score": 140.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3420,7 +3712,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -383.53,
+          "score": -387.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3880,7 +4172,7 @@
         },
         {
           "name": "LMArena Text",
-          "score": 1170,
+          "score": 1171,
           "source": "https://lmarena.ai/"
         },
         {
