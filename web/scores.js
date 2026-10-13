@@ -630,14 +630,14 @@ const categoryBenchmarks = {
     'MMMU': 1,
     'MMMU-Pro': 1,
     'ArtifactsBench': 1,
-    'VideoMMMU': 1,
+    'Video-MMMU': 1,
     'Video-MME': 1,
     'EgoSchema': 1,
     'OSWorld': 1,
     'Vibe-Eval': 1,
     'ZeroBench': 1,
     'MathVista': 1,
-    'MathVision': 1,
+    'MATH-Vision': 1,
   }
 };
 
