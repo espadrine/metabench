@@ -4177,6 +4177,86 @@
           "name": "AA-LCR",
           "score": 69.7,
           "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 8.72,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 65,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 75.02,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "LiveClawBench",
+          "score": 38.19,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "PinchBench",
+          "score": 89.93,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 7.63,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "WebArena-Verified",
+          "score": 37.62,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.69,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -24.35,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 7.69,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "IFEval",
+          "score": 93.06,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "IFBench",
+          "score": 64.21,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 81.53,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "MATH500",
+          "score": 96.73,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "SWE-bench Verified (OpenCode)",
+          "score": 66.2,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "SciCode",
+          "score": 37.35,
+          "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
         }
       ]
     },
