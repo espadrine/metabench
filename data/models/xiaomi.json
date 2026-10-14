@@ -183,6 +183,116 @@
           "name": "LMArena Text",
           "score": 1480,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 55.2,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 47.12,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 10.83,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 57.34,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "EMB",
+          "score": 62.86,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 32.39,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "MedCode",
+          "score": 44.97,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "MedScribe",
+          "score": 88.31,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "ProofBench",
+          "score": 70,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 2.86,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 15.32,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "SAGE",
+          "score": 45.05,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 85.22,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Code Migration",
+          "score": 43.01,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 31.31,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "IOI",
+          "score": 39.33,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 41.25,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 67.79,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "CyberBench",
+          "score": 72.86,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 3.05,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 68.94,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
         }
       ]
     },
@@ -364,6 +474,116 @@
           "name": "LMArena Text",
           "score": 1451,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 53.23,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 37.98,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 11.25,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 56.28,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "EMB",
+          "score": 65.46,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 28.51,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "MedCode",
+          "score": 41.06,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "MedScribe",
+          "score": 85.28,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "ProofBench",
+          "score": 63,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 69.26,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 21.62,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "SAGE",
+          "score": 43.53,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 78.96,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Code Migration",
+          "score": 40.93,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 24.24,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "IOI",
+          "score": 47.67,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 76.4,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "CyberBench",
+          "score": 75.36,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 4.2,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 67.59,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
         }
       ]
     },
@@ -555,6 +775,106 @@
           "name": "LMArena Text",
           "score": 1468,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 33.84,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 15.87,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 2.08,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "LegalBench",
+          "score": 77.13,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 41.5,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "EMB",
+          "score": 55.23,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 11.5,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.42,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.79,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "MedCode",
+          "score": 32.48,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "MedScribe",
+          "score": 83.73,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "ProofBench",
+          "score": 22,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.58,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.6,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 34.11,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Code Migration",
+          "score": 21.56,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 57.3,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 81.35,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5-pro"
         }
       ]
     },
@@ -741,6 +1061,116 @@
           "name": "LMArena Text",
           "score": 1434,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 52.77,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 9.14,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.67,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "LegalBench",
+          "score": 78.89,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 36.73,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "EMB",
+          "score": 55.09,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 7.77,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "CorpFin",
+          "score": 59.91,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 59.26,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.83,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "MedCode",
+          "score": 31.9,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 72.15,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 16,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.57,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.93,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "MMMU",
+          "score": 80,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "SAGE",
+          "score": 43.27,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 42.17,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 14.23,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 60.67,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 81.51,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
         }
       ]
     },
@@ -919,6 +1349,11 @@
           "name": "LMArena Text",
           "score": 1386,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 59.34,
+          "source": "https://www.vals.ai/models/xiaomi_mimo-v2-flash"
         }
       ]
     }

@@ -822,6 +822,121 @@
           "name": "AA-AnalystAgent",
           "score": 18.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 36.06,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 11.25,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.43,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 48.55,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "EMB",
+          "score": 59.66,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 30.89,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 64.94,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "TaxEval",
+          "score": 70.85,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "MedCode",
+          "score": 28.7,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "MedScribe",
+          "score": 83.85,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "ProofBench",
+          "score": 16,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.89,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.34,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "MMMU",
+          "score": 83.93,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "SAGE",
+          "score": 52.4,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 64.85,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Code Migration",
+          "score": 14.16,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 38.11,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "IOI",
+          "score": 39.06,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 58.43,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 86,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 84,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "CyberBench",
+          "score": 67.8,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
         }
       ]
     },
@@ -1572,6 +1687,166 @@
           "name": "LMArena Text",
           "score": 1483,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 48.27,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 65.39,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 47.6,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 10.42,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.61,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 50.59,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "EMB",
+          "score": 60.07,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 32.1,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.85,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 63.99,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.55,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "MedCode",
+          "score": 40.67,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "MedScribe",
+          "score": 84.95,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "ProofBench",
+          "score": 58,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 12.86,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 23.87,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.69,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 88.6,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "MMMU",
+          "score": 88.04,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "SAGE",
+          "score": 51.25,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 64.7,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 12.83,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Code Migration",
+          "score": 23.96,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 34.34,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 42.01,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "IOI",
+          "score": 68.89,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 39.17,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 67.42,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 85.6,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.85,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "CyberBench",
+          "score": 28.57,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 67.12,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
         }
       ]
     },
@@ -2322,6 +2597,61 @@
           "name": "AA Output Tokens per Task",
           "score": 36345.84,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 53.89,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 16.35,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 38.22,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "EMB",
+          "score": 49.35,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 10.47,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 66.18,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "SAGE",
+          "score": 39.25,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 46.39,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Code Migration",
+          "score": 12.86,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 54.3,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 52.81,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
         }
       ]
     },
@@ -2857,6 +3187,96 @@
           "name": "AA Output Tokens per Task",
           "score": 32190.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 25.48,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.67,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "LegalBench",
+          "score": 84.91,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 47.78,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "EMB",
+          "score": 57.04,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 15.83,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "CorpFin",
+          "score": 63.71,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.31,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "MedCode",
+          "score": 38.75,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "MedScribe",
+          "score": 79.4,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.15,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.31,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 47.67,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Code Migration",
+          "score": 13.07,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.05,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 68.8,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.06,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.18,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
         }
       ]
     },
@@ -3427,6 +3847,46 @@
           "name": "AA Output Tokens per Task",
           "score": 32287.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 53.16,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "CorpFin",
+          "score": 62.32,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.28,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.26,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "SAGE",
+          "score": 45.58,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 11.94,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 44.94,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-27b"
         }
       ]
     },
@@ -5342,6 +5802,126 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 18.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 51.52,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 14.9,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.25,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "LegalBench",
+          "score": 84.23,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 51.45,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 40.85,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "EMB",
+          "score": 32.87,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 7.68,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.93,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 67.97,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.73,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "MedCode",
+          "score": 36.89,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "MedScribe",
+          "score": 76.96,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 94.58,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.37,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.67,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "MMMU",
+          "score": 84.16,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "SAGE",
+          "score": 44.86,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 25.57,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Code Migration",
+          "score": 11.1,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 53.18,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.4,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.95,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 44.94,
+          "source": "https://www.vals.ai/models/alibaba_qwen3.6-plus"
         }
       ]
     },

@@ -235,6 +235,81 @@
           "name": "FORTRESS (Benign)",
           "score": 90.6,
           "source": "https://huggingface.co/thinkingmachines/Inkling-Small"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 15.39,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 0.42,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.07,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 37.67,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "EMB",
+          "score": 31.74,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.46,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.1,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "MedCode",
+          "score": 38.62,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.11,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.76,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 7.64,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "Code Migration",
+          "score": 4.91,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 50.94,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.98,
+          "source": "https://www.vals.ai/models/nvidia_nemotron-3-ultra-550b-a55b"
         }
       ]
     }

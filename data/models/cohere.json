@@ -299,6 +299,31 @@
           "name": "AA Output Tokens per Task",
           "score": 22311.54,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 61.42,
+          "source": "https://www.vals.ai/models/cohere_command-a-plus-05-2026"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 9.04,
+          "source": "https://www.vals.ai/models/cohere_command-a-plus-05-2026"
+        },
+        {
+          "name": "MedCode",
+          "score": 19.72,
+          "source": "https://www.vals.ai/models/cohere_command-a-plus-05-2026"
+        },
+        {
+          "name": "MedScribe",
+          "score": 55.68,
+          "source": "https://www.vals.ai/models/cohere_command-a-plus-05-2026"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 17.6,
+          "source": "https://www.vals.ai/models/cohere_command-a-plus-05-2026"
         }
       ]
     },
@@ -544,6 +569,71 @@
           "name": "AA-Omniscience Index",
           "score": -48.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 79.7,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 64.52,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "CorpFin",
+          "score": 45.96,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "TaxEval",
+          "score": 61.37,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "MedQA",
+          "score": 80.55,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 13.33,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "MATH500",
+          "score": 76.2,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "MGSM",
+          "score": 85.71,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 48.49,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 69.17,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 7.8,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 35.07,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 2.25,
+          "source": "https://www.vals.ai/models/cohere_command-a-03-2025"
         }
       ]
     },
@@ -651,6 +741,31 @@
           "name": "AIME 2024",
           "score": 0.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 68.29,
+          "source": "https://www.vals.ai/models/cohere_command-r-plus"
+        },
+        {
+          "name": "MedQA",
+          "score": 2.65,
+          "source": "https://www.vals.ai/models/cohere_command-r-plus"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 31.06,
+          "source": "https://www.vals.ai/models/cohere_command-r-plus"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 44,
+          "source": "https://www.vals.ai/models/cohere_command-r-plus"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 18.24,
+          "source": "https://www.vals.ai/models/cohere_command-r-plus"
         }
       ]
     },
@@ -758,6 +873,11 @@
           "name": "AIME 2024",
           "score": 0.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 32.97,
+          "source": "https://www.vals.ai/models/cohere_command-r"
         }
       ]
     }

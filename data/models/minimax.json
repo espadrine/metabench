@@ -345,6 +345,151 @@
           "name": "AA Output Tokens per Task",
           "score": 48192.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 36.53,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 59.97,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 29.81,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 4.17,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "LegalBench",
+          "score": 85.42,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 48.27,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "EMB",
+          "score": 47.76,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 20.59,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "CorpFin",
+          "score": 68.1,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.36,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.73,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "MedCode",
+          "score": 46.29,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "MedScribe",
+          "score": 87.25,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "ProofBench",
+          "score": 18,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.68,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 84.22,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.16,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "SAGE",
+          "score": 50.57,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 47.57,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 9.22,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Code Migration",
+          "score": 19.93,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 51.5,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 53.56,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 75,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.15,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 46.07,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "CyberBench",
+          "score": 65,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 64.14,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
         }
       ]
     },
@@ -843,6 +988,101 @@
           "name": "AA Output Tokens per Task",
           "score": 21038.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 10.58,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.98,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 60.88,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 27.89,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "EMB",
+          "score": 28.45,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 6.87,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.19,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "TaxEval",
+          "score": 66.56,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "MedCode",
+          "score": 34.44,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "MedScribe",
+          "score": 79.87,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 91.04,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.62,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.43,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 11.93,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "Code Migration",
+          "score": 8.69,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 48.69,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.8,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79.93,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 47.19,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.7"
         }
       ]
     },
@@ -1116,6 +1356,66 @@
           "name": "AA-Omniscience Index",
           "score": -38.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 79.96,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 53.48,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "CorpFin",
+          "score": 59.6,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "TaxEval",
+          "score": 68.15,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "MedQA",
+          "score": 92.53,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 88.75,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 82.07,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.09,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 14.85,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.2,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79.21,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 41.57,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.5"
         }
       ]
     },
@@ -1514,6 +1814,81 @@
           "name": "AA-Omniscience Index",
           "score": -32.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 75.45,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 55.84,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "CorpFin",
+          "score": 58.9,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "TaxEval",
+          "score": 66.35,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "MedCode",
+          "score": 34.08,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "MedScribe",
+          "score": 80.78,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "MedQA",
+          "score": 91.16,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 77.92,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "MATH500",
+          "score": 89,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "MGSM",
+          "score": 87.85,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.54,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.05,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.8,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 81.76,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 37.08,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M2.1"
         }
       ]
     },

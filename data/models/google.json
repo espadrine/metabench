@@ -183,6 +183,131 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 53,
           "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Vals Index",
+          "score": 68.9,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 54.81,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 19.58,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "LegalBench",
+          "score": 88.3,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 65.4,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "EMB",
+          "score": 75.24,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 44.56,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "MedCode",
+          "score": 58.8,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "MedScribe",
+          "score": 87.43,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "ProofBench",
+          "score": 99,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 44.29,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 76.3,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 45.5,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "SAGE",
+          "score": 53.65,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 91.91,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Code Migration",
+          "score": 68.17,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 2.5,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.58,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "IOI",
+          "score": 100,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 56.04,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "CyberBench",
+          "score": 77.86,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 44.28,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "CUA-bench",
+          "score": 4.83,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 52.5,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 69.76,
+          "source": "https://www.vals.ai/models/google_gemini-4-argon"
         }
       ]
     },
@@ -421,6 +546,181 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 5.5,
           "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Vals Index",
+          "score": 54.89,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 38.94,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 10,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 86.99,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 61.44,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "EMB",
+          "score": 72.2,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 32.12,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 65.34,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.45,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "MedCode",
+          "score": 48.14,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "MedScribe",
+          "score": 84.5,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "ProofBench",
+          "score": 48,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 8.57,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 62.22,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 36.49,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.44,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.22,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "MMMU",
+          "score": 89.08,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "SAGE",
+          "score": 35.06,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 78.65,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 18.77,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Code Migration",
+          "score": 36.55,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 1,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 19.7,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 57.99,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "IOI",
+          "score": 56.94,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 40.83,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 81.27,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.48,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "CyberBench",
+          "score": 43.75,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 11.07,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "CUA-bench",
+          "score": 4.17,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 18.83,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 65.29,
+          "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
         }
       ]
     },
@@ -935,6 +1235,141 @@
           "name": "AA Output Tokens per Task",
           "score": 58387.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 51.27,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 34.62,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 8.75,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 87.26,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 59.04,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "EMB",
+          "score": 71.33,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 22.8,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 66.65,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.73,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "MedCode",
+          "score": 53.39,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "MedScribe",
+          "score": 83.94,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "ProofBench",
+          "score": 58,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 7.14,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.94,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.12,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "MMMU",
+          "score": 88.96,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "SAGE",
+          "score": 49.23,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 70.4,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Code Migration",
+          "score": 34.8,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 12.12,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 65.89,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "IOI",
+          "score": 67.83,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 77.53,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 80.8,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 88.65,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "CyberBench",
+          "score": 43.75,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 4.58,
+          "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
         }
       ]
     },
@@ -1399,6 +1834,136 @@
           "name": "AA Output Tokens per Task",
           "score": 41605.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 65.08,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 25,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 3.33,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 86.71,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 56.3,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "EMB",
+          "score": 65.41,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 18.04,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "CorpFin",
+          "score": 63.33,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 67.61,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.86,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "MedCode",
+          "score": 53.15,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "MedScribe",
+          "score": 79.66,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 58.52,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.43,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.28,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "MMMU",
+          "score": 88.38,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "SAGE",
+          "score": 48.69,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 64.01,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Code Migration",
+          "score": 30.93,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "IOI",
+          "score": 35.06,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 73.78,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79.6,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 88.08,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "CyberBench",
+          "score": 45.36,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 56.56,
+          "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
         }
       ]
     },
@@ -1697,6 +2262,111 @@
           "name": "AA Output Tokens per Task",
           "score": 17506.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 13.94,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "LegalBench",
+          "score": 84.07,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 47.44,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "EMB",
+          "score": 43.23,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 7.25,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "CorpFin",
+          "score": 60.68,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.68,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.61,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "MedCode",
+          "score": 43.49,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "MedScribe",
+          "score": 70.89,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.84,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.84,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "MMMU",
+          "score": 83.58,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "SAGE",
+          "score": 47.3,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 37.16,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Code Migration",
+          "score": 6.15,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 50.19,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 75,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79.01,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "CyberBench",
+          "score": 59.11,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 51.83,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
         }
       ]
     },
@@ -2442,6 +3112,151 @@
           "name": "AA-Omniscience Index",
           "score": 20.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 44.79,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Web Search Index",
+          "score": 37.04,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 62.93,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 30.77,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 2.5,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.6,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 57.86,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "EMB",
+          "score": 63.55,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 21.65,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "CorpFin",
+          "score": 64.69,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.12,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.37,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "MedCode",
+          "score": 55.83,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "MedScribe",
+          "score": 76.57,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "ProofBench",
+          "score": 31,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 5.71,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.68,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.52,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "MMMU",
+          "score": 88.27,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "SAGE",
+          "score": 49.89,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 48.68,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Code Migration",
+          "score": 26.75,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 6.06,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 52.74,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 74.16,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.8,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.6,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 67.42,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 59.47,
+          "source": "https://www.vals.ai/models/google_gemini-3.5-flash"
         }
       ]
     },
@@ -3329,6 +4144,26 @@
           "name": "Claw-Eval (pass^3)",
           "score": 25,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 52.63,
+          "source": "https://www.vals.ai/models/google_gemma-4-31b-it"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 61.37,
+          "source": "https://www.vals.ai/models/google_gemma-4-31b-it"
+        },
+        {
+          "name": "SAGE",
+          "score": 55.03,
+          "source": "https://www.vals.ai/models/google_gemma-4-31b-it"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 39.33,
+          "source": "https://www.vals.ai/models/google_gemma-4-31b-it"
         }
       ]
     },
@@ -5136,6 +5971,116 @@
           "name": "AA Output Tokens per Task",
           "score": 11962.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 41.35,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 3.37,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.76,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 54.98,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 29.99,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "EMB",
+          "score": 8.63,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 3.11,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "CorpFin",
+          "score": 59.36,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.04,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.79,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "MedCode",
+          "score": 47.6,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "MedScribe",
+          "score": 63.9,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 83.33,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.06,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.24,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.49,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "SAGE",
+          "score": 49.54,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Code Migration",
+          "score": 4.61,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 34.08,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 62.8,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.12,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 24.72,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
         }
       ]
     },
@@ -6944,6 +7889,171 @@
           "name": "SWE-bench Verified",
           "score": 76.2,
           "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 33.44,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 56.07,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 20.67,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "LegalBench",
+          "score": 87.4,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 64.85,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 42.98,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "EMB",
+          "score": 52.62,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 9.3,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "CorpFin",
+          "score": 64.49,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 69.4,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.88,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MedCode",
+          "score": 59.06,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MedScribe",
+          "score": 76.11,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.37,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "ProofBench",
+          "score": 26,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 98.13,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 1.43,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 60,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 20.72,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 95.45,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.99,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "MMMU",
+          "score": 88.21,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "SAGE",
+          "score": 48.68,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 32.03,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 6.69,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Code Migration",
+          "score": 17.31,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 2.53,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "IOI",
+          "score": 51.83,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 70.79,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.8,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 88.49,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 67.42,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 53.79,
+          "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
         }
       ]
     },
@@ -7257,6 +8367,131 @@
           "name": "AA-Omniscience Index",
           "score": 10.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 52.19,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 18.27,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "LegalBench",
+          "score": 86.86,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 55.84,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 42.55,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "EMB",
+          "score": 26.02,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 11.84,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "CorpFin",
+          "score": 66.43,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.72,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.88,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MedCode",
+          "score": 55.92,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MedScribe",
+          "score": 69.92,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MedQA",
+          "score": 95.81,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 95.63,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MGSM",
+          "score": 93.31,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.88,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 88.59,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "MMMU",
+          "score": 87.63,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "SAGE",
+          "score": 51.85,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 20.2,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Code Migration",
+          "score": 6.39,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 53.93,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 75,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.59,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 51.69,
+          "source": "https://www.vals.ai/models/google_gemini-3-flash-preview"
         }
       ]
     },
@@ -9433,6 +10668,101 @@
           "name": "τ²-Bench",
           "score": 85.4,
           "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 87.03,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 53.06,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "CorpFin",
+          "score": 63.68,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 69.08,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.57,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MedCode",
+          "score": 52.2,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MedScribe",
+          "score": 72.04,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.03,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 96.68,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MATH500",
+          "score": 96.4,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MGSM",
+          "score": 93.93,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.67,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 90.1,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "MMMU",
+          "score": 87.51,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "SAGE",
+          "score": 47.62,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 14.3,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.4,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 86.41,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 55.06,
+          "source": "https://www.vals.ai/models/google_gemini-3-pro-preview"
         }
       ]
     },
@@ -10384,6 +11714,51 @@
           "name": "AA Output Tokens per Task",
           "score": 10549.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 63.88,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "CorpFin",
+          "score": 60.8,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.92,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "MedCode",
+          "score": 50.59,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "MedScribe",
+          "score": 73.55,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "SAGE",
+          "score": 41.92,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 0.4,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 54.4,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 30.34,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro"
         }
       ]
     },
@@ -11092,6 +12467,11 @@
           "name": "Global MMLU Lite",
           "score": 89.8,
           "source": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 79.16,
+          "source": "https://www.vals.ai/models/google_gemini-2.5-pro-preview-03-25"
         }
       ]
     },
@@ -12529,6 +13909,66 @@
           "name": "EgoSchema",
           "score": 71.9,
           "source": "https://x.ai/news/grok-3"
+        },
+        {
+          "name": "LegalBench",
+          "score": 78.36,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "CorpFin",
+          "score": 33.72,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 59.66,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "TaxEval",
+          "score": 65.25,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "MedQA",
+          "score": 81.47,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 29.79,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "MATH500",
+          "score": 88,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "MGSM",
+          "score": 89.02,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.15,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 77.38,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "MMMU",
+          "score": 69.79,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 43.61,
+          "source": "https://www.vals.ai/models/google_gemini-2.0-flash-001"
         }
       ]
     },
@@ -12982,6 +14422,11 @@
           "name": "AlpacaEval 2 LC",
           "score": 39.8,
           "source": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct"
+        },
+        {
+          "name": "LegalBench",
+          "score": 67.98,
+          "source": "https://www.vals.ai/models/together_google/gemma-2-27b-it"
         }
       ]
     },
@@ -13198,6 +14643,11 @@
           "name": "TruthfulQA",
           "score": 46.6,
           "source": "https://mistral.ai/news/mistral-nemo"
+        },
+        {
+          "name": "LegalBench",
+          "score": 68.14,
+          "source": "https://www.vals.ai/models/together_google/gemma-2-9b-it"
         }
       ]
     },
@@ -13521,6 +14971,66 @@
           "name": "AIME 2024",
           "score": 8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 69.08,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "CorpFin",
+          "score": 40.52,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 56.76,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "TaxEval",
+          "score": 59.49,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "MedQA",
+          "score": 76.53,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 18.75,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "MATH500",
+          "score": 82.8,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "MGSM",
+          "score": 89.2,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 58.33,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 75.29,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "MMMU",
+          "score": 65.51,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 41.72,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-pro-002"
         }
       ]
     },
@@ -13653,6 +15163,61 @@
           "name": "AIME 2024",
           "score": 9.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 63.24,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "CorpFin",
+          "score": 38.19,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 42.77,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "TaxEval",
+          "score": 48.2,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 17.29,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "MATH500",
+          "score": 78.8,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "MGSM",
+          "score": 86.58,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 45.96,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 65.61,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "MMMU",
+          "score": 57.19,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 36.91,
+          "source": "https://www.vals.ai/models/google_gemini-1.5-flash-002"
         }
       ]
     },
@@ -14395,6 +15960,11 @@
           "name": "AIME 2024",
           "score": 0.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 70.25,
+          "source": "https://www.vals.ai/models/google_gemini-1.0-pro-002"
         }
       ]
     }

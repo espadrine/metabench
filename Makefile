@@ -9,6 +9,10 @@ aabench:
 lmarena:
 	node bin/load_lmarena.js
 
+# Download and create data/valsai.json and data/missing_valsai_benchmarks.csv
+valsai:
+	node bin/load_valsai.js
+
 test:
 	node --test
 
@@ -25,4 +29,4 @@ list-benchmarks:
 	node bin/list-benchmarks.js
 
 # Default target
-.PHONY: test test-ui serve aabench lmarena list-benchmarks
+.PHONY: test test-ui serve aabench lmarena valsai list-benchmarks

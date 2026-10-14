@@ -156,6 +156,86 @@
           "name": "LMArena Text",
           "score": 1429,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 48.11,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 31.73,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 15.83,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 54.68,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "EMB",
+          "score": 56.21,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 30.39,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "MedCode",
+          "score": 40.69,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "MedScribe",
+          "score": 80.43,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "ProofBench",
+          "score": 10,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 67.04,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 12.16,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 78.4,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 14.26,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Code Migration",
+          "score": 30.56,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 23.23,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "IOI",
+          "score": 45.28,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
         }
       ]
     },
@@ -349,6 +429,111 @@
           "name": "AA Output Tokens per Task",
           "score": 26085.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 34.77,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 9.14,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 0.42,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 44.16,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 32.1,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "EMB",
+          "score": 11.19,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 4.48,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "CorpFin",
+          "score": 58.78,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 28.9,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "TaxEval",
+          "score": 67.99,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "MedCode",
+          "score": 33.75,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 67.73,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 9,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 34.85,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 75.33,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "SAGE",
+          "score": 37.61,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 2.89,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 5.13,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 38.95,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66.4,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 30.34,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-3.5"
         }
       ]
     },
@@ -983,6 +1168,16 @@
           "name": "AA Output Tokens per Task",
           "score": 12544.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 62.8,
+          "source": "https://www.vals.ai/models/mistralai_devstral-2512"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 51.84,
+          "source": "https://www.vals.ai/models/mistralai_devstral-2512"
         }
       ]
     },
@@ -1176,6 +1371,11 @@
           "name": "AA Output Tokens per Task",
           "score": 13060.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 43.18,
+          "source": "https://www.vals.ai/models/mistralai_labs-devstral-small-2512"
         }
       ]
     },
@@ -1379,6 +1579,81 @@
           "name": "AA Output Tokens per Task",
           "score": 5566.44,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 79.14,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 61.42,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.03,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 52.11,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.06,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "MedQA",
+          "score": 82.23,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 42.92,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "MGSM",
+          "score": 85.42,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 68.43,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 79.82,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "MMMU",
+          "score": 66.19,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "SAGE",
+          "score": 24.6,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 41.4,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 55.34,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 8.99,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2512"
         }
       ]
     },
@@ -2246,6 +2521,66 @@
           "name": "GDPval-AA",
           "score": 168.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 54.77,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "CorpFin",
+          "score": 47.4,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 51.87,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "TaxEval",
+          "score": 61.94,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "MedQA",
+          "score": 89.47,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 83.54,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "MGSM",
+          "score": 74.62,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 62.37,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 68.66,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "MMMU",
+          "score": 64.57,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 74.86,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 13.48,
+          "source": "https://www.vals.ai/models/mistralai_magistral-medium-2509"
         }
       ]
     },
@@ -2435,6 +2770,61 @@
           "name": "AA-AutomationBench Partial Score",
           "score": 0.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 40.02,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "CorpFin",
+          "score": 44.02,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 62.12,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "TaxEval",
+          "score": 60.3,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "MedQA",
+          "score": 82.36,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 80.68,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "MGSM",
+          "score": 86.25,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 58.33,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 62.14,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "MMMU",
+          "score": 65.2,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 72.13,
+          "source": "https://www.vals.ai/models/mistralai_magistral-small-2509"
         }
       ]
     },
@@ -3554,6 +3944,61 @@
           "name": "AA-Omniscience Index",
           "score": -31.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 61.98,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "CorpFin",
+          "score": 50.74,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 36.45,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "TaxEval",
+          "score": 70.32,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "MedQA",
+          "score": 78.23,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 42.29,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "MATH500",
+          "score": 87,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.87,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 75.29,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "MMMU",
+          "score": 62.97,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 44.85,
+          "source": "https://www.vals.ai/models/mistralai_mistral-medium-2505"
         }
       ]
     },
@@ -3797,6 +4242,66 @@
           "name": "AA Output Tokens per Task",
           "score": 6312.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 69.16,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "CorpFin",
+          "score": 44.17,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 61.21,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "TaxEval",
+          "score": 58.3,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "MedQA",
+          "score": 69.1,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 3.54,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "MATH500",
+          "score": 68.4,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "MGSM",
+          "score": 84.22,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 44.19,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 66.02,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "MMMU",
+          "score": 60.08,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 31.82,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2503"
         }
       ]
     },
@@ -4097,6 +4602,46 @@
           "name": "MMMU-Pro",
           "score": 50.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "TaxEval",
+          "score": 63.78,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "MedQA",
+          "score": 76.22,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 9.17,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "MATH500",
+          "score": 74.4,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "MGSM",
+          "score": 87.24,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 47.73,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 69.71,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 37.09,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-2411"
         }
       ]
     },
@@ -4886,6 +5431,11 @@
           "name": "MATH",
           "score": 54.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MedQA",
+          "score": 62.14,
+          "source": "https://www.vals.ai/models/together_mistralai/Mixtral-8x22B-Instruct-v0.1"
         }
       ]
     },
@@ -5105,6 +5655,46 @@
           "name": "Output speed",
           "score": 146.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "TaxEval",
+          "score": 49.14,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "MedQA",
+          "score": 56.98,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 5.63,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "MATH500",
+          "score": 70.6,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "MGSM",
+          "score": 83.96,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 50.76,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 64.44,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 15.78,
+          "source": "https://www.vals.ai/models/mistralai_mistral-small-2402"
         }
       ]
     },
@@ -5382,6 +5972,16 @@
           "name": "Output speed",
           "score": 25.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 55.84,
+          "source": "https://www.vals.ai/models/together_mistralai/Mixtral-8x7B-v0.1"
+        },
+        {
+          "name": "MedQA",
+          "score": 53.22,
+          "source": "https://www.vals.ai/models/together_mistralai/Mixtral-8x7B-v0.1"
         }
       ]
     },
@@ -5818,6 +6418,11 @@
           "name": "AA-Omniscience Index",
           "score": -64.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 53.77,
+          "source": "https://www.vals.ai/models/together_mistralai/Mistral-7B-v0.1"
         }
       ]
     }

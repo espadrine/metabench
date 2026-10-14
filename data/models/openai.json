@@ -131,6 +131,116 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 52,
           "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Vals Index",
+          "score": 61.15,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 38.46,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 5.42,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 52.03,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "EMB",
+          "score": 70.77,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 21.75,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "MedCode",
+          "score": 48.84,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "MedScribe",
+          "score": 86.45,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "ProofBench",
+          "score": 99,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 52.86,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 79.63,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 46.4,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "SAGE",
+          "score": 46.54,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 88.93,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Code Migration",
+          "score": 65.12,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 3,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 55.05,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "IOI",
+          "score": 96.89,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 43.54,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "CyberBench",
+          "score": 39.29,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 50.76,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 59.34,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
         }
       ]
     },
@@ -699,6 +809,116 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 27,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 57.54,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 28.85,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.67,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 49.05,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "EMB",
+          "score": 71.53,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 15,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "MedCode",
+          "score": 47.07,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "MedScribe",
+          "score": 82.03,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "ProofBench",
+          "score": 83,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 30,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 74.82,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 30.18,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "SAGE",
+          "score": 44.79,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 87.82,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Code Migration",
+          "score": 57.2,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 2,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 44.44,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "IOI",
+          "score": 82.61,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.15,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "CyberBench",
+          "score": 77.98,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 30.53,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 56.63,
+          "source": "https://www.vals.ai/models/openai_gpt-6-sol"
         }
       ]
     },
@@ -1376,6 +1596,121 @@
           "name": "Chartography",
           "score": 29.1,
           "source": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "name": "Vals Index",
+          "score": 51.22,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 30.29,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 2.92,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 49.87,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "EMB",
+          "score": 68.52,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 19.95,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "MedCode",
+          "score": 44.69,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "MedScribe",
+          "score": 83.71,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "ProofBench",
+          "score": 64,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 61.48,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 19.37,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "SAGE",
+          "score": 48.09,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 81.65,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Code Migration",
+          "score": 42.55,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 13.64,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "IOI",
+          "score": 55.56,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 37.5,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 73.03,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "CyberBench",
+          "score": 76.25,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 2.67,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 57.65,
+          "source": "https://www.vals.ai/models/openai_gpt-6-luna"
         }
       ]
     },
@@ -2498,6 +2833,131 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 53,
           "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Vals Index",
+          "score": 63.13,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 39.42,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 5.42,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 53.54,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "EMB",
+          "score": 71.7,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 20.72,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "MedCode",
+          "score": 48.49,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "MedScribe",
+          "score": 87.91,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "ProofBench",
+          "score": 99,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 62.86,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 79.26,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 53.15,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "SAGE",
+          "score": 46.37,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 89.59,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 27.64,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Code Migration",
+          "score": 67.74,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 5.5,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 59.6,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "IOI",
+          "score": 100,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 43.33,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 87.27,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "CyberBench",
+          "score": 41.07,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 56.87,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "CUA-bench",
+          "score": 19.17,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 90.5,
+          "source": "https://www.vals.ai/models/openai_gpt-6-astra"
         }
       ]
     },
@@ -11250,6 +11710,106 @@
           "name": "Terminal-Bench 2.0",
           "score": 75.1,
           "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "LegalBench",
+          "score": 86.04,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 63.77,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.27,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.32,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.96,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "MedCode",
+          "score": 41.29,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "MedScribe",
+          "score": 77.55,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.09,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 96.67,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.67,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.48,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "MMMU",
+          "score": 87.51,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "SAGE",
+          "score": 43.31,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 67.42,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "Code Migration",
+          "score": 34.98,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 51.71,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.2,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 84.14,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 58.43,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 48.47,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4"
         }
       ]
     },
@@ -11287,6 +11847,11 @@
           "name": "ExploitBench",
           "score": 33.4,
           "source": "https://openai.com/index/previewing-gpt-5-6-sol/"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5.4-2026-03-05-high"
         }
       ]
     },
@@ -11613,6 +12178,31 @@
           "name": "AA-Omniscience Index",
           "score": 10.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 61.77,
+          "source": "https://www.vals.ai/models/openai_gpt-5.3-codex"
+        },
+        {
+          "name": "IOI",
+          "score": 53.83,
+          "source": "https://www.vals.ai/models/openai_gpt-5.3-codex"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78,
+          "source": "https://www.vals.ai/models/openai_gpt-5.3-codex"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.31,
+          "source": "https://www.vals.ai/models/openai_gpt-5.3-codex"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 64.05,
+          "source": "https://www.vals.ai/models/openai_gpt-5.3-codex"
         }
       ]
     },
@@ -11685,6 +12275,21 @@
           "name": "SWE-Lancer IC Diamond",
           "score": 76,
           "source": "https://openai.com/index/introducing-gpt-5-3-codex/"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 37.91,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-codex"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 72.4,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-codex"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.99,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-codex"
         }
       ]
     },
@@ -13027,6 +13632,96 @@
           "name": "AA-Omniscience Index",
           "score": -0.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.76,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 66.02,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.89,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 67.13,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.76,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MedCode",
+          "score": 49.75,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MedScribe",
+          "score": 84.39,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MedQA",
+          "score": 94.13,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 96.88,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MGSM",
+          "score": 94,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.67,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.23,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "MMMU",
+          "score": 86.67,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "SAGE",
+          "score": 49.27,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 53.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 75.8,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.36,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 51.69,
+          "source": "https://www.vals.ai/models/openai_gpt-5.2-2025-12-11"
         }
       ]
     },
@@ -13112,7 +13807,7 @@
         },
         {
           "name": "LiveCodeBench",
-          "score": 85.5,
+          "score": 85.55,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-codex"
         },
         {
@@ -13139,6 +13834,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 52.8,
           "source": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 13.12,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-codex"
         }
       ]
     },
@@ -13224,7 +13924,7 @@
         },
         {
           "name": "SAGE",
-          "score": 43.2,
+          "score": 43.24,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
@@ -13234,62 +13934,62 @@
         },
         {
           "name": "CorpFin",
-          "score": 64.6,
+          "score": 63.83,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "CaseLaw",
-          "score": 71.4,
+          "score": 73.42,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "TaxEval",
-          "score": 71.6,
+          "score": 74.86,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "MortgageTax",
-          "score": 61.4,
+          "score": 61.37,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "AIME 2024+2025",
-          "score": 93.3,
+          "score": 93.33,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "MGSM",
-          "score": 92.9,
+          "score": 92.98,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "LegalBench",
-          "score": 83.9,
+          "score": 85.68,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "MedQA",
-          "score": 96.4,
+          "score": 96.38,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "GPQA Diamond",
-          "score": 86.6,
+          "score": 86.62,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "MMLU-Pro",
-          "score": 86.4,
+          "score": 86.38,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "MMMU",
-          "score": 83.2,
+          "score": 83.18,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
           "name": "LiveCodeBench",
-          "score": 86.5,
+          "score": 86.49,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
@@ -13304,7 +14004,7 @@
         },
         {
           "name": "SWE-bench Verified",
-          "score": 67.2,
+          "score": 69.8,
           "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         },
         {
@@ -13666,6 +14366,26 @@
           "name": "GDPval-AA",
           "score": 825.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MedCode",
+          "score": 52.73,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "MedScribe",
+          "score": 88.09,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 24.61,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 44.94,
+          "source": "https://www.vals.ai/models/openai_gpt-5.1-2025-11-13"
         }
       ]
     },
@@ -14006,6 +14726,11 @@
           "name": "AA-Omniscience Index",
           "score": -7.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 84.73,
+          "source": "https://www.vals.ai/models/openai_gpt-5-codex"
         }
       ]
     },
@@ -15245,6 +15970,101 @@
           "name": "AA-Omniscience Index",
           "score": -10.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 86.02,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 66.45,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.07,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 65.45,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.39,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MedCode",
+          "score": 49.63,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MedScribe",
+          "score": 83.65,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.32,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 93.37,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MATH500",
+          "score": 96,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.84,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.61,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.54,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.5,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "SAGE",
+          "score": 43.68,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 20.09,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.91,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 37.08,
+          "source": "https://www.vals.ai/models/openai_gpt-5-2025-08-07"
         }
       ]
     },
@@ -16858,6 +17678,81 @@
           "name": "LMArena Text",
           "score": 1391,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "LegalBench",
+          "score": 79.19,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "CorpFin",
+          "score": 58.97,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 64.83,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.78,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MedCode",
+          "score": 33.79,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MedScribe",
+          "score": 69.14,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.02,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 83.67,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MATH500",
+          "score": 94.2,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MGSM",
+          "score": 93.42,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 74.5,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.56,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "MMMU",
+          "score": 79.67,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "SAGE",
+          "score": 41.06,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.21,
+          "source": "https://www.vals.ai/models/openai_o4-mini-2025-04-16"
         }
       ]
     },
@@ -17343,6 +18238,81 @@
           "name": "AA-Omniscience Index",
           "score": -15.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.76,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "CorpFin",
+          "score": 59.71,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 65.7,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.57,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MedCode",
+          "score": 47.29,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MedScribe",
+          "score": 76.65,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.06,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 85.28,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MATH500",
+          "score": 94.6,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MGSM",
+          "score": 91.75,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.09,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.6,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "MMMU",
+          "score": 80.42,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "SAGE",
+          "score": 41.77,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.91,
+          "source": "https://www.vals.ai/models/openai_o3-2025-04-16"
         }
       ]
     },
@@ -17450,6 +18420,56 @@
           "name": "Output speed",
           "score": 187.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 71.54,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "CorpFin",
+          "score": 45.3,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "TaxEval",
+          "score": 69.42,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "MedQA",
+          "score": 94.83,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 86.46,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "MATH500",
+          "score": 91.8,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "MGSM",
+          "score": 91.35,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.51,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 78.69,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 71.48,
+          "source": "https://www.vals.ai/models/openai_o3-mini-2025-01-31"
         }
       ]
     },
@@ -17874,6 +18894,76 @@
           "name": "AA-Omniscience Index",
           "score": -39.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.1,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 69.88,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "CorpFin",
+          "score": 63.05,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 65.94,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.06,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "MedQA",
+          "score": 91.18,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 39.58,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "MATH500",
+          "score": 87.2,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "MGSM",
+          "score": 87.67,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 65.4,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.5,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "MMMU",
+          "score": 72.39,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 54.67,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 14.61,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-2025-04-14"
         }
       ]
     },
@@ -18162,6 +19252,66 @@
           "name": "GDPval-AA",
           "score": 269.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 78.04,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "CorpFin",
+          "score": 57.93,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 65.5,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.91,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "MedQA",
+          "score": 84.63,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 49.38,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "MATH500",
+          "score": 88,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "MGSM",
+          "score": 87.78,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 67.93,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 77.22,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "MMMU",
+          "score": 70.54,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 58.16,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-mini-2025-04-14"
         }
       ]
     },
@@ -18410,6 +19560,66 @@
           "name": "GDPval-AA",
           "score": -213.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 61.06,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "CorpFin",
+          "score": 42.08,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 52.82,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "TaxEval",
+          "score": 60.75,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "MedQA",
+          "score": 68.22,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 26.46,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "MATH500",
+          "score": 80.2,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "MGSM",
+          "score": 69.27,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 50.76,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 63.48,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "MMMU",
+          "score": 55.06,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 42.72,
+          "source": "https://www.vals.ai/models/openai_gpt-4.1-nano-2025-04-14"
         }
       ]
     },
@@ -18748,6 +19958,71 @@
           "name": "FRAMES",
           "score": 78.3,
           "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LegalBench",
+          "score": 75.94,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 48.77,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "CorpFin",
+          "score": 58.24,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.59,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "MedQA",
+          "score": 91.36,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 92.6,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "MATH500",
+          "score": 94.8,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.04,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.54,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 79.17,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 33.6,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.23,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 19.1,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-120b"
         }
       ]
     },
@@ -19179,6 +20454,61 @@
           "name": "AA Output Tokens per Task",
           "score": 18108.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 70.85,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 43.84,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "CorpFin",
+          "score": 53.15,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "TaxEval",
+          "score": 63.7,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "MedQA",
+          "score": 82.88,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 86.04,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "MATH500",
+          "score": 94.2,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "MGSM",
+          "score": 89.02,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 68.94,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 71.64,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.39,
+          "source": "https://www.vals.ai/models/fireworks_gpt-oss-20b"
         }
       ]
     },
@@ -19504,6 +20834,56 @@
           "name": "AA-Omniscience Index",
           "score": -11.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80.39,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.28,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "MedQA",
+          "score": 96.52,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 71.46,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "MATH500",
+          "score": 90.4,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "MGSM",
+          "score": 89.31,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 73.23,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.49,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.41,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 50.26,
+          "source": "https://www.vals.ai/models/openai_o1-2024-12-17"
         }
       ]
     },
@@ -19615,6 +20995,11 @@
           "name": "AIME 2025",
           "score": 79.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MedQA",
+          "score": 93.01,
+          "source": "https://www.vals.ai/models/openai_o1-preview-2024-09-12"
         }
       ]
     },
@@ -20106,6 +21491,121 @@
           "name": "Output speed",
           "score": 134.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.21,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 59.7,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "CorpFin",
+          "score": 45.92,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 57.43,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.53,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 11.88,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "MATH500",
+          "score": 74,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.36,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 53.79,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 72.56,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "MMMU",
+          "score": 62.16,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 43.44,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-11-20"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80.12,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "CorpFin",
+          "score": 39.43,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 60.97,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.14,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "MedQA",
+          "score": 88.16,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 13.96,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "MATH500",
+          "score": 75.2,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.69,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 74.13,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "MMMU",
+          "score": 64.01,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-08-06"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 50.25,
+          "source": "https://www.vals.ai/models/openai_gpt-4o-2024-05-13"
         }
       ]
     },
@@ -20259,6 +21759,16 @@
           "name": "Output speed",
           "score": 32.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80.46,
+          "source": "https://www.vals.ai/models/openai_gpt-4-turbo"
+        },
+        {
+          "name": "MedQA",
+          "score": 81.99,
+          "source": "https://www.vals.ai/models/openai_gpt-4-turbo"
         }
       ]
     },
@@ -20816,6 +22326,21 @@
           "name": "GSM8K",
           "score": 57.1,
           "source": "https://mistral.ai/news/mistral-large"
+        },
+        {
+          "name": "LegalBench",
+          "score": 64.37,
+          "source": "https://www.vals.ai/models/openai_gpt-3.5-turbo"
+        },
+        {
+          "name": "MedQA",
+          "score": 58.47,
+          "source": "https://www.vals.ai/models/openai_gpt-3.5-turbo"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 30.56,
+          "source": "https://www.vals.ai/models/openai_gpt-3.5-turbo"
         }
       ]
     },

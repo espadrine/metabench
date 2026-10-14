@@ -261,6 +261,131 @@
           "name": "ITBench SRE",
           "score": 46.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 51.32,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 41.35,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 6.67,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.28,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 53.48,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "EMB",
+          "score": 57.21,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 26.63,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "MedCode",
+          "score": 41.17,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "MedScribe",
+          "score": 85.5,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "ProofBench",
+          "score": 54,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 67.78,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 21.17,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "SAGE",
+          "score": 47.88,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 84.74,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 16.38,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Code Migration",
+          "score": 45.62,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 19.7,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 69.8,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "IOI",
+          "score": 40.28,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 46.46,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 74.53,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "CyberBench",
+          "score": 73.69,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 0.76,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 64.28,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
         }
       ]
     },
@@ -738,6 +863,136 @@
           "name": "Agents' Last Exam",
           "score": 25.7,
           "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Vals Index",
+          "score": 47.63,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 40.87,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 7.5,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.36,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 50.39,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "EMB",
+          "score": 52.8,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 26.76,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.42,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.06,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "MedCode",
+          "score": 42.47,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "MedScribe",
+          "score": 80.17,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "ProofBench",
+          "score": 50,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.42,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.97,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 82.3,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 17.53,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Code Migration",
+          "score": 41.54,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 14.14,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 53.83,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "IOI",
+          "score": 51.61,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 54.68,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 96.4,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.53,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "CyberBench",
+          "score": 72.86,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 1.91,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
         }
       ]
     },
@@ -1081,6 +1336,131 @@
           "name": "Agents' Last Exam",
           "score": 25.2,
           "source": "https://api-docs.deepseek.com/news/news260910"
+        },
+        {
+          "name": "Vals Index",
+          "score": 47.96,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 30.29,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 8.33,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "LegalBench",
+          "score": 77.71,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 49.52,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "EMB",
+          "score": 56.98,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 28.07,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.85,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "TaxEval",
+          "score": 70.69,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "MedCode",
+          "score": 41.42,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "MedScribe",
+          "score": 80.36,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "ProofBench",
+          "score": 56,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 64.44,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.9,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.21,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 74.74,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Code Migration",
+          "score": 38.63,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 18.69,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 50.67,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "IOI",
+          "score": 32.72,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 67.04,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 88.8,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.26,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "CyberBench",
+          "score": 72.08,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
         }
       ]
     },
@@ -2332,6 +2712,126 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 60.1,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 38.63,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 23.08,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 3.75,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80.32,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 59.38,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 44.08,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "EMB",
+          "score": 51.62,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 25.17,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.38,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.08,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "MedCode",
+          "score": 40.46,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "MedScribe",
+          "score": 75.14,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "ProofBench",
+          "score": 16,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.39,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.25,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 49.93,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Code Migration",
+          "score": 26.2,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 11.11,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 51.27,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 50.19,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.4,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.48,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 56.18,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 62.92,
+          "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro"
         }
       ]
     },
@@ -4597,6 +5097,51 @@
           "name": "τ²-Bench",
           "score": 80.3,
           "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 65.96,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "CorpFin",
+          "score": 47.94,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "MedQA",
+          "score": 89.45,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 64.79,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.87,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.26,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.06,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 69.86,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 34.83,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p2"
         }
       ]
     },
@@ -5316,6 +5861,21 @@
           "name": "Output speed",
           "score": 120.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 53.91,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p1"
+        },
+        {
+          "name": "CorpFin",
+          "score": 51.48,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p1"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 22.47,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3p1"
         }
       ]
     },
@@ -5563,6 +6123,56 @@
           "name": "Output speed",
           "score": 75.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 77.73,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "CorpFin",
+          "score": 54.74,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.1,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "MedQA",
+          "score": 82,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 52.2,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "MATH500",
+          "score": 88.6,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "MGSM",
+          "score": 91.67,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 61.62,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 79.47,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 65.48,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3-0324"
         }
       ]
     },
@@ -6077,6 +6687,51 @@
           "name": "Output speed",
           "score": 151.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 67.32,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "CorpFin",
+          "score": 54.12,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.28,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "MedQA",
+          "score": 90.8,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 73.96,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "MATH500",
+          "score": 92.2,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.25,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.18,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.22,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-r1"
         }
       ]
     },
@@ -6487,6 +7142,51 @@
           "name": "Output speed",
           "score": 45.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80.76,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "CorpFin",
+          "score": 52.49,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "TaxEval",
+          "score": 67.91,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "MedQA",
+          "score": 80.9,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 27.5,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "MATH500",
+          "score": 80.4,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.15,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 54.55,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 73.82,
+          "source": "https://www.vals.ai/models/fireworks_deepseek-v3"
         }
       ]
     }

@@ -312,6 +312,141 @@
           "name": "LMArena Text",
           "score": 1405,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 25.46,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 50.05,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 25.48,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.67,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.99,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 41.26,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "EMB",
+          "score": 31.76,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 15.39,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "CorpFin",
+          "score": 69.62,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 62.28,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.51,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "MedCode",
+          "score": 37.89,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "MedScribe",
+          "score": 84.11,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "ProofBench",
+          "score": 6,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.59,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.57,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "SAGE",
+          "score": 32.74,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 19.05,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Code Migration",
+          "score": 13.68,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 33.58,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "IOI",
+          "score": 9.33,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 55.06,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 82.2,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.93,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "CyberBench",
+          "score": 64.11,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 59.41,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
         }
       ]
     },
@@ -722,6 +857,146 @@
           "name": "AA Output Tokens per Task",
           "score": 34655.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 28.67,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 49.4,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 28.37,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 2.08,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.95,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 46.6,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "EMB",
+          "score": 38.36,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 15.29,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "CorpFin",
+          "score": 68.57,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 63.99,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.31,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "MedCode",
+          "score": 41.19,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "MedScribe",
+          "score": 85.41,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87.12,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.3,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "MMMU",
+          "score": 78.5,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "SAGE",
+          "score": 36.56,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 19.21,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 7.33,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Code Migration",
+          "score": 11.79,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 26.09,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "IOI",
+          "score": 14.94,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 47.57,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.6,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.52,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "CyberBench",
+          "score": 66.79,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 58.46,
+          "source": "https://www.vals.ai/models/thinkingmachines_inkling"
         }
       ]
     }

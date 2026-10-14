@@ -173,7 +173,12 @@ When you add a new model from an announcement page:
 7. Similarly, if there are models listed on LMArena in `data/lmarena.json`,
    add the mapping in `bin/load_lmarena.js`, in `KNOWN_MODEL_MAPPINGS`, at the top of the list.
    Then run `make lmarena` to add the benchmark scores to the data/.
-8. Run `make` to compile the latest data.
+8. If the new model is listed on Vals AI,
+   do `rm data/valsai.json` and `make valsai` to download fresh data.
+   Find the key that seems to correspond among the models in `data/valsai.json`
+   (they have the form `provider/model-name`, e.g. `openai/gpt-5.1-2025-11-13`).
+   Add the model key mapping to `bin/load_valsai.js`, in `modelNameFromVals`, at the top of the list.
+9. Run `make` to compile the latest data.
 
 Rules to add a benchmark:
 - Only add benchmarks to the appropriate company file in `data/models/`. Other `/data/` files are generated.
@@ -217,13 +222,15 @@ Rules to add a model:
 
 Rules to add model name mappings to external benchmark data:
 - When adding a new model, also add mapping entries in `bin/load_aabench.js`
-  (`modelNameFromAA`) and `bin/load_lmarena.js` (`KNOWN_MODEL_MAPPINGS`) so
-  external benchmark data (AA/LMArena) can be matched to the model.
+  (`modelNameFromAA`), `bin/load_lmarena.js` (`KNOWN_MODEL_MAPPINGS`),
+  and `bin/load_valsai.js` (`modelNameFromVals`) so
+  external benchmark data (AA/LMArena/Vals AI) can be matched to the model.
 - Find the exact external name by searching the data files for similar models:
   for instance if the model is `GLM-5.2`,
   ```
   node -e "const d=JSON.parse(require('fs').readFileSync('data/aabench.json','utf8')); console.log(d.data.map(m=>m.name).filter(n=>n.includes('GLM')))"
   node -e "const d=JSON.parse(require('fs').readFileSync('data/lmarena.json','utf8')); console.log(Object.keys(d.text).filter(k=>k.includes('glm')))"
+  node -e "const d=JSON.parse(require('fs').readFileSync('data/valsai.json','utf8')); console.log([...new Set(Object.values(d.benchmarks).flatMap(b=>Object.keys(b.tasks.overall)))].filter(k=>k.includes('glm')))"
   ```
   Do not guess the external name; it must match exactly.
 - For models with both a base and "Thinking" variant: when adding comparison

@@ -256,6 +256,121 @@
           "name": "AA Output Tokens per Task",
           "score": 162164.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 54.44,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 43.27,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 54.14,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "EMB",
+          "score": 59.02,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 31.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "MedCode",
+          "score": 51.54,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 89.54,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 89,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 10,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 70.37,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 35.14,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "SAGE",
+          "score": 45.78,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 90.44,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 20.41,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 44.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 2.5,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 36.36,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "IOI",
+          "score": 47.28,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 43.96,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "CyberBench",
+          "score": 75.48,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 5.73,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 63.19,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
         }
       ]
     },
@@ -961,6 +1076,121 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 3.4,
           "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Vals Index",
+          "score": 67.04,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 48.08,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 2.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 58.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "EMB",
+          "score": 75.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 41.96,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "MedCode",
+          "score": 52.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 91.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 100,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 47.14,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 81.11,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 49.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "SAGE",
+          "score": 51.77,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 92.39,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 69.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 6.5,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 64.14,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "IOI",
+          "score": 83.06,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 58.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "CyberBench",
+          "score": 59.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 30.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 67.19,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5-5"
         }
       ]
     },
@@ -1851,6 +2081,136 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 58,
           "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Vals Index",
+          "score": 66.97,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 50.48,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 3.75,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 58.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "EMB",
+          "score": 75.94,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 45.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "MedCode",
+          "score": 49.8,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 91.43,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 100,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 47.14,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 79.26,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 49.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "SAGE",
+          "score": 45.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 90.29,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 30.36,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 66.65,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 18.5,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 65.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "IOI",
+          "score": 95.06,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 70.21,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 87.64,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "CyberBench",
+          "score": 55.36,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 33.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "CUA-bench",
+          "score": 14,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 91.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 70.64,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-5-5"
         }
       ]
     },
@@ -2675,6 +3035,171 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 53,
           "source": "https://research.meta.ai/blog/muse-wonder"
+        },
+        {
+          "name": "Vals Index",
+          "score": 65.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 55.29,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 6.67,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "LegalBench",
+          "score": 88.51,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 58.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "EMB",
+          "score": 76.67,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 49.19,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 70.79,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.96,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "MedCode",
+          "score": 53.51,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "MedScribe",
+          "score": 91.29,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "ProofBench",
+          "score": 100,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 40,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "MysteryMechanism",
+          "score": 47.75,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.43,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 92.38,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "MMMU",
+          "score": 90.64,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "SAGE",
+          "score": 48.53,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 90.26,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 28,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Code Migration",
+          "score": 54.61,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 7,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 58.08,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 61.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "IOI",
+          "score": 90.78,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 61.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 85.02,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "CyberBench",
+          "score": 70.42,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 22.9,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "CUA-bench",
+          "score": 13.17,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 63.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 74.9,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5-1"
         }
       ]
     },
@@ -5653,6 +6178,161 @@
           "name": "Protocols Understanding",
           "score": 58.9,
           "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Vals Index",
+          "score": 51.9,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 68.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 41.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 5,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 53.91,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "EMB",
+          "score": 66.32,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 29.37,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "CorpFin",
+          "score": 66.98,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 70.03,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "MedCode",
+          "score": 47.54,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 76.05,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 77,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 5.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.89,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 83.01,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "SAGE",
+          "score": 48.93,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 81.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 13.82,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 44.39,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 10.61,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 46.48,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "IOI",
+          "score": 45,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 74.53,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 79.6,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.43,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "CyberBench",
+          "score": 61.91,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "SRE-Bench",
+          "score": 0.38,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 66.04,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
         }
       ]
     },
@@ -7526,6 +8206,146 @@
           "name": "FrontierSWE v2",
           "score": 0.47,
           "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Vals Index",
+          "score": 61.39,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Web Search Index",
+          "score": 46.94,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 74.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 49.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 11.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "LegalBench",
+          "score": 88.56,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 56.31,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "EMB",
+          "score": 73.67,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 38.28,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "CorpFin",
+          "score": 71.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "TaxEval",
+          "score": 76.94,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "MedCode",
+          "score": 56.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "MedScribe",
+          "score": 88.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "ProofBench",
+          "score": 95,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 15.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 93.18,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 91.5,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "MMMU",
+          "score": 89.31,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "SAGE",
+          "score": 51.89,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 90.35,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Code Migration",
+          "score": 55.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 2,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 41.41,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 95,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 89.78,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 70.43,
+          "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
         }
       ]
     },
@@ -8974,6 +9794,151 @@
           "name": "LongBench v2",
           "score": 69.1,
           "source": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
+        },
+        {
+          "name": "Vals Index",
+          "score": 55.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 70.89,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 43.75,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 9.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 53.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "EMB",
+          "score": 69.37,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 30,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "CorpFin",
+          "score": 66.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 69.91,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "MedCode",
+          "score": 53.22,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "MedScribe",
+          "score": 85.76,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.42,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "MMMU",
+          "score": 86.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "SAGE",
+          "score": 54.79,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 82.73,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Code Migration",
+          "score": 47.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 1,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 23.23,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 59.23,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 71.91,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 88.6,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.82,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 70.04,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 11.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 68.13,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-8"
         }
       ]
     },
@@ -9732,6 +10697,126 @@
           "name": "AA-Omniscience Index",
           "score": 14.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 67.36,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 38.46,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 6.67,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "LegalBench",
+          "score": 85.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 68.38,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 51.51,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "EMB",
+          "score": 63.73,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 23.74,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "CorpFin",
+          "score": 66.08,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 70.27,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.27,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "MedCode",
+          "score": 54.86,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "MedScribe",
+          "score": 82.95,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 96.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 90.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.87,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "MMMU",
+          "score": 85.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "SAGE",
+          "score": 56.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 71,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Code Migration",
+          "score": 43.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 68.54,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 82,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 68.54,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-7"
         }
       ]
     },
@@ -10520,6 +11605,136 @@
           "name": "Claw-Eval-MM",
           "score": 23.8,
           "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 60.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 38.46,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 5,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.12,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 63.99,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 51.04,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "EMB",
+          "score": 60.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 25.84,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.31,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 67.73,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "TaxEval",
+          "score": 77.11,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "MedQA",
+          "score": 92.06,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 92.29,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.61,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.34,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "MMMU",
+          "score": 83.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "SAGE",
+          "score": 46.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 51.48,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Code Migration",
+          "score": 39.89,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 0.5,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 49.05,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 57.3,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 77.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.09,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 59.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 62.45,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-6"
         }
       ]
     },
@@ -12134,6 +13349,91 @@
           "name": "AA-Omniscience Index",
           "score": 13.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 85.3,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 62.06,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 67.02,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.96,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 49.13,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 86.13,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 95.41,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 95.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.65,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 89.11,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 83.87,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 51.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 53.5,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.2,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 84.68,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 58.43,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6-thinking"
         }
       ]
     },
@@ -12467,6 +13767,21 @@
           "name": "SWE-bench Verified",
           "score": 80.8,
           "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "MedCode",
+          "score": 48.24,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6"
+        },
+        {
+          "name": "MedScribe",
+          "score": 86.74,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 57.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-6"
         }
       ]
     },
@@ -13926,6 +15241,96 @@
           "name": "AA-Omniscience Index",
           "score": 14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 84.6,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 62.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 65.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 67.69,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.86,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 49.16,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 85.32,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 95.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 95.42,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 95.2,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 85.86,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.26,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 82.95,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 52.09,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 20.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.67,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 53.93,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101-thinking"
         }
       ]
     },
@@ -14235,6 +15640,81 @@
           "name": "AA-Omniscience Index",
           "score": -4.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.84,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.31,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.68,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MedCode",
+          "score": 45.17,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MedScribe",
+          "score": 83.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MedQA",
+          "score": 93.16,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 76.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MGSM",
+          "score": 94.76,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 79.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "MMMU",
+          "score": 81.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "SAGE",
+          "score": 45,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 75.03,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 58.43,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-5-20251101"
         }
       ]
     },
@@ -14839,6 +16319,136 @@
           "name": "Gray Swan IPI (Attack Success Rate)",
           "score": 83.2,
           "source": "https://www.anthropic.com/document/claude-haiku-5-5-system-card"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 42.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 10.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 0.83,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "LegalBench",
+          "score": 81.24,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 56.48,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 31.01,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "EMB",
+          "score": 22.66,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 5.86,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 60.61,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 62.16,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 67.54,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 32.68,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 85.23,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 79.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 82.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.15,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 72.22,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 78.72,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 46.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 31.82,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 11.39,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Code Migration",
+          "score": 7.55,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 43.82,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66.6,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 41.18,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 38.2,
+          "source": "https://www.vals.ai/models/anthropic_claude-haiku-4-5-20251001-thinking"
         }
       ]
     },
@@ -16028,6 +17638,96 @@
           "name": "τ²-Bench",
           "score": 84.7,
           "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 84.08,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 62.17,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.97,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 63.99,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.3,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 44.13,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 84.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 94.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 88.19,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 94.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 81.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.36,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 79.31,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 36.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 22.62,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 73,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 41.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929-thinking"
         }
       ]
     },
@@ -16257,6 +17957,26 @@
           "name": "MLVU",
           "score": 72.8,
           "source": "https://qwen.ai/blog?id=qwen3.6-35b-a3b"
+        },
+        {
+          "name": "CorpFin",
+          "score": 60.8,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929"
+        },
+        {
+          "name": "MedCode",
+          "score": 40.57,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929"
+        },
+        {
+          "name": "MedScribe",
+          "score": 84.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929"
+        },
+        {
+          "name": "SAGE",
+          "score": 32.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-5-20250929"
         }
       ]
     },
@@ -16526,6 +18246,71 @@
           "name": "MMMU-Pro",
           "score": 67.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 56.12,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 73.67,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 47.24,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 73.9,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 93.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 78.18,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MATH500",
+          "score": 95.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 94.44,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 76.26,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 77.51,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 30.39,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 66.46,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805-thinking"
         }
       ]
     },
@@ -16569,6 +18354,76 @@
           "name": "Output speed",
           "score": 39.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.46,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 61.09,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.46,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MedCode",
+          "score": 41.37,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MedScribe",
+          "score": 71.75,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MedQA",
+          "score": 92.53,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 44.24,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MATH500",
+          "score": 93,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MGSM",
+          "score": 94.22,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 69.95,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.21,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "MMMU",
+          "score": 73.72,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "SAGE",
+          "score": 31.38,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 64.56,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-1-20250805"
         }
       ]
     },
@@ -16853,6 +18708,11 @@
           "name": "Output speed",
           "score": 36.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.19,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514-thinking"
         }
       ]
     },
@@ -16951,6 +18811,61 @@
           "name": "Output speed",
           "score": 36.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 83.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 58.59,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.91,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "MedQA",
+          "score": 92.87,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 41.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "MATH500",
+          "score": 90.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "MGSM",
+          "score": 93.78,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.72,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.17,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "MMMU",
+          "score": 73.31,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 62.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-opus-4-20250514"
         }
       ]
     },
@@ -17490,6 +19405,81 @@
           "name": "GDPval-AA",
           "score": 690.78,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 61.23,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 49.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 34.96,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 69.35,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 92.71,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 76.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MATH500",
+          "score": 93.8,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.87,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 83.87,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 74.93,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 32.01,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 62.39,
+          "source": "https://www.vals.ai/models/anthropic_claude-sonnet-4-20250514-thinking"
         }
       ]
     },
@@ -17724,6 +19714,66 @@
           "name": "AA-Omniscience Index",
           "score": -0.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 82.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 60.41,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 66.85,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.04,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 90.22,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 44.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "MATH500",
+          "score": 91.6,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.98,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 75.25,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 82.73,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 75.1,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 60.44,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219-thinking"
         }
       ]
     },
@@ -17847,6 +19897,56 @@
           "name": "AA-Omniscience Index",
           "score": -9.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 68.68,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "TaxEval",
+          "score": 72.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 22.29,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "MATH500",
+          "score": 76.8,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 67.42,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80.66,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "MMMU",
+          "score": 71.52,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 56.66,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-7-sonnet-20250219"
         }
       ]
     },
@@ -18223,6 +20323,51 @@
           "name": "GDPval-AA",
           "score": 210.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 70.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "CorpFin",
+          "score": 50.82,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "TaxEval",
+          "score": 57.36,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 3.33,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "MATH500",
+          "score": 64.2,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "MGSM",
+          "score": 84.62,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 37.88,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 64.12,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 41.92,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-haiku-20241022"
         }
       ]
     },
@@ -18601,6 +20746,61 @@
           "name": "AIME 2024",
           "score": 9.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CorpFin",
+          "score": 53.61,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 64.07,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "TaxEval",
+          "score": 70.16,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "MedQA",
+          "score": 83.19,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 10,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "MATH500",
+          "score": 72.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "MGSM",
+          "score": 92.58,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 59.34,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 78.4,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "MMMU",
+          "score": 68.8,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 49.63,
+          "source": "https://www.vals.ai/models/anthropic_claude-3-5-sonnet-20241022"
         }
       ]
     },

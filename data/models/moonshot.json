@@ -572,6 +572,171 @@
           "name": "Surge Coding Quality (blind human eval)",
           "score": 3.59,
           "source": "https://mistral.ai/news/mistral-large-4/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 50.3,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 73.42,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 46.15,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 12.92,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "LegalBench",
+          "score": 86.21,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 53.11,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "EMB",
+          "score": 66.68,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 33.37,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "CorpFin",
+          "score": 71.56,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 66.34,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "TaxEval",
+          "score": 75.72,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "MedCode",
+          "score": 49.36,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "MedScribe",
+          "score": 88.05,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "ProofBench",
+          "score": 87,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 1.43,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 72.59,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 92.93,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.97,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "MMMU",
+          "score": 88.15,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "SAGE",
+          "score": 52.78,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 84.97,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Vibe Code Bench 1-100",
+          "score": 18.24,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Code Migration",
+          "score": 16.1,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "ProgramBench",
+          "score": 2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 17.17,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "IOI",
+          "score": 48.94,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 35.83,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 80.9,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 93.4,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 87.19,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "CyberBench",
+          "score": 75.24,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Time Horizon Index: KSP",
+          "score": 10.5,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 68.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3"
         }
       ]
     },
@@ -732,6 +897,36 @@
           "name": "AA Output Tokens per Task",
           "score": 29885.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 47.21,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
+        },
+        {
+          "name": "Code Migration",
+          "score": 25.39,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 50.04,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 67.04,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 78.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 82.05,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
         }
       ]
     },
@@ -1772,6 +1967,126 @@
           "name": "SWE-bench Verified",
           "score": 80.2,
           "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Vals Multimodal Index",
+          "score": 56.43,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 15.87,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.67,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "LegalBench",
+          "score": 84.74,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 61.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 44.9,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "EMB",
+          "score": 57.86,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 12.4,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "CorpFin",
+          "score": 66.74,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 65.82,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.65,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "MedCode",
+          "score": 40.14,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "MedScribe",
+          "score": 78.15,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.14,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 87.57,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "MMMU",
+          "score": 86.3,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "SAGE",
+          "score": 50.22,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 37.89,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Code Migration",
+          "score": 27.77,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 53.56,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 86.77,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 57.3,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Public Benefits Bench",
+          "score": 56.63,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
         }
       ]
     },
@@ -3282,6 +3597,111 @@
           "name": "GDPval-AA",
           "score": 839.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 15.87,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 58.74,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 35.79,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "EMB",
+          "score": 28.47,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 68.26,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "MortgageTax",
+          "score": 66.53,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 74.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "MedCode",
+          "score": 39.32,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "MedScribe",
+          "score": 76.44,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 94.37,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 95.63,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.09,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 85.91,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "MMMU",
+          "score": 84.34,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "SAGE",
+          "score": 49.87,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 17.54,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "Code Migration",
+          "score": 6.96,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 41.95,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 70,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 83.87,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 40.45,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2.5-thinking"
         }
       ]
     },
@@ -3900,6 +4320,66 @@
           "name": "τ²-Bench",
           "score": 74.3,
           "source": "https://huggingface.co/XiaomiMiMo/MiMo-V2-Flash"
+        },
+        {
+          "name": "LegalBench",
+          "score": 80.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "CaseLaw",
+          "score": 65.7,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "CorpFin",
+          "score": 60.57,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "TaxEval",
+          "score": 71.71,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "MedQA",
+          "score": 92.59,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 85.42,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.15,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 78.54,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 81.07,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 60.2,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.15,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 37.08,
+          "source": "https://www.vals.ai/models/kimi_kimi-k2-thinking"
         }
       ]
     },
@@ -4519,6 +4999,61 @@
           "name": "AA-Omniscience Index",
           "score": -28.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LegalBench",
+          "score": 81.45,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "CorpFin",
+          "score": 50.39,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "TaxEval",
+          "score": 70.2,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "MedQA",
+          "score": 83.98,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "AIME 2024+2025",
+          "score": 62.71,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "MATH500",
+          "score": 94.2,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "MGSM",
+          "score": 90.95,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 71.46,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 79.39,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 70.45,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
+        },
+        {
+          "name": "Terminal-Bench 2.0",
+          "score": 25.84,
+          "source": "https://www.vals.ai/models/together_moonshotai/Kimi-K2-Instruct"
         }
       ]
     }
