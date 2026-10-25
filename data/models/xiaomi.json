@@ -293,6 +293,11 @@
           "name": "Public Benefits Bench",
           "score": 68.94,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 37.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -984,7 +989,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 25.17,
+          "score": 21.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1171,6 +1176,11 @@
           "name": "LiveCodeBench",
           "score": 81.51,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.5"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 30926.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

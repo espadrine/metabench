@@ -321,6 +321,11 @@
           "name": "SRE-Bench",
           "score": 0.76,
           "source": "https://www.vals.ai/models/zai_glm-5.3-flash"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -754,6 +759,91 @@
           "name": "Public Benefits Bench",
           "score": 68.54,
           "source": "https://www.vals.ai/models/zai_glm-5.3"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 45,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "JobBench",
+          "score": 61.4,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 84.2,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1653,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 73,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 16.4,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 14,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SciCode",
+          "score": 59,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 62.5,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 91.7,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 59,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 83.9,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "FORTRESS (Adversarial) ARS (static)",
+          "score": 28.2,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "FORTRESS (Benign) ORS (static)",
+          "score": 3.2,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "StrongREJECT v2 (adaptive)",
+          "score": 62.9,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 38.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

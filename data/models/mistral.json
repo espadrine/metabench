@@ -149,7 +149,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 69329.96,
+          "score": 69464.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -236,6 +236,36 @@
           "name": "IOI",
           "score": 45.28,
           "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1424,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -5,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SciCode",
+          "score": 54.2,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 62,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 59,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
         }
       ]
     },

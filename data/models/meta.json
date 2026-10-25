@@ -1,6 +1,207 @@
 {
   "models": [
     {
+      "name": "Muse Spark Open",
+      "company": "Meta",
+      "url": "https://research.meta.ai/blog/muse-spark-open",
+      "release_date": "2026-10-15",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1.25,
+          "source": "https://openrouter.ai/meta/muse-spark-open"
+        },
+        {
+          "name": "Output cost",
+          "score": 4.25,
+          "source": "https://openrouter.ai/meta/muse-spark-open"
+        },
+        {
+          "name": "Size",
+          "score": 816,
+          "source": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 42,
+          "source": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 39,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "JobBench",
+          "score": 61.8,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 89.2,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1401,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "OSWorld-Verified",
+          "score": 80.4,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 72.8,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 26.1,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": 25,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SciCode",
+          "score": 58.5,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 61,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 60,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 58,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 76.4,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 50,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 80.2,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "SimpleVQA (with tools)",
+          "score": 73.6,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "WorldVQA (with tools)",
+          "score": 49.4,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "IntPhys 2",
+          "score": 68.3,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Video-MME-v2",
+          "score": 61.5,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "FORTRESS (Adversarial) ARS (static)",
+          "score": 5.8,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "FORTRESS (Benign) ORS (static)",
+          "score": 17.4,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "StrongREJECT v2 (adaptive)",
+          "score": 0.5,
+          "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 88.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 58.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 78.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 80.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 14.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 49.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 40335.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "Muse Wonder Full",
       "company": "Meta",
       "url": "https://research.meta.ai/blog/muse-wonder",
@@ -828,6 +1029,11 @@
           "name": "CyberBench",
           "score": 69.41,
           "source": "https://www.vals.ai/models/meta_muse_spark_1_3"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 37.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2235,7 +2441,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 9.99,
+          "score": 9.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2433,7 +2639,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 8.08,
+          "score": 6.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

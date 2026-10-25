@@ -386,6 +386,11 @@
           "name": "Public Benefits Bench",
           "score": 64.28,
           "source": "https://www.vals.ai/models/deepseek_deepseek-v4.1-flash"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 35,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

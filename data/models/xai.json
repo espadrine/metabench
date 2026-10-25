@@ -246,6 +246,11 @@
           "name": "Public Benefits Bench",
           "score": 65.63,
           "source": "https://www.vals.ai/models/grok_grok-4.7"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 52.5,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

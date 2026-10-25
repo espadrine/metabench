@@ -1711,6 +1711,11 @@
           "name": "Public Benefits Bench",
           "score": 57.65,
           "source": "https://www.vals.ai/models/openai_gpt-6-luna"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 43.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

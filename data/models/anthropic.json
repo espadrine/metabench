@@ -371,6 +371,11 @@
           "name": "Public Benefits Bench",
           "score": 63.19,
           "source": "https://www.vals.ai/models/anthropic_claude-haiku-5-5"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 53.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

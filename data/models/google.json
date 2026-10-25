@@ -308,6 +308,11 @@
           "name": "Public Benefits Bench",
           "score": 69.76,
           "source": "https://www.vals.ai/models/google_gemini-4-argon"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 48.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -721,6 +726,11 @@
           "name": "Public Benefits Bench",
           "score": 65.29,
           "source": "https://www.vals.ai/models/google_gemini-3.8-flash"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 46.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5362,6 +5372,11 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 0.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 8996.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
