@@ -575,7 +575,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 50.3,
+          "score": 52.96,
           "source": "https://www.vals.ai/models/kimi_kimi-k3"
         },
         {
@@ -705,7 +705,7 @@
         },
         {
           "name": "SWE-bench Multimodal",
-          "score": 35.83,
+          "score": 44.17,
           "source": "https://www.vals.ai/models/kimi_kimi-k3"
         },
         {
@@ -852,6 +852,61 @@
           "name": "StrongREJECT v2 (adaptive)",
           "score": 66.6,
           "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 12.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 67.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 17.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 58,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 46.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 27.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Apex Bench v1.1",
+          "score": 47.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 68.1,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 85.7,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 41,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
         }
       ]
     },
@@ -995,7 +1050,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1037.24,
+          "score": 1037.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2005,7 +2060,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1037.9,
+          "score": 1038.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3710,7 +3765,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 839.12,
+          "score": 838.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

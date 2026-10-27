@@ -323,7 +323,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1242.26,
+          "score": 1242.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -489,6 +489,11 @@
         {
           "name": "Public Benefits Bench",
           "score": 64.14,
+          "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "SWE-bench Multimodal",
+          "score": 33.33,
           "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
         }
       ]
@@ -966,7 +971,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1009.72,
+          "score": 1007.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

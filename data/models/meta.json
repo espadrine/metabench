@@ -196,8 +196,58 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 40335.06,
+          "score": 40398.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1401.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 48.57,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 38.46,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 25,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 26.32,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Finance Agent v2",
+          "score": 61.34,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "EMB",
+          "score": 53.67,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 76.19,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 6.57,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Code Migration",
+          "score": 21.17,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
         }
       ]
     },
@@ -337,7 +387,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 64.57,
+          "score": 66.79,
           "source": "https://www.vals.ai/models/meta_muse-wonder-full"
         },
         {
@@ -347,7 +397,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 21.67,
+          "score": 23.33,
           "source": "https://www.vals.ai/models/meta_muse-wonder-full"
         },
         {
@@ -598,12 +648,12 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 54231.67,
+          "score": 54476.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
           "name": "Vals Index",
-          "score": 61.06,
+          "score": 64.88,
           "source": "https://www.vals.ai/models/meta_muse-wonder"
         },
         {
@@ -613,7 +663,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 17.08,
+          "score": 23.75,
           "source": "https://www.vals.ai/models/meta_muse-wonder"
         },
         {
@@ -678,7 +728,7 @@
         },
         {
           "name": "SWE-bench Multimodal",
-          "score": 45.42,
+          "score": 45.63,
           "source": "https://www.vals.ai/models/meta_muse-wonder"
         },
         {
@@ -1331,7 +1381,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 786.36,
+          "score": 783.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1555,7 +1605,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1473.78,
+          "score": 1474.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1889,7 +1939,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1209.9,
+          "score": 1210.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2218,7 +2268,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 997.58,
+          "score": 997.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2541,7 +2591,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -275.39,
+          "score": -275.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2739,7 +2789,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -163.36,
+          "score": -163.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3046,7 +3096,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -174.03,
+          "score": -174.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4753,7 +4803,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -387.21,
+          "score": -387.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

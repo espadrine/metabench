@@ -161,7 +161,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1684.77,
+          "score": 1683.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -186,7 +186,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 55.2,
+          "score": 57.81,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
         },
         {
@@ -196,7 +196,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 10.83,
+          "score": 13.75,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-pro"
         },
         {
@@ -457,7 +457,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1605.17,
+          "score": 1608.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -482,7 +482,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 53.23,
+          "score": 54.83,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
         },
         {
@@ -492,7 +492,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 11.25,
+          "score": 13.33,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
         },
         {
@@ -748,7 +748,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1120.67,
+          "score": 1120.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1049,7 +1049,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 996.76,
+          "score": 996.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

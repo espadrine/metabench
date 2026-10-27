@@ -169,7 +169,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1644.13,
+          "score": 1642.16,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -199,7 +199,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 44.58,
+          "score": 50.86,
           "source": "https://www.vals.ai/models/zai_glm-5.3-flash"
         },
         {
@@ -209,7 +209,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 6.67,
+          "score": 10.42,
           "source": "https://www.vals.ai/models/zai_glm-5.3-flash"
         },
         {
@@ -512,7 +512,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1650.73,
+          "score": 1649.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -622,7 +622,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 53.51,
+          "score": 59.73,
           "source": "https://www.vals.ai/models/zai_glm-5.3"
         },
         {
@@ -632,7 +632,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 8.33,
+          "score": 14.58,
           "source": "https://www.vals.ai/models/zai_glm-5.3"
         },
         {
@@ -844,6 +844,46 @@
           "name": "AA-AnalystAgent",
           "score": 38.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 42,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 37.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 66.9,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 19,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 58,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 48.8,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 28.5,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "Apex Bench v1.1",
+          "score": 56.6,
+          "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
         }
       ]
     },
@@ -1455,7 +1495,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1371.43,
+          "score": 1373.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2323,7 +2363,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1115.64,
+          "score": 1116.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3767,7 +3807,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1013.42,
+          "score": 1013.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4320,7 +4360,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 756.65,
+          "score": 755.65,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

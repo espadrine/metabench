@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "DeepSeek V4.1 Flash 1017 (Max)": "DeepSeek V4.1 Flash 1017",
   "Muse Spark Open (Xhigh)": "Muse Spark Open",
   "Muse Wonder Full (Max)": "Muse Wonder Full",
   "Muse Wonder (Max)": "Muse Wonder",

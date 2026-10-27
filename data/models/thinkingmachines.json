@@ -285,7 +285,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1123.28,
+          "score": 1124.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -315,7 +315,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 25.46,
+          "score": 27.59,
           "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
         },
         {
@@ -330,7 +330,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 1.67,
+          "score": 2.92,
           "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
         },
         {
@@ -835,7 +835,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1075.6,
+          "score": 1071.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -860,7 +860,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 28.67,
+          "score": 28.96,
           "source": "https://www.vals.ai/models/thinkingmachines_inkling"
         },
         {
@@ -875,7 +875,7 @@
         },
         {
           "name": "Harvey LAB (Vals)",
-          "score": 2.08,
+          "score": 3.75,
           "source": "https://www.vals.ai/models/thinkingmachines_inkling"
         },
         {
