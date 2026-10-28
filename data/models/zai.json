@@ -884,6 +884,61 @@
           "name": "Apex Bench v1.1",
           "score": 56.6,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 48.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "BankerToolBench",
+          "score": 74.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 11.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 37.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "LOCA-Bench (256k)",
+          "score": 50.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 37.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 66.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 58,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "SWE-Refactor",
+          "score": 10.4,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "CyberGym",
+          "score": 84.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 42.3,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
         }
       ]
     },

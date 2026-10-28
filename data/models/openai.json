@@ -5190,6 +5190,81 @@
           "name": "ZeroBench (with tools)",
           "score": 53,
           "source": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 45.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "BankerToolBench",
+          "score": 74.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 27.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 39.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "LOCA-Bench (256k)",
+          "score": 60,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 30.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "OSWorld 2.0",
+          "score": 65.7,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 36.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 73,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 56.8,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "SWE-Refactor",
+          "score": 28.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "CyberGym",
+          "score": 83.6,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 88.9,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 49.5,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 85.2,
+          "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
         }
       ]
     },
