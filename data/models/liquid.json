@@ -265,7 +265,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -8.46,
+          "score": -0.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

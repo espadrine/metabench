@@ -469,6 +469,12 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "GPT-6.1 Terra (Max)": "GPT-6.1 Terra",
+  "GPT-6.1 Terra (Xhigh)": "GPT-6.1 Terra xhigh",
+  "GPT-6.1 Terra (High)": "GPT-6.1 Terra high",
+  "GPT-6.1 Terra (Medium)": "GPT-6.1 Terra medium",
+  "GPT-6.1 Terra (Low)": "GPT-6.1 Terra low",
+  "GPT-6.1 Terra (Non-reasoning)": "GPT-6.1 Terra none",
   "Kimi K3.1 Pro": "Kimi K3.1 Pro",
   "MiniMax-M3.1-Flash": "MiniMax M3.1 Flash",
   "DeepSeek V4.1 Flash 1017 (Max)": "DeepSeek V4.1 Flash 1017",

@@ -156,7 +156,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.87,
+          "score": 24.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -196,7 +196,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 40398.96,
+          "score": 66440.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -247,6 +247,11 @@
         {
           "name": "Code Migration",
           "score": 21.17,
+          "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "SAGE",
+          "score": 85.77,
           "source": "https://www.vals.ai/models/meta_muse-spark-open"
         }
       ]
@@ -342,7 +347,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 55.8,
+          "score": 49.73,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -382,7 +387,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 53754.14,
+          "score": 88475.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -603,7 +608,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 52.39,
+          "score": 43.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -648,7 +653,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 54476.55,
+          "score": 96063.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -837,7 +842,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 48.09,
+          "score": 36.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -897,7 +902,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 60200.16,
+          "score": 91113.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1281,7 +1286,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 17.48,
+          "score": 6.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1381,7 +1386,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 783.25,
+          "score": 792.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1396,7 +1401,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 13925.2,
+          "score": 26067.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1605,7 +1610,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1474.64,
+          "score": 1480.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1939,7 +1944,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1210.88,
+          "score": 1217.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2268,7 +2273,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 997.8,
+          "score": 1006.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2591,7 +2596,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -275.74,
+          "score": -267.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2789,7 +2794,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -163.72,
+          "score": -155.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3096,7 +3101,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -174.39,
+          "score": -166.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4803,7 +4808,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -387.57,
+          "score": -379.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

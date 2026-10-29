@@ -74,7 +74,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 46.45,
+          "score": 34.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -104,7 +104,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1713.96,
+          "score": 1721.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -119,7 +119,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 80561.36,
+          "score": 92969.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -194,7 +194,7 @@
         },
         {
           "name": "SAGE",
-          "score": 40.79,
+          "score": 88.71,
           "source": "https://www.vals.ai/models/grok_grok-4.7"
         },
         {
@@ -398,7 +398,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1618.44,
+          "score": 1626.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -867,7 +867,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1380.98,
+          "score": 1390.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1223,7 +1223,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 937.76,
+          "score": 946.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1487,7 +1487,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 941.04,
+          "score": 949.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2000,7 +2000,7 @@
         },
         {
           "name": "SAGE",
-          "score": 31.33,
+          "score": 74.47,
           "source": "https://www.vals.ai/models/grok_grok-4-1-fast-reasoning"
         },
         {

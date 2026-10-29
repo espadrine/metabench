@@ -1,6 +1,550 @@
 {
   "models": [
     {
+      "name": "GPT-6.1 Terra",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "release_date": "2026-10-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 60,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 85.5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 74.2,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 4.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 50.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 58.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 50.98,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 46.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 55.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 82.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 84.68,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 28,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1476.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 60.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 59883.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 60.47,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 25.96,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 1.67,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 15.17,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 84,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 49.5,
+          "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra xhigh",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "release_date": "2026-10-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 44.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 53.36,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 81.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 83.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 26.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1415.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 59.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 26199.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra high",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "release_date": "2026-10-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 42.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 43.28,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 82.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 83.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 25.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1353.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 58.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 16746.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra medium",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "release_date": "2026-10-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 57.6,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 84.6,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 66.7,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 10.1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 35.8,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 34.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 38.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 40.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 51.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 80.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 82.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 21.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1325.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 57.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 10875.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra low",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "release_date": "2026-10-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 16.7,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 24.8,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 29.22,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 35.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 52.43,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 81,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 82.49,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 15.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1204.16,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 56.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 4422.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "GPT-6.1 Terra none",
+      "company": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "release_date": "2026-10-26",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Output cost",
+          "score": 5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 30.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 21.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 47.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 67.67,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 76.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 4.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1286.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 51.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 9488.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
       "name": "GPT-6.1 Sol",
       "company": "OpenAI",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
@@ -69,7 +613,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 51.83,
+          "score": 54.51,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -104,7 +648,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1596.2,
+          "score": 1607.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -124,7 +668,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 38128.43,
+          "score": 67823.69,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -194,7 +738,7 @@
         },
         {
           "name": "SAGE",
-          "score": 46.54,
+          "score": 90.49,
           "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
         },
         {
@@ -241,6 +785,36 @@
           "name": "Public Benefits Bench",
           "score": 59.34,
           "source": "https://www.vals.ai/models/openai_gpt-6.1-sol"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 58.6,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 86.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 78,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 4.4,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 55.9,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 57,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -298,7 +872,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 51.04,
+          "score": 52.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -333,7 +907,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1539.11,
+          "score": 1552.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -348,7 +922,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 17618.83,
+          "score": 30241.18,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -407,7 +981,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 50.24,
+          "score": 50.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -442,7 +1016,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1512.41,
+          "score": 1520.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -457,7 +1031,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 13191.87,
+          "score": 22606.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -506,7 +1080,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 47.78,
+          "score": 46.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -541,7 +1115,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1450.23,
+          "score": 1459.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -556,8 +1130,13 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 8069.84,
+          "score": 13518.34,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 52.7,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -595,7 +1174,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 42.08,
+          "score": 34.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -630,7 +1209,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1316.07,
+          "score": 1322.56,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -645,7 +1224,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 3976.7,
+          "score": 5837.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -742,7 +1321,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1508.58,
+          "score": 1516.8,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1014,7 +1593,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1456.64,
+          "score": 1467.11,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1126,7 +1705,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1396.18,
+          "score": 1403.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1238,7 +1817,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1345.53,
+          "score": 1352.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1345,7 +1924,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1196.47,
+          "score": 1201.59,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1432,7 +2011,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1251.29,
+          "score": 1254.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1509,7 +2088,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 38.12,
+          "score": 27.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1544,7 +2123,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1432.79,
+          "score": 1444.72,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1559,7 +2138,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 50011.69,
+          "score": 75296.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1659,7 +2238,7 @@
         },
         {
           "name": "SAGE",
-          "score": 48.09,
+          "score": 83.4,
           "source": "https://www.vals.ai/models/openai_gpt-6-luna"
         },
         {
@@ -1716,6 +2295,11 @@
           "name": "AA-AnalystAgent",
           "score": 43.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 50.9,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -1776,7 +2360,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 34.56,
+          "score": 23.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1811,7 +2395,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1363.44,
+          "score": 1373.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1826,7 +2410,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 27487.1,
+          "score": 43893.21,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1888,7 +2472,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 32.93,
+          "score": 21.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1923,7 +2507,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1342.92,
+          "score": 1352.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1938,7 +2522,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 19703.23,
+          "score": 32839.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2000,7 +2584,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 29.93,
+          "score": 18.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2035,7 +2619,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1262.61,
+          "score": 1270.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2045,7 +2629,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 11456.46,
+          "score": 19823.24,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2107,7 +2691,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 21.53,
+          "score": 9.67,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2142,7 +2726,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1031.95,
+          "score": 1040.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2157,7 +2741,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 2087.22,
+          "score": 3295.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2194,7 +2778,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 18.47,
+          "score": 9.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2229,7 +2813,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1044.56,
+          "score": 1052.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2244,7 +2828,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 3760.54,
+          "score": 10058.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2426,7 +3010,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 52.67,
+          "score": 56.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2476,7 +3060,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1574.46,
+          "score": 1584.4,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2496,7 +3080,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 27205.5,
+          "score": 51973.2,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3178,6 +3762,36 @@
           "name": "ExploitGym",
           "score": 42.4,
           "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 59.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 86.7,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 80.9,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 4.2,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 58.2,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 68.1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -3213,7 +3827,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 52.39,
+          "score": 55.26,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3263,7 +3877,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1556.94,
+          "score": 1569.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3278,7 +3892,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 16901.18,
+          "score": 26723.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3340,7 +3954,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 50.92,
+          "score": 54.85,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3390,7 +4004,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1524.88,
+          "score": 1536.99,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3405,7 +4019,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 11812.81,
+          "score": 23133.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3467,7 +4081,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 49.57,
+          "score": 51.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3517,7 +4131,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1486.8,
+          "score": 1498.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3532,7 +4146,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 9589.6,
+          "score": 18051.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3559,6 +4173,11 @@
           "name": "OSWorld 2.0",
           "score": 69.3,
           "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 57.6,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -3594,7 +4213,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 45.78,
+          "score": 43.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3644,7 +4263,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1390.65,
+          "score": 1403.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -3659,7 +4278,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 4432.75,
+          "score": 9125.81,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4828,7 +5447,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1609.27,
+          "score": 1618.27,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5720,7 +6339,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1568.5,
+          "score": 1577.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5892,7 +6511,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1504.48,
+          "score": 1512.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6064,7 +6683,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1422.33,
+          "score": 1431.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6236,7 +6855,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1303.95,
+          "score": 1313.31,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6373,7 +6992,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1242.98,
+          "score": 1250.38,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6850,7 +7469,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1452.34,
+          "score": 1461.97,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -6947,6 +7566,31 @@
           "name": "AA Output Tokens per Task",
           "score": 38897.46,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 50.7,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 81.7,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 57.1,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 22.3,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 21.5,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -7087,7 +7731,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1447.86,
+          "score": 1455.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7234,7 +7878,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1377.67,
+          "score": 1387.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7376,7 +8020,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1266.18,
+          "score": 1274.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7388,6 +8032,11 @@
           "name": "AA Output Tokens per Task",
           "score": 5477.79,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 42.6,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -7523,7 +8172,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1109.24,
+          "score": 1117.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -7535,6 +8184,11 @@
           "name": "AA Output Tokens per Task",
           "score": 3871.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Error-Inducing Prompts (Internal)",
+          "score": 53.6,
+          "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
         }
       ]
     },
@@ -7640,7 +8294,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1097.21,
+          "score": 1104.94,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8142,7 +8796,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1460.3,
+          "score": 1468.83,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8319,7 +8973,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1400.54,
+          "score": 1408.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8476,7 +9130,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1331.19,
+          "score": 1338.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8633,7 +9287,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1129.26,
+          "score": 1138.33,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8790,7 +9444,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 994.2,
+          "score": 1002.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8932,7 +9586,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 919.67,
+          "score": 928.23,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10181,7 +10835,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1351.1,
+          "score": 1359.62,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10338,7 +10992,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1327.34,
+          "score": 1336.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10470,7 +11124,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1231.93,
+          "score": 1243.45,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10612,7 +11266,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1045.23,
+          "score": 1053.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -10739,7 +11393,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 969.73,
+          "score": 978.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -12008,7 +12662,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1247.36,
+          "score": 1256.1,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -14714,7 +15368,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 825.23,
+          "score": 834.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -16116,7 +16770,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 917.98,
+          "score": 925.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -17049,7 +17703,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 765.59,
+          "score": 773.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -19600,7 +20254,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 269.54,
+          "score": 277.87,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -19908,7 +20562,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -213.9,
+          "score": -205.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -20181,7 +20835,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 607.7,
+          "score": 616.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -20529,7 +21183,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 171.49,
+          "score": 179.82,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -20792,7 +21446,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 339.22,
+          "score": 347.58,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -22443,7 +23097,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -20.75,
+          "score": -12.42,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
