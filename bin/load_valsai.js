@@ -494,6 +494,7 @@ const benchNameFromVals = {
 // When no entry exists, the provider prefix and a trailing date are stripped
 // from the key, and the remainder is compared against our model names.
 const modelNameFromVals = {
+  "kimi/kimi-k3.1-pro": "Kimi K3.1 Pro",
   "minimax/MiniMax-M3.1-flash": "MiniMax M3.1 Flash",
   "deepseek/deepseek-v4.1-flash-1017": "DeepSeek V4.1 Flash 1017",
   "meta/muse-spark-open": "Muse Spark Open",

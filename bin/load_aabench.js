@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Kimi K3.1 Pro": "Kimi K3.1 Pro",
   "MiniMax-M3.1-Flash": "MiniMax M3.1 Flash",
   "DeepSeek V4.1 Flash 1017 (Max)": "DeepSeek V4.1 Flash 1017",
   "Muse Spark Open (Xhigh)": "Muse Spark Open",

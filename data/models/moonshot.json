@@ -1,6 +1,376 @@
 {
   "models": [
     {
+      "name": "Kimi K3.1 Pro",
+      "company": "Moonshot AI",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "release_date": "2026-10-23",
+      "capabilities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 2,
+          "source": "https://platform.kimi.ai/docs/pricing/chat-k3"
+        },
+        {
+          "name": "Output cost",
+          "score": 10,
+          "source": "https://platform.kimi.ai/docs/pricing/chat-k3"
+        },
+        {
+          "name": "Size",
+          "score": 2800,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Active parameters",
+          "score": 104,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 65.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 38.1,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "SWE-Marathon 1.1",
+          "score": 51.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "BenchCAD",
+          "score": 72.8,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "BenchCAD (with tools)",
+          "score": 92.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ProgramBench (Almost Solved)",
+          "score": 31.5,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 75.5,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "PostTrainBench",
+          "score": 36.5,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Kimi Code Bench v2",
+          "score": 77.1,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Kimi Code Bench v3.0 Long-horizon",
+          "score": 61.2,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 70,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 92.1,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "BioMystery Bench",
+          "score": 80.6,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "CharXiv [RQ] (with tools)",
+          "score": 93.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "MMMU-Pro (with tools)",
+          "score": 90,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "GDP.pdf (with tools)",
+          "score": 85.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Chartography (with tools)",
+          "score": 90.2,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "BabyVision (with tools)",
+          "score": 95.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ZeroBench (with tools)",
+          "score": 63,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Agents' Last Exam",
+          "score": 43.2,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Agents' Last Exam (CLI)",
+          "score": 44.2,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 73.3,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1846,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "AA-Briefcase v1.1",
+          "score": 1678,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "APEX-Agents",
+          "score": 67.2,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "OfficeQA Pro v2",
+          "score": 64.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "OfficeQA Pro",
+          "score": 67.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Frontier Finance",
+          "score": 58.6,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Harvey LAB-AA",
+          "score": 23.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "HANDBOOK.md",
+          "score": 44.6,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 79.6,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Business Operation (Internal)",
+          "score": 37.8,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "DECK-Arena (Internal)",
+          "score": 1456,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Design Bench (Internal)",
+          "score": 957,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Kimi Hallu Bench Hard (with tools) (Internal)",
+          "score": 8.3,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "GDP.pdf",
+          "score": 34.6,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 51.1,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Humanity's Last Exam Diamond",
+          "score": 39.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 94.2,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 89,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 84.1,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ZeroBench",
+          "score": 29.8,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ZeroBench (pass@5)",
+          "score": 39,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "PerceptionBench",
+          "score": 68.3,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Kimi Hallu Bench (Internal)",
+          "score": 5.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ExploitBench",
+          "score": 74.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ExploitGym",
+          "score": 20.7,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "xdev-Bench-hard (Internal) (pass@3)",
+          "score": 81,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Financial Modeling (Internal)",
+          "score": 57.6,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Financial Research (Internal)",
+          "score": 70.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 55.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 52.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "SciCode",
+          "score": 60.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LCR",
+          "score": 86.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 83.87,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 24.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": 1845.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 73.3,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AnalystAgent",
+          "score": 38.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 55194.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 62.52,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 37.5,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 11.67,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 24.87,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 84.89,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 63.64,
+          "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        }
+      ]
+    },
+    {
       "name": "Kimi K3",
       "company": "Moonshot AI",
       "url": "https://x.com/Kimi_Moonshot/status/2077830229968683203",
@@ -982,6 +1352,36 @@
           "name": "CharXiv [RQ]",
           "score": 84.8,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Kimi Code Bench v3.0 Long-horizon",
+          "score": 55.95,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Financial Modeling (Internal)",
+          "score": 50.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Financial Research (Internal)",
+          "score": 58.8,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Business Operation (Internal)",
+          "score": 8.9,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Kimi Hallu Bench Hard (with tools) (Internal)",
+          "score": 23.4,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "xdev-Bench-hard (Internal) (pass@3)",
+          "score": 33.3,
+          "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
         }
       ]
     },
