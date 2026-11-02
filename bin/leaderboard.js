@@ -238,47 +238,62 @@ function addCostOfAgent(benchmarks) {
 
 // Calculate "Completion Latency" benchmark
 function addCompletionLatency(benchmarks) {
+  // Average AA Output Tokens per Task across models that report it,
+  // used as the fallback for models missing that benchmark.
+  const tokensPerTaskScores = benchmarks.models
+    .map(m => m.benchmarks.find(b => b.name === 'AA Output Tokens per Task'))
+    .filter(b => b && typeof b.score === 'number')
+    .map(b => b.score);
+  const avgTokensPerTask = tokensPerTaskScores.length > 0
+    ? tokensPerTaskScores.reduce((sum, s) => sum + s, 0) / tokensPerTaskScores.length
+    : MISTRAL_AA_TOKEN_OUTPUT;
+
   benchmarks.models.forEach(model => {
     const aaOutputTokensPerTask = model.benchmarks.find(b =>
       b.name === 'AA Output Tokens per Task'
     );
     const outputSpeed = model.benchmarks.find(b => b.name === 'Output speed');
     const activeParams = model.benchmarks.find(b => b.name === 'Active parameters');
+    let tokensPerTask;
     if (aaOutputTokensPerTask && typeof aaOutputTokensPerTask.score === 'number') {
-      // How many times more tokens does it consume over the Mistral baseline?
-      const consumptionMultiplier = aaOutputTokensPerTask.score / MISTRAL_AA_TOKEN_OUTPUT;
-      // How many output tokens would it consume for the baseline question?
-      const consumedTokens = BASELINE_TOKENS_PER_OUTPUT * consumptionMultiplier;
+      tokensPerTask = aaOutputTokensPerTask.score;
+    } else {
+      tokensPerTask = avgTokensPerTask;
+    }
 
-      let tokensPerSecond = -1;
-      if (outputSpeed && typeof outputSpeed.score === 'number') {
-        tokensPerSecond = outputSpeed.score;
-      } else if (activeParams && typeof activeParams.score === 'number') {
-        // Typical LLM providers intentionally set a high batch size and become CPU-bound,
-        // to maximize batch throughput at the expense of individual request latency.
-        // However, when we don't know the API speed,
-        // let's estimate it on an H100 SXM in memory-bound regime in FP16.
-        const memoryBandwidth = 3.35e12; // bytes per second, cf. https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet?ncid=no-ncid
-        const weightTransferSize = activeParams.score * 1e9 * 2; // bytes per token (in FP16, 2 bytes per parameter)
-        tokensPerSecond = memoryBandwidth / weightTransferSize;
-        // Add the output speed.
-        model.benchmarks.push({
-          name: 'Output speed',
-          score: tokensPerSecond,
-          source: 'Estimated from Active Parameters and H100 SXM Memory Bandwidth',
-          stdDev: 0
-        });
-      }
+    // How many times more tokens does it consume over the Mistral baseline?
+    const consumptionMultiplier = tokensPerTask / MISTRAL_AA_TOKEN_OUTPUT;
+    // How many output tokens would it consume for the baseline question?
+    const consumedTokens = BASELINE_TOKENS_PER_OUTPUT * consumptionMultiplier;
 
-      if (tokensPerSecond > 0) {
-        const latency = consumedTokens / tokensPerSecond;
-        model.benchmarks.push({
-          name: 'Completion Latency',
-          score: latency,
-          source: 'Calculated from AA Output Tokens per Task and Active Parameters',
-          stdDev: 0
-        });
-      }
+    let tokensPerSecond = -1;
+    if (outputSpeed && typeof outputSpeed.score === 'number') {
+      tokensPerSecond = outputSpeed.score;
+    } else if (activeParams && typeof activeParams.score === 'number') {
+      // Typical LLM providers intentionally set a high batch size and become CPU-bound,
+      // to maximize batch throughput at the expense of individual request latency.
+      // However, when we don't know the API speed,
+      // let's estimate it on an H100 SXM in memory-bound regime in FP16.
+      const memoryBandwidth = 3.35e12; // bytes per second, cf. https://resources.nvidia.com/en-us-hopper-architecture/nvidia-tensor-core-gpu-datasheet?ncid=no-ncid
+      const weightTransferSize = activeParams.score * 1e9 * 2; // bytes per token (in FP16, 2 bytes per parameter)
+      tokensPerSecond = memoryBandwidth / weightTransferSize;
+      // Add the output speed.
+      model.benchmarks.push({
+        name: 'Output speed',
+        score: tokensPerSecond,
+        source: 'Estimated from Active Parameters and H100 SXM Memory Bandwidth',
+        stdDev: 0
+      });
+    }
+
+    if (tokensPerSecond > 0) {
+      const latency = consumedTokens / tokensPerSecond;
+      model.benchmarks.push({
+        name: 'Completion Latency',
+        score: latency,
+        source: 'Calculated from AA Output Tokens per Task and Active Parameters',
+        stdDev: 0
+      });
     }
   });
 
