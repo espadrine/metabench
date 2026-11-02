@@ -28,7 +28,7 @@
         },
         {
           "name": "AIME 2025",
-          "score": 97.0,
+          "score": 97,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "name": "Terminal-Bench 2.0",
-          "score": 46.0,
+          "score": 46,
           "source": "https://microsoft.ai/pdf/mai-thinking-1.pdf"
         },
         {
@@ -181,7 +181,7 @@
         },
         {
           "name": "IFBench",
-          "score": 75.0,
+          "score": 75,
           "source": "https://microsoft.ai/news/introducingmai-code-1-flash/"
         },
         {

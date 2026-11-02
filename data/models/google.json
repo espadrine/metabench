@@ -146,7 +146,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1733.07,
+          "score": 1732.68,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -372,7 +372,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1631.09,
+          "score": 1630.66,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -770,7 +770,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1445.4,
+          "score": 1445.43,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1123,7 +1123,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1432.16,
+          "score": 1431.32,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1236,7 +1236,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1316.57,
+          "score": 1316.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1484,7 +1484,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1403.36,
+          "score": 1402.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1817,7 +1817,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1367.32,
+          "score": 1366.98,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1920,7 +1920,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1327.42,
+          "score": 1327.19,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2173,7 +2173,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1295.14,
+          "score": 1294.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2601,7 +2601,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 994.93,
+          "score": 994.52,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2733,6 +2733,316 @@
           "name": "FrontierCode 2.0",
           "score": 6.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MME",
+          "score": 89.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 73.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 56.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SEED-Bench (image)",
+          "score": 79.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMBenchEN-DEV-v1.1",
+          "score": 88.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 72,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 63.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM-Vet (v1)",
+          "score": 73.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM IFEval",
+          "score": 73.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MUIRBENCH",
+          "score": 72.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "BLINK",
+          "score": 68.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CountBenchQA",
+          "score": 90.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 65.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 89.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "PerceptionBench",
+          "score": 37.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HR-Bench (4k)",
+          "score": 79.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HR-Bench (8k)",
+          "score": 75.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ZoomBench (full + crop average)",
+          "score": 65,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "V*",
+          "score": 74.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 74.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CV-Bench",
+          "score": 82.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "DocVQA",
+          "score": 96.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "TextVQA",
+          "score": 88.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OCRBench",
+          "score": 87.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OCRBenchV2 (en)",
+          "score": 55.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ChartQA",
+          "score": 88.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "InfographicVQA (val)",
+          "score": 84,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CharXiv [PQ]",
+          "score": 88.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 69.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "LogicVista",
+          "score": 57,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 57.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MathVista mini",
+          "score": 77.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "We-Math",
+          "score": 59.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "DynaMath",
+          "score": 82.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefCOCO(avg)",
+          "score": 81.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefCOCO-M",
+          "score": 87.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Point-Bench",
+          "score": 51.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefSpatialBench",
+          "score": 33.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 75.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 50.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MindCube (tinybench)",
+          "score": 37.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SAT (val + test)",
+          "score": 62.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RoboSpatialHome",
+          "score": 41.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Where2Place",
+          "score": 21,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OpenEQA (episodic memory, video)",
+          "score": 77.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "VSI-Bench",
+          "score": 36.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 39.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Desktop",
+          "score": 86.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Mobile",
+          "score": 80,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Web",
+          "score": 78.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MVBench",
+          "score": 64.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ActivityNet-QA (test)",
+          "score": 65.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "LVBench",
+          "score": 58.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MLVU (M-Avg)",
+          "score": 78.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMVU",
+          "score": 76.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MotionBench",
+          "score": 61,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 74,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MME (w/ sub)",
+          "score": 77.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 73.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMB",
+          "score": 85.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Multilingual MMBench",
+          "score": 86.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM-ToolSandbox (partial credit)",
+          "score": 62.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
         }
       ]
     },
@@ -2920,7 +3230,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 328.89,
+          "score": 328.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -3047,6 +3357,316 @@
           "name": "MRCR v2: 8-needle 128K",
           "score": 43.4,
           "source": "https://ai.google.dev/gemma/docs/core/model_card_4"
+        },
+        {
+          "name": "MME",
+          "score": 85.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 77.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 42.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SEED-Bench (image)",
+          "score": 80.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMBenchEN-DEV-v1.1",
+          "score": 88.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 76.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 69.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM-Vet (v1)",
+          "score": 64.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM IFEval",
+          "score": 83,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MUIRBENCH",
+          "score": 71.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "BLINK",
+          "score": 70.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CountBenchQA",
+          "score": 95.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 68.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 87.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "PerceptionBench",
+          "score": 43.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HR-Bench (4k)",
+          "score": 77.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HR-Bench (8k)",
+          "score": 70.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ZoomBench (full + crop average)",
+          "score": 59.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "V*",
+          "score": 69.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 76.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CV-Bench",
+          "score": 87.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "DocVQA",
+          "score": 97,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "TextVQA",
+          "score": 88.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OCRBench",
+          "score": 81.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OCRBenchV2 (en)",
+          "score": 67.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ChartQA",
+          "score": 89.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "InfographicVQA (val)",
+          "score": 89.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CharXiv [PQ]",
+          "score": 95.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 77.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "LogicVista",
+          "score": 76.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 73.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MathVista mini",
+          "score": 80.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "We-Math",
+          "score": 78.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "DynaMath",
+          "score": 87.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefCOCO(avg)",
+          "score": 82.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefCOCO-M",
+          "score": 88.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Point-Bench",
+          "score": 73.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefSpatialBench",
+          "score": 51.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 80.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 59.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MindCube (tinybench)",
+          "score": 54.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SAT (val + test)",
+          "score": 74.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RoboSpatialHome",
+          "score": 66.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Where2Place",
+          "score": 49,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OpenEQA (episodic memory, video)",
+          "score": 56.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "VSI-Bench",
+          "score": 31.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 25.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Desktop",
+          "score": 93.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Mobile",
+          "score": 93,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Web",
+          "score": 92.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MVBench",
+          "score": 54.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ActivityNet-QA (test)",
+          "score": 57.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "LVBench",
+          "score": 36.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MLVU (M-Avg)",
+          "score": 53.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMVU",
+          "score": 65.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MotionBench",
+          "score": 53.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 62.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MME (w/ sub)",
+          "score": 73.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 72.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMB",
+          "score": 86.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Multilingual MMBench",
+          "score": 85.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM-ToolSandbox (partial credit)",
+          "score": 43.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
         }
       ]
     },
@@ -3243,7 +3863,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1211.87,
+          "score": 1211.55,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5142,7 +5762,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 573.29,
+          "score": 572.9,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5351,7 +5971,7 @@
           "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
         },
         {
-          "name": "SWE-bench Verified (OpenCode)",
+          "name": "SWE-bench Verified",
           "score": 25.8,
           "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
         },
@@ -5727,7 +6347,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -28.98,
+          "score": -29.37,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -5739,6 +6359,326 @@
           "name": "AA Output Tokens per Task",
           "score": 8996.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LiveClawBench",
+          "score": 20.36,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "Claw-Eval average (EN)",
+          "score": 56.14,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 22.43,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "BrowseComp-Plus (OpenClaw subset)",
+          "score": 21,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "WebArena-Verified",
+          "score": 17.06,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "EnterpriseOps-Gym",
+          "score": 9.86,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 1.92,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 48.25,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "ToolSandbox",
+          "score": 69.27,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "MCP-Atlas",
+          "score": 6.19,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 33.53,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 0.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "SWE-bench Multilingual",
+          "score": 0.67,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "Terminal-Bench 2.1 (OpenCode)",
+          "score": 0,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 71,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "LiveCodeBench Pro",
+          "score": 29.94,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "SciCode",
+          "score": 25,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "IFEval",
+          "score": 90.02,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "IFBench",
+          "score": 44.56,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "IFStruct",
+          "score": 78.45,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "Multi-IF",
+          "score": 81.03,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 57.88,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 4.77,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "Humanity's Last Exam (with tools)",
+          "score": 6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 9.83,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 72.09,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 39.33,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "RULER 128K",
+          "score": 18.82,
+          "source": "https://huggingface.co/LiquidAI/LFM3-1.7B"
+        },
+        {
+          "name": "English ASR WER",
+          "score": 7.82,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "Multilingual ASR WER / CER",
+          "score": 6.54,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "VoiceBench",
+          "score": 72.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "Tool calling (internal eval)",
+          "score": 72.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "MMAR",
+          "score": 49.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "DailyOmni",
+          "score": 54.14,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "WorldSense",
+          "score": 43.51,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "AV-SpeakerBench",
+          "score": 36.36,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "OmniBench (overall)",
+          "score": 20.67,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "OmniBench (speech)",
+          "score": 21.27,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 49.02,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 44.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 77.82,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 32.12,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 54.01,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 59.33,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 54.76,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 27.63,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMBench",
+          "score": 82.73,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "SEED-Bench (image)",
+          "score": 72.24,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 64.84,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MathVista mini",
+          "score": 65.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 83.34,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "DocVQA",
+          "score": 92.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "InfoVQA",
+          "score": 65.98,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "OCRBench",
+          "score": 795,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MVBench",
+          "score": 52.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 53.44,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 35.75,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 57.83,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RoboSpatialHome",
+          "score": 41.14,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "English ASR WER",
+          "score": 7.82,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "Multilingual ASR WER / CER",
+          "score": 6.54,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "VoiceBench",
+          "score": 72.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "Tool calling (internal eval)",
+          "score": 72.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMAR",
+          "score": 49.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
         }
       ]
     },
@@ -6097,8 +7037,503 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -180.24,
+          "score": -180.63,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "MME",
+          "score": 79.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 61.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SimpleVQA",
+          "score": 28.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SEED-Bench (image)",
+          "score": 75.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMBenchEN-DEV-v1.1",
+          "score": 70.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 57.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 42.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM-Vet (v1)",
+          "score": 44.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM IFEval",
+          "score": 61.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MUIRBENCH",
+          "score": 47.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "BLINK",
+          "score": 52.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CountBenchQA",
+          "score": 78.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HallusionBench",
+          "score": 56.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 84.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "PerceptionBench",
+          "score": 28.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HR-Bench (4k)",
+          "score": 65.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "HR-Bench (8k)",
+          "score": 57,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ZoomBench (full + crop average)",
+          "score": 43.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "V*",
+          "score": 44.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 61.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CV-Bench",
+          "score": 77.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "DocVQA",
+          "score": 90.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "TextVQA",
+          "score": 80.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OCRBench",
+          "score": 71.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OCRBenchV2 (en)",
+          "score": 51.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ChartQA",
+          "score": 82.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "InfographicVQA (val)",
+          "score": 71.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CharXiv [PQ]",
+          "score": 85,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "CharXiv [RQ]",
+          "score": 46.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "LogicVista",
+          "score": 48.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MATH-Vision",
+          "score": 40.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MathVista mini",
+          "score": 62.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "We-Math",
+          "score": 44.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "DynaMath",
+          "score": 63.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefCOCO(avg)",
+          "score": 68,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefCOCO-M",
+          "score": 76.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Point-Bench",
+          "score": 14.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RefSpatialBench",
+          "score": 6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 67.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 37.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MindCube (tinybench)",
+          "score": 37.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "SAT (val + test)",
+          "score": 59,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "RoboSpatialHome",
+          "score": 46.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Where2Place",
+          "score": 18.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "OpenEQA (episodic memory, video)",
+          "score": 43.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "VSI-Bench",
+          "score": 21.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-Pro",
+          "score": 1.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Desktop",
+          "score": 52.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Mobile",
+          "score": 71.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ScreenSpot-v2 Web",
+          "score": 52.9,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MVBench",
+          "score": 45.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "ActivityNet-QA (test)",
+          "score": 47.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "LVBench",
+          "score": 27.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MLVU (M-Avg)",
+          "score": 45.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMVU",
+          "score": 47.7,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MotionBench",
+          "score": 41.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 48.4,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MME (w/ sub)",
+          "score": 59.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Video-MMMU",
+          "score": 57.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MMMB",
+          "score": 78.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "Multilingual MMBench",
+          "score": 68,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "MM-ToolSandbox (partial credit)",
+          "score": 23.8,
+          "source": "https://huggingface.co/LiquidAI/LFM3-VL-2B"
+        },
+        {
+          "name": "English ASR WER",
+          "score": 8.26,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "Multilingual ASR WER / CER",
+          "score": 8.08,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "VoiceBench",
+          "score": 63.28,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "Tool calling (internal eval)",
+          "score": 55.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "MMAR",
+          "score": 44.49,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Audio-2B"
+        },
+        {
+          "name": "DailyOmni",
+          "score": 50.63,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "WorldSense",
+          "score": 38.11,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "AV-SpeakerBench",
+          "score": 32.32,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "OmniBench (overall)",
+          "score": 16.81,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "OmniBench (speech)",
+          "score": 16.08,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 39.35,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 38.87,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 74.2,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 20.63,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 44.08,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMStar",
+          "score": 52,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMMU (validation)",
+          "score": 43.14,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMMU-Pro",
+          "score": 28.67,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMBench",
+          "score": 73.54,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "SEED-Bench (image)",
+          "score": 74.78,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RealWorldQA",
+          "score": 53.07,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MathVista mini",
+          "score": 54.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "POPE",
+          "score": 81.24,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "DocVQA",
+          "score": 77.91,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "InfoVQA",
+          "score": 48.3,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "OCRBench",
+          "score": 761,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RefCOCO",
+          "score": 63.36,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MVBench",
+          "score": 47.1,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "Video-MME (w/o sub)",
+          "score": 52.44,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "ERQA",
+          "score": 34.5,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "EmbSpatialBench",
+          "score": 62.28,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "RoboSpatialHome",
+          "score": 38.29,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "English ASR WER",
+          "score": 8.26,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "Multilingual ASR WER / CER",
+          "score": 8.08,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "VoiceBench",
+          "score": 63.28,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "Tool calling (internal eval)",
+          "score": 55.6,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
+        },
+        {
+          "name": "MMAR",
+          "score": 44.49,
+          "source": "https://huggingface.co/LiquidAI/LFM3-Omni-2B"
         }
       ]
     },
@@ -6325,7 +7760,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 438.32,
+          "score": 437.92,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -8163,7 +9598,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 799.27,
+          "score": 798.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -10361,7 +11796,7 @@
           "source": "https://www.anthropic.com/news/claude-sonnet-4-6"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
+          "name": "SWE-bench Verified",
           "score": 78,
           "source": "https://www.minimax.io/news/minimax-m25"
         },
@@ -12088,7 +13523,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 463.46,
+          "score": 463.07,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13413,7 +14848,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -400.51,
+          "score": -400.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -13620,7 +15055,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": -400.75,
+          "score": -401.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

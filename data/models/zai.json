@@ -114,7 +114,7 @@
         },
         {
           "name": "ArtificialAnalysis Intelligence Index",
-          "score": 41.81,
+          "score": 27.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -184,7 +184,7 @@
         },
         {
           "name": "AA Output Tokens per Task",
-          "score": 68673.15,
+          "score": 134204.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -340,6 +340,11 @@
         {
           "name": "Terminal-Bench-Science 0.1",
           "score": 4.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 17.61,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -527,7 +532,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1657.93,
+          "score": 1656.88,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1740,7 +1745,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1382.01,
+          "score": 1381.49,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2613,7 +2618,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1125.57,
+          "score": 1125.15,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4062,7 +4067,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1021.8,
+          "score": 1021.39,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4615,7 +4620,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 764.16,
+          "score": 763.76,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {

@@ -145,7 +145,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1465.71,
+          "score": 1465.36,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -533,7 +533,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1250.39,
+          "score": 1249.95,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1196,7 +1196,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1016.54,
+          "score": 1016.14,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1358,7 +1358,7 @@
           "source": "https://artificialanalysis.ai/"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
+          "name": "SWE-bench Verified",
           "score": 80.2,
           "source": "https://www.minimax.io/news/minimax-m25"
         },
@@ -1906,7 +1906,7 @@
           "source": "https://qwen.ai/blog?id=qwen3-coder-next"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
+          "name": "SWE-bench Verified",
           "score": 74,
           "source": "https://www.minimax.io/news/minimax-m25"
         },

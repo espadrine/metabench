@@ -320,7 +320,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1845.72,
+          "score": 1858.05,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -1565,7 +1565,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1046.41,
+          "score": 1046.01,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -2580,7 +2580,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 1046.93,
+          "score": 1046.53,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4290,7 +4290,7 @@
         },
         {
           "name": "GDPval-AA",
-          "score": 847.04,
+          "score": 846.64,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         },
         {
@@ -4527,7 +4527,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
+          "name": "SWE-bench Verified",
           "score": 71.3,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
@@ -5344,7 +5344,7 @@
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },
         {
-          "name": "SWE-bench Verified (with tools)",
+          "name": "SWE-bench Verified",
           "score": 69.2,
           "source": "https://moonshotai.github.io/Kimi-K2/thinking.html"
         },

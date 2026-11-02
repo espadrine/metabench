@@ -595,7 +595,6 @@ const categoryBenchmarks = {
     'Multi-SWE-bench': 8,
     'SWE-bench Multilingual (with tools)': 5,
     'SWE-bench Multilingual': 9,
-    'SWE-bench Verified (with tools)': 6,
     'SWE-bench Verified': 10,
     'SWE-bench': 2,
     'Aider': 2,
