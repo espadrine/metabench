@@ -494,6 +494,7 @@ const benchNameFromVals = {
 // When no entry exists, the provider prefix and a trailing date are stripped
 // from the key, and the remainder is compared against our model names.
 const modelNameFromVals = {
+  "google/gemini-4-carbon": "Gemini 4 Carbon",
   "openai/gpt-6.1-terra": "GPT-6.1 Terra",
   "kimi/kimi-k3.1-pro": "Kimi K3.1 Pro",
   "minimax/MiniMax-M3.1-flash": "MiniMax M3.1 Flash",
@@ -535,7 +536,7 @@ const modelNameFromVals = {
   "fireworks/deepseek-v3p1": "DeepSeek V3.1",
   "deepseek/deepseek-v4-pro-0813": "DeepSeek V4 Pro Max 0813",
   "deepseek/deepseek-v4-flash-0731": "DeepSeek V4 Flash Max 0731",
-  "mistralai/mistral-large-2512": "Mistral Large 4",
+  "mistralai/mistral-large-4": "Mistral Large 4",
   "mistralai/mistral-large-2512": "Mistral Large 3",
   "mistralai/mistral-large-2411": "Pixtral Large",
   "mistralai/mistral-medium-2505": "Mistral Medium 3",

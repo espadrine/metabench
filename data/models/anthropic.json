@@ -2451,6 +2451,36 @@
           "name": "Terminal-Bench-Science 0.1",
           "score": 63.3,
           "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "SWE-sweep",
+          "score": 3.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Agents' Last Exam v1.1",
+          "score": 71.6,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 9235,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Blueprint-Bench 2",
+          "score": 51.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 59,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 70.2,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
         }
       ]
     },
@@ -3645,6 +3675,36 @@
           "name": "ExploitGym",
           "score": 30.4,
           "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "SWE-sweep",
+          "score": 2.9,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "OSWorld 2.1",
+          "score": 76.8,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 5422,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Blueprint-Bench 2",
+          "score": 41.9,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 43.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 49,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
         }
       ]
     },

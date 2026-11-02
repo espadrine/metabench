@@ -3792,6 +3792,41 @@
           "name": "Terminal-Bench-Science 0.1",
           "score": 68.1,
           "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "SWE-sweep",
+          "score": 9.5,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Agents' Last Exam v1.1",
+          "score": 73.1,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "VendingBench 2",
+          "score": 15515,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Blueprint-Bench 2",
+          "score": 49.7,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 57,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Vals Index",
+          "score": 65,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 63.3,
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
         }
       ]
     },

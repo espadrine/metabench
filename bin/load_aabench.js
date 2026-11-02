@@ -469,6 +469,7 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Gemini 4 Carbon (High)": "Gemini 4 Carbon",
   "GPT-6.1 Terra (Max)": "GPT-6.1 Terra",
   "GPT-6.1 Terra (Xhigh)": "GPT-6.1 Terra xhigh",
   "GPT-6.1 Terra (High)": "GPT-6.1 Terra high",
@@ -490,7 +491,7 @@ const modelNameFromAA = {
   "Claude Haiku 5.5 (High)": "Claude Haiku 5.5 high",
   "Claude Haiku 5.5 (Medium)": "Claude Haiku 5.5 medium",
   "Claude Haiku 5.5 (Low)": "Claude Haiku 5.5 low",
-  "Mistral Large 4 Preview": "Mistral Large 4",
+  "Mistral Large 4 Preview": "Mistral Large 4 Preview",
   "Gemini 4 Argon (High)": "Gemini 4 Argon",
   "GPT-6.1 Sol (Max)": "GPT-6.1 Sol",
   "GPT-6.1 Sol (Xhigh)": "GPT-6.1 Sol xhigh",
