@@ -124,6 +124,134 @@
       ]
     },
     {
+      "name": "Mercury 3",
+      "company": "Other",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "release_date": "2026-10-19",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.2,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "Output cost",
+          "score": 0.7,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "Output speed",
+          "score": 1068,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1237.2,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 30.24,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 60.35,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 46.44,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "IFBench",
+          "score": 76.84,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 89.23,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 77.67,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 75.5,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 51.08,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 46.31,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "BrowseComp+",
+          "score": 55.18,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 71.33,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "Mind2Web",
+          "score": 50,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "Vals Index",
+          "score": 43.66,
+          "source": "https://www.vals.ai/models/inception_mercury-3"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 28.85,
+          "source": "https://www.vals.ai/models/inception_mercury-3"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 5,
+          "source": "https://www.vals.ai/models/inception_mercury-3"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 18.17,
+          "source": "https://www.vals.ai/models/inception_mercury-3"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 60.93,
+          "source": "https://www.vals.ai/models/inception_mercury-3"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 3.03,
+          "source": "https://www.vals.ai/models/inception_mercury-3"
+        }
+      ]
+    },
+    {
       "name": "Recursive Flint",
       "company": "Other",
       "url": "https://recursive.com/updates/introducing-recursive-flint",

@@ -161,7 +161,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 70.36,
+          "score": 70.45,
           "source": "https://www.vals.ai/models/google_gemini-4-carbon"
         },
         {
@@ -176,7 +176,7 @@
         },
         {
           "name": "Tax Agent Bench",
-          "score": 48.86,
+          "score": 51.79,
           "source": "https://www.vals.ai/models/google_gemini-4-carbon"
         },
         {

@@ -673,6 +673,66 @@
           "name": "FrontierCode 2.0",
           "score": 16.09,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1225,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 13.06,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 52.48,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 37.22,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "IFBench",
+          "score": 54.65,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.51,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 74.7,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 78.4,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 32.26,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 51.62,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "BrowseComp+",
+          "score": 45.78,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 65.22,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
         }
       ]
     },

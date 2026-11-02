@@ -494,6 +494,7 @@ const benchNameFromVals = {
 // When no entry exists, the provider prefix and a trailing date are stripped
 // from the key, and the remainder is compared against our model names.
 const modelNameFromVals = {
+  "inception/mercury-3": "Mercury 3",
   "google/gemini-4-carbon": "Gemini 4 Carbon",
   "openai/gpt-6.1-terra": "GPT-6.1 Terra",
   "kimi/kimi-k3.1-pro": "Kimi K3.1 Pro",

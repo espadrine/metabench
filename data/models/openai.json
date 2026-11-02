@@ -104,7 +104,7 @@
         },
         {
           "name": "Vals Index",
-          "score": 60.47,
+          "score": 60.54,
           "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
         },
         {
@@ -119,7 +119,7 @@
         },
         {
           "name": "Tax Agent Bench",
-          "score": 15.17,
+          "score": 17.08,
           "source": "https://www.vals.ai/models/openai_gpt-6.1-terra"
         },
         {
@@ -2916,6 +2916,66 @@
           "name": "FrontierCode 2.0",
           "score": 12.77,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA v2",
+          "score": 1204,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 23,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 51.49,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 46.94,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "IFBench",
+          "score": 61.82,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 86.36,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 78.3,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "MRCR v2: 8-needle 1M",
+          "score": 62.72,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 33.33,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 37.76,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "BrowseComp+",
+          "score": 50.5,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+        },
+        {
+          "name": "DeepSearchQA",
+          "score": 60,
+          "source": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
         }
       ]
     },
