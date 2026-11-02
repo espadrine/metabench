@@ -1513,6 +1513,101 @@
           "name": "IFEval",
           "score": 94.7,
           "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 61.8,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.6,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "DeepSWE",
+          "score": 4.4,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 51.2,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "SWE-Atlas-QnA",
+          "score": 17.7,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "NL2Repo",
+          "score": 27.4,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.9,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "SkillsBench",
+          "score": 39.7,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "Automation Bench",
+          "score": 15.2,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "JobBench",
+          "score": 16.6,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "GDPval",
+          "score": 75.8,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "Claw-Eval (pass^3)",
+          "score": 57.3,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "Toolathlon-Verified",
+          "score": 47.2,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "DeepPlanning",
+          "score": 21.4,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "EnterpriseOps-Gym",
+          "score": 30.5,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "τ³-Bench",
+          "score": 33.7,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.5,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 94.7,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 83.3,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
         }
       ]
     },
