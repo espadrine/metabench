@@ -441,6 +441,21 @@
           "name": "xdev-Bench-hard (Internal) (pass@3)",
           "score": 85.7,
           "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 33.84,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 12.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 28.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -955,6 +970,16 @@
           "name": "CharXiv [RQ]",
           "score": 69,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 26.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 9.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1133,6 +1158,11 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 69174.13,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 12.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1562,6 +1592,21 @@
           "name": "SRE-Bench",
           "score": 1.91,
           "source": "https://www.vals.ai/models/deepseek_deepseek-v4-pro-0813"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 14.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 5.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 17.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2030,6 +2075,11 @@
           "name": "CyberBench",
           "score": 72.08,
           "source": "https://www.vals.ai/models/deepseek_deepseek-v4-flash-0731"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 12.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2828,6 +2878,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 67.9,
           "source": "https://mimo.xiaomi.com/mimo-v2-5-pro/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 14.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3952,6 +4007,11 @@
           "name": "AA Output Tokens per Task",
           "score": 55148.22,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 2.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -4325,6 +4385,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 56.9,
           "source": "https://mimo.xiaomi.com/mimo-v2-5/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 3.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

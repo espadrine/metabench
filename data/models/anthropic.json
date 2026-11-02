@@ -376,6 +376,21 @@
           "name": "AA-AnalystAgent",
           "score": 53.75,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 32.83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 20,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 34.93,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -454,6 +469,21 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 136176.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 29.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 18.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 29.93,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -534,6 +564,21 @@
           "name": "AA Output Tokens per Task",
           "score": 88064.35,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 21.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 10,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 23.2,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -613,6 +658,21 @@
           "name": "AA Output Tokens per Task",
           "score": 53335.12,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 15.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 7.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 16.09,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -691,6 +751,21 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 28160.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 12.63,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 1.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 8.04,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1206,6 +1281,21 @@
           "name": "Terminal-Bench 4.0",
           "score": 70.6,
           "source": "https://openai.com/index/introducing-gpt-6-1-terra/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 63.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 53.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 41.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1320,6 +1410,21 @@
           "name": "LMArena Text",
           "score": 1476,
           "source": "https://lmarena.ai/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 52.38,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 35.65,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1398,6 +1503,21 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 58421.21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 43.94,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 34.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 25.74,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1478,6 +1598,21 @@
           "name": "AA Output Tokens per Task",
           "score": 30745.89,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 29.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 16.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 10.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1556,6 +1691,21 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 20856.37,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 20.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 10.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 7.13,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -2481,6 +2631,21 @@
           "name": "Vals Index",
           "score": 70.2,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 59.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 59.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 46.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3705,6 +3870,21 @@
           "name": "ArtificialAnalysis Intelligence Index",
           "score": 49,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 52.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 43.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 31.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5253,6 +5433,16 @@
           "name": "CharXiv [RQ]",
           "score": 83.7,
           "source": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 48.99,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 28.57,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5442,6 +5632,11 @@
           "name": "OSWorld 2.0",
           "score": 70.1,
           "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 46.46,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5631,6 +5826,11 @@
           "name": "OSWorld 2.0",
           "score": 65.9,
           "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 45.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5810,6 +6010,11 @@
           "name": "Agents' Last Exam",
           "score": 53,
           "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 34.34,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -5984,6 +6189,11 @@
           "name": "OSWorld 2.0",
           "score": 55.2,
           "source": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 26.26,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -6963,6 +7173,11 @@
           "name": "Public Benefits Bench",
           "score": 66.04,
           "source": "https://www.vals.ai/models/anthropic_claude-sonnet-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 14.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -8976,6 +9191,11 @@
           "name": "Public Benefits Bench",
           "score": 70.43,
           "source": "https://www.vals.ai/models/anthropic_claude-fable-5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 42.42,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -10200,6 +10420,11 @@
           "name": "Toolathlon (pass^3)",
           "score": 71.3,
           "source": "https://www-cdn.anthropic.com/870c8f525702625d2c62fc6dd04c857e3250bec1/Claude%20Sonnet%205.5%20System%20Card.pdf"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 21.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -12125,6 +12350,11 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 74917.41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 3.03,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]

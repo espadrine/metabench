@@ -251,6 +251,21 @@
           "name": "AA-AnalystAgent",
           "score": 52.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 25.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 28.66,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -625,6 +640,16 @@
           "name": "Public Benefits Bench",
           "score": 66.85,
           "source": "https://www.vals.ai/models/grok_grok-4.6"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 21.21,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 6.19,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1039,6 +1064,11 @@
           "name": "Time Horizon Index: KSP",
           "score": 6.33,
           "source": "https://www.vals.ai/models/grok_grok-4.5"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 10.61,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

@@ -193,6 +193,21 @@
           "name": "Vals Index",
           "score": 70.4,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 65.15,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 64.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 40.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -574,6 +589,21 @@
           "name": "Vals Index",
           "score": 69.2,
           "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 52.86,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 25.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -992,6 +1022,21 @@
           "name": "AA-AnalystAgent",
           "score": 46.25,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 19.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 10,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 18.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1090,6 +1135,21 @@
           "name": "AA Output Tokens per Task",
           "score": 82068.02,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 19.7,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 10.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 16.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1182,6 +1242,21 @@
         {
           "name": "AA-AutomationBench Partial Score",
           "score": 36.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 10.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 8.1,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 8.06,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1641,6 +1716,11 @@
           "name": "SRE-Bench",
           "score": 4.58,
           "source": "https://www.vals.ai/models/google_gemini-3.7-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 13.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2235,6 +2315,11 @@
           "name": "Public Benefits Bench",
           "score": 56.56,
           "source": "https://www.vals.ai/models/google_gemini-3.6-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 7.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2638,6 +2723,16 @@
           "name": "Public Benefits Bench",
           "score": 51.83,
           "source": "https://www.vals.ai/models/google_gemini-3.5-flash-lite"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 6.03,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3174,6 +3269,11 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 54642.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 6.57,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -6357,6 +6457,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 24.72,
           "source": "https://www.vals.ai/models/google_gemini-3.1-flash-lite-preview"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -8330,6 +8435,11 @@
           "name": "Public Benefits Bench",
           "score": 53.79,
           "source": "https://www.vals.ai/models/google_gemini-3.1-pro-preview"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 4.04,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

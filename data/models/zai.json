@@ -331,6 +331,16 @@
           "name": "SAGE",
           "score": 89.26,
           "source": "https://www.vals.ai/models/zai_glm-5.3-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 32.83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1104,6 +1114,21 @@
           "name": "xdev-Bench-hard (Internal) (pass@3)",
           "score": 57.1,
           "source": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 41.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 9.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 21.59,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1832,6 +1857,11 @@
           "name": "LiveCodeBench",
           "score": 69.5,
           "source": "https://www.vals.ai/models/zai_glm-5.2"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2725,6 +2755,11 @@
           "name": "Public Benefits Bench",
           "score": 61.84,
           "source": "https://www.vals.ai/models/zai_glm-5.1"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 2.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

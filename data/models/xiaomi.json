@@ -298,6 +298,21 @@
           "name": "AA-AnalystAgent",
           "score": 37.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 34.85,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 5.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 23.97,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -589,6 +604,21 @@
           "name": "Public Benefits Bench",
           "score": 67.59,
           "source": "https://www.vals.ai/models/xiaomi_mimo-v2.6-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 22.73,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 21.62,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

@@ -192,6 +192,21 @@
           "name": "SAGE",
           "score": 85.26,
           "source": "https://www.vals.ai/models/minimax_MiniMax-M3.1-flash"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 25.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 3.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 20.82,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -690,6 +705,21 @@
           "name": "SWE-bench Multimodal",
           "score": 33.33,
           "source": "https://www.vals.ai/models/minimax_MiniMax-M3"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 2.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 0.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 21.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

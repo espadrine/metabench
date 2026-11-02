@@ -130,6 +130,11 @@
           "name": "AA Output Tokens per Task",
           "score": 18355.29,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -324,6 +329,11 @@
           "name": "Terminal-Bench 2.1",
           "score": 17.6,
           "source": "https://www.vals.ai/models/cohere_command-a-plus-05-2026"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

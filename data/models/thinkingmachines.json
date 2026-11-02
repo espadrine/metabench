@@ -447,6 +447,16 @@
           "name": "Public Benefits Bench",
           "score": 59.41,
           "source": "https://www.vals.ai/models/thinkingmachines_inkling-small"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 4.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1102,6 +1112,16 @@
           "name": "StrongREJECT v2 (adaptive)",
           "score": 86.4,
           "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 3.92,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     }

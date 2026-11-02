@@ -3,6 +3,224 @@
     {
       "name": "Mistral Large 4",
       "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "release_date": "2026-10-29",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.7,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.1,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "Size",
+          "score": 1000,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 52,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 26,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "ArtificialAnalysis Coding Agent Index",
+          "score": 48,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 41,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.3,
+          "source": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 19.7,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "ArtificialAnalysis Cyber Index",
+          "score": 51,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "Cyber malicious request refusal rate",
+          "score": 96.6,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "FinWorkBench (Finch)",
+          "score": 73.3,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 84.5,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "B3",
+          "score": 97.1,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 26.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 10,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 57.83,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 81950.74,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Vals Index",
+          "score": 56.42,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4-oss"
+        },
+        {
+          "name": "Legal Research Bench",
+          "score": 35.58,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4-oss"
+        },
+        {
+          "name": "Harvey LAB (Vals)",
+          "score": 15.83,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4-oss"
+        },
+        {
+          "name": "Tax Agent Bench",
+          "score": 27.33,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4-oss"
+        },
+        {
+          "name": "Vibe Code Bench",
+          "score": 81.56,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4-oss"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 26.26,
+          "source": "https://www.vals.ai/models/mistralai_mistral-large-4-oss"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 24.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 14.96,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Large 4 medium",
+      "company": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "release_date": "2026-10-29",
+      "capabilities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Input cost",
+          "score": 0.7,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "Output cost",
+          "score": 2.1,
+          "source": "https://mistral.ai/news/mistral-large-4-oss/"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 23.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "CritPt",
+          "score": 11.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 52.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 56324.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 23.23,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 3.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 13.32,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        }
+      ]
+    },
+    {
+      "name": "Mistral Large 4 Preview",
+      "company": "Mistral AI",
       "url": "https://mistral.ai/news/mistral-large-4/",
       "release_date": "2026-10-06",
       "capabilities": {
@@ -271,6 +489,21 @@
           "name": "SWE-bench Multimodal",
           "score": 33.13,
           "source": "https://www.vals.ai/models/mistralai_mistral-large-4"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 26.77,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 4.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 13.58,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

@@ -392,6 +392,21 @@
           "name": "IOI",
           "score": 81.89,
           "source": "https://www.vals.ai/models/kimi_kimi-k3.1-pro"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 67.17,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 34.29,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 25.45,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1597,6 +1612,11 @@
           "name": "LiveCodeBench",
           "score": 82.05,
           "source": "https://www.vals.ai/models/kimi_kimi-k2.7-code"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2757,6 +2777,11 @@
           "name": "Public Benefits Bench",
           "score": 56.63,
           "source": "https://www.vals.ai/models/kimi_kimi-k2.6"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

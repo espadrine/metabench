@@ -253,6 +253,21 @@
           "name": "SAGE",
           "score": 85.77,
           "source": "https://www.vals.ai/models/meta_muse-spark-open"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 8.08,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 1.9,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 7.6,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -504,6 +519,21 @@
           "name": "Public Benefits Bench",
           "score": 73.75,
           "source": "https://www.vals.ai/models/meta_muse-wonder-full"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 57.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 37.14,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 37.76,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -750,6 +780,21 @@
           "name": "Public Benefits Bench",
           "score": 70.23,
           "source": "https://www.vals.ai/models/meta_muse-wonder"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 52.02,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 25.71,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 27.88,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1089,6 +1134,21 @@
           "name": "AA-AnalystAgent",
           "score": 37.5,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 33.33,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 10.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 23.11,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1412,6 +1472,16 @@
         {
           "name": "AA-AnalystAgent",
           "score": 20,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 0.51,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 1.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1772,6 +1842,11 @@
           "name": "Public Benefits Bench",
           "score": 68.47,
           "source": "https://www.vals.ai/models/meta_muse_spark_1_2"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 7.07,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2066,6 +2141,11 @@
           "name": "Public Benefits Bench",
           "score": 61.3,
           "source": "https://www.vals.ai/models/meta_muse_spark_1_1"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 6.06,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

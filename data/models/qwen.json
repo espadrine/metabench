@@ -422,6 +422,11 @@
           "name": "AA Output Tokens per Task",
           "score": 107884.7,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 25.25,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1017,6 +1022,21 @@
           "name": "CyberBench",
           "score": 67.8,
           "source": "https://www.vals.ai/models/alibaba_qwen3.8-27b"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 5.56,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 0.48,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 14.91,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1122,6 +1142,16 @@
           "name": "AA Output Tokens per Task",
           "score": 51943.3,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 5.05,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 0.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -1226,6 +1256,16 @@
         {
           "name": "AA Output Tokens per Task",
           "score": 45426.47,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 2.53,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 0.48,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
@@ -1927,6 +1967,11 @@
           "name": "Public Benefits Bench",
           "score": 67.12,
           "source": "https://www.vals.ai/models/alibaba_qwen3.8-max"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 18.69,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -2732,6 +2777,11 @@
           "name": "Terminal-Bench 2.1",
           "score": 52.81,
           "source": "https://www.vals.ai/models/alibaba_qwen3.7-plus"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.01,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -3357,6 +3407,11 @@
           "name": "Terminal-Bench 2.0",
           "score": 59.18,
           "source": "https://www.vals.ai/models/alibaba_qwen3.7-max"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 1.52,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

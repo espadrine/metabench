@@ -67,6 +67,9 @@ function matchAABenchmarks(aaBenchData, models) {
       lcr: aaModel.lcr,
       terminalbenchHard: aaModel.terminalbenchHard,
       terminalbenchV21: aaModel.terminalbenchV21,
+      terminalBench40: aaModel.terminalBench40,
+      terminalBenchScience: aaModel.terminalBenchScience,
+      frontierCode20: aaModel.frontierCode20,
       tau2: aaModel.tau2,
       tauBanking: aaModel.tauBanking,
       mmmuPro: aaModel.mmmuPro,
@@ -469,6 +472,8 @@ function findModel(aaModelName, models) {
 const modelNameFromAA = {
   // AABench name: Our data name
   // Append the latest at the top.
+  "Mistral Large 4 (High)": "Mistral Large 4",
+  "Mistral Large 4 (Medium)": "Mistral Large 4 medium",
   "Gemini 4 Carbon (High)": "Gemini 4 Carbon",
   "GPT-6.1 Terra (Max)": "GPT-6.1 Terra",
   "GPT-6.1 Terra (Xhigh)": "GPT-6.1 Terra xhigh",
@@ -902,6 +907,9 @@ const benchNameFromAA = {
   "lcr": "LCR",
   "terminalbenchHard": "Terminal-Bench-Hard",
   "terminalbenchV21": "Terminal-Bench 2.1",
+  "terminalBench40": "Terminal-Bench 4.0",
+  "terminalBenchScience": "Terminal-Bench-Science 0.1",
+  "frontierCode20": "FrontierCode 2.0",
   "tau2": "τ²-Bench",
   "tauBanking": "τ³ Banking",
   "mmmuPro": "MMMU-Pro",
