@@ -1,8 +1,214 @@
 {
   "models": [
     {
+      "name": "Recursive Flint",
+      "company": "Other",
+      "url": "https://recursive.com/updates/introducing-recursive-flint",
+      "release_date": "2026-10-18",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 39.8,
+          "source": "https://huggingface.co/RecursiveSI/flint"
+        },
+        {
+          "name": "Active parameters",
+          "score": 2.5,
+          "source": "https://huggingface.co/RecursiveSI/flint"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 54.9,
+          "source": "https://huggingface.co/RecursiveSI/flint"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 89.7,
+          "source": "https://huggingface.co/RecursiveSI/flint"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 74.2,
+          "source": "https://huggingface.co/RecursiveSI/flint"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.3,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFBench",
+          "score": 89.2,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFEval",
+          "score": 95.1,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        }
+      ]
+    },
+    {
+      "name": "Kolibri 1",
+      "company": "Other",
+      "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+      "release_date": "2026-10-03",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 78,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3.46,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 21.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Accuracy",
+          "score": 14.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Index",
+          "score": -32.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 80,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 96.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 96,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 27.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Telecom",
+          "score": 94.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Retail",
+          "score": 69.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ²-Bench Airline",
+          "score": 76.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 38.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v3 MultiTurn",
+          "score": 39.8,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 61.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BFCL v4 MultiTurn",
+          "score": 47.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "BrowseComp",
+          "score": 29.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 85.9,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "HumanEval Plus",
+          "score": 92.7,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66.4,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "IFBench",
+          "score": 78.1,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-Omniscience Non-Hallucination Rate",
+          "score": 44,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "FRAMES",
+          "score": 71.2,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "LongBench Pro",
+          "score": 64.5,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 68.3,
+          "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        }
+      ]
+    },
+    {
       "name": "ERNIE 5",
-      "company": "Baidu",
+      "company": "Other",
       "url": "https://x.com/Baidu_Inc/status/2014252300018254054",
       "release_date": "2026-01-22",
       "capabilities": {
@@ -431,7 +637,7 @@
     },
     {
       "name": "ERNIE 5 base",
-      "company": "Baidu",
+      "company": "Other",
       "url": "https://x.com/Baidu_Inc/status/2014252300018254054",
       "release_date": "2026-01-22",
       "capabilities": {

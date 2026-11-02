@@ -5155,6 +5155,36 @@
           "name": "Terminal-Bench 2.0",
           "score": 39.33,
           "source": "https://www.vals.ai/models/google_gemma-4-31b-it"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 43.4,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 61.7,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 66.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFBench",
+          "score": 76,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFEval",
+          "score": 94.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
         }
       ]
     },

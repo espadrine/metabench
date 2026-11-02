@@ -1483,6 +1483,36 @@
           "name": "FrontierCode 2.0",
           "score": 1.47,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 51.7,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 86,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 76,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 63.5,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFBench",
+          "score": 77,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFEval",
+          "score": 94.7,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
         }
       ]
     },

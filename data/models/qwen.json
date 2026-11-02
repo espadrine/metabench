@@ -1037,6 +1037,36 @@
           "name": "FrontierCode 2.0",
           "score": 14.91,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 73,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 94.9,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 75.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 90.3,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFBench",
+          "score": 79.5,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFEval",
+          "score": 94.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
         }
       ]
     },
@@ -4867,6 +4897,36 @@
           "name": "SciCode",
           "score": 37.35,
           "source": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 44.9,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 73.8,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 73.4,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 80.4,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFBench",
+          "score": 67.9,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFEval",
+          "score": 89.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
         }
       ]
     },
@@ -7963,6 +8023,36 @@
           "name": "AA-LCR",
           "score": 66.3,
           "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 38.7,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 68.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 69.2,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 74.6,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFBench",
+          "score": 70.2,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
+        },
+        {
+          "name": "IFEval",
+          "score": 91.9,
+          "source": "https://recursive.com/updates/introducing-recursive-flint"
         }
       ]
     },

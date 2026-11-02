@@ -61,6 +61,7 @@ function getCompanyColor(company) {
     'Thinking Machines': 'hsl(37, 80%, 66%)',
     'Liquid': 'hsl(251, 69%, 59%)',
     'Xiaomi': 'hsl(24, 100%, 50%)',
+    'Other': 'hsl(180, 50%, 50%)'
   };
 
   return colorMap[company] || stringToColor(company);
