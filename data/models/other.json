@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "name": "Nanbeige4.3-33B",
+      "name": "Nanbeige 4.3 33B",
       "company": "Other",
       "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
       "release_date": "2026-10-24",
@@ -120,6 +120,36 @@
           "name": "AA-LCR",
           "score": 84,
           "source": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+        },
+        {
+          "name": "ArtificialAnalysis Intelligence Index",
+          "score": 20.41,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench 4.0",
+          "score": 29.8,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Terminal-Bench-Science 0.1",
+          "score": 0.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "FrontierCode 2.0",
+          "score": 10.72,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA-AutomationBench Partial Score",
+          "score": 53.12,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "AA Output Tokens per Task",
+          "score": 158457.75,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },
@@ -454,6 +484,154 @@
           "name": "AA-LCR",
           "score": 68.3,
           "source": "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        }
+      ]
+    },
+    {
+      "name": "Nanbeige4.1-3B",
+      "company": "Other",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B",
+      "release_date": "2026-02-10",
+      "capabilities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text",
+          "thinking",
+          "tool"
+        ]
+      },
+      "benchmarks": [
+        {
+          "name": "Size",
+          "score": 3.93,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "Active parameters",
+          "score": 3.93,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "LiveCodeBench",
+          "score": 76.9,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "LiveCodeBench Pro (Easy)",
+          "score": 81.4,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "LiveCodeBench Pro (Medium)",
+          "score": 28.1,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 87.4,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "HMMT Nov 2025",
+          "score": 77.92,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "IMO-AnswerBench",
+          "score": 53.38,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 83.8,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "Humanity's Last Exam (text)",
+          "score": 12.6,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "Arena-Hard v2",
+          "score": 73.2,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "MultiChallenge",
+          "score": 52.21,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "BFCL v4",
+          "score": 56.5,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 48.57,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "xbench-DeepSearch (with tools)",
+          "score": 75,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "xbench-DeepSearch (with tools)",
+          "score": 39,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "BrowseComp (with tools)",
+          "score": 19.12,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "BrowseComp (zh) (with tools)",
+          "score": 31.83,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "GAIA (text) (with tools)",
+          "score": 69.9,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "Humanity's Last Exam (text) (with tools)",
+          "score": 22.29,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "Seal-0 (with tools)",
+          "score": 41.44,
+          "source": "https://huggingface.co/Nanbeige/Nanbeige4.1-3B"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 84.95,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "Humanity's Last Exam",
+          "score": 10.89,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "IFBench",
+          "score": 35.44,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "τ²-Bench",
+          "score": 21.64,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "GDPval-AA",
+          "score": -396.55,
+          "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
         }
       ]
     },

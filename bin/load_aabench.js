@@ -470,8 +470,10 @@ function findModel(aaModelName, models) {
 }
 
 const modelNameFromAA = {
+  "Nanbeige4.1-3B": "Nanbeige4.1-3B",
   // AABench name: Our data name
   // Append the latest at the top.
+  "Nanbeige4.3-33B": "Nanbeige 4.3 33B",
   "Mistral Large 4 (High)": "Mistral Large 4",
   "Mistral Large 4 (Medium)": "Mistral Large 4 medium",
   "Gemini 4 Carbon (High)": "Gemini 4 Carbon",
