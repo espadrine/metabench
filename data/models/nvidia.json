@@ -854,6 +854,121 @@
           "name": "StrongREJECT v2 (adaptive)",
           "score": 80.7,
           "source": "https://research.meta.ai/blog/muse-spark-open"
+        },
+        {
+          "name": "MMLU",
+          "score": 92,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "MMLU-Pro",
+          "score": 86.8,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "GPQA Diamond",
+          "score": 87,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "AIME 2024",
+          "score": 94.2,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "AIME 2025",
+          "score": 94.2,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "AIME 2026",
+          "score": 95.4,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "HMMT Feb 2026",
+          "score": 80.3,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "Terminal-Bench 2.1",
+          "score": 55.1,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "SWE-bench Verified",
+          "score": 71.9,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 46.9,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "SWE-bench Pro",
+          "score": 30.7,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "DeepSWE 1.1",
+          "score": 0.2,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "SciCode",
+          "score": 44.6,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "τ³ Banking",
+          "score": 22.6,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "AutomationBench",
+          "score": 8.4,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "MCP Atlas",
+          "score": 62.2,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "FORTRESS (Adversarial)",
+          "score": 79.3,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "FORTRESS (Benign)",
+          "score": 89.1,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "StrongREJECT",
+          "score": 98.2,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "IFBench",
+          "score": 81.7,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "AA-LCR",
+          "score": 65.4,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "Size",
+          "score": 550,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
+        },
+        {
+          "name": "Active parameters",
+          "score": 55,
+          "source": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
         }
       ]
     }
