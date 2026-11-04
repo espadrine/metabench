@@ -470,6 +470,7 @@ function findModel(aaModelName, models) {
 }
 
 const modelNameFromAA = {
+  "Nemotron 3 Super 120B A12B (Reasoning)": "Nemotron 3 Super",
   "Nanbeige4.1-3B": "Nanbeige4.1-3B",
   // AABench name: Our data name
   // Append the latest at the top.

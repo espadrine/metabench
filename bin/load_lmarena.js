@@ -137,6 +137,7 @@ function mapModels(lmarenaData, models) {
 const KNOWN_MODEL_MAPPINGS = {
   // LMArena name: Our data name
   // Insert the latest at the top.
+  "nvidia-nemotron-3-super-120b-a12b": "Nemotron 3 Super",
   "mimo-v2.5": "MiMo-V2.5",
   "mimo-v2.5-pro": "MiMo-V2.5-Pro",
   "mimo-v2-flash (thinking)": "MiMo-V2-Flash",

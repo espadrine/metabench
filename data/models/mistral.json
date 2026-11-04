@@ -151,6 +151,11 @@
           "name": "FrontierCode 2.0",
           "score": 14.96,
           "source": "https://artificialanalysis.ai/api/v2/data/llms/models"
+        },
+        {
+          "name": "LMArena Text",
+          "score": 1429,
+          "source": "https://lmarena.ai/"
         }
       ]
     },
